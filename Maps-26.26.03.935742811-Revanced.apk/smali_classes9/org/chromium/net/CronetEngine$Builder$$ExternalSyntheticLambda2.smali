@@ -1,0 +1,34 @@
+.class public final synthetic Lorg/chromium/net/CronetEngine$Builder$$ExternalSyntheticLambda2;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lcziy;
+
+
+# instance fields
+.field public synthetic f$0:Lorg/chromium/net/DnsOptions;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lorg/chromium/net/DnsOptions;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lorg/chromium/net/CronetEngine$Builder$$ExternalSyntheticLambda2;->f$0:Lorg/chromium/net/DnsOptions;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final applyTo(Lorg/json/JSONObject;)V
+    .locals 0
+
+    iget-object p0, p0, Lorg/chromium/net/CronetEngine$Builder$$ExternalSyntheticLambda2;->f$0:Lorg/chromium/net/DnsOptions;
+
+    invoke-static {p0, p1}, Lorg/chromium/net/CronetEngine$Builder;->lambda$setDnsOptions$1(Lorg/chromium/net/DnsOptions;Lorg/json/JSONObject;)V
+
+    return-void
+.end method

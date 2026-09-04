@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/status_bar_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="0.0dip" />
+    <FrameLayout android:id="@id/background_placeholder" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/close_button" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/status_bar_guideline">
+        <ImageView android:layout_gravity="center" android:id="@id/close_button_image_view" android:background="@drawable/round_gray_transparent_button_background_selector" android:layout_width="@dimen/button_size" android:layout_height="@dimen/button_size" android:src="@drawable/quantum_ic_close_white_24" android:scaleType="center" android:contentDescription="@string/AR_CLOSE_BUTTON_CONTENT_DESCRIPTION" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/bottom_card_container" android:background="@drawable/bottom_card_background" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

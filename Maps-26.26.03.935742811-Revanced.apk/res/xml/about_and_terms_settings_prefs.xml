@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/TERMS_OF_SERVICE" android:key="terms_of_service" />
+    <Preference android:persistent="false" android:title="@string/PRIVACY_POLICY" android:key="privacy_policy" />
+    <Preference android:persistent="false" android:title="@string/LEGAL_NOTICES" android:key="legal_notices" />
+    <Preference android:persistent="false" android:title="@string/OPEN_SOURCE_LICENSES" android:key="open_source_licenses" />
+    <Preference android:persistent="false" android:title="@string/NAVIGATION_DATA" android:key="navigation_data" />
+    <Preference android:persistent="false" android:title="@string/HOW_MAPS_SUGGESTS_DESTINATIONS" android:key="map_suggestions" />
+</PreferenceScreen>

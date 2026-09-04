@@ -1,0 +1,6 @@
+.class public interface abstract Laqf;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Laqd;

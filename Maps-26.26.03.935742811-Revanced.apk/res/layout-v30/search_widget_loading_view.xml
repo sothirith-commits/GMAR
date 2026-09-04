@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/search_widget_loading_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:src="@drawable/search_widget_loading_top" android:tint="?colorSurfaceVariant" android:layout_centerHorizontal="true" android:contentDescription="@string/widget_preview_content_description" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:src="@drawable/search_widget_loading_bottom" android:tint="?colorSurfaceVariant" android:layout_below="@id/search_widget_loading_top" android:layout_centerHorizontal="true" android:contentDescription="@string/widget_preview_content_description" />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton android:textAppearance="@style/TextAppearance.Geo.Sys.Typescale.LabelLarge" android:ellipsize="end" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minWidth="48.0dip" android:minHeight="48.0dip" android:singleLine="false" android:includeFontPadding="false" android:layout_weight="1.0" android:insetTop="8.0dip" android:insetBottom="8.0dip" android:checkable="true" app:iconGravity="textStart" app:iconSize="18.0dip" app:shapeAppearance="@style/ShapeAppearance.Geo.Sys.Shape.Corner.Small" style="?materialButtonOutlinedStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

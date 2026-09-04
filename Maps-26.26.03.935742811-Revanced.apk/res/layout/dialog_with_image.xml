@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.internal.growth.growthkit.internal.ui.impl.dialogs.MaxDimensionsLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialog_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.internal.growth.growthkit.internal.ui.impl.dialogs.RoundedCornersImageView android:id="@id/dialog_image" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/dialog_content" />
+</com.google.android.libraries.internal.growth.growthkit.internal.ui.impl.dialogs.MaxDimensionsLinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/grippy" android:background="@drawable/grippy_drawable" android:layout_width="40.0dip" android:layout_height="4.0dip" android:layout_marginTop="8.0dip" />
+    <FrameLayout android:id="@id/container_overlay" android:background="?geoColorNeutralContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

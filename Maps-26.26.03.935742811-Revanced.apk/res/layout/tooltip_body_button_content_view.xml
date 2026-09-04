@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/tooltip_container" android:rowCount="2" style="@style/TooltipLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tooltip_detail" android:layout_marginTop="20.0dip" android:layout_marginBottom="8.0dip" style="@style/TooltipDetail" />
+    <com.google.android.material.button.MaterialButton android:id="@id/tooltip_action_button" android:layout_marginBottom="12.0dip" style="@style/TooltipActionButton" />
+</LinearLayout>

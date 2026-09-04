@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dip" android:width="28.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$super_g_color_28__0" android:pathData="@string/super_g_path_main_48" />
+    <path android:fillColor="@color/super_g_color_gradient_1" android:pathData="@string/super_g_path_cover_48" />
+</vector>

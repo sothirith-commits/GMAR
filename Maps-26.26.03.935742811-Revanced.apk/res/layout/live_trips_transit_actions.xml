@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/actions" android:layout_width="fill_parent" android:layout_height="56.0dip" style="@style/GuidanceActionsBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/action_stop" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <Button android:textColor="@color/mod_daynight_blue700" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center" android:id="@id/action_stop_text" android:background="?android:selectableItemBackground" android:clickable="false" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/LIVE_TRIPS_NOTIFICATION_END_TRIP_BUTTON" android:singleLine="true" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="4.0dip" style="@android:style/Widget.Material.Light.Button.Borderless.Small" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/action_share_trip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <Button android:textColor="@color/mod_daynight_blue700" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center" android:id="@id/action_share_trip_text" android:background="?android:selectableItemBackground" android:clickable="false" android:layout_width="wrap_content" android:layout_height="48.0dip" android:singleLine="true" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="4.0dip" style="@android:style/Widget.Material.Light.Button.Borderless.Small" />
+    </LinearLayout>
+</LinearLayout>

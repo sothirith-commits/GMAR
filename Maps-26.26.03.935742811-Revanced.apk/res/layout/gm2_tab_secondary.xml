@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.gmm.ui.components.terra.tabs.GmmTabLayout android:theme="@style/Theme.GoogleMaterial.Light" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicator="@drawable/secondary_tab_indicator" app:tabIndicatorColor="@color/mod_daynight_blue50" app:tabIndicatorGravity="stretch" app:tabPaddingBottom="12.0dip" app:tabPaddingEnd="16.0dip" app:tabPaddingStart="16.0dip" app:tabPaddingTop="12.0dip" app:tabRippleColor="@null" style="@style/Widget.GoogleMaterial.TabLayout.Secondary"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,59 @@
+.class public final Lajep;
+.super Lajer;
+.source "PG"
+
+
+# static fields
+.field public static final a:Lajep;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lajep;
+
+    invoke-direct {v0}, Lajer;-><init>()V
+
+    sput-object v0, Lajep;->a:Lajep;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final e(Lduc;)J
+    .locals 2
+
+    const p0, 0x39564e1f
+
+    invoke-interface {p1, p0}, Lduc;->C(I)V
+
+    sget p0, Lajev;->a:I
+
+    invoke-static {p1}, La;->au(Lduc;)J
+
+    move-result-wide v0
+
+    invoke-interface {p1}, Lduc;->r()V
+
+    return-wide v0
+.end method
+
+.method public final j(Lduc;)J
+    .locals 2
+
+    const p0, -0x4d93eb01
+
+    invoke-interface {p1, p0}, Lduc;->C(I)V
+
+    sget p0, Lajev;->a:I
+
+    invoke-static {p1}, Laleb;->fX(Lduc;)J
+
+    move-result-wide v0
+
+    invoke-interface {p1}, Lduc;->r()V
+
+    return-wide v0
+.end method

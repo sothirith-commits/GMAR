@@ -1,0 +1,8 @@
+.class public interface abstract Laysq;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# virtual methods
+.method public abstract a()Lchqe;
+.end method

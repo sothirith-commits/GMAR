@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="other">%1$d od %2$d</item>
+        <item quantity="one">%1$d od %2$d</item>
+        <item quantity="two">%1$d od %2$d</item>
+        <item quantity="few">%1$d od %2$d</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="other">Imate %d aktivnih vozovnic za podzemno železnico</item>
+        <item quantity="one">Imate %d aktivno vozovnico za podzemno železnico</item>
+        <item quantity="two">Imate %d aktivni vozovnici za podzemno železnico</item>
+        <item quantity="few">Imate %d aktivne vozovnice za podzemno železnico</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="other">Za to pot imate %d aktivnih vozovnic</item>
+        <item quantity="one">Za to pot imate %d aktivno vozovnico</item>
+        <item quantity="two">Za to pot imate %d aktivni vozovnici</item>
+        <item quantity="few">Za to pot imate %d aktivne vozovnice</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="other">Še %d možnosti</item>
+        <item quantity="one">Še %d možnost</item>
+        <item quantity="two">Še %d možnosti</item>
+        <item quantity="few">Še %d možnosti</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="other">To je sporočilo %1$d oseb</item>
+        <item quantity="one">To je sporočila %1$d oseba</item>
+        <item quantity="two">To sta sporočili %1$d osebi</item>
+        <item quantity="few">To so sporočile %1$d osebe</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="other">To je sporočilo %1$d oseb</item>
+        <item quantity="one">To je sporočila %1$d oseba</item>
+        <item quantity="two">To sta sporočili %1$d osebi</item>
+        <item quantity="few">To so sporočile %1$d osebe</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="other">+%1$d</item>
+        <item quantity="one">+%1$d</item>
+        <item quantity="two">+%1$d</item>
+        <item quantity="few">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="other">%d opozoril</item>
+        <item quantity="one">%d opozorilo</item>
+        <item quantity="two">%d opozorili</item>
+        <item quantity="few">%d opozorila</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="other">%1$d lokacij</item>
+        <item quantity="one">%1$d lokacija</item>
+        <item quantity="two">%1$d lokaciji</item>
+        <item quantity="few">%1$d lokacije</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="other">Prikaži odgovore (%,d)</item>
+        <item quantity="one">Prikaži odgovore (%,d)</item>
+        <item quantity="two">Prikaži odgovore (%,d)</item>
+        <item quantity="few">Prikaži odgovore (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="other">Raziščite %d mest tukaj.</item>
+        <item quantity="one">Raziščite %d mesto tukaj.</item>
+        <item quantity="two">Raziščite %d mesti tukaj.</item>
+        <item quantity="few">Raziščite %d mesta tukaj.</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="other">Na voljo je %d koles</item>
+        <item quantity="one">Na voljo je %d kolo</item>
+        <item quantity="two">Na voljo sta %d kolesi</item>
+        <item quantity="few">Na voljo so %d kolesa</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="other">Na postaji je %s koles</item>
+        <item quantity="one">Na postaji je %s kolo</item>
+        <item quantity="two">Na postaji sta %s kolesi</item>
+        <item quantity="few">Na postaji so %s kolesa</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="other">%d koles</item>
+        <item quantity="one">%d kolo</item>
+        <item quantity="two">%d kolesi</item>
+        <item quantity="few">%d kolesa</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="other">Na voljo je %d stojal</item>
+        <item quantity="one">Na voljo je %d stojalo</item>
+        <item quantity="two">Na voljo sta %d stojali</item>
+        <item quantity="few">Na voljo so %d stojala</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="other">%d stojal</item>
+        <item quantity="one">%d stojalo</item>
+        <item quantity="two">%d stojali</item>
+        <item quantity="few">%d stojala</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="other">Priporoča %1$d oseb</item>
+        <item quantity="one">Priporoča %1$d oseba</item>
+        <item quantity="two">Priporočata %1$d osebi</item>
+        <item quantity="few">Priporočajo %1$d osebe</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="other">Hitrejša pot, %1$s postankov manj</item>
+        <item quantity="one">Hitrejša pot, %1$s postanek manj</item>
+        <item quantity="two">Hitrejša pot, %1$s postanka manj</item>
+        <item quantity="few">Hitrejša pot, %1$s postanki manj</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="other">Hitrejša pot, %1$s postankov več</item>
+        <item quantity="one">Hitrejša pot, %1$s postanek več</item>
+        <item quantity="two">Hitrejša pot, %1$s postanka več</item>
+        <item quantity="few">Hitrejša pot, %1$s postanki več</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="other">Na voljo je hitrejša pot, %1$s postankov je bilo spremenjenih</item>
+        <item quantity="one">Na voljo je hitrejša pot, %1$s postanek je bil spremenjen</item>
+        <item quantity="two">Na voljo je hitrejša pot, %1$s postanka sta bila spremenjena</item>
+        <item quantity="few">Na voljo je hitrejša pot, %1$s postanki so bili spremenjeni</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="other">Potrebna je nova pot, %1$s postankov manj</item>
+        <item quantity="one">Potrebna je nova pot, %1$s postanek manj</item>
+        <item quantity="two">Potrebna je nova pot, %1$s postanka manj</item>
+        <item quantity="few">Potrebna je nova pot, %1$s postanki manj</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="other">Potrebna je nova pot, %1$s postankov več</item>
+        <item quantity="one">Potrebna je nova pot, %1$s postanek več</item>
+        <item quantity="two">Potrebna je nova pot, %1$s postanka več</item>
+        <item quantity="few">Potrebna je nova pot, %1$s postanki več</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="other">Potrebna je nova pot, %1$s postankov je bilo spremenjenih</item>
+        <item quantity="one">Potrebna je nova pot, %1$s postanek je bil spremenjen</item>
+        <item quantity="two">Potrebna je nova pot, %1$s postanka sta bila spremenjena</item>
+        <item quantity="few">Potrebna je nova pot, %1$s postanki so bili spremenjeni</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="other">Nova pot, %1$s postankov manj</item>
+        <item quantity="one">Nova pot, %1$s postanek manj</item>
+        <item quantity="two">Nova pot, %1$s postanka manj</item>
+        <item quantity="few">Nova pot, %1$s postanki manj</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="other">Nova pot, %1$s postankov manj</item>
+        <item quantity="one">Nova pot, %1$s postanek manj</item>
+        <item quantity="two">Nova pot, %1$s postanka manj</item>
+        <item quantity="few">Nova pot, %1$s postanki manj</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="other">Na voljo je nova pot, potrebnih je %1$s postankov za polnjenje manj. %2$s hitreje, vključuje čas vožnje in polnjenja.</item>
+        <item quantity="one">Na voljo je nova pot, potreben je %1$s postanek za polnjenje manj. %2$s hitreje, vključuje čas vožnje in polnjenja.</item>
+        <item quantity="two">Na voljo je nova pot, potrebna sta %1$s postanka za polnjenje manj. %2$s hitreje, vključuje čas vožnje in polnjenja.</item>
+        <item quantity="few">Na voljo je nova pot, potrebni so %1$s postanki za polnjenje manj. %2$s hitreje, vključuje čas vožnje in polnjenja.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="other">Na voljo je nova pot, potrebnih je %1$s postankov za polnjenje več. %2$s hitreje, vključuje čas vožnje in polnjenja.</item>
+        <item quantity="one">Na voljo je nova pot, potreben je %1$s postanek za polnjenje več. %2$s hitreje, vključuje čas vožnje in polnjenja.</item>
+        <item quantity="two">Na voljo je nova pot, potrebna sta %1$s postanka za polnjenje več. %2$s hitreje, vključuje čas vožnje in polnjenja.</item>
+        <item quantity="few">Na voljo je nova pot, potrebni so %1$s postanki za polnjenje več. %2$s hitreje, vključuje čas vožnje in polnjenja.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="other">Peljati se boste morali po novi poti. Potrebnih je %1$s postankov za polnjenje manj. Prispeli boste ob %2$s.</item>
+        <item quantity="one">Peljati se boste morali po novi poti. Potreben je %1$s postanek za polnjenje manj. Prispeli boste ob %2$s.</item>
+        <item quantity="two">Peljati se boste morali po novi poti. Potrebna sta %1$s postanka za polnjenje manj. Prispeli boste ob %2$s.</item>
+        <item quantity="few">Peljati se boste morali po novi poti. Potrebni so %1$s postanki za polnjenje manj. Prispeli boste ob %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="other">Peljati se boste morali po novi poti. Potrebnih je %1$s postankov za polnjenje več. Prispeli boste ob %2$s.</item>
+        <item quantity="one">Peljati se boste morali po novi poti. Potreben je %1$s postanek za polnjenje več. Prispeli boste ob %2$s.</item>
+        <item quantity="two">Peljati se boste morali po novi poti. Potrebna sta %1$s postanka za polnjenje več. Prispeli boste ob %2$s.</item>
+        <item quantity="few">Peljati se boste morali po novi poti. Potrebni so %1$s postanki za polnjenje več. Prispeli boste ob %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="other">Peljati se boste morali po novi poti. Spremenilo se je %1$s postankov za polnjenje. Prispeli boste ob %2$s.</item>
+        <item quantity="one">Peljati se boste morali po novi poti. Spremenil se je %1$s postanek za polnjenje. Prispeli boste ob %2$s.</item>
+        <item quantity="two">Peljati se boste morali po novi poti. Spremenila sta se %1$s postanka za polnjenje. Prispeli boste ob %2$s.</item>
+        <item quantity="few">Peljati se boste morali po novi poti. Spremenili so se %1$s postanki za polnjenje. Prispeli boste ob %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="other">Na voljo je nova pot, potrebnih je %1$s postankov za polnjenje manj. Podoben čas prihoda.</item>
+        <item quantity="one">Na voljo je nova pot, potreben je %1$s postanek za polnjenje manj. Podoben čas prihoda.</item>
+        <item quantity="two">Na voljo je nova pot, potrebna sta %1$s postanka za polnjenje manj. Podoben čas prihoda.</item>
+        <item quantity="few">Na voljo je nova pot, potrebni so %1$s postanki za polnjenje manj. Podoben čas prihoda.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="other">Na voljo je nova pot, potrebnih je %1$s postankov za polnjenje manj. %2$s počasneje, vključuje čas vožnje in polnjenja.</item>
+        <item quantity="one">Na voljo je nova pot, potreben je %1$s postanek za polnjenje manj. %2$s počasneje, vključuje čas vožnje in polnjenja.</item>
+        <item quantity="two">Na voljo je nova pot, potrebna sta %1$s postanka za polnjenje manj. %2$s počasneje, vključuje čas vožnje in polnjenja.</item>
+        <item quantity="few">Na voljo je nova pot, potrebni so %1$s postanki za polnjenje manj. %2$s počasneje, vključuje čas vožnje in polnjenja.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="other">Uporabljeno pred %1$d dnevi</item>
+        <item quantity="one">Uporabljeno pred %1$d dnevom</item>
+        <item quantity="two">Uporabljeno pred %1$d dnevoma</item>
+        <item quantity="few">Uporabljeno pred %1$d dnevi</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="other">Uporabljeno pred %1$d tedni</item>
+        <item quantity="one">Uporabljeno pred %1$d tednom</item>
+        <item quantity="two">Uporabljeno pred %1$d tednoma</item>
+        <item quantity="few">Uporabljeno pred %1$d tedni</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="other">In še %1$d omrežij</item>
+        <item quantity="one">In še %1$d omrežje</item>
+        <item quantity="two">In še %1$d omrežji</item>
+        <item quantity="few">In še %1$d omrežja</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="other">%1$d izbranih</item>
+        <item quantity="one">%1$d izbrano</item>
+        <item quantity="two">%1$d izbrani</item>
+        <item quantity="few">%1$d izbrana</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="other">%1$s postankov za polnjenje</item>
+        <item quantity="one">%1$s postanek za polnjenje</item>
+        <item quantity="two">%1$s postanka za polnjenje</item>
+        <item quantity="few">%1$s postanki za polnjenje</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="other">%1$d postankov</item>
+        <item quantity="one">%1$d postanek</item>
+        <item quantity="two">%1$d postanka</item>
+        <item quantity="few">%1$d postanki</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="other">%1$d izbranih</item>
+        <item quantity="one">%1$d izbrano</item>
+        <item quantity="two">%1$d izbrani</item>
+        <item quantity="few">%1$d izbrana</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="other">%1$s +%2$d</item>
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="two">%1$s +%2$d</item>
+        <item quantity="few">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="other">+ še %1$d</item>
+        <item quantity="one">+ še %1$d</item>
+        <item quantity="two">+ še %1$d</item>
+        <item quantity="few">+ še %1$d</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="other">%1$d h %2$d min do službe</item>
+        <item quantity="one">%1$d h %2$d min do službe</item>
+        <item quantity="two">%1$d h %2$d min do službe</item>
+        <item quantity="few">%1$d h %2$d min do službe</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="other">%1$d h %2$d min do doma</item>
+        <item quantity="one">%1$d h %2$d min do doma</item>
+        <item quantity="two">%1$d h %2$d min do doma</item>
+        <item quantity="few">%1$d h %2$d min do doma</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="other">%1$d h %2$d min do službe</item>
+        <item quantity="one">%1$d h %2$d min do službe</item>
+        <item quantity="two">%1$d h %2$d min do službe</item>
+        <item quantity="few">%1$d h %2$d min do službe</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="other">Čas potovanja je %1$d h %2$d min</item>
+        <item quantity="one">Čas potovanja je %1$d h %2$d min</item>
+        <item quantity="two">Čas potovanja je %1$d h %2$d min</item>
+        <item quantity="few">Čas potovanja je %1$d h %2$d min</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="other">%1$d h %2$d min do doma</item>
+        <item quantity="one">%1$d h %2$d min do doma</item>
+        <item quantity="two">%1$d h %2$d min do doma</item>
+        <item quantity="few">%1$d h %2$d min do doma</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="other">%d min hitreje kot običajno</item>
+        <item quantity="one">%d min hitreje kot običajno</item>
+        <item quantity="two">%d min hitreje kot običajno</item>
+        <item quantity="few">%d min hitreje kot običajno</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="other">%d min počasneje kot običajno</item>
+        <item quantity="one">%d min počasneje kot običajno</item>
+        <item quantity="two">%d min počasneje kot običajno</item>
+        <item quantity="few">%d min počasneje kot običajno</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="other">Orientacija zemljevida je %d stopinj.</item>
+        <item quantity="one">Orientacija zemljevida je %d stopinja.</item>
+        <item quantity="two">Orientacija zemljevida je %d stopinji.</item>
+        <item quantity="few">Orientacija zemljevida je %d stopinje.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="other">%d-zvezdična nastanitev</item>
+        <item quantity="one">%d-zvezdična nastanitev</item>
+        <item quantity="two">%d-zvezdična nastanitev</item>
+        <item quantity="few">%d-zvezdična nastanitev</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="other">Lokalni vodnik %d. stopnje</item>
+        <item quantity="one">Lokalni vodnik %d. stopnje</item>
+        <item quantity="two">Lokalni vodnik %d. stopnje</item>
+        <item quantity="few">Lokalni vodnik %d. stopnje</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="other">Mestu %1$s ste dodelili %2$d zvezdic</item>
+        <item quantity="one">Mestu %1$s ste dodelili %2$d zvezdico</item>
+        <item quantity="two">Mestu %1$s ste dodelili %2$d zvezdici</item>
+        <item quantity="few">Mestu %1$s ste dodelili %2$d zvezdice</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="other">točk</item>
+        <item quantity="one">točka</item>
+        <item quantity="two">točki</item>
+        <item quantity="few">točke</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="other">%s dni</item>
+        <item quantity="one">%s dan</item>
+        <item quantity="two">%s dneva</item>
+        <item quantity="few">%s dni</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="other">%s d</item>
+        <item quantity="one">%s d</item>
+        <item quantity="two">%s d</item>
+        <item quantity="few">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="other">%s d</item>
+        <item quantity="one">%s d</item>
+        <item quantity="two">%s d</item>
+        <item quantity="few">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="other">%s dni</item>
+        <item quantity="one">%s dan</item>
+        <item quantity="two">%s dneva</item>
+        <item quantity="few">%s dni</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="other">%s ur</item>
+        <item quantity="one">%s ura</item>
+        <item quantity="two">%s uri</item>
+        <item quantity="few">%s ure</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="other">%s h</item>
+        <item quantity="one">%s h</item>
+        <item quantity="two">%s h</item>
+        <item quantity="few">%s h</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="other">%s h</item>
+        <item quantity="one">%s h</item>
+        <item quantity="two">%s h</item>
+        <item quantity="few">%s h</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="other">%s minut</item>
+        <item quantity="one">%s minuta</item>
+        <item quantity="two">%s minuti</item>
+        <item quantity="few">%s minute</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="other">%s min</item>
+        <item quantity="one">%s min</item>
+        <item quantity="two">%s min</item>
+        <item quantity="few">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="other">%s min</item>
+        <item quantity="one">%s min</item>
+        <item quantity="two">%s min</item>
+        <item quantity="few">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="other">%s</item>
+        <item quantity="one">%s</item>
+        <item quantity="two">%s</item>
+        <item quantity="few">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="other">%s sekund</item>
+        <item quantity="one">%s sekunda</item>
+        <item quantity="two">%s sekundi</item>
+        <item quantity="few">%s sekunde</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="other">Nadaljujte še %1$s čevljev</item>
+        <item quantity="one">Nadaljujte še %1$s čevelj</item>
+        <item quantity="two">Nadaljujte še %1$s čevlja</item>
+        <item quantity="few">Nadaljujte še %1$s čevlje</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="other">Nadaljujte še %1$s kilometrov</item>
+        <item quantity="one">Nadaljujte še %1$s kilometer</item>
+        <item quantity="two">Nadaljujte še %1$s kilometra</item>
+        <item quantity="few">Nadaljujte še %1$s kilometre</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="other">Nadaljujte še %1$s metrov</item>
+        <item quantity="one">Nadaljujte še %1$s meter</item>
+        <item quantity="two">Nadaljujte še %1$s metra</item>
+        <item quantity="few">Nadaljujte še %1$s metre</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="other">Nadaljujte še %1$s milj</item>
+        <item quantity="one">Nadaljujte še %1$s miljo</item>
+        <item quantity="two">Nadaljujte še %1$s milji</item>
+        <item quantity="few">Nadaljujte še %1$s milje</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="other">Nadaljujte še %1$s jardov</item>
+        <item quantity="one">Nadaljujte še %1$s jard</item>
+        <item quantity="two">Nadaljujte še %1$s jarda</item>
+        <item quantity="few">Nadaljujte še %1$s jarde</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="other">Nadaljujte po cesti %2$s še %1$s čevljev</item>
+        <item quantity="one">Nadaljujte po cesti %2$s še %1$s čevelj</item>
+        <item quantity="two">Nadaljujte po cesti %2$s še %1$s čevlja</item>
+        <item quantity="few">Nadaljujte po cesti %2$s še %1$s čevlje</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="other">Nadaljujte po cesti %2$s še %1$s kilometrov</item>
+        <item quantity="one">Nadaljujte po cesti %2$s še %1$s kilometer</item>
+        <item quantity="two">Nadaljujte po cesti %2$s še %1$s kilometra</item>
+        <item quantity="few">Nadaljujte po cesti %2$s še %1$s kilometre</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="other">Nadaljujte po cesti %2$s še %1$s metrov</item>
+        <item quantity="one">Nadaljujte po cesti %2$s še %1$s meter</item>
+        <item quantity="two">Nadaljujte po cesti %2$s še %1$s metra</item>
+        <item quantity="few">Nadaljujte po cesti %2$s še %1$s metre</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="other">Nadaljujte po cesti %2$s še %1$s milj</item>
+        <item quantity="one">Nadaljujte po cesti %2$s še %1$s miljo</item>
+        <item quantity="two">Nadaljujte po cesti %2$s še %1$s milji</item>
+        <item quantity="few">Nadaljujte po cesti %2$s še %1$s milje</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="other">Nadaljujte po cesti %2$s še %1$s jardov</item>
+        <item quantity="one">Nadaljujte po cesti %2$s še %1$s jard</item>
+        <item quantity="two">Nadaljujte po cesti %2$s še %1$s jarda</item>
+        <item quantity="few">Nadaljujte po cesti %2$s še %1$s jarde</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="other">Čez %1$s čevljev</item>
+        <item quantity="one">Čez %1$s čevelj</item>
+        <item quantity="two">Čez %1$s čevlja</item>
+        <item quantity="few">Čez %1$s čevlje</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="other">Čez %1$s kilometrov</item>
+        <item quantity="one">Čez %1$s kilometer</item>
+        <item quantity="two">Čez %1$s kilometra</item>
+        <item quantity="few">Čez %1$s kilometre</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="other">Čez %1$s metrov</item>
+        <item quantity="one">Čez %1$s meter</item>
+        <item quantity="two">Čez %1$s metra</item>
+        <item quantity="few">Čez %1$s metre</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="other">Čez %1$s milj</item>
+        <item quantity="one">Čez %1$s miljo</item>
+        <item quantity="two">Čez %1$s milji</item>
+        <item quantity="few">Čez %1$s milje</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="other">Čez %1$s jardov</item>
+        <item quantity="one">Čez %1$s jard</item>
+        <item quantity="two">Čez %1$s jarda</item>
+        <item quantity="few">Čez %1$s jarde</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="other">%s kilometrov na uro</item>
+        <item quantity="one">%s kilometer na uro</item>
+        <item quantity="two">%s kilometra na uro</item>
+        <item quantity="few">%s kilometre na uro</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="other">%s milj na uro</item>
+        <item quantity="one">%s milja na uro</item>
+        <item quantity="two">%s milji na uro</item>
+        <item quantity="few">%s milje na uro</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="other">Vaš cilj je čez %1$s čevljev</item>
+        <item quantity="one">Vaš cilj je čez %1$s čevelj</item>
+        <item quantity="two">Vaš cilj je čez %1$s čevlja</item>
+        <item quantity="few">Vaš cilj je čez %1$s čevlje</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="other">Vaš cilj je čez %1$s kilometrov</item>
+        <item quantity="one">Vaš cilj je čez %1$s kilometer</item>
+        <item quantity="two">Vaš cilj je čez %1$s kilometra</item>
+        <item quantity="few">Vaš cilj je čez %1$s kilometre</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="other">Vaš cilj je čez %1$s metrov</item>
+        <item quantity="one">Vaš cilj je čez %1$s meter</item>
+        <item quantity="two">Vaš cilj je čez %1$s metra</item>
+        <item quantity="few">Vaš cilj je čez %1$s metre</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="other">Vaš cilj je čez %1$s milj</item>
+        <item quantity="one">Vaš cilj je čez %1$s miljo</item>
+        <item quantity="two">Vaš cilj je čez %1$s milji</item>
+        <item quantity="few">Vaš cilj je čez %1$s milje</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="other">Vaš cilj je čez %1$s jardov</item>
+        <item quantity="one">Vaš cilj je čez %1$s jard</item>
+        <item quantity="two">Vaš cilj je čez %1$s jarda</item>
+        <item quantity="few">Vaš cilj je čez %1$s jarde</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="other">%d postaj</item>
+        <item quantity="one">%d postaja</item>
+        <item quantity="two">%d postaji</item>
+        <item quantity="few">%d postaje</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="other">%1$d načinov povezave</item>
+        <item quantity="one">%1$d način povezave</item>
+        <item quantity="two">%1$d načina povezave</item>
+        <item quantity="few">%1$d načini povezave</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="other">Posodobljeno pred %d dnevi</item>
+        <item quantity="one">Posodobljeno pred %d dnevom</item>
+        <item quantity="two">Posodobljeno pred %d dnevoma</item>
+        <item quantity="few">Posodobljeno pred %d dnevi</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="other">Posodobljeno pred %d meseci</item>
+        <item quantity="one">Posodobljeno pred %d mesecem</item>
+        <item quantity="two">Posodobljeno pred %d mesecema</item>
+        <item quantity="few">Posodobljeno pred %d meseci</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="other">Posodobljeno pred %d tedni</item>
+        <item quantity="one">Posodobljeno pred %d tednom</item>
+        <item quantity="two">Posodobljeno pred %d tednoma</item>
+        <item quantity="few">Posodobljeno pred %d tedni</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="other">%d koles</item>
+        <item quantity="one">%d kolo</item>
+        <item quantity="two">%d kolesi</item>
+        <item quantity="few">%d kolesa</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="other">%d koles v bližini</item>
+        <item quantity="one">%d kolo v bližini</item>
+        <item quantity="two">%d kolesi v bližini</item>
+        <item quantity="few">%d kolesa v bližini</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="other">%1$d izbranih</item>
+        <item quantity="one">%1$d izbrana</item>
+        <item quantity="two">%1$d izbrani</item>
+        <item quantity="few">%1$d izbrane</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="other">%1$d od %2$d polnilnih postaj</item>
+        <item quantity="one">%1$d od %2$d polnilne postaje</item>
+        <item quantity="two">%1$d od %2$d polnilnih postaj</item>
+        <item quantity="few">%1$d od %2$d polnilnih postaj</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="other">%d polnilnih postaj</item>
+        <item quantity="one">%d polnilna postaja</item>
+        <item quantity="two">%d polnilni postaji</item>
+        <item quantity="few">%d polnilne postaje</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="other">%1$d zvezdic ni bilo uspešno dodeljenih, poskusite znova</item>
+        <item quantity="one">%1$d zvezdica ni bila uspešno dodeljena, poskusite znova</item>
+        <item quantity="two">%1$d zvezdici nista bili uspešno dodeljeni, poskusite znova</item>
+        <item quantity="few">%1$d zvezdice niso bile uspešno dodeljene, poskusite znova</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="other">Nadstropja %s</item>
+        <item quantity="one">Nadstropji %s</item>
+        <item quantity="two">Nadstropja %s</item>
+        <item quantity="few">Nadstropja %s</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="other">%d dodatnih nočitev</item>
+        <item quantity="one">%d dodatna nočitev</item>
+        <item quantity="two">%d dodatni nočitvi</item>
+        <item quantity="few">%d dodatne nočitve</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="other">Dodajte %d nočitev</item>
+        <item quantity="one">Dodajte %d nočitev</item>
+        <item quantity="two">Dodajte %d nočitvi</item>
+        <item quantity="few">Dodajte %d nočitve</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="other">Ta hotel je prost za %1$d nočitev. %2$s za povprečno ceno nočitve v znesku %3$s.</item>
+        <item quantity="one">Ta hotel je prost za %1$d nočitev. %2$s za povprečno ceno nočitve v znesku %3$s.</item>
+        <item quantity="two">Ta hotel je prost za %1$d nočitvi. %2$s za povprečno ceno nočitve v znesku %3$s.</item>
+        <item quantity="few">Ta hotel je prost za %1$d nočitve. %2$s za povprečno ceno nočitve v znesku %3$s.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="other">Rezervirajte %1$s za povprečno ceno nočitve v znesku %2$s.</item>
+        <item quantity="one">Rezervirajte %1$s za povprečno ceno nočitve v znesku %2$s.</item>
+        <item quantity="two">Rezervirajte %1$s za povprečno ceno nočitve v znesku %2$s.</item>
+        <item quantity="few">Rezervirajte %1$s za povprečno ceno nočitve v znesku %2$s.</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="other">%d gostov</item>
+        <item quantity="one">%d gost</item>
+        <item quantity="two">%d gosta</item>
+        <item quantity="few">%d gosti</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="other">in še %d.</item>
+        <item quantity="one">in še %d.</item>
+        <item quantity="two">in še %d.</item>
+        <item quantity="few">in še %d.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="other">in še %d.</item>
+        <item quantity="one">in še %d.</item>
+        <item quantity="two">in še %d.</item>
+        <item quantity="few">in še %d.</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="other">Pred %d d</item>
+        <item quantity="one">Pred %d d</item>
+        <item quantity="two">Pred %d d</item>
+        <item quantity="few">Pred %d d</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="other">Pred %d h</item>
+        <item quantity="one">Pred %d h</item>
+        <item quantity="two">Pred %d h</item>
+        <item quantity="few">Pred %d h</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="other">Pred %d min</item>
+        <item quantity="one">Pred %d min</item>
+        <item quantity="two">Pred %d min</item>
+        <item quantity="few">Pred %d min</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="other">Shranjeno na seznam »%1$s« in še %2$d</item>
+        <item quantity="one">Shranjeno na seznam »%1$s« in še %2$d</item>
+        <item quantity="two">Shranjeno na seznam »%1$s« in še %2$d</item>
+        <item quantity="few">Shranjeno na seznam »%1$s« in še %2$d</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="other">Shranjeno in na %1$d seznamih</item>
+        <item quantity="one">Shranjeno in na %1$d seznamu</item>
+        <item quantity="two">Shranjeno in na %1$d seznamih</item>
+        <item quantity="few">Shranjeno in na %1$d seznamih</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="other">Mesto je odstranjeno s/z %d seznamov</item>
+        <item quantity="one">Mesto je odstranjeno s/z %d seznama</item>
+        <item quantity="two">Mesto je odstranjeno s/z %d seznamov</item>
+        <item quantity="few">Mesto je odstranjeno s/z %d seznamov</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="other">To mesto ste obiskali %d meseci</item>
+        <item quantity="one">To mesto ste obiskali %d mesecem</item>
+        <item quantity="two">To mesto ste obiskali %d mesecema</item>
+        <item quantity="few">To mesto ste obiskali %d meseci</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="other">To mesto ste obiskali pred %d tedni</item>
+        <item quantity="one">To mesto ste obiskali pred %d tednom</item>
+        <item quantity="two">To mesto ste obiskali pred %d tednoma</item>
+        <item quantity="few">To mesto ste obiskali pred %d tedni</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="other">To mesto ste obiskali pred %d leti</item>
+        <item quantity="one">To mesto ste obiskali pred %d letom</item>
+        <item quantity="two">To mesto ste obiskali pred %d letoma</item>
+        <item quantity="few">To mesto ste obiskali pred %d leti</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="other">Število dogodkov: %d</item>
+        <item quantity="one">Število dogodkov: %d</item>
+        <item quantity="two">Število dogodkov: %d</item>
+        <item quantity="few">Število dogodkov: %d</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="other">%d elementov</item>
+        <item quantity="one">%d element</item>
+        <item quantity="two">%d elementa</item>
+        <item quantity="few">%d elementi</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="other">%d mest</item>
+        <item quantity="one">%d mesto</item>
+        <item quantity="two">%d mesti</item>
+        <item quantity="few">%d mesta</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="other">%d shranitev</item>
+        <item quantity="one">%d shranitev</item>
+        <item quantity="two">%d shranitvi</item>
+        <item quantity="few">%d shranitve</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="other">%d poti</item>
+        <item quantity="one">%d pot</item>
+        <item quantity="two">%d poti</item>
+        <item quantity="few">%d poti</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="other">%s ogledov</item>
+        <item quantity="one">%s ogled</item>
+        <item quantity="two">%s ogleda</item>
+        <item quantity="few">%s ogledi</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="other">in še %d</item>
+        <item quantity="one">in še %d</item>
+        <item quantity="two">in še %d</item>
+        <item quantity="few">in še %d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="other">Urejeno pred %d dnevi.</item>
+        <item quantity="one">Urejeno pred %d dnevom.</item>
+        <item quantity="two">Urejeno pred %d dnema.</item>
+        <item quantity="few">Urejeno pred %d dnevi.</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="other">Urejeno pred %d meseci.</item>
+        <item quantity="one">Urejeno pred %d mesecem.</item>
+        <item quantity="two">Urejeno pred %d mesecema.</item>
+        <item quantity="few">Urejeno pred %d meseci.</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="other">Urejeno pred %d tedni.</item>
+        <item quantity="one">Urejeno pred %d tednom.</item>
+        <item quantity="two">Urejeno pred %d tednoma.</item>
+        <item quantity="few">Urejeno pred %d tedni.</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="other">Urejeno pred %d leti.</item>
+        <item quantity="one">Urejeno pred %d letom.</item>
+        <item quantity="two">Urejeno pred %d letoma.</item>
+        <item quantity="few">Urejeno pred %d leti.</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="other">%d postaj</item>
+        <item quantity="one">%d postaja</item>
+        <item quantity="two">%d postaji</item>
+        <item quantity="few">%d postaje</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="other">Imate %d točk</item>
+        <item quantity="one">Imate %d točko</item>
+        <item quantity="two">Imate %d točki</item>
+        <item quantity="few">Imate %d točke</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="other">Samo še %1$d točk, da boste dosegli %2$d. stopnjo</item>
+        <item quantity="one">Samo še %1$d točka, da boste dosegli %2$d. stopnjo</item>
+        <item quantity="two">Samo še %1$d točki, da boste dosegli %2$d. stopnjo</item>
+        <item quantity="few">Samo še %1$d točke, da boste dosegli %2$d. stopnjo</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="other">%d. stopnja</item>
+        <item quantity="one">%d. stopnja</item>
+        <item quantity="two">%d. stopnja</item>
+        <item quantity="few">%d. stopnja</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_LEVEL">
+        <item quantity="other">Lokalni vodnik %d. stopnje</item>
+        <item quantity="one">Lokalni vodnik %d. stopnje</item>
+        <item quantity="two">Lokalni vodnik %d. stopnje</item>
+        <item quantity="few">Lokalni vodnik %d. stopnje</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="other">Posluje več kot %d let</item>
+        <item quantity="one">Posluje več kot %d leto</item>
+        <item quantity="two">Posluje več kot %d leti</item>
+        <item quantity="few">Posluje več kot %d leta</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="other">Pred %d dnevi</item>
+        <item quantity="one">Pred %d dnevom</item>
+        <item quantity="two">Pred %d dnevoma</item>
+        <item quantity="few">Pred %d dnevi</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="other">Pred %d urami</item>
+        <item quantity="one">Pred %d uro</item>
+        <item quantity="two">Pred %d urama</item>
+        <item quantity="few">Pred %d urami</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="other">Pred %d min</item>
+        <item quantity="one">Pred %d min</item>
+        <item quantity="two">Pred %d min</item>
+        <item quantity="few">Pred %d min</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="other">Tukaj je %d mest</item>
+        <item quantity="one">Tukaj je %d mesto</item>
+        <item quantity="two">Tukaj sta %d mesti</item>
+        <item quantity="few">Tukaj so %d mesta</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="other">Fotografije so odstranjene</item>
+        <item quantity="one">Fotografije so odstranjene</item>
+        <item quantity="two">Fotografije so odstranjene</item>
+        <item quantity="few">Fotografije so odstranjene</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">Maksimiranje videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="one">Maksimiranje videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="two">Maksimiranje videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="few">Maksimiranje videoposnetka %2$d v objavi %1$d.</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="other">%1$,d od %2$,d</item>
+        <item quantity="one">%1$,d od %2$,d</item>
+        <item quantity="two">%1$,d od %2$,d</item>
+        <item quantity="few">%1$,d od %2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="other">Nalaganje %1$d predstavnosti</item>
+        <item quantity="one">Nalaganje %1$d predstavnosti</item>
+        <item quantity="two">Nalaganje %1$d predstavnosti</item>
+        <item quantity="few">Nalaganje %1$d predstavnosti</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="other">Fotografija jedilnika številka %d</item>
+        <item quantity="one">Fotografija jedilnika številka %d</item>
+        <item quantity="two">Fotografija jedilnika številka %d</item>
+        <item quantity="few">Fotografija jedilnika številka %d</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="other">%1$d prijav</item>
+        <item quantity="one">%1$d prijava</item>
+        <item quantity="two">%1$d prijavi</item>
+        <item quantity="few">%1$d prijave</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="other">Osebe s to povezavo lahko vidijo vašo lokacijo 1 dan in %d ur</item>
+        <item quantity="one">Osebe s to povezavo lahko vidijo vašo lokacijo 1 dan in %d uro</item>
+        <item quantity="two">Osebe s to povezavo lahko vidijo vašo lokacijo 1 dan in %d uri</item>
+        <item quantity="few">Osebe s to povezavo lahko vidijo vašo lokacijo 1 dan in %d ure</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="other">Osebe s to povezavo lahko vidijo vašo lokacijo 1 uro in %d minut</item>
+        <item quantity="one">Osebe s to povezavo lahko vidijo vašo lokacijo 1 uro in %d minuto</item>
+        <item quantity="two">Osebe s to povezavo lahko vidijo vašo lokacijo 1 uro in %d minuti</item>
+        <item quantity="few">Osebe s to povezavo lahko vidijo vašo lokacijo 1 uro in %d minute</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="other">Osebe s to povezavo lahko vidijo vašo lokacijo %d dni</item>
+        <item quantity="one">Osebe s to povezavo lahko vidijo vašo lokacijo %d dan</item>
+        <item quantity="two">Osebe s to povezavo lahko vidijo vašo lokacijo %d dneva</item>
+        <item quantity="few">Osebe s to povezavo lahko vidijo vašo lokacijo %d dni</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="other">Osebe s to povezavo lahko vidijo vašo lokacijo %d ur</item>
+        <item quantity="one">Osebe s to povezavo lahko vidijo vašo lokacijo %d uro</item>
+        <item quantity="two">Osebe s to povezavo lahko vidijo vašo lokacijo %d uri</item>
+        <item quantity="few">Osebe s to povezavo lahko vidijo vašo lokacijo %d ure</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="other">Osebe s to povezavo lahko vidijo vašo lokacijo %d minut</item>
+        <item quantity="one">Osebe s to povezavo lahko vidijo vašo lokacijo %d minuto</item>
+        <item quantity="two">Osebe s to povezavo lahko vidijo vašo lokacijo %d minuti</item>
+        <item quantity="few">Osebe s to povezavo lahko vidijo vašo lokacijo %d minute</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="other">še %d</item>
+        <item quantity="one">še %d</item>
+        <item quantity="two">še %d</item>
+        <item quantity="few">še %d</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">Izklop zvoka videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="one">Izklop zvoka videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="two">Izklop zvoka videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="few">Izklop zvoka videoposnetka %2$d v objavi %1$d.</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="other">%d fotogr./videov</item>
+        <item quantity="one">%d fotogr./video</item>
+        <item quantity="two">%d fotogr./videa</item>
+        <item quantity="few">%d fotogr./videi</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="other">%d videov</item>
+        <item quantity="one">%d video</item>
+        <item quantity="two">%d videa</item>
+        <item quantity="few">%d videi</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="other">Avatar po meri %1$d od %2$d</item>
+        <item quantity="one">Avatar po meri %1$d od %2$d</item>
+        <item quantity="two">Avatar po meri %1$d od %2$d</item>
+        <item quantity="few">Avatar po meri %1$d od %2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="other">%d novih posodobitev</item>
+        <item quantity="one">%d nova posodobitev</item>
+        <item quantity="two">%d novi posodobitvi</item>
+        <item quantity="few">%d nove posodobitve</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="other">Obvestila o podjetju, %1$s novih obvestil</item>
+        <item quantity="one">Obvestila o podjetju, %1$s novo obvestilo</item>
+        <item quantity="two">Obvestila o podjetju, %1$s novi obvestili</item>
+        <item quantity="few">Obvestila o podjetju, %1$s nova obvestila</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="other">%d fotografij</item>
+        <item quantity="one">%d fotografija</item>
+        <item quantity="two">%d fotografiji</item>
+        <item quantity="few">%d fotografije</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="other">%d mnenj</item>
+        <item quantity="one">%d mnenje</item>
+        <item quantity="two">%d mnenji</item>
+        <item quantity="few">%d mnenja</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="other">Številka sličice %d</item>
+        <item quantity="one">Številka sličice %d</item>
+        <item quantity="two">Številka sličice %d</item>
+        <item quantity="few">Številka sličice %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="other">%d območij brez povezave</item>
+        <item quantity="one">%d območje brez povezave</item>
+        <item quantity="two">%d območji brez povezave</item>
+        <item quantity="few">%d območja brez povezave</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="other">Na podlagi %1$d poročil</item>
+        <item quantity="one">Na podlagi %1$d poročila</item>
+        <item quantity="two">Na podlagi %1$d poročil</item>
+        <item quantity="few">Na podlagi %1$d poročil</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">Začasna zaustavitev videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="one">Začasna zaustavitev videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="two">Začasna zaustavitev videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="few">Začasna zaustavitev videoposnetka %2$d v objavi %1$d.</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="other">%1$s interakcij</item>
+        <item quantity="one">%1$s interakcija</item>
+        <item quantity="two">%1$s interakciji</item>
+        <item quantity="few">%1$s interakcije</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="other">%1$s iskanj</item>
+        <item quantity="one">%1$s iskanje</item>
+        <item quantity="two">%1$s iskanji</item>
+        <item quantity="few">%1$s iskanja</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="other">%1$s ogledov</item>
+        <item quantity="one">%1$s ogled</item>
+        <item quantity="two">%1$s ogleda</item>
+        <item quantity="few">%1$s ogledi</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="other">Rezervacija za %d noči</item>
+        <item quantity="one">Rezervacija za %d noč</item>
+        <item quantity="two">Rezervacija za %d noči</item>
+        <item quantity="few">Rezervacija za %d noči</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="other">Te lahko vidite samo vi.</item>
+        <item quantity="one">Te lahko vidite samo vi.</item>
+        <item quantity="two">Te lahko vidite samo vi.</item>
+        <item quantity="few">Te lahko vidite samo vi.</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="other">%1$d dni</item>
+        <item quantity="one">%1$d dan</item>
+        <item quantity="two">%1$d dneva</item>
+        <item quantity="few">%1$d dni</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="other">%1$d nočitev</item>
+        <item quantity="one">%1$d nočitev</item>
+        <item quantity="two">%1$d nočitvi</item>
+        <item quantity="few">%1$d nočitve</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="other">%d fotogr.</item>
+        <item quantity="one">%d fotogr.</item>
+        <item quantity="two">%d fotogr.</item>
+        <item quantity="few">%d fotogr.</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="other">"Čakanje na Wi-Fi.
+ V čakalni vrsti je %d fotografij/videoposnetkov."</item>
+        <item quantity="one">"Čakanje na Wi-Fi.
+ V čakalni vrsti je %d fotografija/videoposnetek."</item>
+        <item quantity="two">"Čakanje na Wi-Fi.
+ V čakalni vrsti sta %d fotografiji/videoposnetka."</item>
+        <item quantity="few">"Čakanje na Wi-Fi.
+ V čakalni vrsti so %d fotografije/videoposnetki."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="other">Fotografija %2$d za objavo %1$d</item>
+        <item quantity="one">Fotografija %2$d za objavo %1$d</item>
+        <item quantity="two">Fotografija %2$d za objavo %1$d</item>
+        <item quantity="few">Fotografija %2$d za objavo %1$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="other">Pred %d dnevi</item>
+        <item quantity="one">Pred %d dnevom</item>
+        <item quantity="two">Pred %d dnevoma</item>
+        <item quantity="few">Pred %d dnevi</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="other">Pred %d urami</item>
+        <item quantity="one">Pred %d uro</item>
+        <item quantity="two">Pred %d urama</item>
+        <item quantity="few">Pred %d urami</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="other">Pred %d meseci</item>
+        <item quantity="one">Pred %d mesecem</item>
+        <item quantity="two">Pred %d mesecema</item>
+        <item quantity="few">Pred %d meseci</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="other">Pred %d tedni</item>
+        <item quantity="one">Pred %d tednom</item>
+        <item quantity="two">Pred %d tednoma</item>
+        <item quantity="few">Pred %d tedni</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="other">Pred %d leti</item>
+        <item quantity="one">Pred %d letom</item>
+        <item quantity="two">Pred %d letoma</item>
+        <item quantity="few">Pred %d leti</item>
+    </plurals>
+    <plurals name="PHOTO_INDEX_IN_LIST">
+        <item quantity="other">Fotografija št. %1$,d od %2$,d</item>
+        <item quantity="one">Fotografija št. %1$,d od %2$,d</item>
+        <item quantity="two">Fotografija št. %1$,d od %2$,d</item>
+        <item quantity="few">Fotografija št. %1$,d od %2$,d</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="other">%d posodobitev</item>
+        <item quantity="one">%d posodobitev</item>
+        <item quantity="two">%d posodobitvi</item>
+        <item quantity="few">%d posodobitve</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="other">Prikaži %d odgovorov</item>
+        <item quantity="one">Prikaži %d odgovor</item>
+        <item quantity="two">Prikaži %d odgovora</item>
+        <item quantity="few">Prikaži %d odgovore</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="other">+%1$,d</item>
+        <item quantity="one">+%1$,d</item>
+        <item quantity="two">+%1$,d</item>
+        <item quantity="few">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">Predvajanje videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="one">Predvajanje videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="two">Predvajanje videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="few">Predvajanje videoposnetka %2$d v objavi %1$d.</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="other">+%d drugih oseb</item>
+        <item quantity="one">+%d drugo osebo</item>
+        <item quantity="two">+%d drugi osebi</item>
+        <item quantity="few">+%d druge osebe</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="other">Zamenjaj</item>
+        <item quantity="one">Zamenjaj</item>
+        <item quantity="two">Zamenjaj</item>
+        <item quantity="few">Zamenjaj</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="other">Zamenjava postankov</item>
+        <item quantity="one">Zamenjava postankov</item>
+        <item quantity="two">Zamenjava postankov</item>
+        <item quantity="few">Zamenjava postankov</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="other">%,d ogledov</item>
+        <item quantity="one">%,d ogled</item>
+        <item quantity="two">%,d ogleda</item>
+        <item quantity="few">%,d ogledi</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="other">%d ocen</item>
+        <item quantity="one">%d ocena</item>
+        <item quantity="two">%d oceni</item>
+        <item quantity="few">%d ocene</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="other">%d mnenj</item>
+        <item quantity="one">%d mnenje</item>
+        <item quantity="two">%d mnenji</item>
+        <item quantity="few">%d mnenja</item>
+    </plurals>
+    <plurals name="PROFILE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="other">Prikaži %,d odgovorov</item>
+        <item quantity="one">Prikaži %,d odgovor</item>
+        <item quantity="two">Prikaži %,d odgovora</item>
+        <item quantity="few">Prikaži %,d odgovore</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="other">Ocenjeno s toliko zvezdicami: %d</item>
+        <item quantity="one">Ocenjeno s toliko zvezdicami: %d</item>
+        <item quantity="two">Ocenjeno s toliko zvezdicami: %d</item>
+        <item quantity="few">Ocenjeno s toliko zvezdicami: %d</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="other">%d zvezdic</item>
+        <item quantity="one">%d zvezdica</item>
+        <item quantity="two">%d zvezdici</item>
+        <item quantity="few">%d zvezdice</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="other">%1$,d odzivov »%2$s«</item>
+        <item quantity="one">%1$,d odziv »%2$s«</item>
+        <item quantity="two">%1$,d odziva »%2$s«</item>
+        <item quantity="few">%1$,d odzivi »%2$s«</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="other">Posodobljeno pred %d min</item>
+        <item quantity="one">Posodobljeno pred %d min</item>
+        <item quantity="two">Posodobljeno pred %d min</item>
+        <item quantity="few">Posodobljeno pred %d min</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="other">Za vlak, ki ima %1$d vagonov, izberite položaj %2$s za najhitrejši izhod</item>
+        <item quantity="one">Za vlak, ki ima %1$d vagon, izberite položaj %2$s za najhitrejši izhod</item>
+        <item quantity="two">Za vlak, ki ima %1$d vagona, izberite položaj %2$s za najhitrejši izhod</item>
+        <item quantity="few">Za vlak, ki ima %1$d vagone, izberite položaj %2$s za najhitrejši izhod</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="other">Za vlak, ki ima %1$d vagonov, izberite položaj %2$s za najhitrejši transfer</item>
+        <item quantity="one">Za vlak, ki ima %1$d vagon, izberite položaj %2$s za najhitrejši transfer</item>
+        <item quantity="two">Za vlak, ki ima %1$d vagona, izberite položaj %2$s za najhitrejši transfer</item>
+        <item quantity="few">Za vlak, ki ima %1$d vagone, izberite položaj %2$s za najhitrejši transfer</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="other">Najmanj gneče je v vagonih %1$s.</item>
+        <item quantity="one">Najmanj gneče je v vagonih %1$s.</item>
+        <item quantity="two">Najmanj gneče je v vagonih %1$s.</item>
+        <item quantity="few">Najmanj gneče je v vagonih %1$s.</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="other">Vlak za %1$d avtomobilov</item>
+        <item quantity="one">Vlak za %1$d avtomobil</item>
+        <item quantity="two">Vlak za %1$d avtomobila</item>
+        <item quantity="few">Vlak za %1$d avtomobile</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="other">%d plačil</item>
+        <item quantity="one">%d plačilo</item>
+        <item quantity="two">%d plačili</item>
+        <item quantity="few">%d plačila</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="other">%1$s in še %2$s</item>
+        <item quantity="one">%1$s in še %2$s</item>
+        <item quantity="two">%1$s in še %2$s</item>
+        <item quantity="few">%1$s in še %2$s</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="other">Več kot %d</item>
+        <item quantity="one">Več kot %d</item>
+        <item quantity="two">Več kot %d</item>
+        <item quantity="few">Več kot %d</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="other">Dodelite %1$d zvezdic od 5</item>
+        <item quantity="one">Dodelite %1$d zvezdico od 5</item>
+        <item quantity="two">Dodelite %1$d zvezdici od 5</item>
+        <item quantity="few">Dodelite %1$d zvezdice od 5</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="other">%s ogledov</item>
+        <item quantity="one">%s ogled</item>
+        <item quantity="two">%s ogleda</item>
+        <item quantity="few">%s ogledi</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="other">%,d ocen in mnenj</item>
+        <item quantity="one">%,d ocena in mnenje</item>
+        <item quantity="two">%d oceni in mnenji</item>
+        <item quantity="few">%,d ocene in mnenja</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="other">%,d ocen in mnenj</item>
+        <item quantity="one">%,d ocena in mnenje</item>
+        <item quantity="two">%d oceni in mnenji</item>
+        <item quantity="few">%,d ocene in mnenja</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="other">(%,d)</item>
+        <item quantity="one">(%,d)</item>
+        <item quantity="two">(%,d)</item>
+        <item quantity="few">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="other">%d osebam</item>
+        <item quantity="one">%d osebi</item>
+        <item quantity="two">%d osebama</item>
+        <item quantity="few">%d osebam</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="other">%d vprašanj</item>
+        <item quantity="one">%d vprašanje</item>
+        <item quantity="two">%d vprašanji</item>
+        <item quantity="few">%d vprašanja</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="other">še %d seznamov</item>
+        <item quantity="one">še %d seznam</item>
+        <item quantity="two">še %d seznama</item>
+        <item quantity="few">še %d seznami</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="other">Shranjeno na seznam %1$s in še %2$d seznamov</item>
+        <item quantity="one">Shranjeno na seznam %1$s in še %2$d seznam</item>
+        <item quantity="two">Shranjeno na seznam %1$s in še %2$d seznama</item>
+        <item quantity="few">Shranjeno na seznam %1$s in še %2$d sezname</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="other">Želite shraniti obisk izpred %d dni?</item>
+        <item quantity="one">Želite shraniti obisk izpred %d dneva?</item>
+        <item quantity="two">Želite shraniti obisk izpred %d dni?</item>
+        <item quantity="few">Želite shraniti obisk izpred %d dni?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="other">Najdenih je %1$d rezultatov za kategorijo »%2$s«.</item>
+        <item quantity="one">Najden je %1$d rezultat za kategorijo »%2$s«.</item>
+        <item quantity="two">Najdena sta %1$d rezultata za kategorijo »%2$s«.</item>
+        <item quantity="few">Najdeni so %1$d rezultati za kategorijo »%2$s«.</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="other">Pošiljanje ocene – %1$d zvezdic</item>
+        <item quantity="one">Pošiljanje ocene – %1$d zvezdica</item>
+        <item quantity="two">Pošiljanje ocene – %1$d zvezdici</item>
+        <item quantity="few">Pošiljanje ocene – %1$d zvezdice</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="other">za %d dni</item>
+        <item quantity="one">za %d dan</item>
+        <item quantity="two">za %d dneva</item>
+        <item quantity="few">za %d dni</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="other">za %d ur</item>
+        <item quantity="one">za %d uro</item>
+        <item quantity="two">za %d uri</item>
+        <item quantity="few">za %d ure</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="other">za %d min</item>
+        <item quantity="one">za %d min</item>
+        <item quantity="two">za %d min</item>
+        <item quantity="few">za %d min</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="other">Lokacijo delite z osebo %2$s in še %1$d osebami.</item>
+        <item quantity="one">Lokacijo delite z osebo %2$s in še %1$d osebo.</item>
+        <item quantity="two">Lokacijo delite z osebo %2$s in še %1$d osebama.</item>
+        <item quantity="few">Lokacijo delite z osebo %2$s in še %1$d osebami.</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="other">Lokacijo delite s še %d drugimi osebami.</item>
+        <item quantity="one">Lokacijo delite s še %d osebo.</item>
+        <item quantity="two">Lokacijo delite s še %d osebama.</item>
+        <item quantity="few">Lokacijo delite s še %d osebami.</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="other">Shrani %d mest</item>
+        <item quantity="one">Shrani %d mesto</item>
+        <item quantity="two">Shrani %d mesti</item>
+        <item quantity="few">Shrani %d mesta</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="other">Najdenih je %d mest</item>
+        <item quantity="one">Najdeno je %d mesto</item>
+        <item quantity="two">Najdeni sta %d mesti</item>
+        <item quantity="few">Najdena so %d mesta</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="other">%1$s, %2$d zvezdic</item>
+        <item quantity="one">%1$s, %2$d zvezdica</item>
+        <item quantity="two">%1$s, %2$d zvezdici</item>
+        <item quantity="few">%1$s, %2$d zvezdice</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="other">Uspešno ocenjeno – %1$d zvezdic</item>
+        <item quantity="one">Uspešno ocenjeno – %1$d zvezdica</item>
+        <item quantity="two">Uspešno ocenjeno – %1$d zvezdici</item>
+        <item quantity="few">Uspešno ocenjeno – %1$d zvezdice</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="other">%,d ogledov</item>
+        <item quantity="one">%,d ogled</item>
+        <item quantity="two">%,d ogleda</item>
+        <item quantity="few">%,d ogledi</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="other">+%d točk</item>
+        <item quantity="one">+%d točka</item>
+        <item quantity="two">+%d točki</item>
+        <item quantity="few">+%d točke</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="other">Objavi %1$d fotografij ali videoposnetkov mesta %2$s</item>
+        <item quantity="one">Objavi %1$d fotografijo ali videoposnetek mesta %2$s</item>
+        <item quantity="two">Objavi %1$d fotografiji ali videoposnetka mesta %2$s</item>
+        <item quantity="few">Objavi %1$d fotografije ali videoposnetke mesta %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="other">Objava %1$d fotografij mesta %2$s</item>
+        <item quantity="one">Objava %1$d fotografije mesta %2$s</item>
+        <item quantity="two">Objava %1$d fotografij mesta %2$s</item>
+        <item quantity="few">Objava %1$d fotografij mesta %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="other">+ še %d</item>
+        <item quantity="one">+ še %d</item>
+        <item quantity="two">+ še %d</item>
+        <item quantity="few">+ še %d</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="other">Objavi %1$d fotografij</item>
+        <item quantity="one">Objavi %1$d fotografijo</item>
+        <item quantity="two">Objavi %1$d fotografiji</item>
+        <item quantity="few">Objavi %1$d fotografije</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="other">Objavi %1$d</item>
+        <item quantity="one">Objavi %1$d</item>
+        <item quantity="two">Objavi %1$d</item>
+        <item quantity="few">Objavi %1$d</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="other">%1$,d oseb omenja temo %2$s</item>
+        <item quantity="one">%1$,d oseba omenja temo %2$s</item>
+        <item quantity="two">%1$d osebi omenjata temo %2$s</item>
+        <item quantity="few">%1$d osebe omenjajo temo %2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="other">%1$,d odzivov</item>
+        <item quantity="one">%1$,d odziv</item>
+        <item quantity="two">%1$,d odziva</item>
+        <item quantity="few">%1$,d odzivi</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="other">Pokaži še %1$d možnosti od %2$s</item>
+        <item quantity="one">Pokaži še %1$d možnost od %2$s</item>
+        <item quantity="two">Pokaži še %1$d možnosti od %2$s</item>
+        <item quantity="few">Pokaži še %1$d možnosti od %2$s</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="other">Prikaži še %1$d možnosti</item>
+        <item quantity="one">Prikaži še %1$d možnost</item>
+        <item quantity="two">Prikaži še %1$d možnosti</item>
+        <item quantity="few">Prikaži še %1$d možnosti</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="other">Shranite svoje naslove, da si ogledate najhitrejše poti in se izognete gostemu prometu</item>
+        <item quantity="one">Shranite svoj naslov, da si ogledate najhitrejše poti in se izognete gostemu prometu</item>
+        <item quantity="two">Shranite svoja naslova, da si ogledate najhitrejše poti in se izognete gostemu prometu</item>
+        <item quantity="few">Shranite svoje naslove, da si ogledate najhitrejše poti in se izognete gostemu prometu</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="other">Odhodi so bili posodobljeni pred %1$d s</item>
+        <item quantity="one">Odhodi so bili posodobljeni pred %1$d s</item>
+        <item quantity="two">Odhodi so bili posodobljeni pred %1$d s</item>
+        <item quantity="few">Odhodi so bili posodobljeni pred %1$d s</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="other">Odhod je vsakih %d minut</item>
+        <item quantity="one">Odhod je vsako %d minuto</item>
+        <item quantity="two">Odhod je vsaki %d minuti</item>
+        <item quantity="few">Odhod je vsake %d minute</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="two">%d min</item>
+        <item quantity="few">%d min</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES_LONG">
+        <item quantity="other">minut</item>
+        <item quantity="one">minuta</item>
+        <item quantity="two">minuti</item>
+        <item quantity="few">minute</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="other">%1$s (%2$d opozoril)</item>
+        <item quantity="one">%1$s (%2$d opozorilo)</item>
+        <item quantity="two">%1$s (%2$d opozorili)</item>
+        <item quantity="few">%1$s (%2$d opozorila)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="other">avtobus %1$s (%2$d opozoril)</item>
+        <item quantity="one">avtobus %1$s (%2$d opozorilo)</item>
+        <item quantity="two">avtobus %1$s (%2$d opozorili)</item>
+        <item quantity="few">avtobus %1$s (%2$d opozorila)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="other">trajekt %1$s (%2$d opozoril)</item>
+        <item quantity="one">trajekt %1$s (%2$d opozorilo)</item>
+        <item quantity="two">trajekt %1$s (%2$d opozorili)</item>
+        <item quantity="few">trajekt %1$s (%2$d opozorila)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="other">linija %1$s (%2$d opozoril)</item>
+        <item quantity="one">linija %1$s (%2$d opozorilo)</item>
+        <item quantity="two">linija %1$s (%2$d opozorili)</item>
+        <item quantity="few">linija %1$s (%2$d opozorila)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="other">vlak %1$s (%2$d opozoril)</item>
+        <item quantity="one">vlak %1$s (%2$d opozorilo)</item>
+        <item quantity="two">vlak %1$s (%2$d opozorili)</item>
+        <item quantity="few">vlak %1$s (%2$d opozorila)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="other">tramvaj %1$s (%2$d opozoril)</item>
+        <item quantity="one">tramvaj %1$s (%2$d opozorilo)</item>
+        <item quantity="two">tramvaj %1$s (%2$d opozorili)</item>
+        <item quantity="few">tramvaj %1$s (%2$d opozorila)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="other">vsakih %d minut</item>
+        <item quantity="one">vsako %d minuto</item>
+        <item quantity="two">vsaki %d minuti</item>
+        <item quantity="few">vsake %d minute</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="other">%d postaj</item>
+        <item quantity="one">%d postaja</item>
+        <item quantity="two">%d postaji</item>
+        <item quantity="few">%d postaje</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_CARD">
+        <item quantity="other">"%1$d
+min nazaj"</item>
+        <item quantity="one">"%1$d
+min nazaj"</item>
+        <item quantity="two">"%1$d
+min nazaj"</item>
+        <item quantity="few">"%1$d
+min nazaj"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="other">"pred %1$s
+min"</item>
+        <item quantity="one">"pred %1$s
+min"</item>
+        <item quantity="two">"pred %1$s
+min"</item>
+        <item quantity="few">"pred %1$s
+min"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="other">Odhod je bil pred %1$s minutami</item>
+        <item quantity="one">Odhod je bil pred %1$s minuto</item>
+        <item quantity="two">Odhod je bil pred %1$s minutama</item>
+        <item quantity="few">Odhod je bil pred %1$s minutami</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="other">+%d opozoril</item>
+        <item quantity="one">+%d opozorilo</item>
+        <item quantity="two">+%d opozorili</item>
+        <item quantity="few">+%d opozorila</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="other">%d opozoril</item>
+        <item quantity="one">+ %d opozorilo</item>
+        <item quantity="two">%d opozorili</item>
+        <item quantity="few">%d opozorila</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="other">+%d drugih</item>
+        <item quantity="one">+%d drugo</item>
+        <item quantity="two">+%d drugi</item>
+        <item quantity="few">+%d druga</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="other">+ še %d</item>
+        <item quantity="one">+ še %d</item>
+        <item quantity="two">+ še %d</item>
+        <item quantity="few">+ še %d</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_LINES_COUNT">
+        <item quantity="other">in še %1$d</item>
+        <item quantity="one">in še %1$d</item>
+        <item quantity="two">in še %1$d</item>
+        <item quantity="few">in še %1$d</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="other">"%1$s
+min"</item>
+        <item quantity="one">"%1$s
+min"</item>
+        <item quantity="two">"%1$s
+min"</item>
+        <item quantity="few">"%1$s
+min"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="other">Pred %1$s minutami</item>
+        <item quantity="one">Pred %1$s minuto</item>
+        <item quantity="two">Pred %1$s minutama</item>
+        <item quantity="few">Pred %1$s minutami</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="other">Odhod je čez %1$s minut</item>
+        <item quantity="one">Odhod je čez %1$s minuto</item>
+        <item quantity="two">Odhod je čez %1$s minuti</item>
+        <item quantity="few">Odhod je čez %1$s minute</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="other">Še %1$s opozoril</item>
+        <item quantity="one">Še %1$s opozorilo</item>
+        <item quantity="two">Še %1$s opozorili</item>
+        <item quantity="few">Še %1$s opozorila</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="other">%s fotografij</item>
+        <item quantity="one">%s fotografija</item>
+        <item quantity="two">%s fotografiji</item>
+        <item quantity="few">%s fotografije</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="other">%s mnenj</item>
+        <item quantity="one">%s mnenje</item>
+        <item quantity="two">%s mnenji</item>
+        <item quantity="few">%s mnenja</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="other">%,d prispevkov</item>
+        <item quantity="one">%,d prispevek</item>
+        <item quantity="two">%,d prispevka</item>
+        <item quantity="few">%,d prispevki</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="other">%,d ogledov</item>
+        <item quantity="one">%,d ogled</item>
+        <item quantity="two">%,d ogleda</item>
+        <item quantity="few">%,d ogledi</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="other">Izberite največ %1$d.</item>
+        <item quantity="one">Izberite največ %1$d.</item>
+        <item quantity="two">Izberite največ %1$d.</item>
+        <item quantity="few">Izberite največ %1$d.</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="other">Izberite največ %1$s fotografij</item>
+        <item quantity="one">Izberite največ %1$s fotografijo</item>
+        <item quantity="two">Izberite največ %1$s fotografiji</item>
+        <item quantity="few">Izberite največ %1$s fotografije</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">Vklop zvoka videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="one">Vklop zvoka videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="two">Vklop zvoka videoposnetka %2$d v objavi %1$d.</item>
+        <item quantity="few">Vklop zvoka videoposnetka %2$d v objavi %1$d.</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="other">%1$d od %2$d</item>
+        <item quantity="one">%1$d od %2$d</item>
+        <item quantity="two">%1$d od %2$d</item>
+        <item quantity="few">%1$d od %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="other">"Čakanje na Wi-Fi.
+ V čakalni vrsti je %d fotografij."</item>
+        <item quantity="one">"Čakanje na Wi-Fi.
+ V čakalni vrsti je %d fotografija."</item>
+        <item quantity="two">"Čakanje na Wi-Fi.
+ V čakalni vrsti sta %d fotografiji."</item>
+        <item quantity="few">"Čakanje na Wi-Fi.
+ V čakalni vrsti so %d fotografije."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="other">Izbranih je %d fotografij</item>
+        <item quantity="one">Izbrana je %d fotografija</item>
+        <item quantity="two">Izbrani sta %d fotografiji</item>
+        <item quantity="few">Izbrane so %d fotografije</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="other">Obiskali ste %1$d mest od %2$d</item>
+        <item quantity="one">Obiskali ste %1$d mesto od %2$d</item>
+        <item quantity="two">Obiskali ste %1$d mesti od %2$d</item>
+        <item quantity="few">Obiskali ste %1$d mesta od %2$d</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">Vklopite varčevanje z energijo baterije, da boste izboljšali natančnost lokacije, ko jo delite z osebo %1$s in še %2$d drugimi osebami</item>
+        <item quantity="one">Vklopite varčevanje z energijo baterije, da boste izboljšali natančnost lokacije, ko jo delite z osebo %1$s in še %2$d drugo osebo</item>
+        <item quantity="two">Vklopite varčevanje z energijo baterije, da boste izboljšali natančnost lokacije, ko jo delite z osebo %1$s in še %2$d drugima osebama</item>
+        <item quantity="few">Vklopite varčevanje z energijo baterije, da boste izboljšali natančnost lokacije, ko jo delite z osebo %1$s in še %2$d drugimi osebami</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">Lokacija naprave mora biti vklopljena, če želite še naprej deliti lokacijo z osebo %1$s in še %2$d drugimi osebami</item>
+        <item quantity="one">Lokacija naprave mora biti vklopljena, če želite še naprej deliti lokacijo z osebo %1$s in še %2$d drugo osebo</item>
+        <item quantity="two">Lokacija naprave mora biti vklopljena, če želite še naprej deliti lokacijo z osebo %1$s in še %2$d drugima osebama</item>
+        <item quantity="few">Lokacija naprave mora biti vklopljena, če želite še naprej deliti lokacijo z osebo %1$s in še %2$d drugimi osebami</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">Posodobite deljenje lokacije, če jo želite v tej napravi še naprej deliti z osebo %1$s in še %2$d drugimi osebami</item>
+        <item quantity="one">Posodobite deljenje lokacije, če jo želite v tej napravi še naprej deliti z osebo %1$s in še %2$d drugo osebo</item>
+        <item quantity="two">Posodobite deljenje lokacije, če jo želite v tej napravi še naprej deliti z osebo %1$s in še %2$d drugima osebama</item>
+        <item quantity="few">Posodobite deljenje lokacije, če jo želite v tej napravi še naprej deliti z osebo %1$s in še %2$d drugimi osebami</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">Omogočite Zemljevidom, da bodo lahko prepoznali vašo fizično aktivnost, saj boste s tem izboljšali natančnost lokacije, ko jo delite z osebo %1$s in še %2$d drugimi osebami</item>
+        <item quantity="one">Omogočite Zemljevidom, da bodo lahko prepoznali vašo fizično aktivnost, saj boste s tem izboljšali natančnost lokacije, ko jo delite z osebo %1$s in še %2$d drugo osebo</item>
+        <item quantity="two">Omogočite Zemljevidom, da bodo lahko prepoznali vašo fizično aktivnost, saj boste s tem izboljšali natančnost lokacije, ko jo delite z osebo %1$s in še %2$d drugima osebama</item>
+        <item quantity="few">Omogočite Zemljevidom, da bodo lahko prepoznali vašo fizično aktivnost, saj boste s tem izboljšali natančnost lokacije, ko jo delite z osebo %1$s in še %2$d drugimi osebami</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">Dovolite Zemljevidom, da bodo lahko vedno dostopali do vaše lokacije, če želite izboljšati natančnost lokacije, ko jo delite z osebo %1$s in še %2$d drugimi osebami</item>
+        <item quantity="one">Dovolite Zemljevidom, da bodo lahko vedno dostopali do vaše lokacije, če želite izboljšati natančnost lokacije, ko jo delite z osebo %1$s in še %2$d drugo osebo</item>
+        <item quantity="two">Dovolite Zemljevidom, da bodo lahko vedno dostopali do vaše lokacije, če želite izboljšati natančnost lokacije, ko jo delite z osebo %1$s in še %2$d drugima osebama</item>
+        <item quantity="few">Dovolite Zemljevidom, da bodo lahko vedno dostopali do vaše lokacije, če želite izboljšati natančnost lokacije, ko jo delite z osebo %1$s in še %2$d drugimi osebami</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">Dovolite Zemljevidom, da bodo lahko vedno dostopali do vaše lokacije, če jo želite še naprej deliti z osebo %1$s in še %2$d drugimi osebami</item>
+        <item quantity="one">Dovolite Zemljevidom, da bodo lahko vedno dostopali do vaše lokacije, če jo želite še naprej deliti z osebo %1$s in še %2$d drugo osebo</item>
+        <item quantity="two">Dovolite Zemljevidom, da bodo lahko vedno dostopali do vaše lokacije, če jo želite še naprej deliti z osebo %1$s in še %2$d drugima osebama</item>
+        <item quantity="few">Dovolite Zemljevidom, da bodo lahko vedno dostopali do vaše lokacije, če jo želite še naprej deliti z osebo %1$s in še %2$d drugimi osebami</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="other">%d+ fotografij</item>
+        <item quantity="one">%d+ fotografija</item>
+        <item quantity="two">%d+ fotografiji</item>
+        <item quantity="few">%d+ fotografije</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="other">(%,d mnenj)</item>
+        <item quantity="one">(%,d mnenje)</item>
+        <item quantity="two">(%d mnenji)</item>
+        <item quantity="few">(%d mnenja)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="other">%1$s sekund</item>
+        <item quantity="one">%1$s sekunda</item>
+        <item quantity="two">%1$s sekundi</item>
+        <item quantity="few">%1$s sekunde</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="other">Videoposnetek %2$d za objavo %1$d</item>
+        <item quantity="one">Videoposnetek %2$d za objavo %1$d</item>
+        <item quantity="two">Videoposnetek %2$d za objavo %1$d</item>
+        <item quantity="few">Videoposnetek %2$d za objavo %1$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="other">Videoposnetek %2$d za objavo %1$d je v celozaslonskem načinu</item>
+        <item quantity="one">Videoposnetek %2$d za objavo %1$d je v celozaslonskem načinu</item>
+        <item quantity="two">Videoposnetek %2$d za objavo %1$d je v celozaslonskem načinu</item>
+        <item quantity="few">Videoposnetek %2$d za objavo %1$d je v celozaslonskem načinu</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="other">%2$s × %1$d nočitev</item>
+        <item quantity="one">%2$s × %1$d nočitev</item>
+        <item quantity="two">%2$s × %1$d nočitvi</item>
+        <item quantity="few">%2$s × %1$d nočitve</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="other">%2$s z davki in pristojbinami za %1$d nočitev</item>
+        <item quantity="one">%2$s z davki in pristojbinami za %1$d nočitev</item>
+        <item quantity="two">%2$s z davki in pristojbinami za %1$d nočitvi</item>
+        <item quantity="few">%2$s z davki in pristojbinami za %1$d nočitve</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="other">%d min hoje</item>
+        <item quantity="one">%d min hoje</item>
+        <item quantity="two">%d min hoje</item>
+        <item quantity="few">%d min hoje</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="other">+ %d postankov</item>
+        <item quantity="one">+ %d postanek</item>
+        <item quantity="two">+ %d postanka</item>
+        <item quantity="few">+ %d postanki</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="other">(%d postankov)</item>
+        <item quantity="one">(%d postanek)</item>
+        <item quantity="two">(%d postanka)</item>
+        <item quantity="few">(%d postanki)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="other">Pred %d tedni</item>
+        <item quantity="one">Pred %d tednom</item>
+        <item quantity="two">Pred %d tednoma</item>
+        <item quantity="few">Pred %d tedni</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="other">Pred %d leti</item>
+        <item quantity="one">Pred %d letom</item>
+        <item quantity="two">Pred %d letoma</item>
+        <item quantity="few">Pred %d leti</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="other">Pokaži %1$d preostalih fotografij</item>
+        <item quantity="one">Pokaži %1$d preostalo fotografijo</item>
+        <item quantity="two">Pokaži %1$d preostali fotografiji</item>
+        <item quantity="few">Pokaži %1$d preostale fotografije</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="other">Vaša mnenja ali posodobitve</item>
+        <item quantity="one">Vaša mnenja ali posodobitve</item>
+        <item quantity="two">Vaša mnenja ali posodobitve</item>
+        <item quantity="few">Vaša mnenja ali posodobitve</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="other">Spremljate seznam %1$s in še %2$d seznamov</item>
+        <item quantity="one">Spremljate seznam %1$s in še %2$d seznam</item>
+        <item quantity="two">Spremljate seznam %1$s in še %2$d seznama</item>
+        <item quantity="few">Spremljate seznam %1$s in še %2$d sezname</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="other">%1$s in še %2$d</item>
+        <item quantity="one">%1$s in še %2$d</item>
+        <item quantity="two">%1$s in še %2$d</item>
+        <item quantity="few">%1$s in še %2$d</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="other">+ %1$d</item>
+        <item quantity="one">+ %1$d</item>
+        <item quantity="two">+ %1$d</item>
+        <item quantity="few">+ %1$d</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="other">%1$d od %2$d</item>
+        <item quantity="one">%1$d od %2$d</item>
+        <item quantity="two">%1$d od %2$d</item>
+        <item quantity="few">%1$d od %2$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="other">%1$d od %2$d</item>
+        <item quantity="one">%1$d od %2$d</item>
+        <item quantity="two">%1$d od %2$d</item>
+        <item quantity="few">%1$d od %2$d</item>
+    </plurals>
+    <plurals name="local_guide_level">
+        <item quantity="other">%1$d. stopnja</item>
+        <item quantity="one">%1$d. stopnja</item>
+        <item quantity="two">%1$d. stopnja</item>
+        <item quantity="few">%1$d. stopnja</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+        <item quantity="two">%1$d min</item>
+        <item quantity="few">%1$d min</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="other">%1$d zajemov</item>
+        <item quantity="one">%1$d zajem</item>
+        <item quantity="two">%1$d zajema</item>
+        <item quantity="few">%1$d zajemi</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obvestil</item>
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="other">+ še %1$d</item>
+        <item quantity="one">+ še %1$d</item>
+        <item quantity="two">+ še %1$d</item>
+        <item quantity="few">+ še %1$d</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="other">%d oseb piše.</item>
+        <item quantity="one">%d oseba piše.</item>
+        <item quantity="two">%d osebi pišeta.</item>
+        <item quantity="few">%d osebe pišejo.</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="other">Kopiranih je %d prejemnikov</item>
+        <item quantity="one">Kopiran je %d prejemnik</item>
+        <item quantity="two">Kopirana sta %d prejemnika</item>
+        <item quantity="few">Kopirani so %d prejemniki</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="other">Povejte kaj o svojih fotografijah (izbirno).</item>
+        <item quantity="one">Povejte kaj o svojih fotografijah (izbirno).</item>
+        <item quantity="two">Povejte kaj o svojih fotografijah (izbirno).</item>
+        <item quantity="few">Povejte kaj o svojih fotografijah (izbirno).</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">%1$d zvezdic od %2$d</item>
+        <item quantity="one">%1$d zvezdica od %2$d</item>
+        <item quantity="two">%1$d zvezdici od %2$d</item>
+        <item quantity="few">%1$d zvezdice od %2$d</item>
+    </plurals>
+</resources>

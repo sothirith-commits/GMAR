@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:rowCount="2" android:columnCount="4" style="@style/AAG.AppWidget.Background.SurfaceVariant"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/card_1" style="@style/SearchWidgetCard.Grid">
+        <include android:id="@id/card_loading_view_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/search_widget_loading_view" />
+        <LinearLayout android:id="@id/card_layout_1" android:visibility="gone" style="@style/SearchWidgetCardLayout">
+            <ImageView android:id="@id/card_image_1" android:contentDescription="@string/widget_preview_content_description" style="@style/SearchWidgetCardImage" />
+            <TextView android:id="@id/card_text_1" style="@style/SearchWidgetCardText" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/card_2" android:layout_marginStart="@dimen/search_widget_small_margin" style="@style/SearchWidgetCard.Grid">
+        <include android:id="@id/card_loading_view_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/search_widget_loading_view" />
+        <LinearLayout android:id="@id/card_layout_2" android:visibility="gone" style="@style/SearchWidgetCardLayout">
+            <ImageView android:id="@id/card_image_2" android:contentDescription="@string/widget_preview_content_description" style="@style/SearchWidgetCardImage" />
+            <TextView android:id="@id/card_text_2" style="@style/SearchWidgetCardText" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/card_3" android:layout_marginStart="@dimen/search_widget_small_margin" style="@style/SearchWidgetCard.Grid">
+        <include android:id="@id/card_loading_view_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/search_widget_loading_view" />
+        <LinearLayout android:id="@id/card_layout_3" android:visibility="gone" style="@style/SearchWidgetCardLayout">
+            <ImageView android:id="@id/card_image_3" android:contentDescription="@string/widget_preview_content_description" style="@style/SearchWidgetCardImage" />
+            <TextView android:id="@id/card_text_3" style="@style/SearchWidgetCardText" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/card_4" android:layout_marginStart="@dimen/search_widget_small_margin" style="@style/SearchWidgetCard.Grid">
+        <include android:id="@id/card_loading_view_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/search_widget_loading_view" />
+        <LinearLayout android:id="@id/card_layout_4" android:visibility="gone" style="@style/SearchWidgetCardLayout">
+            <ImageView android:id="@id/card_image_4" android:contentDescription="@string/widget_preview_content_description" style="@style/SearchWidgetCardImage" />
+            <TextView android:id="@id/card_text_4" style="@style/SearchWidgetCardText" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/card_5" android:visibility="gone" android:layout_marginTop="@dimen/search_widget_small_margin" style="@style/SearchWidgetCard.Grid">
+        <LinearLayout android:id="@id/card_layout_5" android:visibility="gone" style="@style/SearchWidgetCardLayout">
+            <ImageView android:id="@id/card_image_5" android:contentDescription="@string/widget_preview_content_description" style="@style/SearchWidgetCardImage" />
+            <TextView android:id="@id/card_text_5" style="@style/SearchWidgetCardText" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/card_6" android:visibility="gone" android:layout_marginTop="@dimen/search_widget_small_margin" android:layout_marginStart="@dimen/search_widget_small_margin" style="@style/SearchWidgetCard.Grid">
+        <LinearLayout android:id="@id/card_layout_6" android:visibility="gone" style="@style/SearchWidgetCardLayout">
+            <ImageView android:id="@id/card_image_6" android:contentDescription="@string/widget_preview_content_description" style="@style/SearchWidgetCardImage" />
+            <TextView android:id="@id/card_text_6" style="@style/SearchWidgetCardText" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/card_7" android:visibility="gone" android:layout_marginTop="@dimen/search_widget_small_margin" android:layout_marginStart="@dimen/search_widget_small_margin" style="@style/SearchWidgetCard.Grid">
+        <LinearLayout android:id="@id/card_layout_7" android:visibility="gone" style="@style/SearchWidgetCardLayout">
+            <ImageView android:id="@id/card_image_7" android:contentDescription="@string/widget_preview_content_description" style="@style/SearchWidgetCardImage" />
+            <TextView android:id="@id/card_text_7" style="@style/SearchWidgetCardText" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/card_8" android:visibility="gone" android:layout_marginTop="@dimen/search_widget_small_margin" android:layout_marginStart="@dimen/search_widget_small_margin" style="@style/SearchWidgetCard.Grid">
+        <LinearLayout android:id="@id/card_layout_8" android:visibility="gone" style="@style/SearchWidgetCardLayout">
+            <ImageView android:id="@id/card_image_8" android:contentDescription="@string/widget_preview_content_description" style="@style/SearchWidgetCardImage" />
+            <TextView android:id="@id/card_text_8" style="@style/SearchWidgetCardText" />
+        </LinearLayout>
+    </RelativeLayout>
+</GridLayout>

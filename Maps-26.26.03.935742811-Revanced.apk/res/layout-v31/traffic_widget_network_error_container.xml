@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/traffic_widget_background" android:scaleType="centerCrop" android:contentDescription="@string/traffic_background_content_description" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/traffic_widget_icon_no_network" android:tint="@color/traffic_widget_text_color" android:contentDescription="@string/traffic_icon_content_description" />
+        <TextView android:text="@string/traffic_widget_network_error_text" style="@style/TrafficWidgetText" />
+        <TextView android:text="@string/traffic_widget_network_error_subtext" style="@style/TrafficWidgetText.Subtext" />
+    </LinearLayout>
+</FrameLayout>

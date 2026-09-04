@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?geoColorOnSurfaceImmersive" android:gravity="center" android:layout_gravity="center" android:id="@id/ar_chip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:drawablePadding="8.0dip" android:paddingHorizontal="16.0dip" android:paddingVertical="10.0dip" style="?textAppearanceButton" />
+</FrameLayout>

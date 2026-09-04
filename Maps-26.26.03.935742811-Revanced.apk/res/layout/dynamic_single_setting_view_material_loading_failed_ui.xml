@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:theme="@style/Theme.ConsentFlow" android:id="@id/loading_failed_ui" android:paddingTop="48.0dip" android:paddingBottom="48.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/something_went_wrong_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_failed_error_message" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.google.android.material.button.MaterialButton android:id="@id/retry_loading_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/loading_failed_retry_button_text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/something_went_wrong_text" style="@style/Theme.ConsentFlow.OutlinedMaterialButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

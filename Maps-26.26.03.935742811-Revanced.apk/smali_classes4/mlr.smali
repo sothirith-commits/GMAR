@@ -1,0 +1,41 @@
+.class final Lmlr;
+.super Lqk;
+.source "PG"
+
+
+# instance fields
+.field final synthetic a:Lmlv;
+
+
+# direct methods
+.method public constructor <init>(Lmlv;)V
+    .locals 0
+
+    iput-object p1, p0, Lmlr;->a:Lmlv;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Lqk;-><init>(Z)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b()V
+    .locals 0
+
+    iget-object p0, p0, Lmlr;->a:Lmlv;
+
+    iget-object p0, p0, Lmlv;->as:Lcufa;
+
+    invoke-interface {p0}, Lcufa;->a()Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lmml;
+
+    invoke-interface {p0}, Lmml;->p()V
+
+    return-void
+.end method

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.geo.navcore.turncard.views.TurnCardStepManeuverImageView android:id="@id/maneuver_image" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginEnd="6.0dip" />
+        <com.google.android.libraries.geo.navcore.turncard.views.TurnCardStepDistanceTextView android:ellipsize="end" android:gravity="center" android:id="@id/distance_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:textAlignment="viewStart" />
+    </LinearLayout>
+    <com.google.android.libraries.geo.navcore.turncard.views.TurnCardStepCueContainerLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/step_cue_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.geo.navcore.turncard.views.TurnCardStepCueTextView android:ellipsize="end" android:id="@id/top_cue_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:textAlignment="viewStart" />
+        <com.google.android.libraries.geo.navcore.turncard.views.TurnCardStepCueTextView android:ellipsize="end" android:id="@id/bottom_cue_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:textAlignment="viewStart" />
+    </com.google.android.libraries.geo.navcore.turncard.views.TurnCardStepCueContainerLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="?geoColorSurface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/editor_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:liftOnScroll="true">
+        <android.support.v4.app.FragmentContainerView android:id="@id/navigation_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.android.material.divider.MaterialDivider android:layout_gravity="bottom" android:id="@id/navigation_header_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView android:layout_gravity="center_vertical" android:id="@id/scrollingContent" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.apps.gmm.ugc.post.editor.resources.DismissKeyboardScrollingViewBehavior">
+        <include layout="@layout/editor_container" />
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/floatingBottomBar" android:background="?geoColorSurface" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:liftOnScroll="true">
+        <com.google.android.material.divider.MaterialDivider android:layout_gravity="top" android:id="@id/bottomBarDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.google.android.material.button.MaterialButton android:id="@id/floatingBottomPostButton" style="@style/PostEditorBottomPostButton" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

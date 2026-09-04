@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/qu_daynight_white" style="@style/MatchParentContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogContent">
+            <TextView android:textAppearance="@style/QuTitle" android:textColor="@color/qu_daynight_black_alpha_87" android:id="@id/title_textview" android:focusable="true" android:focusableInTouchMode="true" android:layout_marginTop="@dimen/pd_main" android:layout_marginBottom="@dimen/pd_main" android:text="@string/DIRECTIONS_WIDGET_TITLE" style="@style/TextBox" />
+            <include layout="@layout/qu_appwidget_travelmode_radiogroup" />
+            <CheckBox android:textAppearance="@style/QuBody1" android:textColor="@color/qu_daynight_black_alpha_87" android:id="@id/turnbyturn_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pd_main" android:layout_marginBottom="@dimen/pd_main" android:text="@string/DIRECTIONS_WIDGET_NAVIGATION_CHECKBOX" />
+            <EditText android:textAppearance="@style/QuBody1" android:textColor="@color/qu_daynight_black_alpha_87" android:id="@id/destination_textbox" android:background="@null" android:focusable="false" android:layout_marginTop="@dimen/pd_main" android:layout_marginBottom="@dimen/pd_general_v" android:hint="@string/DIRECTIONS_CHOOSE_END_POINT" style="@style/EditTextBox" />
+            <View android:background="@drawable/generic_horizontalsolid_divider" android:layout_width="fill_parent" android:layout_height="@dimen/appwidget_divider_height" />
+            <EditText android:textAppearance="@style/QuBody1" android:textColor="@color/qu_daynight_black_alpha_87" android:id="@id/shortcutname_textbox" android:background="@null" android:layout_marginTop="@dimen/pd_main_vertical" android:layout_marginBottom="@dimen/pd_general_v" android:hint="@string/DIRECTIONS_WIDGET_SHORTCUT_NAME" style="@style/EditTextBox" />
+            <View android:background="@drawable/generic_horizontalsolid_divider" android:layout_width="fill_parent" android:layout_height="@dimen/appwidget_divider_height" />
+            <CheckBox android:textAppearance="@style/QuBody1" android:textColor="@color/qu_daynight_black_alpha_87" android:id="@id/avoid_ferries" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pd_main" android:layout_marginBottom="@dimen/pd_main" android:text="@string/DIRECTIONS_OPTIONS_AVOID_FERRIES" />
+            <CheckBox android:textAppearance="@style/QuBody1" android:textColor="@color/qu_daynight_black_alpha_87" android:id="@id/avoid_highways" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pd_main" android:layout_marginBottom="@dimen/pd_main" android:text="@string/DIRECTIONS_OPTIONS_AVOID_HIGHWAYS" />
+            <CheckBox android:textAppearance="@style/QuBody1" android:textColor="@color/qu_daynight_black_alpha_87" android:id="@id/avoid_tolls" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pd_main" android:layout_marginBottom="@dimen/pd_main" android:text="@string/DIRECTIONS_OPTIONS_AVOID_TOLLS" />
+        </LinearLayout>
+    </ScrollView>
+    <View style="@style/HorizontalDivider" />
+    <LinearLayout style="@style/DialogButtonContent">
+        <Button android:textAppearance="@style/QuButton" android:textColor="@color/qu_daynight_black_alpha_87" android:id="@id/cancel_button" android:layout_width="0.0dip" android:layout_height="@dimen/appwidget_button_height" android:text="@string/CANCEL_BUTTON" android:layout_weight="1.0" style="?android:borderlessButtonStyle" />
+        <Button android:textAppearance="@style/QuButton" android:textColor="@color/qu_daynight_black_alpha_06" android:id="@id/save_button" android:layout_width="0.0dip" android:layout_height="@dimen/appwidget_button_height" android:text="@string/DIRECTIONS_WIDGET_SAVE" android:layout_weight="1.0" style="?android:borderlessButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

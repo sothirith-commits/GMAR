@@ -1,0 +1,35 @@
+.class public final Lbsqs;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field public static final a:F
+
+.field public static final b:F
+
+.field public static final c:F
+
+.field public static final d:F
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    sget-object v0, Lbsqo;->a:Lcvw;
+
+    const/high16 v0, 0x42800000    # 64.0f
+
+    sput v0, Lbsqs;->a:F
+
+    sput v0, Lbsqs;->b:F
+
+    const/high16 v0, 0x422c0000    # 43.0f
+
+    sput v0, Lbsqs;->c:F
+
+    sput v0, Lbsqs;->d:F
+
+    return-void
+.end method

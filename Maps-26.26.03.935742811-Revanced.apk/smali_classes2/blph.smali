@@ -1,0 +1,17 @@
+.class public final Lblph;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field public static a:Z = true
+
+.field public static b:Z
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
