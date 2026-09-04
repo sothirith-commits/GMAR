@@ -1,0 +1,35 @@
+.class final Lbgwz;
+.super Lbgxa;
+.source "PG"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    const-string v0, "Red"
+
+    const/4 v1, 0x4
+
+    invoke-direct {p0, v0, v1}, Lbgxa;-><init>(Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lblwc;
+    .locals 0
+
+    sget-object p0, Lbgxf;->e:Lpba;
+
+    return-object p0
+.end method
+
+.method public final b()Lblwc;
+    .locals 0
+
+    sget-object p0, Lbgxf;->f:Lpba;
+
+    return-object p0
+.end method

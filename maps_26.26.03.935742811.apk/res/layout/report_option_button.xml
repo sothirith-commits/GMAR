@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/magic_window_button_size" android:layout_height="@dimen/magic_window_button_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/report_option_button" android:background="@drawable/magic_window_button_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/gs_more_vert_vd_24" android:tint="@android:color/white" android:contentDescription="@string/report_option_button_content_description" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="raw" name="daynight_occupancy_1">@raw/occupancy_1</item>
+    <item type="raw" name="daynight_occupancy_2">@raw/occupancy_2</item>
+    <item type="raw" name="daynight_occupancy_3">@raw/occupancy_3</item>
+    <item type="raw" name="daynight_occupancy_4">@raw/occupancy_4</item>
+</resources>

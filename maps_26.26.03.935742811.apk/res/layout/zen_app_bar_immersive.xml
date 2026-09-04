@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/zen_app_bar_immersive_side_padding" android:paddingEnd="@dimen/zen_app_bar_immersive_side_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/zen_app_bar_immersive_overflow_button" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/zen_app_bar_immersive_button" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/zen_app_bar_immersive_action_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:id="@id/zen_app_bar_immersive_nav_button" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/zen_app_bar_immersive_button" />
+</LinearLayout>

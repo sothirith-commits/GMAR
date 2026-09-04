@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:filterTouchesWhenObscured="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/og_bento_my_account_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/og_bento_upgrade_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/selected_account_actions_gap" />
+    </LinearLayout>
+</merge>

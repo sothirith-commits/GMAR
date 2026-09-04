@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:rowCount="1" android:columnCount="4" style="@style/AAG.AppWidget.Background.SurfaceVariant"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout style="@style/SearchWidgetCard.Grid">
+        <ImageView android:src="@drawable/search_widget_home" android:contentDescription="@string/widget_preview_content_description" style="@style/SearchWidgetEmptyCard" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_marginStart="@dimen/search_widget_small_margin" style="@style/SearchWidgetCard.Grid">
+        <ImageView android:src="@drawable/search_widget_work" android:contentDescription="@string/widget_preview_content_description" style="@style/SearchWidgetEmptyCard" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_marginStart="@dimen/search_widget_small_margin" style="@style/SearchWidgetCard.Grid">
+        <ImageView android:src="@drawable/search_widget_gas" android:contentDescription="@string/widget_preview_content_description" style="@style/SearchWidgetEmptyCard" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_marginStart="@dimen/search_widget_small_margin" style="@style/SearchWidgetCard.Grid">
+        <ImageView android:src="@drawable/search_widget_restaurant" android:contentDescription="@string/widget_preview_content_description" style="@style/SearchWidgetEmptyCard" />
+    </RelativeLayout>
+</GridLayout>

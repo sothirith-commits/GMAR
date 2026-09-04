@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="other">%2$d အနက် %1$d</item>
+        <item quantity="one">%2$d အနက် %1$d</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="other">သင့်တွင် သုံးနေသော မြို့ပတ်ရထားလက်မှတ် %d ခု ရှိသည်</item>
+        <item quantity="one">သင့်တွင် သုံးနေသော မြို့ပတ်ရထားလက်မှတ် %d ခု ရှိသည်</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="other">ဤခရီးစဉ်အတွက် သင့်တွင် သုံးနေသော မြို့ပတ်ရထားလက်မှတ် %d ခု ရှိသည်</item>
+        <item quantity="one">ဤခရီးစဉ်အတွက် သင့်တွင် သုံးနေသော မြို့ပတ်ရထားလက်မှတ် %d ခု ရှိသည်</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="other">နောက်ထပ် ရွေးစရာ %d ခု</item>
+        <item quantity="one">နောက်ထပ် ရွေးစရာ %d ခု</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="other">လူ %1$d ဦး သတင်းပို့ထားသည်</item>
+        <item quantity="one">လူ %1$d ဦး သတင်းပို့ထားသည်</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="other">လူ %1$d ဦးက အကြောင်းကြားထားသည်</item>
+        <item quantity="one">လူ %1$d ဦးက အကြောင်းကြားထားသည်</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="other">+%1$d ဦး</item>
+        <item quantity="one">+%1$d ဦး</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="other">သတိပေးချက် %d ခု</item>
+        <item quantity="one">သတိပေးချက် %d ခု</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="other">တည်နေရာ %1$d ခု</item>
+        <item quantity="one">တည်နေရာ %1$d ခု</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="other">အဖြေ (%,d) ခု ကြည့်ရန်</item>
+        <item quantity="one">အဖြေ ကြည့်ရန်</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="other">ဤနေရာတွင် နေရာ %d ခုကို စူးစမ်းလေ့လာပါ</item>
+        <item quantity="one">ဤနေရာတွင် စူးစမ်းလေ့လာပါ</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="other">စက်ဘီး %d စီး ရနိုင်သည်</item>
+        <item quantity="one">စက်ဘီး %d စီး ရနိုင်သည်</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="other">စက်ဘီးအငှားဌာနတွင် စက်ဘီး %s စီးရှိသည်</item>
+        <item quantity="one">စက်ဘီးအငှားဌာနတွင် စက်ဘီး %s စီးရှိသည်</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="other">စက်ဘီး %d စီး ၡိသည်</item>
+        <item quantity="one">စက်ဘီး %d စီး ၡိသည်</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="other">စက်ဘီးရုံ %d ရုံၡိသည်</item>
+        <item quantity="one">စက်ဘီးရုံ %d ရုံၡိသည်</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="other">စက်ဘီးရုံ %d ရုံ ၡိသည်</item>
+        <item quantity="one">စက်ဘီးရုံ %d ရုံၡိသည်</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="other">%1$d ဦးက အကြံပြုထားသည်</item>
+        <item quantity="one">%1$d ဦးက အကြံပြုထားသည်</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="other">ပိုမြန်သောလမ်းကြောင်း၊ ရပ်နားမှု %1$s ခု ပိုနည်းသည်</item>
+        <item quantity="one">ပိုမြန်သောလမ်းကြောင်း၊ ရပ်နားမှု %1$s ခု ပိုနည်းသည်</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="other">ပိုမြန်သောလမ်းကြောင်း၊ ရပ်နားမှု %1$s ခု ပိုများသည်</item>
+        <item quantity="one">ပိုမြန်သောလမ်းကြောင်း၊ ရပ်နားမှု %1$s ခု ပိုများသည်</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="other">ပိုမြန်သောလမ်းကြောင်း ရနိုင်ပါပြီ၊ ရပ်နားမှု %1$s ခု ပြောင်းလဲသွားသည်</item>
+        <item quantity="one">ပိုမြန်သောလမ်းကြောင်း ရနိုင်ပါပြီ၊ ရပ်နားမှု %1$s ခု ပြောင်းလဲသွားသည်</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="other">လမ်းကြောင်းသစ် လိုအပ်သည်၊ ရပ်နားမှု %1$s ခု ပိုနည်းသည်</item>
+        <item quantity="one">လမ်းကြောင်းသစ် လိုအပ်သည်၊ ရပ်နားမှု %1$s ခု ပိုနည်းသည်</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="other">လမ်းကြောင်းသစ် လိုအပ်သည်၊ ရပ်နားမှု %1$s ခု ပိုများသည်</item>
+        <item quantity="one">လမ်းကြောင်းသစ် လိုအပ်သည်၊ ရပ်နားမှု %1$s ခု ပိုများသည်</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="other">လမ်းကြောင်းသစ် လိုအပ်သည်၊ ရပ်နားမှု %1$s ခု ပြောင်းလဲသွားသည်</item>
+        <item quantity="one">လမ်းကြောင်းသစ် လိုအပ်သည်၊ ရပ်နားမှု %1$s ခု ပြောင်းလဲသွားသည်</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="other">လမ်းကြောင်းသစ်၊ ရပ်နားမှု %1$s ခု ပိုနည်းသည်</item>
+        <item quantity="one">လမ်းကြောင်းသစ်၊ ရပ်နားမှု %1$s ခု ပိုနည်းသည်</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="other">လမ်းကြောင်းသစ်၊ ရပ်နားမှု %1$s ခု ပိုနည်းသည်</item>
+        <item quantity="one">လမ်းကြောင်းသစ်၊ ရပ်နားမှု %1$s ခု ပိုနည်းသည်</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="other">အားသွင်းရန်ရပ်နားမှု %1$s ခု ပိုနည်းသော လမ်းကြောင်းအသစ် ရှိပါသည်။ မောင်းနှင်ချိန်နှင့် အားသွင်းချိန်အပါအဝင် %2$s ပိုမိုမြန်ဆန်ပါသည်။</item>
+        <item quantity="one">အားသွင်းရန်ရပ်နားမှု %1$s ခု ပိုနည်းသော လမ်းကြောင်းအသစ် ရှိပါသည်။ မောင်းနှင်ချိန်နှင့် အားသွင်းချိန်အပါအဝင် %2$s ပိုမိုမြန်ဆန်ပါသည်။</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="other">အားသွင်းရန်ရပ်နားမှု %1$s ခု ပိုများသော လမ်းကြောင်းအသစ် ရှိပါသည်။ မောင်းနှင်ချိန်နှင့် အားသွင်းချိန်အပါအဝင် %2$s ပိုမိုမြန်ဆန်ပါသည်။</item>
+        <item quantity="one">အားသွင်းရန်ရပ်နားမှု %1$s ခု ပိုများသော လမ်းကြောင်းအသစ် ရှိပါသည်။ မောင်းနှင်ချိန်နှင့် အားသွင်းချိန်အပါအဝင် %2$s ပိုမိုမြန်ဆန်ပါသည်။</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="other">လမ်းကြောင်းသစ် အသုံးပြုရန် လိုအပ်ပါသည်။ အားသွင်းရန်ရပ်နားမှု %1$s ခု ပိုနည်းပါသည်။ %2$s တွင် ရောက်ရှိပါမည်။</item>
+        <item quantity="one">လမ်းကြောင်းသစ် အသုံးပြုရန် လိုအပ်ပါသည်။ အားသွင်းရန်ရပ်နားမှု %1$s ခု ပိုနည်းပါသည်။ %2$s တွင် ရောက်ရှိပါမည်။</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="other">လမ်းကြောင်းသစ် အသုံးပြုရန် လိုအပ်ပါသည်။ အားသွင်းရန်ရပ်နားမှု %1$s ခု ပိုများပါသည်။ %2$s တွင် ရောက်ရှိပါမည်။</item>
+        <item quantity="one">လမ်းကြောင်းသစ် အသုံးပြုရန် လိုအပ်ပါသည်။ အားသွင်းရန်ရပ်နားမှု %1$s ခု ပိုများပါသည်။ %2$s တွင် ရောက်ရှိပါမည်။</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="other">လမ်းကြောင်းသစ် အသုံးပြုရန် လိုအပ်ပါသည်။ အားသွင်းရန်ရပ်နားမှု %1$s နေရာ ပြောင်းလဲထားသည်။ %2$s တွင် ရောက်ရှိပါမည်။</item>
+        <item quantity="one">လမ်းကြောင်းသစ် အသုံးပြုရန် လိုအပ်ပါသည်။ အားသွင်းရန်ရပ်နားမှု %1$s နေရာ ပြောင်းလဲထားသည်။ %2$s တွင် ရောက်ရှိပါမည်။</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="other">အားသွင်းရန်ရပ်နားမှု %1$s ခု ပိုနည်းသော လမ်းကြောင်းအသစ် ရှိပါသည်။ ရောက်ရှိချိန် တူညီပါသည်။</item>
+        <item quantity="one">အားသွင်းရန်ရပ်နားမှု %1$s ခု ပိုနည်းသော လမ်းကြောင်းအသစ် ရှိပါသည်။ ရောက်ရှိချိန် တူညီပါသည်။</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="other">အားသွင်းရန်ရပ်နားမှု %1$s ခု ပိုနည်းသော လမ်းကြောင်းအသစ် ရှိပါသည်။ မောင်းနှင်ချိန်နှင့် အားသွင်းချိန်အပါအဝင် %2$s ပိုကြာပါသည်။</item>
+        <item quantity="one">အားသွင်းရန်ရပ်နားမှု %1$s ခု ပိုနည်းသော လမ်းကြောင်းအသစ် ရှိပါသည်။ မောင်းနှင်ချိန်နှင့် အားသွင်းချိန်အပါအဝင် %2$s ပိုကြာပါသည်။</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="other">%1$d ရက်အကြာက သုံးထားသည်</item>
+        <item quantity="one">%1$d ရက်အကြာက သုံးထားသည်</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="other">%1$d ပတ်အကြာက သုံးထားသည်</item>
+        <item quantity="one">%1$d ပတ်အကြာက သုံးထားသည်</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="other">+ ကွန်ရက် %1$d ခု</item>
+        <item quantity="one">+ ကွန်ရက် %1$d ခု</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="other">%1$d ခု ရွေးထားသည်</item>
+        <item quantity="one">%1$d ခု ရွေးထားသည်</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="other">အားသွင်းဆိုင် %1$s ဆိုင်</item>
+        <item quantity="one">အားသွင်းဆိုင် %1$s ဆိုင်</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="other">ရပ်နားရာနေရာ %1$d ခု</item>
+        <item quantity="one">ရပ်နားရာနေရာ %1$d ခု</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="other">%1$d ရွေးချယ်ထားသည်</item>
+        <item quantity="one">%1$d ရွေးချယ်ထားသည်</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="other">%1$s +%2$d</item>
+        <item quantity="one">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="other">+နောက်ထပ် %1$d ခု</item>
+        <item quantity="one">+နောက်ထပ် %1$d ခု</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="other">အလုပ်သို့ %1$d နာရီ %2$d မိနစ်</item>
+        <item quantity="one">အလုပ်သို့ %2$d မိနစ်</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="other">အိမ်သို့ %1$d နာရီ %2$d မိနစ်</item>
+        <item quantity="one">အိမ်သို့ %2$d မိနစ်</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="other">အလုပ်သို့ %1$d နာရီ %2$d မိနစ်</item>
+        <item quantity="one">အလုပ်သို့ %2$d မိနစ်</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="other">ခရီးကြာချိန် %1$d နာရီ %2$d မိနစ်</item>
+        <item quantity="one">ခရီးကြာချိန် %2$d မိနစ်</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="other">အိမ်သို့ %1$d နာရီ %2$d မိနစ်</item>
+        <item quantity="one">အိမ်သို့ %2$d မိနစ်</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="other">ပုံမှန်ထက် %d မိနစ် ပိုမြန်သည်</item>
+        <item quantity="one">ပုံမှန်ထက် %d မိနစ် ပိုမြန်သည်</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="other">ပုံမှန်ထက် %d မိနစ် ပိုနှေးသည်</item>
+        <item quantity="one">ပုံမှန်ထက် %d မိနစ် ပိုနှေးသည်</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="other">မြေပုံရပ်ညွှန်း %d ဒီဂရီ</item>
+        <item quantity="one">မြေပုံရပ်ညွှန်း %d ဒီဂရီ</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="other">ကြယ် %dပွင့် အဆင့် အဆောက်အအုံ</item>
+        <item quantity="one">ကြယ် %dပွင့် အဆင့် အဆောက်အအုံ</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="other">အဆင့် %d ဒေသခံလမ်းညွှန်</item>
+        <item quantity="one">အဆင့် %d ဒေသခံလမ်းညွှန်</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="other">%1$s ကို ကြယ် %2$d ပွင့် အဆင့်သတ်မှတ်ထားသည်</item>
+        <item quantity="one">%1$s ကို ကြယ်တစ်ပွင့် အဆင့်သတ်မှတ်ထားသည်</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="other">ရမှတ်များ</item>
+        <item quantity="one">ရမှတ်</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="other">%s ရက်</item>
+        <item quantity="one">%s ရက်</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="other">%s ရက်</item>
+        <item quantity="one">%s ရက်</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="other">%s ရက်</item>
+        <item quantity="one">%s ရက်</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="other">%s ရက်</item>
+        <item quantity="one">%s ရက်</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="other">%s နာရီ</item>
+        <item quantity="one">%s နာရီ</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="other">%s နာရီ</item>
+        <item quantity="one">%s နာရီ</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="other">%s နာရီ</item>
+        <item quantity="one">%s နာရီ</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="other">%s မိနစ်</item>
+        <item quantity="one">%s မိနစ်</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="other">%s မိနစ်</item>
+        <item quantity="one">%s မိနစ်</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="other">%s မိနစ်</item>
+        <item quantity="one">%s မိနစ်</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="other">%s</item>
+        <item quantity="one">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="other">%s စက္ကန့်</item>
+        <item quantity="one">%s စက္ကန့်</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="other">%1$s ပေ ဆက်သွားပါ</item>
+        <item quantity="one">%1$s ပေ ဆက်သွားပါ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="other">%1$s ကီလိုမီတာ ဆက်သွားပါ</item>
+        <item quantity="one">%1$s ကီလိုမီတာ ဆက်သွားပါ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="other">%1$s မီတာ ဆက်သွားပါ</item>
+        <item quantity="one">%1$s မီတာ ဆက်သွားပါ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="other">%1$s မိုင် ဆက်သွားပါ</item>
+        <item quantity="one">%1$s မိုင် ဆက်သွားပါ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="other">%1$s ကိုက် ဆက်သွားပါ</item>
+        <item quantity="one">%1$s ကိုက် ဆက်သွားပါ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="other">%2$s လမ်းပေါ်တွင် %1$s ပေ ဆက်သွားပါ</item>
+        <item quantity="one">%2$s လမ်းပေါ်တွင် %1$s ပေ ဆက်သွားပါ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="other">%2$s လမ်းပေါ်တွင် %1$s ကီလိုမီတာ ဆက်သွားပါ</item>
+        <item quantity="one">%2$s လမ်းပေါ်တွင် %1$s ကီလိုမီတာ ဆက်သွားပါ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="other">%2$s လမ်းပေါ်တွင် %1$s မီတာ ဆက်သွားပါ</item>
+        <item quantity="one">%2$s လမ်းပေါ်တွင် %1$s မီတာ ဆက်သွားပါ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="other">%2$s လမ်းပေါ်တွင် %1$s မိုင် ဆက်သွားပါ</item>
+        <item quantity="one">%2$s လမ်းပေါ်တွင် %1$s မိုင် ဆက်သွားပါ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="other">%2$s လမ်းပေါ်တွင် %1$s ကိုက် ဆက်သွားပါ</item>
+        <item quantity="one">%2$s လမ်းပေါ်တွင် %1$s ကိုက် ဆက်သွားပါ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="other">%1$s ပေအတွင်း</item>
+        <item quantity="one">%1$s ပေအတွင်း</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="other">%1$s ကီလိုမီတာအတွင်း</item>
+        <item quantity="one">%1$s ကီလိုမီတာအတွင်း</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="other">%1$s မီတာအတွင်း</item>
+        <item quantity="one">%1$s မီတာအတွင်း</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="other">%1$s မိုင်အတွင်း</item>
+        <item quantity="one">%1$s မိုင်အတွင်း</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="other">%1$s ကိုက်အတွင်း</item>
+        <item quantity="one">%1$s ကိုက်အတွင်း</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="other">တစ်နာရီလျှင် %s ကီလိုမီတာ</item>
+        <item quantity="one">တစ်နာရီလျှင် %s ကီလိုမီတာ</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="other">တစ်နာရီလျှင် %s မိုင်</item>
+        <item quantity="one">တစ်နာရီလျှင် %s မိုင်</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="other">အရှေ့ ပေ %1$s တွင် သင်၏ခရီးဆုံးသို့ရောက်ပါပြီ</item>
+        <item quantity="one">အရှေ့ %1$s ပေတွင် သင်၏ခရီးဆုံးသို့ရောက်ပါပြီ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="other">အရှေ့ %1$s မီတာတွင် သင်၏ခရီးဆုံးသို့ရောက်ပါပြီ</item>
+        <item quantity="one">အရှေ့ %1$s မီတာတွင် သင်၏ခရီးဆုံးသို့ရောက်ပါပြီ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="other">အရှေ့ မီတာ %1$s တွင် သင်၏ခရီးဆုံးသို့ရောက်ပါပြီ</item>
+        <item quantity="one">အရှေ့ %1$s မီတာတွင် သင်၏ခရီးဆုံးသို့ရောက်ပါပြီ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="other">အရှေ့ မိုင် %1$s တွင် သင်၏ခရီးဆုံးသို့ရောက်ပါပြီ</item>
+        <item quantity="one">အရှေ့ %1$s မိုင်တွင် သင်၏ခရီးဆုံးသို့ရောက်ပါပြီ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="other">အရှေ့ ကိုက် %1$s တွင် သင်၏ခရီးဆုံးသို့ရောက်ပါပြီ</item>
+        <item quantity="one">အရှေ့ %1$s ကိုက်တွင် သင်၏ခရီးဆုံးသို့ရောက်ပါပြီ</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="other">ရပ်မည့်နေရာ %d ခု</item>
+        <item quantity="one">ရပ်မည့်နေရာ %d ခု</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="other">ခရီးဆက်ရန်မုဒ် %1$d ခု</item>
+        <item quantity="one">ခရီးဆက်ရန်မုဒ် %1$d ခု</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="other">ပြီးခဲ့သော %d ရက်က အပ်ဒိတ်လုပ်ထားသည်</item>
+        <item quantity="one">ပြီးခဲ့သော %d ရက်က အပ်ဒိတ်လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="other">ပြီးခဲ့သော %d လက အပ်ဒိတ်လုပ်ထားသည်</item>
+        <item quantity="one">ပြီးခဲ့သော %d လက အပ်ဒိတ်လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="other">ပြီးခဲ့သော %d ပတ်က အပ်ဒိတ်လုပ်ထားသည်</item>
+        <item quantity="one">ပြီးခဲ့သော %d ပတ်က အပ်ဒိတ်လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="other">စက်ဘီး %d စီး ၡိသည်</item>
+        <item quantity="one">စက်ဘီး %d စီး ၡိသည်</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="other">အနီးတဝိုက်တွင် စက်ဘီး %d စီးရှိသည်</item>
+        <item quantity="one">အနီးတဝိုက်တွင် စက်ဘီး %d စီးရှိသည်</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="other">%1$d ခု ရွေးထားသည်</item>
+        <item quantity="one">%1$d ခု ရွေးထားသည်</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="other">အားသွင်းပို့တ် %2$d ခုမှ %1$d ခု</item>
+        <item quantity="one">အားသွင်းပို့တ် %2$d ခုမှ %1$d ခု</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="other">အားသွင်းပို့တ် %d ခု</item>
+        <item quantity="one">အားသွင်းပို့တ် %d ခု</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="other">ကြယ် %1$d ပွင့်အဆင့်သတ်မှတ်ရန် မအောင်မြင်ခဲ့ပါ၊ ကျေးဇူးပြု၍ ထပ်ကြိုးစားကြည့်ပါ</item>
+        <item quantity="one">ကြယ် ၁ ပွင့်အဆင့်သတ်မှတ်ရန် မအောင်မြင်ခဲ့ပါ၊ ကျေးဇူးပြု၍ ထပ်ကြိုးစားကြည့်ပါ</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="other">%s လွှာ</item>
+        <item quantity="one">%s လွှာ</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="other">အပို %d ည</item>
+        <item quantity="one">အပို %d ည</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="other">%d ည ထည့်ရန်</item>
+        <item quantity="one">%d ည ထည့်ရန်</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="other">ဤဟိုတယ်တွင် %1$d ညအတွက် အခန်းရနိုင်ပါသည်။ အပို %2$s ညအတွက် တစ်ညလျှင် ပျမ်းမျှ %3$s ကျပါသည်</item>
+        <item quantity="one">ဤဟိုတယ်တွင် %1$d ညအတွက် အခန်းရနိုင်ပါသည်။ အပို %2$s ညအတွက် တစ်ညလျှင် ပျမ်းမျှ %3$s ကျပါသည်</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="other">အပို %1$s ညအတွက် တစ်ညလျှင် ပျမ်းမျှ %2$s ကျပါသည်</item>
+        <item quantity="one">အပို %1$s ညအတွက် တစ်ညလျှင် ပျမ်းမျှ %2$s ကျပါသည်</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="other">ဧည့်သည် %d ယောက်</item>
+        <item quantity="one">ဧည့်သည် %d ယောက်</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="other">နှင့် နောက်ထပ် %d ခု။</item>
+        <item quantity="one">နှင့် နောက်ထပ် %d ခု။</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="other">+နောက်ထပ် %d ခု။</item>
+        <item quantity="one">+နောက်ထပ် %d ခု။</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="other">ပြီးခဲ့သော %d ရက်</item>
+        <item quantity="one">ပြီးခဲ့သော %d ရက်</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="other">ပြီးခဲ့သော %d နာရီ</item>
+        <item quantity="one">ပြီးခဲ့သော %d နာရီ</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="other">ပြီးခဲ့သော %d မိနစ်</item>
+        <item quantity="one">ပြီးခဲ့သော %d မိနစ်</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="other">%1$s နှင့် နောက်ထပ် %2$d ခုတွင် သိမ်းထားသည်</item>
+        <item quantity="one">%1$s နှင့် နောက်ထပ် %2$d ခုတွင် သိမ်းထားသည်</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="other">သိမ်းထားပြီး စာရင်း %1$d ခုတွင် ရှိသည်</item>
+        <item quantity="one">သိမ်းထားပြီး စာရင်း %1$d ခုတွင် ရှိသည်</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="other">စာရင်း %d ခုမှ ဖယ်ရှားလိုက်သည်</item>
+        <item quantity="one">စာရင်း %d ခုမှ ဖယ်ရှားလိုက်သည်</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="other">လွန်ခဲ့သော %d လက ရောက်ခဲ့သည်</item>
+        <item quantity="one">လွန်ခဲ့သော %d လက ရောက်ခဲ့သည်</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="other">လွန်ခဲ့သော %d ပတ်က ရောက်ခဲ့သည်</item>
+        <item quantity="one">လွန်ခဲ့သော %d ပတ်က ရောက်ခဲ့သည်</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="other">လွန်ခဲ့သော %d နှစ်က ရောက်ခဲ့သည်</item>
+        <item quantity="one">လွန်ခဲ့သော %d နှစ်က ရောက်ခဲ့သည်</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="other">ပွဲ %d ခု</item>
+        <item quantity="one">ပွဲ %d ခု</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="other">%d ခု</item>
+        <item quantity="one">%d ခု</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="other">နေရာ %d ခု</item>
+        <item quantity="one">နေရာ %d ခု</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="other">သိမ်းထားခြင်း %d ခု</item>
+        <item quantity="one">သိမ်းထားခြင်း %d ခု</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="other">ခရီးစဉ် %d ခု</item>
+        <item quantity="one">ခရီးစဉ် %d ခု</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="other">%s ကြိမ် ကြည့်ပြီးပြီ</item>
+        <item quantity="one">%s ကြိမ် ကြည့်ပြီးပြီ</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="other">+%d ခု</item>
+        <item quantity="one">+%d ခု</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="other">ပြီးခဲ့သည့် %d ရက်က တည်းဖြတ်ထားသည်</item>
+        <item quantity="one">ပြီးခဲ့သည့် %d ရက်က တည်းဖြတ်ထားသည်</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="other">ပြီးခဲ့သည့် %d လက တည်းဖြတ်ထားသည်</item>
+        <item quantity="one">ပြီးခဲ့သည့် %d လက တည်းဖြတ်ထားသည်</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="other">ပြီးခဲ့သည့် %d ပတ်က တည်းဖြတ်ထားသည်</item>
+        <item quantity="one">ပြီးခဲ့သည့် %d ပတ်က တည်းဖြတ်ထားသည်</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="other">ပြီးခဲ့သည့် %d နှစ်က တည်းဖြတ်ထားသည်</item>
+        <item quantity="one">ပြီးခဲ့သည့် %d နှစ်က တည်းဖြတ်ထားသည်</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="other">မှတ်တိုင် %d ခု</item>
+        <item quantity="one">မှတ်တိုင် %d ခု</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="other">သင် %d မှတ် ရထားသည်</item>
+        <item quantity="one">သင် %d မှတ် ရထားသည်</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="other">အဆင့် %1$d သို့ ရောက်ရန် %2$d မှတ်သာ လိုပါတော့သည်</item>
+        <item quantity="one">အဆင့် %1$d သို့ ရောက်ရန် %2$d မှတ်သာ လိုပါတော့သည်</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="other">အဆင့် %d</item>
+        <item quantity="one">အဆင့် %d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_LEVEL">
+        <item quantity="other">ဒေသခံလမ်းညွှန် အဆင့် %d</item>
+        <item quantity="one">ဒေသခံလမ်းညွှန် အဆင့် %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="other">လုပ်ငန်းသက်တမ်း %d+ နှစ်</item>
+        <item quantity="one">လုပ်ငန်းသက်တမ်း %d နှစ်</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="other">လွန်ခဲ့သော %d ရက်က</item>
+        <item quantity="one">လွန်ခဲ့သော %d ရက်က</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="other">လွန်ခဲ့သော %d နာရီက</item>
+        <item quantity="one">လွန်ခဲ့သော %d နာရီက</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="other">လွန်ခဲ့သော %d မိနစ်က</item>
+        <item quantity="one">လွန်ခဲ့သော %d မိနစ်က</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="other">ဤနေရာရှိ နေရာ %d ခု</item>
+        <item quantity="one">ဤနေရာရှိ နေရာ %d ခု</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="other">ဓာတ်ပုံများကို ဖယ်ရှားပြီးပြီ</item>
+        <item quantity="one">ဓာတ်ပုံကို ဖယ်ရှားပြီးပါပြီ</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">ပို့စ် %1$d ရှိ %2$d ဗီဒီယိုကို ချဲ့ကြည့်ရန်</item>
+        <item quantity="one">ပို့စ် %1$d ရှိ ဗီဒီယိုကို ချဲ့ကြည့်ရန်</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="other">%2$,d ပုံ အနက် %1$,d ပုံ</item>
+        <item quantity="one">%2$,d ပုံ အနက် %1$,d ပုံ</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="other">မီဒီယာ %1$d ဖိုင် အပ်လုဒ်လုပ်နေသည်</item>
+        <item quantity="one">မီဒီယာ %1$d ဖိုင် အပ်လုဒ်လုပ်နေသည်</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="other">မီနူး ဓာတ်ပုံနံပါတ် %d</item>
+        <item quantity="one">မီနူး ဓာတ်ပုံနံပါတ် %d</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="other">အစီရင်ခံစာ %1$d ခု</item>
+        <item quantity="one">အစီရင်ခံစာ %1$d ခု</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="other">ဤလင့်ခ်ရှိသူများက သင့်တည် နေရာကို ၁ ရက်နှင့် %d နာရီ ကြာအောင် မြင်ရပါသည်</item>
+        <item quantity="one">ဤလင့်ခ်ရှိသူများက သင့်တည် နေရာကို ၁ ရက်နှင့် %d နာရီ ကြာအောင် မြင်ရပါသည်</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="other">ဤလင့်ခ်ရှိသူများက သင့်တည် နေရာကို ၁ နာရီနှင့် %d မိနစ် ကြာအောင် မြင်ရပါသည်</item>
+        <item quantity="one">ဤလင့်ခ်ရှိသူများက သင့်တည် နေရာကို ၁ နာရီနှင့် %d မိနစ် ကြာအောင် မြင်ရပါသည်</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="other">ဤလင့်ခ်ရှိသူများက သင့်တည်နေရာကို %d ရက်ကြာအောင် မြင်ရပါသည်</item>
+        <item quantity="one">ဤလင့်ခ်ရှိသူများက သင့်တည်နေရာကို %d ရက်ကြာအောင် မြင်ရပါသည်</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="other">ဤလင့်ခ်ရှိသူများက သင့်တည်နေရာကို %d နာရီကြာအောင် မြင်ရပါသည်</item>
+        <item quantity="one">ဤလင့်ခ်ရှိသူများက သင့်တည်နေရာကို %d နာရီကြာအောင် မြင်ရပါသည်</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="other">ဤလင့်ခ်ရှိသူများက သင့်တည်နေရာကို %d မိနစ်ကြာအောင် မြင်ရပါသည်</item>
+        <item quantity="one">ဤလင့်ခ်ရှိသူများက သင့်တည်နေရာကို %d မိနစ်ကြာအောင် မြင်ရပါသည်</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="other">နောက်ထပ် %d ခု</item>
+        <item quantity="one">နောက်ထပ် %d ခု</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">ပို့စ် %1$d ရှိ %2$d ဗီဒီယိုကို အသံပိတ်ရန်</item>
+        <item quantity="one">ပို့စ် %1$d ရှိ ဗီဒီယိုကို အသံပိတ်ရန်</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="other">ဓာတ်ပုံများ/ဗီဒီယို %d ခု</item>
+        <item quantity="one">ဓာတ်ပုံ/ဗီဒီယို %d ခု</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="other">ဗီဒီယို %d ခု</item>
+        <item quantity="one">ဗီဒီယို %d ခု</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="other">စိတ်ကြိုက်အယ်ဗတာ %2$d ခုအနက် %1$d</item>
+        <item quantity="one">စိတ်ကြိုက်အယ်ဗတာ %2$d ခုအနက် %1$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="other">အပ်ဒိတ်အသစ် %d ခု</item>
+        <item quantity="one">အပ်ဒိတ်အသစ် %d ခု</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="other">လုပ်ငန်းအပ်ဒိတ်များ၊ အကြောင်းကြားချက်အသစ် %1$s ခု</item>
+        <item quantity="one">လုပ်ငန်းအပ်ဒိတ်များ၊ အကြောင်းကြားချက်အသစ် %1$s ခု</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="other">ဓာတ်ပုံ %d ပုံ</item>
+        <item quantity="one">ဓာတ်ပုံ %d ပုံ</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="other">သုံးသပ်ချက် %d ခု</item>
+        <item quantity="one">သုံးသပ်ချက် %d ခု</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="other">ပုံသေးနံပါတ် %d</item>
+        <item quantity="one">ပုံသေးနံပါတ် %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="other">အော့ဖ်လိုင်းဧရိယာ %d ခု</item>
+        <item quantity="one">အော့ဖ်လိုင်းဧရိယာ %d ခု</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="other">တိုင်ကြားချက် %1$d ခုကို အခြေခံထားသည်</item>
+        <item quantity="one">တိုင်ကြားချက် %1$d ခုကို အခြေခံထားသည်</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">ပို့စ် %1$d ရှိ %2$d ဗီဒီယိုကို ခဏရပ်ရန်</item>
+        <item quantity="one">ပို့စ် %1$d ရှိ ဗီဒီယိုကို ခဏရပ်ရန်</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="other">ပြန်လှန်တုံ့ပြန်မှု %1$s ခု</item>
+        <item quantity="one">ပြန်လှန်တုံ့ပြန်မှု %1$s ခု</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="other">ရှာဖွေမှု %1$s ခု</item>
+        <item quantity="one">ရှာဖွေမှု %1$s ခု</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="other">ကြည့်ရှုမှု %1$s ကြိမ်</item>
+        <item quantity="one">ကြည့်ရှုမှု %1$s ကြိမ်</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="other">%d ညအတွက် ကြိုတင်မှာယူမှု</item>
+        <item quantity="one">%d ညအတွက် ကြိုတင်မှာယူမှု</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="other">သင်တစ်ဦးတည်းသာ မြင်နိုင်သည်</item>
+        <item quantity="one">သင်တစ်ဦးတည်းသာ မြင်နိုင်သည်</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="other">%1$d ရက်</item>
+        <item quantity="one">%1$d ရက်</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="other">%1$d ည</item>
+        <item quantity="one">%1$d ည</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="other">ဓာတ်ပုံ %d ပုံ</item>
+        <item quantity="one">ဓာတ်ပုံ %d ပုံ</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="other">"WiFi ကို စောင့်ဆိုင်းနေပါသည်။ 
+ ဆိုင်းငံ့နေသော ဓာတ်ပုံ သို့မဟုတ် ဗီဒီယိုများ %d ခု"</item>
+        <item quantity="one">"WiFi ကို စောင့်ဆိုင်းနေပါသည်။ 
+ ဆိုင်းငံ့နေသော ဓာတ်ပုံ သို့မဟုတ် ဗီဒီယို %d ခု"</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="other">ပို့စ် %1$d အတွက် ဓာတ်ပုံ %2$d</item>
+        <item quantity="one">ပို့စ် %1$d အတွက် ဓာတ်ပုံ</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="other">ပြီးခဲ့သည့် %d ရက်က</item>
+        <item quantity="one">ပြီးခဲ့သည့် %d ရက်က</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="other">ပြီးခဲ့သည့် %d နာရီက</item>
+        <item quantity="one">ပြီးခဲ့သည့် %d နာရီက</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="other">ပြီးခဲ့သည့် %d လက</item>
+        <item quantity="one">ပြီးခဲ့သည့် %d လက</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="other">ပြီးခဲ့သော %d ပတ်</item>
+        <item quantity="one">ပြီးခဲ့သော %d ပတ်</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="other">ပြီးခဲ့သည့် %d နှစ်က</item>
+        <item quantity="one">ပြီးခဲ့သည့် %d နှစ်က</item>
+    </plurals>
+    <plurals name="PHOTO_INDEX_IN_LIST">
+        <item quantity="other">ဓာတ်ပုံ %2$,d ပုံမှ %1$,d ပုံ</item>
+        <item quantity="one">ဓာတ်ပုံ %2$,d ပုံမှ %1$,d ပုံ</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="other">အပ်ဒိတ် %d ခု</item>
+        <item quantity="one">အပ်ဒိတ် %d ခု</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="other">အဖြေ %d ခု ကြည့်ရန်</item>
+        <item quantity="one">အဖြေ %d ခု ကြည့်ရန်</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="other">+%1$,d</item>
+        <item quantity="one">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">ပို့စ် %1$d ရှိ %2$d ဗီဒီယိုကို ဖွင့်ရန်</item>
+        <item quantity="one">ပို့စ် %1$d ရှိ ဗီဒီယိုကို ဖွင့်ရန်</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="other">+အခြားမျှဝေသူ %d ယောက်</item>
+        <item quantity="one">+အခြားမျှဝေသူ %d ယောက်</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="other">အစားထိုးရန်</item>
+        <item quantity="one">အစားထိုးရန်</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="other">ရပ်မည့်နေရာများကို အစားထိုးနေသည်</item>
+        <item quantity="one">ရပ်မည့်နေရာ အစားထိုးနေသည်</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="other">ကြည့်ရှုသူ %,d ယောက်</item>
+        <item quantity="one">ကြည့်ရှုသူ %,d ယောက်</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="other">အဆင့်သတ်မှတ်ချက် %d</item>
+        <item quantity="one">အဆင့်သတ်မှတ်ချက် %d</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="other">သုံးသပ်ချက် %d ခု</item>
+        <item quantity="one">သုံးသပ်ချက် %d ခု</item>
+    </plurals>
+    <plurals name="PROFILE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="other">အဖြေ %,d ခု ကြည့်ပါ</item>
+        <item quantity="one">အဖြေ %,d ခု ကြည့်ပါ</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="other">ကြယ် %d ပွင့် အဆင့်ပေးထားသည်</item>
+        <item quantity="one">ကြယ် %d ပွင့် အဆင့်ပေးထားသည်</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="other">ကြယ် %d ပွင့်</item>
+        <item quantity="one">ကြယ် %d ပွင့်</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="other">%2$s တုံ့ပြန်မှု %1$,d ခု</item>
+        <item quantity="one">%2$s တုံ့ပြန်မှု ၁ ခု</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="other">ပြီးခဲ့သည့် %d မိနစ်က အပ်ဒိတ်လုပ်ထားသည်</item>
+        <item quantity="one">ပြီးခဲ့သည့် %d မိနစ်က အပ်ဒိတ်လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="other">%1$d တွဲပါ ရထားမှ အမြန်ဆုံး ထွက်နိုင်ရန် %2$s ကို တက်ပါ</item>
+        <item quantity="one">%1$d တွဲပါ ရထားမှ အမြန်ဆုံး ထွက်နိုင်ရန် %2$s ကို တက်ပါ</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="other">%1$d တွဲပါ ရထားမှ အမြန်ဆုံး ပြောင်းစီးနိုင်ရန် %2$s ကို တက်ပါ</item>
+        <item quantity="one">%1$d တွဲပါ ရထားမှ အမြန်ဆုံး ပြောင်းစီးနိုင်ရန် %2$s ကို တက်ပါ</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="other">လူအချောင်ဆုံးတွဲများမှာ %1$s တွင်ရှိသည်</item>
+        <item quantity="one">လူအချောင်ဆုံးတွဲမှာ %1$s တွင်ရှိသည်</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="other">%1$d တွဲပါ ရထား</item>
+        <item quantity="one">%1$d တွဲပါ ရထား</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="other">ပေးချေမှု %d ခု</item>
+        <item quantity="one">ပေးချေမှု %d ခု</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="other">%1$s +နောက်ထပ် %2$s ခု</item>
+        <item quantity="one">%1$s +နောက်ထပ် %2$s ခု</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="other">%d+</item>
+        <item quantity="one">%d+</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="other">ကြယ် ၅ ပွင့်အနက်မှ ကြယ် %1$d ပွင့် အဆင့်သတ်မှတ်သည်</item>
+        <item quantity="one">ကြယ် ၅ ပွင့်အနက်မှ ကြယ် ၁ ပွင့် အဆင့်သတ်မှတ်သည်</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="other">ကြည့်ရှုကြိမ် %s ကြိမ်</item>
+        <item quantity="one">ကြည့်ရှုကြိမ် %s ကြိမ်</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="other">အဆင့်သတ်မှတ်ချက် သို့မဟုတ် သုံးသပ်ချက် %,d ခု</item>
+        <item quantity="one">အဆင့်သတ်မှတ်ချက် သို့မဟုတ် သုံးသပ်ချက် %d ခု</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="other">အဆင့်သတ်မှတ်ချက် သို့မဟုတ် သုံးသပ်ချက် %,d ခု</item>
+        <item quantity="one">အဆင့်သတ်မှတ်ချက် သို့မဟုတ် သုံးသပ်ချက် %d ခု</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="other">(%,d)</item>
+        <item quantity="one">(%d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="other">%d ယောက်</item>
+        <item quantity="one">%d ယောက်</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="other">မေးခွန်း %d ခု</item>
+        <item quantity="one">မေးခွန်း %d ခု</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="other">နောက်ထပ်စာရင်း %d ခု</item>
+        <item quantity="one">နောက်ထပ်စာရင်း %d ခု</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="other">%1$s နှင့် နောက်ထပ် စာရင်း %2$d ခုတွင် သိမ်းလိုက်ပါပြီ</item>
+        <item quantity="one">%1$s နှင့် နောက်ထပ် စာရင်း %2$d ခုတွင် သိမ်းလိုက်ပါပြီ</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="other">%d ရက်တုန်းကနေရာကို သိမ်းမလား။</item>
+        <item quantity="one">%d ရက်တုန်းကနေရာကို သိမ်းမလား။</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="other">%2$s အတွက် ရလဒ် %1$d ခု တွေ့ထားသည်</item>
+        <item quantity="one">%2$s အတွက် ရလဒ် %1$d ခု တွေ့ထားသည်</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="other">ကြယ် %1$d ပွင့်အဆင့်သတ်မှတ်ခြင်းကို ပို့နေသည်</item>
+        <item quantity="one">ကြယ် ၁ ပွင့်အဆင့်သတ်မှတ်ခြင်းကို ပို့နေသည်</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="other">%d ရက်အထိ</item>
+        <item quantity="one">%d ရက်အထိ</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="other">%d နာရီအထိ</item>
+        <item quantity="one">%d နာရီအထိ</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="other">%d မိနစ်အထိ</item>
+        <item quantity="one">%d မိနစ်အထိ</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="other">သင့်တည်နေရာကို %2$s နှင့် အခြား %1$d ဦးအား မျှဝေနေသည်</item>
+        <item quantity="one">သင့်တည်နေရာကို %2$s နှင့် အခြား %1$d ဦးအား မျှဝေနေသည်</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="other">သင့်တည်နေရာကို အခြား %d ဦးထံ မျှဝေထားသည်</item>
+        <item quantity="one">သင့်တည်နေရာကို အခြား %d ဦးထံ မျှဝေထားသည်</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="other">နေရာ %d ခု သိမ်းရန်</item>
+        <item quantity="one">နေရာ %d ခု သိမ်းရန်</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="other">နေရာ %d ခု ရှာတွေ့သည်</item>
+        <item quantity="one">နေရာ %d ခု ရှာတွေ့သည်</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="other">%1$s၊ ကြယ် %2$d ပွင့်</item>
+        <item quantity="one">%1$s၊ ကြယ် %2$d ပွင့်</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="other">ကြယ် %1$d ပွင့်အဆင့် အောင်မြင်စွာ သတ်မှတ်ပြီးပါပြီ</item>
+        <item quantity="one">ကြယ် ၁ ပွင့်အဆင့် အောင်မြင်စွာ သတ်မှတ်ပြီးပါပြီ</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="other">%,d ကြိမ် ကြည့်ပြီးပြီ</item>
+        <item quantity="one">%,d ကြိမ် ကြည့်ပြီးပြီ</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="other">+%d မှတ်</item>
+        <item quantity="one">+%d မှတ်</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="other">%2$s ၏ ဓာတ်ပုံ သို့မဟုတ် ဗီဒီယို %1$d ခု ပို့စ်တင်ပါ</item>
+        <item quantity="one">%2$s ၏ ဓာတ်ပုံ သို့မဟုတ် ဗီဒီယို %1$d ခု ပို့စ်တင်ပါ</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="other">%2$s ၏ ဓာတ်ပုံ %1$d ပုံကို ပို့စ်တင်ရန်</item>
+        <item quantity="one">%2$s ၏ ဓာတ်ပုံ %1$d ပုံကို ပို့စ်တင်ရန်</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="other">+နောက်ထပ် %d ခု</item>
+        <item quantity="one">+နောက်ထပ် %d ခု</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="other">ဓာတ်ပုံ%1$d ပုံ ပို့စ်တင်လိုက်သည်</item>
+        <item quantity="one">ဓာတ်ပုံ%1$d ပုံ ပို့စ်တင်လိုက်သည်</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="other">ပို့စ် %1$d ခု တင်ရန်</item>
+        <item quantity="one">ပို့စ် %1$d ခု တင်ရန်</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="other">နောက်ထပ် %1$,d ဦးအထက်က ဤအကြောင်းဖော်ပြထားပါသည် %2$s</item>
+        <item quantity="one">နောက်ထပ် %1$d ဦးအထက်က ဤအကြောင်းဖော်ပြထားပါသည် %2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="other">တုံ့ပြန်မှု %1$,d</item>
+        <item quantity="one">တုံ့ပြန်မှု ၁</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="other">%2$s မှစသော နောက်ထပ်ရွေးစရာ %1$d ခု ကြည့်ရန်</item>
+        <item quantity="one">%2$s မှစသော နောက်ထပ်ရွေးစရာ %1$d ခု ကြည့်ရန်</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="other">နောက်ထပ်ရွေးစရာ %1$d ခု ကြည့်ရန်</item>
+        <item quantity="one">နောက်ထပ်ရွေးစရာ %1$d ခု ကြည့်ရန်</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="other">ယာဉ်ကြောအသွားအလာများအကြား အမြန်ဆုံး လမ်းကြောင်းများကို တွေ့မြင်ရန် သင်၏ လိပ်စာများကို သိမ်းထားပါ</item>
+        <item quantity="one">ယာဉ်ကြောအသွားအလာများအကြား အမြန်ဆုံး လမ်းကြောင်းများကို တွေ့မြင်ရန် သင်၏ လိပ်စာကို သိမ်းထားပါ</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="other">ပြီးခဲ့သည့် %1$d စက္ကန့်က ထွက်ခွာချိန်များ အပ်ဒိတ်လုပ်ထား၏</item>
+        <item quantity="one">ပြီးခဲ့သည့် %1$d စက္ကန့်က ထွက်ခွာချိန်များ အပ်ဒိတ်လုပ်ထား၏</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="other">%d မိနစ်တစ်ကြိမ် ထွက်ခွာသည်</item>
+        <item quantity="one">တစ်မိနစ်တစ်ကြိမ် ထွက်ခွာသည်</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="other">%d မိနစ်</item>
+        <item quantity="one">%d မိနစ်</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="other">%1$s (သတိပေးချက် %2$d ခု)</item>
+        <item quantity="one">%1$s (သတိပေးချက် ၁ ခု)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="other">%1$s ဘတ်စ်ကား (သတိပေးချက် %2$d ခု)</item>
+        <item quantity="one">%1$s ဘတ်စ်ကား (သတိပေးချက် ၁ ခု)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="other">%1$s ဖယ်ရီ (သတိပေးချက် %2$d ခု)</item>
+        <item quantity="one">%1$s ဖယ်ရီ (သတိပေးချက် ၁ ခု)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="other">%1$s ယာဉ်လိုင်း (သတိပေးချက် %2$d ခု)</item>
+        <item quantity="one">%1$s ယာဉ်လိုင်း (သတိပေးချက် ၁ ခု)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="other">%1$s ရထား (သတိပေးချက် %2$d ခု)</item>
+        <item quantity="one">%1$s ရထား (သတိပေးချက် ၁ ခု)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="other">%1$s ဓာတ်ရထား (သတိပေးချက် %2$d ခု)</item>
+        <item quantity="one">%1$s ဓာတ်ရထား (သတိပေးချက် ၁ ခု)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="other">%d မိနစ်တိုင်း</item>
+        <item quantity="one">၁ မိနစ်တိုင်း</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="other">%d ခု</item>
+        <item quantity="one">ရပ်မည့်နေရာ %d ခု</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="other">"%1$s
+မိနစ်က"</item>
+        <item quantity="one">"%1$s
+မိနစ်က"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="other">%1$s မိနစ်က ထွက်သွားပြီ</item>
+        <item quantity="one">%1$s မိနစ်က ထွက်သွားပြီ</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="other">+%d သတိပေးချက်</item>
+        <item quantity="one">+%d သတိပေးချက်</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="other">သတိပေးချက် %d ခု</item>
+        <item quantity="one">သတိပေးချက် + %d ခု</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="other">+နောက်ထပ် %d ခု</item>
+        <item quantity="one">+နောက်ထပ် %d ခု</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="other">+နောက်ထပ် %d ချက်</item>
+        <item quantity="one">+နောက်ထပ် %d ချက်</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_LINES_COUNT">
+        <item quantity="other">+နောက်ထပ်%1$d ခု</item>
+        <item quantity="one">+နောက်ထပ်%1$d ခု</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="other">"%1$s
+မိနစ်"</item>
+        <item quantity="one">"%1$s
+မိနစ်"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="other">ပြီးခဲ့သည့် %1$s မိနစ်</item>
+        <item quantity="one">ပြီးခဲ့သည့် %1$s မိနစ်</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="other">%1$s မိနစ်အတွင်း ထွက်ပါမည်</item>
+        <item quantity="one">%1$s မိနစ်အတွင်း ထွက်ပါမည်</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="other">နောက်ထပ် သတိပေးချက် %1$s ခု</item>
+        <item quantity="one">နောက်ထပ် သတိပေးချက် %1$s ခု</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="other">ဓာတ်ပုံ %s ပုံ</item>
+        <item quantity="one">ဓာတ်ပုံ %s ပုံ</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="other">သုံးသပ်ချက် %s ခု</item>
+        <item quantity="one">သုံးသပ်ချက် %s ခု</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="other">ပါဝင်အားဖြည့်မှု %,d ခု</item>
+        <item quantity="one">ပါဝင်အားဖြည့်မှု %,d ခု</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="other">ကြည့်ရှုမှု %,d ကြိမ်</item>
+        <item quantity="one">ကြည့်ရှုမှု %,d ကြိမ်</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="other">%1$d ခု အထိ ရွေးပါ</item>
+        <item quantity="one">%1$d ခု အထိ ရွေးပါ</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="other">ဓာတ်ပုံ %1$s ပုံအထိ ရွေးပါ</item>
+        <item quantity="one">ဓာတ်ပုံ %1$s ပုံအထိ ရွေးပါ</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">ပို့စ် %1$d ရှိ %2$d ဗီဒီယိုကို အသံပြန်ဖွင့်ရန်</item>
+        <item quantity="one">ပို့စ် %1$d ရှိ ဗီဒီယိုကို အသံပြန်ဖွင့်ရန်</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="other">%2$d ပုံမှ %1$d ပုံ</item>
+        <item quantity="one">%2$d ပုံမှ %1$d ပုံ</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="other">"WiFi ကိုစောင့်ဆိုင်းနေပါသည်။
+ ဆိုင်းငံ့နေသောဓာတ်ပုံ %d ပုံ"</item>
+        <item quantity="one">"WiFi ကိုစောင့်ဆိုင်းနေပါသည်။
+ ဆိုင်းငံ့နေသောဓာတ်ပုံ %d ပုံ"</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="other">ဓာတ်ပုံ %d ပုံရွေးချယ်ခဲ့သည်</item>
+        <item quantity="one">ဓာတ်ပုံ %d ပုံရွေးချယ်ခဲ့သည်</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="other">နေရာ %2$d နေရာမှ %1$d နေရာ ကို လည်ပတ်ပြီးပြီ</item>
+        <item quantity="one">နေရာ %2$d နေရာမှ %1$d နေရာ ကို လည်ပတ်ပြီးပြီ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">"%1$s + အခြား %2$d ဦးနှင့် မျှဝေရာတွင် တည်နေရာတိကျမှုကို တိုးမြှင့်ရန် 'ဘက်ထရီ အားထိန်း' ကို ပိတ်ပါ"</item>
+        <item quantity="one">"%1$s + အခြား %2$d ဦးနှင့် မျှဝေရာတွင် တည်နေရာတိကျမှုကို တိုးမြှင့်ရန် 'ဘက်ထရီ အားထိန်း' ကို ပိတ်ပါ"</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">%1$s + အခြား %2$d ဦးနှင့် တည်နေရာမျှဝေခြင်းကို ဆက်လက်ဆောင်ရွက်ရန် စက်တည်နေရာကို ဖွင့်ရမည်</item>
+        <item quantity="one">%1$s + အခြား %2$d ဦးနှင့် တည်နေရာမျှဝေခြင်းကို ဆက်လက်ဆောင်ရွက်ရန် စက်တည်နေရာကို ဖွင့်ရမည်</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">"ဤစက်တွင် %1$s + အခြား %2$d နှင့် ဆက်လက်မျှဝေနိုင်ရန် 'တည်နေရာမျှဝေခြင်း' ကို အပ်ဒိတ်လုပ်ပါ"</item>
+        <item quantity="one">"ဤစက်တွင် %1$s + အခြား %2$d နှင့် ဆက်လက်မျှဝေနိုင်ရန် 'တည်နေရာမျှဝေခြင်း' ကို အပ်ဒိတ်လုပ်ပါ"</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">%1$s + အခြား %2$d ခုနှင့် မျှဝေရာတွင် တည်နေရာတိကျမှု တိုးမြှင့်ရန် သင်၏လှုပ်ရှားသွားလာမှုကို Maps က နားလည်ပါစေ</item>
+        <item quantity="one">%1$s + အခြား %2$d ခုနှင့် မျှဝေရာတွင် တည်နေရာတိကျမှု တိုးမြှင့်ရန် သင်၏လှုပ်ရှားသွားလာမှုကို Maps က နားလည်ပါစေ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">%1$s + အခြား %2$d ဦးနှင့် မျှဝေရာတွင် တည်နေရာတိကျမှု တိုးမြှင့်ရန် Maps အား သင့်တည်နေရာကို အမြဲတမ်း ရယူခွင့်ပြုပါ</item>
+        <item quantity="one">%1$s + အခြား %2$d ဦးနှင့် မျှဝေရာတွင် တည်နေရာတိကျမှု တိုးမြှင့်ရန် Maps အား သင့်တည်နေရာကို အမြဲတမ်း ရယူခွင့်ပြုပါ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">%1$s + အခြား %2$d ဦးနှင့် ဆက်လက်မျှဝေရန် Maps အား အမြဲတမ်းသင့်တည်နေရာကို ရယူခွင့်ပြုပါ</item>
+        <item quantity="one">%1$s + အခြား %2$d ဦးနှင့် ဆက်လက်မျှဝေရန် Maps အား သင့်တည်နေရာကို အမြဲတမ်း ရယူခွင့်ပြုပါ</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="other">ဓာတ်ပုံ %d+ ပုံ</item>
+        <item quantity="one">ဓာတ်ပုံ %d+ ပုံ</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="other">(သုံးသပ်ချက် %,d ခု)</item>
+        <item quantity="one">(သုံးသပ်ချက် %d ခု)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="other">%1$s စက္ကန့်</item>
+        <item quantity="one">%1$s စက္ကန့်</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="other">ပို့စ် %1$dအတွက် ဗီဒီယို %2$d</item>
+        <item quantity="one">ပို့စ် %1$dအတွက် ဗီဒီယို</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="other">ပို့စ် %1$dအတွက် ဗီဒီယို %2$d သည် မျက်နှာပြင်အပြည့်ဖြစ်သည်</item>
+        <item quantity="one">ပို့စ် %1$dအတွက် ဗီဒီယိုသည် မျက်နှာပြင်အပြည့်ဖြစ်သည်</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="other">%2$s × %1$d ည</item>
+        <item quantity="one">%2$s × %1$d ည</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="other">%1$d ညအတွက် %2$s တွင် အခွန် + ဝန်ဆောင်ခ ပါဝင်သည်</item>
+        <item quantity="one">%1$d ညအတွက် %2$s တွင် အခွန် + ဝန်ဆောင်ခ ပါဝင်သည်</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="other">%d မိနစ် ခြေကျင်ခရီး</item>
+        <item quantity="one">၁ မိနစ် ခြေကျင်ခရီး</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="other">မှတ်တိုင် %d ခု</item>
+        <item quantity="one">မှတ်တိုင် + %d ခု</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="other">(ရပ်နားရာနေရာ %d ခု)</item>
+        <item quantity="one">(ရပ်နားရာနေရာ %d ခု)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="other">လွန်ခဲ့သော %d ပတ်က</item>
+        <item quantity="one">လွန်ခဲ့သော %d ပတ်က</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="other">လွန်ခဲ့သော %d နှစ်က</item>
+        <item quantity="one">လွန်ခဲ့သော %d နှစ်က</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="other">ကျန်သောဓာတ်ပုံ %1$d ခု ကြည့်ပါ</item>
+        <item quantity="one">ကျန်သောဓာတ်ပုံ ကြည့်ပါ</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="other">သင့်သုံးသပ်ချက်များနှင့် အပ်ဒိတ်များ</item>
+        <item quantity="one">သင့်သုံးသပ်ချက် သို့မဟုတ် အပ်ဒိတ်</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="other">သင်သည် %1$s နှင့် နောက်ထပ် စာရင်း%2$d ခုကို လိုက်ကြည့်နေပါသည်</item>
+        <item quantity="one">သင်သည် %1$s နှင့် နောက်ထပ် စာရင်း %2$d ခုကို လိုက်ကြည့်နေပါသည်</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="other">%1$s နှင့် အခြား %2$d ဦး</item>
+        <item quantity="one">%1$s နှင့် အခြား %2$d ဦး</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="other">+%1$d ဦး</item>
+        <item quantity="one">+%1$d ဦး</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="other">%2$d အနက် %1$d</item>
+        <item quantity="one">%2$d အနက် %1$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="other">%2$d ပုံ အနက် %1$d ပုံ</item>
+        <item quantity="one">%2$d ပုံ အနက် %1$d ပုံ</item>
+    </plurals>
+    <plurals name="local_guide_level">
+        <item quantity="other">အဆင့် %1$d</item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="other">%1$d မိနစ်</item>
+        <item quantity="one">%1$d မိနစ်</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="other">ရိုက်ကူးမှု %1$d ခု</item>
+        <item quantity="one">ရိုက်ကူးမှု ၁ ခု</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">အကြောင်းကြားချက်အသစ် %d ခု</item>
+        <item quantity="one">အကြောင်းကြားချက်အသစ် %d ခု</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="other">+နောက်ထပ် %1$d ခု</item>
+        <item quantity="one">+နောက်ထပ် %1$d ခု</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="other">လူ %d ဦး စာရိုက်နေသည်</item>
+        <item quantity="one">လူ %d ဦး စာရိုက်နေသည်</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="other">လက်ခံသူ %d ဦးကို ကူးယူပြီးပါပြီ</item>
+        <item quantity="one">လက်ခံသူ %d ဦးကို ကူးယူပြီးပါပြီ</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="other">သင့်ဓာတ်ပုံများအကြောင်း တစ်ခုခု ပြောပါ (ချန်လှပ်ခဲ့နိုင်သည်)</item>
+        <item quantity="one">ဤဓာတ်ပုံအကြောင်း တစ်ခုခု ပြောပါ (ချန်လှပ်ခဲ့နိုင်သည်)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">ကြယ် %2$d ပွင့်အနက် %1$d ပွင့်</item>
+        <item quantity="one">ကြယ် %2$d ပွင့်အနက် %1$d ပွင့်</item>
+    </plurals>
+</resources>

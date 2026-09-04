@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/background_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <com.google.android.apps.gmm.base.views.webimageview.WebImageView android:id="@id/background_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/scrim" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:textColor="@color/qu_grey_white_1000" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/instruction_chip" android:background="@drawable/grey_rounded_rectangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:minHeight="48.0dip" android:text="@string/AR_INSTRUCTION_CHIP_TEXT" android:paddingHorizontal="16.0dip" android:paddingVertical="10.0dip" style="?textAppearanceButton" />
+</FrameLayout>

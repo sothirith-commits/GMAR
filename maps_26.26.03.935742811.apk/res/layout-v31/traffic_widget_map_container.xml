@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewFlipper android:id="@id/traffic_widget_map_view_flipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@anim/traffic_widget_fade_in" android:outAnimation="@anim/traffic_widget_fade_out">
+        <ImageView android:id="@id/traffic_widget_map_image_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/traffic_image_content_description" android:importantForAccessibility="no" />
+        <ImageView android:id="@id/traffic_widget_map_image_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/traffic_image_content_description" android:importantForAccessibility="no" />
+    </ViewFlipper>
+    <ImageView android:layout_gravity="bottom" android:layout_width="66.0dip" android:layout_height="25.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/traffic_widget_logo_google" android:contentDescription="@string/traffic_logo_content_description" android:importantForAccessibility="no" android:layout_marginStart="12.0dip" />
+    <ImageButton android:id="@id/traffic_widget_zoom_button" android:contentDescription="@string/traffic_zoom_button_content_description" style="@style/TrafficWidgetZoomButton" />
+</FrameLayout>

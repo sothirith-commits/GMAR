@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/user" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.gmm.ui.representations.user.AvatarImageView android:id="@id/user_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" app:avatar_marginEnd="8.0dip" style="@style/AvatarImageView.Small" />
+    <TextView android:textAppearance="?textAppearanceTitleSmall" android:ellipsize="end" android:id="@id/user_display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" style="@style/UserView.DisplayNameTextView.Small" />
+</LinearLayout>

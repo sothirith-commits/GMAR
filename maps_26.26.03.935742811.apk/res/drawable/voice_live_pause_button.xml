@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="96.0dip" android:width="128.0dip" android:viewportWidth="128.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M48,0L80,0A48,48 0,0 1,128 48L128,48A48,48 0,0 1,80 96L48,96A48,48 0,0 1,0 48L0,48A48,48 0,0 1,48 0z" />
+        <path android:fillColor="#ff303637" android:pathData="M48,0L80,0A48,48 0,0 1,128 48L128,48A48,48 0,0 1,80 96L48,96A48,48 0,0 1,0 48L0,48A48,48 0,0 1,48 0z" />
+        <group>
+            <clip-path android:pathData="M48,32h32v32h-32z" />
+            <path android:fillColor="#ffe3e3e3" android:pathData="M66.6,57.33V38.67H72.1V57.33H66.6ZM55.9,57.33V38.67H61.4V57.33H55.9Z" />
+        </group>
+    </group>
+    <path android:fillColor="#00000000" android:pathData="M48,0.5L80,0.5A47.5,47.5 0,0 1,127.5 48L127.5,48A47.5,47.5 0,0 1,80 95.5L48,95.5A47.5,47.5 0,0 1,0.5 48L0.5,48A47.5,47.5 0,0 1,48 0.5z" android:strokeColor="@drawable/$voice_live_pause_button__0" android:strokeWidth="1.0" />
+</vector>

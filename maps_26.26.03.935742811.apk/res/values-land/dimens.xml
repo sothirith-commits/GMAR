@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="google_toolbar_text_size_subtitle">12.0dip</dimen>
+    <dimen name="google_toolbar_text_size_title">14.0dip</dimen>
+    <dimen name="launchscreens_product_logo_bottom">48.0dip</dimen>
+    <dimen name="mtrl_calendar_header_height_fullscreen">96.0dip</dimen>
+    <dimen name="navigation_header_height">62.0sp</dimen>
+    <dimen name="navigation_header_with_grippy_height">74.0sp</dimen>
+    <dimen name="og_material3_container_external_horizontal_spacing">32.0dip</dimen>
+    <dimen name="sud_content_loading_frame_padding_bottom">24.0dip</dimen>
+    <dimen name="sud_content_loading_frame_padding_end">0.0dip</dimen>
+    <dimen name="sud_content_loading_frame_padding_start">0.0dip</dimen>
+    <dimen name="sud_glif_button_min_height">36.0dip</dimen>
+    <dimen name="sud_glif_card_height">560.0dip</dimen>
+    <dimen name="sud_glif_card_width">672.0dip</dimen>
+    <dimen name="sud_glif_footer_bar_min_height">52.0dip</dimen>
+    <dimen name="sud_glif_footer_bar_min_height_material_you">52.0dip</dimen>
+    <dimen name="sud_glif_footer_bar_padding_end_material_you">28.0dip</dimen>
+    <dimen name="sud_glif_footer_bar_padding_start_material_you">16.0dip</dimen>
+    <dimen name="sud_glif_footer_bar_padding_vertical_material_you">0.0dip</dimen>
+    <dimen name="sud_glif_footer_padding_vertical">0.0dip</dimen>
+    <dimen name="sud_glif_margin_end_material_you">32.0dip</dimen>
+    <dimen name="sud_glif_margin_start_material_you">32.0dip</dimen>
+</resources>

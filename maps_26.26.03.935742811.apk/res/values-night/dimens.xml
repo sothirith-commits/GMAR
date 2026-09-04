@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="assistant_glow_opacity_multiplier">0.8</item>
+    <item type="dimen" name="peoplekit_chip_out_of_domain_selected_state_opacity">0.12</item>
+</resources>

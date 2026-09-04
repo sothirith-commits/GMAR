@@ -1,0 +1,44 @@
+.class Lanqx;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lanqz;
+
+
+# instance fields
+.field final synthetic a:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lanqx;->a:Ljava/lang/String;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Ljava/lang/String;
+    .locals 0
+
+    iget-object p0, p0, Lanqx;->a:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public hashCode()I
+    .locals 0
+
+    iget-object p0, p0, Lanqx;->a:Ljava/lang/String;
+
+    invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
+
+    move-result p0
+
+    return p0
+.end method

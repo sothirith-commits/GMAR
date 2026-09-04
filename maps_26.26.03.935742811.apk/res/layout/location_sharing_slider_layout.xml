@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/Theme.GoogleMaterial.DayNight" android:background="@drawable/place_tile_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/location_sharing_container" android:paddingTop="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="3.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dip">
+            <TextView android:textColor="@color/mod_daynight_grey900" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5" style="?textAppearanceHeadline6" />
+            <TextView android:textColor="@color/mod_daynight_grey900" android:gravity="end" android:id="@id/distance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" style="?textAppearanceHeadline6" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="start|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dip">
+            <TextView android:textColor="@color/mod_daynight_grey650" android:id="@id/person_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?textAppearanceBody2" />
+            <TextView android:textColor="@color/mod_daynight_grey650" android:id="@id/person_separator_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="·" android:importantForAccessibility="no" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" style="?textAppearanceBody2" />
+            <LinearLayout android:layout_gravity="start|center" android:orientation="horizontal" android:id="@id/person_battery_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="yes">
+                <ImageView android:layout_gravity="center" android:id="@id/person_battery_icon" android:layout_width="10.0dip" android:layout_height="18.0dip" android:scaleType="center" android:importantForAccessibility="no" />
+                <TextView android:textColor="@color/mod_daynight_grey650" android:id="@id/person_battery_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingStart="6.0dip" style="?textAppearanceBody2" />
+            </LinearLayout>
+            <TextView android:textColor="@color/mod_daynight_grey650" android:id="@id/person_separator_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="·" android:importantForAccessibility="no" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" style="@style/TextAppearance.GoogleMaterial.Body2" />
+            <TextView android:textColor="@color/mod_daynight_grey650" android:id="@id/person_status" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?textAppearanceBody2" />
+        </LinearLayout>
+        <TextView android:textColor="@color/mod_daynight_grey650" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dip" style="?textAppearanceBody2" />
+        <com.google.android.material.button.MaterialButton android:id="@id/primary_button" android:paddingLeft="@dimen/google_btn_icon_btn_padding_left" android:paddingRight="@dimen/google_btn_icon_btn_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/START_NAVIGATION_BUTTON" android:layout_marginHorizontal="16.0dip" app:cornerRadius="18.0dip" app:icon="@drawable/quantum_gm_ic_navigation_white_24" app:iconSize="20.0dip" style="@style/Widget.GoogleMaterial.Button" />
+    </LinearLayout>
+</FrameLayout>

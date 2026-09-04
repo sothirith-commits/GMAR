@@ -1,0 +1,27 @@
+.class Lawsr;
+.super Lblyb;
+.source "PG"
+
+
+# virtual methods
+.method public final a(Landroid/content/Context;)Landroid/animation/LayoutTransition;
+    .locals 3
+
+    sget-object p0, Lnbm;->b:Landroid/view/animation/Interpolator;
+
+    new-instance p1, Landroid/animation/LayoutTransition;
+
+    invoke-direct {p1}, Landroid/animation/LayoutTransition;-><init>()V
+
+    const/4 v0, 0x4
+
+    invoke-virtual {p1, v0}, Landroid/animation/LayoutTransition;->enableTransitionType(I)V
+
+    const-wide/16 v1, 0x96
+
+    invoke-virtual {p1, v0, v1, v2}, Landroid/animation/LayoutTransition;->setDuration(IJ)V
+
+    invoke-virtual {p1, v0, p0}, Landroid/animation/LayoutTransition;->setInterpolator(ILandroid/animation/TimeInterpolator;)V
+
+    return-object p1
+.end method

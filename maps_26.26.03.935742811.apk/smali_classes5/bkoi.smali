@@ -1,0 +1,77 @@
+.class public final Lbkoi;
+.super Llkp;
+.source "PG"
+
+# interfaces
+.implements Landroid/os/IInterface;
+
+
+# direct methods
+.method public constructor <init>(Landroid/os/IBinder;)V
+    .locals 1
+
+    const-string v0, "com.google.android.gms.vision.face.internal.client.INativeFaceDetectorCreator"
+
+    invoke-direct {p0, p1, v0}, Llkp;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final e(Lbjry;Lcom/google/android/gms/vision/face/internal/client/FaceSettingsParcel;)Lbkoh;
+    .locals 1
+
+    invoke-virtual {p0}, Llkp;->a()Landroid/os/Parcel;
+
+    move-result-object v0
+
+    invoke-static {v0, p1}, Llkr;->g(Landroid/os/Parcel;Landroid/os/IInterface;)V
+
+    invoke-static {v0, p2}, Llkr;->f(Landroid/os/Parcel;Landroid/os/Parcelable;)V
+
+    const/4 p1, 0x1
+
+    invoke-virtual {p0, p1, v0}, Llkp;->x(ILandroid/os/Parcel;)Landroid/os/Parcel;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object p1
+
+    if-nez p1, :cond_0
+
+    const/4 p1, 0x0
+
+    goto :goto_0
+
+    :cond_0
+    const-string p2, "com.google.android.gms.vision.face.internal.client.INativeFaceDetector"
+
+    invoke-interface {p1, p2}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+
+    move-result-object p2
+
+    instance-of v0, p2, Lbkoh;
+
+    if-eqz v0, :cond_1
+
+    move-object p1, p2
+
+    check-cast p1, Lbkoh;
+
+    goto :goto_0
+
+    :cond_1
+    new-instance p2, Lbkoh;
+
+    invoke-direct {p2, p1}, Lbkoh;-><init>(Landroid/os/IBinder;)V
+
+    move-object p1, p2
+
+    :goto_0
+    invoke-virtual {p0}, Landroid/os/Parcel;->recycle()V
+
+    return-object p1
+.end method

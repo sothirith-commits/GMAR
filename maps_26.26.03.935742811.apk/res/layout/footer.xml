@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/attribution_container" android:background="@drawable/magic_window_label_background" android:layout_width="wrap_content" android:layout_height="@dimen/magic_window_footer_height" android:layout_marginEnd="@dimen/magic_window_footer_icon_margin_end" android:paddingHorizontal="8.0dip">
+        <com.google.android.apps.gmm.ui.representations.user.AvatarImageView android:id="@id/attribution_avatar" android:visibility="gone" android:layout_width="@dimen/magic_window_footer_icon_size" android:layout_height="@dimen/magic_window_footer_icon_size" android:layout_marginEnd="@dimen/magic_window_footer_icon_margin_end" app:profilePicture_size="@dimen/magic_window_footer_icon_size" />
+        <TextView android:textSize="@dimen/magic_window_footer_text_size" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/attribution_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ai_label_container" android:background="@drawable/magic_window_label_background" android:focusable="true" android:layout_width="wrap_content" android:layout_height="@dimen/magic_window_footer_height" android:importantForAccessibility="yes" android:paddingHorizontal="8.0dip">
+        <ImageView android:layout_width="@dimen/magic_window_footer_icon_size" android:layout_height="@dimen/magic_window_footer_icon_size" android:src="@drawable/gs_spark_vd_24" android:contentDescription="@string/ai_icon_content_description" android:layout_marginEnd="@dimen/magic_window_footer_icon_margin_end" app:tint="@android:color/white" />
+        <TextView android:textSize="@dimen/magic_window_footer_text_size" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/ai_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ai_label_text" />
+    </LinearLayout>
+</LinearLayout>

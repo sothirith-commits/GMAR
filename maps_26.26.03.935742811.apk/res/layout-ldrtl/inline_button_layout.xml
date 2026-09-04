@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0dip" android:textColor="?geoColorOnSurface" android:layout_gravity="start" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <RadioGroup android:orientation="horizontal" android:id="@id/inlinebuttonlayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0dip" android:textColor="@color/inline_button_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/start" android:background="@drawable/right_background" android:layout_height="48.0dip" android:button="?geoColorTransparentSurface" android:width="0.0dip" android:singleLine="true" android:layout_weight="1.0" android:layout_marginVertical="8.0dip" android:paddingHorizontal="5.0dip" />
+        <RadioButton android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0dip" android:textColor="@color/inline_button_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/middle" android:background="@drawable/middle_background" android:layout_height="48.0dip" android:button="?geoColorTransparentSurface" android:width="0.0dip" android:singleLine="true" android:layout_weight="1.0" android:layout_marginVertical="8.0dip" android:paddingHorizontal="5.0dip" />
+        <RadioButton android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0dip" android:textColor="@color/inline_button_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/end" android:background="@drawable/left_background" android:layout_height="48.0dip" android:button="?geoColorTransparentSurface" android:width="0.0dip" android:singleLine="true" android:layout_weight="1.0" android:layout_marginVertical="8.0dip" android:paddingHorizontal="5.0dip" />
+    </RadioGroup>
+</LinearLayout>

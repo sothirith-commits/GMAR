@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:filterTouchesWhenObscured="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/og_bento_card_icon_placeholder" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/og_bento_card_title_placeholder" android:layout_width="0.0dip" android:layout_height="16.0dip" android:contentDescription="@null" android:importantForAccessibility="no" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/og_bento_card_icon_placeholder" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="200.0dip" />
+</merge>

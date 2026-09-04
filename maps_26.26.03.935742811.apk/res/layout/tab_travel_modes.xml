@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.gmm.ui.components.terra.tabs.GmmTabLayout android:theme="@style/Theme.GoogleMaterial.DayNight" android:id="@id/directions_mode_tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicatorHeight="0.0dip" app:tabPaddingBottom="0.0dip" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" app:tabPaddingTop="0.0dip" style="@style/Widget.GoogleMaterial.TabLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

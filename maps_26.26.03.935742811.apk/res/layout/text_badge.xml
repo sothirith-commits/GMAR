@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/text_badge" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/text_badge_image" android:layout_width="@dimen/geo_sys_measurement_icon_size_extra_small" android:layout_height="@dimen/geo_sys_measurement_icon_size_extra_small" android:layout_marginEnd="2.0dip" />
+    <TextView android:textAppearance="@style/TextAppearance.Geo.Sys.Typescale.LabelMedium" android:ellipsize="end" android:gravity="start|center" android:id="@id/text_badge_label" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:textAlignment="gravity" />
+</merge>

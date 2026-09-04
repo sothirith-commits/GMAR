@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>ಎ</item>
+        <item>ಬಿ</item>
+        <item>ಸಿ</item>
+        <item>ಡಿ</item>
+        <item>ಇ</item>
+        <item>ಎಫ್</item>
+        <item>ಜಿ</item>
+        <item>ಹೆಚ್</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>ಯಾವುದಾದರೂ ಸರಿ</item>
+        <item>₹</item>
+        <item>₹₹</item>
+        <item>₹₹₹</item>
+        <item>₹₹₹₹</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>ಬೆಲೆಯ ಯಾವುದೇ ಮಟ್ಟ</item>
+        <item>ಅಗ್ಗದ</item>
+        <item>ಮಧ್ಯಮವಾಗಿ ದುಬಾರಿ</item>
+        <item>ದುಬಾರಿ</item>
+        <item>ಅತಿ ದುಬಾರಿ</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>ಏನಾದರೂ</item>
+        <item>3-ಸ್ಟಾರ್</item>
+        <item>4-ಸ್ಟಾರ್</item>
+        <item>5-ಸ್ಟಾರ್</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>ಯಾವುದಾದರೂ</item>
+        <item>ಈಗ ತೆರೆದಿದೆ</item>
+        <item>ಕಸ್ಟಮ್</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>ಝೂಮ್ ಮಾಡುತ್ತಿರುವಾಗ</item>
+        <item>ಯಾವಾಗಲೂ</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>ಝೂಮ್ ಇನ್ ಮತ್ತು ಝೂಮ್ ಔಟ್ ಮಾಡುವಾಗ</item>
+        <item>ಯಾವಾಗಲೂ</item>
+    </string-array>
+    <string-array name="five_stars_state_commentary">
+        <item>ಇಷ್ಟವಾಗಿಲ್ಲ/ಕೆಟ್ಟದಾಗಿದೆ</item>
+        <item>ಅದು ಇಷ್ಟವಾಗಿಲ್ಲ</item>
+        <item>ಪರವಾಗಿಲ್ಲ</item>
+        <item>ಇದು ಇಷ್ಟವಾಯಿತು</item>
+        <item>ಇಷ್ಟವಾಯಿತು</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>ಅದನ್ನು ದ್ವೇಷಿಸಿದೆ</item>
+        <item>ಅದು ಇಷ್ಟವಾಗಿಲ್ಲ</item>
+        <item>ಪರವಾಗಿಲ್ಲ</item>
+        <item>ಇದು ಇಷ್ಟವಾಯಿತು</item>
+        <item>ಮೆಚ್ಚುಗೆಯಾಯಿತು</item>
+    </string-array>
+</resources>

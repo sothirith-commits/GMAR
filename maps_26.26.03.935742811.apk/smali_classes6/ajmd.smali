@@ -1,0 +1,299 @@
+.class final Lajmd;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field private static final d:Lblwc;
+
+.field private static final e:Lblwc;
+
+.field private static final f:Lblwc;
+
+
+# instance fields
+.field public final a:I
+
+.field public final b:Landroid/graphics/Paint;
+
+.field public final c:Landroid/graphics/Paint;
+
+.field private final g:Landroid/graphics/Paint;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    sget-object v0, Lbhbp;->V:Lpba;
+
+    sput-object v0, Lajmd;->d:Lblwc;
+
+    sget-object v0, Lbhbp;->T:Lpba;
+
+    sput-object v0, Lajmd;->e:Lblwc;
+
+    sget-object v0, Lbhbp;->G:Lpba;
+
+    sput-object v0, Lajmd;->f:Lblwc;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    const/4 p0, 0x0
+
+    throw p0
+.end method
+
+.method public constructor <init>(ILandroid/graphics/Paint;Landroid/graphics/Paint;Landroid/graphics/Paint;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput p1, p0, Lajmd;->a:I
+
+    iput-object p2, p0, Lajmd;->b:Landroid/graphics/Paint;
+
+    iput-object p3, p0, Lajmd;->c:Landroid/graphics/Paint;
+
+    iput-object p4, p0, Lajmd;->g:Landroid/graphics/Paint;
+
+    return-void
+.end method
+
+.method static a(Landroid/content/Context;Lajlq;)Lajmd;
+    .locals 4
+
+    sget-object v0, Lajmd;->d:Lblwc;
+
+    invoke-virtual {v0, p0}, Lblwc;->b(Landroid/content/Context;)I
+
+    move-result v0
+
+    sget-object v1, Lajmd;->e:Lblwc;
+
+    invoke-virtual {v1, p0}, Lblwc;->b(Landroid/content/Context;)I
+
+    move-result v1
+
+    sget-object v2, Lajmd;->f:Lblwc;
+
+    invoke-virtual {v2, p0}, Lblwc;->b(Landroid/content/Context;)I
+
+    move-result v2
+
+    new-instance v3, Landroid/graphics/Paint;
+
+    invoke-direct {v3}, Landroid/graphics/Paint;-><init>()V
+
+    invoke-virtual {v3, v0}, Landroid/graphics/Paint;->setColor(I)V
+
+    sget-object v0, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
+
+    invoke-virtual {v3, v0}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+
+    new-instance v0, Landroid/graphics/Paint;
+
+    invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
+
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
+
+    sget-object v1, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
+
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+
+    new-instance v1, Landroid/graphics/Paint;
+
+    invoke-direct {v1}, Landroid/graphics/Paint;-><init>()V
+
+    invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
+
+    sget-object v2, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
+
+    invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+
+    sget-object v2, Lajlq;->a:Lajlq;
+
+    if-ne p1, v2, :cond_0
+
+    const/4 p1, 0x2
+
+    goto :goto_0
+
+    :cond_0
+    const/16 p1, 0xc
+
+    :goto_0
+    invoke-static {p0, p1}, Lgch;->u(Landroid/content/Context;I)I
+
+    move-result p0
+
+    new-instance p1, Lajmd;
+
+    invoke-direct {p1, p0, v3, v0, v1}, Lajmd;-><init>(ILandroid/graphics/Paint;Landroid/graphics/Paint;Landroid/graphics/Paint;)V
+
+    return-object p1
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v0, 0x1
+
+    if-ne p1, p0, :cond_0
+
+    return v0
+
+    :cond_0
+    instance-of v1, p1, Lajmd;
+
+    const/4 v2, 0x0
+
+    if-eqz v1, :cond_1
+
+    check-cast p1, Lajmd;
+
+    iget v1, p0, Lajmd;->a:I
+
+    iget v3, p1, Lajmd;->a:I
+
+    if-ne v1, v3, :cond_1
+
+    iget-object v1, p0, Lajmd;->b:Landroid/graphics/Paint;
+
+    iget-object v3, p1, Lajmd;->b:Landroid/graphics/Paint;
+
+    invoke-virtual {v1, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    iget-object v1, p0, Lajmd;->c:Landroid/graphics/Paint;
+
+    iget-object v3, p1, Lajmd;->c:Landroid/graphics/Paint;
+
+    invoke-virtual {v1, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    iget-object p0, p0, Lajmd;->g:Landroid/graphics/Paint;
+
+    iget-object p1, p1, Lajmd;->g:Landroid/graphics/Paint;
+
+    invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_1
+
+    return v0
+
+    :cond_1
+    return v2
+.end method
+
+.method public final hashCode()I
+    .locals 3
+
+    iget v0, p0, Lajmd;->a:I
+
+    iget-object v1, p0, Lajmd;->b:Landroid/graphics/Paint;
+
+    const v2, 0xf4243
+
+    xor-int/2addr v0, v2
+
+    mul-int/2addr v0, v2
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    xor-int/2addr v0, v1
+
+    iget-object v1, p0, Lajmd;->c:Landroid/graphics/Paint;
+
+    mul-int/2addr v0, v2
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    xor-int/2addr v0, v1
+
+    iget-object p0, p0, Lajmd;->g:Landroid/graphics/Paint;
+
+    mul-int/2addr v0, v2
+
+    invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
+
+    move-result p0
+
+    xor-int/2addr p0, v0
+
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 5
+
+    iget-object v0, p0, Lajmd;->g:Landroid/graphics/Paint;
+
+    iget-object v1, p0, Lajmd;->c:Landroid/graphics/Paint;
+
+    iget-object v2, p0, Lajmd;->b:Landroid/graphics/Paint;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    const-string v4, "{"
+
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget p0, p0, Lajmd;->a:I
+
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string p0, ", "
+
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p0, "}"
+
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

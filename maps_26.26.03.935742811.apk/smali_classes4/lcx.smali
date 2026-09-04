@@ -1,0 +1,74 @@
+.class public Llcx;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field public a:Ljava/util/Map;
+
+
+# virtual methods
+.method public final a(Ljava/lang/String;Ljava/lang/Object;)V
+    .locals 1
+
+    iget-object v0, p0, Llcx;->a:Ljava/util/Map;
+
+    if-nez v0, :cond_0
+
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    invoke-static {v0}, Lj$/util/DesugarCollections;->synchronizedMap(Ljava/util/Map;)Ljava/util/Map;
+
+    move-result-object v0
+
+    iput-object v0, p0, Llcx;->a:Ljava/util/Map;
+
+    :cond_0
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+.end method
+
+.method public final b(Z)V
+    .locals 1
+
+    const-string v0, "is_full_span"
+
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    invoke-virtual {p0, v0, p1}, Llcx;->a(Ljava/lang/String;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public final c(Z)V
+    .locals 1
+
+    const-string v0, "is_sticky"
+
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    invoke-virtual {p0, v0, p1}, Llcx;->a(Ljava/lang/String;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public final d(I)V
+    .locals 1
+
+    const-string v0, "span_size"
+
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    invoke-virtual {p0, v0, p1}, Llcx;->a(Ljava/lang/String;Ljava/lang/Object;)V
+
+    return-void
+.end method

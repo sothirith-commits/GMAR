@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="launchscreens_google_logo_bottom">96.0dip</dimen>
+    <dimen name="launchscreens_product_logo_bottom">72.0dip</dimen>
+    <dimen name="sud_glif_footer_bar_min_height_material_you">72.0dip</dimen>
+    <dimen name="sud_glif_footer_bar_padding_end_material_you">44.0dip</dimen>
+    <dimen name="sud_glif_footer_bar_padding_start_material_you">32.0dip</dimen>
+    <dimen name="sud_glif_footer_bar_padding_vertical_material_you">6.0dip</dimen>
+    <dimen name="sud_glif_margin_end_material_you">48.0dip</dimen>
+    <dimen name="sud_glif_margin_start_material_you">48.0dip</dimen>
+</resources>

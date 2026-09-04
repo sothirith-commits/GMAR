@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="other">%1$d af %2$d</item>
+        <item quantity="one">%1$d af %2$d</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="other">Þú ert með %d virka neðanjarðarlestarmiða</item>
+        <item quantity="one">Þú ert með %d virkan neðanjarðarlestarmiða</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="other">Þú ert með %d virka miða fyrir þessa ferð</item>
+        <item quantity="one">Þú ert með %d virkan miða fyrir þessa ferð</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="other">%d valkostir til viðbótar</item>
+        <item quantity="one">%d valkostur til viðbótar</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="other">%1$d manneskjur tilkynntu</item>
+        <item quantity="one">%1$d manneskja tilkynnti</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="other">Skráð af %1$d einstaklingum</item>
+        <item quantity="one">Skráð af %1$d einstaklingi</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="other">+%1$d</item>
+        <item quantity="one">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="other">%d tilkynningar</item>
+        <item quantity="one">%d tilkynning</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="other">%1$d staðsetningar</item>
+        <item quantity="one">%1$d staðsetning</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="other">Sjá svör (%,d)</item>
+        <item quantity="one">Sjá svör (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="other">Kanna %d staði hér</item>
+        <item quantity="one">Kanna %d stað hér</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="other">%d hjól laus</item>
+        <item quantity="one">%d hjól laust</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="other">%s hjól við stöðina</item>
+        <item quantity="one">%s hjól við stöðina</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="other">%d hjól</item>
+        <item quantity="one">%d hjól</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="other">%d básar lausir</item>
+        <item quantity="one">%d bás laus</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="other">%dbásar</item>
+        <item quantity="one">%dbás</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="other">%1$d aðilar mæla með</item>
+        <item quantity="one">%1$d aðili mælir með</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="other">Fljótari leið, %1$s stoppum færra</item>
+        <item quantity="one">Fljótari leið, %1$s stoppi færra</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="other">Fljótari leið, %1$s stoppum fleira</item>
+        <item quantity="one">Fljótari leið, %1$s stoppi fleira</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="other">Fljótari leið í boði, %1$s stoppum breytt</item>
+        <item quantity="one">Fljótari leið í boði, %1$s stoppi breytt</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="other">Ný leið nauðsynleg, %1$s stoppum færra</item>
+        <item quantity="one">Ný leið nauðsynleg, %1$s stoppi færra</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="other">Ný leið nauðsynleg, %1$s stoppum fleira</item>
+        <item quantity="one">Ný leið nauðsynleg, %1$s stoppi fleira</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="other">Ný leið nauðsynleg, %1$s stoppum breytt</item>
+        <item quantity="one">Ný leið nauðsynleg, %1$s stoppi breytt</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="other">Ný leið, %1$s stoppum færra</item>
+        <item quantity="one">Ný leið, %1$s stoppi færra</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="other">Ný leið, %1$s stoppum færra</item>
+        <item quantity="one">Ný leið, %1$s stoppi færra</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="other">Ný leið í boði þar sem %1$s færri hleðslustopp eru nauðsynleg. %2$s fljótari, með aksturs- og hleðslutíma inniföldum.</item>
+        <item quantity="one">Ný leið í boði þar sem %1$s færri hleðslustopp eru nauðsynleg. %2$s fljótari, með aksturs- og hleðslutíma inniföldum.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="other">Ný leið í boði þar sem %1$s fleiri hleðslustopp eru nauðsynleg. %2$s fljótari, með aksturs- og hleðslutíma inniföldum.</item>
+        <item quantity="one">Ný leið í boði þar sem %1$s fleiri hleðslustopp eru nauðsynleg. %2$s fljótari, með aksturs- og hleðslutíma inniföldum.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="other">Þú þarft að fara nýja leið. %1$s færri hleðslustopp nauðsynleg. Þú kemur kl. %2$s.</item>
+        <item quantity="one">Þú þarft að fara nýja leið. %1$s færri hleðslustopp nauðsynleg. Þú kemur kl. %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="other">Þú þarft að fara nýja leið. %1$s fleiri hleðslustopp nauðsynleg. Þú kemur kl. %2$s.</item>
+        <item quantity="one">Þú þarft að fara nýja leið. %1$s fleiri hleðslustopp nauðsynleg. Þú kemur kl. %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="other">Þú þarft að fara nýja leið. %1$s hleðslustoppum breytt. Þú kemur kl. %2$s.</item>
+        <item quantity="one">Þú þarft að fara nýja leið. %1$s hleðslustoppi breytt. Þú kemur kl. %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="other">Ný leið í boði þar sem %1$s færri hleðslustopp eru nauðsynleg. Svipaður komutími.</item>
+        <item quantity="one">Ný leið í boði þar sem %1$s færri hleðslustopp eru nauðsynleg. Svipaður komutími.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="other">Ný leið í boði þar sem %1$s færri hleðslustopp eru nauðsynleg. %2$s hægari, með aksturs- og hleðslutíma inniföldum.</item>
+        <item quantity="one">Ný leið í boði þar sem %1$s færri hleðslustopp eru nauðsynleg. %2$s hægari, með aksturs- og hleðslutíma inniföldum.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="other">Notuð fyrir %1$d dögum</item>
+        <item quantity="one">Notuð fyrir %1$d degi</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="other">Notuð fyrir %1$d vikum</item>
+        <item quantity="one">Notuð fyrir %1$d viku</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="other">+%1$d net</item>
+        <item quantity="one">+%1$d net</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="other">%1$d valin</item>
+        <item quantity="one">%1$d valið</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="other">%1$s hleðslustopp</item>
+        <item quantity="one">%1$s hleðslustopp</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="other">%1$d stopp</item>
+        <item quantity="one">%1$d stopp</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="other">%1$d valin</item>
+        <item quantity="one">%1$d valið</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="other">%1$s +%2$d</item>
+        <item quantity="one">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="other">+%1$d í viðbót</item>
+        <item quantity="one">+%1$d í viðbót</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="other">%1$d klst. og %2$d mín. til vinnu</item>
+        <item quantity="one">%1$d klst. og %2$d mín. til vinnu</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="other">%1$d klst. og %2$d mín. heim</item>
+        <item quantity="one">%1$d klst. og %2$d mín. heim</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="other">%1$d klst %2$d mín. til vinnu</item>
+        <item quantity="one">%1$d klst %2$d mín. til vinnu</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="other">%1$d klst. %2$d mín. ferðatími</item>
+        <item quantity="one">%1$d klst. %2$d mín. ferðatími</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="other">%1$d klst. %2$d mín. heim</item>
+        <item quantity="one">%1$d klst. %2$d mín. heim</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="other">%d mín. fljótlegri en venjulega</item>
+        <item quantity="one">%d mín. fljótlegri en venjulega</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="other">%d mín. seinlegri en venjulega</item>
+        <item quantity="one">%d mín. seinlegri en venjulega</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="other">Afstaða korts %d gráður.</item>
+        <item quantity="one">Afstaða korts %d gráða.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="other">%d-stjörnu gististaður</item>
+        <item quantity="one">%d-stjörnu gististaður</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="other">%d. stigs leiðsögumaður</item>
+        <item quantity="one">%d. stigs leiðsögumaður</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="other">Þú gafst %1$s %2$d stjörnur</item>
+        <item quantity="one">Þú gafst %1$s %2$d stjörnu</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="other">punktar</item>
+        <item quantity="one">punktur</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="other">%s dagar</item>
+        <item quantity="one">%s dagur</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="other">%s d</item>
+        <item quantity="one">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="other">%sd</item>
+        <item quantity="one">%sd</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="other">%s dagar</item>
+        <item quantity="one">%s dagur</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="other">%s klukkustundir</item>
+        <item quantity="one">%s klukkustund</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="other">%s klst.</item>
+        <item quantity="one">%s klst.</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="other">%sklst.</item>
+        <item quantity="one">%sklst.</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="other">%s mínútur</item>
+        <item quantity="one">%s mínúta</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="other">%s mín.</item>
+        <item quantity="one">%s mín.</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="other">%sm</item>
+        <item quantity="one">%sm</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="other">%s</item>
+        <item quantity="one">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="other">%s sekúndur</item>
+        <item quantity="one">%s sekúnda</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="other">Haltu áfram í %1$s fet</item>
+        <item quantity="one">Haltu áfram í %1$s fet</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="other">Haltu áfram í %1$s kílómetra</item>
+        <item quantity="one">Haltu áfram í %1$s kílómetra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="other">Haltu áfram í %1$s metra</item>
+        <item quantity="one">Haltu áfram í %1$s metra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="other">Haltu áfram í %1$s mílur</item>
+        <item quantity="one">Haltu áfram í %1$s mílu</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="other">Haltu áfram í %1$s yarda</item>
+        <item quantity="one">Haltu áfram í %1$s yard</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="other">Haltu áfram á %2$s í %1$s fet</item>
+        <item quantity="one">Haltu áfram á %2$s í %1$s fet</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="other">Haltu áfram á %2$s í %1$s kílómetra</item>
+        <item quantity="one">Haltu áfram á %2$s í %1$s kílómetra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="other">Haltu áfram á %2$s í %1$s metra</item>
+        <item quantity="one">Haltu áfram á %2$s í %1$s metra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="other">Haltu áfram á %2$s í %1$s mílur</item>
+        <item quantity="one">Haltu áfram á %2$s í %1$s mílu</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="other">Haltu áfram á %2$s í %1$s yarda</item>
+        <item quantity="one">Haltu áfram á %2$s í %1$s yard</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="other">Eftir %1$s fet</item>
+        <item quantity="one">Eftir %1$s fet</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="other">Eftir %1$s kílómetra</item>
+        <item quantity="one">Eftir %1$s kílómetra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="other">Eftir %1$s metra</item>
+        <item quantity="one">Eftir %1$s metra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="other">Eftir %1$s mílur</item>
+        <item quantity="one">Eftir %1$s mílu</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="other">Eftir %1$s yarda</item>
+        <item quantity="one">Eftir %1$s yarda</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="other">%s kílómetrar á klukkustund</item>
+        <item quantity="one">%s kílómetri á klukkustund</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="other">%s míla á klukkustund</item>
+        <item quantity="one">%s míla á klukkustund</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="other">%1$s fet eru á áfangastað</item>
+        <item quantity="one">%1$s fet eru á áfangastað</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="other">%1$s kílómetrar eru á áfangastað</item>
+        <item quantity="one">%1$s kílómetri er á áfangastað</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="other">%1$s metrar eru á áfangastað</item>
+        <item quantity="one">%1$s metri er á áfangastað</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="other">%1$s mílur eru á áfangastað</item>
+        <item quantity="one">%1$s míla er á áfangastað</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="other">%1$s yardar eru á áfangastað</item>
+        <item quantity="one">%1$s yard eru á áfangastað</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="other">%d viðkomustaðir</item>
+        <item quantity="one">%d viðkomustaður</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="other">%1$d tengimöguleikar</item>
+        <item quantity="one">%1$d tengimöguleiki</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="other">Uppfært fyrir %d dögum</item>
+        <item quantity="one">Uppfært fyrir %d degi</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="other">Uppfært fyrir %d mánuðum</item>
+        <item quantity="one">Uppfært fyrir %d mánuði</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="other">Uppfært fyrir %d vikum</item>
+        <item quantity="one">Uppfært fyrir %d viku</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="other">%d hjól</item>
+        <item quantity="one">%d hjól</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="other">%d hjól nálægt</item>
+        <item quantity="one">%d hjól nálægt</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="other">%1$d valin</item>
+        <item quantity="one">%1$d valið</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="other">%1$d af %2$d hleðslutengjum</item>
+        <item quantity="one">%1$d af %2$d hleðslutengjum</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="other">%d hleðslutengi</item>
+        <item quantity="one">%d hleðslutengi</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="other">Tókst ekki að gefa %1$d stjörnur, reyndu aftur</item>
+        <item quantity="one">Tókst ekki að gefa %1$d stjörnu, reyndu aftur</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="other">Hæðir %s</item>
+        <item quantity="one">Hæðir %s</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="other">%d viðbótarnætur</item>
+        <item quantity="one">%d viðbótarnótt</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="other">Bæta %d nóttum við</item>
+        <item quantity="one">Bæta %d nótt við</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="other">Þetta hótel á herbergi laus fyrir %1$d nátta dvöl. %2$s fyrir meðalverðið %3$s á nótt.</item>
+        <item quantity="one">Þetta hótel á herbergi laus fyrir %1$d nætur dvöl. %2$s fyrir meðalverðið %3$s á nótt.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="other">Dveldu %1$s fyrir meðalverðið %2$s á nótt.</item>
+        <item quantity="one">Dveldu %1$s fyrir meðalverðið %2$s á nótt.</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="other">%d gestir</item>
+        <item quantity="one">%d gestur</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="other">og %d í viðbót.</item>
+        <item quantity="one">og %d í viðbót.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="other">+%d í viðbót.</item>
+        <item quantity="one">+%d í viðbót.</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="other">fyrir %d dögum</item>
+        <item quantity="one">fyrir %d degi</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="other">Fyrir %d klukkustundum</item>
+        <item quantity="one">fyrir %d klukkustund</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="other">Fyrir %d mínútum</item>
+        <item quantity="one">Fyrir %d mínútu</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="other">Vistað í %1$s og %2$d í viðbót</item>
+        <item quantity="one">Vistað í %1$s og %2$d í viðbót</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="other">Vistað og á %1$d listum</item>
+        <item quantity="one">Vistað og á %1$d lista</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="other">Fjarlægður af %d listum</item>
+        <item quantity="one">Fjarlægður af %d lista</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="other">Þú heimsóttir staðinn fyrir %d mánuðum síðan</item>
+        <item quantity="one">Þú heimsóttir staðinn fyrir %d mánuði síðan</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="other">Þú heimsóttir staðinn fyrir %d vikum síðan</item>
+        <item quantity="one">Þú heimsóttir staðinn fyrir %d viku síðan</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="other">Þú heimsóttir staðinn fyrir %d árum síðan</item>
+        <item quantity="one">Þú heimsóttir staðinn fyrir %d ári síðan</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="other">%d viðburðir</item>
+        <item quantity="one">%d viðburður</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="other">%d atriði</item>
+        <item quantity="one">%d atriði</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="other">%d staðir</item>
+        <item quantity="one">%d staður</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="other">%d vistanir</item>
+        <item quantity="one">%d vistun</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="other">%d ferðir</item>
+        <item quantity="one">%d ferð</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="other">%s birtingar</item>
+        <item quantity="one">%s birting</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+%d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="other">Breytt fyrir %d dögum</item>
+        <item quantity="one">Breytt fyrir %d degi</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="other">Breytt fyrir %d mánuðum</item>
+        <item quantity="one">Breytt fyrir %d mánuði</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="other">Breytt fyrir %d vikum</item>
+        <item quantity="one">Breytt fyrir %d viku</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="other">Breytt fyrir %d árum</item>
+        <item quantity="one">Breytt fyrir %d ári</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="other">%d stopp</item>
+        <item quantity="one">%d stopp</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="other">Þú ert með %d punkta</item>
+        <item quantity="one">Þú ert með %d punkt</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="other">Aðeins %1$d punktar eftir til að komast á stig %2$d</item>
+        <item quantity="one">Aðeins %1$d punktur eftir til að komast á stig %2$d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="other">Stig %d</item>
+        <item quantity="one">Stig %d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_LEVEL">
+        <item quantity="other">Leiðsögumaður, stig %d</item>
+        <item quantity="one">Leiðsögumaður, stig %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="other">%d+ ár frá stofnun</item>
+        <item quantity="one">%d+ ár frá stofnun</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="other">Fyrir %d dögum</item>
+        <item quantity="one">Fyrir %d degi</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="other">Fyrir %d klukkustundum</item>
+        <item quantity="one">Fyrir %d klukkustund</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="other">Fyrir %d mínútum</item>
+        <item quantity="one">Fyrir %d mínútu</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="other">%d staðir hér</item>
+        <item quantity="one">%d staður hér</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="other">Myndir fjarlægðar</item>
+        <item quantity="one">Myndir fjarlægðar</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">Hámarka stærð myndskeiðs %2$d á færslu %1$d</item>
+        <item quantity="one">Hámarka stærð myndskeiðs %2$d á færslu %1$d</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="other">%1$,d af %2$,d</item>
+        <item quantity="one">%1$,d af %2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="other">Hleður upp %1$d efnisatriðum</item>
+        <item quantity="one">Hleður upp %1$d efnisatriði</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="other">Mynd í valmynd númer %d</item>
+        <item quantity="one">Mynd í valmynd númer %d</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="other">%1$d tilkynningar</item>
+        <item quantity="one">%1$d tilkynning</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="other">Fólk með þennan tengil getur séð staðsetningu þína í 1 dag og %d klst.</item>
+        <item quantity="one">Fólk með þennan tengil getur séð staðsetningu þína í 1 dag og %d klst.</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="other">Fólk með þennan tengil getur séð staðsetningu þína í 1 klst. og %d mínútur</item>
+        <item quantity="one">Fólk með þennan tengil getur séð staðsetningu þína í 1 klst. og %d mínútu</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="other">Fólk með þennan tengil getur séð staðsetningu þína í %d daga</item>
+        <item quantity="one">Fólk með þennan tengil getur séð staðsetningu þína í %d dag</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="other">Fólk með þennan tengil getur séð staðsetningu þína í %d klst.</item>
+        <item quantity="one">Fólk með þennan tengil getur séð staðsetningu þína í %d klst.</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="other">Fólk með þennan tengil getur séð staðsetningu þína í %d mínútur</item>
+        <item quantity="one">Fólk með þennan tengil getur séð staðsetningu þína í %d mínútu</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="other">%d í viðbót</item>
+        <item quantity="one">%d í viðbót</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">Taka hljóð af myndskeiði %2$d á færslu %1$d</item>
+        <item quantity="one">Taka hljóð af myndskeiði %2$d á færslu %1$d</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="other">%d myndir/myndskeið</item>
+        <item quantity="one">%d mynd/myndskeið</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="other">%d myndskeið</item>
+        <item quantity="one">%d myndskeið</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="other">Sérsniðin notandamynd %1$d af %2$d</item>
+        <item quantity="one">Sérsniðin notandamynd %1$d af %2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="other">%d nýjar uppfærslur</item>
+        <item quantity="one">%d ný uppfærsla</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="other">Fyrirtækistilkynningar, %1$s nýjar tilkynningar</item>
+        <item quantity="one">Fyrirtækistilkynningar, %1$s ný tilkynning</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="other">%d myndir</item>
+        <item quantity="one">%d mynd</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="other">%d umsagnir</item>
+        <item quantity="one">%d umsögn</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="other">Smámynd númer %d</item>
+        <item quantity="one">Smámynd númer %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="other">%d svæði án nettengingar</item>
+        <item quantity="one">%d svæði án nettengingar</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="other">Byggt á %1$d tilkynningum</item>
+        <item quantity="one">Byggt á %1$d tilkynningu</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">Gera hlé á myndskeiði %2$d á færslu %1$d</item>
+        <item quantity="one">Gera hlé á myndskeiði %2$d á færslu %1$d</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="other">%1$s samskipti</item>
+        <item quantity="one">%1$s samskipti</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="other">%1$s leitir</item>
+        <item quantity="one">%1$s leit</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="other">Skoðað %1$s sinnum</item>
+        <item quantity="one">Skoðað %1$s sinni</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="other">Bókun fyrir %d nætur</item>
+        <item quantity="one">Bókun fyrir %d nótt</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="other">Aðeins þú sérð þetta</item>
+        <item quantity="one">Aðeins þú sérð þetta</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="other">%1$d dagar</item>
+        <item quantity="one">%1$d dagur</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="other">%1$d nætur</item>
+        <item quantity="one">%1$d nótt</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="other">%d myndir</item>
+        <item quantity="one">%d mynd</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="other">"Beðið eftir WiFi.
+ %d myndir/myndskeið í bið."</item>
+        <item quantity="one">"Beðið eftir WiFi.
+ %d mynd/myndskeið í bið."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="other">Mynd %2$d fyrir færslu %1$d</item>
+        <item quantity="one">Mynd %2$d fyrir færslu %1$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="other">Fyrir %d dögum</item>
+        <item quantity="one">Fyrir %d degi</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="other">Fyrir %d klukkustundum</item>
+        <item quantity="one">Fyrir %d klukkustund</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="other">Fyrir %d mánuðum</item>
+        <item quantity="one">Fyrir %d mánuði</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="other">Fyrir %d vikum</item>
+        <item quantity="one">Fyrir %d viku</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="other">Fyrir %d árum</item>
+        <item quantity="one">Fyrir %d ári</item>
+    </plurals>
+    <plurals name="PHOTO_INDEX_IN_LIST">
+        <item quantity="other">Mynd %1$,d af %2$,d</item>
+        <item quantity="one">Mynd %1$,d af %2$,d</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="other">%d uppfærslur</item>
+        <item quantity="one">%d uppfærsla</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="other">Sjá %d svör</item>
+        <item quantity="one">Sjá %d svar</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="other">+%1$,d</item>
+        <item quantity="one">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">Spila myndskeið %2$d á færslu %1$d</item>
+        <item quantity="one">Spila myndskeið %2$d á færslu %1$d</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="other">+%d aðrar deilingar</item>
+        <item quantity="one">+%d önnur deiling</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="other">Skipta út viðkomustöðum</item>
+        <item quantity="one">Skipta út viðkomustað</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="other">Skiptir um viðkomustaði</item>
+        <item quantity="one">Skiptir um viðkomustað</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="other">%,d birtingar</item>
+        <item quantity="one">%,d birting</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="other">%d einkunnir</item>
+        <item quantity="one">%d einkunn</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="other">%d umsagnir</item>
+        <item quantity="one">%d umsögn</item>
+    </plurals>
+    <plurals name="PROFILE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="other">Sjá %,d svör</item>
+        <item quantity="one">Sjá %,d svar</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="other">Með %d stjörnur</item>
+        <item quantity="one">Með %d stjörnu</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="other">%d stjörnur</item>
+        <item quantity="one">%d stjarna</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="other">%1$,d %2$s viðbrögð</item>
+        <item quantity="one">%1$,d %2$s viðbrögð</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="other">Uppfært fyrir %d mínútum</item>
+        <item quantity="one">Uppfært fyrir %d mínútu</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="other">Í %1$d vagna lest skaltu fara um borð í %2$s til að komast sem fyrst út</item>
+        <item quantity="one">Í %1$d vagns lest skaltu fara um borð í %2$s til að komast sem fyrst út</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="other">Í %1$d vagna lest skaltu fara um borð í %2$s til að komast sem fyrst á milli</item>
+        <item quantity="one">Í %1$d vagns lest skaltu fara um borð í %2$s til að komast sem fyrst á milli</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="other">Fámennustu vagnarnir eru %1$s</item>
+        <item quantity="one">Fámennustu vagnarnir eru %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="other">%1$d vagna lest</item>
+        <item quantity="one">%1$d vagns lest</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="other">%d greiðslur</item>
+        <item quantity="one">%d greiðsla</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="other">%1$s + %2$s í viðbót</item>
+        <item quantity="one">%1$s + %2$s í viðbót</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="other">%d+</item>
+        <item quantity="one">%d+</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="other">Gefa %1$d stjörnur af 5</item>
+        <item quantity="one">Gefa %1$d stjörnu af 5</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="other">%s birtingar</item>
+        <item quantity="one">%s birting</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="other">%,d einkunnir og umsagnir</item>
+        <item quantity="one">%,d einkunn og umsögn</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="other">%,d einkunnir eða umsagnir</item>
+        <item quantity="one">%,d einkunn og umsögn</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="other">(%,d)</item>
+        <item quantity="one">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="other">%d aðilar</item>
+        <item quantity="one">%d aðili</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="other">%d spurningar</item>
+        <item quantity="one">%d spurning</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="other">%d listar í viðbót</item>
+        <item quantity="one">%d listi í viðbót</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="other">Vistað í %1$s og %2$d listum í viðbót</item>
+        <item quantity="one">Vistað í %1$s og %2$d lista í viðbót</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="other">Vista heimsókn þína frá því fyrir %d dögum?</item>
+        <item quantity="one">Vista heimsókn þína frá því fyrir %d degi?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="other">Fann %1$d niðurstöður fyrir %2$s</item>
+        <item quantity="one">Fann %1$d niðurstöðu fyrir %2$s</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="other">Sendir %1$d stjörnu einkunn</item>
+        <item quantity="one">Sendir %1$d stjörnu einkunn</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="other">í %d daga</item>
+        <item quantity="one">í %d dag</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="other">í %d klukkustundir</item>
+        <item quantity="one">í %d klukkustund</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="other">í %d mín.</item>
+        <item quantity="one">í %d mín.</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="other">Deilir staðsetningu þinni með %2$s og %1$d í viðbót</item>
+        <item quantity="one">Deilir staðsetningu þinni með %2$s og %1$d í viðbót</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="other">Deila staðsetningu þinni með %d öðrum</item>
+        <item quantity="one">Deila staðsetningu þinni með %d öðrum</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="other">Vista %d staði</item>
+        <item quantity="one">Vista %d stað</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="other">%d staðir fundust</item>
+        <item quantity="one">%d staður fannst</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="other">%1$s, %2$d stjörnur</item>
+        <item quantity="one">%1$s, %2$d stjarna</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="other">Gaf %1$d stjörnur</item>
+        <item quantity="one">Gaf %1$d stjörnu</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="other">Skoðað %,d sinnum</item>
+        <item quantity="one">Skoðað %,d sinni</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="other">%d stig</item>
+        <item quantity="one">%d stig</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="other">Birta %1$d myndir eða vídeó af %2$s</item>
+        <item quantity="one">Birta %1$d mynd eða vídeó af %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="other">Birta %1$d myndir af %2$s</item>
+        <item quantity="one">Birta %1$d mynd af %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="other">+%d í viðbót</item>
+        <item quantity="one">+%d í viðbót</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="other">Birta %1$d myndir</item>
+        <item quantity="one">Birta %1$d mynd</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="other">Birta %1$d</item>
+        <item quantity="one">Birta %1$d</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="other">%1$,d aðilar nefna %2$s</item>
+        <item quantity="one">%1$,d aðili nefnir %2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="other">%1$,d viðbrögð</item>
+        <item quantity="one">%1$,d viðbrögð</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="other">Sjá %1$d valkosti til viðbótar frá %2$s</item>
+        <item quantity="one">Sjá %1$d valkost til viðbótar frá %2$s</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="other">Sjá %1$d valkosti í viðbót</item>
+        <item quantity="one">Sjá %1$d valkost í viðbót</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="other">Vistaðu heimilisföngin þín til að sjá fljótlegustu leiðirnar framhjá umferðarhnútunum</item>
+        <item quantity="one">Vistaðu heimilisföngin þín til að sjá fljótlegustu leiðirnar framhjá umferðarhnútunum</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="other">Brottfarir uppfærðar fyrir %1$d síðan</item>
+        <item quantity="one">Brottfarir uppfærðar fyrir %1$d síðan</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="other">Fer á %d mínútna fresti</item>
+        <item quantity="one">Fer á %d mínútu fresti</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="other">%d mín</item>
+        <item quantity="one">%d mín</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="other">%1$s (%2$d áminningar)</item>
+        <item quantity="one">%1$s (%2$d áminning)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="other">%1$s strætisvagn (%2$d áminningar)</item>
+        <item quantity="one">%1$s strætisvagn (%2$d áminning)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="other">%1$s ferja (%2$d áminningar)</item>
+        <item quantity="one">%1$s ferja (%2$d áminning)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="other">%1$s lína (%2$d áminningar)</item>
+        <item quantity="one">%1$slína (%2$d áminning)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="other">%1$s lest (%2$d áminningar)</item>
+        <item quantity="one">%1$s lest (%2$d áminning)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="other">%1$s sporvagn (%2$d áminningar)</item>
+        <item quantity="one">%1$s sporvagn (%2$d áminning)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="other">Á %d mínútna fresti</item>
+        <item quantity="one">Á %d mínútu fresti</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="other">%d viðkomustaðir</item>
+        <item quantity="one">%d viðkomustaður</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="other">"Fyrir %1$s
+mín."</item>
+        <item quantity="one">"Fyrir %1$s
+mín."</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="other">Fór fyrir %1$s mínútum</item>
+        <item quantity="one">Fór fyrir %1$s mínútu</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="other">%d viðvaranir</item>
+        <item quantity="one">%d viðvörun</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="other">+ %d viðvaranir</item>
+        <item quantity="one">+ %d viðvörun</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="other">+%d í viðbót</item>
+        <item quantity="one">+%d í viðbót</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="other">+ %d í viðbót</item>
+        <item quantity="one">+ %d í viðbót</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_LINES_COUNT">
+        <item quantity="other">+ %1$d í viðbót</item>
+        <item quantity="one">+ %1$d í viðbót</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="other">"%1$s
+mín."</item>
+        <item quantity="one">"%1$s
+mín."</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="other">Fyrir %1$s mín.</item>
+        <item quantity="one">Fyrir %1$s mín.</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="other">Fer eftir %1$s mínútur</item>
+        <item quantity="one">Fer eftir %1$s mínútu</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="other">%1$s viðvaranir í viðbót</item>
+        <item quantity="one">%1$s viðvörun í viðbót</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="other">%s myndir</item>
+        <item quantity="one">%s mynd</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="other">%s umsagnir</item>
+        <item quantity="one">%s umsögn</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="other">%,d framlög</item>
+        <item quantity="one">%,d framlag</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="other">Skoðað %,d sinnum</item>
+        <item quantity="one">Skoðað %,d sinni</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="other">Veldu allt að %1$d</item>
+        <item quantity="one">Veldu allt að %1$d</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="other">Veldu allt að %1$s myndir</item>
+        <item quantity="one">Veldu allt að %1$s mynd</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="other">Setja aftur hljóð á myndskeið %2$d á færslu %1$d</item>
+        <item quantity="one">Setja aftur hljóð á myndskeið %2$d á færslu %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="other">%1$d af %2$d</item>
+        <item quantity="one">%1$d af %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="other">"Beðið eftir WiFi.
+ %d myndir í bið."</item>
+        <item quantity="one">"Beðið eftir WiFi.
+ %d mynd í bið."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="other">%d myndir valdar</item>
+        <item quantity="one">%d mynd valin</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="other">Heimsótti %1$d af %2$d stöðum</item>
+        <item quantity="one">Heimsótti %1$d af %2$d stað</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">Slökktu á rafhlöðusparnaði til að bæta staðsetningarnákvæmni þegar þú deilir með %1$s + %2$d öðrum</item>
+        <item quantity="one">Slökktu á rafhlöðusparnaði til að bæta staðsetningarnákvæmni þegar þú deilir með %1$s + %2$d öðrum</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">Það þarf að vera kveikt á staðsetningu tækis til að halda áfram að deila staðsetningu með %1$s + %2$d öðrum</item>
+        <item quantity="one">Það þarf að vera kveikt á staðsetningu tækis til að halda áfram að deila staðsetningu með %1$s + %2$d öðrum</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">Uppfærðu staðsetningardeilingu til að halda áfram að deila í þessu tæki með %1$s + %2$d öðrum</item>
+        <item quantity="one">Uppfærðu staðsetningardeilingu til að halda áfram að deila í þessu tæki með %1$s + %2$d öðrum</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">Leyfðu Kortum að bera kennsl á líkamlega hreyfingu til að bæta staðsetningarnákvæmni þegar þú deilir með %1$s + %2$d öðrum</item>
+        <item quantity="one">Leyfðu Kortum að bera kennsl á líkamlega hreyfingu til að bæta staðsetningarnákvæmni þegar þú deilir með %1$s + %2$d öðrum</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">Veittu Kortum alltaf aðgang að staðsetningu þinni til að bæta staðsetningarnákvæmni þegar þú deilir með %1$s + %2$d öðrum</item>
+        <item quantity="one">Veittu Kortum alltaf aðgang að staðsetningu þinni til að bæta staðsetningarnákvæmni þegar þú deilir með %1$s + %2$d öðrum</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="other">Veittu Kortum alltaf aðgang að staðsetningu þinni til að halda áfram að deila með %1$s + %2$d öðrum</item>
+        <item quantity="one">Veittu Kortum alltaf aðgang að staðsetningu þinni til að halda áfram að deila með %1$s + %2$d öðrum</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="other">%d+ myndir</item>
+        <item quantity="one">%d+ myndir</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="other">(%,d umsagnir)</item>
+        <item quantity="one">(%,d umsögn)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="other">%1$s sekúndur</item>
+        <item quantity="one">%1$s sekúnda</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="other">Myndskeið %2$d fyrir færslu %1$d</item>
+        <item quantity="one">Myndskeið %2$d fyrir færslu %1$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="other">Myndskeið %2$d fyrir færslu %1$d er á öllum skjánum</item>
+        <item quantity="one">Myndskeið %2$d fyrir færslu %1$d er á öllum skjánum</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="other">%2$s × %1$d nætur</item>
+        <item quantity="one">%2$s × %1$d nótt</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="other">%2$s fyrir %1$d nætur með sköttum og gjöldum</item>
+        <item quantity="one">%2$s fyrir %1$d nótt með sköttum og gjöldum</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="other">%d mín. ganga</item>
+        <item quantity="one">%d mín. ganga</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="other">+ %d stopp</item>
+        <item quantity="one">+ %d stopp</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="other">(%d stopp)</item>
+        <item quantity="one">(%d stopp)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="other">Fyrir %d vikum síðan</item>
+        <item quantity="one">Fyrir %d viku síðan</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="other">Fyrir %d árum síðan</item>
+        <item quantity="one">Fyrir %d ári síðan</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="other">Skoða %1$d myndir sem eru eftir</item>
+        <item quantity="one">Skoða %1$d mynd sem er eftir</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="other">Umsagnirnar og uppfærslurnar þínar</item>
+        <item quantity="one">Umsagnirnar og uppfærslurnar þínar</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="other">Þú fylgist með %1$s og %2$d listum í viðbót</item>
+        <item quantity="one">Þú fylgist með %1$s og %2$d lista í viðbót</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="other">%1$s og %2$d í viðbót</item>
+        <item quantity="one">%1$s og %2$d í viðbót</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="other">+%1$d</item>
+        <item quantity="one">+%1$d</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="other">%1$d af %2$d</item>
+        <item quantity="one">%1$d af %2$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="other">%1$d af %2$d</item>
+        <item quantity="one">%1$d af %2$d</item>
+    </plurals>
+    <plurals name="local_guide_level">
+        <item quantity="other">stig %1$d</item>
+        <item quantity="one">stig %1$d</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="other">%1$d mín.</item>
+        <item quantity="one">%1$d mín.</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="other">%1$d tökur</item>
+        <item quantity="one">%1$d taka</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nýjar tilkynningar</item>
+        <item quantity="one">%d ný tilkynning</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="other">+ %1$d í viðbót</item>
+        <item quantity="one">+ %1$d í viðbót</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="other">%d einstaklingar eru að skrifa</item>
+        <item quantity="one">%d einstaklingur er að skrifa</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="other">%d viðtakendur afritaðir</item>
+        <item quantity="one">%d viðtakandi afritaður</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="other">Segja eitthvað um myndirnar þínar (valkvætt)</item>
+        <item quantity="one">Segja eitthvað um myndirnar þínar (valkvætt)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">%1$d stjörnur af %2$d</item>
+        <item quantity="one">%1$d stjarna af %2$d</item>
+    </plurals>
+</resources>

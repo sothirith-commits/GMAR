@@ -1,0 +1,6 @@
+.class public interface abstract Llmg;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Landroid/os/IInterface;

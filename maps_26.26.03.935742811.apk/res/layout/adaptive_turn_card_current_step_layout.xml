@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.geo.navcore.turncard.views.TurnCardContainerLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.geo.navcore.turncard.views.TurnCardStepContainerLayout android:id="@id/current_step_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.libraries.geo.navcore.turncard.views.TurnCardStatusContainerLayout android:id="@id/status_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="start|center" android:layout_gravity="start|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/status_progress_bar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="24.0dip" android:paddingEnd="0.0dip" />
+            <TextView android:gravity="start" android:id="@id/status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="24.0dip" />
+        </LinearLayout>
+    </com.google.android.libraries.geo.navcore.turncard.views.TurnCardStatusContainerLayout>
+</com.google.android.libraries.geo.navcore.turncard.views.TurnCardContainerLayout>

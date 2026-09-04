@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/top_label_bot_icon" android:paddingLeft="0.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bot" android:tint="?colorOutline" android:contentDescription="@string/bot_icon" android:filterTouchesWhenObscured="true" android:paddingStart="0.0dip" android:paddingEnd="4.0dip" />
+    <TextView android:id="@id/top_label_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

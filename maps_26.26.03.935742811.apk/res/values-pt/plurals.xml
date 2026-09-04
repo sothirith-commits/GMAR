@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="other">Fazendo upload de %1$d mídias</item>
+        <item quantity="one">Fazendo upload de %1$d mídia</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="other">"Aguardando Wi-Fi.
+ %d vídeos estão pendentes."</item>
+        <item quantity="one">"Aguardando Wi-Fi.
+ %d vídeo está pendente."</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="other">%1$d de %2$d</item>
+        <item quantity="one">%1$d de %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="other">"]Aguardando Wi-Fi.
+ %d fotos estão pendentes."</item>
+        <item quantity="one">"]Aguardando Wi-Fi.
+ %d foto está pendente."</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="other">%d destinatários copiados</item>
+        <item quantity="one">%d destinatário copiado</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d novas notificações</item>
+        <item quantity="one">%1$d nova notificação</item>
+    </plurals>
+</resources>

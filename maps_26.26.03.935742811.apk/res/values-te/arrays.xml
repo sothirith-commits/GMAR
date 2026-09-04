@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>ఎ</item>
+        <item>బి</item>
+        <item>సి</item>
+        <item>డి</item>
+        <item>ఇ</item>
+        <item>ఎఫ్</item>
+        <item>జి</item>
+        <item>హెచ్</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>ఏవైనా</item>
+        <item>₹</item>
+        <item>₹₹</item>
+        <item>₹₹₹</item>
+        <item>₹₹₹₹</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>ఏ స్థాయిలోని ధర అయినా</item>
+        <item>చవక</item>
+        <item>ఓమోస్తరు ఖరీదు</item>
+        <item>ఖరీదు</item>
+        <item>అధిక ఖరీదు</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>ఏవైనా</item>
+        <item>3-నక్షత్రాలు</item>
+        <item>4-నక్షత్రాలు</item>
+        <item>5-నక్షత్రాలు</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>ఏదైనా</item>
+        <item>ఇప్పుడు తెరవబడి ఉంది</item>
+        <item>అనుకూలం</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>జూమ్ చేస్తున్నపుడు</item>
+        <item>ఎల్లప్పుడూ</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>దగ్గరగా లేదా దూరంగా జూమ్ చేస్తున్నప్పుడు</item>
+        <item>ఎల్లప్పుడూ</item>
+    </string-array>
+    <string-array name="five_stars_state_commentary">
+        <item>దీన్ని ఇష్టపడలేదు</item>
+        <item>దీన్ని డిస్‌లైక్ చేశారు</item>
+        <item>ఫర్వాలేదు</item>
+        <item>దీన్ని లైక్ చేశారు</item>
+        <item>దీన్ని ఇష్టపడ్డారు</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>నచ్చలేదు</item>
+        <item>ఇష్టం లేదు</item>
+        <item>ఫర్వాలేదు</item>
+        <item>ఇది నచ్చింది</item>
+        <item>దీన్ని ఇష్టపడ్డాను</item>
+    </string-array>
+</resources>

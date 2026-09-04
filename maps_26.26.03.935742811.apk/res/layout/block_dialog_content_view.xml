@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:filterTouchesWhenObscured="true" android:paddingStart="@dimen/block_and_spam_dialog_padding" android:paddingEnd="@dimen/block_and_spam_dialog_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/block_and_spam_dialog_body_text_size" android:textColor="?colorOnSurfaceVariant" android:id="@id/block_and_spam_dialog_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/block_and_spam_body_text_margin" android:lineSpacingMultiplier="@dimen/H1_spacing_multiplier" android:textAlignment="viewStart" android:layout_marginStart="@dimen/block_and_spam_body_text_margin" android:layout_marginEnd="@dimen/block_and_spam_body_text_margin" />
+    <LinearLayout android:orientation="vertical" android:id="@id/block_and_spam_check_box_container" android:paddingBottom="@dimen/block_and_spam_check_box_container_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:textAppearance="?textAppearanceSubhead1" android:textColor="?colorOnSurface" android:id="@id/block_and_spam_check_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/min_touch_target_size" android:lineSpacingMultiplier="@dimen/H6_spacing_multiplier" android:textAlignment="viewStart" android:paddingStart="@dimen/block_and_spam_checkbox_padding" android:paddingEnd="@dimen/block_and_spam_checkbox_padding" android:layout_marginStart="@dimen/block_and_spam_checkbox_margin" />
+    </LinearLayout>
+</LinearLayout>

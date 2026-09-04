@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="app_widget_background_corner_radius">@android:dimen/system_app_widget_background_radius</item>
+    <item type="dimen" name="app_widget_container_corner_radius">@android:dimen/system_app_widget_inner_radius</item>
+    <item type="dimen" name="m3_control_ripple_color_selector_default_alpha">0.2</item>
+    <item type="dimen" name="m3_control_ripple_color_selector_hovered_alpha">0.1</item>
+    <item type="dimen" name="m3_control_ripple_color_selector_pressed_alpha">0.12</item>
+    <dimen name="settingslib_dialogCornerRadius">28.0dip</dimen>
+    <dimen name="settingslib_listPreferredItemPaddingStart">24.0dip</dimen>
+    <item type="dimen" name="survey_alertdialog_button_right_margin">@dimen/google_marterial_alertdialog_buttons_right_margin</item>
+    <dimen name="survey_button_min_width_size">88.0dip</dimen>
+    <dimen name="transit_line_description_max_width">90.0dip</dimen>
+    <dimen name="transit_line_max_width">140.0dip</dimen>
+    <dimen name="transit_line_max_width_no_gps">100.0dip</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_bottom_margin">30.0dip</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_end_margin">16.0dip</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_padding_vertical">16.0dip</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_right_margin">16.0dip</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_top_margin">26.0dip</dimen>
+    <dimen name="google_marterial_button_text_size">14.0sp</dimen>
+    <dimen name="google_marterial_dialog_title_size">24.0sp</dimen>
+    <dimen name="google_marterial_dialog_title_top_padding">24.0dip</dimen>
+    <dimen name="google_marterial_margin_between_buttons">8.0dip</dimen>
+    <dimen name="google_material_corner_radius">28.0dip</dimen>
+    <dimen name="settingslib_preferred_minimum_touch_target">48.0dip</dimen>
+    <dimen name="survey_alertdialog_background_inset">5.0dip</dimen>
+    <item type="dimen" name="survey_alertdialog_corner_radius">@dimen/google_material_corner_radius</item>
+</resources>

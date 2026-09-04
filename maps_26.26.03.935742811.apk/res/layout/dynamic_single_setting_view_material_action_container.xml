@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.DynamicConsentFlow" android:gravity="bottom" android:orientation="horizontal" android:id="@id/action_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:id="@id/action_bar" android:paddingLeft="20.0dip" android:paddingTop="8.0dip" android:paddingRight="20.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="8.0dip" style="@style/Theme.DynamicConsentFlow.StickyActionBar">
+        <com.google.android.material.button.MaterialButton android:id="@id/negative_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="8.0dip" android:layout_marginEnd="8.0dip" style="@style/Theme.DynamicConsentFlow.NegativeMaterialButton">
+            <requestFocus />
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton android:id="@id/negative_hairline_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="8.0dip" android:layout_marginEnd="8.0dip" style="@style/Theme.DynamicConsentFlow.OutlinedMaterialButton">
+            <requestFocus />
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton android:id="@id/positive_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Theme.DynamicConsentFlow.PositiveMaterialButton" />
+        <com.google.android.material.button.MaterialButton android:id="@id/scroll_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Theme.DynamicConsentFlow.PositiveMaterialButton" />
+    </LinearLayout>
+</LinearLayout>

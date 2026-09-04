@@ -1,0 +1,48 @@
+.class public abstract Lczkd;
+.super Lorg/chromium/net/ExperimentalCronetEngine;
+.source "PG"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lorg/chromium/net/ExperimentalCronetEngine;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected abstract b(Ljava/lang/String;Lorg/chromium/net/UrlRequest$Callback;Ljava/util/concurrent/Executor;ILjava/util/Collection;ZZZIZILorg/chromium/net/RequestFinishedInfo$Listener;JLjava/lang/String;Ljava/util/ArrayList;Lorg/chromium/net/UploadDataProvider;Ljava/util/concurrent/Executor;)Lorg/chromium/net/ExperimentalUrlRequest;
+.end method
+
+.method public bridge synthetic newBidirectionalStreamBuilder(Ljava/lang/String;Lorg/chromium/net/BidirectionalStream$Callback;Ljava/util/concurrent/Executor;)Lorg/chromium/net/BidirectionalStream$Builder;
+    .locals 0
+
+    invoke-super {p0, p1, p2, p3}, Lorg/chromium/net/ExperimentalCronetEngine;->newBidirectionalStreamBuilder(Ljava/lang/String;Lorg/chromium/net/BidirectionalStream$Callback;Ljava/util/concurrent/Executor;)Lorg/chromium/net/ExperimentalBidirectionalStream$Builder;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final newUrlRequestBuilder(Ljava/lang/String;Lorg/chromium/net/UrlRequest$Callback;Ljava/util/concurrent/Executor;)Lorg/chromium/net/ExperimentalUrlRequest$Builder;
+    .locals 1
+
+    new-instance v0, Lczln;
+
+    invoke-direct {v0, p1, p2, p3, p0}, Lczln;-><init>(Ljava/lang/String;Lorg/chromium/net/UrlRequest$Callback;Ljava/util/concurrent/Executor;Lczkd;)V
+
+    return-object v0
+.end method
+
+.method public synthetic newUrlRequestBuilder(Ljava/lang/String;Lorg/chromium/net/UrlRequest$Callback;Ljava/util/concurrent/Executor;)Lorg/chromium/net/UrlRequest$Builder;
+    .locals 1
+
+    new-instance v0, Lczln;
+
+    invoke-direct {v0, p1, p2, p3, p0}, Lczln;-><init>(Ljava/lang/String;Lorg/chromium/net/UrlRequest$Callback;Ljava/util/concurrent/Executor;Lczkd;)V
+
+    return-object v0
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/HorizontalDivider" />
+    <LinearLayout android:layout_height="@dimen/onelineentry_height" style="@style/HorizontalContainer">
+        <ImageButton android:id="@id/previous_button" android:layout_width="@dimen/directions_min_touch_target_size" android:layout_height="fill_parent" android:src="@drawable/transit_optionarrow_left" android:tint="@color/mod_daynight_grey650" android:layout_weight="0.0" android:contentDescription="@string/ACCESSIBILITY_PREVIOUS_DATE" android:paddingEnd="6.0dip" style="@style/Button" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/date_pager" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Container" />
+        <ImageButton android:id="@id/forward_button" android:layout_width="@dimen/directions_min_touch_target_size" android:layout_height="fill_parent" android:src="@drawable/transit_optionarrow_right" android:tint="@color/mod_daynight_grey650" android:layout_weight="0.0" android:contentDescription="@string/ACCESSIBILITY_NEXT_DATE" android:paddingStart="6.0dip" style="@style/Button" />
+    </LinearLayout>
+    <View style="@style/HorizontalDivider" />
+</LinearLayout>

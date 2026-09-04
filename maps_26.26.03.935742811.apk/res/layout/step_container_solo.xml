@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.libraries.geo.navcore.turncard.views.TurnCardStepInstructionContainerLayout android:id="@id/step_instruction_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.google.android.libraries.geo.navcore.turncard.views.TurnCardNextStepInstructionContainerLayout android:id="@id/next_step_instruction_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.libraries.geo.navcore.turncard.views.TurnCardNextStepInstructionView android:id="@id/next_step_instruction" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.google.android.libraries.geo.navcore.turncard.views.TurnCardNextStepInstructionContainerLayout>
+    </LinearLayout>
+</merge>

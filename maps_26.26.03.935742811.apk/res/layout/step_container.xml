@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.geo.navcore.turncard.views.FlexibleVerticalPriorityLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.geo.navcore.turncard.views.TurnCardStepInstructionContainerLayout android:id="@id/step_instruction_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="3.0dip" custom:local_priority="2" />
+        <com.google.android.libraries.geo.navcore.turncard.views.TurnCardNextStepInstructionContainerLayout android:layout_gravity="start" android:id="@id/next_step_instruction_container" android:layout_width="wrap_content" android:layout_height="wrap_content" custom:local_priority="1">
+            <com.google.android.libraries.geo.navcore.turncard.views.TurnCardNextStepInstructionView android:gravity="center" android:id="@id/next_step_instruction" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.google.android.libraries.geo.navcore.turncard.views.TurnCardNextStepInstructionContainerLayout>
+    </com.google.android.libraries.geo.navcore.turncard.views.FlexibleVerticalPriorityLayout>
+</merge>

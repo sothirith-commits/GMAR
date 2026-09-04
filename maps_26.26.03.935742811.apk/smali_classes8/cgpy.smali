@@ -1,0 +1,19 @@
+.class public interface abstract Lcgpy;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract b(Ljava/lang/Object;Lczgj;)Lcgps;
+.end method

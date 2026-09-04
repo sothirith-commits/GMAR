@@ -1,0 +1,44 @@
+.class public final Lhpo;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Landroid/media/Spatializer$OnSpatializerStateChangedListener;
+
+
+# instance fields
+.field final synthetic a:Ljava/lang/Runnable;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Runnable;)V
+    .locals 0
+
+    iput-object p1, p0, Lhpo;->a:Ljava/lang/Runnable;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onSpatializerAvailableChanged(Landroid/media/Spatializer;Z)V
+    .locals 0
+
+    iget-object p0, p0, Lhpo;->a:Ljava/lang/Runnable;
+
+    invoke-interface {p0}, Ljava/lang/Runnable;->run()V
+
+    return-void
+.end method
+
+.method public final onSpatializerEnabledChanged(Landroid/media/Spatializer;Z)V
+    .locals 0
+
+    iget-object p0, p0, Lhpo;->a:Ljava/lang/Runnable;
+
+    invoke-interface {p0}, Ljava/lang/Runnable;->run()V
+
+    return-void
+.end method

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.DynamicConsentFlow" android:orientation="vertical" android:id="@id/consent_ui" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/scroll_handle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:src="@drawable/scroll_handle" android:contentDescription="@string/scroll_handle_content_description" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/account_particle_container" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="14.0dip" android:layout_marginHorizontal="16.0dip">
+        <com.google.android.libraries.onegoogle.account.disc.AccountParticleDisc android:id="@id/account_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:allowBadges="false" app:allowRings="false" app:maxDiscContentSize="36.0dip" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dip">
+            <TextView android:id="@id/account_display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.ConsentFlow.AccountDisplayName" />
+            <TextView android:id="@id/account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.ConsentFlow.AccountName" />
+            <TextView android:id="@id/choose_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" style="@style/Theme.ConsentFlow.AccountDisplayName" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/close" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="16.0dip" android:src="@drawable/close_24px" android:scaleType="center" android:contentDescription="@string/close_button" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/write_consent_progress_bar_container" android:layout_width="fill_parent" android:layout_height="3.0dip">
+        <View android:id="@id/horizontal_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" style="@style/Theme.ConsentFlow.Divider" />
+        <com.google.android.libraries.material.progress.MaterialProgressBar android:id="@id/write_consent_progress_bar" android:visibility="gone" android:layout_alignParentBottom="true" app:mtrlLinearBarHeight="3.0dip" style="@style/Theme.ConsentFlow.WriteConsentProgressBar" />
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/consent_container" android:clipChildren="false" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/dynamic_consent_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="0.0dip">
+            <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" style="@style/Theme.DynamicConsentFlow.Title" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
