@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b0c9c" android:layout_width="match_parent" android:layout_height="wrap_content" android:filterTouchesWhenObscured="true" />
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/id_0x7f0b0189" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:filterTouchesWhenObscured="true" />
+</merge>

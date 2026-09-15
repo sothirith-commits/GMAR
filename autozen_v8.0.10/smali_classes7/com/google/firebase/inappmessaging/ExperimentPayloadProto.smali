@@ -1,0 +1,14 @@
+.class public final Lcom/google/firebase/inappmessaging/ExperimentPayloadProto;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/firebase/inappmessaging/ExperimentPayloadProto$ExperimentPayload;,
+        Lcom/google/firebase/inappmessaging/ExperimentPayloadProto$ExperimentPayloadOrBuilder;,
+        Lcom/google/firebase/inappmessaging/ExperimentPayloadProto$ExperimentLite;,
+        Lcom/google/firebase/inappmessaging/ExperimentPayloadProto$ExperimentLiteOrBuilder;
+    }
+.end annotation

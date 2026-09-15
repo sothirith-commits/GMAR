@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">Белсенді %d метро билетіңіз бар.</item>
+        <item quantity="other">Белсенді %d метро билетіңіз бар.</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">Осы сапарға арналған %d белсенді билетіңіз бар.</item>
+        <item quantity="other">Осы сапарға арналған %d белсенді билетіңіз бар.</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">Тағы %d опция</item>
+        <item quantity="other">Тағы %d опция</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="one">%1$d адам хабарлады.</item>
+        <item quantity="other">%1$d адам хабарлады.</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d адам хабарлады.</item>
+        <item quantity="other">%1$d адам хабарлады.</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d хабарландыру</item>
+        <item quantity="other">%d хабарландыру</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d локация</item>
+        <item quantity="other">%1$d локация</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">Жауапты көру</item>
+        <item quantity="other">Жауаптарды (%,d) көру</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">Осы жерді шолу</item>
+        <item quantity="other">Осы жердегі %d жерді шолу</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d велосипед бар.</item>
+        <item quantity="other">%d велосипед бар.</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">Станцияда %s велосипед бар.</item>
+        <item quantity="other">Станцияда %s велосипед бар.</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d велосипед</item>
+        <item quantity="other">%d велосипед</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d велосипед тұрағы бар.</item>
+        <item quantity="other">%d велосипед тұрағы бар.</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d тұрақ</item>
+        <item quantity="other">%d тұрақ</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">%1$d адам ұсынады.</item>
+        <item quantity="other">%1$d адам ұсынады.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Жылдамырақ маршрут, %1$s аялдамаға аз</item>
+        <item quantity="other">Жылдамырақ маршрут, %1$s аялдамаға аз</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Жылдамырақ маршрут, %1$s аялдамаға көп</item>
+        <item quantity="other">Жылдамырақ маршрут, %1$s аялдамаға көп</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Жылдамырақ маршрут бар, %1$s аялдама өзгертілді</item>
+        <item quantity="other">Жылдамырақ маршрут бар, %1$s аялдама өзгертілді</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Жаңа маршрут керек, %1$s аялдамаға аз</item>
+        <item quantity="other">Жаңа маршрут керек, %1$s аялдамаға аз</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Жаңа маршрут керек, %1$s аялдамаға көп</item>
+        <item quantity="other">Жаңа маршрут керек, %1$s аялдамаға көп</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Жаңа маршрут керек, %1$s аялдама өзгертілді</item>
+        <item quantity="other">Жаңа маршрут керек, %1$s аялдама өзгертілді</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Жаңа маршрут, %1$s аялдамаға аз</item>
+        <item quantity="other">Жаңа маршрут, %1$s аялдамаға аз</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Жаңа маршрут, %1$s аялдамаға аз</item>
+        <item quantity="other">Жаңа маршрут, %1$s аялдамаға аз</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Жаңа маршрут бар, %1$s зарядтау аялдамасына аз. Жолға әрі зарядтауға кеткен уақытты қосқанда %2$s уақытқа жылдамырақ.</item>
+        <item quantity="other">Жаңа маршрут бар, %1$s зарядтау аялдамасына аз. Жолға әрі зарядтауға кеткен уақытты қосқанда %2$s уақытқа жылдамырақ.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Жаңа маршрут бар, %1$s зарядтау аялдамасына көп. Жолға әрі зарядтауға кеткен уақытты қосқанда %2$s уақытқа жылдамырақ.</item>
+        <item quantity="other">Жаңа маршрут бар, %1$s зарядтау аялдамасына көп. Жолға әрі зарядтауға кеткен уақытты қосқанда %2$s уақытқа жылдамырақ.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Жаңа маршрут таңдауыңыз керек болады. %1$s зарядтау аялдамасына аз. Жететін уақытыңыз: %2$s.</item>
+        <item quantity="other">Жаңа маршрут таңдауыңыз керек болады. %1$s зарядтау аялдамасына аз. Жететін уақытыңыз: %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Жаңа маршрут таңдауыңыз керек болады. %1$s зарядтау аялдамасына көбірек. Жететін уақытыңыз: %2$s.</item>
+        <item quantity="other">Жаңа маршрут таңдауыңыз керек болады. %1$s зарядтау аялдамасына көбірек. Жететін уақытыңыз: %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Жаңа маршрут таңдауыңыз керек болады. %1$s зарядтау аялдамасы өзгерді. Жететін уақытыңыз: %2$s.</item>
+        <item quantity="other">Жаңа маршрут таңдауыңыз керек болады. %1$s зарядтау аялдамасы өзгерді. Жететін уақытыңыз: %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Жаңа маршрут бар, %1$s зарядтау аялдамасына аз. Жету уақыты бірдей.</item>
+        <item quantity="other">Жаңа маршрут бар, %1$s зарядтау аялдамасына аз. Жету уақыты бірдей.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Жаңа маршрут бар, %1$s зарядтау аялдамасына аз. Жолға әрі зарядтауға кеткен уақытты қосқанда %2$s уақытқа баяуырақ.</item>
+        <item quantity="other">Жаңа маршрут бар, %1$s зарядтау аялдамасына аз. Жолға әрі зарядтауға кеткен уақытты қосқанда %2$s уақытқа баяуырақ.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">%1$d күн бұрын пайдаланылды</item>
+        <item quantity="other">%1$d күн бұрын пайдаланылды</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">%1$d апта бұрын пайдаланылды</item>
+        <item quantity="other">%1$d апта бұрын пайдаланылды</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">+%1$d желі</item>
+        <item quantity="other">+%1$d желі</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">%1$d желі таңдалды.</item>
+        <item quantity="other">%1$d желі таңдалды.</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s зарядтау аялдамасы</item>
+        <item quantity="other">%1$s зарядтау аялдамасы</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d аялдама</item>
+        <item quantity="other">%1$d аялдама</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d таңдалды.</item>
+        <item quantity="other">%1$d таңдалды.</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">тағы %1$d</item>
+        <item quantity="other">тағы %1$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">Тағы %1$d</item>
+        <item quantity="other">Тағы %1$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">Тағы %1$d</item>
+        <item quantity="other">Тағы %1$d</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="one">Жұмысқа дейін: %2$d минут</item>
+        <item quantity="other">Жұмысқа дейін: %1$d сағ %2$d мин</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="one">Үйге дейін: %2$d минут</item>
+        <item quantity="other">Үйге дейін: %1$d сағ %2$d мин</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="one">Жұмысқа дейін: %2$d мин</item>
+        <item quantity="other">Жұмысқа дейін: %1$d сағ %2$d мин</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="one">%2$d минуттық сапар</item>
+        <item quantity="other">%1$d сағат %2$d минуттық сапар</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="one">Үйге дейін: %2$d мин</item>
+        <item quantity="other">Үйге дейін: %1$d сағ %2$d мин</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">Әдеттегіден %d минут жылдамырақ</item>
+        <item quantity="other">Әдеттегіден %d минут жылдамырақ</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">Әдеттегіден %d минут баяуырақ</item>
+        <item quantity="other">Әдеттегіден %d минут баяуырақ</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Картадағы азимут: %d градус.</item>
+        <item quantity="other">Картадағы азимут: %d градус.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">%d-жұлдызды</item>
+        <item quantity="other">%d-жұлдызды</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">Level %d Local Guide</item>
+        <item quantity="other">%d-деңгейлі жергілікті гид</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s деген жерге 1 жұлдызша қойдыңыз.</item>
+        <item quantity="other">%1$s деген жерге %2$d жұлдызша қойдыңыз.</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">ұпай</item>
+        <item quantity="other">ұпай</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s күн</item>
+        <item quantity="other">%s күн</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s күн</item>
+        <item quantity="other">%s күн</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s күн</item>
+        <item quantity="other">%s күн</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s күн</item>
+        <item quantity="other">%s күн</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s сағат</item>
+        <item quantity="other">%s сағат</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s сағ</item>
+        <item quantity="other">%s сағ</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s сағ</item>
+        <item quantity="other">%s сағ</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s минут</item>
+        <item quantity="other">%s минут</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s мин</item>
+        <item quantity="other">%s мин</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s мин</item>
+        <item quantity="other">%s мин</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s секунд</item>
+        <item quantity="other">%s секунд</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Әлі %1$s фут жүруіңіз керек</item>
+        <item quantity="other">Әлі %1$s фут жүруіңіз керек</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Әлі %1$s километр жүруіңіз керек</item>
+        <item quantity="other">Әлі %1$s километр жүруіңіз керек</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Әлі %1$s метр жүруіңіз керек</item>
+        <item quantity="other">Әлі %1$s метр жүруіңіз керек</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Әлі %1$s миль жүруіңіз керек</item>
+        <item quantity="other">Әлі %1$s миль жүруіңіз керек</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Әлі %1$s ярд жүруіңіз керек</item>
+        <item quantity="other">Әлі %1$s ярд жүруіңіз керек</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">%2$s деген жолмен әлі %1$s фут жүруіңіз керек</item>
+        <item quantity="other">%2$s деген жолмен әлі %1$s фут жүруіңіз керек</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">%2$s деген жолмен әлі %1$s километр жүруіңіз керек</item>
+        <item quantity="other">%2$s деген жолмен әлі %1$s километр жүруіңіз керек</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">%2$s деген жолмен әлі %1$s метр жүруіңіз керек</item>
+        <item quantity="other">%2$s деген жолмен әлі %1$s метр жүруіңіз керек</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">%2$s деген жолмен әлі %1$s миль жүруіңіз керек</item>
+        <item quantity="other">%2$s деген жолмен әлі %1$s миль жүруіңіз керек</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">%2$s деген жолмен әлі %1$s ярд жүруіңіз керек</item>
+        <item quantity="other">%2$s деген жолмен әлі %1$s ярд жүруіңіз керек</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s футтан кейін</item>
+        <item quantity="other">%1$s футтан кейін</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s километрден кейін</item>
+        <item quantity="other">%1$s километрден кейін</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s метрден кейін</item>
+        <item quantity="other">%1$s метрден кейін</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s мильден кейін</item>
+        <item quantity="other">%1$s мильден кейін</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s ярдтан кейін</item>
+        <item quantity="other">%1$s ярдтан кейін</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s км/сағ</item>
+        <item quantity="other">%s км/сағ</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s миль/сағ</item>
+        <item quantity="other">%s миль/сағ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Белгіленген жерге %1$s фут қалды</item>
+        <item quantity="other">Белгіленген жерге %1$s фут қалды</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Белгіленген жерге %1$s километр қалды</item>
+        <item quantity="other">Белгіленген жерге %1$s километр қалды</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Белгіленген жерге %1$s метр қалды</item>
+        <item quantity="other">Белгіленген жерге %1$s метр қалды</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Белгіленген жерге %1$s миль қалды</item>
+        <item quantity="other">Белгіленген жерге %1$s миль қалды</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Белгіленген жерге %1$s ярд қалды</item>
+        <item quantity="other">Белгіленген жерге %1$s ярд қалды</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d аялдама</item>
+        <item quantity="other">%d аялдама</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d қатынау түрі</item>
+        <item quantity="other">%1$d қатынау түрі</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">%d күн бұрын өзгертілді.</item>
+        <item quantity="other">%d күн бұрын өзгертілді.</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">%d ай бұрын өзгертілді.</item>
+        <item quantity="other">%d ай бұрын өзгертілді.</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">%d апта бұрын өзгертілді.</item>
+        <item quantity="other">%d апта бұрын өзгертілді.</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d велосипед</item>
+        <item quantity="other">%d велосипед</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">Маңайда %d велосипед</item>
+        <item quantity="other">Маңайда %d велосипед</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">%1$d элемент таңдалды</item>
+        <item quantity="other">%1$d элемент таңдалды</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d/%2$d зарядтау ұяшығы бар</item>
+        <item quantity="other">%1$d/%2$d зарядтау ұяшығы бар</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d зарядтау ұяшығы бар</item>
+        <item quantity="other">%d зарядтау ұяшығы бар</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">1 жұлдызшалы баға берілмеді, қайталап көріңіз</item>
+        <item quantity="other">%1$d жұлдызшалы баға берілмеді, қайталап көріңіз</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">Қабат: %s</item>
+        <item quantity="other">Қабаттар: %s</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">Тағы %d түн</item>
+        <item quantity="other">Тағы %d түн</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">Тағы %d түнге қалыңыз</item>
+        <item quantity="other">Тағы %d түнге қалыңыз</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">Бұл қонақүйде %1$d түнге қалуға болады. %2$s, орташа есеппен %3$s төлейсіз.</item>
+        <item quantity="other">Бұл қонақүйде %1$d түнге қалуға болады. %2$s, орташа есеппен %3$s төлейсіз.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">Тағы %1$s түнге қалсаңыз, орташа есеппен %2$s төлейсіз.</item>
+        <item quantity="other">Тағы %1$s түнге қалсаңыз, орташа есеппен %2$s төлейсіз.</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d қонақ</item>
+        <item quantity="other">%d қонақ</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">және тағы %d.</item>
+        <item quantity="other">және тағы %d.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">+ тағы %d.</item>
+        <item quantity="other">+ тағы %d.</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="one">%d күн бұрын</item>
+        <item quantity="other">%d күн бұрын</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="one">%d сағат бұрын</item>
+        <item quantity="other">%d сағат бұрын</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="one">%d минут бұрын</item>
+        <item quantity="other">%d минут бұрын</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">%1$s және тағы %2$d тізімде сақталды.</item>
+        <item quantity="other">%1$s және тағы %2$d тізімде сақталды.</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Сақталды, %1$d тізімге қосылды</item>
+        <item quantity="other">Сақталды, %1$d тізімге қосылды</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="one">%d тізімнен жойылды.</item>
+        <item quantity="other">%d тізімнен жойылды.</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">Сіз %d ай бұрын кірдіңіз</item>
+        <item quantity="other">Сіз %d ай бұрын кірдіңіз</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">Сіз %d апта бұрын кірдіңіз</item>
+        <item quantity="other">Сіз %d апта бұрын кірдіңіз</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">Сіз %d жыл бұрын кірдіңіз</item>
+        <item quantity="other">Сіз %d жыл бұрын кірдіңіз</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d іс-шара</item>
+        <item quantity="other">%d іс-шара</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d элемент</item>
+        <item quantity="other">%d элемент</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d орын</item>
+        <item quantity="other">%d орын</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">%d рет сақталды.</item>
+        <item quantity="other">%d рет сақталды.</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d сапар</item>
+        <item quantity="other">%d сапар</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s рет көрілді.</item>
+        <item quantity="other">%s рет көрілді.</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="one">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">%d күн бұрын өзгертілді.</item>
+        <item quantity="other">%d күн бұрын өзгертілді.</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">%d ай бұрын өзгертілді.</item>
+        <item quantity="other">%d ай бұрын өзгертілді.</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">%d апта бұрын өзгертілді.</item>
+        <item quantity="other">%d апта бұрын өзгертілді.</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">%d жыл бұрын өзгертілді.</item>
+        <item quantity="other">%d жыл бұрын өзгертілді.</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="one">%d аялдама</item>
+        <item quantity="other">%d аялдама</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">%d ұпайыңыз бар.</item>
+        <item quantity="other">%d ұпайыңыз бар.</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">%1$d-деңгейге жету үшін небәрі %2$d ұпай қалды.</item>
+        <item quantity="other">%1$d-деңгейге жету үшін небәрі %2$d ұпай қалды.</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">%d-деңгей</item>
+        <item quantity="other">%d-деңгей</item>
+    </plurals>
+    <plurals name="plurals_0x7f120093">
+        <item quantity="one">Жергілікті гидтің %d-деңгейі</item>
+        <item quantity="other">Жергілікті гидтің %d-деңгейі</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">%dжыл жұмыс істейді</item>
+        <item quantity="other">%d жылдан астам жұмыс істейді</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d күн бұрын</item>
+        <item quantity="other">%d күн бұрын</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d сағат бұрын</item>
+        <item quantity="other">%d сағат бұрын</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d минут бұрын</item>
+        <item quantity="other">%d минут бұрын</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">Бұл жерде %d орын бар.</item>
+        <item quantity="other">Бұл жерде %d орын бар.</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">Сурет өшірілді</item>
+        <item quantity="other">Суреттер өшірілді</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">№%1$d постағы бейнені үлкейту</item>
+        <item quantity="other">№%1$d постағы №%2$d бейнені үлкейту</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d/%2$,d</item>
+        <item quantity="other">%1$,d/%2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">%1$d мультимедиа жүктеп салынып жатыр</item>
+        <item quantity="other">%1$d мультимедиа жүктеп салынып жатыр</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Мәзір фотосуретінің нөмірі: %d</item>
+        <item quantity="other">Мәзір фотосуретінің нөмірі: %d</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d шағым</item>
+        <item quantity="other">%1$d шағым</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">Сілтемені алған адамдар орналасқан жеріңізді 1 күн және %d сағат бойы көре алады.</item>
+        <item quantity="other">Сілтемені алған адамдар орналасқан жеріңізді 1 күн және %d сағат бойы көре алады.</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">Сілтемені алған адамдар орналасқан жеріңізді 1 сағат және %d минут бойы көре алады.</item>
+        <item quantity="other">Сілтемені алған адамдар орналасқан жеріңізді 1 сағат және %d минут бойы көре алады.</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">Сілтемені алған адамдар орналасқан жеріңізді %d күн бойы көре алады.</item>
+        <item quantity="other">Сілтемені алған адамдар орналасқан жеріңізді %d күн бойы көре алады.</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">Сілтемені алған адамдар орналасқан жеріңізді %d сағат бойы көре алады.</item>
+        <item quantity="other">Сілтемені алған адамдар орналасқан жеріңізді %d сағат бойы көре алады.</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">Сілтемені алған адамдар орналасқан жеріңізді %d минут бойы көре алады.</item>
+        <item quantity="other">Сілтемені алған адамдар орналасқан жеріңізді %d минут бойы көре алады.</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">Тағы %d</item>
+        <item quantity="other">Тағы %d</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">№%1$d постағы бейненің дыбысын өшіру</item>
+        <item quantity="other">№%1$d постағы №%2$d бейненің дыбысын өшіру</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d сурет/бейне</item>
+        <item quantity="other">%d сурет/бейне</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d бейне</item>
+        <item quantity="other">%d бейне</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">%1$d/%2$d арнаулы аватар</item>
+        <item quantity="other">%1$d/%2$d арнаулы аватар</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d жаңа өзгерту</item>
+        <item quantity="other">%d жаңа өзгерту</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">Компания жаңалықтары, %1$s жаңа хабарландыру</item>
+        <item quantity="other">Компания жаңалықтары, %1$s жаңа хабарландыру</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d сурет</item>
+        <item quantity="other">%d сурет</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d пікір</item>
+        <item quantity="other">%d пікір</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">Нобай нөмірі: %d</item>
+        <item quantity="other">Нобай нөмірі: %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d офлайн аймақ</item>
+        <item quantity="other">%d офлайн аймақ</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d пікірге негізделген.</item>
+        <item quantity="other">%1$d пікірге негізделген.</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">№%1$d постағы бейнені кідірту</item>
+        <item quantity="other">№%1$d постағы №%2$d бейнені кідірту</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s әрекеттестік</item>
+        <item quantity="other">%1$s әрекеттестік</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s рет іздеу</item>
+        <item quantity="other">%1$s рет іздеу</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s рет көрілді.</item>
+        <item quantity="other">%1$s рет көрілді.</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">%d түнге брондау</item>
+        <item quantity="other">%d түнге брондау</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">Мұны тек сіз көре аласыз.</item>
+        <item quantity="other">Бұларды тек сіз көре аласыз.</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d күн</item>
+        <item quantity="other">%1$d күн</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d түн</item>
+        <item quantity="other">%1$d түн</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d сурет</item>
+        <item quantity="other">%d сурет</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Wi-Fi қосылғанын күтуде.
+ Кезекте %d сурет/бейне тұр."</item>
+        <item quantity="other">"Wi-Fi қосылғанын күтуде.
+ Кезекте %d сурет/бейне тұр."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">%1$d-посқа арналған фотосурет</item>
+        <item quantity="other">%1$d-посқа арналған %2$d-фотосурет</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d күн бұрын</item>
+        <item quantity="other">%d күн бұрын</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d сағат бұрын</item>
+        <item quantity="other">%d сағат бұрын</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d ай бұрын</item>
+        <item quantity="other">%d ай бұрын</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d апта бұрын</item>
+        <item quantity="other">%d апта бұрын</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d жыл бұрын</item>
+        <item quantity="other">%d жыл бұрын</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d жаңа фотосурет</item>
+        <item quantity="other">%d жаңа фотосурет</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">%d жауапты көру</item>
+        <item quantity="other">%d жауапты көру</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="one">+%1$,d</item>
+        <item quantity="other">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">№%1$d постағы бейнені ойнату</item>
+        <item quantity="other">№%1$d постағы №%2$d бейнені ойнату</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">Тағы %d бөлісу</item>
+        <item quantity="other">Тағы %d бөлісу</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Аялдаманы ауыстыру</item>
+        <item quantity="other">Аялдамаларды ауыстыру</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Аялдама ауыстырылуда</item>
+        <item quantity="other">Аялдамалар ауыстырылуда</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d рет көрілді</item>
+        <item quantity="other">%,d рет көрілді</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d баға</item>
+        <item quantity="other">%d баға</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d пікір</item>
+        <item quantity="other">%d пікір</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">%d жұлдызша қойылды.</item>
+        <item quantity="other">%d жұлдызша қойылды.</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="one">%d жұлдызша</item>
+        <item quantity="other">%d жұлдызша</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">1 %2$s реакциясы</item>
+        <item quantity="other">%1$,d %2$s реакциясы</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">%d минут бұрын жаңартылды</item>
+        <item quantity="other">%d минут бұрын жаңартылды</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">%1$d вагоны бар пойыздан тез шығу үшін %2$s-вагонға отырыңыз.</item>
+        <item quantity="other">%1$d вагоны бар пойыздан тез шығу үшін %2$s-вагонға отырыңыз.</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">%1$d вагоны бар пойыздан басқа пойызға тез ауысу үшін %2$s-вагонға отырыңыз.</item>
+        <item quantity="other">%1$d вагоны бар пойыздан басқа пойызға тез ауысу үшін %2$s-вагонға отырыңыз.</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">Жолаушы саны ең аз вагон: %1$s</item>
+        <item quantity="other">Жолаушы саны ең аз вагондар: %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">%1$d вагоны бар пойыз</item>
+        <item quantity="other">%1$d вагоны бар пойыз</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d төлем</item>
+        <item quantity="other">%d төлем</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s және тағы %2$s</item>
+        <item quantity="other">%1$s және тағы %2$s</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="one">%d+</item>
+        <item quantity="other">%d+</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">5 жұлдызшадан 1 жұлдызша қою</item>
+        <item quantity="other">5 жұлдызшадан %1$d жұлдызша қою</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s көру</item>
+        <item quantity="other">%s көру</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d баға немесе пікір</item>
+        <item quantity="other">%,d баға немесе пікір</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d баға немесе пікір</item>
+        <item quantity="other">%,d баға немесе пікір</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d адам</item>
+        <item quantity="other">%d адам</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="one">%d сұрақ</item>
+        <item quantity="other">%d сұрақ</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">Тағы %d тізім</item>
+        <item quantity="other">Тағы %d тізім</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">%1$s және тағы %2$d тізімде сақталды.</item>
+        <item quantity="other">%1$s және тағы %2$d тізімде сақталды.</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">%d күн бұрын барған жеріңізді сақтау қажет пе?</item>
+        <item quantity="other">%d күн бұрын барған жеріңізді сақтау қажет пе?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">%2$s үшін %1$d нәтиже табылды.</item>
+        <item quantity="other">%2$s үшін %1$d нәтиже табылды.</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">1 жұлдызшалы баға жіберілуде</item>
+        <item quantity="other">%1$d жұлдызшалы баға жіберілуде</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">%d күн бойы</item>
+        <item quantity="other">%d күн бойы</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">%d сағат бойы</item>
+        <item quantity="other">%d сағат бойы</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">%d минут бойы</item>
+        <item quantity="other">%d минут бойы</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">Локацияңызды %2$s және басқа %1$d адаммен бөлісіп жатырсыз.</item>
+        <item quantity="other">Локацияңызды %2$s және басқа %1$d адаммен бөлісіп жатырсыз.</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">Локацияңызды %d адаммен бөлісіп жатырсыз.</item>
+        <item quantity="other">Локацияңызды %d адаммен бөлісіп жатырсыз.</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="one">%d орын сақтау</item>
+        <item quantity="other">%d орын сақтау</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="one">%d орын табылды</item>
+        <item quantity="other">%d орын табылды</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s, %2$d жұлдызша</item>
+        <item quantity="other">%1$s, %2$d жұлдызша</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">1 жұлдызшалы баға берілді</item>
+        <item quantity="other">%1$d жұлдызшалы баға берілді</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d рет көрілді</item>
+        <item quantity="other">%,d рет көрілді</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d ұпай</item>
+        <item quantity="other">+%d ұпай</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">%2$s атты пайдаланушының %1$d фотосуретін не бейнесін жариялау</item>
+        <item quantity="other">%2$s атты пайдаланушының %1$d фотосуретін не бейнесін жариялау</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">%2$s деген жердің %1$d суретін жариялау</item>
+        <item quantity="other">%2$s деген жердің %1$d суретін жариялау</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">Тағы %d</item>
+        <item quantity="other">Тағы %d</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">%1$d сурет жариялау</item>
+        <item quantity="other">%1$d сурет жариялау</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">%1$d жариялау</item>
+        <item quantity="other">%1$d жариялау</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%2$s тақырыбын %1$d адам атап өтті.</item>
+        <item quantity="other">%2$s тақырыбын %1$,d адам атап өтті.</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">1 эмоция</item>
+        <item quantity="other">%1$,d эмоция</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">%2$s сомасынан басталатын тағы %1$d опцияны көру</item>
+        <item quantity="other">%2$s сомасынан басталатын тағы %1$d опцияны көру</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">Тағы %1$d опцияны көру</item>
+        <item quantity="other">Тағы %1$d опцияны көру</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">Жол кептелісін айналып өтетін бағыттарды көру үшін мекенжайыңызды сақтап қойыңыз</item>
+        <item quantity="other">Жол кептелісін айналып өтетін бағыттарды көру үшін мекенжайларыңызды сақтап қойыңыз</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">Шығу кестесі %1$d с бұрын жаңартылды.</item>
+        <item quantity="other">Шығу кестесі %1$d с бұрын жаңартылды.</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">Минут сайын шығады.</item>
+        <item quantity="other">%d минут сайын шығады.</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d мин</item>
+        <item quantity="other">%d мин</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES_LONG">
+        <item quantity="one">минут</item>
+        <item quantity="other">минут</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="one">%1$s (1 хабарландыру)</item>
+        <item quantity="other">%1$s (%2$d хабарландыру)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="one">Автобус: %1$s (1 хабарландыру)</item>
+        <item quantity="other">Автобус: %1$s (%2$d хабарландыру)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="one">Паром: %1$s (1 хабарландыру)</item>
+        <item quantity="other">Паром: %1$s (%2$d хабарландыру)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="one">Бағыт: %1$s (1 хабарландыру)</item>
+        <item quantity="other">Бағыт: %1$s (%2$d хабарландыру)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="one">Пойыз: %1$s (1 хабарландыру)</item>
+        <item quantity="other">Пойыз: %1$s (%2$d хабарландыру)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="one">Трамвай: %1$s (1 хабарландыру)</item>
+        <item quantity="other">Трамвай: %1$s (%2$dхабарландыру)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="one">1 мин сайын</item>
+        <item quantity="other">%d мин сайын</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d аялдама</item>
+        <item quantity="other">%d аялдама</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_CARD">
+        <item quantity="one">"%1$d
+ минут бұрын"</item>
+        <item quantity="other">"%1$d
+ минут бұрын"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+ мин бұрын"</item>
+        <item quantity="other">"%1$s
+ мин бұрын"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s минут бұрын шығып кетті</item>
+        <item quantity="other">%1$s минут бұрын шығып кетті</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d ескерту</item>
+        <item quantity="other">+%d ескерту</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d хабарландыру</item>
+        <item quantity="other">+ %d хабарландыру</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">Тағы +%d</item>
+        <item quantity="other">Тағы +%d</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">Тағы %d</item>
+        <item quantity="other">Тағы %d</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_ITEMS_COUNT">
+        <item quantity="one">Тағы %1$d</item>
+        <item quantity="other">Тағы %1$d</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+ мин"</item>
+        <item quantity="other">"%1$s
+ мин"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s минут бұрын</item>
+        <item quantity="other">%1$s минут бұрын</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s минуттан кейін шығады</item>
+        <item quantity="other">%1$s минуттан кейін шығады</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">Тағы %1$s ескерту</item>
+        <item quantity="other">Тағы %1$s ескерту</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s сурет</item>
+        <item quantity="other">%s сурет</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s пікір</item>
+        <item quantity="other">%s пікір</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d үлес</item>
+        <item quantity="other">%,d үлес</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d рет көрілді.</item>
+        <item quantity="other">%,d рет көрілді.</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Ең көбі %1$d таңдауға болады.</item>
+        <item quantity="other">Ең көбі %1$d таңдауға болады.</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Ең көбі %1$s фотосурет таңдаңыз.</item>
+        <item quantity="other">Ең көбі %1$s фотосурет таңдаңыз.</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">№%1$d постағы бейненің дыбысын шығару</item>
+        <item quantity="other">№%1$d постағы №%2$d бейненің дыбысын шығару</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%2$d ішінен %1$d</item>
+        <item quantity="other">%2$d ішінен %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Wi-Fi қосылғанын күтуде.
+ Кезекте %d сурет тұр."</item>
+        <item quantity="other">"Wi-Fi қосылғанын күтуде.
+ Кезекте %d сурет тұр."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d сурет таңдалды</item>
+        <item quantity="other">%d сурет таңдалды</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">%1$d/%2$d орынға бардыңыз</item>
+        <item quantity="other">%1$d/%2$d орынға бардыңыз</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s және басқа %2$d пайдаланушымен бөліскен кезде геодерек дәлдігін арттыру үшін батареяны үнемдеу режимін өшіріңіз.</item>
+        <item quantity="other">%1$s және басқа %2$d пайдаланушымен бөліскен кезде геодерек дәлдігін арттыру үшін батареяны үнемдеу режимін өшіріңіз.</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s және басқа %2$d пайдаланушымен геодеректі бөлісуді жалғастыру үшін құрылғының геодерегін анықтау функциясын қосыңыз.</item>
+        <item quantity="other">%1$s және басқа %2$d пайдаланушымен геодеректі бөлісуді жалғастыру үшін құрылғының геодерегін анықтау функциясын қосыңыз.</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s және басқа %2$d пайдаланушымен осы құрылғыдан бөлісуді жалғастыру үшін Локация бөлісу параметрлерін жаңартыңыз.</item>
+        <item quantity="other">%1$s және басқа %2$d пайдаланушымен осы құрылғыдан бөлісуді жалғастыру үшін Локация бөлісу параметрлерін жаңартыңыз.</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s және басқа %2$d пайдаланушымен бөліскен кезде геодерек дәлдігін арттыру үшін Maps-ке физикалық әрекетіңізді анықтауға рұқсат беріңіз.</item>
+        <item quantity="other">%1$s және басқа %2$d пайдаланушымен бөліскен кезде геодерек дәлдігін арттыру үшін Maps-ке физикалық әрекетіңізді анықтауға рұқсат беріңіз.</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s және басқа %2$d пайдаланушымен бөлісу кезінде геодерек дәлдігін арттыру үшін Maps-ке геодерегіңізді пайдалануға рұқсат беріңіз.</item>
+        <item quantity="other">%1$s және басқа %2$d пайдаланушымен бөлісу кезінде геодерек дәлдігін арттыру үшін Maps-ке геодерегіңізді пайдалануға рұқсат беріңіз.</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s және басқа %2$d пайдаланушымен бөлісуді жалғастыру үшін Maps-ке геодерегіңізді пайдалануға рұқсат беріңіз.</item>
+        <item quantity="other">%1$s және басқа %2$d пайдаланушымен бөлісуді жалғастыру үшін Maps-ке геодерегіңізді пайдалануға рұқсат беріңіз.</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">%d+ фотосурет</item>
+        <item quantity="other">%d+ фотосурет</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d пікір)</item>
+        <item quantity="other">(%,d пікір)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="one">%1$s секунд</item>
+        <item quantity="other">%1$s секунд</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">%1$d-посқа арналған бейне</item>
+        <item quantity="other">%1$d-посқа арналған %2$d-бейне</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">%1$d-посқа арналған бейне толық экран режимінде</item>
+        <item quantity="other">%1$d-посқа арналған %2$d-бейне толық экран режимінде</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d түн</item>
+        <item quantity="other">%2$s × %1$d түн</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%1$d түнге %2$s (салықтар мен алымдарды қосқанда)</item>
+        <item quantity="other">%1$d түнге %2$s (салықтар мен алымдарды қосқанда)</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">1 мин жаяу жүру</item>
+        <item quantity="other">%d мин жаяу жүру</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d аялдама</item>
+        <item quantity="other">+ %d аялдама</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d аялдама)</item>
+        <item quantity="other">(%d аялдама)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d апта бұрын</item>
+        <item quantity="other">%d апта бұрын</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d жыл бұрын</item>
+        <item quantity="other">%d жыл бұрын</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">Қалған фотосуретті көру</item>
+        <item quantity="other">Қалған %1$d фотосуретті көру</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">Пікіріңіз немесе жаңалығыңыз</item>
+        <item quantity="other">Пікірлеріңіз және жаңалықтарыңыз</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">Сіз %1$s және тағы %2$d тізімге жазылғансыз.</item>
+        <item quantity="other">Сіз %1$s және тағы %2$d тізімге жазылғансыз.</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s және тағы %2$d пайдаланушы</item>
+        <item quantity="other">%1$s және тағы %2$d пайдаланушы</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="plurals_0x7f12014e">
+        <item quantity="one"></item>
+        <item quantity="other">%1$d-деңгей</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="one">%1$d мин</item>
+        <item quantity="other">%1$d мин</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">1 рет түскен сурет/бейне</item>
+        <item quantity="other">%1$d рет түскен сурет/бейне</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d жаңа хабарландыру</item>
+        <item quantity="other">%d жаңа хабарландыру</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="one">+ тағы %1$d</item>
+        <item quantity="other">+ тағы %1$d</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="one">%d адам теріп жатыр.</item>
+        <item quantity="other">%d адам теріп жатыр.</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">%d алушы көшірілді.</item>
+        <item quantity="other">%d алушы көшірілді.</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">Фотосурет туралы бірдеңе жазыңыз (міндетті емес)</item>
+        <item quantity="other">Фотосуреттер туралы бірдеңе жазыңыз (міндетті емес)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d/%2$d жұлдыз</item>
+        <item quantity="other">%1$d/%2$d жұлдыз</item>
+    </plurals>
+    <plurals name="tell_maps_know_before_you_go_place_contextual_zero_state_post_tip">
+        <item quantity="one">Осы орын туралы ескертпе жариялағыңыз келе ме?</item>
+        <item quantity="other">Осы орындардың бірі туралы ескертпе жариялағыңыз келе ме?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_post_tip_or_photo">
+        <item quantity="one">Осы орын туралы фотосурет немесе ескертпе жариялағыңыз келе ме?</item>
+        <item quantity="other">Осы орындардың бірі туралы фотосурет немесе ескертпе жариялағыңыз келе ме?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_update_a_place">
+        <item quantity="one">Осы орын туралы ақпаратты жаңартқыңыз келе ме?</item>
+        <item quantity="other">Қай орынның ақпаратын жаңартқыңыз келеді?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>chiama</item>
+        <item>chiamata a</item>
+        <item>chiamata</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>casa</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>vai</item>
+        <item>vai a</item>
+        <item>navigare</item>
+        <item>navigare a</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>successiva</item>
+        <item>successivo</item>
+        <item>prossima</item>
+        <item>il prossimo</item>
+        <item>prossimo</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>apri</item>
+        <item>apri le</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>pausa</item>
+        <item>fermare</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>riproduci</item>
+        <item>suona</item>
+        <item>riprodurre musica</item>
+        <item>riprodurre</item>
+        <item>suonare</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>precedente</item>
+        <item>indietro</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>trova</item>
+        <item>trova le</item>
+        <item>trovare</item>
+        <item>cerca</item>
+        <item>cercare</item>
+        <item>cerca in</item>
+        <item>cerca i</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>tempo metereologico</item>
+        <item>metereologico</item>
+        <item>tempo</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>lavoro</item>
+        <item>ufficio</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>Позвонить</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>Домашний</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>mаршрут</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>следующему</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>oткрой</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>Приостановить</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>Воспроизведение музыки</item>
+        <item>Воспроизведение</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>предыдущему</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>Поиск</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>Погода</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>Рабочий</item>
+    </string-array>
+</resources>

@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="one">Toplam %2$d katkıdan %1$d tanesi</item>
+        <item quantity="other">Toplam %2$d katkıdan %1$d tanesi</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">Geçerli %d metro biletiniz var</item>
+        <item quantity="other">Geçerli %d metro biletiniz var</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">Bu gezi için %d geçerli biletiniz var</item>
+        <item quantity="other">Bu gezi için %d geçerli biletiniz var</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">%d seçenek daha</item>
+        <item quantity="other">%d seçenek daha</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="one">%1$d kullanıcı bildirdi</item>
+        <item quantity="other">%1$d kullanıcı bildirdi</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d kullanıcı bildirdi</item>
+        <item quantity="other">%1$d kullanıcı bildirdi</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d uyarı</item>
+        <item quantity="other">%d uyarı</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d yer</item>
+        <item quantity="other">%1$d yer</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">Yanıtı görüntüleyin</item>
+        <item quantity="other">%,d yanıtı görüntüleyin</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">Burayı keşfedin</item>
+        <item quantity="other">Burada %d yeri keşfedin</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d bisiklet mevcut</item>
+        <item quantity="other">%d bisiklet mevcut</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">İstasyonda %s bisiklet var</item>
+        <item quantity="other">İstasyonda %s bisiklet var</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d bisiklet</item>
+        <item quantity="other">%d bisiklet</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d bisiklet park yeri var</item>
+        <item quantity="other">%d bisiklet park yeri var</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d bisiklet park yeri</item>
+        <item quantity="other">%d bisiklet park yeri</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">%1$d kişi tarafından önerildi</item>
+        <item quantity="other">%1$d kişi tarafından önerildi</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">%1$s daha az şarj duraklaması gerektiren daha hızlı rota</item>
+        <item quantity="other">%1$s daha az şarj duraklaması gerektiren daha hızlı rota</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">%1$s şarj duraklaması daha gerektiren daha hızlı rota</item>
+        <item quantity="other">%1$s şarj duraklaması daha gerektiren daha hızlı rota</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Daha hızlı bir rota var, %1$s şarj noktası değiştirildi</item>
+        <item quantity="other">Daha hızlı bir rota var, %1$s şarj noktası değiştirildi</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">%1$s daha az şarj duraklaması gerektiren yeni rota gerekiyor</item>
+        <item quantity="other">%1$s daha az şarj duraklaması gerektiren yeni rota gerekiyor</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">%1$s şarj duraklaması daha gerektiren yeni rota gerekiyor</item>
+        <item quantity="other">%1$s şarj duraklaması daha gerektiren yeni rota gerekiyor</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Yeni rota gerekiyor, %1$s şarj noktası değiştirildi</item>
+        <item quantity="other">Yeni rota gerekiyor, %1$s şarj noktası değiştirildi</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">%1$s daha az şarj duraklaması gerektiren yeni rota</item>
+        <item quantity="other">%1$s daha az şarj duraklaması gerektiren yeni rota</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">%1$s daha az şarj duraklaması gerektiren yeni rota</item>
+        <item quantity="other">%1$s daha az şarj duraklaması gerektiren yeni rota</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">%1$s daha az şarj noktası gerektiren yeni bir rota mevcut. Sürüş ve şarj süresi dahil %2$s daha hızlı.</item>
+        <item quantity="other">%1$s daha az şarj noktası gerektiren yeni bir rota mevcut. Sürüş ve şarj süresi dahil %2$s daha hızlı.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">%1$s daha fazla şarj noktası gerektiren yeni bir rota mevcut. Sürüş ve şarj süresi dahil %2$s daha hızlı.</item>
+        <item quantity="other">%1$s daha fazla şarj noktası gerektiren yeni bir rota mevcut. Sürüş ve şarj süresi dahil %2$s daha hızlı.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">%1$s daha az şarj noktası gerektiği için yeni bir rota seçmelisiniz. Varış saatiniz: %2$s.</item>
+        <item quantity="other">Yeni bir rota seçmeniz gerekiyor. Yeni rota, %1$s daha az şarj noktası gerektiriyor. Varış saatiniz %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">%1$s şarj noktası daha gerektiği için yeni bir rota seçmelisiniz. Varış saatiniz: %2$s.</item>
+        <item quantity="other">Yeni bir rota seçmeniz gerekiyor. Yeni rota, %1$s şarj noktası daha gerektiriyor. Varış saatiniz %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Yeni bir rota seçmeniz gerekiyor. %1$s şarj noktası değişti. Varış saatiniz %2$s.</item>
+        <item quantity="other">Yeni bir rota seçmeniz gerekiyor. %1$s şarj noktası değişti. Varış saatiniz %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">%1$s daha az şarj noktası gerektiren yeni bir rota mevcut. Varış saati benzer.</item>
+        <item quantity="other">%1$s daha az şarj noktası gerektiren yeni bir rota mevcut. Varış saati benzer.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">%1$s daha az şarj noktası gerektiren yeni bir rota mevcut. Sürüş ve şarj süresi dahil %2$s daha yavaş.</item>
+        <item quantity="other">%1$s daha az şarj noktası gerektiren yeni bir rota mevcut. Sürüş ve şarj süresi dahil %2$s daha yavaş.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">%1$d gün önce kullanıldı.</item>
+        <item quantity="other">%1$d gün önce kullanıldı.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">%1$d hafta önce kullanıldı.</item>
+        <item quantity="other">%1$d hafta önce kullanıldı.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">+%1$d ağ</item>
+        <item quantity="other">+%1$d ağ</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">%1$d tane seçildi</item>
+        <item quantity="other">%1$d tane seçildi</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s şarj noktası</item>
+        <item quantity="other">%1$s şarj noktası</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d şarj noktası</item>
+        <item quantity="other">%1$d şarj noktası</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d öğe seçildi</item>
+        <item quantity="other">%1$d öğe seçildi</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">%1$d yöntem daha</item>
+        <item quantity="other">%1$d yöntem daha</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">%1$d tane daha</item>
+        <item quantity="other">%1$d tane daha</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">+%1$d daha</item>
+        <item quantity="other">+%1$d daha</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="one">İşe %2$d dk.</item>
+        <item quantity="other">İşe %1$d sa. %2$d dk.</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="one">Eve %2$d dk.</item>
+        <item quantity="other">Eve %1$d sa. %2$d dk.</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="one">İş yerine %2$d dk.</item>
+        <item quantity="other">İş yerine %1$d sa. %2$d dk.</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="one">Yolculuk süresi %2$d dk.</item>
+        <item quantity="other">Yolculuk süresi %1$d sa. %2$d dk.</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="one">Eve %2$d dk.</item>
+        <item quantity="other">Eve %1$d sa. %2$d dk.</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">Normalden %d dk. hızlı</item>
+        <item quantity="other">Normalden %d dk. hızlı</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">Normalden %d dk. yavaş</item>
+        <item quantity="other">Normalden %d dk. yavaş</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Harita %d derece yönünde.</item>
+        <item quantity="other">Harita %d yönünde.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">%d-yıldızlı tesis</item>
+        <item quantity="other">%d-yıldızlı tesis</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">Seviye %d Yerel Rehber</item>
+        <item quantity="other">Seviye %d Yerel Rehber</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s adlı yer 1 yıldız olarak derecelendirdiniz</item>
+        <item quantity="other">%1$s adlı yeri %2$d yıldız olarak derecelendirdiniz</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">puan</item>
+        <item quantity="other">puan</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s gün</item>
+        <item quantity="other">%s gün</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s g</item>
+        <item quantity="other">%s g</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s gün</item>
+        <item quantity="other">%s gün</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s gün</item>
+        <item quantity="other">%s gün</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s saat</item>
+        <item quantity="other">%s saat</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s sa.</item>
+        <item quantity="other">%s sa.</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s sa.</item>
+        <item quantity="other">%s sa.</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s dakika</item>
+        <item quantity="other">%s dakika</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s dk.</item>
+        <item quantity="other">%s dk.</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s dk.</item>
+        <item quantity="other">%s dk.</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s saniye</item>
+        <item quantity="other">%s saniye</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">%1$s fut boyunca devam edin</item>
+        <item quantity="other">%1$s fit boyunca devam edin</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">%1$s kilometre boyunca devam edin</item>
+        <item quantity="other">%1$s kilometre boyunca devam edin</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">%1$s metre boyunca devam edin</item>
+        <item quantity="other">%1$s metre boyunca devam edin</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">%1$s mil boyunca devam edin</item>
+        <item quantity="other">%1$s mil boyunca devam edin</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">%1$s yarda boyunca devam edin</item>
+        <item quantity="other">%1$s yarda boyunca devam edin</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">%2$s üzerinde %1$s fut boyunca devam edin</item>
+        <item quantity="other">%2$s üzerinde %1$s fit boyunca devam edin</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">%2$s üzerinde %1$s kilometre boyunca devam edin</item>
+        <item quantity="other">%2$s üzerinde %1$s kilometre boyunca devam edin</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">%2$s üzerinde %1$s metre boyunca devam edin</item>
+        <item quantity="other">%2$s üzerinde %1$s metre boyunca devam edin</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">%2$s üzerinde %1$s mil boyunca devam edin</item>
+        <item quantity="other">%2$s üzerinde %1$s mil boyunca devam edin</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">%2$s üzerinde %1$s yarda boyunca devam edin</item>
+        <item quantity="other">%2$s üzerinde %1$s yarda boyunca devam edin</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s fut sonra</item>
+        <item quantity="other">%1$s fit sonra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s kilometre sonra</item>
+        <item quantity="other">%1$s kilometre sonra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s metre sonra</item>
+        <item quantity="other">%1$s metre sonra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s mil sonra</item>
+        <item quantity="other">%1$s mil sonra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s yarda sonra</item>
+        <item quantity="other">%1$s yarda sonra</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometre/saat</item>
+        <item quantity="other">%s kilometre/saat</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s mil/saat</item>
+        <item quantity="other">%s mil/saat</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Hedefinize %1$s fut kaldı</item>
+        <item quantity="other">Hedefinize %1$s fit kaldı</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Hedefinize %1$s kilometre kaldı</item>
+        <item quantity="other">Hedefinize %1$s kilometre kaldı</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Hedefinize %1$s metre kaldı</item>
+        <item quantity="other">Hedefinize %1$s metre kaldı</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Varış noktanıza %1$s mil kaldı</item>
+        <item quantity="other">Varış noktanıza %1$s mil kaldı</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Hedefinize %1$s yarda kaldı</item>
+        <item quantity="other">Hedefinize %1$s yarda kaldı</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d durak</item>
+        <item quantity="other">%d durak</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d aktarma modu</item>
+        <item quantity="other">%1$d aktarma modu</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">%d gün önce güncellendi</item>
+        <item quantity="other">%d gün önce güncellendi</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">%d ay önce güncellendi</item>
+        <item quantity="other">%d ay önce güncellendi</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">%d hafta önce güncellendi</item>
+        <item quantity="other">%d hafta önce güncellendi</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d bisiklet</item>
+        <item quantity="other">%d bisiklet</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">Yakında %d bisiklet var</item>
+        <item quantity="other">Yakında %d bisiklet var</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">%1$d tane seçildi</item>
+        <item quantity="other">%1$d tane seçildi</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d / %2$d şarj noktası</item>
+        <item quantity="other">%1$d / %2$d şarj noktası</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d şarj noktası</item>
+        <item quantity="other">%d şarj noktası</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">1 yıldız puanı gönderilemedi. Lütfen tekrar deneyin.</item>
+        <item quantity="other">%1$d yıldız puanı gönderilemedi. Lütfen tekrar deneyin.</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">Kat %s</item>
+        <item quantity="other">Kat %s</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">ekstra %d gece</item>
+        <item quantity="other">ekstra %d gece</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">%d gece ekleyin</item>
+        <item quantity="other">%d gece ekleyin</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">Bu otelde %1$d gecelik konaklama için yer var. Gecelik ortalama %3$s ücretle %2$s.</item>
+        <item quantity="other">Bu otelde %1$d gecelik konaklama için yer var. Gecelik ortalama %3$s ücretle %2$s.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">Gecelik ortalama %2$s ücretle %1$s konaklayın</item>
+        <item quantity="other">Gecelik ortalama %2$s ücretle %1$s konaklayın</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d konuk</item>
+        <item quantity="other">%d konuk</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">ve %d tane daha.</item>
+        <item quantity="other">ve %d tane daha.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">ve %d kategori daha.</item>
+        <item quantity="other">ve %d kategori daha.</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="one">%d gün önce</item>
+        <item quantity="other">%d gün önce</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="one">%d saat önce</item>
+        <item quantity="other">%d saat önce</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="one">%d dk. önce</item>
+        <item quantity="other">%d dk. önce</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">%1$s ve diğer %2$d listede</item>
+        <item quantity="other">%1$s ve diğer %2$d listede</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Kaydedildi ve %1$d listeye eklendi</item>
+        <item quantity="other">Kaydedildi ve %1$d listeye eklendi</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="one">%d listeden kaldırıldı</item>
+        <item quantity="other">%d listeden kaldırıldı</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">%d ay önce ziyaret ettiniz</item>
+        <item quantity="other">%d ay önce ziyaret ettiniz</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">%d hafta önce ziyaret ettiniz</item>
+        <item quantity="other">%d hafta önce ziyaret ettiniz</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">%d yıl önce ziyaret ettiniz</item>
+        <item quantity="other">%d yıl önce ziyaret ettiniz</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d etkinlik</item>
+        <item quantity="other">%d etkinlik</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d öğe</item>
+        <item quantity="other">%d öğe</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d yer</item>
+        <item quantity="other">%d yer</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">%d kaydetme</item>
+        <item quantity="other">%d kaydetme</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d gezi</item>
+        <item quantity="other">%d gezi</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s görüntüleme</item>
+        <item quantity="other">%s görüntüleme</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="one">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">%d gün önce düzenlendi</item>
+        <item quantity="other">%d gün önce düzenlendi</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">%d ay önce düzenlendi</item>
+        <item quantity="other">%d ay önce düzenlendi</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">%d hafta önce düzenlendi</item>
+        <item quantity="other">%d hafta önce düzenlendi</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">%d yıl önce düzenlendi</item>
+        <item quantity="other">%d yıl önce düzenlendi</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="one">%d durak</item>
+        <item quantity="other">%d durak</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">%d puanınız var</item>
+        <item quantity="other">%d puanınız var</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">%1$d. düzeye ulaşmanıza yalnızca %2$d puan kaldı</item>
+        <item quantity="other">%1$d. düzeye ulaşmanıza yalnızca %2$d puan kaldı</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">%d. Seviye</item>
+        <item quantity="other">%d. Seviye</item>
+    </plurals>
+    <plurals name="plurals_0x7f120093">
+        <item quantity="one">%d. Seviye Yerel Rehber</item>
+        <item quantity="other">%d. Seviye Yerel Rehber</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">%d yıldır faaliyet gösteriyor</item>
+        <item quantity="other">%d yıldan uzun süredir faaliyet gösteriyor</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d gün önce</item>
+        <item quantity="other">%d gün önce</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d saat önce</item>
+        <item quantity="other">%d saat önce</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d dk. önce</item>
+        <item quantity="other">%d dk. önce</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">Burada %d yer</item>
+        <item quantity="other">Burada %d yer</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">Fotoğraf kaldırıldı</item>
+        <item quantity="other">Fotoğraflar kaldırıldı</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d numaralı yayındaki videoyu büyütün</item>
+        <item quantity="other">%1$d numaralı yayındaki videoyu (%2$d) büyütün</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d/%2$,d</item>
+        <item quantity="other">%1$,d/%2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">%1$d medya yükleniyor</item>
+        <item quantity="other">%1$d medya yükleniyor</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">%d numaralı menü fotoğrafı</item>
+        <item quantity="other">%d numaralı menü fotoğrafı</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d bildirim</item>
+        <item quantity="other">%1$d bildirim</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">Bu bağlantıya ulaşabilen kullanıcılar 1 gün %d saat boyunca konumunuzu görebilir</item>
+        <item quantity="other">Bu bağlantıya ulaşabilen kullanıcılar 1 gün %d saat boyunca konumunuzu görebilir</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">Bu bağlantıya ulaşabilen kullanıcılar 1 saat %d dakika boyunca konumunuzu görebilir</item>
+        <item quantity="other">Bu bağlantıya ulaşabilen kullanıcılar 1 saat %d dakika boyunca konumunuzu görebilir</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">Bu bağlantıya ulaşabilen kullanıcılar %d gün boyunca konumunuzu görebilir</item>
+        <item quantity="other">Bu bağlantıya ulaşabilen kullanıcılar %d gün boyunca konumunuzu görebilir</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">Bu bağlantıya ulaşabilen kullanıcılar %d saat boyunca konumunuzu görebilir</item>
+        <item quantity="other">Bu bağlantıya ulaşabilen kullanıcılar %d saat boyunca konumunuzu görebilir</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">Bu bağlantıya ulaşabilen kullanıcılar %d dakika boyunca konumunuzu görebilir</item>
+        <item quantity="other">Bu bağlantıya ulaşabilen kullanıcılar %d dakika boyunca konumunuzu görebilir</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">%d tane daha</item>
+        <item quantity="other">%d tane daha</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d numaralı yayındaki videoyu sessize alın</item>
+        <item quantity="other">%1$d numaralı yayındaki videoyu (%2$d) sessize alın</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d fotoğraf/video</item>
+        <item quantity="other">%d fotoğraf/video</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">%2$d özel avatar arasından %1$d. avatar</item>
+        <item quantity="other">%2$d özel avatar arasından %1$d. avatar</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d yeni güncelleme</item>
+        <item quantity="other">%d yeni güncelleme</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">İşletmeyle ilgili güncellemeler, %1$s yeni bildirim</item>
+        <item quantity="other">İşletmeyle ilgili güncellemeler, %1$s yeni bildirim</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d fotoğraf</item>
+        <item quantity="other">%d fotoğraf</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d yorum</item>
+        <item quantity="other">%d yorum</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">Küçük resim %d</item>
+        <item quantity="other">Küçük resim %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d çevrimdışı alan</item>
+        <item quantity="other">%d çevrimdışı alan</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d rapor temel alınmıştır</item>
+        <item quantity="other">%1$d rapor temel alınmıştır</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d numaralı yayındaki videoyu duraklatın</item>
+        <item quantity="other">%1$d numaralı yayındaki videoyu (%2$d) duraklatın</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s etkileşim</item>
+        <item quantity="other">%1$s etkileşim</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s arama</item>
+        <item quantity="other">%1$s arama</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s görüntüleme</item>
+        <item quantity="other">%1$s görüntüleme</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">%d gecelik rezervasyon</item>
+        <item quantity="other">%d gecelik rezervasyon</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">Bunu yalnızca siz görebilirsiniz</item>
+        <item quantity="other">Bunları yalnızca siz görebilirsiniz</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d gün</item>
+        <item quantity="other">%1$d gün</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d gece</item>
+        <item quantity="other">%1$d gece</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d fotoğraf</item>
+        <item quantity="other">%d fotoğraf</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Kablosuz bağlantı bekleniyor.
+ Sırada %d fotoğraf/video var."</item>
+        <item quantity="other">"Kablosuz bağlantı bekleniyor.
+ Sırada %d fotoğraf/video var."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">%1$d numaralı yayındaki fotoğraf</item>
+        <item quantity="other">%1$d numaralı yayındaki %2$d numaralı fotoğraf</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d gün önce</item>
+        <item quantity="other">%d gün önce</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d saat önce</item>
+        <item quantity="other">%d saat önce</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d ay önce</item>
+        <item quantity="other">%d ay önce</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d hafta önce</item>
+        <item quantity="other">%d hafta önce</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d yıl önce</item>
+        <item quantity="other">%d yıl önce</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d güncelleme</item>
+        <item quantity="other">%d güncelleme</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">%d yanıtı görüntüleyin</item>
+        <item quantity="other">%d yanıtı görüntüleyin</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="one">+%1$,d</item>
+        <item quantity="other">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d numaralı yayındaki videoyu oynatın</item>
+        <item quantity="other">%1$d numaralı yayındaki videoyu (%2$d) oynatın</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+%d paylaşım daha</item>
+        <item quantity="other">+%d paylaşım daha</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Değiştir</item>
+        <item quantity="other">Değiştir</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Durak Değiştiriliyor</item>
+        <item quantity="other">Duraklar Değiştiriliyor</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d görüntüleme</item>
+        <item quantity="other">%,d görüntüleme</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d puan</item>
+        <item quantity="other">%d puan</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d yorum</item>
+        <item quantity="other">%d yorum</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">%d yıldız verdiniz</item>
+        <item quantity="other">%d yıldız verdiniz</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="one">%d yıldız</item>
+        <item quantity="other">%d yıldız</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">%2$s emojisiyle 1 tepki</item>
+        <item quantity="other">%2$s emojisiyle %1$,d tepki</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">%d dk önce güncellendi</item>
+        <item quantity="other">%d dk önce güncellendi</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">%1$d vagonlu trende en hızlı çıkış için %2$s konumundan binin</item>
+        <item quantity="other">%1$d vagonlu trende en hızlı çıkış için %2$s konumundan binin</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">%1$d vagonlu trende en hızlı aktarma için %2$s konumundan binin</item>
+        <item quantity="other">%1$d vagonlu trende en hızlı aktarma için %2$s konumundan binin</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">En az kalabalık vagon %1$s</item>
+        <item quantity="other">En az kalabalık vagonlar %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">%1$d vaonlu tren</item>
+        <item quantity="other">%1$d vagonlu tren</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d ödeme ağı</item>
+        <item quantity="other">%d ödeme ağı</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s + %2$s imkan daha</item>
+        <item quantity="other">%1$s + %2$s imkan daha</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="one">%d+</item>
+        <item quantity="other">%d+</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">5 üzerinden 1 yıldız verin</item>
+        <item quantity="other">5 üzerinden %1$d yıldız verin</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s görüntüleme</item>
+        <item quantity="other">%s görüntüleme</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d puan veya yorum</item>
+        <item quantity="other">%,d puan ve yorum</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d puan veya yorum</item>
+        <item quantity="other">%,d puan ve yorum</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d kullanıcı</item>
+        <item quantity="other">%d kullanıcı</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="one">%d soru</item>
+        <item quantity="other">%d soru</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">%d listeye daha</item>
+        <item quantity="other">%d listeye daha</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">%1$s listesine ve diğer %2$d listeye kaydedildi</item>
+        <item quantity="other">%1$s listesine ve diğer %2$d listeye kaydedildi</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">%d gün önceki ziyaretiniz kaydedilsin mi?</item>
+        <item quantity="other">%d gün önceki ziyaretiniz kaydedilsin mi?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">%2$s için %1$d sonuç bulundu</item>
+        <item quantity="other">%2$s için %1$d sonuç bulundu</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">1 yıldız puanı gönderiliyor</item>
+        <item quantity="other">%1$d yıldız puanı gönderiliyor</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">%d gün boyunca</item>
+        <item quantity="other">%d gün boyunca</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">%d saat boyunca</item>
+        <item quantity="other">%d saat boyunca</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">%d dk. boyunca</item>
+        <item quantity="other">%d dk. boyunca</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">Konumunuz %2$s ve %1$d kullanıcıyla daha paylaşılıyor</item>
+        <item quantity="other">Konumunuz %2$s ve %1$d kullanıcıyla daha paylaşılıyor</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">Konumunuz diğer %d kullanıcıyla paylaşılıyor</item>
+        <item quantity="other">Konumunuz diğer %d kullanıcıyla paylaşılıyor</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="one">%d yeri kaydet</item>
+        <item quantity="other">%d yeri kaydet</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="one">%d yer bulundu</item>
+        <item quantity="other">%d yer bulundu</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s, %2$d yıldız</item>
+        <item quantity="other">%1$s, %2$d yıldız</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">1 yıldız puanı başarıyla gönderildi</item>
+        <item quantity="other">%1$d yıldız puanı başarıyla gönderildi</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d görüntüleme</item>
+        <item quantity="other">%,d görüntüleme</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d puan</item>
+        <item quantity="other">+%d puan</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">%2$s adlı yerin %1$d fotoğrafını veya videosunu yayınlayın</item>
+        <item quantity="other">%2$s adlı yerin %1$d fotoğrafını veya videosunu yayınlayın</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">%1$d %2$s fotoğrafı yayınla</item>
+        <item quantity="other">%1$d %2$s fotoğrafı yayınla</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">+%d fotoğraf</item>
+        <item quantity="other">+%d fotoğraf</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">%1$d fotoğrafı yayınla</item>
+        <item quantity="other">%1$d fotoğrafı yayınla</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">%1$d tanesini yayınla</item>
+        <item quantity="other">%1$d tanesini yayınla</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$d kullanıcı %2$s konusundan bahsediyor</item>
+        <item quantity="other">%1$,d kullanıcı %2$s konusundan bahsediyor</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">1 tepki</item>
+        <item quantity="other">%1$,d tepki</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">%2$s tutarından başlayan %1$d seçeneği daha göster</item>
+        <item quantity="other">%2$s tutarından başlayan %1$d seçeneği daha göster</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">Diğer %1$d seçeneği göster</item>
+        <item quantity="other">Diğer %1$d seçeneği göster</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">Trafiğe girmeden en hızlı rotaları görmek için adresinizi kaydedin</item>
+        <item quantity="other">Trafiğe girmeden en hızlı rotaları görmek için adreslerinizi kaydedin</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">Kalkışlar %1$d sn. önce güncellendi</item>
+        <item quantity="other">Kalkışlar %1$d sn. önce güncellendi</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">Dakikada bir kalkıyor</item>
+        <item quantity="other">%d dakikada bir kalkıyor</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d dk.</item>
+        <item quantity="other">%d dk.</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES_LONG">
+        <item quantity="one">dakika</item>
+        <item quantity="other">dakika</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="one">%1$s (1 uyarı)</item>
+        <item quantity="other">%1$s (%2$d uyarı)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="one">%1$s otobüsü (1 uyarı)</item>
+        <item quantity="other">%1$s otobüsü (%2$d uyarı)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="one">%1$s feribotu (1 uyarı)</item>
+        <item quantity="other">%1$s feribotu (%2$d uyarı)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="one">%1$s hattı (1 uyarı)</item>
+        <item quantity="other">%1$s hattı (%2$d uyarı)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="one">%1$s treni (1 uyarı)</item>
+        <item quantity="other">%1$s treni (%2$d uyarı)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="one">%1$s tramvayı (1 uyarı)</item>
+        <item quantity="other">%1$s tramvayı (%2$d uyarı)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="one">1 dakikada bir</item>
+        <item quantity="other">%d dakikada bir</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d durak</item>
+        <item quantity="other">%d durak</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_CARD">
+        <item quantity="one">"%1$d
+dk. önce"</item>
+        <item quantity="other">"%1$d
+dk. önce"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+dk önce"</item>
+        <item quantity="other">"%1$s
+dk önce"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s dakika önce kalktı</item>
+        <item quantity="other">%1$s dakika önce kalktı</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d uyarı</item>
+        <item quantity="other">+%d uyarı</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d uyarı</item>
+        <item quantity="other">+ %d uyarı</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d uyarı daha</item>
+        <item quantity="other">+%d uyarı daha</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d tane daha</item>
+        <item quantity="other">+ %d tane daha</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_ITEMS_COUNT">
+        <item quantity="one">+ %1$d taşıma hattı daha</item>
+        <item quantity="other">+ %1$d taşıma hattı daha</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+dk"</item>
+        <item quantity="other">"%1$s
+dk"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s dakika önce</item>
+        <item quantity="other">%1$s dakika önce</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s dakika sonra kalkıyor</item>
+        <item quantity="other">%1$s dakika sonra kalkıyor</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">%1$s uyarı daha</item>
+        <item quantity="other">%1$s uyarı daha</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s fotoğraf</item>
+        <item quantity="other">%s fotoğraf</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s yorum</item>
+        <item quantity="other">%s yorum</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d katkı</item>
+        <item quantity="other">%,d katkı</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d görüntüleme</item>
+        <item quantity="other">%,d görüntüleme</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">En fazla %1$d seçim yapın</item>
+        <item quantity="other">En fazla %1$d seçim yapın</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">%1$s adet fotoğraf seçebilirsiniz</item>
+        <item quantity="other">%1$s adet fotoğraf seçebilirsiniz</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d numaralı yayındaki videonun sesini açın</item>
+        <item quantity="other">%1$d numaralı yayındaki videonun (%2$d) sesini açın</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d / %2$d</item>
+        <item quantity="other">%1$d / %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Kablosuz bağlantı bekleniyor.
+ Sırada %d fotoğraf var."</item>
+        <item quantity="other">"Kablosuz bağlantı bekleniyor.
+ Sırada %d fotoğraf var."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d fotoğraf seçildi</item>
+        <item quantity="other">%d fotoğraf seçildi</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">%2$d yerden %1$d tanesini ziyaret ettiniz</item>
+        <item quantity="other">%2$d yerden %1$d tanesini ziyaret ettiniz</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">"%1$s ve diğer %2$d kişi ile paylaşım sırasında daha hassas konum tespiti yapılabilmesi için Pil Tasarrufu'nu kapatın"</item>
+        <item quantity="other">"%1$s ve diğer %2$d kişi ile paylaşım sırasında daha hassas konum tespiti yapılabilmesi için Pil Tasarrufu'nu kapatın"</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s ve diğer %2$d kişi ile konum paylaşımının sürdürülmesi için cihaz konumunun açılması gerekiyor</item>
+        <item quantity="other">%1$s ve diğer %2$d kişi ile konum paylaşımının sürdürülmesi için cihaz konumunun açılması gerekiyor</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">"Bu cihazda %1$s ve diğer %2$d kişi ile paylaşımı sürdürmek için Konum Paylaşımı'nı güncelleyin"</item>
+        <item quantity="other">"Bu cihazda %1$s ve diğer %2$d kişi ile paylaşımı sürdürmek için Konum Paylaşımı'nı güncelleyin"</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">"%1$s ve diğer %2$d kişi ile paylaşım sırasında daha hassas konum tespiti yapılabilmesi için Haritalar'ın yaptığınız fiziksel aktiviteyi tanımasına izin verin"</item>
+        <item quantity="other">"%1$s ve diğer %2$d kişi ile paylaşım sırasında daha hassas konum tespiti yapılabilmesi için Haritalar'ın yaptığınız fiziksel aktiviteyi tanımasına izin verin"</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">"%1$s ve diğer %2$d kişi ile paylaşım sırasında daha hassas konum tespiti yapılabilmesi için Haritalar'ın her zaman konumunuza erişmesine izin verin"</item>
+        <item quantity="other">"%1$s ve diğer %2$d kişi ile ppaylaşım sırasında daha hassas konum tespiti yapılabilmesi için Haritalar'ın her zaman konumunuza erişmesine izin verin"</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">"%1$s ve diğer %2$d kişi ile paylaşımı sürdürmek için Haritalar'ın konumunuza erişmesine her zaman izin verin"</item>
+        <item quantity="other">"%1$s ve diğer %2$d kişi ile paylaşımı sürdürmek için Haritalar'ın konumunuza erişmesine her zaman izin verin"</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">%d+ Fotoğraf</item>
+        <item quantity="other">%d+ Fotoğraf</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d yorum)</item>
+        <item quantity="other">(%,d yorum)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="one">%1$s saniye</item>
+        <item quantity="other">%1$s saniye</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">%1$d numaralı yayındaki video</item>
+        <item quantity="other">%1$d numaralı yayındaki %2$d numaralı video</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">%1$d numaralı yayındaki video tam ekran gösteriliyor</item>
+        <item quantity="other">%1$d numaralı yayındaki %2$d numaralı video tam ekran gösteriliyor</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d gece</item>
+        <item quantity="other">%2$s × %1$d gece</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%1$d gece konaklama için %2$s (vergi ve ücretler dahil)</item>
+        <item quantity="other">%1$d gece konaklama için %2$s (vergi ve ücretler dahil)</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">1 dk yürüyüş</item>
+        <item quantity="other">%d dk yürüyüş</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d durak</item>
+        <item quantity="other">+ %d durak</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d durak)</item>
+        <item quantity="other">(%d durak)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d hafta önce</item>
+        <item quantity="other">%d hafta önce</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d yıl önce</item>
+        <item quantity="other">%d yıl önce</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">Kalan fotoğrafları görüntüle</item>
+        <item quantity="other">Kalan %1$d fotoğrafı görüntüle</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">Yorumunuz veya güncellemeniz</item>
+        <item quantity="other">Yorumlarınız ve güncellemeleriniz</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">%1$s ve diğer %2$d listeyi takip ediyorsunuz</item>
+        <item quantity="other">%1$s ve diğer %2$d listeyi takip ediyorsunuz</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s ve %2$d kişi daha</item>
+        <item quantity="other">%1$s ve %2$d kişi daha</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="plurals_0x7f12014e">
+        <item quantity="one"></item>
+        <item quantity="other">%1$d. seviye</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="one">%1$d dk.</item>
+        <item quantity="other">%1$d dk.</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">1 yakalama</item>
+        <item quantity="other">%1$d yakalama</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d yeni bildirim</item>
+        <item quantity="other">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="one">+ %1$d mesaj daha</item>
+        <item quantity="other">+ %1$d mesaj daha</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="one">%d kullanıcı yazıyor</item>
+        <item quantity="other">%d kullanıcı yazıyor</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">%d alıcı kopyalandı</item>
+        <item quantity="other">%d alıcı kopyalandı</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">Bu fotoğrafla ilgili bir şeyler yazın (isteğe bağlı)</item>
+        <item quantity="other">Fotoğraflarınızla ilgili bir şeyler yazın (isteğe bağlı)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Bir bildiriminiz var</item>
+        <item quantity="other">%1$d yeni bildirim</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%2$d üzerinden %1$d yıldız</item>
+        <item quantity="other">%2$d üzerinden %1$d yıldız</item>
+    </plurals>
+    <plurals name="tell_maps_know_before_you_go_place_contextual_zero_state_post_tip">
+        <item quantity="one">Bu yerle ilgili ipucu paylaşmak ister misiniz?</item>
+        <item quantity="other">Bu yerlerden biriyle ilgili ipucu paylaşmak ister misiniz?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_post_tip_or_photo">
+        <item quantity="one">Bu yerle ilgili fotoğraf veya ipucu paylaşmak ister misiniz?</item>
+        <item quantity="other">Bu yerlerden biriyle ilgili fotoğraf veya ipucu paylaşmak ister misiniz?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_update_a_place">
+        <item quantity="one">Bu yerle ilgili bir şeyi güncellemek ister misiniz?</item>
+        <item quantity="other">Hangi yeri güncellemek istiyorsunuz?</item>
+    </plurals>
+</resources>

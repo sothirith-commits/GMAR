@@ -1,0 +1,117 @@
+.class public Lcugs;
+.super Lcugt;
+.source "PG"
+
+# interfaces
+.implements Lcuim;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    .locals 6
+
+    .line 1
+    sget-object v1, Lcugs;->h:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    move-object v0, p0
+
+    .line 4
+    move-object v2, p1
+
+    .line 5
+    move-object v3, p2
+
+    .line 6
+    move-object v4, p3
+
+    .line 7
+    move v5, p4
+
+    .line 8
+    invoke-direct/range {v0 .. v5}, Lcugt;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcugs;->b(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public b(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Lcugs;->d()Lcuil;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    invoke-interface {p0}, Lcuil;->g()Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
+
+    .line 9
+    return-object p0
+.end method
+
+.method public final d()Lcuil;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Lcugt;->i()Lcuin;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    check-cast p0, Lcuim;
+
+    .line 6
+    .line 7
+    invoke-interface {p0}, Lcuim;->d()Lcuil;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p0
+
+    .line 11
+    return-object p0
+.end method
+
+.method protected final h()V
+    .locals 0
+
+    .line 1
+    sget p0, Lcugz;->a:I
+
+    .line 2
+    .line 3
+    return-void
+.end method

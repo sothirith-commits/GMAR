@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>hívás</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>itthon</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>hajózik</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>következő</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>nyisd ki</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>szüneteltesse a zenét</item>
+        <item>szüneteltesse</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>zenél</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>előző</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>keresél</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>időjárás</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>munka</item>
+    </string-array>
+</resources>

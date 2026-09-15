@@ -1,0 +1,126 @@
+.class final Lapp/ui/main/preferences/launcherV2/CustomizeLauncherScreenPagesKt$DraggableLauncherList$1$1$2$2$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lapp/ui/main/preferences/launcherV2/CustomizeLauncherScreenPagesKt;->DraggableLauncherList(Landroidx/compose/ui/Modifier;Ljava/util/List;Ljava/util/Set;ZLkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Landroidx/compose/ui/graphics/GraphicsLayerScope;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x4,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic $animatedDragOffset$delegate:Landroidx/compose/runtime/State;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroidx/compose/runtime/State<",
+            "Ljava/lang/Float;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field final synthetic $isBeingDragged:Z
+
+
+# direct methods
+.method public constructor <init>(ZLandroidx/compose/runtime/State;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(Z",
+            "Landroidx/compose/runtime/State<",
+            "Ljava/lang/Float;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-boolean p1, p0, Lapp/ui/main/preferences/launcherV2/CustomizeLauncherScreenPagesKt$DraggableLauncherList$1$1$2$2$1;->$isBeingDragged:Z
+
+    iput-object p2, p0, Lapp/ui/main/preferences/launcherV2/CustomizeLauncherScreenPagesKt$DraggableLauncherList$1$1$2$2$1;->$animatedDragOffset$delegate:Landroidx/compose/runtime/State;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 18
+    check-cast p1, Landroidx/compose/ui/graphics/GraphicsLayerScope;
+
+    invoke-virtual {p0, p1}, Lapp/ui/main/preferences/launcherV2/CustomizeLauncherScreenPagesKt$DraggableLauncherList$1$1$2$2$1;->invoke(Landroidx/compose/ui/graphics/GraphicsLayerScope;)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method public final invoke(Landroidx/compose/ui/graphics/GraphicsLayerScope;)V
+    .locals 1
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    iget-boolean v0, p0, Lapp/ui/main/preferences/launcherV2/CustomizeLauncherScreenPagesKt$DraggableLauncherList$1$1$2$2$1;->$isBeingDragged:Z
+
+    .line 5
+    .line 6
+    if-eqz v0, :cond_0
+
+    .line 7
+    .line 8
+    iget-object p0, p0, Lapp/ui/main/preferences/launcherV2/CustomizeLauncherScreenPagesKt$DraggableLauncherList$1$1$2$2$1;->$animatedDragOffset$delegate:Landroidx/compose/runtime/State;
+
+    .line 9
+    .line 10
+    invoke-static {p0}, Lapp/ui/main/preferences/launcherV2/CustomizeLauncherScreenPagesKt;->access$DraggableLauncherList$lambda$6(Landroidx/compose/runtime/State;)F
+
+    .line 11
+    .line 12
+    .line 13
+    move-result p0
+
+    .line 14
+    invoke-interface {p1, p0}, Landroidx/compose/ui/graphics/GraphicsLayerScope;->setTranslationY(F)V
+
+    .line 15
+    .line 16
+    .line 17
+    :cond_0
+    return-void
+.end method

@@ -1,0 +1,86 @@
+.class public final synthetic Lg90;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic O:Landroidx/compose/ui/Modifier$Node;
+
+.field public final synthetic b:Landroidx/compose/ui/node/NodeCoordinator$HitTestSource;
+
+.field public final synthetic c:J
+
+.field public final synthetic d:Landroidx/compose/ui/node/HitTestResult;
+
+.field public final synthetic e:I
+
+.field public final synthetic f:Z
+
+.field public final synthetic g:F
+
+.field public final synthetic h:Z
+
+.field public final synthetic o:Landroidx/compose/ui/node/NodeCoordinator;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/compose/ui/node/NodeCoordinator;Landroidx/compose/ui/Modifier$Node;Landroidx/compose/ui/node/NodeCoordinator$HitTestSource;JLandroidx/compose/ui/node/HitTestResult;IZFZ)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lg90;->o:Landroidx/compose/ui/node/NodeCoordinator;
+
+    iput-object p2, p0, Lg90;->O:Landroidx/compose/ui/Modifier$Node;
+
+    iput-object p3, p0, Lg90;->b:Landroidx/compose/ui/node/NodeCoordinator$HitTestSource;
+
+    iput-wide p4, p0, Lg90;->c:J
+
+    iput-object p6, p0, Lg90;->d:Landroidx/compose/ui/node/HitTestResult;
+
+    iput p7, p0, Lg90;->e:I
+
+    iput-boolean p8, p0, Lg90;->f:Z
+
+    iput p9, p0, Lg90;->g:F
+
+    iput-boolean p10, p0, Lg90;->h:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 10
+
+    .line 1
+    iget v8, p0, Lg90;->g:F
+
+    iget-boolean v9, p0, Lg90;->h:Z
+
+    iget-object v0, p0, Lg90;->o:Landroidx/compose/ui/node/NodeCoordinator;
+
+    iget-object v1, p0, Lg90;->O:Landroidx/compose/ui/Modifier$Node;
+
+    iget-object v2, p0, Lg90;->b:Landroidx/compose/ui/node/NodeCoordinator$HitTestSource;
+
+    iget-wide v3, p0, Lg90;->c:J
+
+    iget-object v5, p0, Lg90;->d:Landroidx/compose/ui/node/HitTestResult;
+
+    iget v6, p0, Lg90;->e:I
+
+    iget-boolean v7, p0, Lg90;->f:Z
+
+    invoke-static/range {v0 .. v9}, Landroidx/compose/ui/node/NodeCoordinator;->h(Landroidx/compose/ui/node/NodeCoordinator;Landroidx/compose/ui/Modifier$Node;Landroidx/compose/ui/node/NodeCoordinator$HitTestSource;JLandroidx/compose/ui/node/HitTestResult;IZFZ)Lkotlin/Unit;
+
+    move-result-object p0
+
+    return-object p0
+.end method

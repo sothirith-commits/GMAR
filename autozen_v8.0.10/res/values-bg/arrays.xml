@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>oбадете</item>
+        <item>обади се на</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>У дома</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>Навигиране</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>Следващ</item>
+        <item>следващия</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>отворете</item>
+        <item>отворен</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>Пауза</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>Пусни</item>
+        <item>Пускане</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>предишен</item>
+        <item>предишна песен</item>
+        <item>обратно</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>намерете</item>
+        <item>намери</item>
+        <item>търси</item>
+        <item>търсете в</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>метеорологично време</item>
+        <item>време</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>работа</item>
+    </string-array>
+</resources>

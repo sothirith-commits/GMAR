@@ -1,0 +1,52 @@
+.class public final Lcom/fasterxml/jackson/databind/util/ArrayBuilders$LongBuilder;
+.super Lcom/fasterxml/jackson/databind/util/PrimitiveArrayBuilder;
+.source "PG"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/fasterxml/jackson/databind/util/PrimitiveArrayBuilder<",
+        "[J>;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/fasterxml/jackson/databind/util/PrimitiveArrayBuilder;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic _constructArray(I)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/fasterxml/jackson/databind/util/ArrayBuilders$LongBuilder;->_constructArray(I)[J
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public final _constructArray(I)[J
+    .locals 0
+
+    .line 6
+    new-array p0, p1, [J
+
+    return-object p0
+.end method

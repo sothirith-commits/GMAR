@@ -1,0 +1,150 @@
+.class public final Laxls;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Laxer;
+
+
+# instance fields
+.field public final a:Ljava/util/HashSet;
+
+.field public final b:Ljava/util/HashSet;
+
+.field private final c:Ljava/util/HashSet;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Ljava/util/HashSet;
+
+    .line 5
+    .line 6
+    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object v0, p0, Laxls;->a:Ljava/util/HashSet;
+
+    .line 10
+    .line 11
+    new-instance v0, Ljava/util/HashSet;
+
+    .line 12
+    .line 13
+    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
+
+    .line 14
+    .line 15
+    .line 16
+    iput-object v0, p0, Laxls;->b:Ljava/util/HashSet;
+
+    .line 17
+    .line 18
+    new-instance v0, Ljava/util/HashSet;
+
+    .line 19
+    .line 20
+    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
+
+    .line 21
+    .line 22
+    .line 23
+    iput-object v0, p0, Laxls;->c:Ljava/util/HashSet;
+
+    .line 24
+    .line 25
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(I)Z
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Laxls;->a:Ljava/util/HashSet;
+
+    .line 2
+    .line 3
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    invoke-virtual {p0, p1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    return p0
+.end method
+
+.method public final b(I)Z
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Laxls;->c:Ljava/util/HashSet;
+
+    .line 2
+    .line 3
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    invoke-virtual {p0, p1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    return p0
+.end method
+
+.method public final c(I)Z
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Laxls;->b:Ljava/util/HashSet;
+
+    .line 2
+    .line 3
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    invoke-virtual {p0, p1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    return p0
+.end method

@@ -1,0 +1,168 @@
+.class public final Lcom/google/android/material/transition/MaterialFade;
+.super Lcom/google/android/material/transition/MaterialVisibility;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/material/transition/MaterialVisibility<",
+        "Lcom/google/android/material/transition/FadeProvider;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final DEFAULT_THEMED_INCOMING_DURATION_ATTR:I
+
+.field private static final DEFAULT_THEMED_INCOMING_EASING_ATTR:I
+
+.field private static final DEFAULT_THEMED_OUTGOING_DURATION_ATTR:I
+
+.field private static final DEFAULT_THEMED_OUTGOING_EASING_ATTR:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    sget v0, Lcom/google/android/material/R$attr;->motionDurationMedium4:I
+
+    .line 2
+    .line 3
+    sput v0, Lcom/google/android/material/transition/MaterialFade;->DEFAULT_THEMED_INCOMING_DURATION_ATTR:I
+
+    .line 4
+    .line 5
+    sget v0, Lcom/google/android/material/R$attr;->motionDurationShort3:I
+
+    .line 6
+    .line 7
+    sput v0, Lcom/google/android/material/transition/MaterialFade;->DEFAULT_THEMED_OUTGOING_DURATION_ATTR:I
+
+    .line 8
+    .line 9
+    sget v0, Lcom/google/android/material/R$attr;->motionEasingEmphasizedDecelerateInterpolator:I
+
+    .line 10
+    .line 11
+    sput v0, Lcom/google/android/material/transition/MaterialFade;->DEFAULT_THEMED_INCOMING_EASING_ATTR:I
+
+    .line 12
+    .line 13
+    sget v0, Lcom/google/android/material/R$attr;->motionEasingEmphasizedAccelerateInterpolator:I
+
+    .line 14
+    .line 15
+    sput v0, Lcom/google/android/material/transition/MaterialFade;->DEFAULT_THEMED_OUTGOING_EASING_ATTR:I
+
+    .line 16
+    .line 17
+    return-void
+.end method
+
+
+# virtual methods
+.method public getDefaultEasingInterpolator(Z)Landroid/animation/TimeInterpolator;
+    .locals 0
+
+    .line 1
+    sget-object p0, Lcom/google/android/material/animation/AnimationUtils;->LINEAR_INTERPOLATOR:Landroid/animation/TimeInterpolator;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getDurationThemeAttrResId(Z)I
+    .locals 0
+
+    .line 1
+    if-eqz p1, :cond_0
+
+    .line 2
+    .line 3
+    sget p0, Lcom/google/android/material/transition/MaterialFade;->DEFAULT_THEMED_INCOMING_DURATION_ATTR:I
+
+    .line 4
+    .line 5
+    return p0
+
+    .line 6
+    :cond_0
+    sget p0, Lcom/google/android/material/transition/MaterialFade;->DEFAULT_THEMED_OUTGOING_DURATION_ATTR:I
+
+    .line 7
+    .line 8
+    return p0
+.end method
+
+.method public getEasingThemeAttrResId(Z)I
+    .locals 0
+
+    .line 1
+    if-eqz p1, :cond_0
+
+    .line 2
+    .line 3
+    sget p0, Lcom/google/android/material/transition/MaterialFade;->DEFAULT_THEMED_INCOMING_EASING_ATTR:I
+
+    .line 4
+    .line 5
+    return p0
+
+    .line 6
+    :cond_0
+    sget p0, Lcom/google/android/material/transition/MaterialFade;->DEFAULT_THEMED_OUTGOING_EASING_ATTR:I
+
+    .line 7
+    .line 8
+    return p0
+.end method
+
+.method public bridge synthetic isSeekingSupported()Z
+    .locals 0
+
+    .line 1
+    invoke-super {p0}, Lcom/google/android/material/transition/MaterialVisibility;->isSeekingSupported()Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    return p0
+.end method
+
+.method public bridge synthetic onAppear(Landroid/view/ViewGroup;Landroid/view/View;Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)Landroid/animation/Animator;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/google/android/material/transition/MaterialVisibility;->onAppear(Landroid/view/ViewGroup;Landroid/view/View;Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)Landroid/animation/Animator;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public bridge synthetic onDisappear(Landroid/view/ViewGroup;Landroid/view/View;Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)Landroid/animation/Animator;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/google/android/material/transition/MaterialVisibility;->onDisappear(Landroid/view/ViewGroup;Landroid/view/View;Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)Landroid/animation/Animator;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method

@@ -1,0 +1,58 @@
+.class final Logr;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lozu;
+
+
+# instance fields
+.field final synthetic a:Lbgxi;
+
+.field final synthetic b:Lbgxi;
+
+
+# direct methods
+.method public constructor <init>(Lbgxi;Lbgxi;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Logr;->a:Lbgxi;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Logr;->b:Lbgxi;
+
+    .line 4
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lbgxi;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Logr;->b:Lbgxi;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final b()Lbgxi;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Logr;->a:Lbgxi;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>llamar</item>
+        <item>llamar a</item>
+        <item>marcar</item>
+        <item>marcar a</item>
+        <item>marca a</item>
+        <item>llama a</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>casa</item>
+        <item>hogar</item>
+        <item>domicilio</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>navegar</item>
+        <item>navegar a</item>
+        <item>ir a</item>
+        <item>llevame a</item>
+        <item>navega a</item>
+        <item>ir al</item>
+        <item>navegar al</item>
+        <item>llévame al</item>
+        <item>llévame a la</item>
+        <item>llévame con</item>
+        <item>llévame a</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>siguiente</item>
+        <item>adelantar</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>abrir</item>
+        <item>abre</item>
+        <item>abreme</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>pausar música</item>
+        <item>pausar</item>
+        <item>detener</item>
+        <item>pausa</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>reproducir</item>
+        <item>comenzar</item>
+        <item>reproduce</item>
+        <item>Reproducir música</item>
+        <item>poner música</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>anterior</item>
+        <item>atrasar</item>
+        <item>atras</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>encuentra</item>
+        <item>buscar</item>
+        <item>busca</item>
+        <item>buscar el</item>
+        <item>encontrar</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>clima</item>
+        <item>temperatura</item>
+        <item>tiempo</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>trabajo</item>
+        <item>laburo</item>
+    </string-array>
+</resources>

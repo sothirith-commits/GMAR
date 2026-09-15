@@ -1,0 +1,3 @@
+.class public Lcom/google/android/gms/internal/mlkit_genai_prompt/zzawj;
+.super Ljava/lang/Object;
+.source "SourceFile"

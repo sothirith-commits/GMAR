@@ -1,0 +1,73 @@
+.class public Landroid/support/customtabs/IAuthTabCallback$Default;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/support/customtabs/IAuthTabCallback;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroid/support/customtabs/IAuthTabCallback;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Default"
+.end annotation
+
+
+# virtual methods
+.method public asBinder()Landroid/os/IBinder;
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+.method public onExtraCallback(Ljava/lang/String;Landroid/os/Bundle;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    return-void
+.end method
+
+.method public onExtraCallbackWithResult(Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+.method public onNavigationEvent(ILandroid/os/Bundle;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    return-void
+.end method
+
+.method public onWarmupCompleted(Landroid/os/Bundle;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    return-void
+.end method

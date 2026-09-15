@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>ruf |an</item>
+        <item>rufe |an</item>
+        <item>ruf meine |an</item>
+        <item>ruf an |an</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>hause</item>
+        <item>heim</item>
+        <item>zuhause</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>gehe zu</item>
+        <item>gehe</item>
+        <item>navigiere</item>
+        <item>navigiere zu</item>
+        <item>navigiere zur</item>
+        <item>bring mich zur</item>
+        <item>bring mich nach</item>
+        <item>bring mich zum</item>
+        <item>bring mich zur</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>nächstes lied</item>
+        <item>weiter</item>
+        <item>nächstes</item>
+        <item>nächste</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>öffne</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>pause</item>
+        <item>pause music</item>
+        <item>stoppe</item>
+        <item>pausiere</item>
+        <item>stop</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>spiele musik</item>
+        <item>spiel</item>
+        <item>abspielen</item>
+        <item>wiedergeben</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>vorheriges lied</item>
+        <item>vorheriges</item>
+        <item>voriges</item>
+        <item>zurück</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>suche</item>
+        <item>finde</item>
+        <item>suche nach</item>
+        <item>find</item>
+        <item>wo finde ich</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>wetter</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>arbeit</item>
+        <item>büro</item>
+    </string-array>
+</resources>

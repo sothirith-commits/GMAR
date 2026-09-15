@@ -1,0 +1,43 @@
+.class public final Landroidx/core/app/RemoteActionCompat;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/versionedparcelable/VersionedParcelable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/core/app/RemoteActionCompat$Api26Impl;,
+        Landroidx/core/app/RemoteActionCompat$Api28Impl;
+    }
+.end annotation
+
+
+# instance fields
+.field public mActionIntent:Landroid/app/PendingIntent;
+
+.field public mContentDescription:Ljava/lang/CharSequence;
+
+.field public mEnabled:Z
+
+.field public mIcon:Landroidx/core/graphics/drawable/IconCompat;
+
+.field public mShouldShowIcon:Z
+
+.field public mTitle:Ljava/lang/CharSequence;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

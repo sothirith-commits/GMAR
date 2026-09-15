@@ -1,0 +1,5679 @@
+.class public Lbmwc;
+.super Lbmvx;
+.source "PG"
+
+# interfaces
+.implements Lbmwa;
+
+
+# static fields
+.field private static final r:Lbxfh;
+
+
+# instance fields
+.field public final k:Landroid/net/Uri;
+
+.field public final l:Lbmty;
+
+.field public m:Ljava/lang/String;
+
+.field n:Lbmvf;
+
+.field protected o:Z
+
+.field public final p:Lbmvl;
+
+.field public final q:I
+
+.field private final s:Landroid/net/Uri;
+
+.field private final t:Lbmwh;
+
+.field private final u:Lcpiz;
+
+.field private v:Lbvrp;
+
+.field private w:Lbmvo;
+
+.field private x:Z
+
+.field private y:Lbmvy;
+
+.field private final z:Lbnbb;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    .line 2
+    const-string v0, "bmwc"
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {v0}, Lbxfh;->g(Ljava/lang/String;)Lbxfh;
+
+    .line 6
+    move-result-object v0
+
+    .line 7
+    .line 8
+    sput-object v0, Lbmwc;->r:Lbxfh;
+
+    .line 9
+    return-void
+.end method
+
+.method public constructor <init>(Lbmvw;Lbmvs;Lbmwh;Lbnbb;Lcpiz;Lbmvl;)V
+    .locals 1
+
+    .line 1
+    .line 2
+    sget-object v0, Lcnlr;->b:Lcnlr;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-direct {p0, v0, p1}, Lbmvx;-><init>(Lcnlr;Lbmvw;)V
+
+    .line 6
+    const/4 p1, 0x1
+
+    .line 7
+    .line 8
+    iput-boolean p1, p0, Lbmwc;->x:Z
+
+    .line 9
+    .line 10
+    iget-object p1, p2, Lbmvs;->c:Landroid/net/Uri;
+
+    .line 11
+    .line 12
+    iput-object p1, p0, Lbmwc;->s:Landroid/net/Uri;
+
+    .line 13
+    .line 14
+    iput-object p1, p0, Lbmwc;->k:Landroid/net/Uri;
+
+    .line 15
+    .line 16
+    iget-object p1, p2, Lbmvs;->b:Lbmty;
+
+    .line 17
+    .line 18
+    iput-object p1, p0, Lbmwc;->l:Lbmty;
+
+    .line 19
+    .line 20
+    iput-object p3, p0, Lbmwc;->t:Lbmwh;
+
+    .line 21
+    .line 22
+    iput-object p4, p0, Lbmwc;->z:Lbnbb;
+
+    .line 23
+    .line 24
+    iput-object p5, p0, Lbmwc;->u:Lcpiz;
+
+    .line 25
+    .line 26
+    iput-object p6, p0, Lbmwc;->p:Lbmvl;
+
+    .line 27
+    .line 28
+    iget p1, p2, Lbmvs;->d:I
+
+    .line 29
+    .line 30
+    iput p1, p0, Lbmwc;->q:I
+
+    .line 31
+    .line 32
+    iget-object p0, p0, Lbmwc;->i:Lbnbb;
+
+    .line 33
+    .line 34
+    iget-object p1, p2, Lbmvs;->b:Lbmty;
+
+    .line 35
+    .line 36
+    .line 37
+    invoke-virtual {p0, p1}, Lbnbb;->s(Lbmty;)V
+
+    .line 38
+    return-void
+.end method
+
+.method private final r()Lbvur;
+    .locals 14
+
+    .line 1
+    const/4 v1, 0x1
+
+    .line 2
+    const/4 v2, 0x0
+
+    .line 3
+    const/4 v3, 0x0
+
+    .line 4
+    .line 5
+    :try_start_0
+    iget-object v0, p0, Lbmwc;->w:Lbmvo;
+
+    .line 6
+    .line 7
+    iget-object v0, v0, Lbmvo;->w:Ljava/lang/String;
+
+    .line 8
+    .line 9
+    if-nez v0, :cond_0
+
+    .line 10
+    .line 11
+    iget-object v0, p0, Lbmwc;->t:Lbmwh;
+
+    .line 12
+    .line 13
+    iget-object v4, p0, Lbmwc;->k:Landroid/net/Uri;
+
+    .line 14
+    .line 15
+    .line 16
+    invoke-virtual {v0, v4}, Lbmwh;->a(Landroid/net/Uri;)Ljava/io/InputStream;
+
+    .line 17
+    move-result-object v0
+
+    .line 18
+    .line 19
+    .line 20
+    invoke-static {v0}, Lbmwj;->b(Ljava/io/InputStream;)Ljava/lang/String;
+
+    .line 21
+    move-result-object v0
+
+    .line 22
+    .line 23
+    :cond_0
+    if-eqz v0, :cond_2
+
+    .line 24
+    .line 25
+    iget-object v4, p0, Lbmwc;->a:Lbmvt;
+
+    .line 26
+    .line 27
+    iget-object v5, p0, Lbmwc;->l:Lbmty;
+
+    .line 28
+    .line 29
+    iget v6, p0, Lbmwc;->q:I
+
+    .line 30
+    const/4 v7, 0x3
+
+    .line 31
+    .line 32
+    if-ne v6, v7, :cond_1
+
+    .line 33
+    move v6, v1
+
+    .line 34
+    goto :goto_0
+
+    .line 35
+    :cond_1
+    move v6, v2
+
+    .line 36
+    .line 37
+    .line 38
+    :goto_0
+    invoke-static {v4, v5, v6}, Lbilv;->d(Lbmvt;Lbmty;Z)Lbvur;
+
+    .line 39
+    move-result-object v4
+
+    .line 40
+    .line 41
+    iput-object v0, v4, Lbvur;->sha1:Ljava/lang/String;
+
+    .line 42
+    goto :goto_1
+
+    .line 43
+    .line 44
+    :cond_2
+    sget-object v0, Lbmwc;->r:Lbxfh;
+
+    .line 45
+    .line 46
+    .line 47
+    invoke-virtual {v0}, Lbxex;->b()Lbxfv;
+
+    .line 48
+    move-result-object v0
+
+    .line 49
+    .line 50
+    check-cast v0, Lbxfe;
+
+    .line 51
+    .line 52
+    const/16 v4, 0x2f24
+
+    .line 53
+    .line 54
+    .line 55
+    invoke-interface {v0, v4}, Lbxfe;->L(I)Lbxfv;
+
+    .line 56
+    move-result-object v0
+
+    .line 57
+    .line 58
+    check-cast v0, Lbxfe;
+
+    .line 59
+    .line 60
+    const-string v4, "Unknown URI type [%s]"
+
+    .line 61
+    .line 62
+    iget-object v5, p0, Lbmwc;->k:Landroid/net/Uri;
+
+    .line 63
+    .line 64
+    .line 65
+    invoke-interface {v0, v4, v5}, Lbxfe;->v(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 66
+    .line 67
+    new-instance v0, Lbmwf;
+
+    .line 68
+    .line 69
+    sget-object v4, Lcckn;->d:Lcckn;
+
+    .line 70
+    .line 71
+    .line 72
+    invoke-direct {v0, v4}, Lbmwf;-><init>(Lcckn;)V
+
+    .line 73
+    throw v0
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_7
+    .catch Ljava/lang/SecurityException; {:try_start_0 .. :try_end_0} :catch_6
+    .catch Lbmwf; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 74
+    .line 75
+    :catch_0
+    sget-object v0, Lbmwc;->r:Lbxfh;
+
+    .line 76
+    .line 77
+    .line 78
+    invoke-virtual {v0}, Lbxex;->b()Lbxfv;
+
+    .line 79
+    move-result-object v0
+
+    .line 80
+    .line 81
+    check-cast v0, Lbxfe;
+
+    .line 82
+    .line 83
+    const/16 v4, 0x2f23
+
+    .line 84
+    .line 85
+    .line 86
+    invoke-interface {v0, v4}, Lbxfe;->L(I)Lbxfv;
+
+    .line 87
+    move-result-object v0
+
+    .line 88
+    .line 89
+    check-cast v0, Lbxfe;
+
+    .line 90
+    .line 91
+    iget-object v4, p0, Lbmwc;->k:Landroid/net/Uri;
+
+    .line 92
+    .line 93
+    const-string v5, "Could not calculate SHA-1 for file [%s]"
+
+    .line 94
+    .line 95
+    .line 96
+    invoke-interface {v0, v5, v4}, Lbxfe;->v(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 97
+    move-object v4, v3
+
+    .line 98
+    .line 99
+    :goto_1
+    if-nez v4, :cond_3
+
+    .line 100
+    return-object v3
+
+    .line 101
+    .line 102
+    .line 103
+    :cond_3
+    invoke-virtual {p0}, Lbmvx;->d()I
+
+    .line 104
+    move-result v5
+
+    .line 105
+    move v6, v2
+
+    .line 106
+    .line 107
+    .line 108
+    :goto_2
+    invoke-virtual {p0}, Lbmwc;->q()Z
+
+    .line 109
+    move-result v0
+
+    .line 110
+    .line 111
+    if-nez v0, :cond_a
+
+    .line 112
+    .line 113
+    iget-object v0, p0, Lbmwc;->j:Lbelp;
+
+    .line 114
+    .line 115
+    .line 116
+    invoke-virtual {v0, v2}, Lbelp;->J(Z)Z
+
+    .line 117
+    move-result v0
+
+    .line 118
+    .line 119
+    if-nez v0, :cond_4
+
+    .line 120
+    .line 121
+    sget-object v0, Lcckn;->e:Lcckn;
+
+    .line 122
+    .line 123
+    .line 124
+    invoke-virtual {p0, v0, v3}, Lbmvx;->l(Lcckn;Ljava/lang/Exception;)V
+
+    .line 125
+    .line 126
+    goto/16 :goto_4
+
+    .line 127
+    .line 128
+    :cond_4
+    :try_start_1
+    iget-object v7, p0, Lbmwc;->e:Lbmve;
+
+    .line 129
+    .line 130
+    iget-object v0, p0, Lbmwc;->g:Ljava/lang/String;
+
+    .line 131
+    .line 132
+    .line 133
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 134
+    .line 135
+    iget-object v8, p0, Lbmwc;->a:Lbmvt;
+
+    .line 136
+    .line 137
+    iget-object v9, p0, Lbmwc;->l:Lbmty;
+
+    .line 138
+    .line 139
+    sget-object v10, Lbvsy;->a:Lbuza;
+
+    .line 140
+    .line 141
+    .line 142
+    invoke-virtual {v7, v10, v0}, Lbmve;->d(Lbuza;Ljava/lang/String;)Lbvup;
+
+    .line 143
+    move-result-object v0
+
+    .line 144
+    .line 145
+    .line 146
+    invoke-static {v4}, Lcom/google/common/collect/ImmutableList;->of(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
+
+    .line 147
+    move-result-object v10
+
+    .line 148
+    .line 149
+    .line 150
+    invoke-static {v8, v10}, Lbilv;->e(Lbmvt;Ljava/util/List;)Lbvuv;
+
+    .line 151
+    move-result-object v10
+    :try_end_1
+    .catch Ljava/net/UnknownHostException; {:try_start_1 .. :try_end_1} :catch_4
+    .catch Lbvrh; {:try_start_1 .. :try_end_1} :catch_3
+    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_2
+
+    .line 152
+    .line 153
+    .line 154
+    :try_start_2
+    invoke-static {v10, v1}, Lbuza;->C(Ljava/lang/Object;Z)Ljava/lang/String;
+
+    .line 155
+    .line 156
+    new-instance v11, Lcvnk;
+
+    .line 157
+    .line 158
+    .line 159
+    invoke-direct {v11, v0, v3}, Lcvnk;-><init>(Ljava/lang/Object;[B)V
+
+    .line 160
+    .line 161
+    new-instance v0, Lbvuo;
+
+    .line 162
+    .line 163
+    .line 164
+    invoke-direct {v0, v11, v10}, Lbvuo;-><init>(Lcvnk;Lbvuv;)V
+    :try_end_2
+    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
+
+    .line 165
+    .line 166
+    .line 167
+    :try_start_3
+    invoke-virtual {v0}, Lbvrm;->e()Ljava/lang/Object;
+
+    .line 168
+    move-result-object v0
+
+    .line 169
+    .line 170
+    check-cast v0, Lbvuw;
+
+    .line 171
+    .line 172
+    .line 173
+    invoke-static {v0, v1}, Lbuza;->C(Ljava/lang/Object;Z)Ljava/lang/String;
+
+    .line 174
+    .line 175
+    .line 176
+    invoke-static {v0}, Lbmve;->c(Lbvuw;)Z
+
+    .line 177
+    move-result v10
+
+    .line 178
+    .line 179
+    if-nez v10, :cond_5
+
+    .line 180
+    move-object v10, v9
+
+    .line 181
+    .line 182
+    sget-object v9, Lcnlr;->b:Lcnlr;
+
+    .line 183
+    move-object v11, v10
+
+    .line 184
+    .line 185
+    sget-object v10, Lcckn;->h:Lcckn;
+
+    .line 186
+    .line 187
+    sget-object v0, Lbmuc;->a:Lbmuc;
+
+    .line 188
+    .line 189
+    .line 190
+    invoke-virtual {v0}, Lcmvn;->createBuilder()Lcmvf;
+
+    .line 191
+    move-result-object v0
+
+    .line 192
+    .line 193
+    sget-object v12, Lbmua;->f:Lbmua;
+
+    .line 194
+    .line 195
+    .line 196
+    invoke-virtual {v0}, Lcmvf;->copyOnWrite()V
+
+    .line 197
+    .line 198
+    iget-object v13, v0, Lcmvf;->instance:Lcmvn;
+
+    .line 199
+    .line 200
+    check-cast v13, Lbmuc;
+
+    .line 201
+    .line 202
+    iget v12, v12, Lbmua;->l:I
+
+    .line 203
+    .line 204
+    iput v12, v13, Lbmuc;->f:I
+
+    .line 205
+    .line 206
+    iget v12, v13, Lbmuc;->b:I
+
+    .line 207
+    .line 208
+    or-int/lit8 v12, v12, 0x8
+
+    .line 209
+    .line 210
+    iput v12, v13, Lbmuc;->b:I
+
+    .line 211
+    .line 212
+    .line 213
+    invoke-virtual {v0}, Lcmvf;->copyOnWrite()V
+
+    .line 214
+    .line 215
+    iget-object v12, v0, Lcmvf;->instance:Lcmvn;
+
+    .line 216
+    .line 217
+    check-cast v12, Lbmuc;
+
+    .line 218
+    .line 219
+    .line 220
+    invoke-virtual {v11}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 221
+    .line 222
+    iput-object v11, v12, Lbmuc;->e:Lbmty;
+
+    .line 223
+    .line 224
+    iget v11, v12, Lbmuc;->b:I
+
+    .line 225
+    .line 226
+    or-int/lit8 v11, v11, 0x4
+
+    .line 227
+    .line 228
+    iput v11, v12, Lbmuc;->b:I
+
+    .line 229
+    .line 230
+    .line 231
+    invoke-virtual {v0}, Lcmvf;->build()Lcmvn;
+
+    .line 232
+    move-result-object v0
+
+    .line 233
+    move-object v11, v0
+
+    .line 234
+    .line 235
+    check-cast v11, Lbmuc;
+
+    .line 236
+    const/4 v12, 0x0
+
+    .line 237
+    .line 238
+    .line 239
+    invoke-virtual/range {v7 .. v12}, Lbmve;->b(Lbmvt;Lcnlr;Lcckn;Lbmuc;Ljava/lang/Exception;)V
+
+    .line 240
+    goto :goto_3
+
+    .line 241
+    :cond_5
+    move-object v11, v9
+
+    .line 242
+    .line 243
+    iget-object v9, v0, Lbvuw;->status:Ljava/lang/String;
+
+    .line 244
+    .line 245
+    .line 246
+    invoke-static {v9}, Lccks;->a(Ljava/lang/String;)Lccks;
+
+    .line 247
+    move-result-object v9
+
+    .line 248
+    .line 249
+    sget-object v10, Lccks;->a:Lccks;
+
+    .line 250
+    .line 251
+    if-ne v9, v10, :cond_6
+
+    .line 252
+    .line 253
+    iget-object v9, v0, Lbvuw;->importedPhotos:Ljava/util/List;
+
+    .line 254
+    .line 255
+    if-eqz v9, :cond_6
+
+    .line 256
+    .line 257
+    .line 258
+    invoke-interface {v9}, Ljava/util/List;->size()I
+
+    .line 259
+    move-result v9
+
+    .line 260
+    .line 261
+    if-ne v9, v1, :cond_6
+
+    .line 262
+    .line 263
+    iget-object v7, v7, Lbmve;->b:Lbrhs;
+
+    .line 264
+    .line 265
+    sget-object v9, Lcnlr;->b:Lcnlr;
+
+    .line 266
+    .line 267
+    new-instance v10, Lbnbb;
+
+    .line 268
+    .line 269
+    .line 270
+    invoke-direct {v10, v7, v8, v9}, Lbnbb;-><init>(Lbrhs;Lbmvt;Lcnlr;)V
+
+    .line 271
+    .line 272
+    .line 273
+    invoke-virtual {v10, v11}, Lbnbb;->s(Lbmty;)V
+
+    .line 274
+    .line 275
+    iget-object v7, v8, Lbmvt;->c:Lcom/google/common/collect/ImmutableList;
+
+    .line 276
+    .line 277
+    .line 278
+    invoke-virtual {v10, v7}, Lbnbb;->j(Ljava/util/List;)V
+
+    .line 279
+    .line 280
+    iget-object v0, v0, Lbvuw;->importedPhotos:Ljava/util/List;
+
+    .line 281
+    .line 282
+    .line 283
+    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 284
+    move-result-object v0
+
+    .line 285
+    .line 286
+    check-cast v0, Lbvur;
+
+    .line 287
+    move-object v3, v0
+
+    .line 288
+    goto :goto_3
+
+    .line 289
+    .line 290
+    :cond_6
+    iget-object v7, v7, Lbmve;->b:Lbrhs;
+
+    .line 291
+    .line 292
+    sget-object v9, Lcnlr;->b:Lcnlr;
+
+    .line 293
+    .line 294
+    new-instance v10, Lbnbb;
+
+    .line 295
+    .line 296
+    .line 297
+    invoke-direct {v10, v7, v8, v9}, Lbnbb;-><init>(Lbrhs;Lbmvt;Lcnlr;)V
+
+    .line 298
+    .line 299
+    .line 300
+    invoke-virtual {v10, v11}, Lbnbb;->s(Lbmty;)V
+
+    .line 301
+    .line 302
+    iget-object v0, v0, Lbvuw;->status:Ljava/lang/String;
+
+    .line 303
+    .line 304
+    .line 305
+    invoke-static {v0}, Lccks;->a(Ljava/lang/String;)Lccks;
+
+    .line 306
+    move-result-object v0
+
+    .line 307
+    .line 308
+    .line 309
+    invoke-virtual {v10, v0, v3}, Lbnbb;->k(Lccks;Lcckn;)V
+
+    .line 310
+    :goto_3
+    return-object v3
+
+    .line 311
+    :catch_1
+    move-exception v0
+
+    .line 312
+    move-object v12, v0
+
+    .line 313
+    .line 314
+    sget-object v9, Lcnlr;->b:Lcnlr;
+
+    .line 315
+    .line 316
+    sget-object v10, Lcckn;->i:Lcckn;
+
+    .line 317
+    .line 318
+    sget-object v0, Lbmuc;->a:Lbmuc;
+
+    .line 319
+    .line 320
+    .line 321
+    invoke-virtual {v0}, Lcmvn;->createBuilder()Lcmvf;
+
+    .line 322
+    move-result-object v0
+
+    .line 323
+    .line 324
+    sget-object v11, Lbmua;->g:Lbmua;
+
+    .line 325
+    .line 326
+    .line 327
+    invoke-virtual {v0}, Lcmvf;->copyOnWrite()V
+
+    .line 328
+    .line 329
+    iget-object v13, v0, Lcmvf;->instance:Lcmvn;
+
+    .line 330
+    .line 331
+    check-cast v13, Lbmuc;
+
+    .line 332
+    .line 333
+    iget v11, v11, Lbmua;->l:I
+
+    .line 334
+    .line 335
+    iput v11, v13, Lbmuc;->f:I
+
+    .line 336
+    .line 337
+    iget v11, v13, Lbmuc;->b:I
+
+    .line 338
+    .line 339
+    or-int/lit8 v11, v11, 0x8
+
+    .line 340
+    .line 341
+    iput v11, v13, Lbmuc;->b:I
+
+    .line 342
+    .line 343
+    .line 344
+    invoke-virtual {v0}, Lcmvf;->build()Lcmvn;
+
+    .line 345
+    move-result-object v0
+
+    .line 346
+    move-object v11, v0
+
+    .line 347
+    .line 348
+    check-cast v11, Lbmuc;
+
+    .line 349
+    .line 350
+    .line 351
+    invoke-virtual/range {v7 .. v12}, Lbmve;->b(Lbmvt;Lcnlr;Lcckn;Lbmuc;Ljava/lang/Exception;)V
+
+    .line 352
+    .line 353
+    new-instance v0, Lbmwf;
+
+    .line 354
+    .line 355
+    sget-object v7, Lbmua;->f:Lbmua;
+
+    .line 356
+    .line 357
+    .line 358
+    invoke-direct {v0, v7, v10, v3, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 359
+    throw v0
+    :try_end_3
+    .catch Ljava/net/UnknownHostException; {:try_start_3 .. :try_end_3} :catch_4
+    .catch Lbvrh; {:try_start_3 .. :try_end_3} :catch_3
+    .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_2
+
+    .line 360
+    :catch_2
+    move-exception v0
+
+    .line 361
+    .line 362
+    sget-object v7, Lcckn;->i:Lcckn;
+
+    .line 363
+    .line 364
+    .line 365
+    invoke-virtual {p0, v7, v0}, Lbmvx;->l(Lcckn;Ljava/lang/Exception;)V
+
+    .line 366
+    goto :goto_4
+
+    .line 367
+    :catch_3
+    move-exception v0
+
+    .line 368
+    .line 369
+    iget v7, v0, Lbvse;->a:I
+
+    .line 370
+    .line 371
+    sget-object v8, Lcnlr;->c:Lcnlr;
+
+    .line 372
+    .line 373
+    .line 374
+    invoke-static {v7, v8}, Lbmwf;->b(ILcnlr;)Lcckn;
+
+    .line 375
+    move-result-object v9
+
+    .line 376
+    .line 377
+    .line 378
+    invoke-virtual {p0, v9, v0}, Lbmvx;->l(Lcckn;Ljava/lang/Exception;)V
+
+    .line 379
+    .line 380
+    new-instance v0, Lbmwf;
+
+    .line 381
+    .line 382
+    .line 383
+    invoke-direct {v0, v7, v8}, Lbmwf;-><init>(ILcnlr;)V
+
+    .line 384
+    .line 385
+    .line 386
+    invoke-virtual {v0}, Lbmwf;->c()Z
+
+    .line 387
+    move-result v7
+
+    .line 388
+    .line 389
+    if-eqz v7, :cond_7
+
+    .line 390
+    goto :goto_4
+
+    .line 391
+    :cond_7
+    throw v0
+
+    .line 392
+    :catch_4
+    move-exception v0
+
+    .line 393
+    .line 394
+    sget-object v7, Lcckn;->e:Lcckn;
+
+    .line 395
+    .line 396
+    .line 397
+    invoke-virtual {p0, v7, v0}, Lbmvx;->l(Lcckn;Ljava/lang/Exception;)V
+
+    .line 398
+    .line 399
+    .line 400
+    :goto_4
+    invoke-virtual {p0}, Lbmwc;->q()Z
+
+    .line 401
+    move-result v0
+
+    .line 402
+    .line 403
+    if-nez v0, :cond_9
+
+    .line 404
+    .line 405
+    .line 406
+    :try_start_4
+    invoke-virtual {p0, v6}, Lbmvx;->c(I)I
+
+    .line 407
+    move-result v0
+
+    .line 408
+    int-to-long v7, v0
+
+    .line 409
+    .line 410
+    .line 411
+    invoke-static {v7, v8}, Ljava/lang/Thread;->sleep(J)V
+    :try_end_4
+    .catch Ljava/lang/InterruptedException; {:try_start_4 .. :try_end_4} :catch_5
+
+    .line 412
+    .line 413
+    add-int/lit8 v6, v6, 0x1
+
+    .line 414
+    .line 415
+    if-ge v6, v5, :cond_8
+
+    .line 416
+    .line 417
+    goto/16 :goto_2
+
+    .line 418
+    .line 419
+    :cond_8
+    new-instance p0, Lbmwf;
+
+    .line 420
+    .line 421
+    sget-object v0, Lbmua;->g:Lbmua;
+
+    .line 422
+    .line 423
+    .line 424
+    invoke-direct {p0, v0, v3, v3, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 425
+    throw p0
+
+    .line 426
+    .line 427
+    .line 428
+    :catch_5
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+
+    .line 429
+    move-result-object p0
+
+    .line 430
+    .line 431
+    .line 432
+    invoke-virtual {p0}, Ljava/lang/Thread;->interrupt()V
+
+    .line 433
+    .line 434
+    new-instance p0, Ljava/io/InterruptedIOException;
+
+    .line 435
+    .line 436
+    .line 437
+    invoke-direct {p0}, Ljava/io/InterruptedIOException;-><init>()V
+
+    .line 438
+    throw p0
+
+    .line 439
+    .line 440
+    :cond_9
+    new-instance p0, Ljava/io/InterruptedIOException;
+
+    .line 441
+    .line 442
+    .line 443
+    invoke-direct {p0}, Ljava/io/InterruptedIOException;-><init>()V
+
+    .line 444
+    throw p0
+
+    .line 445
+    .line 446
+    :cond_a
+    new-instance p0, Ljava/io/InterruptedIOException;
+
+    .line 447
+    .line 448
+    .line 449
+    invoke-direct {p0}, Ljava/io/InterruptedIOException;-><init>()V
+
+    .line 450
+    throw p0
+
+    .line 451
+    .line 452
+    :catch_6
+    new-instance p0, Lbmwf;
+
+    .line 453
+    .line 454
+    sget-object v0, Lbmua;->f:Lbmua;
+
+    .line 455
+    .line 456
+    sget-object v1, Lcckn;->p:Lcckn;
+
+    .line 457
+    .line 458
+    .line 459
+    invoke-direct {p0, v0, v1, v3, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 460
+    throw p0
+
+    .line 461
+    .line 462
+    :catch_7
+    new-instance p0, Lbmwf;
+
+    .line 463
+    .line 464
+    sget-object v0, Lbmua;->f:Lbmua;
+
+    .line 465
+    .line 466
+    sget-object v1, Lcckn;->n:Lcckn;
+
+    .line 467
+    .line 468
+    .line 469
+    invoke-direct {p0, v0, v1, v3, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 470
+    throw p0
+.end method
+
+.method private final s(Lbmwf;)V
+    .locals 3
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lbmvx;->b()Lcmvf;
+
+    .line 4
+    move-result-object v0
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-virtual {v0}, Lcmvf;->copyOnWrite()V
+
+    .line 8
+    .line 9
+    iget-object v1, v0, Lcmvf;->instance:Lcmvn;
+
+    .line 10
+    .line 11
+    check-cast v1, Lbmuc;
+
+    .line 12
+    .line 13
+    sget-object v2, Lbmuc;->a:Lbmuc;
+
+    .line 14
+    .line 15
+    iget-object v2, p1, Lbmwf;->a:Lbmua;
+
+    .line 16
+    .line 17
+    iget v2, v2, Lbmua;->l:I
+
+    .line 18
+    .line 19
+    iput v2, v1, Lbmuc;->f:I
+
+    .line 20
+    .line 21
+    iget v2, v1, Lbmuc;->b:I
+
+    .line 22
+    .line 23
+    or-int/lit8 v2, v2, 0x8
+
+    .line 24
+    .line 25
+    iput v2, v1, Lbmuc;->b:I
+
+    .line 26
+    .line 27
+    .line 28
+    invoke-virtual {p1}, Lbmwf;->a()Lbmud;
+
+    .line 29
+    move-result-object p1
+
+    .line 30
+    .line 31
+    .line 32
+    invoke-virtual {v0}, Lcmvf;->copyOnWrite()V
+
+    .line 33
+    .line 34
+    iget-object v1, v0, Lcmvf;->instance:Lcmvn;
+
+    .line 35
+    .line 36
+    check-cast v1, Lbmuc;
+
+    .line 37
+    .line 38
+    iget p1, p1, Lbmud;->r:I
+
+    .line 39
+    .line 40
+    iput p1, v1, Lbmuc;->o:I
+
+    .line 41
+    .line 42
+    iget p1, v1, Lbmuc;->b:I
+
+    .line 43
+    .line 44
+    or-int/lit16 p1, p1, 0x800
+
+    .line 45
+    .line 46
+    iput p1, v1, Lbmuc;->b:I
+
+    .line 47
+    .line 48
+    .line 49
+    invoke-virtual {v0}, Lcmvf;->build()Lcmvn;
+
+    .line 50
+    move-result-object p1
+
+    .line 51
+    .line 52
+    check-cast p1, Lbmuc;
+
+    .line 53
+    .line 54
+    .line 55
+    invoke-virtual {p0, p1}, Lbmvx;->k(Lbmuc;)V
+
+    .line 56
+    return-void
+.end method
+
+.method private final t(Lbmua;)V
+    .locals 4
+
+    .line 1
+    .line 2
+    :try_start_0
+    iget-object v0, p0, Lbmwc;->v:Lbvrp;
+
+    .line 3
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    .line 6
+    iget-object v0, v0, Lbvrp;->b:Ljava/io/InputStream;
+
+    .line 7
+    .line 8
+    if-eqz v0, :cond_0
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-virtual {v0}, Ljava/io/InputStream;->close()V
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 12
+    goto :goto_0
+
+    .line 13
+    :catch_0
+    move-exception v0
+
+    .line 14
+    .line 15
+    sget-object v1, Lbmwc;->r:Lbxfh;
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-virtual {v1}, Lbxex;->b()Lbxfv;
+
+    .line 19
+    move-result-object v1
+
+    .line 20
+    .line 21
+    const-string v2, "Failed to close input stream."
+
+    .line 22
+    .line 23
+    const/16 v3, 0x2f31
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-static {v1, v2, v3, v0}, La;->dd(Lbxfv;Ljava/lang/String;CLjava/lang/Throwable;)V
+
+    .line 27
+    .line 28
+    :cond_0
+    :goto_0
+    iget-object v0, p0, Lbmwc;->f:Lbmvz;
+
+    .line 29
+    .line 30
+    .line 31
+    invoke-interface {v0, p0, p1}, Lbmvz;->d(Lbmwa;Lbmua;)V
+
+    .line 32
+    return-void
+.end method
+
+.method private final u(ZLbvur;)V
+    .locals 11
+
+    .line 1
+    .line 2
+    iget-boolean v0, p0, Lbmwc;->o:Z
+
+    .line 3
+    const/4 v1, 0x3
+
+    .line 4
+    const/4 v2, 0x2
+
+    .line 5
+    const/4 v3, 0x1
+
+    .line 6
+    .line 7
+    if-eq v3, p1, :cond_0
+
+    .line 8
+    move p1, v2
+
+    .line 9
+    goto :goto_0
+
+    .line 10
+    :cond_0
+    move p1, v1
+
+    .line 11
+    .line 12
+    :goto_0
+    const/16 v4, 0x10
+
+    .line 13
+    .line 14
+    if-eqz v0, :cond_5
+
+    .line 15
+    .line 16
+    iget-object v0, p2, Lbvur;->mediaKey:Ljava/lang/String;
+
+    .line 17
+    .line 18
+    .line 19
+    invoke-static {v0}, Lcom/google/common/collect/ImmutableList;->of(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
+
+    .line 20
+    move-result-object v0
+
+    .line 21
+    .line 22
+    iget-object v5, p0, Lbmwc;->i:Lbnbb;
+
+    .line 23
+    .line 24
+    iget-object v6, v5, Lbnbb;->b:Ljava/lang/Object;
+
+    .line 25
+    .line 26
+    check-cast v6, Lbrbm;
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-virtual {v6, v4}, Lbrbm;->l(I)V
+
+    .line 30
+    const/4 v6, 0x0
+
+    .line 31
+    .line 32
+    :try_start_0
+    iget-object v7, p0, Lbmwc;->e:Lbmve;
+
+    .line 33
+    .line 34
+    iget-object v8, p0, Lbmwc;->g:Ljava/lang/String;
+
+    .line 35
+    .line 36
+    .line 37
+    invoke-virtual {v8}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 38
+    .line 39
+    iget-object v9, p0, Lbmwc;->a:Lbmvt;
+
+    .line 40
+    .line 41
+    .line 42
+    invoke-virtual {v7, v8, v0, v9}, Lbmve;->a(Ljava/lang/String;Ljava/util/List;Lbmvt;)Lccks;
+
+    .line 43
+    move-result-object v0
+
+    .line 44
+    .line 45
+    sget-object v7, Lccks;->a:Lccks;
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-virtual {v7, v0}, Lccks;->equals(Ljava/lang/Object;)Z
+
+    .line 49
+    move-result v7
+
+    .line 50
+    .line 51
+    if-eqz v7, :cond_1
+
+    .line 52
+    move v0, v3
+
+    .line 53
+    goto :goto_2
+
+    .line 54
+    .line 55
+    .line 56
+    :cond_1
+    invoke-virtual {v5, v0}, Lbnbb;->q(Lccks;)V
+    :try_end_0
+    .catch Lbmwf; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 57
+    goto :goto_1
+
+    .line 58
+    :catch_0
+    move-exception v0
+
+    .line 59
+    .line 60
+    iget-object v0, v0, Lbmwf;->b:Lcckn;
+
+    .line 61
+    .line 62
+    if-eqz v0, :cond_2
+
+    .line 63
+    .line 64
+    iget-object v5, p0, Lbmwc;->i:Lbnbb;
+
+    .line 65
+    .line 66
+    .line 67
+    invoke-virtual {v5, v0}, Lbnbb;->h(Lcckn;)V
+
+    .line 68
+    :cond_2
+    :goto_1
+    move v0, v6
+
+    .line 69
+    .line 70
+    :goto_2
+    iget-object v5, p0, Lbmwc;->i:Lbnbb;
+
+    .line 71
+    .line 72
+    if-eq v3, v0, :cond_3
+
+    .line 73
+    .line 74
+    const/16 v7, 0xd
+
+    .line 75
+    goto :goto_3
+
+    .line 76
+    .line 77
+    :cond_3
+    const/16 v7, 0xc
+
+    .line 78
+    .line 79
+    :goto_3
+    iget-object v8, v5, Lbnbb;->b:Ljava/lang/Object;
+
+    .line 80
+    .line 81
+    check-cast v8, Lbrbm;
+
+    .line 82
+    .line 83
+    .line 84
+    invoke-virtual {v8, v7}, Lbrbm;->l(I)V
+
+    .line 85
+    .line 86
+    if-eqz v0, :cond_4
+
+    .line 87
+    .line 88
+    .line 89
+    invoke-virtual {p0}, Lbmvx;->n()V
+
+    .line 90
+    return-void
+
+    .line 91
+    .line 92
+    .line 93
+    :cond_4
+    invoke-virtual {v5, v6}, Lbnbb;->f(Z)V
+
+    .line 94
+    .line 95
+    goto/16 :goto_5
+
+    .line 96
+    .line 97
+    .line 98
+    :cond_5
+    invoke-direct {p0}, Lbmwc;->v()Z
+
+    .line 99
+    move-result v0
+
+    .line 100
+    .line 101
+    if-nez v0, :cond_8
+
+    .line 102
+    .line 103
+    iget-object v0, p0, Lbmwc;->p:Lbmvl;
+
+    .line 104
+    .line 105
+    .line 106
+    invoke-virtual {p0}, Lbmvx;->i()Ljava/lang/String;
+
+    .line 107
+    move-result-object v5
+
+    .line 108
+    .line 109
+    sget-object v6, Lbmua;->d:Lbmua;
+
+    .line 110
+    .line 111
+    sget-object v7, Lbmvl;->b:Ljava/lang/Object;
+
+    .line 112
+    monitor-enter v7
+
+    .line 113
+    .line 114
+    .line 115
+    :try_start_1
+    invoke-virtual {v0}, Lbmvl;->c()Landroid/database/sqlite/SQLiteDatabase;
+
+    .line 116
+    move-result-object v0
+
+    .line 117
+    .line 118
+    if-nez v0, :cond_6
+
+    .line 119
+    monitor-exit v7
+
+    .line 120
+    goto :goto_4
+
+    .line 121
+    .line 122
+    :cond_6
+    new-instance v8, Landroid/content/ContentValues;
+
+    .line 123
+    .line 124
+    .line 125
+    invoke-direct {v8}, Landroid/content/ContentValues;-><init>()V
+
+    .line 126
+    .line 127
+    const-string v9, "upload_status"
+
+    .line 128
+    .line 129
+    iget v6, v6, Lbmua;->l:I
+
+    .line 130
+    .line 131
+    .line 132
+    invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 133
+    move-result-object v6
+
+    .line 134
+    .line 135
+    .line 136
+    invoke-virtual {v8, v9, v6}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+
+    .line 137
+    .line 138
+    const-string v6, "success_reason"
+
+    .line 139
+    .line 140
+    add-int/lit8 v9, p1, -0x1
+
+    .line 141
+    .line 142
+    .line 143
+    invoke-static {v9}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 144
+    move-result-object v9
+
+    .line 145
+    .line 146
+    .line 147
+    invoke-virtual {v8, v6, v9}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+
+    .line 148
+    .line 149
+    const-string v6, "completion_time"
+
+    .line 150
+    .line 151
+    new-instance v9, Ljava/util/Date;
+
+    .line 152
+    .line 153
+    .line 154
+    invoke-direct {v9}, Ljava/util/Date;-><init>()V
+
+    .line 155
+    .line 156
+    .line 157
+    invoke-virtual {v9}, Ljava/util/Date;->getTime()J
+
+    .line 158
+    move-result-wide v9
+
+    .line 159
+    .line 160
+    .line 161
+    invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 162
+    move-result-object v9
+
+    .line 163
+    .line 164
+    .line 165
+    invoke-virtual {v8, v6, v9}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
+
+    .line 166
+    .line 167
+    const-string v6, "public_media_key"
+
+    .line 168
+    .line 169
+    iget-object v9, p2, Lbvur;->mediaKey:Ljava/lang/String;
+
+    .line 170
+    .line 171
+    .line 172
+    invoke-virtual {v8, v6, v9}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 173
+    .line 174
+    const-string v6, "public_image_url"
+
+    .line 175
+    .line 176
+    iget-object v9, p2, Lbvur;->imageUrl:Ljava/lang/String;
+
+    .line 177
+    .line 178
+    .line 179
+    invoke-virtual {v8, v6, v9}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 180
+    .line 181
+    const-string v6, "public_content_url"
+
+    .line 182
+    .line 183
+    iget-object v9, p2, Lbvur;->contentUrl:Ljava/lang/String;
+
+    .line 184
+    .line 185
+    .line 186
+    invoke-virtual {v8, v6, v9}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 187
+    .line 188
+    iget-object v6, p2, Lbvur;->ugcsContentId:Ljava/lang/String;
+
+    .line 189
+    .line 190
+    if-eqz v6, :cond_7
+
+    .line 191
+    .line 192
+    const-string v9, "ugcs_content_id"
+
+    .line 193
+    .line 194
+    .line 195
+    invoke-virtual {v8, v9, v6}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 196
+    .line 197
+    :cond_7
+    const-string v6, "upload_tasks"
+
+    .line 198
+    .line 199
+    const-string v9, "gpu_media_id = ?"
+
+    .line 200
+    .line 201
+    .line 202
+    filled-new-array {v5}, [Ljava/lang/String;
+
+    .line 203
+    move-result-object v5
+
+    .line 204
+    .line 205
+    .line 206
+    invoke-virtual {v0, v6, v8, v9, v5}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+
+    .line 207
+    monitor-exit v7
+
+    .line 208
+    goto :goto_4
+
+    .line 209
+    :catchall_0
+    move-exception p0
+
+    .line 210
+    monitor-exit v7
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 211
+    throw p0
+
+    .line 212
+    .line 213
+    :cond_8
+    :goto_4
+    iget-object v0, p0, Lbmwc;->i:Lbnbb;
+
+    .line 214
+    .line 215
+    .line 216
+    invoke-virtual {v0}, Lbnbb;->p()V
+
+    .line 217
+    .line 218
+    :goto_5
+    add-int/lit8 p1, p1, -0x1
+
+    .line 219
+    .line 220
+    .line 221
+    invoke-virtual {p0}, Lbmvx;->b()Lcmvf;
+
+    .line 222
+    move-result-object v0
+
+    .line 223
+    .line 224
+    sget-object v5, Lbmua;->d:Lbmua;
+
+    .line 225
+    .line 226
+    .line 227
+    invoke-virtual {v0}, Lcmvf;->copyOnWrite()V
+
+    .line 228
+    .line 229
+    iget-object v6, v0, Lcmvf;->instance:Lcmvn;
+
+    .line 230
+    .line 231
+    check-cast v6, Lbmuc;
+
+    .line 232
+    .line 233
+    sget-object v7, Lbmuc;->a:Lbmuc;
+
+    .line 234
+    .line 235
+    iget v7, v5, Lbmua;->l:I
+
+    .line 236
+    .line 237
+    iput v7, v6, Lbmuc;->f:I
+
+    .line 238
+    .line 239
+    iget v7, v6, Lbmuc;->b:I
+
+    .line 240
+    .line 241
+    or-int/lit8 v7, v7, 0x8
+
+    .line 242
+    .line 243
+    iput v7, v6, Lbmuc;->b:I
+
+    .line 244
+    .line 245
+    .line 246
+    invoke-virtual {v0}, Lcmvf;->copyOnWrite()V
+
+    .line 247
+    .line 248
+    iget-object v6, v0, Lcmvf;->instance:Lcmvn;
+
+    .line 249
+    .line 250
+    check-cast v6, Lbmuc;
+
+    .line 251
+    .line 252
+    iput p1, v6, Lbmuc;->g:I
+
+    .line 253
+    .line 254
+    iget p1, v6, Lbmuc;->b:I
+
+    .line 255
+    or-int/2addr p1, v4
+
+    .line 256
+    .line 257
+    iput p1, v6, Lbmuc;->b:I
+
+    .line 258
+    .line 259
+    sget-object p1, Lbmub;->a:Lbmub;
+
+    .line 260
+    .line 261
+    .line 262
+    invoke-virtual {p1}, Lcmvn;->createBuilder()Lcmvf;
+
+    .line 263
+    move-result-object p1
+
+    .line 264
+    .line 265
+    iget-object v6, p2, Lbvur;->mediaKey:Ljava/lang/String;
+
+    .line 266
+    .line 267
+    if-eqz v6, :cond_9
+
+    .line 268
+    .line 269
+    .line 270
+    invoke-virtual {p1}, Lcmvf;->copyOnWrite()V
+
+    .line 271
+    .line 272
+    iget-object v7, p1, Lcmvf;->instance:Lcmvn;
+
+    .line 273
+    .line 274
+    check-cast v7, Lbmub;
+
+    .line 275
+    .line 276
+    iget v8, v7, Lbmub;->b:I
+
+    .line 277
+    or-int/2addr v8, v3
+
+    .line 278
+    .line 279
+    iput v8, v7, Lbmub;->b:I
+
+    .line 280
+    .line 281
+    iput-object v6, v7, Lbmub;->c:Ljava/lang/String;
+
+    .line 282
+    .line 283
+    :cond_9
+    iget-object v6, p2, Lbvur;->ugcsContentId:Ljava/lang/String;
+
+    .line 284
+    .line 285
+    if-eqz v6, :cond_a
+
+    .line 286
+    .line 287
+    .line 288
+    invoke-virtual {p1}, Lcmvf;->copyOnWrite()V
+
+    .line 289
+    .line 290
+    iget-object v7, p1, Lcmvf;->instance:Lcmvn;
+
+    .line 291
+    .line 292
+    check-cast v7, Lbmub;
+
+    .line 293
+    .line 294
+    iget v8, v7, Lbmub;->b:I
+
+    .line 295
+    or-int/2addr v8, v2
+
+    .line 296
+    .line 297
+    iput v8, v7, Lbmub;->b:I
+
+    .line 298
+    .line 299
+    iput-object v6, v7, Lbmub;->d:Ljava/lang/String;
+
+    .line 300
+    .line 301
+    :cond_a
+    iget-object v6, p2, Lbvur;->imageUrl:Ljava/lang/String;
+
+    .line 302
+    .line 303
+    if-eqz v6, :cond_b
+
+    .line 304
+    .line 305
+    .line 306
+    invoke-virtual {p1}, Lcmvf;->copyOnWrite()V
+
+    .line 307
+    .line 308
+    iget-object v7, p1, Lcmvf;->instance:Lcmvn;
+
+    .line 309
+    .line 310
+    check-cast v7, Lbmub;
+
+    .line 311
+    .line 312
+    iget v8, v7, Lbmub;->b:I
+
+    .line 313
+    .line 314
+    or-int/lit8 v8, v8, 0x4
+
+    .line 315
+    .line 316
+    iput v8, v7, Lbmub;->b:I
+
+    .line 317
+    .line 318
+    iput-object v6, v7, Lbmub;->e:Ljava/lang/String;
+
+    .line 319
+    .line 320
+    :cond_b
+    iget-object v6, p2, Lbvur;->contentUrl:Ljava/lang/String;
+
+    .line 321
+    .line 322
+    if-eqz v6, :cond_c
+
+    .line 323
+    .line 324
+    .line 325
+    invoke-virtual {p1}, Lcmvf;->copyOnWrite()V
+
+    .line 326
+    .line 327
+    iget-object v7, p1, Lcmvf;->instance:Lcmvn;
+
+    .line 328
+    .line 329
+    check-cast v7, Lbmub;
+
+    .line 330
+    .line 331
+    iget v8, v7, Lbmub;->b:I
+
+    .line 332
+    or-int/2addr v4, v8
+
+    .line 333
+    .line 334
+    iput v4, v7, Lbmub;->b:I
+
+    .line 335
+    .line 336
+    iput-object v6, v7, Lbmub;->g:Ljava/lang/String;
+
+    .line 337
+    .line 338
+    :cond_c
+    iget-object p2, p2, Lbvur;->mediaType:Ljava/lang/String;
+
+    .line 339
+    .line 340
+    if-eqz p2, :cond_10
+
+    .line 341
+    .line 342
+    .line 343
+    invoke-virtual {p2}, Ljava/lang/String;->hashCode()I
+
+    .line 344
+    move-result v4
+
+    .line 345
+    .line 346
+    .line 347
+    const v6, 0x4894612
+
+    .line 348
+    .line 349
+    if-eq v4, v6, :cond_e
+
+    .line 350
+    .line 351
+    .line 352
+    const v2, 0x4de1c5b
+
+    .line 353
+    .line 354
+    if-eq v4, v2, :cond_d
+
+    .line 355
+    .line 356
+    .line 357
+    const v1, 0x19d1382a
+
+    .line 358
+    .line 359
+    if-ne v4, v1, :cond_f
+
+    .line 360
+    .line 361
+    const-string v1, "UNKNOWN"
+
+    .line 362
+    .line 363
+    .line 364
+    invoke-virtual {p2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 365
+    move-result p2
+
+    .line 366
+    .line 367
+    if-eqz p2, :cond_f
+
+    .line 368
+    move v1, v3
+
+    .line 369
+    goto :goto_6
+
+    .line 370
+    .line 371
+    :cond_d
+    const-string v2, "VIDEO"
+
+    .line 372
+    .line 373
+    .line 374
+    invoke-virtual {p2, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 375
+    move-result p2
+
+    .line 376
+    .line 377
+    if-eqz p2, :cond_f
+
+    .line 378
+    goto :goto_6
+
+    .line 379
+    .line 380
+    :cond_e
+    const-string v1, "PHOTO"
+
+    .line 381
+    .line 382
+    .line 383
+    invoke-virtual {p2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 384
+    move-result p2
+
+    .line 385
+    .line 386
+    if-eqz p2, :cond_f
+
+    .line 387
+    move v1, v2
+
+    .line 388
+    .line 389
+    .line 390
+    :goto_6
+    invoke-virtual {p1}, Lcmvf;->copyOnWrite()V
+
+    .line 391
+    .line 392
+    iget-object p2, p1, Lcmvf;->instance:Lcmvn;
+
+    .line 393
+    .line 394
+    check-cast p2, Lbmub;
+
+    .line 395
+    .line 396
+    add-int/lit8 v1, v1, -0x1
+
+    .line 397
+    .line 398
+    iput v1, p2, Lbmub;->f:I
+
+    .line 399
+    .line 400
+    iget v1, p2, Lbmub;->b:I
+
+    .line 401
+    .line 402
+    or-int/lit8 v1, v1, 0x8
+
+    .line 403
+    .line 404
+    iput v1, p2, Lbmub;->b:I
+
+    .line 405
+    goto :goto_7
+
+    .line 406
+    .line 407
+    :cond_f
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    .line 408
+    .line 409
+    .line 410
+    invoke-direct {p0}, Ljava/lang/IllegalArgumentException;-><init>()V
+
+    .line 411
+    throw p0
+
+    .line 412
+    .line 413
+    .line 414
+    :cond_10
+    :goto_7
+    invoke-virtual {p1}, Lcmvf;->build()Lcmvn;
+
+    .line 415
+    move-result-object p1
+
+    .line 416
+    .line 417
+    check-cast p1, Lbmub;
+
+    .line 418
+    .line 419
+    .line 420
+    invoke-virtual {v0}, Lcmvf;->copyOnWrite()V
+
+    .line 421
+    .line 422
+    iget-object p2, v0, Lcmvf;->instance:Lcmvn;
+
+    .line 423
+    .line 424
+    check-cast p2, Lbmuc;
+
+    .line 425
+    .line 426
+    .line 427
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 428
+    .line 429
+    iput-object p1, p2, Lbmuc;->k:Lbmub;
+
+    .line 430
+    .line 431
+    iget p1, p2, Lbmuc;->b:I
+
+    .line 432
+    .line 433
+    or-int/lit16 p1, p1, 0x80
+
+    .line 434
+    .line 435
+    iput p1, p2, Lbmuc;->b:I
+
+    .line 436
+    .line 437
+    .line 438
+    invoke-virtual {v0}, Lcmvf;->copyOnWrite()V
+
+    .line 439
+    .line 440
+    iget-object p1, v0, Lcmvf;->instance:Lcmvn;
+
+    .line 441
+    .line 442
+    check-cast p1, Lbmuc;
+
+    .line 443
+    .line 444
+    iget p2, p1, Lbmuc;->b:I
+
+    .line 445
+    .line 446
+    or-int/lit8 p2, p2, 0x20
+
+    .line 447
+    .line 448
+    iput p2, p1, Lbmuc;->b:I
+
+    .line 449
+    .line 450
+    const-wide/high16 v1, 0x3ff0000000000000L    # 1.0
+
+    .line 451
+    .line 452
+    iput-wide v1, p1, Lbmuc;->i:D
+
+    .line 453
+    .line 454
+    .line 455
+    invoke-virtual {v0}, Lcmvf;->build()Lcmvn;
+
+    .line 456
+    move-result-object p1
+
+    .line 457
+    .line 458
+    check-cast p1, Lbmuc;
+
+    .line 459
+    .line 460
+    .line 461
+    invoke-virtual {p0, p1}, Lbmvx;->k(Lbmuc;)V
+
+    .line 462
+    .line 463
+    .line 464
+    invoke-direct {p0, v5}, Lbmwc;->t(Lbmua;)V
+
+    .line 465
+    return-void
+.end method
+
+.method private final v()Z
+    .locals 7
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lbmwc;->f:Lbmvz;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-interface {v0}, Lbmvz;->a()Lbmvi;
+
+    .line 6
+    move-result-object v0
+
+    .line 7
+    .line 8
+    iget-boolean v0, v0, Lbmvi;->v:Z
+
+    .line 9
+    const/4 v1, 0x1
+
+    .line 10
+    .line 11
+    if-nez v0, :cond_6
+
+    .line 12
+    .line 13
+    iget-object v0, p0, Lbmwc;->l:Lbmty;
+
+    .line 14
+    .line 15
+    iget-object v2, v0, Lbmty;->n:Lbmtw;
+
+    .line 16
+    .line 17
+    if-nez v2, :cond_0
+
+    .line 18
+    .line 19
+    sget-object v2, Lbmtw;->a:Lbmtw;
+
+    .line 20
+    .line 21
+    :cond_0
+    iget v2, v2, Lbmtw;->c:I
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-static {v2}, La;->ch(I)I
+
+    .line 25
+    move-result v2
+
+    .line 26
+    .line 27
+    if-nez v2, :cond_1
+
+    .line 28
+    move v2, v1
+
+    .line 29
+    .line 30
+    :cond_1
+    if-eq v2, v1, :cond_6
+
+    .line 31
+    const/4 v3, 0x2
+
+    .line 32
+    .line 33
+    if-ne v2, v3, :cond_3
+
+    .line 34
+    .line 35
+    iget-object v0, v0, Lbmty;->n:Lbmtw;
+
+    .line 36
+    .line 37
+    if-nez v0, :cond_2
+
+    .line 38
+    .line 39
+    sget-object v0, Lbmtw;->a:Lbmtw;
+
+    .line 40
+    .line 41
+    :cond_2
+    iget v0, v0, Lbmtw;->d:I
+
+    .line 42
+    .line 43
+    if-nez v0, :cond_3
+
+    .line 44
+    goto :goto_0
+
+    .line 45
+    .line 46
+    :cond_3
+    iget-object v0, p0, Lbmwc;->z:Lbnbb;
+
+    .line 47
+    .line 48
+    if-eqz v0, :cond_5
+
+    .line 49
+    .line 50
+    iget-object v0, p0, Lbmwc;->w:Lbmvo;
+
+    .line 51
+    .line 52
+    if-nez v0, :cond_4
+
+    .line 53
+    .line 54
+    iget-object v0, p0, Lbmwc;->p:Lbmvl;
+
+    .line 55
+    .line 56
+    iget-object v1, p0, Lbmwc;->a:Lbmvt;
+
+    .line 57
+    .line 58
+    iget-object v1, v1, Lbmvt;->a:Ljava/lang/String;
+
+    .line 59
+    .line 60
+    .line 61
+    invoke-virtual {v0, v1}, Lbmvl;->d(Ljava/lang/String;)Lbmvo;
+
+    .line 62
+    move-result-object v0
+
+    .line 63
+    .line 64
+    iput-object v0, p0, Lbmwc;->w:Lbmvo;
+
+    .line 65
+    .line 66
+    :cond_4
+    if-eqz v0, :cond_5
+
+    .line 67
+    .line 68
+    iget-object v0, v0, Lbmvo;->v:Ljava/lang/String;
+
+    .line 69
+    .line 70
+    if-eqz v0, :cond_5
+
+    .line 71
+    .line 72
+    iget-object p0, p0, Lbmwc;->p:Lbmvl;
+
+    .line 73
+    .line 74
+    .line 75
+    invoke-virtual {p0, v0}, Lbmvl;->h(Ljava/lang/String;)V
+
+    .line 76
+    .line 77
+    .line 78
+    invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    .line 79
+    move-result-object p0
+
+    .line 80
+    .line 81
+    .line 82
+    invoke-static {p0}, Lbnbb;->e(Landroid/net/Uri;)V
+
+    .line 83
+    :cond_5
+    const/4 p0, 0x0
+
+    .line 84
+    return p0
+
+    .line 85
+    .line 86
+    :cond_6
+    :goto_0
+    iget-object v0, p0, Lbmwc;->i:Lbnbb;
+
+    .line 87
+    .line 88
+    iget-object v0, v0, Lbnbb;->b:Ljava/lang/Object;
+
+    .line 89
+    .line 90
+    check-cast v0, Lbrbm;
+
+    .line 91
+    .line 92
+    const/16 v2, 0x2a
+
+    .line 93
+    .line 94
+    .line 95
+    invoke-virtual {v0, v2}, Lbrbm;->l(I)V
+
+    .line 96
+    .line 97
+    iget-object v0, p0, Lbmwc;->p:Lbmvl;
+
+    .line 98
+    .line 99
+    .line 100
+    invoke-virtual {p0}, Lbmvx;->i()Ljava/lang/String;
+
+    .line 101
+    move-result-object v2
+
+    .line 102
+    .line 103
+    iget-object p0, p0, Lbmwc;->z:Lbnbb;
+
+    .line 104
+    .line 105
+    .line 106
+    invoke-virtual {v0, v2}, Lbmvl;->d(Ljava/lang/String;)Lbmvo;
+
+    .line 107
+    move-result-object v2
+
+    .line 108
+    .line 109
+    if-nez v2, :cond_7
+
+    .line 110
+    goto :goto_2
+
+    .line 111
+    .line 112
+    :cond_7
+    sget-object v3, Lbmvl;->b:Ljava/lang/Object;
+
+    .line 113
+    monitor-enter v3
+
+    .line 114
+    .line 115
+    .line 116
+    :try_start_0
+    invoke-virtual {v0}, Lbmvl;->c()Landroid/database/sqlite/SQLiteDatabase;
+
+    .line 117
+    move-result-object v0
+
+    .line 118
+    .line 119
+    if-nez v0, :cond_8
+
+    .line 120
+    monitor-exit v3
+
+    .line 121
+    goto :goto_1
+
+    .line 122
+    .line 123
+    :cond_8
+    const-string v4, "upload_tasks"
+
+    .line 124
+    .line 125
+    const-string v5, "gpu_media_id = ?"
+
+    .line 126
+    .line 127
+    iget-object v6, v2, Lbmvo;->a:Ljava/lang/String;
+
+    .line 128
+    .line 129
+    .line 130
+    filled-new-array {v6}, [Ljava/lang/String;
+
+    .line 131
+    move-result-object v6
+
+    .line 132
+    .line 133
+    .line 134
+    invoke-virtual {v0, v4, v5, v6}, Landroid/database/sqlite/SQLiteDatabase;->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
+
+    .line 135
+    monitor-exit v3
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 136
+    .line 137
+    :goto_1
+    iget-object v0, v2, Lbmvo;->v:Ljava/lang/String;
+
+    .line 138
+    .line 139
+    if-eqz p0, :cond_9
+
+    .line 140
+    .line 141
+    if-eqz v0, :cond_9
+
+    .line 142
+    .line 143
+    .line 144
+    invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    .line 145
+    move-result-object p0
+
+    .line 146
+    .line 147
+    .line 148
+    invoke-static {p0}, Lbnbb;->e(Landroid/net/Uri;)V
+
+    .line 149
+    :cond_9
+    :goto_2
+    return v1
+
+    .line 150
+    :catchall_0
+    move-exception p0
+
+    .line 151
+    :try_start_1
+    monitor-exit v3
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 152
+    throw p0
+.end method
+
+
+# virtual methods
+.method public final synthetic a()Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-object p0, p0, Lbmwc;->l:Lbmty;
+
+    .line 3
+    return-object p0
+.end method
+
+.method protected final b()Lcmvf;
+    .locals 4
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-super {p0}, Lbmvx;->b()Lcmvf;
+
+    .line 4
+    move-result-object v0
+
+    .line 5
+    .line 6
+    iget-object v1, p0, Lbmwc;->k:Landroid/net/Uri;
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-virtual {v1}, Landroid/net/Uri;->toString()Ljava/lang/String;
+
+    .line 10
+    move-result-object v1
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-virtual {v0}, Lcmvf;->copyOnWrite()V
+
+    .line 14
+    .line 15
+    iget-object v2, v0, Lcmvf;->instance:Lcmvn;
+
+    .line 16
+    .line 17
+    check-cast v2, Lbmuc;
+
+    .line 18
+    .line 19
+    sget-object v3, Lbmuc;->a:Lbmuc;
+
+    .line 20
+    .line 21
+    .line 22
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 23
+    .line 24
+    iget v3, v2, Lbmuc;->b:I
+
+    .line 25
+    .line 26
+    or-int/lit8 v3, v3, 0x2
+
+    .line 27
+    .line 28
+    iput v3, v2, Lbmuc;->b:I
+
+    .line 29
+    .line 30
+    iput-object v1, v2, Lbmuc;->d:Ljava/lang/String;
+
+    .line 31
+    .line 32
+    .line 33
+    invoke-virtual {v0}, Lcmvf;->copyOnWrite()V
+
+    .line 34
+    .line 35
+    iget-object v1, v0, Lcmvf;->instance:Lcmvn;
+
+    .line 36
+    .line 37
+    check-cast v1, Lbmuc;
+
+    .line 38
+    .line 39
+    iget-object p0, p0, Lbmwc;->l:Lbmty;
+
+    .line 40
+    .line 41
+    .line 42
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 43
+    .line 44
+    iput-object p0, v1, Lbmuc;->e:Lbmty;
+
+    .line 45
+    .line 46
+    iget p0, v1, Lbmuc;->b:I
+
+    .line 47
+    .line 48
+    or-int/lit8 p0, p0, 0x4
+
+    .line 49
+    .line 50
+    iput p0, v1, Lbmuc;->b:I
+
+    .line 51
+    return-object v0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 3
+
+    .line 1
+    .line 2
+    instance-of v0, p1, Lbmwc;
+
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    check-cast p1, Lbmwc;
+
+    .line 8
+    .line 9
+    if-eqz p1, :cond_0
+
+    .line 10
+    .line 11
+    iget-object v0, p0, Lbmwc;->k:Landroid/net/Uri;
+
+    .line 12
+    .line 13
+    iget-object v2, p1, Lbmwc;->k:Landroid/net/Uri;
+
+    .line 14
+    .line 15
+    .line 16
+    invoke-virtual {v0, v2}, Landroid/net/Uri;->equals(Ljava/lang/Object;)Z
+
+    .line 17
+    move-result v0
+
+    .line 18
+    .line 19
+    if-eqz v0, :cond_0
+
+    .line 20
+    .line 21
+    iget-object p0, p0, Lbmwc;->l:Lbmty;
+
+    .line 22
+    .line 23
+    iget-object p1, p1, Lbmwc;->l:Lbmty;
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-virtual {p0, p1}, Lcmvn;->equals(Ljava/lang/Object;)Z
+
+    .line 27
+    move-result p0
+
+    .line 28
+    .line 29
+    if-eqz p0, :cond_0
+
+    .line 30
+    const/4 p0, 0x1
+
+    .line 31
+    return p0
+
+    .line 32
+    :cond_0
+    return v1
+.end method
+
+.method protected final g()Lbwko;
+    .locals 2
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-super {p0}, Lbmvx;->g()Lbwko;
+
+    .line 4
+    move-result-object v0
+
+    .line 5
+    .line 6
+    const-string v1, "PhotoUri"
+
+    .line 7
+    .line 8
+    iget-object p0, p0, Lbmwc;->k:Landroid/net/Uri;
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-virtual {v0, v1, p0}, Lbwko;->b(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 12
+    return-object v0
+.end method
+
+.method public final hashCode()I
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-object p0, p0, Lbmwc;->k:Landroid/net/Uri;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-virtual {p0}, Landroid/net/Uri;->hashCode()I
+
+    .line 6
+    move-result p0
+
+    .line 7
+    return p0
+.end method
+
+.method protected final n()V
+    .locals 6
+
+    .line 1
+    .line 2
+    iget-boolean v0, p0, Lbmwc;->o:Z
+
+    .line 3
+    .line 4
+    if-nez v0, :cond_1
+
+    .line 5
+    .line 6
+    iget-object v0, p0, Lbmwc;->p:Lbmvl;
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Lbmvx;->i()Ljava/lang/String;
+
+    .line 10
+    move-result-object v1
+
+    .line 11
+    .line 12
+    iget-object v2, p0, Lbmwc;->w:Lbmvo;
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 16
+    .line 17
+    iget v2, v2, Lbmvo;->A:I
+
+    .line 18
+    .line 19
+    sget-object v3, Lbmvl;->b:Ljava/lang/Object;
+
+    .line 20
+    monitor-enter v3
+
+    .line 21
+    .line 22
+    .line 23
+    :try_start_0
+    invoke-virtual {v0}, Lbmvl;->c()Landroid/database/sqlite/SQLiteDatabase;
+
+    .line 24
+    move-result-object v0
+
+    .line 25
+    .line 26
+    if-nez v0, :cond_0
+
+    .line 27
+    monitor-exit v3
+
+    .line 28
+    goto :goto_0
+
+    .line 29
+    .line 30
+    :cond_0
+    new-instance v4, Landroid/content/ContentValues;
+
+    .line 31
+    .line 32
+    .line 33
+    invoke-direct {v4}, Landroid/content/ContentValues;-><init>()V
+
+    .line 34
+    .line 35
+    const-string v5, "attempt_count"
+
+    .line 36
+    .line 37
+    .line 38
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 39
+    move-result-object v2
+
+    .line 40
+    .line 41
+    .line 42
+    invoke-virtual {v4, v5, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+
+    .line 43
+    .line 44
+    const-string v2, "upload_tasks"
+
+    .line 45
+    .line 46
+    const-string v5, "gpu_media_id = ?"
+
+    .line 47
+    .line 48
+    .line 49
+    filled-new-array {v1}, [Ljava/lang/String;
+
+    .line 50
+    move-result-object v1
+
+    .line 51
+    .line 52
+    .line 53
+    invoke-virtual {v0, v2, v4, v5, v1}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+
+    .line 54
+    monitor-exit v3
+
+    .line 55
+    goto :goto_0
+
+    .line 56
+    :catchall_0
+    move-exception p0
+
+    .line 57
+    monitor-exit v3
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 58
+    throw p0
+
+    .line 59
+    .line 60
+    :cond_1
+    :goto_0
+    iget-boolean v0, p0, Lbmwc;->o:Z
+
+    .line 61
+    .line 62
+    if-eqz v0, :cond_2
+
+    .line 63
+    .line 64
+    .line 65
+    invoke-super {p0}, Lbmvx;->n()V
+
+    .line 66
+    return-void
+
+    .line 67
+    .line 68
+    :cond_2
+    iget-object v0, p0, Lbmwc;->i:Lbnbb;
+
+    .line 69
+    .line 70
+    iget-object v1, p0, Lbmwc;->y:Lbmvy;
+
+    .line 71
+    .line 72
+    if-eqz v1, :cond_3
+
+    .line 73
+    .line 74
+    .line 75
+    invoke-virtual {v1}, Lbmvy;->a()J
+
+    .line 76
+    move-result-wide v1
+
+    .line 77
+    goto :goto_1
+
+    .line 78
+    .line 79
+    :cond_3
+    const-wide/16 v1, 0x0
+
+    .line 80
+    .line 81
+    .line 82
+    :goto_1
+    invoke-virtual {v0, v1, v2}, Lbnbb;->l(J)V
+
+    .line 83
+    .line 84
+    new-instance v0, Lbmwf;
+
+    .line 85
+    .line 86
+    sget-object v1, Lbmua;->g:Lbmua;
+
+    .line 87
+    const/4 v2, 0x0
+
+    .line 88
+    const/4 v3, 0x0
+
+    .line 89
+    .line 90
+    .line 91
+    invoke-direct {v0, v1, v3, v3, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 92
+    .line 93
+    iget-object v2, p0, Lbmwc;->p:Lbmvl;
+
+    .line 94
+    .line 95
+    .line 96
+    invoke-virtual {p0}, Lbmvx;->i()Ljava/lang/String;
+
+    .line 97
+    move-result-object v3
+
+    .line 98
+    .line 99
+    .line 100
+    invoke-virtual {v0}, Lbmwf;->a()Lbmud;
+
+    .line 101
+    move-result-object v4
+
+    .line 102
+    .line 103
+    .line 104
+    invoke-virtual {v2, v3, v1, v4}, Lbmvl;->i(Ljava/lang/String;Lbmua;Lbmud;)V
+
+    .line 105
+    .line 106
+    .line 107
+    invoke-direct {p0, v0}, Lbmwc;->s(Lbmwf;)V
+
+    .line 108
+    .line 109
+    .line 110
+    invoke-direct {p0, v1}, Lbmwc;->t(Lbmua;)V
+
+    .line 111
+    return-void
+.end method
+
+.method protected final o(Lbmwf;)V
+    .locals 5
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lbmwc;->q()Z
+
+    .line 4
+    move-result v0
+
+    .line 5
+    .line 6
+    if-eqz v0, :cond_0
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Lbmvx;->n()V
+
+    .line 10
+    return-void
+
+    .line 11
+    .line 12
+    :cond_0
+    sget-object v0, Lbmwc;->r:Lbxfh;
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {v0}, Lbxex;->b()Lbxfv;
+
+    .line 16
+    move-result-object v0
+
+    .line 17
+    .line 18
+    const-string v1, "Upload failed."
+
+    .line 19
+    .line 20
+    const/16 v2, 0x2f32
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-static {v0, v1, v2, p1}, La;->dd(Lbxfv;Ljava/lang/String;CLjava/lang/Throwable;)V
+
+    .line 24
+    .line 25
+    iget-object v0, p1, Lbmwf;->a:Lbmua;
+
+    .line 26
+    .line 27
+    sget-object v1, Lbmua;->f:Lbmua;
+
+    .line 28
+    .line 29
+    if-ne v0, v1, :cond_3
+
+    .line 30
+    .line 31
+    .line 32
+    invoke-direct {p0}, Lbmwc;->v()Z
+
+    .line 33
+    move-result v2
+
+    .line 34
+    .line 35
+    if-nez v2, :cond_1
+
+    .line 36
+    .line 37
+    iget-object v2, p0, Lbmwc;->p:Lbmvl;
+
+    .line 38
+    .line 39
+    .line 40
+    invoke-virtual {p0}, Lbmvx;->i()Ljava/lang/String;
+
+    .line 41
+    move-result-object v3
+
+    .line 42
+    .line 43
+    .line 44
+    invoke-virtual {p1}, Lbmwf;->a()Lbmud;
+
+    .line 45
+    move-result-object v4
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-virtual {v2, v3, v1, v4}, Lbmvl;->i(Ljava/lang/String;Lbmua;Lbmud;)V
+
+    .line 49
+    .line 50
+    :cond_1
+    iget-object v1, p0, Lbmwc;->f:Lbmvz;
+
+    .line 51
+    .line 52
+    .line 53
+    invoke-interface {v1}, Lbmvz;->a()Lbmvi;
+
+    .line 54
+    move-result-object v1
+
+    .line 55
+    .line 56
+    iget v1, v1, Lbmvi;->j:I
+
+    .line 57
+    .line 58
+    iget-object v2, p0, Lbmwc;->w:Lbmvo;
+
+    .line 59
+    .line 60
+    .line 61
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 62
+    .line 63
+    iget v2, v2, Lbmvo;->A:I
+
+    .line 64
+    .line 65
+    if-gt v1, v2, :cond_2
+
+    .line 66
+    .line 67
+    iget-object v1, p0, Lbmwc;->i:Lbnbb;
+
+    .line 68
+    .line 69
+    iget-object v1, v1, Lbnbb;->b:Ljava/lang/Object;
+
+    .line 70
+    .line 71
+    check-cast v1, Lbrbm;
+
+    .line 72
+    .line 73
+    const/16 v2, 0x2f
+
+    .line 74
+    .line 75
+    .line 76
+    invoke-virtual {v1, v2}, Lbrbm;->l(I)V
+
+    .line 77
+    goto :goto_0
+
+    .line 78
+    .line 79
+    :cond_2
+    iget-object v1, p0, Lbmwc;->i:Lbnbb;
+
+    .line 80
+    .line 81
+    .line 82
+    invoke-virtual {v1}, Lbnbb;->n()V
+
+    .line 83
+    goto :goto_0
+
+    .line 84
+    .line 85
+    :cond_3
+    iget-object v1, p0, Lbmwc;->p:Lbmvl;
+
+    .line 86
+    .line 87
+    .line 88
+    invoke-virtual {p0}, Lbmvx;->i()Ljava/lang/String;
+
+    .line 89
+    move-result-object v2
+
+    .line 90
+    .line 91
+    sget-object v3, Lbmua;->g:Lbmua;
+
+    .line 92
+    .line 93
+    .line 94
+    invoke-virtual {p1}, Lbmwf;->a()Lbmud;
+
+    .line 95
+    move-result-object v4
+
+    .line 96
+    .line 97
+    .line 98
+    invoke-virtual {v1, v2, v3, v4}, Lbmvl;->i(Ljava/lang/String;Lbmua;Lbmud;)V
+
+    .line 99
+    .line 100
+    .line 101
+    :goto_0
+    invoke-direct {p0, p1}, Lbmwc;->s(Lbmwf;)V
+
+    .line 102
+    .line 103
+    .line 104
+    invoke-direct {p0, v0}, Lbmwc;->t(Lbmua;)V
+
+    .line 105
+    return-void
+.end method
+
+.method public final declared-synchronized p(Z)V
+    .locals 10
+
+    .line 1
+    monitor-enter p0
+
+    .line 2
+    .line 3
+    :try_start_0
+    iget v0, p0, Lbmwc;->h:I
+
+    .line 4
+    .line 5
+    iget-boolean v1, p0, Lbmwc;->x:Z
+
+    .line 6
+    const/4 v2, 0x0
+
+    .line 7
+    const/4 v3, 0x1
+
+    .line 8
+    .line 9
+    if-ne v0, v3, :cond_0
+
+    .line 10
+    move v4, v3
+
+    .line 11
+    goto :goto_0
+
+    .line 12
+    :cond_0
+    move v4, v2
+
+    .line 13
+    :goto_0
+    const/4 v5, 0x0
+
+    .line 14
+    .line 15
+    if-eqz v1, :cond_4
+
+    .line 16
+    .line 17
+    iput-boolean p1, p0, Lbmwc;->o:Z
+
+    .line 18
+    .line 19
+    add-int/lit8 v1, v0, -0x1
+
+    .line 20
+    .line 21
+    if-eqz v0, :cond_3
+
+    .line 22
+    const/4 v0, 0x3
+
+    .line 23
+    .line 24
+    if-eqz v1, :cond_2
+
+    .line 25
+    .line 26
+    if-eq v1, v3, :cond_1
+
+    .line 27
+    goto :goto_1
+
+    .line 28
+    .line 29
+    :cond_1
+    iput v0, p0, Lbmwc;->h:I
+
+    .line 30
+    .line 31
+    iget-object v0, p0, Lbmwc;->i:Lbnbb;
+
+    .line 32
+    .line 33
+    iget-object v0, v0, Lbnbb;->b:Ljava/lang/Object;
+
+    .line 34
+    .line 35
+    check-cast v0, Lbrbm;
+
+    .line 36
+    .line 37
+    const/16 v1, 0x30
+
+    .line 38
+    .line 39
+    .line 40
+    invoke-virtual {v0, v1}, Lbrbm;->l(I)V
+
+    .line 41
+    goto :goto_1
+
+    .line 42
+    .line 43
+    :cond_2
+    iput v0, p0, Lbmwc;->h:I
+
+    .line 44
+    .line 45
+    iget-object v0, p0, Lbmwc;->i:Lbnbb;
+
+    .line 46
+    .line 47
+    iget-object v0, v0, Lbnbb;->b:Ljava/lang/Object;
+
+    .line 48
+    .line 49
+    check-cast v0, Lbrbm;
+
+    .line 50
+    .line 51
+    const/16 v1, 0x33
+
+    .line 52
+    .line 53
+    .line 54
+    invoke-virtual {v0, v1}, Lbrbm;->l(I)V
+
+    .line 55
+    .line 56
+    :goto_1
+    iget-object v0, p0, Lbmwc;->n:Lbmvf;
+
+    .line 57
+    .line 58
+    if-eqz v0, :cond_4
+
+    .line 59
+    .line 60
+    if-nez v4, :cond_4
+
+    .line 61
+    .line 62
+    .line 63
+    invoke-virtual {v0}, Lbmvf;->b()V
+
+    .line 64
+    goto :goto_2
+
+    .line 65
+    :cond_3
+    throw v5
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_1
+
+    .line 66
+    .line 67
+    :cond_4
+    :goto_2
+    :try_start_1
+    iget-object v0, p0, Lbmwc;->v:Lbvrp;
+
+    .line 68
+    .line 69
+    if-eqz v0, :cond_5
+
+    .line 70
+    .line 71
+    if-nez v4, :cond_5
+
+    .line 72
+    .line 73
+    iget-object v0, v0, Lbvrp;->b:Ljava/io/InputStream;
+
+    .line 74
+    .line 75
+    .line 76
+    invoke-virtual {v0}, Ljava/io/InputStream;->close()V
+    :try_end_1
+    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
+    .line 77
+    goto :goto_3
+
+    .line 78
+    :catch_0
+    move-exception v0
+
+    .line 79
+    .line 80
+    :try_start_2
+    sget-object v1, Lbmwc;->r:Lbxfh;
+
+    .line 81
+    .line 82
+    .line 83
+    invoke-virtual {v1}, Lbxex;->b()Lbxfv;
+
+    .line 84
+    move-result-object v1
+
+    .line 85
+    .line 86
+    const-string v6, "File is not accessible."
+
+    .line 87
+    .line 88
+    const/16 v7, 0x2f22
+
+    .line 89
+    .line 90
+    .line 91
+    invoke-static {v1, v6, v7, v0}, La;->dd(Lbxfv;Ljava/lang/String;CLjava/lang/Throwable;)V
+
+    .line 92
+    .line 93
+    :cond_5
+    :goto_3
+    iget-boolean v0, p0, Lbmwc;->x:Z
+
+    .line 94
+    .line 95
+    if-eqz v0, :cond_8
+
+    .line 96
+    .line 97
+    if-eqz p1, :cond_7
+
+    .line 98
+    .line 99
+    .line 100
+    invoke-direct {p0}, Lbmwc;->v()Z
+
+    .line 101
+    move-result p1
+
+    .line 102
+    .line 103
+    if-nez p1, :cond_7
+
+    .line 104
+    .line 105
+    iget-object p1, p0, Lbmwc;->p:Lbmvl;
+
+    .line 106
+    .line 107
+    .line 108
+    invoke-virtual {p0}, Lbmvx;->i()Ljava/lang/String;
+
+    .line 109
+    move-result-object v0
+
+    .line 110
+    .line 111
+    sget-object v1, Lbmua;->h:Lbmua;
+
+    .line 112
+    .line 113
+    sget-object v6, Lbmvl;->b:Ljava/lang/Object;
+
+    .line 114
+    monitor-enter v6
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_1
+
+    .line 115
+    .line 116
+    .line 117
+    :try_start_3
+    invoke-virtual {p1}, Lbmvl;->c()Landroid/database/sqlite/SQLiteDatabase;
+
+    .line 118
+    move-result-object p1
+
+    .line 119
+    .line 120
+    if-nez p1, :cond_6
+
+    .line 121
+    .line 122
+    sget-object p1, Lbmvl;->a:Lbxfh;
+
+    .line 123
+    .line 124
+    .line 125
+    invoke-virtual {p1}, Lbxex;->b()Lbxfv;
+
+    .line 126
+    move-result-object p1
+
+    .line 127
+    .line 128
+    check-cast p1, Lbxfe;
+
+    .line 129
+    .line 130
+    const/16 v0, 0x2f17
+
+    .line 131
+    .line 132
+    .line 133
+    invoke-interface {p1, v0}, Lbxfe;->L(I)Lbxfv;
+
+    .line 134
+    move-result-object p1
+
+    .line 135
+    .line 136
+    check-cast p1, Lbxfe;
+
+    .line 137
+    .line 138
+    const-string v0, "This should never happen. DB cannot be empty."
+
+    .line 139
+    .line 140
+    .line 141
+    invoke-interface {p1, v0}, Lbxfe;->s(Ljava/lang/String;)V
+
+    .line 142
+    monitor-exit v6
+
+    .line 143
+    goto :goto_4
+
+    .line 144
+    .line 145
+    :cond_6
+    new-instance v7, Landroid/content/ContentValues;
+
+    .line 146
+    .line 147
+    .line 148
+    invoke-direct {v7}, Landroid/content/ContentValues;-><init>()V
+
+    .line 149
+    .line 150
+    const-string v8, "upload_status"
+
+    .line 151
+    .line 152
+    iget v1, v1, Lbmua;->l:I
+
+    .line 153
+    .line 154
+    .line 155
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 156
+    move-result-object v1
+
+    .line 157
+    .line 158
+    .line 159
+    invoke-virtual {v7, v8, v1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+
+    .line 160
+    .line 161
+    const-string v1, "completion_time"
+
+    .line 162
+    .line 163
+    new-instance v8, Ljava/util/Date;
+
+    .line 164
+    .line 165
+    .line 166
+    invoke-direct {v8}, Ljava/util/Date;-><init>()V
+
+    .line 167
+    .line 168
+    .line 169
+    invoke-virtual {v8}, Ljava/util/Date;->getTime()J
+
+    .line 170
+    move-result-wide v8
+
+    .line 171
+    .line 172
+    .line 173
+    invoke-static {v8, v9}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 174
+    move-result-object v8
+
+    .line 175
+    .line 176
+    .line 177
+    invoke-virtual {v7, v1, v8}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
+
+    .line 178
+    .line 179
+    const-string v1, "upload_tasks"
+
+    .line 180
+    .line 181
+    const-string v8, "gpu_media_id = ?"
+
+    .line 182
+    .line 183
+    .line 184
+    filled-new-array {v0}, [Ljava/lang/String;
+
+    .line 185
+    move-result-object v0
+
+    .line 186
+    .line 187
+    .line 188
+    invoke-virtual {p1, v1, v7, v8, v0}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+
+    .line 189
+    monitor-exit v6
+
+    .line 190
+    goto :goto_4
+
+    .line 191
+    :catchall_0
+    move-exception p1
+
+    .line 192
+    monitor-exit v6
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_0
+
+    .line 193
+    :try_start_4
+    throw p1
+
+    .line 194
+    .line 195
+    :cond_7
+    :goto_4
+    iput-boolean v2, p0, Lbmwc;->x:Z
+
+    .line 196
+    .line 197
+    :cond_8
+    if-eqz v4, :cond_a
+
+    .line 198
+    .line 199
+    iget-boolean p1, p0, Lbmwc;->o:Z
+
+    .line 200
+    .line 201
+    if-eqz p1, :cond_9
+
+    .line 202
+    .line 203
+    iget-object p1, p0, Lbmwc;->i:Lbnbb;
+
+    .line 204
+    .line 205
+    .line 206
+    invoke-virtual {p1, v3}, Lbnbb;->f(Z)V
+
+    .line 207
+    .line 208
+    sget-object p1, Lbmua;->h:Lbmua;
+
+    .line 209
+    .line 210
+    .line 211
+    invoke-virtual {p0, p1}, Lbmvx;->e(Lbmua;)Lbmuc;
+
+    .line 212
+    move-result-object p1
+
+    .line 213
+    .line 214
+    .line 215
+    invoke-virtual {p0, p1}, Lbmvx;->k(Lbmuc;)V
+    :try_end_4
+    .catchall {:try_start_4 .. :try_end_4} :catchall_1
+
+    .line 216
+    monitor-exit p0
+
+    .line 217
+    return-void
+
+    .line 218
+    .line 219
+    :cond_9
+    :try_start_5
+    iget-object p1, p0, Lbmwc;->i:Lbnbb;
+
+    .line 220
+    .line 221
+    const-wide/16 v0, 0x0
+
+    .line 222
+    .line 223
+    .line 224
+    invoke-virtual {p1, v0, v1}, Lbnbb;->l(J)V
+
+    .line 225
+    .line 226
+    new-instance p1, Lbmwf;
+
+    .line 227
+    .line 228
+    sget-object v0, Lbmua;->g:Lbmua;
+
+    .line 229
+    .line 230
+    .line 231
+    invoke-direct {p1, v0, v5, v5, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 232
+    .line 233
+    iget-object v1, p0, Lbmwc;->p:Lbmvl;
+
+    .line 234
+    .line 235
+    .line 236
+    invoke-virtual {p0}, Lbmvx;->i()Ljava/lang/String;
+
+    .line 237
+    move-result-object v2
+
+    .line 238
+    .line 239
+    .line 240
+    invoke-virtual {p1}, Lbmwf;->a()Lbmud;
+
+    .line 241
+    move-result-object v3
+
+    .line 242
+    .line 243
+    .line 244
+    invoke-virtual {v1, v2, v0, v3}, Lbmvl;->i(Ljava/lang/String;Lbmua;Lbmud;)V
+
+    .line 245
+    .line 246
+    .line 247
+    invoke-direct {p0, p1}, Lbmwc;->s(Lbmwf;)V
+    :try_end_5
+    .catchall {:try_start_5 .. :try_end_5} :catchall_1
+
+    .line 248
+    monitor-exit p0
+
+    .line 249
+    return-void
+
+    .line 250
+    :cond_a
+    monitor-exit p0
+
+    .line 251
+    return-void
+
+    .line 252
+    :catchall_1
+    move-exception p1
+
+    .line 253
+    :try_start_6
+    monitor-exit p0
+    :try_end_6
+    .catchall {:try_start_6 .. :try_end_6} :catchall_1
+
+    .line 254
+    throw p1
+.end method
+
+.method public final q()Z
+    .locals 1
+
+    .line 1
+    .line 2
+    iget p0, p0, Lbmwc;->h:I
+
+    .line 3
+    const/4 v0, 0x3
+
+    .line 4
+    .line 5
+    if-ne p0, v0, :cond_0
+
+    .line 6
+    const/4 p0, 0x1
+
+    .line 7
+    return p0
+
+    .line 8
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 9
+    return p0
+.end method
+
+.method public final run()V
+    .locals 17
+
+    .line 1
+    .line 2
+    move-object/from16 v1, p0
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-virtual {v1}, Lbmwc;->q()Z
+
+    .line 6
+    move-result v0
+
+    .line 7
+    .line 8
+    if-eqz v0, :cond_0
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-virtual {v1}, Lbmvx;->n()V
+
+    .line 12
+    return-void
+
+    .line 13
+    .line 14
+    :cond_0
+    iget-object v0, v1, Lbmwc;->j:Lbelp;
+
+    .line 15
+    const/4 v2, 0x0
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-virtual {v0, v2}, Lbelp;->J(Z)Z
+
+    .line 19
+    move-result v0
+
+    .line 20
+    .line 21
+    const-wide/16 v3, 0x0
+
+    .line 22
+    const/4 v5, 0x0
+
+    .line 23
+    .line 24
+    if-nez v0, :cond_1
+
+    .line 25
+    .line 26
+    iget-object v0, v1, Lbmwc;->i:Lbnbb;
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-virtual {v0, v3, v4}, Lbnbb;->l(J)V
+
+    .line 30
+    .line 31
+    new-instance v0, Lbmwf;
+
+    .line 32
+    .line 33
+    sget-object v3, Lbmua;->g:Lbmua;
+
+    .line 34
+    .line 35
+    sget-object v4, Lcckn;->e:Lcckn;
+
+    .line 36
+    .line 37
+    .line 38
+    invoke-direct {v0, v3, v4, v5, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 39
+    .line 40
+    .line 41
+    invoke-virtual {v1, v0}, Lbmvx;->o(Lbmwf;)V
+
+    .line 42
+    .line 43
+    iget-object v0, v1, Lbmwc;->f:Lbmvz;
+
+    .line 44
+    .line 45
+    .line 46
+    invoke-interface {v0}, Lbmvz;->b()V
+
+    .line 47
+    return-void
+
+    .line 48
+    .line 49
+    :cond_1
+    iget-object v0, v1, Lbmwc;->p:Lbmvl;
+
+    .line 50
+    .line 51
+    iget-object v6, v1, Lbmwc;->a:Lbmvt;
+
+    .line 52
+    .line 53
+    iget-object v6, v6, Lbmvt;->a:Ljava/lang/String;
+
+    .line 54
+    .line 55
+    .line 56
+    invoke-virtual {v0, v6}, Lbmvl;->d(Ljava/lang/String;)Lbmvo;
+
+    .line 57
+    move-result-object v6
+
+    .line 58
+    .line 59
+    iput-object v6, v1, Lbmwc;->w:Lbmvo;
+
+    .line 60
+    .line 61
+    if-nez v6, :cond_2
+
+    .line 62
+    .line 63
+    iget-object v0, v1, Lbmwc;->i:Lbnbb;
+
+    .line 64
+    .line 65
+    .line 66
+    invoke-virtual {v0, v3, v4}, Lbnbb;->l(J)V
+
+    .line 67
+    .line 68
+    new-instance v0, Lbmwf;
+
+    .line 69
+    .line 70
+    sget-object v3, Lbmua;->g:Lbmua;
+
+    .line 71
+    .line 72
+    .line 73
+    invoke-direct {v0, v3, v5, v5, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 74
+    .line 75
+    .line 76
+    invoke-virtual {v1, v0}, Lbmvx;->o(Lbmwf;)V
+
+    .line 77
+    return-void
+
+    .line 78
+    .line 79
+    :cond_2
+    iget-object v7, v6, Lbmvo;->B:Ljava/lang/String;
+
+    .line 80
+    .line 81
+    iput-object v7, v1, Lbmwc;->m:Ljava/lang/String;
+
+    .line 82
+    .line 83
+    iget-object v7, v1, Lbmwc;->f:Lbmvz;
+
+    .line 84
+    .line 85
+    .line 86
+    invoke-interface {v7}, Lbmvz;->a()Lbmvi;
+
+    .line 87
+    move-result-object v8
+
+    .line 88
+    .line 89
+    iget v8, v8, Lbmvi;->j:I
+
+    .line 90
+    .line 91
+    iget v9, v6, Lbmvo;->A:I
+
+    .line 92
+    .line 93
+    if-le v8, v9, :cond_1c
+
+    .line 94
+    .line 95
+    iget-wide v10, v6, Lbmvo;->b:J
+
+    .line 96
+    .line 97
+    .line 98
+    invoke-interface {v7}, Lbmvz;->a()Lbmvi;
+
+    .line 99
+    move-result-object v7
+
+    .line 100
+    .line 101
+    iget v8, v7, Lbmvi;->w:I
+
+    .line 102
+    .line 103
+    if-gtz v8, :cond_3
+
+    .line 104
+    goto :goto_1
+
+    .line 105
+    .line 106
+    :cond_3
+    iget v8, v7, Lbmvi;->b:I
+
+    .line 107
+    .line 108
+    const/high16 v12, 0x200000
+
+    .line 109
+    and-int/2addr v8, v12
+
+    .line 110
+    .line 111
+    if-eqz v8, :cond_5
+
+    .line 112
+    .line 113
+    iget-object v8, v7, Lbmvi;->x:Lbmvk;
+
+    .line 114
+    .line 115
+    if-nez v8, :cond_4
+
+    .line 116
+    .line 117
+    sget-object v8, Lbmvk;->a:Lbmvk;
+
+    .line 118
+    .line 119
+    :cond_4
+    iget-boolean v8, v8, Lbmvk;->c:Z
+
+    .line 120
+    .line 121
+    if-eqz v8, :cond_5
+
+    .line 122
+    .line 123
+    iget v7, v7, Lbmvi;->w:I
+
+    .line 124
+    int-to-long v7, v7
+
+    .line 125
+    goto :goto_0
+
+    .line 126
+    .line 127
+    :cond_5
+    iget v7, v7, Lbmvi;->w:I
+
+    .line 128
+    int-to-long v7, v7
+
+    .line 129
+    .line 130
+    const-wide/16 v12, 0x12c
+
+    .line 131
+    .line 132
+    .line 133
+    invoke-static {v7, v8, v12, v13}, Ljava/lang/Math;->max(JJ)J
+
+    .line 134
+    move-result-wide v7
+
+    .line 135
+    .line 136
+    .line 137
+    :goto_0
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    .line 138
+    move-result-wide v12
+
+    .line 139
+    sub-long/2addr v12, v10
+
+    .line 140
+    .line 141
+    const-wide/16 v10, 0x3e8
+
+    .line 142
+    div-long/2addr v12, v10
+
+    .line 143
+    .line 144
+    cmp-long v7, v7, v12
+
+    .line 145
+    .line 146
+    if-gez v7, :cond_6
+
+    .line 147
+    .line 148
+    goto/16 :goto_b
+
+    .line 149
+    .line 150
+    .line 151
+    :cond_6
+    :goto_1
+    invoke-virtual {v1}, Lbmvx;->i()Ljava/lang/String;
+
+    .line 152
+    move-result-object v7
+
+    .line 153
+    const/4 v8, 0x1
+
+    .line 154
+    add-int/2addr v9, v8
+
+    .line 155
+    .line 156
+    sget-object v10, Lbmvl;->b:Ljava/lang/Object;
+
+    .line 157
+    monitor-enter v10
+
+    .line 158
+    .line 159
+    .line 160
+    :try_start_0
+    invoke-virtual {v0}, Lbmvl;->c()Landroid/database/sqlite/SQLiteDatabase;
+
+    .line 161
+    move-result-object v0
+
+    .line 162
+    .line 163
+    if-nez v0, :cond_7
+
+    .line 164
+    monitor-exit v10
+
+    .line 165
+    goto :goto_2
+
+    .line 166
+    .line 167
+    :cond_7
+    new-instance v11, Landroid/content/ContentValues;
+
+    .line 168
+    .line 169
+    .line 170
+    invoke-direct {v11}, Landroid/content/ContentValues;-><init>()V
+
+    .line 171
+    .line 172
+    const-string v12, "attempt_count"
+
+    .line 173
+    .line 174
+    .line 175
+    invoke-static {v9}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 176
+    move-result-object v9
+
+    .line 177
+    .line 178
+    .line 179
+    invoke-virtual {v11, v12, v9}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+
+    .line 180
+    .line 181
+    const-string v9, "upload_status"
+
+    .line 182
+    const/4 v12, 0x2
+
+    .line 183
+    .line 184
+    .line 185
+    invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 186
+    move-result-object v12
+
+    .line 187
+    .line 188
+    .line 189
+    invoke-virtual {v11, v9, v12}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+
+    .line 190
+    .line 191
+    const-string v9, "upload_tasks"
+
+    .line 192
+    .line 193
+    const-string v12, "gpu_media_id = ?"
+
+    .line 194
+    .line 195
+    .line 196
+    filled-new-array {v7}, [Ljava/lang/String;
+
+    .line 197
+    move-result-object v7
+
+    .line 198
+    .line 199
+    .line 200
+    invoke-virtual {v0, v9, v11, v12, v7}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+
+    .line 201
+    monitor-exit v10
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 202
+    .line 203
+    :goto_2
+    iget-object v0, v1, Lbmwc;->i:Lbnbb;
+
+    .line 204
+    .line 205
+    .line 206
+    invoke-virtual {v0}, Lbnbb;->r()V
+
+    .line 207
+    .line 208
+    .line 209
+    invoke-virtual {v1}, Lbmvx;->j()Ljava/lang/String;
+
+    .line 210
+    move-result-object v7
+
+    .line 211
+    .line 212
+    iput-object v7, v1, Lbmwc;->g:Ljava/lang/String;
+
+    .line 213
+    .line 214
+    iget-object v7, v1, Lbmwc;->g:Ljava/lang/String;
+
+    .line 215
+    .line 216
+    if-eqz v7, :cond_1b
+
+    .line 217
+    .line 218
+    iget-boolean v7, v6, Lbmvo;->s:Z
+
+    .line 219
+    .line 220
+    if-eqz v7, :cond_9
+
+    .line 221
+    .line 222
+    iget-object v7, v6, Lbmvo;->d:Ljava/lang/String;
+
+    .line 223
+    .line 224
+    if-nez v7, :cond_9
+
+    .line 225
+    .line 226
+    .line 227
+    :try_start_1
+    invoke-virtual {v0}, Lbnbb;->i()V
+
+    .line 228
+    .line 229
+    .line 230
+    invoke-direct {v1}, Lbmwc;->r()Lbvur;
+
+    .line 231
+    move-result-object v0
+
+    .line 232
+    .line 233
+    if-eqz v0, :cond_9
+
+    .line 234
+    .line 235
+    .line 236
+    invoke-direct {v1, v8, v0}, Lbmwc;->u(ZLbvur;)V
+    :try_end_1
+    .catch Lbmwf; {:try_start_1 .. :try_end_1} :catch_1
+    .catch Ljava/io/InterruptedIOException; {:try_start_1 .. :try_end_1} :catch_0
+
+    .line 237
+    return-void
+
+    .line 238
+    .line 239
+    .line 240
+    :catch_0
+    invoke-virtual {v1}, Lbmvx;->n()V
+
+    .line 241
+    return-void
+
+    .line 242
+    :catch_1
+    move-exception v0
+
+    .line 243
+    .line 244
+    .line 245
+    invoke-virtual {v0}, Lbmwf;->c()Z
+
+    .line 246
+    move-result v2
+
+    .line 247
+    .line 248
+    if-eqz v2, :cond_8
+
+    .line 249
+    .line 250
+    iget-object v2, v1, Lbmwc;->i:Lbnbb;
+
+    .line 251
+    .line 252
+    .line 253
+    invoke-virtual {v2, v3, v4}, Lbnbb;->l(J)V
+
+    .line 254
+    goto :goto_3
+
+    .line 255
+    .line 256
+    :cond_8
+    iget-object v2, v1, Lbmwc;->i:Lbnbb;
+
+    .line 257
+    .line 258
+    iget-object v3, v0, Lbmwf;->c:Lccks;
+
+    .line 259
+    .line 260
+    iget-object v4, v0, Lbmwf;->b:Lcckn;
+
+    .line 261
+    .line 262
+    .line 263
+    invoke-virtual {v2, v3, v4}, Lbnbb;->k(Lccks;Lcckn;)V
+
+    .line 264
+    .line 265
+    .line 266
+    :goto_3
+    invoke-virtual {v1, v0}, Lbmvx;->o(Lbmwf;)V
+
+    .line 267
+    return-void
+
+    .line 268
+    .line 269
+    :cond_9
+    iget-object v0, v1, Lbmwc;->j:Lbelp;
+
+    .line 270
+    .line 271
+    iget-object v7, v1, Lbmwc;->f:Lbmvz;
+
+    .line 272
+    .line 273
+    .line 274
+    invoke-interface {v7}, Lbmvz;->a()Lbmvi;
+
+    .line 275
+    move-result-object v9
+
+    .line 276
+    .line 277
+    iget-boolean v9, v9, Lbmvi;->f:Z
+
+    .line 278
+    .line 279
+    .line 280
+    invoke-virtual {v0, v9}, Lbelp;->J(Z)Z
+
+    .line 281
+    move-result v0
+
+    .line 282
+    .line 283
+    if-nez v0, :cond_a
+
+    .line 284
+    .line 285
+    iget-object v0, v1, Lbmwc;->i:Lbnbb;
+
+    .line 286
+    .line 287
+    .line 288
+    invoke-virtual {v0, v3, v4}, Lbnbb;->l(J)V
+
+    .line 289
+    .line 290
+    new-instance v0, Lbmwf;
+
+    .line 291
+    .line 292
+    sget-object v3, Lbmua;->g:Lbmua;
+
+    .line 293
+    .line 294
+    sget-object v4, Lcckn;->e:Lcckn;
+
+    .line 295
+    .line 296
+    .line 297
+    invoke-direct {v0, v3, v4, v5, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 298
+    .line 299
+    .line 300
+    invoke-virtual {v1, v0}, Lbmvx;->o(Lbmwf;)V
+
+    .line 301
+    .line 302
+    .line 303
+    invoke-interface {v7}, Lbmvz;->b()V
+
+    .line 304
+    return-void
+
+    .line 305
+    .line 306
+    :cond_a
+    iget-object v0, v1, Lbmwc;->k:Landroid/net/Uri;
+
+    .line 307
+    .line 308
+    .line 309
+    invoke-interface {v7}, Lbmvz;->a()Lbmvi;
+
+    .line 310
+    move-result-object v3
+
+    .line 311
+    .line 312
+    iget-boolean v3, v3, Lbmvi;->p:Z
+
+    .line 313
+    .line 314
+    if-eqz v3, :cond_b
+
+    .line 315
+    .line 316
+    iget-object v3, v6, Lbmvo;->v:Ljava/lang/String;
+
+    .line 317
+    .line 318
+    if-eqz v3, :cond_b
+
+    .line 319
+    .line 320
+    iget-object v0, v1, Lbmwc;->i:Lbnbb;
+
+    .line 321
+    .line 322
+    .line 323
+    invoke-static {v3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    .line 324
+    move-result-object v3
+
+    .line 325
+    .line 326
+    iget-object v0, v0, Lbnbb;->b:Ljava/lang/Object;
+
+    .line 327
+    .line 328
+    check-cast v0, Lbrbm;
+
+    .line 329
+    .line 330
+    const/16 v4, 0x37
+
+    .line 331
+    .line 332
+    .line 333
+    invoke-virtual {v0, v4}, Lbrbm;->l(I)V
+
+    .line 334
+    goto :goto_4
+
+    .line 335
+    :cond_b
+    move-object v3, v0
+
+    .line 336
+    .line 337
+    :goto_4
+    iget-object v0, v1, Lbmwc;->i:Lbnbb;
+
+    .line 338
+    .line 339
+    iget-object v0, v0, Lbnbb;->b:Ljava/lang/Object;
+
+    .line 340
+    .line 341
+    check-cast v0, Lbrbm;
+
+    .line 342
+    const/4 v4, 0x6
+
+    .line 343
+    .line 344
+    .line 345
+    invoke-virtual {v0, v4}, Lbrbm;->l(I)V
+
+    .line 346
+    .line 347
+    :try_start_2
+    iget-object v0, v1, Lbmwc;->t:Lbmwh;
+
+    .line 348
+    .line 349
+    new-instance v4, Lbvrp;
+
+    .line 350
+    .line 351
+    .line 352
+    invoke-direct {v4, v0, v3}, Lbvrp;-><init>(Lbmwh;Landroid/net/Uri;)V
+
+    .line 353
+    .line 354
+    iput-object v4, v1, Lbmwc;->v:Lbvrp;
+    :try_end_2
+    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_6
+    .catch Ljava/lang/SecurityException; {:try_start_2 .. :try_end_2} :catch_5
+
+    .line 355
+    .line 356
+    :try_start_3
+    iget-object v0, v4, Lbvrp;->b:Ljava/io/InputStream;
+
+    .line 357
+    .line 358
+    .line 359
+    invoke-virtual {v0}, Ljava/io/InputStream;->available()I
+
+    .line 360
+    move-result v0
+
+    .line 361
+    int-to-long v3, v0
+
+    .line 362
+    .line 363
+    new-instance v0, Lbmvy;
+
+    .line 364
+    .line 365
+    .line 366
+    invoke-direct {v0, v1, v3, v4}, Lbmvy;-><init>(Lbmwc;J)V
+
+    .line 367
+    .line 368
+    iput-object v0, v1, Lbmwc;->y:Lbmvy;
+
+    .line 369
+    .line 370
+    iget-object v0, v1, Lbmwc;->n:Lbmvf;
+
+    .line 371
+    .line 372
+    if-nez v0, :cond_c
+
+    .line 373
+    .line 374
+    new-instance v9, Lbmvf;
+
+    .line 375
+    .line 376
+    iget-object v0, v1, Lbmwc;->f:Lbmvz;
+
+    .line 377
+    .line 378
+    .line 379
+    invoke-interface {v0}, Lbmvz;->a()Lbmvi;
+
+    .line 380
+    move-result-object v10
+
+    .line 381
+    .line 382
+    iget-object v11, v1, Lbmwc;->i:Lbnbb;
+
+    .line 383
+    .line 384
+    iget-object v12, v1, Lbmwc;->u:Lcpiz;
+
+    .line 385
+    .line 386
+    iget-object v13, v1, Lbmwc;->g:Ljava/lang/String;
+
+    .line 387
+    .line 388
+    .line 389
+    invoke-virtual {v13}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 390
+    .line 391
+    iget-object v14, v1, Lbmwc;->v:Lbvrp;
+
+    .line 392
+    .line 393
+    .line 394
+    invoke-virtual {v14}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 395
+    .line 396
+    iget-object v15, v1, Lbmwc;->y:Lbmvy;
+
+    .line 397
+    .line 398
+    new-instance v0, Lbmwb;
+
+    .line 399
+    .line 400
+    .line 401
+    invoke-direct {v0, v1}, Lbmwb;-><init>(Lbmwc;)V
+
+    .line 402
+    .line 403
+    move-object/from16 v16, v0
+
+    .line 404
+    .line 405
+    .line 406
+    invoke-direct/range {v9 .. v16}, Lbmvf;-><init>(Lbmvi;Lbnbb;Lcpiz;Ljava/lang/String;Lbvrp;Ljava/util/function/Consumer;Ljava/util/function/Consumer;)V
+
+    .line 407
+    .line 408
+    iput-object v9, v1, Lbmwc;->n:Lbmvf;
+    :try_end_3
+    .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_4
+
+    .line 409
+    .line 410
+    :cond_c
+    :try_start_4
+    iget-object v0, v1, Lbmwc;->a:Lbmvt;
+
+    .line 411
+    .line 412
+    iget-object v3, v1, Lbmwc;->l:Lbmty;
+
+    .line 413
+    .line 414
+    iget v4, v1, Lbmwc;->q:I
+
+    .line 415
+    const/4 v6, 0x3
+
+    .line 416
+    .line 417
+    if-ne v4, v6, :cond_d
+
+    .line 418
+    goto :goto_5
+
+    .line 419
+    :cond_d
+    move v8, v2
+
+    .line 420
+    .line 421
+    .line 422
+    :goto_5
+    invoke-static {v0, v3, v8}, Lbilv;->d(Lbmvt;Lbmty;Z)Lbvur;
+
+    .line 423
+    move-result-object v3
+
+    .line 424
+    .line 425
+    .line 426
+    invoke-virtual {v1}, Lbmvx;->d()I
+
+    .line 427
+    move-result v4
+
+    .line 428
+    move v6, v2
+
+    .line 429
+    .line 430
+    :cond_e
+    if-lez v6, :cond_f
+
+    .line 431
+    .line 432
+    iget-object v0, v1, Lbmwc;->i:Lbnbb;
+
+    .line 433
+    .line 434
+    iget-object v7, v1, Lbmwc;->y:Lbmvy;
+
+    .line 435
+    .line 436
+    .line 437
+    invoke-virtual {v7}, Lbmvy;->a()J
+
+    .line 438
+    move-result-wide v7
+
+    .line 439
+    .line 440
+    iget-object v0, v0, Lbnbb;->b:Ljava/lang/Object;
+
+    .line 441
+    .line 442
+    .line 443
+    invoke-static {v7, v8}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 444
+    move-result-object v7
+
+    .line 445
+    move-object v8, v0
+
+    .line 446
+    .line 447
+    check-cast v8, Lbrbm;
+
+    .line 448
+    .line 449
+    iput-object v7, v8, Lbrbm;->m:Ljava/lang/Object;
+
+    .line 450
+    .line 451
+    check-cast v0, Lbrbm;
+
+    .line 452
+    .line 453
+    const/16 v7, 0x25
+
+    .line 454
+    .line 455
+    .line 456
+    invoke-virtual {v0, v7}, Lbrbm;->l(I)V
+
+    .line 457
+    .line 458
+    .line 459
+    :cond_f
+    invoke-virtual {v1}, Lbmwc;->q()Z
+
+    .line 460
+    move-result v0
+
+    .line 461
+    .line 462
+    if-nez v0, :cond_18
+
+    .line 463
+    .line 464
+    iget-object v0, v1, Lbmwc;->j:Lbelp;
+
+    .line 465
+    .line 466
+    iget-object v7, v1, Lbmwc;->f:Lbmvz;
+
+    .line 467
+    .line 468
+    .line 469
+    invoke-interface {v7}, Lbmvz;->a()Lbmvi;
+
+    .line 470
+    move-result-object v7
+
+    .line 471
+    .line 472
+    iget-boolean v7, v7, Lbmvi;->f:Z
+
+    .line 473
+    .line 474
+    .line 475
+    invoke-virtual {v0, v7}, Lbelp;->J(Z)Z
+
+    .line 476
+    move-result v0
+
+    .line 477
+    .line 478
+    if-nez v0, :cond_10
+
+    .line 479
+    .line 480
+    sget-object v0, Lcckn;->e:Lcckn;
+
+    .line 481
+    .line 482
+    .line 483
+    invoke-virtual {v1, v0, v5}, Lbmvx;->l(Lcckn;Ljava/lang/Exception;)V
+    :try_end_4
+    .catch Ljava/io/InterruptedIOException; {:try_start_4 .. :try_end_4} :catch_7
+
+    .line 484
+    .line 485
+    goto/16 :goto_7
+
+    .line 486
+    .line 487
+    :cond_10
+    :try_start_5
+    iget-object v0, v1, Lbmwc;->n:Lbmvf;
+
+    .line 488
+    .line 489
+    .line 490
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 491
+    .line 492
+    iget-object v7, v1, Lbmwc;->m:Ljava/lang/String;
+
+    .line 493
+    .line 494
+    .line 495
+    invoke-virtual {v0, v3, v7}, Lbmvf;->a(Lbvur;Ljava/lang/String;)Lbvur;
+
+    .line 496
+    move-result-object v0
+
+    .line 497
+    .line 498
+    iget-object v7, v0, Lbvur;->status:Ljava/lang/String;
+
+    .line 499
+    .line 500
+    if-nez v7, :cond_11
+
+    .line 501
+    .line 502
+    sget-object v0, Lcckn;->g:Lcckn;
+
+    .line 503
+    .line 504
+    .line 505
+    invoke-virtual {v1, v0, v5}, Lbmvx;->l(Lcckn;Ljava/lang/Exception;)V
+
+    .line 506
+    .line 507
+    new-instance v7, Lbmwf;
+
+    .line 508
+    .line 509
+    sget-object v8, Lbmua;->f:Lbmua;
+
+    .line 510
+    .line 511
+    .line 512
+    invoke-direct {v7, v8, v0, v5, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 513
+    .line 514
+    .line 515
+    invoke-virtual {v1, v7}, Lbmvx;->o(Lbmwf;)V
+
+    .line 516
+    .line 517
+    goto/16 :goto_a
+
+    .line 518
+    .line 519
+    .line 520
+    :cond_11
+    invoke-static {v7}, Lccks;->a(Ljava/lang/String;)Lccks;
+
+    .line 521
+    move-result-object v7
+
+    .line 522
+    .line 523
+    iget-object v8, v1, Lbmwc;->i:Lbnbb;
+
+    .line 524
+    .line 525
+    .line 526
+    invoke-virtual {v8, v7}, Lbnbb;->q(Lccks;)V
+
+    .line 527
+    .line 528
+    .line 529
+    invoke-virtual {v7}, Lccks;->ordinal()I
+
+    .line 530
+    move-result v8
+
+    .line 531
+    .line 532
+    if-eqz v8, :cond_13
+
+    .line 533
+    .line 534
+    const/16 v0, 0x20
+
+    .line 535
+    .line 536
+    if-eq v8, v0, :cond_12
+
+    .line 537
+    .line 538
+    const/16 v0, 0x9
+
+    .line 539
+    .line 540
+    if-eq v8, v0, :cond_12
+
+    .line 541
+    .line 542
+    const/16 v0, 0xa
+
+    .line 543
+    .line 544
+    if-eq v8, v0, :cond_12
+
+    .line 545
+    .line 546
+    .line 547
+    packed-switch v8, :pswitch_data_0
+
+    .line 548
+    goto :goto_7
+
+    .line 549
+    .line 550
+    :cond_12
+    :pswitch_0
+    new-instance v0, Lbmwf;
+
+    .line 551
+    .line 552
+    sget-object v8, Lbmua;->f:Lbmua;
+
+    .line 553
+    .line 554
+    .line 555
+    invoke-direct {v0, v8, v5, v7, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 556
+    .line 557
+    .line 558
+    invoke-virtual {v1, v0}, Lbmvx;->o(Lbmwf;)V
+
+    .line 559
+    .line 560
+    goto/16 :goto_a
+
+    .line 561
+    .line 562
+    .line 563
+    :cond_13
+    invoke-direct {v1, v2, v0}, Lbmwc;->u(ZLbvur;)V
+    :try_end_5
+    .catch Lbmwf; {:try_start_5 .. :try_end_5} :catch_2
+    .catch Ljava/io/InterruptedIOException; {:try_start_5 .. :try_end_5} :catch_7
+
+    .line 564
+    .line 565
+    goto/16 :goto_a
+
+    .line 566
+    :catch_2
+    move-exception v0
+
+    .line 567
+    .line 568
+    .line 569
+    :try_start_6
+    invoke-virtual {v0}, Lbmwf;->c()Z
+
+    .line 570
+    move-result v7
+
+    .line 571
+    .line 572
+    iget-boolean v8, v0, Lbmwf;->d:Z
+
+    .line 573
+    .line 574
+    if-eqz v8, :cond_15
+
+    .line 575
+    .line 576
+    .line 577
+    invoke-virtual {v1}, Lbmwc;->q()Z
+
+    .line 578
+    move-result v8
+
+    .line 579
+    .line 580
+    if-nez v8, :cond_14
+
+    .line 581
+    goto :goto_6
+
+    .line 582
+    .line 583
+    :cond_14
+    new-instance v0, Ljava/io/InterruptedIOException;
+
+    .line 584
+    .line 585
+    .line 586
+    invoke-direct {v0}, Ljava/io/InterruptedIOException;-><init>()V
+
+    .line 587
+    throw v0
+
+    .line 588
+    .line 589
+    :cond_15
+    :goto_6
+    iget-object v8, v0, Lbmwf;->b:Lcckn;
+
+    .line 590
+    .line 591
+    if-eqz v8, :cond_16
+
+    .line 592
+    .line 593
+    .line 594
+    invoke-virtual {v1, v8, v0}, Lbmvx;->l(Lcckn;Ljava/lang/Exception;)V
+
+    .line 595
+    .line 596
+    :cond_16
+    if-nez v7, :cond_17
+
+    .line 597
+    .line 598
+    .line 599
+    invoke-virtual {v1, v0}, Lbmvx;->o(Lbmwf;)V
+    :try_end_6
+    .catch Ljava/io/InterruptedIOException; {:try_start_6 .. :try_end_6} :catch_7
+
+    .line 600
+    .line 601
+    goto/16 :goto_a
+
+    .line 602
+    .line 603
+    .line 604
+    :cond_17
+    :goto_7
+    :try_start_7
+    invoke-virtual {v1, v6}, Lbmvx;->c(I)I
+
+    .line 605
+    move-result v0
+
+    .line 606
+    int-to-long v7, v0
+
+    .line 607
+    .line 608
+    .line 609
+    invoke-static {v7, v8}, Ljava/lang/Thread;->sleep(J)V
+    :try_end_7
+    .catch Ljava/lang/InterruptedException; {:try_start_7 .. :try_end_7} :catch_3
+    .catch Ljava/io/InterruptedIOException; {:try_start_7 .. :try_end_7} :catch_7
+
+    .line 610
+    .line 611
+    add-int/lit8 v6, v6, 0x1
+
+    .line 612
+    .line 613
+    if-lt v6, v4, :cond_e
+
+    .line 614
+    .line 615
+    :try_start_8
+    iget-object v0, v1, Lbmwc;->i:Lbnbb;
+
+    .line 616
+    .line 617
+    iget-object v3, v1, Lbmwc;->y:Lbmvy;
+
+    .line 618
+    .line 619
+    .line 620
+    invoke-virtual {v3}, Lbmvy;->a()J
+
+    .line 621
+    move-result-wide v3
+
+    .line 622
+    .line 623
+    .line 624
+    invoke-virtual {v0, v3, v4}, Lbnbb;->l(J)V
+
+    .line 625
+    .line 626
+    new-instance v0, Lbmwf;
+
+    .line 627
+    .line 628
+    sget-object v3, Lbmua;->g:Lbmua;
+
+    .line 629
+    .line 630
+    .line 631
+    invoke-direct {v0, v3, v5, v5, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 632
+    .line 633
+    .line 634
+    invoke-virtual {v1, v0}, Lbmvx;->o(Lbmwf;)V
+
+    .line 635
+    .line 636
+    goto/16 :goto_a
+
+    .line 637
+    .line 638
+    .line 639
+    :catch_3
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+
+    .line 640
+    move-result-object v0
+
+    .line 641
+    .line 642
+    .line 643
+    invoke-virtual {v0}, Ljava/lang/Thread;->interrupt()V
+
+    .line 644
+    .line 645
+    new-instance v0, Ljava/io/InterruptedIOException;
+
+    .line 646
+    .line 647
+    .line 648
+    invoke-direct {v0}, Ljava/io/InterruptedIOException;-><init>()V
+
+    .line 649
+    throw v0
+
+    .line 650
+    .line 651
+    :cond_18
+    new-instance v0, Ljava/io/InterruptedIOException;
+
+    .line 652
+    .line 653
+    .line 654
+    invoke-direct {v0}, Ljava/io/InterruptedIOException;-><init>()V
+
+    .line 655
+    throw v0
+
+    .line 656
+    :catch_4
+    move-exception v0
+
+    .line 657
+    .line 658
+    sget-object v3, Lcckn;->o:Lcckn;
+
+    .line 659
+    .line 660
+    .line 661
+    invoke-virtual {v1, v3, v0}, Lbmvx;->l(Lcckn;Ljava/lang/Exception;)V
+
+    .line 662
+    .line 663
+    new-instance v0, Lbmwf;
+
+    .line 664
+    .line 665
+    sget-object v4, Lbmua;->f:Lbmua;
+
+    .line 666
+    .line 667
+    .line 668
+    invoke-direct {v0, v4, v3, v5, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 669
+    .line 670
+    .line 671
+    invoke-virtual {v1, v0}, Lbmvx;->o(Lbmwf;)V
+
+    .line 672
+    goto :goto_a
+
+    .line 673
+    :catch_5
+    move-exception v0
+
+    .line 674
+    .line 675
+    iget-object v2, v1, Lbmwc;->z:Lbnbb;
+
+    .line 676
+    .line 677
+    if-eqz v2, :cond_19
+
+    .line 678
+    .line 679
+    iget-object v2, v1, Lbmwc;->s:Landroid/net/Uri;
+
+    .line 680
+    .line 681
+    .line 682
+    invoke-virtual {v3, v2}, Landroid/net/Uri;->equals(Ljava/lang/Object;)Z
+
+    .line 683
+    move-result v2
+
+    .line 684
+    .line 685
+    if-nez v2, :cond_19
+
+    .line 686
+    .line 687
+    .line 688
+    invoke-static {v3}, Lbnbb;->e(Landroid/net/Uri;)V
+
+    .line 689
+    .line 690
+    iget-object v2, v1, Lbmwc;->p:Lbmvl;
+
+    .line 691
+    .line 692
+    .line 693
+    invoke-virtual {v3}, Landroid/net/Uri;->toString()Ljava/lang/String;
+
+    .line 694
+    move-result-object v3
+
+    .line 695
+    .line 696
+    .line 697
+    invoke-virtual {v2, v3}, Lbmvl;->h(Ljava/lang/String;)V
+
+    .line 698
+    .line 699
+    sget-object v2, Lcckn;->q:Lcckn;
+
+    .line 700
+    goto :goto_8
+
+    .line 701
+    .line 702
+    :cond_19
+    sget-object v2, Lcckn;->p:Lcckn;
+
+    .line 703
+    .line 704
+    .line 705
+    :goto_8
+    invoke-virtual {v1, v2, v0}, Lbmvx;->l(Lcckn;Ljava/lang/Exception;)V
+
+    .line 706
+    .line 707
+    new-instance v0, Lbmwf;
+
+    .line 708
+    .line 709
+    .line 710
+    invoke-direct {v0, v2}, Lbmwf;-><init>(Lcckn;)V
+
+    .line 711
+    .line 712
+    .line 713
+    invoke-virtual {v1, v0}, Lbmvx;->o(Lbmwf;)V
+
+    .line 714
+    goto :goto_a
+
+    .line 715
+    :catch_6
+    move-exception v0
+
+    .line 716
+    .line 717
+    iget-object v2, v1, Lbmwc;->z:Lbnbb;
+
+    .line 718
+    .line 719
+    if-eqz v2, :cond_1a
+
+    .line 720
+    .line 721
+    iget-object v2, v1, Lbmwc;->s:Landroid/net/Uri;
+
+    .line 722
+    .line 723
+    .line 724
+    invoke-virtual {v3, v2}, Landroid/net/Uri;->equals(Ljava/lang/Object;)Z
+
+    .line 725
+    move-result v2
+
+    .line 726
+    .line 727
+    if-nez v2, :cond_1a
+
+    .line 728
+    .line 729
+    .line 730
+    invoke-static {v3}, Lbnbb;->e(Landroid/net/Uri;)V
+
+    .line 731
+    .line 732
+    iget-object v2, v1, Lbmwc;->p:Lbmvl;
+
+    .line 733
+    .line 734
+    .line 735
+    invoke-virtual {v3}, Landroid/net/Uri;->toString()Ljava/lang/String;
+
+    .line 736
+    move-result-object v3
+
+    .line 737
+    .line 738
+    .line 739
+    invoke-virtual {v2, v3}, Lbmvl;->h(Ljava/lang/String;)V
+
+    .line 740
+    .line 741
+    sget-object v2, Lcckn;->q:Lcckn;
+
+    .line 742
+    goto :goto_9
+
+    .line 743
+    .line 744
+    :cond_1a
+    sget-object v2, Lcckn;->n:Lcckn;
+
+    .line 745
+    .line 746
+    .line 747
+    :goto_9
+    invoke-virtual {v1, v2, v0}, Lbmvx;->l(Lcckn;Ljava/lang/Exception;)V
+
+    .line 748
+    .line 749
+    new-instance v0, Lbmwf;
+
+    .line 750
+    .line 751
+    .line 752
+    invoke-direct {v0, v2}, Lbmwf;-><init>(Lcckn;)V
+
+    .line 753
+    .line 754
+    .line 755
+    invoke-virtual {v1, v0}, Lbmvx;->o(Lbmwf;)V
+    :try_end_8
+    .catch Ljava/io/InterruptedIOException; {:try_start_8 .. :try_end_8} :catch_7
+
+    .line 756
+    goto :goto_a
+
+    .line 757
+    .line 758
+    .line 759
+    :catch_7
+    invoke-virtual {v1}, Lbmvx;->n()V
+
+    .line 760
+    :cond_1b
+    :goto_a
+    return-void
+
+    .line 761
+    :catchall_0
+    move-exception v0
+
+    .line 762
+    :try_start_9
+    monitor-exit v10
+    :try_end_9
+    .catchall {:try_start_9 .. :try_end_9} :catchall_0
+
+    .line 763
+    throw v0
+
+    .line 764
+    .line 765
+    :cond_1c
+    :goto_b
+    new-instance v0, Lbmwf;
+
+    .line 766
+    .line 767
+    sget-object v3, Lbmua;->f:Lbmua;
+
+    .line 768
+    .line 769
+    sget-object v4, Lcckn;->r:Lcckn;
+
+    .line 770
+    .line 771
+    .line 772
+    invoke-direct {v0, v3, v4, v5, v2}, Lbmwf;-><init>(Lbmua;Lcckn;Lccks;Z)V
+
+    .line 773
+    .line 774
+    .line 775
+    invoke-virtual {v1, v0}, Lbmvx;->o(Lbmwf;)V
+
+    .line 776
+    return-void
+
+    .line 777
+    :pswitch_data_0
+    .packed-switch 0xd
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 4
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lbmwc;->l:Lbmty;
+
+    .line 3
+    .line 4
+    iget-object v1, p0, Lbmwc;->k:Landroid/net/Uri;
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-virtual {p0}, Lbmvx;->i()Ljava/lang/String;
+
+    .line 8
+    move-result-object v2
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 12
+    move-result-object v1
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 16
+    move-result-object v0
+
+    .line 17
+    .line 18
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 25
+    move-result-object p0
+
+    .line 26
+    .line 27
+    .line 28
+    invoke-virtual {p0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    .line 29
+    move-result-object p0
+
+    .line 30
+    .line 31
+    .line 32
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 33
+    .line 34
+    const-string p0, "[RequestId: "
+
+    .line 35
+    .line 36
+    .line 37
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 38
+    .line 39
+    .line 40
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 41
+    .line 42
+    const-string p0, ", Uri: "
+
+    .line 43
+    .line 44
+    .line 45
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 49
+    .line 50
+    const-string p0, ", UploadOption: "
+
+    .line 51
+    .line 52
+    .line 53
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 54
+    .line 55
+    .line 56
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 57
+    .line 58
+    const-string p0, "]"
+
+    .line 59
+    .line 60
+    .line 61
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 62
+    .line 63
+    .line 64
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 65
+    move-result-object p0
+
+    .line 66
+    return-object p0
+.end method

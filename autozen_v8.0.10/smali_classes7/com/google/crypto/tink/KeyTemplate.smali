@@ -1,0 +1,14 @@
+.class public final Lcom/google/crypto/tink/KeyTemplate;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/KeyTemplate$OutputPrefixType;
+    }
+.end annotation

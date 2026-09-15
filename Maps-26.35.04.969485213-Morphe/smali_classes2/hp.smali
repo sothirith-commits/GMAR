@@ -1,0 +1,2720 @@
+.class public final Lhp;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lgat;
+
+
+# instance fields
+.field private A:I
+
+.field private B:Landroid/view/View;
+
+.field private C:Landroid/view/MenuItem$OnActionExpandListener;
+
+.field public final a:I
+
+.field public final b:I
+
+.field public final c:I
+
+.field public d:Ljava/lang/CharSequence;
+
+.field public e:Landroid/content/Intent;
+
+.field public f:C
+
+.field public g:I
+
+.field public h:C
+
+.field public i:I
+
+.field public final j:Lhn;
+
+.field public k:Lif;
+
+.field public l:Landroid/view/MenuItem$OnMenuItemClickListener;
+
+.field public m:Ljava/lang/CharSequence;
+
+.field public n:Ljava/lang/CharSequence;
+
+.field public o:I
+
+.field public p:Z
+
+.field public q:Lfyc;
+
+.field private final r:I
+
+.field private s:Ljava/lang/CharSequence;
+
+.field private t:Landroid/graphics/drawable/Drawable;
+
+.field private u:I
+
+.field private v:Landroid/content/res/ColorStateList;
+
+.field private w:Landroid/graphics/PorterDuff$Mode;
+
+.field private x:Z
+
+.field private y:Z
+
+.field private z:Z
+
+
+# direct methods
+.method public constructor <init>(Lhn;IIIILjava/lang/CharSequence;I)V
+    .locals 2
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    const/16 v0, 0x1000
+
+    .line 6
+    .line 7
+    iput v0, p0, Lhp;->g:I
+
+    .line 8
+    .line 9
+    iput v0, p0, Lhp;->i:I
+
+    .line 10
+    const/4 v0, 0x0
+
+    .line 11
+    .line 12
+    iput v0, p0, Lhp;->u:I
+
+    .line 13
+    const/4 v1, 0x0
+
+    .line 14
+    .line 15
+    iput-object v1, p0, Lhp;->v:Landroid/content/res/ColorStateList;
+
+    .line 16
+    .line 17
+    iput-object v1, p0, Lhp;->w:Landroid/graphics/PorterDuff$Mode;
+
+    .line 18
+    .line 19
+    iput-boolean v0, p0, Lhp;->x:Z
+
+    .line 20
+    .line 21
+    iput-boolean v0, p0, Lhp;->y:Z
+
+    .line 22
+    .line 23
+    iput-boolean v0, p0, Lhp;->z:Z
+
+    .line 24
+    .line 25
+    const/16 v1, 0x10
+
+    .line 26
+    .line 27
+    iput v1, p0, Lhp;->A:I
+
+    .line 28
+    .line 29
+    iput-boolean v0, p0, Lhp;->p:Z
+
+    .line 30
+    .line 31
+    iput-object p1, p0, Lhp;->j:Lhn;
+
+    .line 32
+    .line 33
+    iput p3, p0, Lhp;->a:I
+
+    .line 34
+    .line 35
+    iput p2, p0, Lhp;->b:I
+
+    .line 36
+    .line 37
+    iput p4, p0, Lhp;->r:I
+
+    .line 38
+    .line 39
+    iput p5, p0, Lhp;->c:I
+
+    .line 40
+    .line 41
+    iput-object p6, p0, Lhp;->d:Ljava/lang/CharSequence;
+
+    .line 42
+    .line 43
+    iput p7, p0, Lhp;->o:I
+
+    .line 44
+    return-void
+.end method
+
+.method public static g(Ljava/lang/StringBuilder;IILjava/lang/String;)V
+    .locals 0
+
+    .line 1
+    and-int/2addr p1, p2
+
+    .line 2
+    .line 3
+    if-ne p1, p2, :cond_0
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p0, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 7
+    :cond_0
+    return-void
+.end method
+
+.method private final v(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    .locals 1
+
+    .line 1
+    .line 2
+    if-eqz p1, :cond_3
+
+    .line 3
+    .line 4
+    iget-boolean v0, p0, Lhp;->z:Z
+
+    .line 5
+    .line 6
+    if-eqz v0, :cond_3
+
+    .line 7
+    .line 8
+    iget-boolean v0, p0, Lhp;->x:Z
+
+    .line 9
+    .line 10
+    if-nez v0, :cond_0
+
+    .line 11
+    .line 12
+    iget-boolean v0, p0, Lhp;->y:Z
+
+    .line 13
+    .line 14
+    if-eqz v0, :cond_3
+
+    .line 15
+    .line 16
+    .line 17
+    :cond_0
+    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->mutate()Landroid/graphics/drawable/Drawable;
+
+    .line 18
+    move-result-object p1
+
+    .line 19
+    .line 20
+    iget-boolean v0, p0, Lhp;->x:Z
+
+    .line 21
+    .line 22
+    if-eqz v0, :cond_1
+
+    .line 23
+    .line 24
+    iget-object v0, p0, Lhp;->v:Landroid/content/res/ColorStateList;
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;->setTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 28
+    .line 29
+    :cond_1
+    iget-boolean v0, p0, Lhp;->y:Z
+
+    .line 30
+    .line 31
+    if-eqz v0, :cond_2
+
+    .line 32
+    .line 33
+    iget-object v0, p0, Lhp;->w:Landroid/graphics/PorterDuff$Mode;
+
+    .line 34
+    .line 35
+    .line 36
+    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;->setTintMode(Landroid/graphics/PorterDuff$Mode;)V
+
+    .line 37
+    :cond_2
+    const/4 v0, 0x0
+
+    .line 38
+    .line 39
+    iput-boolean v0, p0, Lhp;->z:Z
+
+    .line 40
+    :cond_3
+    return-object p1
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/CharSequence;)V
+    .locals 0
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lhp;->m:Ljava/lang/CharSequence;
+
+    .line 3
+    .line 4
+    iget-object p0, p0, Lhp;->j:Lhn;
+
+    .line 5
+    const/4 p1, 0x0
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {p0, p1}, Lhn;->l(Z)V
+
+    .line 9
+    return-void
+.end method
+
+.method public final b(Ljava/lang/CharSequence;)V
+    .locals 0
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lhp;->n:Ljava/lang/CharSequence;
+
+    .line 3
+    .line 4
+    iget-object p0, p0, Lhp;->j:Lhn;
+
+    .line 5
+    const/4 p1, 0x0
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {p0, p1}, Lhn;->l(Z)V
+
+    .line 9
+    return-void
+.end method
+
+.method public final c()Lfyc;
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-object p0, p0, Lhp;->q:Lfyc;
+
+    .line 3
+    return-object p0
+.end method
+
+.method public final collapseActionView()Z
+    .locals 2
+
+    .line 1
+    .line 2
+    iget v0, p0, Lhp;->o:I
+
+    .line 3
+    .line 4
+    and-int/lit8 v0, v0, 0x8
+
+    .line 5
+    const/4 v1, 0x0
+
+    .line 6
+    .line 7
+    if-nez v0, :cond_0
+
+    .line 8
+    return v1
+
+    .line 9
+    .line 10
+    :cond_0
+    iget-object v0, p0, Lhp;->B:Landroid/view/View;
+
+    .line 11
+    .line 12
+    if-nez v0, :cond_1
+
+    .line 13
+    const/4 p0, 0x1
+
+    .line 14
+    return p0
+
+    .line 15
+    .line 16
+    :cond_1
+    iget-object v0, p0, Lhp;->C:Landroid/view/MenuItem$OnActionExpandListener;
+
+    .line 17
+    .line 18
+    if-eqz v0, :cond_3
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-interface {v0, p0}, Landroid/view/MenuItem$OnActionExpandListener;->onMenuItemActionCollapse(Landroid/view/MenuItem;)Z
+
+    .line 22
+    move-result v0
+
+    .line 23
+    .line 24
+    if-eqz v0, :cond_2
+
+    .line 25
+    goto :goto_0
+
+    .line 26
+    :cond_2
+    return v1
+
+    .line 27
+    .line 28
+    :cond_3
+    :goto_0
+    iget-object v0, p0, Lhp;->j:Lhn;
+
+    .line 29
+    .line 30
+    .line 31
+    invoke-virtual {v0, p0}, Lhn;->t(Lhp;)Z
+
+    .line 32
+    move-result p0
+
+    .line 33
+    return p0
+.end method
+
+.method public final d(Lfyc;)V
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    .line 3
+    iput-object v0, p0, Lhp;->B:Landroid/view/View;
+
+    .line 4
+    .line 5
+    iput-object p1, p0, Lhp;->q:Lfyc;
+
+    .line 6
+    .line 7
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    .line 8
+    const/4 v0, 0x1
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-virtual {p1, v0}, Lhn;->l(Z)V
+
+    .line 12
+    .line 13
+    iget-object p1, p0, Lhp;->q:Lfyc;
+
+    .line 14
+    .line 15
+    if-eqz p1, :cond_0
+
+    .line 16
+    .line 17
+    new-instance v0, Lhc;
+
+    .line 18
+    .line 19
+    .line 20
+    invoke-direct {v0, p0}, Lhc;-><init>(Ljava/lang/Object;)V
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-virtual {p1, v0}, Lfyc;->g(Lhc;)V
+
+    .line 24
+    :cond_0
+    return-void
+.end method
+
+.method public final e()C
+    .locals 1
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lhp;->j:Lhn;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-virtual {v0}, Lhn;->x()Z
+
+    .line 6
+    move-result v0
+
+    .line 7
+    .line 8
+    if-eqz v0, :cond_0
+
+    .line 9
+    .line 10
+    iget-char p0, p0, Lhp;->h:C
+
+    .line 11
+    return p0
+
+    .line 12
+    .line 13
+    :cond_0
+    iget-char p0, p0, Lhp;->f:C
+
+    .line 14
+    return p0
+.end method
+
+.method public final expandActionView()Z
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lhp;->m()Z
+
+    .line 4
+    move-result v0
+
+    .line 5
+    .line 6
+    if-nez v0, :cond_0
+
+    .line 7
+    goto :goto_0
+
+    .line 8
+    .line 9
+    :cond_0
+    iget-object v0, p0, Lhp;->C:Landroid/view/MenuItem$OnActionExpandListener;
+
+    .line 10
+    .line 11
+    if-eqz v0, :cond_2
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-interface {v0, p0}, Landroid/view/MenuItem$OnActionExpandListener;->onMenuItemActionExpand(Landroid/view/MenuItem;)Z
+
+    .line 15
+    move-result v0
+
+    .line 16
+    .line 17
+    if-eqz v0, :cond_1
+
+    .line 18
+    goto :goto_1
+
+    .line 19
+    :cond_1
+    :goto_0
+    const/4 p0, 0x0
+
+    .line 20
+    return p0
+
+    .line 21
+    .line 22
+    :cond_2
+    :goto_1
+    iget-object v0, p0, Lhp;->j:Lhn;
+
+    .line 23
+    .line 24
+    .line 25
+    invoke-virtual {v0, p0}, Lhn;->v(Lhp;)Z
+
+    .line 26
+    move-result p0
+
+    .line 27
+    return p0
+.end method
+
+.method public final f(Lhz;)Ljava/lang/CharSequence;
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-interface {p1}, Lhz;->e()Z
+
+    .line 4
+    move-result p1
+
+    .line 5
+    .line 6
+    if-eqz p1, :cond_0
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Lhp;->getTitleCondensed()Ljava/lang/CharSequence;
+
+    .line 10
+    move-result-object p0
+
+    .line 11
+    return-object p0
+
+    .line 12
+    .line 13
+    :cond_0
+    iget-object p0, p0, Lhp;->d:Ljava/lang/CharSequence;
+
+    .line 14
+    return-object p0
+.end method
+
+.method public final getActionProvider()Landroid/view/ActionProvider;
+    .locals 1
+
+    .line 1
+    .line 2
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    .line 3
+    .line 4
+    const-string v0, "This is not supported, use MenuItemCompat.getActionProvider()"
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-direct {p0, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    .line 8
+    throw p0
+.end method
+
+.method public final getActionView()Landroid/view/View;
+    .locals 1
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lhp;->B:Landroid/view/View;
+
+    .line 3
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    return-object v0
+
+    .line 6
+    .line 7
+    :cond_0
+    iget-object v0, p0, Lhp;->q:Lfyc;
+
+    .line 8
+    .line 9
+    if-eqz v0, :cond_1
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-virtual {v0, p0}, Lfyc;->a(Landroid/view/MenuItem;)Landroid/view/View;
+
+    .line 13
+    move-result-object v0
+
+    .line 14
+    .line 15
+    iput-object v0, p0, Lhp;->B:Landroid/view/View;
+
+    .line 16
+    return-object v0
+
+    .line 17
+    :cond_1
+    const/4 p0, 0x0
+
+    .line 18
+    return-object p0
+.end method
+
+.method public final getAlphabeticModifiers()I
+    .locals 0
+
+    .line 1
+    .line 2
+    iget p0, p0, Lhp;->i:I
+
+    .line 3
+    return p0
+.end method
+
+.method public final getAlphabeticShortcut()C
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-char p0, p0, Lhp;->h:C
+
+    .line 3
+    return p0
+.end method
+
+.method public final getContentDescription()Ljava/lang/CharSequence;
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-object p0, p0, Lhp;->m:Ljava/lang/CharSequence;
+
+    .line 3
+    return-object p0
+.end method
+
+.method public final getGroupId()I
+    .locals 0
+
+    .line 1
+    .line 2
+    iget p0, p0, Lhp;->b:I
+
+    .line 3
+    return p0
+.end method
+
+.method public final getIcon()Landroid/graphics/drawable/Drawable;
+    .locals 3
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lhp;->t:Landroid/graphics/drawable/Drawable;
+
+    .line 3
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-direct {p0, v0}, Lhp;->v(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+
+    .line 8
+    move-result-object p0
+
+    .line 9
+    return-object p0
+
+    .line 10
+    .line 11
+    :cond_0
+    iget v0, p0, Lhp;->u:I
+
+    .line 12
+    .line 13
+    if-eqz v0, :cond_1
+
+    .line 14
+    .line 15
+    iget-object v1, p0, Lhp;->j:Lhn;
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-static {}, Lnq;->e()Lnq;
+
+    .line 19
+    move-result-object v2
+
+    .line 20
+    .line 21
+    iget-object v1, v1, Lhn;->a:Landroid/content/Context;
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-virtual {v2, v1, v0}, Lnq;->c(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+
+    .line 25
+    move-result-object v0
+
+    .line 26
+    const/4 v1, 0x0
+
+    .line 27
+    .line 28
+    iput v1, p0, Lhp;->u:I
+
+    .line 29
+    .line 30
+    iput-object v0, p0, Lhp;->t:Landroid/graphics/drawable/Drawable;
+
+    .line 31
+    .line 32
+    .line 33
+    invoke-direct {p0, v0}, Lhp;->v(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+
+    .line 34
+    move-result-object p0
+
+    .line 35
+    return-object p0
+
+    .line 36
+    :cond_1
+    const/4 p0, 0x0
+
+    .line 37
+    return-object p0
+.end method
+
+.method public final getIconTintList()Landroid/content/res/ColorStateList;
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-object p0, p0, Lhp;->v:Landroid/content/res/ColorStateList;
+
+    .line 3
+    return-object p0
+.end method
+
+.method public final getIconTintMode()Landroid/graphics/PorterDuff$Mode;
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-object p0, p0, Lhp;->w:Landroid/graphics/PorterDuff$Mode;
+
+    .line 3
+    return-object p0
+.end method
+
+.method public final getIntent()Landroid/content/Intent;
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-object p0, p0, Lhp;->e:Landroid/content/Intent;
+
+    .line 3
+    return-object p0
+.end method
+
+.method public final getItemId()I
+    .locals 0
+    .annotation runtime Landroid/view/ViewDebug$CapturedViewProperty;
+    .end annotation
+
+    .line 1
+    .line 2
+    iget p0, p0, Lhp;->a:I
+
+    .line 3
+    return p0
+.end method
+
+.method public final getMenuInfo()Landroid/view/ContextMenu$ContextMenuInfo;
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return-object p0
+.end method
+
+.method public final getNumericModifiers()I
+    .locals 0
+
+    .line 1
+    .line 2
+    iget p0, p0, Lhp;->g:I
+
+    .line 3
+    return p0
+.end method
+
+.method public final getNumericShortcut()C
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-char p0, p0, Lhp;->f:C
+
+    .line 3
+    return p0
+.end method
+
+.method public final getOrder()I
+    .locals 0
+
+    .line 1
+    .line 2
+    iget p0, p0, Lhp;->r:I
+
+    .line 3
+    return p0
+.end method
+
+.method public final getSubMenu()Landroid/view/SubMenu;
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-object p0, p0, Lhp;->k:Lif;
+
+    .line 3
+    return-object p0
+.end method
+
+.method public final getTitle()Ljava/lang/CharSequence;
+    .locals 0
+    .annotation runtime Landroid/view/ViewDebug$CapturedViewProperty;
+    .end annotation
+
+    .line 1
+    .line 2
+    iget-object p0, p0, Lhp;->d:Ljava/lang/CharSequence;
+
+    .line 3
+    return-object p0
+.end method
+
+.method public final getTitleCondensed()Ljava/lang/CharSequence;
+    .locals 1
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lhp;->s:Ljava/lang/CharSequence;
+
+    .line 3
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    return-object v0
+
+    .line 6
+    .line 7
+    :cond_0
+    iget-object p0, p0, Lhp;->d:Ljava/lang/CharSequence;
+
+    .line 8
+    return-object p0
+.end method
+
+.method public final getTooltipText()Ljava/lang/CharSequence;
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-object p0, p0, Lhp;->n:Ljava/lang/CharSequence;
+
+    .line 3
+    return-object p0
+.end method
+
+.method public final h(Z)V
+    .locals 0
+
+    .line 1
+    .line 2
+    iput-boolean p1, p0, Lhp;->p:Z
+
+    .line 3
+    .line 4
+    iget-object p0, p0, Lhp;->j:Lhn;
+
+    .line 5
+    const/4 p1, 0x0
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {p0, p1}, Lhn;->l(Z)V
+
+    .line 9
+    return-void
+.end method
+
+.method public final hasSubMenu()Z
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-object p0, p0, Lhp;->k:Lif;
+
+    .line 3
+    .line 4
+    if-eqz p0, :cond_0
+
+    .line 5
+    const/4 p0, 0x1
+
+    .line 6
+    return p0
+
+    .line 7
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 8
+    return p0
+.end method
+
+.method final i(Z)V
+    .locals 4
+
+    .line 1
+    .line 2
+    iget v0, p0, Lhp;->A:I
+
+    .line 3
+    .line 4
+    and-int/lit8 v1, v0, -0x3
+
+    .line 5
+    const/4 v2, 0x1
+
+    .line 6
+    const/4 v3, 0x0
+
+    .line 7
+    .line 8
+    if-eq v2, p1, :cond_0
+
+    .line 9
+    move p1, v3
+
+    .line 10
+    goto :goto_0
+
+    .line 11
+    :cond_0
+    const/4 p1, 0x2
+
+    .line 12
+    :goto_0
+    or-int/2addr p1, v1
+
+    .line 13
+    .line 14
+    iput p1, p0, Lhp;->A:I
+
+    .line 15
+    .line 16
+    if-eq v0, p1, :cond_1
+
+    .line 17
+    .line 18
+    iget-object p0, p0, Lhp;->j:Lhn;
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-virtual {p0, v3}, Lhn;->l(Z)V
+
+    .line 22
+    :cond_1
+    return-void
+.end method
+
+.method public final isActionViewExpanded()Z
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-boolean p0, p0, Lhp;->p:Z
+
+    .line 3
+    return p0
+.end method
+
+.method public final isCheckable()Z
+    .locals 1
+
+    .line 1
+    .line 2
+    iget p0, p0, Lhp;->A:I
+
+    .line 3
+    const/4 v0, 0x1
+
+    .line 4
+    and-int/2addr p0, v0
+
+    .line 5
+    .line 6
+    if-ne p0, v0, :cond_0
+
+    .line 7
+    return v0
+
+    .line 8
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 9
+    return p0
+.end method
+
+.method public final isChecked()Z
+    .locals 1
+
+    .line 1
+    .line 2
+    iget p0, p0, Lhp;->A:I
+
+    .line 3
+    const/4 v0, 0x2
+
+    .line 4
+    and-int/2addr p0, v0
+
+    .line 5
+    .line 6
+    if-ne p0, v0, :cond_0
+
+    .line 7
+    const/4 p0, 0x1
+
+    .line 8
+    return p0
+
+    .line 9
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 10
+    return p0
+.end method
+
+.method public final isEnabled()Z
+    .locals 0
+
+    .line 1
+    .line 2
+    iget p0, p0, Lhp;->A:I
+
+    .line 3
+    .line 4
+    and-int/lit8 p0, p0, 0x10
+
+    .line 5
+    .line 6
+    if-eqz p0, :cond_0
+
+    .line 7
+    const/4 p0, 0x1
+
+    .line 8
+    return p0
+
+    .line 9
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 10
+    return p0
+.end method
+
+.method public final isVisible()Z
+    .locals 3
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lhp;->q:Lfyc;
+
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    const/4 v2, 0x0
+
+    .line 5
+    .line 6
+    if-eqz v0, :cond_1
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-virtual {v0}, Lfyc;->f()Z
+
+    .line 10
+    move-result v0
+
+    .line 11
+    .line 12
+    if-eqz v0, :cond_1
+
+    .line 13
+    .line 14
+    iget v0, p0, Lhp;->A:I
+
+    .line 15
+    .line 16
+    and-int/lit8 v0, v0, 0x8
+
+    .line 17
+    .line 18
+    if-nez v0, :cond_0
+
+    .line 19
+    .line 20
+    iget-object p0, p0, Lhp;->q:Lfyc;
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-virtual {p0}, Lfyc;->d()Z
+
+    .line 24
+    move-result p0
+
+    .line 25
+    .line 26
+    if-eqz p0, :cond_0
+
+    .line 27
+    return v1
+
+    .line 28
+    :cond_0
+    return v2
+
+    .line 29
+    .line 30
+    :cond_1
+    iget p0, p0, Lhp;->A:I
+
+    .line 31
+    .line 32
+    and-int/lit8 p0, p0, 0x8
+
+    .line 33
+    .line 34
+    if-nez p0, :cond_2
+
+    .line 35
+    return v1
+
+    .line 36
+    :cond_2
+    return v2
+.end method
+
+.method public final j(Z)V
+    .locals 2
+
+    .line 1
+    .line 2
+    iget v0, p0, Lhp;->A:I
+
+    .line 3
+    .line 4
+    and-int/lit8 v0, v0, -0x5
+
+    .line 5
+    const/4 v1, 0x1
+
+    .line 6
+    .line 7
+    if-eq v1, p1, :cond_0
+
+    .line 8
+    const/4 p1, 0x0
+
+    .line 9
+    goto :goto_0
+
+    .line 10
+    :cond_0
+    const/4 p1, 0x4
+
+    .line 11
+    :goto_0
+    or-int/2addr p1, v0
+
+    .line 12
+    .line 13
+    iput p1, p0, Lhp;->A:I
+
+    .line 14
+    return-void
+.end method
+
+.method public final k(Z)V
+    .locals 1
+
+    .line 1
+    .line 2
+    iget v0, p0, Lhp;->A:I
+
+    .line 3
+    .line 4
+    if-eqz p1, :cond_0
+
+    .line 5
+    .line 6
+    or-int/lit8 p1, v0, 0x20
+
+    .line 7
+    .line 8
+    :goto_0
+    iput p1, p0, Lhp;->A:I
+
+    .line 9
+    return-void
+
+    .line 10
+    .line 11
+    :cond_0
+    and-int/lit8 p1, v0, -0x21
+
+    .line 12
+    goto :goto_0
+.end method
+
+.method public final l(Lif;)V
+    .locals 0
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lhp;->k:Lif;
+
+    .line 3
+    .line 4
+    iget-object p0, p0, Lhp;->d:Ljava/lang/CharSequence;
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-virtual {p1, p0}, Lif;->setHeaderTitle(Ljava/lang/CharSequence;)Landroid/view/SubMenu;
+
+    .line 8
+    return-void
+.end method
+
+.method public final m()Z
+    .locals 3
+
+    .line 1
+    .line 2
+    iget v0, p0, Lhp;->o:I
+
+    .line 3
+    .line 4
+    and-int/lit8 v0, v0, 0x8
+
+    .line 5
+    const/4 v1, 0x0
+
+    .line 6
+    .line 7
+    if-eqz v0, :cond_1
+
+    .line 8
+    .line 9
+    iget-object v0, p0, Lhp;->B:Landroid/view/View;
+
+    .line 10
+    .line 11
+    if-nez v0, :cond_0
+
+    .line 12
+    .line 13
+    iget-object v2, p0, Lhp;->q:Lfyc;
+
+    .line 14
+    .line 15
+    if-eqz v2, :cond_0
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-virtual {v2, p0}, Lfyc;->a(Landroid/view/MenuItem;)Landroid/view/View;
+
+    .line 19
+    move-result-object v0
+
+    .line 20
+    .line 21
+    iput-object v0, p0, Lhp;->B:Landroid/view/View;
+
+    .line 22
+    .line 23
+    :cond_0
+    if-eqz v0, :cond_1
+
+    .line 24
+    const/4 p0, 0x1
+
+    .line 25
+    return p0
+
+    .line 26
+    :cond_1
+    return v1
+.end method
+
+.method public final n()Z
+    .locals 3
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lhp;->l:Landroid/view/MenuItem$OnMenuItemClickListener;
+
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-interface {v0, p0}, Landroid/view/MenuItem$OnMenuItemClickListener;->onMenuItemClick(Landroid/view/MenuItem;)Z
+
+    .line 9
+    move-result v0
+
+    .line 10
+    .line 11
+    if-eqz v0, :cond_0
+
+    .line 12
+    return v1
+
+    .line 13
+    .line 14
+    :cond_0
+    iget-object v0, p0, Lhp;->j:Lhn;
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-virtual {v0, v0, p0}, Lhn;->u(Lhn;Landroid/view/MenuItem;)Z
+
+    .line 18
+    move-result v2
+
+    .line 19
+    .line 20
+    if-eqz v2, :cond_1
+
+    .line 21
+    return v1
+
+    .line 22
+    .line 23
+    :cond_1
+    iget-object v2, p0, Lhp;->e:Landroid/content/Intent;
+
+    .line 24
+    .line 25
+    if-eqz v2, :cond_2
+
+    .line 26
+    .line 27
+    :try_start_0
+    iget-object v0, v0, Lhn;->a:Landroid/content/Context;
+
+    .line 28
+    .line 29
+    .line 30
+    invoke-virtual {v0, v2}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    :try_end_0
+    .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 31
+    return v1
+
+    .line 32
+    .line 33
+    :catch_0
+    :cond_2
+    iget-object p0, p0, Lhp;->q:Lfyc;
+
+    .line 34
+    .line 35
+    if-eqz p0, :cond_3
+
+    .line 36
+    .line 37
+    .line 38
+    invoke-virtual {p0}, Lfyc;->e()Z
+
+    .line 39
+    move-result p0
+
+    .line 40
+    .line 41
+    if-eqz p0, :cond_3
+
+    .line 42
+    return v1
+
+    .line 43
+    :cond_3
+    const/4 p0, 0x0
+
+    .line 44
+    return p0
+.end method
+
+.method public final o()Z
+    .locals 1
+
+    .line 1
+    .line 2
+    iget p0, p0, Lhp;->A:I
+
+    .line 3
+    .line 4
+    const/16 v0, 0x20
+
+    .line 5
+    and-int/2addr p0, v0
+
+    .line 6
+    .line 7
+    if-ne p0, v0, :cond_0
+
+    .line 8
+    const/4 p0, 0x1
+
+    .line 9
+    return p0
+
+    .line 10
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 11
+    return p0
+.end method
+
+.method public final p()Z
+    .locals 0
+
+    .line 1
+    .line 2
+    iget p0, p0, Lhp;->A:I
+
+    .line 3
+    .line 4
+    and-int/lit8 p0, p0, 0x4
+
+    .line 5
+    .line 6
+    if-eqz p0, :cond_0
+
+    .line 7
+    const/4 p0, 0x1
+
+    .line 8
+    return p0
+
+    .line 9
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 10
+    return p0
+.end method
+
+.method public final q()Z
+    .locals 1
+
+    .line 1
+    .line 2
+    iget p0, p0, Lhp;->o:I
+
+    .line 3
+    const/4 v0, 0x1
+
+    .line 4
+    and-int/2addr p0, v0
+
+    .line 5
+    .line 6
+    if-ne p0, v0, :cond_0
+
+    .line 7
+    return v0
+
+    .line 8
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 9
+    return p0
+.end method
+
+.method public final r()Z
+    .locals 1
+
+    .line 1
+    .line 2
+    iget p0, p0, Lhp;->o:I
+
+    .line 3
+    const/4 v0, 0x2
+
+    .line 4
+    and-int/2addr p0, v0
+
+    .line 5
+    .line 6
+    if-ne p0, v0, :cond_0
+
+    .line 7
+    const/4 p0, 0x1
+
+    .line 8
+    return p0
+
+    .line 9
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 10
+    return p0
+.end method
+
+.method final s(Z)Z
+    .locals 4
+
+    .line 1
+    .line 2
+    iget v0, p0, Lhp;->A:I
+
+    .line 3
+    .line 4
+    and-int/lit8 v1, v0, -0x9
+
+    .line 5
+    const/4 v2, 0x0
+
+    .line 6
+    const/4 v3, 0x1
+
+    .line 7
+    .line 8
+    if-eq v3, p1, :cond_0
+
+    .line 9
+    .line 10
+    const/16 p1, 0x8
+
+    .line 11
+    goto :goto_0
+
+    .line 12
+    :cond_0
+    move p1, v2
+
+    .line 13
+    :goto_0
+    or-int/2addr p1, v1
+
+    .line 14
+    .line 15
+    iput p1, p0, Lhp;->A:I
+
+    .line 16
+    .line 17
+    if-eq v0, p1, :cond_1
+
+    .line 18
+    return v3
+
+    .line 19
+    :cond_1
+    return v2
+.end method
+
+.method public final setActionProvider(Landroid/view/ActionProvider;)Landroid/view/MenuItem;
+    .locals 0
+
+    .line 1
+    .line 2
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    .line 3
+    .line 4
+    const-string p1, "This is not supported, use MenuItemCompat.setActionProvider()"
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    .line 8
+    throw p0
+.end method
+
+.method public final bridge synthetic setActionView(I)Landroid/view/MenuItem;
+    .locals 3
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lhp;->j:Lhn;
+
+    .line 3
+    .line 4
+    iget-object v0, v0, Lhn;->a:Landroid/content/Context;
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-static {v0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    .line 8
+    move-result-object v1
+
+    .line 9
+    .line 10
+    new-instance v2, Landroid/widget/LinearLayout;
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-direct {v2, v0}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
+
+    .line 14
+    const/4 v0, 0x0
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-virtual {v1, p1, v2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    .line 18
+    move-result-object p1
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-virtual {p0, p1}, Lhp;->u(Landroid/view/View;)V
+
+    .line 22
+    return-object p0
+.end method
+
+.method public final bridge synthetic setActionView(Landroid/view/View;)Landroid/view/MenuItem;
+    .locals 0
+
+    .line 23
+    invoke-virtual {p0, p1}, Lhp;->u(Landroid/view/View;)V
+
+    return-object p0
+.end method
+
+.method public final setAlphabeticShortcut(C)Landroid/view/MenuItem;
+    .locals 1
+
+    .line 29
+    iget-char v0, p0, Lhp;->h:C
+
+    if-ne v0, p1, :cond_0
+
+    return-object p0
+
+    :cond_0
+    invoke-static {p1}, Ljava/lang/Character;->toLowerCase(C)C
+
+    move-result p1
+
+    iput-char p1, p0, Lhp;->h:C
+
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    const/4 v0, 0x0
+
+    .line 30
+    invoke-virtual {p1, v0}, Lhn;->l(Z)V
+
+    return-object p0
+.end method
+
+.method public final setAlphabeticShortcut(CI)Landroid/view/MenuItem;
+    .locals 1
+
+    .line 1
+    .line 2
+    iget-char v0, p0, Lhp;->h:C
+
+    .line 3
+    .line 4
+    if-ne v0, p1, :cond_0
+
+    .line 5
+    .line 6
+    iget v0, p0, Lhp;->i:I
+
+    .line 7
+    .line 8
+    if-ne v0, p2, :cond_0
+
+    .line 9
+    return-object p0
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    invoke-static {p1}, Ljava/lang/Character;->toLowerCase(C)C
+
+    .line 13
+    move-result p1
+
+    .line 14
+    .line 15
+    iput-char p1, p0, Lhp;->h:C
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-static {p2}, Landroid/view/KeyEvent;->normalizeMetaState(I)I
+
+    .line 19
+    move-result p1
+
+    .line 20
+    .line 21
+    iput p1, p0, Lhp;->i:I
+
+    .line 22
+    .line 23
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    .line 24
+    const/4 p2, 0x0
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-virtual {p1, p2}, Lhn;->l(Z)V
+
+    .line 28
+    return-object p0
+.end method
+
+.method public final setCheckable(Z)Landroid/view/MenuItem;
+    .locals 2
+
+    .line 1
+    .line 2
+    iget v0, p0, Lhp;->A:I
+
+    .line 3
+    .line 4
+    and-int/lit8 v1, v0, -0x2
+
+    .line 5
+    or-int/2addr p1, v1
+
+    .line 6
+    .line 7
+    iput p1, p0, Lhp;->A:I
+
+    .line 8
+    .line 9
+    if-eq v0, p1, :cond_0
+
+    .line 10
+    .line 11
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    .line 12
+    const/4 v0, 0x0
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {p1, v0}, Lhn;->l(Z)V
+
+    .line 16
+    :cond_0
+    return-object p0
+.end method
+
+.method public final setChecked(Z)Landroid/view/MenuItem;
+    .locals 7
+
+    .line 1
+    .line 2
+    iget v0, p0, Lhp;->A:I
+
+    .line 3
+    .line 4
+    and-int/lit8 v0, v0, 0x4
+
+    .line 5
+    .line 6
+    if-eqz v0, :cond_4
+
+    .line 7
+    .line 8
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    .line 9
+    .line 10
+    iget v0, p0, Lhp;->b:I
+
+    .line 11
+    .line 12
+    iget-object v1, p1, Lhn;->c:Ljava/util/ArrayList;
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+
+    .line 16
+    move-result v2
+
+    .line 17
+    .line 18
+    .line 19
+    invoke-virtual {p1}, Lhn;->s()V
+
+    .line 20
+    const/4 v3, 0x0
+
+    .line 21
+    move v4, v3
+
+    .line 22
+    .line 23
+    :goto_0
+    if-ge v4, v2, :cond_3
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-virtual {v1, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    .line 27
+    move-result-object v5
+
+    .line 28
+    .line 29
+    check-cast v5, Lhp;
+
+    .line 30
+    .line 31
+    iget v6, v5, Lhp;->b:I
+
+    .line 32
+    .line 33
+    if-ne v6, v0, :cond_2
+
+    .line 34
+    .line 35
+    .line 36
+    invoke-virtual {v5}, Lhp;->p()Z
+
+    .line 37
+    move-result v6
+
+    .line 38
+    .line 39
+    if-nez v6, :cond_0
+
+    .line 40
+    goto :goto_2
+
+    .line 41
+    .line 42
+    .line 43
+    :cond_0
+    invoke-virtual {v5}, Lhp;->isCheckable()Z
+
+    .line 44
+    move-result v6
+
+    .line 45
+    .line 46
+    if-eqz v6, :cond_2
+
+    .line 47
+    .line 48
+    if-ne v5, p0, :cond_1
+
+    .line 49
+    const/4 v6, 0x1
+
+    .line 50
+    goto :goto_1
+
+    .line 51
+    :cond_1
+    move v6, v3
+
+    .line 52
+    .line 53
+    .line 54
+    :goto_1
+    invoke-virtual {v5, v6}, Lhp;->i(Z)V
+
+    .line 55
+    .line 56
+    :cond_2
+    :goto_2
+    add-int/lit8 v4, v4, 0x1
+
+    .line 57
+    goto :goto_0
+
+    .line 58
+    .line 59
+    .line 60
+    :cond_3
+    invoke-virtual {p1}, Lhn;->r()V
+
+    .line 61
+    return-object p0
+
+    .line 62
+    .line 63
+    .line 64
+    :cond_4
+    invoke-virtual {p0, p1}, Lhp;->i(Z)V
+
+    .line 65
+    return-object p0
+.end method
+
+.method public final bridge synthetic setContentDescription(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1}, Lhp;->a(Ljava/lang/CharSequence;)V
+
+    .line 4
+    return-object p0
+.end method
+
+.method public final setEnabled(Z)Landroid/view/MenuItem;
+    .locals 1
+
+    .line 1
+    .line 2
+    iget v0, p0, Lhp;->A:I
+
+    .line 3
+    .line 4
+    if-eqz p1, :cond_0
+
+    .line 5
+    .line 6
+    or-int/lit8 p1, v0, 0x10
+
+    .line 7
+    goto :goto_0
+
+    .line 8
+    .line 9
+    :cond_0
+    and-int/lit8 p1, v0, -0x11
+
+    .line 10
+    .line 11
+    :goto_0
+    iput p1, p0, Lhp;->A:I
+
+    .line 12
+    .line 13
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    .line 14
+    const/4 v0, 0x0
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-virtual {p1, v0}, Lhn;->l(Z)V
+
+    .line 18
+    return-object p0
+.end method
+
+.method public final setIcon(I)Landroid/view/MenuItem;
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    .line 3
+    iput-object v0, p0, Lhp;->t:Landroid/graphics/drawable/Drawable;
+
+    .line 4
+    .line 5
+    iput p1, p0, Lhp;->u:I
+
+    .line 6
+    const/4 p1, 0x1
+
+    .line 7
+    .line 8
+    iput-boolean p1, p0, Lhp;->z:Z
+
+    .line 9
+    .line 10
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    .line 11
+    const/4 v0, 0x0
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-virtual {p1, v0}, Lhn;->l(Z)V
+
+    .line 15
+    return-object p0
+.end method
+
+.method public final setIcon(Landroid/graphics/drawable/Drawable;)Landroid/view/MenuItem;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 16
+    iput v0, p0, Lhp;->u:I
+
+    iput-object p1, p0, Lhp;->t:Landroid/graphics/drawable/Drawable;
+
+    const/4 p1, 0x1
+
+    iput-boolean p1, p0, Lhp;->z:Z
+
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    invoke-virtual {p1, v0}, Lhn;->l(Z)V
+
+    return-object p0
+.end method
+
+.method public final setIconTintList(Landroid/content/res/ColorStateList;)Landroid/view/MenuItem;
+    .locals 1
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lhp;->v:Landroid/content/res/ColorStateList;
+
+    .line 3
+    const/4 p1, 0x1
+
+    .line 4
+    .line 5
+    iput-boolean p1, p0, Lhp;->x:Z
+
+    .line 6
+    .line 7
+    iput-boolean p1, p0, Lhp;->z:Z
+
+    .line 8
+    .line 9
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    .line 10
+    const/4 v0, 0x0
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-virtual {p1, v0}, Lhn;->l(Z)V
+
+    .line 14
+    return-object p0
+.end method
+
+.method public final setIconTintMode(Landroid/graphics/PorterDuff$Mode;)Landroid/view/MenuItem;
+    .locals 1
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lhp;->w:Landroid/graphics/PorterDuff$Mode;
+
+    .line 3
+    const/4 p1, 0x1
+
+    .line 4
+    .line 5
+    iput-boolean p1, p0, Lhp;->y:Z
+
+    .line 6
+    .line 7
+    iput-boolean p1, p0, Lhp;->z:Z
+
+    .line 8
+    .line 9
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    .line 10
+    const/4 v0, 0x0
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-virtual {p1, v0}, Lhn;->l(Z)V
+
+    .line 14
+    return-object p0
+.end method
+
+.method public final setIntent(Landroid/content/Intent;)Landroid/view/MenuItem;
+    .locals 0
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lhp;->e:Landroid/content/Intent;
+
+    .line 3
+    return-object p0
+.end method
+
+.method public final setNumericShortcut(C)Landroid/view/MenuItem;
+    .locals 1
+
+    .line 25
+    iget-char v0, p0, Lhp;->f:C
+
+    if-ne v0, p1, :cond_0
+
+    return-object p0
+
+    :cond_0
+    iput-char p1, p0, Lhp;->f:C
+
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Lhn;->l(Z)V
+
+    return-object p0
+.end method
+
+.method public final setNumericShortcut(CI)Landroid/view/MenuItem;
+    .locals 1
+
+    .line 1
+    .line 2
+    iget-char v0, p0, Lhp;->f:C
+
+    .line 3
+    .line 4
+    if-ne v0, p1, :cond_0
+
+    .line 5
+    .line 6
+    iget v0, p0, Lhp;->g:I
+
+    .line 7
+    .line 8
+    if-ne v0, p2, :cond_0
+
+    .line 9
+    return-object p0
+
+    .line 10
+    .line 11
+    :cond_0
+    iput-char p1, p0, Lhp;->f:C
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-static {p2}, Landroid/view/KeyEvent;->normalizeMetaState(I)I
+
+    .line 15
+    move-result p1
+
+    .line 16
+    .line 17
+    iput p1, p0, Lhp;->g:I
+
+    .line 18
+    .line 19
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    .line 20
+    const/4 p2, 0x0
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-virtual {p1, p2}, Lhn;->l(Z)V
+
+    .line 24
+    return-object p0
+.end method
+
+.method public final setOnActionExpandListener(Landroid/view/MenuItem$OnActionExpandListener;)Landroid/view/MenuItem;
+    .locals 0
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lhp;->C:Landroid/view/MenuItem$OnActionExpandListener;
+
+    .line 3
+    return-object p0
+.end method
+
+.method public final setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem;
+    .locals 0
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lhp;->l:Landroid/view/MenuItem$OnMenuItemClickListener;
+
+    .line 3
+    return-object p0
+.end method
+
+.method public final setShortcut(CC)Landroid/view/MenuItem;
+    .locals 0
+
+    .line 28
+    iput-char p1, p0, Lhp;->f:C
+
+    invoke-static {p2}, Ljava/lang/Character;->toLowerCase(C)C
+
+    move-result p1
+
+    iput-char p1, p0, Lhp;->h:C
+
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    const/4 p2, 0x0
+
+    .line 29
+    invoke-virtual {p1, p2}, Lhn;->l(Z)V
+
+    return-object p0
+.end method
+
+.method public final setShortcut(CCII)Landroid/view/MenuItem;
+    .locals 0
+
+    .line 1
+    .line 2
+    iput-char p1, p0, Lhp;->f:C
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {p3}, Landroid/view/KeyEvent;->normalizeMetaState(I)I
+
+    .line 6
+    move-result p1
+
+    .line 7
+    .line 8
+    iput p1, p0, Lhp;->g:I
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-static {p2}, Ljava/lang/Character;->toLowerCase(C)C
+
+    .line 12
+    move-result p1
+
+    .line 13
+    .line 14
+    iput-char p1, p0, Lhp;->h:C
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-static {p4}, Landroid/view/KeyEvent;->normalizeMetaState(I)I
+
+    .line 18
+    move-result p1
+
+    .line 19
+    .line 20
+    iput p1, p0, Lhp;->i:I
+
+    .line 21
+    .line 22
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    .line 23
+    const/4 p2, 0x0
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-virtual {p1, p2}, Lhn;->l(Z)V
+
+    .line 27
+    return-object p0
+.end method
+
+.method public final setShowAsAction(I)V
+    .locals 2
+
+    .line 1
+    .line 2
+    and-int/lit8 v0, p1, 0x3
+
+    .line 3
+    .line 4
+    if-eqz v0, :cond_1
+
+    .line 5
+    const/4 v1, 0x1
+
+    .line 6
+    .line 7
+    if-eq v0, v1, :cond_1
+
+    .line 8
+    const/4 v1, 0x2
+
+    .line 9
+    .line 10
+    if-ne v0, v1, :cond_0
+
+    .line 11
+    goto :goto_0
+
+    .line 12
+    .line 13
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    .line 14
+    .line 15
+    const-string p1, "SHOW_AS_ACTION_ALWAYS, SHOW_AS_ACTION_IF_ROOM, and SHOW_AS_ACTION_NEVER are mutually exclusive."
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    .line 19
+    throw p0
+
+    .line 20
+    .line 21
+    :cond_1
+    :goto_0
+    iput p1, p0, Lhp;->o:I
+
+    .line 22
+    .line 23
+    iget-object p0, p0, Lhp;->j:Lhn;
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-virtual {p0}, Lhn;->A()V
+
+    .line 27
+    return-void
+.end method
+
+.method public final synthetic setShowAsActionFlags(I)Landroid/view/MenuItem;
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1}, Lhp;->setShowAsAction(I)V
+
+    .line 4
+    return-object p0
+.end method
+
+.method public final setTitle(I)Landroid/view/MenuItem;
+    .locals 1
+
+    .line 17
+    iget-object v0, p0, Lhp;->j:Lhn;
+
+    iget-object v0, v0, Lhn;->a:Landroid/content/Context;
+
+    invoke-virtual {v0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lhp;->setTitle(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+
+    return-object p0
+.end method
+
+.method public final setTitle(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+    .locals 2
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lhp;->d:Ljava/lang/CharSequence;
+
+    .line 3
+    .line 4
+    iget-object v0, p0, Lhp;->j:Lhn;
+
+    .line 5
+    const/4 v1, 0x0
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {v0, v1}, Lhn;->l(Z)V
+
+    .line 9
+    .line 10
+    iget-object v0, p0, Lhp;->k:Lif;
+
+    .line 11
+    .line 12
+    if-eqz v0, :cond_0
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {v0, p1}, Lif;->setHeaderTitle(Ljava/lang/CharSequence;)Landroid/view/SubMenu;
+
+    .line 16
+    :cond_0
+    return-object p0
+.end method
+
+.method public final setTitleCondensed(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+    .locals 1
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lhp;->s:Ljava/lang/CharSequence;
+
+    .line 3
+    .line 4
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    .line 5
+    const/4 v0, 0x0
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {p1, v0}, Lhn;->l(Z)V
+
+    .line 9
+    return-object p0
+.end method
+
+.method public final bridge synthetic setTooltipText(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1}, Lhp;->b(Ljava/lang/CharSequence;)V
+
+    .line 4
+    return-object p0
+.end method
+
+.method public final setVisible(Z)Landroid/view/MenuItem;
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1}, Lhp;->s(Z)Z
+
+    .line 4
+    move-result p1
+
+    .line 5
+    .line 6
+    if-eqz p1, :cond_0
+
+    .line 7
+    .line 8
+    iget-object p1, p0, Lhp;->j:Lhn;
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-virtual {p1}, Lhn;->B()V
+
+    .line 12
+    :cond_0
+    return-object p0
+.end method
+
+.method public final t()Z
+    .locals 1
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lhp;->j:Lhn;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-virtual {v0}, Lhn;->y()Z
+
+    .line 6
+    move-result v0
+
+    .line 7
+    .line 8
+    if-eqz v0, :cond_0
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-virtual {p0}, Lhp;->e()C
+
+    .line 12
+    move-result p0
+
+    .line 13
+    .line 14
+    if-eqz p0, :cond_0
+
+    .line 15
+    const/4 p0, 0x1
+
+    .line 16
+    return p0
+
+    .line 17
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 18
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    .line 2
+    iget-object p0, p0, Lhp;->d:Ljava/lang/CharSequence;
+
+    .line 3
+    .line 4
+    if-eqz p0, :cond_0
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-interface {p0}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+
+    .line 8
+    move-result-object p0
+
+    .line 9
+    return-object p0
+
+    .line 10
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 11
+    return-object p0
+.end method
+
+.method public final u(Landroid/view/View;)V
+    .locals 2
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lhp;->B:Landroid/view/View;
+
+    .line 3
+    const/4 v0, 0x0
+
+    .line 4
+    .line 5
+    iput-object v0, p0, Lhp;->q:Lfyc;
+
+    .line 6
+    .line 7
+    if-eqz p1, :cond_0
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    .line 11
+    move-result v0
+
+    .line 12
+    const/4 v1, -0x1
+
+    .line 13
+    .line 14
+    if-ne v0, v1, :cond_0
+
+    .line 15
+    .line 16
+    iget v0, p0, Lhp;->a:I
+
+    .line 17
+    .line 18
+    if-lez v0, :cond_0
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-virtual {p1, v0}, Landroid/view/View;->setId(I)V
+
+    .line 22
+    .line 23
+    :cond_0
+    iget-object p0, p0, Lhp;->j:Lhn;
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-virtual {p0}, Lhn;->A()V
+
+    .line 27
+    return-void
+.end method

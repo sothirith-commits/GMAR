@@ -1,0 +1,3 @@
+.class public interface abstract Lads_mobile_sdk/qx1;
+.super Ljava/lang/Object;
+.source "SourceFile"

@@ -1,0 +1,17 @@
+.class public abstract Lorg/commonmark/node/CustomBlock;
+.super Lorg/commonmark/node/Block;
+.source "SourceFile"
+
+
+# virtual methods
+.method public accept(Lorg/commonmark/node/Visitor;)V
+    .locals 0
+
+    .line 1
+    invoke-interface {p1, p0}, Lorg/commonmark/node/Visitor;->visit(Lorg/commonmark/node/CustomBlock;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

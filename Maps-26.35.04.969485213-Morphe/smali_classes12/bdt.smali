@@ -1,0 +1,213 @@
+.class public final synthetic Lbdt;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbau;
+
+
+# instance fields
+.field public final synthetic a:Ljava/lang/Object;
+
+.field private final synthetic b:I
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/Object;I)V
+    .locals 0
+
+    .line 1
+    iput p2, p0, Lbdt;->b:I
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    iput-object p1, p0, Lbdt;->a:Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public constructor <init>(Lxl;I)V
+    .locals 0
+
+    .line 9
+    iput p2, p0, Lbdt;->b:I
+
+    iput-object p1, p0, Lbdt;->a:Ljava/lang/Object;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture;
+    .locals 2
+
+    .line 1
+    iget v0, p0, Lbdt;->b:I
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_3
+
+    .line 4
+    .line 5
+    const/4 v1, 0x1
+
+    .line 6
+    if-eq v0, v1, :cond_2
+
+    .line 7
+    .line 8
+    const/4 v1, 0x2
+
+    .line 9
+    if-eq v0, v1, :cond_1
+
+    .line 10
+    .line 11
+    const/4 v1, 0x3
+
+    .line 12
+    if-eq v0, v1, :cond_0
+
+    .line 13
+    .line 14
+    check-cast p1, Ljava/lang/Void;
+
+    .line 15
+    .line 16
+    iget-object p0, p0, Lbdt;->a:Ljava/lang/Object;
+
+    .line 17
+    .line 18
+    check-cast p0, Lbjr;
+
+    .line 19
+    .line 20
+    iget-object p0, p0, Lbjr;->a:Lbkc;
+
+    .line 21
+    .line 22
+    invoke-virtual {p0}, Lbkc;->b()Lcom/google/common/util/concurrent/ListenableFuture;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object p0
+
+    .line 26
+    return-object p0
+
+    .line 27
+    :cond_0
+    iget-object p0, p0, Lbdt;->a:Ljava/lang/Object;
+
+    .line 28
+    .line 29
+    invoke-static {p0, p1}, La;->j(Lkotlin/jvm/functions/Function1;Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object p0
+
+    .line 33
+    return-object p0
+
+    .line 34
+    :cond_1
+    check-cast p1, Ljava/lang/Void;
+
+    .line 35
+    .line 36
+    iget-object p0, p0, Lbdt;->a:Ljava/lang/Object;
+
+    .line 37
+    .line 38
+    invoke-interface {p0}, Lcom/google/common/util/concurrent/ListenableFuture;->get()Ljava/lang/Object;
+
+    .line 39
+    .line 40
+    .line 41
+    move-result-object p0
+
+    .line 42
+    check-cast p0, Lauk;
+
+    .line 43
+    .line 44
+    invoke-interface {p0}, Lauk;->a()Lcom/google/common/util/concurrent/ListenableFuture;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object p0
+
+    .line 48
+    return-object p0
+
+    .line 49
+    :cond_2
+    iget-object p0, p0, Lbdt;->a:Ljava/lang/Object;
+
+    .line 50
+    .line 51
+    invoke-interface {p0, p1}, Lxl;->a(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 52
+    .line 53
+    .line 54
+    move-result-object p0
+
+    .line 55
+    invoke-static {p0}, Lbas;->c(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture;
+
+    .line 56
+    .line 57
+    .line 58
+    move-result-object p0
+
+    .line 59
+    return-object p0
+
+    .line 60
+    :cond_3
+    check-cast p1, Lauk;
+
+    .line 61
+    .line 62
+    iget-object p0, p0, Lbdt;->a:Ljava/lang/Object;
+
+    .line 63
+    .line 64
+    invoke-interface {p0}, Lcom/google/common/util/concurrent/ListenableFuture;->get()Ljava/lang/Object;
+
+    .line 65
+    .line 66
+    .line 67
+    move-result-object p0
+
+    .line 68
+    check-cast p0, Lauk;
+
+    .line 69
+    .line 70
+    invoke-interface {p0}, Lauk;->b()Lcom/google/common/util/concurrent/ListenableFuture;
+
+    .line 71
+    .line 72
+    .line 73
+    move-result-object p0
+
+    .line 74
+    return-object p0
+.end method

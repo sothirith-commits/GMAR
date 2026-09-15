@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/margin_normal" style="@style/MaterialCardViewSecondary"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center" android:id="@id/messageToastMessage" android:padding="@dimen/margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/margin_20" android:layout_marginStart="@dimen/margin_normal" android:layout_marginEnd="@dimen/margin_20" app:drawableLeftCompat="@drawable/ic_baseline_task_alt_24" app:drawableTint="?colorPrimary" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="parent" style="@style/TextAppearance.Material3.TitleMedium" />
+</com.google.android.material.card.MaterialCardView>

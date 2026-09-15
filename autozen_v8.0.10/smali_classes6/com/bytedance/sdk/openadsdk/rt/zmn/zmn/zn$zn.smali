@@ -1,0 +1,25 @@
+.class public interface abstract Lcom/bytedance/sdk/openadsdk/rt/zmn/zmn/zn$zn;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bytedance/sdk/openadsdk/rt/zmn/zmn/zn;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "zn"
+.end annotation
+
+
+# virtual methods
+.method public fs(Ljava/lang/String;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public abstract zmn(Ljava/lang/String;)V
+.end method

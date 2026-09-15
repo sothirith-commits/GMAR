@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>zadzwoń</item>
+        <item>zadzwoń do</item>
+        <item>rozpocznij</item>
+        <item>rozmowę</item>
+        <item>zadzwoń</item>
+        <item>rozpocznij rozmowę z</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>dom</item>
+        <item>domu</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>wyznacz trasę</item>
+        <item>wyznacz trasę do</item>
+        <item>nawiguj</item>
+        <item>nawiguj do</item>
+        <item>prowadź</item>
+        <item>przejdź</item>
+        <item>prowadź do</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>następny</item>
+        <item>następna</item>
+        <item>kolejna</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>otwórz</item>
+        <item>uruchom</item>
+        <item>włącz</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>zatrzymaj</item>
+        <item>wstrzymaj</item>
+        <item>zastopuj</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>włącz</item>
+        <item>odtwarzaj</item>
+        <item>puść</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>poprzedni</item>
+        <item>poprzednia</item>
+        <item>wcześniejsza</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>szukaj</item>
+        <item>znajdź</item>
+        <item>wyszukaj</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>pogoda</item>
+        <item>aura</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>praca</item>
+        <item>pracy</item>
+    </string-array>
+</resources>

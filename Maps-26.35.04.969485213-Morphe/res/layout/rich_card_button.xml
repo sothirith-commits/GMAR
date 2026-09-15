@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton android:theme="@style/Theme.GoogleMaterial.Light" android:layout_gravity="end" android:id="@id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/rich_card_button_min_height" android:insetTop="@dimen/rich_card_button_inset" android:insetBottom="@dimen/rich_card_button_inset" android:filterTouchesWhenObscured="true" app:cornerRadius="@dimen/rich_card_button_corner_radius" app:strokeWidth="@dimen/rich_card_button_stroke_width" style="@style/TextAppearance.GoogleMaterial3.LabelLarge"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

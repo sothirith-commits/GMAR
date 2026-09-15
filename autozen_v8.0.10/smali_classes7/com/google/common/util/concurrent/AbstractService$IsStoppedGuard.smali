@@ -1,0 +1,65 @@
+.class final Lcom/google/common/util/concurrent/AbstractService$IsStoppedGuard;
+.super Lcom/google/common/util/concurrent/Monitor$Guard;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/util/concurrent/AbstractService;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x11
+    name = "IsStoppedGuard"
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/google/common/util/concurrent/AbstractService;
+
+
+# virtual methods
+.method public isSatisfied()Z
+    .locals 1
+
+    .line 1
+    iget-object p0, p0, Lcom/google/common/util/concurrent/AbstractService$IsStoppedGuard;->this$0:Lcom/google/common/util/concurrent/AbstractService;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/common/util/concurrent/AbstractService;->state()Lcom/google/common/util/concurrent/Service$State;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    sget-object v0, Lcom/google/common/util/concurrent/Service$State;->TERMINATED:Lcom/google/common/util/concurrent/Service$State;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0}, Ljava/lang/Enum;->compareTo(Ljava/lang/Enum;)I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p0
+
+    .line 13
+    if-ltz p0, :cond_0
+
+    .line 14
+    .line 15
+    const/4 p0, 0x1
+
+    .line 16
+    return p0
+
+    .line 17
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 18
+    return p0
+.end method

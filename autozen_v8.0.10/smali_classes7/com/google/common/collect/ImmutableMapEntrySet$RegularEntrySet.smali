@@ -1,0 +1,143 @@
+.class final Lcom/google/common/collect/ImmutableMapEntrySet$RegularEntrySet;
+.super Lcom/google/common/collect/ImmutableMapEntrySet;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/ImmutableMapEntrySet;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "RegularEntrySet"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ImmutableMapEntrySet<",
+        "TK;TV;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final transient entries:Lcom/google/common/collect/ImmutableList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/google/common/collect/ImmutableList<",
+            "Ljava/util/Map$Entry<",
+            "TK;TV;>;>;"
+        }
+    .end annotation
+.end field
+
+.field private final transient map:Lcom/google/common/collect/ImmutableMap;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/google/common/collect/ImmutableMap<",
+            "TK;TV;>;"
+        }
+    .end annotation
+.end field
+
+
+# virtual methods
+.method public copyIntoArray([Ljava/lang/Object;I)I
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/google/common/collect/ImmutableMapEntrySet$RegularEntrySet;->entries:Lcom/google/common/collect/ImmutableList;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableList;->copyIntoArray([Ljava/lang/Object;I)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    return p0
+.end method
+
+.method public createAsList()Lcom/google/common/collect/ImmutableList;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/google/common/collect/ImmutableList<",
+            "Ljava/util/Map$Entry<",
+            "TK;TV;>;>;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lcom/google/common/collect/ImmutableMapEntrySet$RegularEntrySet;->entries:Lcom/google/common/collect/ImmutableList;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public iterator()Lcom/google/common/collect/UnmodifiableIterator;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/google/common/collect/UnmodifiableIterator<",
+            "Ljava/util/Map$Entry<",
+            "TK;TV;>;>;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lcom/google/common/collect/ImmutableMapEntrySet$RegularEntrySet;->entries:Lcom/google/common/collect/ImmutableList;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/common/collect/ImmutableList;->iterator()Lcom/google/common/collect/UnmodifiableIterator;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    return-object p0
+.end method
+
+.method public bridge synthetic iterator()Ljava/util/Iterator;
+    .locals 0
+
+    .line 8
+    invoke-virtual {p0}, Lcom/google/common/collect/ImmutableMapEntrySet$RegularEntrySet;->iterator()Lcom/google/common/collect/UnmodifiableIterator;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public map()Lcom/google/common/collect/ImmutableMap;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/google/common/collect/ImmutableMap<",
+            "TK;TV;>;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lcom/google/common/collect/ImmutableMapEntrySet$RegularEntrySet;->map:Lcom/google/common/collect/ImmutableMap;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

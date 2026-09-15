@@ -1,0 +1,21 @@
+.class public final Landroidx/core/R$drawable;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/core/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "drawable"
+.end annotation
+
+
+# static fields
+.field public static ic_call_answer:I = 0x7f080195
+
+.field public static ic_call_answer_video:I = 0x7f080197
+
+.field public static ic_call_decline:I = 0x7f080199

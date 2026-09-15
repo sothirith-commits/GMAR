@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>appeler</item>
+        <item>appel</item>
+        <item>appel à</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>domicile</item>
+        <item>maison</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>naviguer</item>
+        <item>accéder</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>suivant</item>
+        <item>prochaine</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>ouvrir</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>pause</item>
+        <item>arrêter</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>lire de la musique</item>
+        <item>lire</item>
+        <item>jouer</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>précédent</item>
+        <item>précédente</item>
+        <item>retour</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>trouver</item>
+        <item>trouver des</item>
+        <item>rechercher</item>
+        <item>fouiller</item>
+        <item>rechercher des</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>la météo</item>
+        <item>météo</item>
+        <item>temps</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>travail</item>
+    </string-array>
+</resources>

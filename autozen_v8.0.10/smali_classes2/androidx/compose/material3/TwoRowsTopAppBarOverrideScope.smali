@@ -1,0 +1,613 @@
+.class public final Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000X\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008!\u0008\u0007\u0018\u00002\u00020\u0001B\u00ec\u0001\u0008\u0000\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0011\u0010\u0004\u001a\r\u0012\u0004\u0012\u00020\u00060\u0005\u00a2\u0006\u0002\u0008\u0007\u0012\u0006\u0010\u0008\u001a\u00020\t\u0012\u0006\u0010\n\u001a\u00020\u000b\u0012\u0011\u0010\u000c\u001a\r\u0012\u0004\u0012\u00020\u00060\u0005\u00a2\u0006\u0002\u0008\u0007\u0012\u0006\u0010\r\u001a\u00020\t\u0012\u0013\u0010\u000e\u001a\u000f\u0012\u0004\u0012\u00020\u0006\u0018\u00010\u0005\u00a2\u0006\u0002\u0008\u0007\u0012\u0006\u0010\u000f\u001a\u00020\t\u0012\u0013\u0010\u0010\u001a\u000f\u0012\u0004\u0012\u00020\u0006\u0018\u00010\u0005\u00a2\u0006\u0002\u0008\u0007\u0012\u0006\u0010\u0011\u001a\u00020\t\u0012\u0006\u0010\u0012\u001a\u00020\u0013\u0012\u0011\u0010\u0014\u001a\r\u0012\u0004\u0012\u00020\u00060\u0005\u00a2\u0006\u0002\u0008\u0007\u0012\u001c\u0010\u0015\u001a\u0018\u0012\u0004\u0012\u00020\u0017\u0012\u0004\u0012\u00020\u00060\u0016\u00a2\u0006\u0002\u0008\u0007\u00a2\u0006\u0002\u0008\u0018\u0012\u0006\u0010\u0019\u001a\u00020\u000b\u0012\u0006\u0010\u001a\u001a\u00020\u000b\u0012\u0006\u0010\u001b\u001a\u00020\u001c\u0012\u0006\u0010\u001d\u001a\u00020\u001e\u0012\u0008\u0010\u001f\u001a\u0004\u0018\u00010 \u00a2\u0006\u0004\u0008!\u0010\"R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008#\u0010$R\u001e\u0010\u0004\u001a\r\u0012\u0004\u0012\u00020\u00060\u0005\u00a2\u0006\u0002\u0008\u0007\u00a2\u0006\n\n\u0002\u0010\'\u001a\u0004\u0008%\u0010&R\u0011\u0010\u0008\u001a\u00020\t\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008(\u0010)R\u0013\u0010\n\u001a\u00020\u000b\u00a2\u0006\n\n\u0002\u0010,\u001a\u0004\u0008*\u0010+R\u001e\u0010\u000c\u001a\r\u0012\u0004\u0012\u00020\u00060\u0005\u00a2\u0006\u0002\u0008\u0007\u00a2\u0006\n\n\u0002\u0010\'\u001a\u0004\u0008-\u0010&R\u0011\u0010\r\u001a\u00020\t\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008.\u0010)R \u0010\u000e\u001a\u000f\u0012\u0004\u0012\u00020\u0006\u0018\u00010\u0005\u00a2\u0006\u0002\u0008\u0007\u00a2\u0006\n\n\u0002\u0010\'\u001a\u0004\u0008/\u0010&R\u0011\u0010\u000f\u001a\u00020\t\u00a2\u0006\u0008\n\u0000\u001a\u0004\u00080\u0010)R \u0010\u0010\u001a\u000f\u0012\u0004\u0012\u00020\u0006\u0018\u00010\u0005\u00a2\u0006\u0002\u0008\u0007\u00a2\u0006\n\n\u0002\u0010\'\u001a\u0004\u00081\u0010&R\u0011\u0010\u0011\u001a\u00020\t\u00a2\u0006\u0008\n\u0000\u001a\u0004\u00082\u0010)R\u0011\u0010\u0012\u001a\u00020\u0013\u00a2\u0006\u0008\n\u0000\u001a\u0004\u00083\u00104R\u001e\u0010\u0014\u001a\r\u0012\u0004\u0012\u00020\u00060\u0005\u00a2\u0006\u0002\u0008\u0007\u00a2\u0006\n\n\u0002\u0010\'\u001a\u0004\u00085\u0010&R)\u0010\u0015\u001a\u0018\u0012\u0004\u0012\u00020\u0017\u0012\u0004\u0012\u00020\u00060\u0016\u00a2\u0006\u0002\u0008\u0007\u00a2\u0006\u0002\u0008\u0018\u00a2\u0006\n\n\u0002\u00108\u001a\u0004\u00086\u00107R\u0013\u0010\u0019\u001a\u00020\u000b\u00a2\u0006\n\n\u0002\u0010,\u001a\u0004\u00089\u0010+R\u0013\u0010\u001a\u001a\u00020\u000b\u00a2\u0006\n\n\u0002\u0010,\u001a\u0004\u0008:\u0010+R\u0011\u0010\u001b\u001a\u00020\u001c\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008;\u0010<R\u0011\u0010\u001d\u001a\u00020\u001e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008=\u0010>R\u0013\u0010\u001f\u001a\u0004\u0018\u00010 \u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008?\u0010@\u00a8\u0006A"
+    }
+    d2 = {
+        "Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;",
+        "",
+        "modifier",
+        "Landroidx/compose/ui/Modifier;",
+        "title",
+        "Lkotlin/Function0;",
+        "",
+        "Landroidx/compose/runtime/Composable;",
+        "titleTextStyle",
+        "Landroidx/compose/ui/text/TextStyle;",
+        "titleBottomPadding",
+        "Landroidx/compose/ui/unit/Dp;",
+        "smallTitle",
+        "smallTitleTextStyle",
+        "subtitle",
+        "subtitleTextStyle",
+        "smallSubtitle",
+        "smallSubtitleTextStyle",
+        "titleHorizontalAlignment",
+        "Landroidx/compose/ui/Alignment$Horizontal;",
+        "navigationIcon",
+        "actions",
+        "Lkotlin/Function1;",
+        "Landroidx/compose/foundation/layout/RowScope;",
+        "Lkotlin/ExtensionFunctionType;",
+        "collapsedHeight",
+        "expandedHeight",
+        "windowInsets",
+        "Landroidx/compose/foundation/layout/WindowInsets;",
+        "colors",
+        "Landroidx/compose/material3/TopAppBarColors;",
+        "scrollBehavior",
+        "Landroidx/compose/material3/TopAppBarScrollBehavior;",
+        "<init>",
+        "(Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;FLkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/Alignment$Horizontal;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;FFLandroidx/compose/foundation/layout/WindowInsets;Landroidx/compose/material3/TopAppBarColors;Landroidx/compose/material3/TopAppBarScrollBehavior;Lkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "getModifier",
+        "()Landroidx/compose/ui/Modifier;",
+        "getTitle",
+        "()Lkotlin/jvm/functions/Function2;",
+        "Lkotlin/jvm/functions/Function2;",
+        "getTitleTextStyle",
+        "()Landroidx/compose/ui/text/TextStyle;",
+        "getTitleBottomPadding-D9Ej5fM",
+        "()F",
+        "F",
+        "getSmallTitle",
+        "getSmallTitleTextStyle",
+        "getSubtitle",
+        "getSubtitleTextStyle",
+        "getSmallSubtitle",
+        "getSmallSubtitleTextStyle",
+        "getTitleHorizontalAlignment",
+        "()Landroidx/compose/ui/Alignment$Horizontal;",
+        "getNavigationIcon",
+        "getActions",
+        "()Lkotlin/jvm/functions/Function3;",
+        "Lkotlin/jvm/functions/Function3;",
+        "getCollapsedHeight-D9Ej5fM",
+        "getExpandedHeight-D9Ej5fM",
+        "getWindowInsets",
+        "()Landroidx/compose/foundation/layout/WindowInsets;",
+        "getColors",
+        "()Landroidx/compose/material3/TopAppBarColors;",
+        "getScrollBehavior",
+        "()Landroidx/compose/material3/TopAppBarScrollBehavior;",
+        "material3"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field private final actions:Lkotlin/jvm/functions/Function3;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function3<",
+            "Landroidx/compose/foundation/layout/RowScope;",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final collapsedHeight:F
+
+.field private final colors:Landroidx/compose/material3/TopAppBarColors;
+
+.field private final expandedHeight:F
+
+.field private final modifier:Landroidx/compose/ui/Modifier;
+
+.field private final navigationIcon:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final scrollBehavior:Landroidx/compose/material3/TopAppBarScrollBehavior;
+
+.field private final smallSubtitle:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final smallSubtitleTextStyle:Landroidx/compose/ui/text/TextStyle;
+
+.field private final smallTitle:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final smallTitleTextStyle:Landroidx/compose/ui/text/TextStyle;
+
+.field private final subtitle:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final subtitleTextStyle:Landroidx/compose/ui/text/TextStyle;
+
+.field private final title:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final titleBottomPadding:F
+
+.field private final titleHorizontalAlignment:Landroidx/compose/ui/Alignment$Horizontal;
+
+.field private final titleTextStyle:Landroidx/compose/ui/text/TextStyle;
+
+.field private final windowInsets:Landroidx/compose/foundation/layout/WindowInsets;
+
+
+# direct methods
+.method private constructor <init>(Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;FLkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/Alignment$Horizontal;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;FFLandroidx/compose/foundation/layout/WindowInsets;Landroidx/compose/material3/TopAppBarColors;Landroidx/compose/material3/TopAppBarScrollBehavior;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/compose/ui/Modifier;",
+            "Lkotlin/jvm/functions/Function2<",
+            "-",
+            "Landroidx/compose/runtime/Composer;",
+            "-",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;",
+            "Landroidx/compose/ui/text/TextStyle;",
+            "F",
+            "Lkotlin/jvm/functions/Function2<",
+            "-",
+            "Landroidx/compose/runtime/Composer;",
+            "-",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;",
+            "Landroidx/compose/ui/text/TextStyle;",
+            "Lkotlin/jvm/functions/Function2<",
+            "-",
+            "Landroidx/compose/runtime/Composer;",
+            "-",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;",
+            "Landroidx/compose/ui/text/TextStyle;",
+            "Lkotlin/jvm/functions/Function2<",
+            "-",
+            "Landroidx/compose/runtime/Composer;",
+            "-",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;",
+            "Landroidx/compose/ui/text/TextStyle;",
+            "Landroidx/compose/ui/Alignment$Horizontal;",
+            "Lkotlin/jvm/functions/Function2<",
+            "-",
+            "Landroidx/compose/runtime/Composer;",
+            "-",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;",
+            "Lkotlin/jvm/functions/Function3<",
+            "-",
+            "Landroidx/compose/foundation/layout/RowScope;",
+            "-",
+            "Landroidx/compose/runtime/Composer;",
+            "-",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;FF",
+            "Landroidx/compose/foundation/layout/WindowInsets;",
+            "Landroidx/compose/material3/TopAppBarColors;",
+            "Landroidx/compose/material3/TopAppBarScrollBehavior;",
+            ")V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->modifier:Landroidx/compose/ui/Modifier;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->title:Lkotlin/jvm/functions/Function2;
+
+    .line 7
+    .line 8
+    iput-object p3, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->titleTextStyle:Landroidx/compose/ui/text/TextStyle;
+
+    .line 9
+    .line 10
+    iput p4, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->titleBottomPadding:F
+
+    .line 11
+    .line 12
+    iput-object p5, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->smallTitle:Lkotlin/jvm/functions/Function2;
+
+    .line 13
+    .line 14
+    iput-object p6, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->smallTitleTextStyle:Landroidx/compose/ui/text/TextStyle;
+
+    .line 15
+    .line 16
+    iput-object p7, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->subtitle:Lkotlin/jvm/functions/Function2;
+
+    .line 17
+    .line 18
+    iput-object p8, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->subtitleTextStyle:Landroidx/compose/ui/text/TextStyle;
+
+    .line 19
+    .line 20
+    iput-object p9, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->smallSubtitle:Lkotlin/jvm/functions/Function2;
+
+    .line 21
+    .line 22
+    iput-object p10, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->smallSubtitleTextStyle:Landroidx/compose/ui/text/TextStyle;
+
+    .line 23
+    .line 24
+    iput-object p11, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->titleHorizontalAlignment:Landroidx/compose/ui/Alignment$Horizontal;
+
+    .line 25
+    .line 26
+    iput-object p12, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->navigationIcon:Lkotlin/jvm/functions/Function2;
+
+    .line 27
+    .line 28
+    iput-object p13, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->actions:Lkotlin/jvm/functions/Function3;
+
+    .line 29
+    .line 30
+    iput p14, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->collapsedHeight:F
+
+    .line 31
+    .line 32
+    iput p15, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->expandedHeight:F
+
+    .line 33
+    .line 34
+    move-object/from16 p1, p16
+
+    .line 35
+    .line 36
+    iput-object p1, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->windowInsets:Landroidx/compose/foundation/layout/WindowInsets;
+
+    .line 37
+    .line 38
+    move-object/from16 p1, p17
+
+    .line 39
+    .line 40
+    iput-object p1, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->colors:Landroidx/compose/material3/TopAppBarColors;
+
+    .line 41
+    .line 42
+    move-object/from16 p1, p18
+
+    .line 43
+    .line 44
+    iput-object p1, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->scrollBehavior:Landroidx/compose/material3/TopAppBarScrollBehavior;
+
+    .line 45
+    .line 46
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;FLkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/Alignment$Horizontal;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;FFLandroidx/compose/foundation/layout/WindowInsets;Landroidx/compose/material3/TopAppBarColors;Landroidx/compose/material3/TopAppBarScrollBehavior;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    .line 47
+    invoke-direct/range {p0 .. p18}, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;-><init>(Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;FLkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/Alignment$Horizontal;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;FFLandroidx/compose/foundation/layout/WindowInsets;Landroidx/compose/material3/TopAppBarColors;Landroidx/compose/material3/TopAppBarScrollBehavior;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getActions()Lkotlin/jvm/functions/Function3;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function3<",
+            "Landroidx/compose/foundation/layout/RowScope;",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->actions:Lkotlin/jvm/functions/Function3;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getCollapsedHeight-D9Ej5fM()F
+    .locals 0
+
+    .line 1
+    iget p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->collapsedHeight:F
+
+    .line 2
+    .line 3
+    return p0
+.end method
+
+.method public final getColors()Landroidx/compose/material3/TopAppBarColors;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->colors:Landroidx/compose/material3/TopAppBarColors;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getExpandedHeight-D9Ej5fM()F
+    .locals 0
+
+    .line 1
+    iget p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->expandedHeight:F
+
+    .line 2
+    .line 3
+    return p0
+.end method
+
+.method public final getModifier()Landroidx/compose/ui/Modifier;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->modifier:Landroidx/compose/ui/Modifier;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getNavigationIcon()Lkotlin/jvm/functions/Function2;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->navigationIcon:Lkotlin/jvm/functions/Function2;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getScrollBehavior()Landroidx/compose/material3/TopAppBarScrollBehavior;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->scrollBehavior:Landroidx/compose/material3/TopAppBarScrollBehavior;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getSmallSubtitle()Lkotlin/jvm/functions/Function2;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->smallSubtitle:Lkotlin/jvm/functions/Function2;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getSmallSubtitleTextStyle()Landroidx/compose/ui/text/TextStyle;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->smallSubtitleTextStyle:Landroidx/compose/ui/text/TextStyle;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getSmallTitle()Lkotlin/jvm/functions/Function2;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->smallTitle:Lkotlin/jvm/functions/Function2;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getSmallTitleTextStyle()Landroidx/compose/ui/text/TextStyle;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->smallTitleTextStyle:Landroidx/compose/ui/text/TextStyle;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getSubtitle()Lkotlin/jvm/functions/Function2;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->subtitle:Lkotlin/jvm/functions/Function2;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getSubtitleTextStyle()Landroidx/compose/ui/text/TextStyle;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->subtitleTextStyle:Landroidx/compose/ui/text/TextStyle;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getTitle()Lkotlin/jvm/functions/Function2;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->title:Lkotlin/jvm/functions/Function2;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getTitleBottomPadding-D9Ej5fM()F
+    .locals 0
+
+    .line 1
+    iget p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->titleBottomPadding:F
+
+    .line 2
+    .line 3
+    return p0
+.end method
+
+.method public final getTitleHorizontalAlignment()Landroidx/compose/ui/Alignment$Horizontal;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->titleHorizontalAlignment:Landroidx/compose/ui/Alignment$Horizontal;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getTitleTextStyle()Landroidx/compose/ui/text/TextStyle;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->titleTextStyle:Landroidx/compose/ui/text/TextStyle;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getWindowInsets()Landroidx/compose/foundation/layout/WindowInsets;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/compose/material3/TwoRowsTopAppBarOverrideScope;->windowInsets:Landroidx/compose/foundation/layout/WindowInsets;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

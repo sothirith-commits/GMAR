@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="com.google.firebase.crashlytics.build_ids_arch">
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+    </string-array>
+    <string-array name="com.google.firebase.crashlytics.build_ids_build_id">
+        <item>f280d7437eed683cec39a8bcf351d2f1e222b4c5</item>
+        <item>91bd6093d5fd8785030d9bc9d4db70b2ba465eaa</item>
+        <item>fa98a997cdd9b43f190a4bd20f3dad441b4062f0</item>
+        <item>509b080cb9f5abf45747980bc20c1d801cdbf6e8</item>
+        <item>06a79a0be901af72299e80f6e72b71c5</item>
+        <item>f2681454f42242d2e3ac79b185eb0d3587447900</item>
+        <item>b3efc37b5818b28199b39a887585fe4d75adc3e7</item>
+        <item>6f463f5d327cb53b6159f4e5a16e310887cacfba</item>
+        <item>cbdeabfc2ff11bfbcecb53f19e4268d8dacd974c</item>
+        <item>c3db5b1bd64ae94f3a3dafabe2f2ecdea96a7895</item>
+        <item>e31c73692abd400e5bf37d13825c51f36902b79b</item>
+        <item>a063828959d25f31b0d25c21937c273aa265065c</item>
+        <item>66a36bbb57cc940fc182f1b55d30016feddf471f</item>
+        <item>5082e4ea8e2ddf3b9144f767f4fce3240175f76d</item>
+        <item>0a34219ca990e700e44ab6525bbebb6b4d3095e9</item>
+        <item>f60af966e94fdbb8a18af97d5baef078c57cdd88</item>
+        <item>05eaa9ad54116946b98b09cb456e9fbaf49a484d</item>
+        <item>d45ffecc375a4ff77fcb8759c1cf285f2c8e06ed</item>
+        <item>11a983100fbf0cfc89b2b05af1e6ee2e0f167980</item>
+        <item>a7846ae06d6bf6cf63fa7c5e056b5de493c71567</item>
+        <item>d110cb6f3edbb540992a7a4e54f02565ad48acba</item>
+        <item>950a621bf22dd1f221ee9536199947b1</item>
+        <item>cdcb8b71f235de9c6af3445f5315986b8d674102</item>
+        <item>6f69fbee479ef0e7b147e6bf379ccf4be409ba6e</item>
+        <item>22174b69a40bc8153fa5890c20606f135277c80f</item>
+        <item>9adfb22ec3956c5c77d16f07c70bdaf72422c907</item>
+        <item>4f077535b1a4fa29682cfd951d1e16eb5cd6c8a1</item>
+        <item>719fd291ba13bd2b5b4bc3fa8d328e2144ed1bc9</item>
+        <item>f0c5c2c61243cb0c62e380f71474079295b2b8cc</item>
+        <item>197328c3ea598c2ec416d0424a6cb9a542d4ee21</item>
+        <item>6c328d8e04db462de603440cbeacc709fd4ce181</item>
+        <item>0b79305d4f4aecc6960a8cd57aeca75b4e80efbf</item>
+        <item>e8503e76ded720095755e58f7c0e4b30cf32df8c</item>
+        <item>aee08d10dbd8f599a881bde46d656305dab4e07d</item>
+        <item>3e6b8c914ea0e4a07c51d2110536ab4aeaee0308</item>
+        <item>23ed0f8667586c58248ec1373d5e6a0aa0f71480</item>
+        <item>56b3f97a7efb05fc89674cf68f6c27847a93860b</item>
+        <item>794b9a7d6074541ef0cf5b0787b2b651</item>
+        <item>e50cdc75cd7a7f1983b640e6e16a2c93ebe695e6</item>
+        <item>2124c3015d30d491babba20972d9fc8dfea533e8</item>
+        <item>a23808e61bcad2faa22a24f90c8d322a5b7d3bf5</item>
+        <item>9956c41ad76292abe24df90cccb5eeb80661e26c</item>
+        <item>8573915238d3b6a27bcc7434f639b7a909a3fb54</item>
+        <item>9a659c86679fc28c18dee0c95babd9121e4c3061</item>
+        <item>3539243564c24ac7ea8c8f83d9692466a24d660c</item>
+        <item>db61a042f7d9dd262d9c796207cb8eb216678a9e</item>
+        <item>f3e82b0a78f4c567cca77fe6c132199d806987d1</item>
+        <item>15852ac64de8e66e842ffe52e918a722</item>
+        <item>ebfcded0e8ecd16f03e17b93924785420a1f6c7b</item>
+        <item>f22376a3e03acc89fcec3ce8b17443c12429fe8b</item>
+        <item>97135b4a9d65c2e2c13e3df95806634b5d7f7d40</item>
+        <item>7dfa790a6a58d75b437a94f213248a782768c49b</item>
+        <item>084515e55071d4679de77492b2f0d748a2276196</item>
+        <item>624e08bd13a0dfeb4746474bf03561102b236bb0</item>
+    </string-array>
+    <string-array name="com.google.firebase.crashlytics.build_ids_lib">
+        <item>libmapbox-maps.so</item>
+        <item>libapplovin-native-crash-reporter.so</item>
+        <item>libandroidx.graphics.path.so</item>
+        <item>libfile_lock_pgl.so</item>
+        <item>libdatastore_shared_counter.so</item>
+        <item>libsentry.so</item>
+        <item>libmapbox-common.so</item>
+        <item>libnavigator-android.so</item>
+        <item>libapminsighta.so</item>
+        <item>libpglarmor.so</item>
+        <item>libapminsightb.so</item>
+        <item>libheresdk.so</item>
+        <item>libbuffer_pgl.so</item>
+        <item>libnms.so</item>
+        <item>libtt_ugen_layout.so</item>
+        <item>libc++_shared.so</item>
+        <item>libsentry-android.so</item>
+        <item>libmapbox-maps.so</item>
+        <item>libapplovin-native-crash-reporter.so</item>
+        <item>libandroidx.graphics.path.so</item>
+        <item>libfile_lock_pgl.so</item>
+        <item>libdatastore_shared_counter.so</item>
+        <item>libsentry.so</item>
+        <item>libmapbox-common.so</item>
+        <item>libnavigator-android.so</item>
+        <item>libapminsighta.so</item>
+        <item>libpglarmor.so</item>
+        <item>libapminsightb.so</item>
+        <item>libheresdk.so</item>
+        <item>libbuffer_pgl.so</item>
+        <item>libnms.so</item>
+        <item>libtt_ugen_layout.so</item>
+        <item>libc++_shared.so</item>
+        <item>libsentry-android.so</item>
+        <item>libmapbox-maps.so</item>
+        <item>libapplovin-native-crash-reporter.so</item>
+        <item>libandroidx.graphics.path.so</item>
+        <item>libdatastore_shared_counter.so</item>
+        <item>libsentry.so</item>
+        <item>libmapbox-common.so</item>
+        <item>libnavigator-android.so</item>
+        <item>libheresdk.so</item>
+        <item>libc++_shared.so</item>
+        <item>libsentry-android.so</item>
+        <item>libmapbox-maps.so</item>
+        <item>libapplovin-native-crash-reporter.so</item>
+        <item>libandroidx.graphics.path.so</item>
+        <item>libdatastore_shared_counter.so</item>
+        <item>libsentry.so</item>
+        <item>libmapbox-common.so</item>
+        <item>libnavigator-android.so</item>
+        <item>libheresdk.so</item>
+        <item>libc++_shared.so</item>
+        <item>libsentry-android.so</item>
+    </string-array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <array name="crypto_fingerprint_fallback_prefixes" />
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <array name="empty_array" />
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <string-array name="home_screen_entries">
+        <item>@string/preference_item_home_map</item>
+        <item>@string/preference_item_launcher</item>
+    </string-array>
+    <string-array name="home_screen_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="preference_speed_limit_entries">
+        <item>@string/preference_speed_limit_disabled</item>
+        <item>@string/preference_speed_limit_enabled</item>
+        <item>@string/preference_speed_limit_only_navigation</item>
+    </string-array>
+    <string-array name="preference_speed_limit_values">
+        <item>@string/speed_limit_disable_value</item>
+        <item>@string/speed_limit_enabled_value</item>
+        <item>@string/speed_limit_navigation_only_value</item>
+    </string-array>
+    <string-array name="preferences_map_position">
+        <item>@string/preference_hand_drive_map_position_left</item>
+        <item>@string/preference_hand_drive_map_position_right</item>
+    </string-array>
+    <string-array name="preferences_map_position_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="preloaded_fonts">
+        <item>@font/open_sans_extrabold</item>
+    </array>
+    <string-array name="route_preferences">
+        <item>@string/route_preference_fastest</item>
+        <item>@string/route_preference_shortest</item>
+    </string-array>
+    <string-array name="route_profile_entries">
+        <item>@string/settings_navigation_profile_driving</item>
+        <item>@string/settings_navigation_profile_cycling</item>
+    </string-array>
+    <string-array name="route_profile_values">
+        <item>@string/route_item_driving</item>
+        <item>cycling</item>
+    </string-array>
+    <string-array name="themes_entries">
+        <item>@string/settings_theme_dark</item>
+        <item>@string/settings_theme_light</item>
+        <item>@string/settings_theme_sunrise_sunset</item>
+    </string-array>
+    <string-array name="themes_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="voice_command_call">
+        <item>call</item>
+        <item>call to</item>
+        <item>dial</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>my place</item>
+        <item>home</item>
+        <item>house</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>navigate to</item>
+        <item>drive to</item>
+        <item>drive me to</item>
+        <item>go to</item>
+        <item>take me to</item>
+        <item>take me</item>
+        <item>navigate</item>
+        <item>drive</item>
+        <item>go</item>
+        <item>direction to</item>
+        <item>directions to</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>following song</item>
+        <item>next</item>
+        <item>continue</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>open</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>stop music</item>
+        <item>pause music</item>
+        <item>pause</item>
+        <item>stop</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>play music</item>
+        <item>start music</item>
+        <item>play</item>
+        <item>start</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>previous</item>
+        <item>last</item>
+        <item>back</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>find</item>
+        <item>find me</item>
+        <item>search for</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>weather</item>
+        <item>temperature</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>work</item>
+        <item>office</item>
+        <item>job</item>
+    </string-array>
+    <string-array name="yesOkCommand">
+        <item>@string/yes</item>
+        <item>@android:string/ok</item>
+    </string-array>
+</resources>

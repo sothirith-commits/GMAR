@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="one">%1$d ຈາກທັງໝົດ %2$d</item>
+        <item quantity="other">%1$d ຈາກທັງໝົດ %2$d</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">ທ່ານມີ %d ປີ້ລົດໄຟທີ່ໃຊ້ໄດ້</item>
+        <item quantity="other">ທ່ານມີ %d ປີ້ລົດໄຟທີ່ໃຊ້ໄດ້</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">ທ່ານມີ %d ປີ້ທີ່ໃຊ້ໄດ້ສຳລັບການເດີນທາງນີ້</item>
+        <item quantity="other">ທ່ານມີ %d ປີ້ທີ່ໃຊ້ໄດ້ສຳລັບການເດີນທາງນີ້</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">%d ຕົວເລືອກເພີ່ມເຕີມ</item>
+        <item quantity="other">%d ຕົວເລືອກເພີ່ມເຕີມ</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="one">ມີຜູ້ລາຍງານເຂົ້າມາແລ້ວ %1$d ຄົນ</item>
+        <item quantity="other">ມີຜູ້ລາຍງານເຂົ້າມາແລ້ວ %1$d ຄົນ</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">ລາຍງານໂດຍ %1$d ຄົນ</item>
+        <item quantity="other">ລາຍງານໂດຍ %1$d ຄົນ</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d ການແຈ້ງເຕືອນ</item>
+        <item quantity="other">%d ການແຈ້ງເຕືອນ</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">ສະຖານທີ່ %1$d ແຫ່ງ</item>
+        <item quantity="other">ສະຖານທີ່ %1$d ແຫ່ງ</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">ເບິ່ງຄຳຕອບ</item>
+        <item quantity="other">ເບິ່ງຄຳຕອບ (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">ສຳຫຼວດຢູ່ບ່ອນນີ້</item>
+        <item quantity="other">ສຳຫຼວດ %d ສະຖານທີ່ຢູ່ບ່ອນນີ້</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">ມີລົດຖີບຫວ່າງ %d ຄັນ</item>
+        <item quantity="other">ມີລົດຖີບຫວ່າງ %d ຄັນ</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">ລົດຖີບ %s ຄັນຢູ່ສະຖານີ</item>
+        <item quantity="other">ລົດຖີບ %s ຄັນຢູ່ສະຖານີ</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">ລົດຖີບ %d ຄັນ</item>
+        <item quantity="other">ລົດຖີບ %d ຄັນ</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">ມີບ່ອນຈອດ %d ບ່ອນ</item>
+        <item quantity="other">ມີບ່ອນຈອດ %d ບ່ອນ</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d ບ່ອນຈອດ</item>
+        <item quantity="other">%d ບ່ອນຈອດ</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">ແນະນຳໂດຍ %1$d ຄົນ</item>
+        <item quantity="other">ແນະນຳໂດຍ %1$d ຄົນ</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">ເສັ້ນທາງໄວກວ່າ, ໜ້ອຍລົງ %1$s ຈຸດຈອດ</item>
+        <item quantity="other">ເສັ້ນທາງໄວກວ່າ, ໜ້ອຍລົງ %1$s ຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">ເສັ້ນທາງໄວກວ່າ, ເພີ່ມຂຶ້ນ %1$s ຈຸດຈອດ</item>
+        <item quantity="other">ເສັ້ນທາງໄວກວ່າ, ເພີ່ມຂຶ້ນ %1$s ຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">ມີເສັ້ນທາງທີ່ໄວກວ່າ, ມີຈຸດຈອດ %1$s ບ່ອນປ່ຽນແປງ</item>
+        <item quantity="other">ມີເສັ້ນທາງທີ່ໄວກວ່າ, ມີຈຸດຈອດ %1$s ບ່ອນປ່ຽນແປງ</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">ຕ້ອງການເສັ້ນທາງໃໝ່, ໜ້ອຍລົງ %1$s ຈຸດຈອດ</item>
+        <item quantity="other">ຕ້ອງການເສັ້ນທາງໃໝ່, ໜ້ອຍລົງ %1$s ຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">ຕ້ອງການເສັ້ນທາງໃໝ່, ເພີ່ມຂຶ້ນ %1$s ຈຸດຈອດ</item>
+        <item quantity="other">ຕ້ອງການເສັ້ນທາງໃໝ່, ເພີ່ມຂຶ້ນ %1$s ຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">ຕ້ອງການເສັ້ນທາງໃໝ່, ມີຈຸດຈອດ %1$s ບ່ອນປ່ຽນແປງ</item>
+        <item quantity="other">ຕ້ອງການເສັ້ນທາງໃໝ່, ມີຈຸດຈອດ %1$s ບ່ອນປ່ຽນແປງ</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">ເສັ້ນທາງໃໝ່, ໜ້ອຍລົງ %1$s ຈຸດຈອດ</item>
+        <item quantity="other">ເສັ້ນທາງໃໝ່, ໜ້ອຍລົງ %1$s ຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">ເສັ້ນທາງໃໝ່, ໜ້ອຍລົງ %1$s ຈຸດຈອດ</item>
+        <item quantity="other">ເສັ້ນທາງໃໝ່, ໜ້ອຍລົງ %1$s ຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">ມີເສັ້ນທາງໃໝ່ໃຫ້ໂດຍຕ້ອງການຈຸດສາກໄຟໜ້ອຍລົງ %1$s ບ່ອນ. ໄວກວ່າ %2$s ເທື່ອ, ຮວມເວລາໃນການຂັບຂີ່ ແລະ ສາກໄຟ.</item>
+        <item quantity="other">ມີເສັ້ນທາງໃໝ່ໃຫ້ໂດຍຕ້ອງການຈຸດສາກໄຟໜ້ອຍລົງ %1$s ບ່ອນ. ໄວກວ່າ %2$s ເທື່ອ, ຮວມເວລາໃນການຂັບຂີ່ ແລະ ສາກໄຟ.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">ມີເສັ້ນທາງໃໝ່ໃຫ້ໂດຍຕ້ອງການຈຸດສາກໄຟເພີ່ມຂຶ້ນ %1$s ບ່ອນ. ໄວກວ່າ %2$s ເທື່ອ, ຮວມເວລາໃນການຂັບຂີ່ ແລະ ສາກໄຟ.</item>
+        <item quantity="other">ມີເສັ້ນທາງໃໝ່ໃຫ້ໂດຍຕ້ອງການຈຸດສາກໄຟເພີ່ມຂຶ້ນ %1$s ບ່ອນ. ໄວກວ່າ %2$s ເທື່ອ, ຮວມເວລາໃນການຂັບຂີ່ ແລະ ສາກໄຟ.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">ທ່ານຈະຕ້ອງໃຊ້ເສັ້ນທາງໃໝ່. ຕ້ອງການຈຸດສາກໄຟໜ້ອຍລົງ %1$s ບ່ອນ. ທ່ານຈະໄປຮອດໃນເວລາ %2$s.</item>
+        <item quantity="other">ທ່ານຈະຕ້ອງໃຊ້ເສັ້ນທາງໃໝ່. ຕ້ອງການຈຸດສາກໄຟໜ້ອຍລົງ %1$s ບ່ອນ. ທ່ານຈະໄປຮອດໃນເວລາ %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">ທ່ານຈະຕ້ອງໃຊ້ເສັ້ນທາງໃໝ່. ຕ້ອງການຈຸດສາກໄຟເພີ່ມຂຶ້ນ %1$s ບ່ອນ. ທ່ານຈະໄປຮອດໃນເວລາ %2$s.</item>
+        <item quantity="other">ທ່ານຈະຕ້ອງໃຊ້ເສັ້ນທາງໃໝ່. ຕ້ອງການຈຸດສາກໄຟເພີ່ມຂຶ້ນ %1$s ບ່ອນ. ທ່ານຈະໄປຮອດໃນເວລາ %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">ທ່ານຈະຕ້ອງໃຊ້ເສັ້ນທາງໃໝ່. ມີການປ່ຽນແປງຈຸດສາກໄຟ %1$s ບ່ອນ. ທ່ານຈະໄປຮອດໃນເວລາ %2$s.</item>
+        <item quantity="other">ທ່ານຈະຕ້ອງໃຊ້ເສັ້ນທາງໃໝ່. ມີການປ່ຽນແປງຈຸດສາກໄຟ %1$s ບ່ອນ. ທ່ານຈະໄປຮອດໃນເວລາ %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">ມີເສັ້ນທາງໃໝ່ໃຫ້ໂດຍຕ້ອງການຈຸດສາກໄຟໜ້ອຍລົງ %1$s ບ່ອນ. ເວລາຮອດໃກ້ຄຽງກັນ.</item>
+        <item quantity="other">ມີເສັ້ນທາງໃໝ່ໃຫ້ໂດຍຕ້ອງການຈຸດສາກໄຟໜ້ອຍລົງ %1$s ບ່ອນ. ເວລາຮອດໃກ້ຄຽງກັນ.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">ມີເສັ້ນທາງໃໝ່ໃຫ້ໂດຍຕ້ອງການຈຸດສາກໄຟໜ້ອຍລົງ %1$s ບ່ອນ. ຊ້າກວ່າ %2$s ເທື່ອ, ຮວມເວລາໃນການຂັບຂີ່ ແລະ ສາກໄຟ.</item>
+        <item quantity="other">ມີເສັ້ນທາງໃໝ່ໃຫ້ໂດຍຕ້ອງການຈຸດສາກໄຟໜ້ອຍລົງ %1$s ບ່ອນ. ຊ້າກວ່າ %2$s ເທື່ອ, ຮວມເວລາໃນການຂັບຂີ່ ແລະ ສາກໄຟ.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">ໃຊ້ແລ້ວໃນ %1$d ມື້ທີ່ຜ່ານມາ</item>
+        <item quantity="other">ໃຊ້ແລ້ວໃນ %1$d ມື້ທີ່ຜ່ານມາ</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">ໃຊ້ແລ້ວໃນ %1$d ອາທິດທີ່ຜ່ານມາ</item>
+        <item quantity="other">ໃຊ້ແລ້ວໃນ %1$d ອາທິດທີ່ຜ່ານມາ</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">+%1$d ເຄືອຂ່າຍ</item>
+        <item quantity="other">+%1$d ເຄືອຂ່າຍ</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">ເລືອກແລ້ວ %1$d ລາຍການ</item>
+        <item quantity="other">ເລືອກແລ້ວ %1$d ລາຍການ</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">ຈຸດສາກໄຟ %1$s ແຫ່ງ</item>
+        <item quantity="other">ຈຸດສາກໄຟ %1$s ແຫ່ງ</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d ຈຸດຈອດ</item>
+        <item quantity="other">%1$d ຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">ເລືອກ %1$d ລາຍການແລ້ວ</item>
+        <item quantity="other">ເລືອກ %1$d ລາຍການແລ້ວ</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">ເພີ່ມເຕີມອີກ %1$d</item>
+        <item quantity="other">ເພີ່ມເຕີມອີກ %1$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">ອີກ %1$d ລາຍການ</item>
+        <item quantity="other">ອີກ %1$d ລາຍການ</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">ແລະ ອີກ %1$d ລາຍການ</item>
+        <item quantity="other">ແລະ ອີກ %1$d ລາຍການ</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="one">ອີກ %2$d ນທ ຈະຮອດບ່ອນເຮັດວຽກ</item>
+        <item quantity="other">ອີກ %1$d ຊມ %2$d ນທ ຈະຮອດບ່ອນເຮັດວຽກ</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="one">ອີກ %2$d ນທ ຈະຮອດເຮືອນ</item>
+        <item quantity="other">ອີກ %1$d ຊມ %2$d ນທ ຈະຮອດເຮືອນ</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="one">ອີກ %2$d ນທ ຈະຮອດບ່ອນເຮັດວຽກ</item>
+        <item quantity="other">ອີກ %1$d ຊມ %2$d ນທ ຈະຮອດບ່ອນເຮັດວຽກ</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="one">ໄລຍະເວລາເດີນທາງ %2$d ນທ</item>
+        <item quantity="other">ໄລຍະເວລາເດີນທາງ %1$d ຊມ %2$d ນທ</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="one">ອີກ %2$d ນທ ຈະຮອດເຮືອນ</item>
+        <item quantity="other">ອີກ %1$d ຊມ %2$d ນທ ຈະຮອດເຮືອນ</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">ໄວກວ່າປົກກະຕິ %d ນາທີ</item>
+        <item quantity="other">ໄວກວ່າປົກກະຕິ %d ນາທີ</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">ຊ້າກວ່າປົກກະຕິ %d ນາທີ</item>
+        <item quantity="other">ຊ້າກວ່າປົກກະຕິ %d ນາທີ</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">ແຜນທີ່ມີທິດທາງທີ່ແນ່ນອນ %d ອົງສາ.</item>
+        <item quantity="other">ແຜນທີ່ມີທິດທາງທີ່ແນ່ນອນ %d ອົງສາ.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">ສະຖານທີ່ %d ດາວ</item>
+        <item quantity="other">ສະຖານທີ່ %d ດາວ</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">ຜູ້ແນະນຳທ້ອງຖິ່ນລະດັບ %d</item>
+        <item quantity="other">ຜູ້ແນະນຳທ້ອງຖິ່ນລະດັບ %d</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">ທ່ານໃຫ້ຄະແນນ %1$s 1 ດາວ</item>
+        <item quantity="other">ທ່ານໃຫ້ຄະແນນ %1$s %2$d ດາວ</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">ຄະແນນ</item>
+        <item quantity="other">ຄະແນນ</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s ມື້</item>
+        <item quantity="other">%s ມື້</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s ມ</item>
+        <item quantity="other">%s ມ</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sມ</item>
+        <item quantity="other">%sມ</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s ມື້</item>
+        <item quantity="other">%s ມື້</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s ຊົ່ວໂມງ</item>
+        <item quantity="other">%s ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s ຊມ</item>
+        <item quantity="other">%s ຊມ</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sຊມ</item>
+        <item quantity="other">%sຊມ</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s ນາທີ</item>
+        <item quantity="other">%s ນາທີ</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s ນທ</item>
+        <item quantity="other">%s ນທ</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sນທ</item>
+        <item quantity="other">%sນທ</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s ວິນາທີ</item>
+        <item quantity="other">%s ວິນາທີ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">ໄປຕໍ່ອີກ %1$s ຟຸດ</item>
+        <item quantity="other">ໄປຕໍ່ອີກ %1$s ຟຸດ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">ໄປຕໍ່ອີກ %1$s ກິໂລແມັດ</item>
+        <item quantity="other">ໄປຕໍ່ອີກ %1$s ກິໂລແມັດ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">ໄປຕໍ່ອີກ %1$s ແມັດ</item>
+        <item quantity="other">ໄປຕໍ່ອີກ %1$s ແມັດ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">ໄປຕໍ່ອີກ %1$s ໄມລ໌</item>
+        <item quantity="other">ໄປຕໍ່ອີກ %1$s ໄມລ໌</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">ໄປຕໍ່ອີກ %1$s ຫຼາ</item>
+        <item quantity="other">ໄປຕໍ່ອີກ %1$s ຫຼາ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">ໄປຕໍ່ໃນ %2$s ເປັນໄລຍະທາງ %1$s ຟຸດ</item>
+        <item quantity="other">ໄປຕໍ່ໃນ %2$s ເປັນໄລຍະທາງ %1$s ຟຸດ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">ໄປຕໍ່ໃນ %2$s ເປັນໄລຍະທາງ %1$s ກິໂລແມັດ</item>
+        <item quantity="other">ໄປຕໍ່ໃນ %2$s ເປັນໄລຍະທາງ %1$s ກິໂລແມັດ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">ໄປຕໍ່ໃນ %2$s ເປັນໄລຍະທາງ %1$s ແມັດ</item>
+        <item quantity="other">ໄປຕໍ່ໃນ %2$s ເປັນໄລຍະທາງ %1$s ແມັດ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">ໄປຕໍ່ໃນ %2$s ເປັນໄລຍະທາງ %1$s ໄມລ໌</item>
+        <item quantity="other">ໄປຕໍ່ໃນ %2$s ເປັນໄລຍະທາງ %1$s ໄມລ໌</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">ໄປຕໍ່ໃນ %2$s ເປັນໄລຍະທາງ %1$s ຫຼາ</item>
+        <item quantity="other">ໄປຕໍ່ໃນ %2$s ເປັນໄລຍະທາງ %1$s ຫຼາ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">ໃນອີກ %1$s ຟຸດ</item>
+        <item quantity="other">ໃນອີກ %1$s ຟຸດ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">ໃນອີກ %1$s ກິໂລແມັດ</item>
+        <item quantity="other">ໃນອີກ %1$s ກິໂລແມັດ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">ໃນອີກ %1$s ແມັດ</item>
+        <item quantity="other">ໃນອີກ %1$s ແມັດ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">ໃນອີກ %1$s ໄມລ໌</item>
+        <item quantity="other">ໃນອີກ %1$s ໄມລ໌</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">ໃນອີກ %1$s ຫຼາ</item>
+        <item quantity="other">ໃນອີກ %1$s ຫຼາ</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s ກິໂລແມັດຕໍ່ຊົ່ວໂມງ</item>
+        <item quantity="other">%s ກິໂລແມັດຕໍ່ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s ໄມລ໌ຕໍ່ຊົ່ວໂມງ</item>
+        <item quantity="other">%s ໄມລ໌ຕໍ່ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">ປາຍທາງຂອງທ່ານແມ່ນອີກ %1$s ຟຸດ</item>
+        <item quantity="other">ປາຍທາງຂອງທ່ານແມ່ນອີກ %1$s ຟຸດ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">ປາຍທາງຂອງທ່ານແມ່ນຢູ່ອີກ %1$s ກິໂລແມັດ</item>
+        <item quantity="other">ປາຍທາງຂອງທ່ານແມ່ນຢູ່ອີກ %1$s ກິໂລແມັດ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">ປາຍທາງຂອງທ່ານຢູ່ອີກ %1$s ແມັດ</item>
+        <item quantity="other">ປາຍທາງຂອງທ່ານຢູ່ອີກ %1$s ແມັດ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">ປາຍທາງຂອງທ່ານແມ່ນອີກ %1$s ໄມລ໌</item>
+        <item quantity="other">ປາຍທາງຂອງທ່ານແມ່ນອີກ %1$s ໄມລ໌</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">ປາຍທາງຂອງທ່ານແມ່ນອີກ %1$s ຫຼາ</item>
+        <item quantity="other">ປາຍທາງຂອງທ່ານແມ່ນອີກ %1$s ຫຼາ</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d ຈຸດຈອດ</item>
+        <item quantity="other">%d ຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">ການເດີນທາງ %1$d ຮູບແບບ</item>
+        <item quantity="other">ການເດີນທາງ %1$d ຮູບແບບ</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">ອັບເດດເມື່ອ %d ມື້ກ່ອນ</item>
+        <item quantity="other">ອັບເດດເມື່ອ %d ມື້ກ່ອນ</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">ອັບເດດເມື່ອ %d ເດືອນກ່ອນ</item>
+        <item quantity="other">ອັບເດດເມື່ອ %d ເດືອນກ່ອນ</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">ອັບເດດເມື່ອ %d ອາທິດກ່ອນ</item>
+        <item quantity="other">ອັບເດດເມື່ອ %d ອາທິດກ່ອນ</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">ລົດຖີບ %d ຄັນ</item>
+        <item quantity="other">ລົດຖີບ %d ຄັນ</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">ລົດຖີບຢູ່ໃກ້ %d ຄັນ</item>
+        <item quantity="other">ລົດຖີບຢູ່ໃກ້ %d ຄັນ</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">ເລືອກ %1$d ລາຍການແລ້ວ</item>
+        <item quantity="other">ເລືອກ %1$d ລາຍການແລ້ວ</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d ຈາກທັງໝົດ %2$d ຈຸດສາກ</item>
+        <item quantity="other">%1$d ຈາກທັງໝົດ %2$d ຈຸດສາກ</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d ຈຸດສາກ</item>
+        <item quantity="other">%d ຈຸດສາກ</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">ໃຫ້ຄະແນນ 1 ດາວບໍ່ສຳເລັດ, ກະລຸນາລອງໃໝ່ອີກຄັ້ງ</item>
+        <item quantity="other">ໃຫ້ຄະແນນ %1$d ດາວບໍ່ສຳເລັດ, ກະລຸນາລອງໃໝ່ອີກຄັ້ງ</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">ຊັ້ນ %s</item>
+        <item quantity="other">ຊັ້ນ %s</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">%d ຄືນເພີ່ມເຕີມ</item>
+        <item quantity="other">%d ຄືນເພີ່ມເຕີມ</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">ເພີ່ມ %d ຄືນ</item>
+        <item quantity="other">ເພີ່ມ %d ຄືນ</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">ໂຮງແຮມນີ້ມີຫ້ອງຫວ່າງສຳລັບການພັກ %1$d ຄືນ. ລາຄາສະເລ່ຍຕໍ່ຄືນສຳລັບ %2$s ຄືນແມ່ນ %3$s.</item>
+        <item quantity="other">ໂຮງແຮມນີ້ມີຫ້ອງຫວ່າງສຳລັບການພັກ %1$d ຄືນ. ລາຄາສະເລ່ຍຕໍ່ຄືນສຳລັບ %2$s ຄືນແມ່ນ %3$s.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">ລາຄາສະເລ່ຍຕໍ່ຄືນສຳລັບ %1$s ຄືນແມ່ນ %2$s</item>
+        <item quantity="other">ລາຄາສະເລ່ຍຕໍ່ຄືນສຳລັບ %1$s ຄືນແມ່ນ %2$s</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d ຄົນ</item>
+        <item quantity="other">%d ຄົນ</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">ແລະ ອີກ %d ລາຍການ</item>
+        <item quantity="other">ແລະ ອີກ %d ລາຍການ</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">+%d ເພີ່ມເຕີມ.</item>
+        <item quantity="other">+%d ເພີ່ມເຕີມ.</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="one">%d ມື້ກ່ອນ</item>
+        <item quantity="other">%d ມື້ກ່ອນ</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="one">%d ຊົ່ວໂມງກ່ອນ</item>
+        <item quantity="other">%d ຊົ່ວໂມງກ່ອນ</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="one">%d ນາທີກ່ອນ</item>
+        <item quantity="other">%d ນາທີກ່ອນ</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">ບັນທຶກໃນ %1$s ແລະ ອີກ %2$d ລາຍການແລ້ວ</item>
+        <item quantity="other">ບັນທຶກໃນ %1$s ແລະ ອີກ %2$d ລາຍການແລ້ວ</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">ບັນທຶກແລ້ວ ແລະ ຢູ່ໃນ %1$d ລາຍຊື່</item>
+        <item quantity="other">ບັນທຶກແລ້ວ ແລະ ຢູ່ໃນ %1$d ລາຍຊື່</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="one">ລຶບອອກຈາກ %d ລາຍຊື່ແລ້ວ</item>
+        <item quantity="other">ລຶບອອກຈາກ %d ລາຍຊື່ແລ້ວ</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">ທ່ານໄປມາແລ້ວ %d ເດືອນກ່ອນ</item>
+        <item quantity="other">ທ່ານໄປມາແລ້ວ %d ເດືອນກ່ອນ</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">ທ່ານໄປມາແລ້ວ %d ອາທິດກ່ອນ</item>
+        <item quantity="other">ທ່ານໄປມາແລ້ວ %d ອາທິດກ່ອນ</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">ທ່ານໄປມາແລ້ວ %d ປີກ່ອນ</item>
+        <item quantity="other">ທ່ານໄປມາແລ້ວ %d ປີກ່ອນ</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d ການເຄື່ອນໄຫວ</item>
+        <item quantity="other">%d ການເຄື່ອນໄຫວ</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d ລາຍການ</item>
+        <item quantity="other">%d ລາຍການ</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d ສະຖານທີ່</item>
+        <item quantity="other">%d ສະຖານທີ່</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">ມີຄົນບັນທຶກ %d ເທື່ອ</item>
+        <item quantity="other">ມີຄົນບັນທຶກ %d ເທື່ອ</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d ການເດີນທາງ</item>
+        <item quantity="other">%d ການເດີນທາງ</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">ເບິ່ງ %s ເທື່ອ</item>
+        <item quantity="other">ເບິ່ງ %s ເທື່ອ</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="one">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">ແກ້ໄຂເມື່ອ %d ມື້ກ່ອນ</item>
+        <item quantity="other">ແກ້ໄຂເມື່ອ %d ມື້ກ່ອນ</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">ແກ້ໄຂເມື່ອ %d ເດືອນກ່ອນ</item>
+        <item quantity="other">ແກ້ໄຂເມື່ອ %d ເດືອນກ່ອນ</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">ແກ້ໄຂເມື່ອ %d ອາທິດກ່ອນ</item>
+        <item quantity="other">ແກ້ໄຂເມື່ອ %d ອາທິດກ່ອນ</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">ແກ້ໄຂເມື່ອ %d ປີກ່ອນ</item>
+        <item quantity="other">ແກ້ໄຂເມື່ອ %d ປີກ່ອນ</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="one">%d ຈຸດຈອດ</item>
+        <item quantity="other">%d ຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">ທ່ານມີ %d ຄະແນນ</item>
+        <item quantity="other">ທ່ານມີ %d ຄະແນນ</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">ຍັງອີກພຽງ %1$d ຄະແນນ ເພື່ອໄປໃຫ້ຮອດລະດັບ %2$d</item>
+        <item quantity="other">ຍັງອີກພຽງ %1$d ຄະແນນ ເພື່ອໄປໃຫ້ຮອດລະດັບ %2$d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">ລະດັບ %d</item>
+        <item quantity="other">ລະດັບ %d</item>
+    </plurals>
+    <plurals name="plurals_0x7f120093">
+        <item quantity="one">ຜູ້ແນະນຳທ້ອງຖິ່ນລະດັບ %d</item>
+        <item quantity="other">ຜູ້ແນະນຳທ້ອງຖິ່ນລະດັບ %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">ເປີດມາແລ້ວ %d ປີ</item>
+        <item quantity="other">ເປີດມາແລ້ວກວ່າ %d ປີ</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d ມື້ກ່ອນ</item>
+        <item quantity="other">%d ມື້ກ່ອນ</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d ຊົ່ວໂມງກ່ອນ</item>
+        <item quantity="other">%d ຊົ່ວໂມງກ່ອນ</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d ນທ ກ່ອນ</item>
+        <item quantity="other">%d ນທ ກ່ອນ</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">%d ແຫ່ງທີ່ນີ້</item>
+        <item quantity="other">%d ແຫ່ງທີ່ນີ້</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">ລຶບຮູບພາບອອກແລ້ວ</item>
+        <item quantity="other">ລຶບຮູບພາບຮູບອອກແລ້ວ</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">ຂະຫຍາຍວິດີໂອໃຫ້ເຕັມຈໍຢູ່ໂພສ %1$d</item>
+        <item quantity="other">ຂະຫຍາຍວິດີໂອ %2$d ໃຫ້ເຕັມຈໍຢູ່ໂພສ %1$d</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d ຈາກທັງໝົດ %2$,d</item>
+        <item quantity="other">%1$,d ຈາກທັງໝົດ %2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">ກໍາລັງອັບໂຫຼດມີເດຍ %1$d ລາຍການ</item>
+        <item quantity="other">ກໍາລັງອັບໂຫຼດມີເດຍ %1$d ລາຍການ</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">ຮູບເມນູໝາຍເລກ %d</item>
+        <item quantity="other">ຮູບເມນູໝາຍເລກ %d</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">ລາຍງານ %1$d ລາຍການ</item>
+        <item quantity="other">ລາຍງານ %1$d ລາຍການ</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">ຄົນທີ່ມີລິ້ງນີ້ຈະສາມາດເບິ່ງເຫັນສະຖານທີ່ຂອງທ່ານໄດ້ເປັນເວລາ 1 ມື້ກັບອີກ %d ຊົ່ວໂມງ</item>
+        <item quantity="other">ຄົນທີ່ມີລິ້ງນີ້ຈະສາມາດເບິ່ງເຫັນສະຖານທີ່ຂອງທ່ານໄດ້ເປັນເວລາ 1 ມື້ກັບອີກ %d ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">ຄົນທີ່ມີລິ້ງນີ້ຈະສາມາດເບິ່ງເຫັນສະຖານທີ່ຂອງທ່ານໄດ້ເປັນເວລາ 1 ຊົ່ວໂມງກັບອີກ %d ນທ</item>
+        <item quantity="other">ຄົນທີ່ມີລິ້ງນີ້ຈະສາມາດເບິ່ງເຫັນສະຖານທີ່ຂອງທ່ານໄດ້ເປັນເວລາ 1 ຊົ່ວໂມງກັບອີກ %d ນທ</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">ຄົນທີ່ມີລິ້ງນີ້ຈະສາມາດເບິ່ງເຫັນສະຖານທີ່ຂອງທ່ານໄດ້ເປັນເວລາ %d ມື້</item>
+        <item quantity="other">ຄົນທີ່ມີລິ້ງນີ້ຈະສາມາດເບິ່ງເຫັນສະຖານທີ່ຂອງທ່ານໄດ້ເປັນເວລາ %d ມື້</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">ຄົນທີ່ມີລິ້ງນີ້ຈະສາມາດເບິ່ງເຫັນສະຖານທີ່ຂອງທ່ານໄດ້ເປັນເວລາ %d ຊົ່ວໂມງ</item>
+        <item quantity="other">ຄົນທີ່ມີລິ້ງນີ້ຈະສາມາດເບິ່ງເຫັນສະຖານທີ່ຂອງທ່ານໄດ້ເປັນເວລາ %d ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">ຄົນທີ່ມີລິ້ງນີ້ຈະສາມາດເບິ່ງເຫັນສະຖານທີ່ຂອງທ່ານໄດ້ເປັນເວລາ %d ນທ</item>
+        <item quantity="other">ຄົນທີ່ມີລິ້ງນີ້ຈະສາມາດເບິ່ງເຫັນສະຖານທີ່ຂອງທ່ານໄດ້ເປັນເວລາ %d ນທ</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">ອີກ %d</item>
+        <item quantity="other">ອີກ %d</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">ປິດສຽງວິດີໂອຢູ່ໂພສ %1$d</item>
+        <item quantity="other">ປິດສຽງວິດີໂອ %2$d ຢູ່ໂພສ %1$d</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d ຮູບພາບ/ວິດີໂອ</item>
+        <item quantity="other">%d ຮູບພາບ/ວິດີໂອ</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d ວິດີໂອ</item>
+        <item quantity="other">%d ວິດີໂອ</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">ຮູບແທນຕົວກຳນົດເອງ %1$d ຮູບຈາກທັງໝົດ %2$d ຮູບ</item>
+        <item quantity="other">ຮູບແທນຕົວກຳນົດເອງ %1$d ຮູບຈາກທັງໝົດ %2$d ຮູບ</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">ການອັບເດດໃໝ່ %d ລາຍການ</item>
+        <item quantity="other">ການອັບເດດໃໝ່ %d ລາຍການ</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">ຂໍ້ມູນອັບເດດກ່ຽວກັບທຸລະກິດ, ມີ %1$s ການແຈ້ງເຕືອນໃໝ່</item>
+        <item quantity="other">ຂໍ້ມູນອັບເດດກ່ຽວກັບທຸລະກິດ, ມີ %1$s ການແຈ້ງເຕືອນໃໝ່</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d ຮູບ</item>
+        <item quantity="other">%d ຮູບ</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d ຄຳຕິຊົມ</item>
+        <item quantity="other">%d ຄຳຕິຊົມ</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">ໝາຍເລກຮູບຕົວຢ່າງ %d</item>
+        <item quantity="other">ໝາຍເລກຮູບຕົວຢ່າງ %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d ພື້ນທີ່ອອບລາຍ</item>
+        <item quantity="other">%d ພື້ນທີ່ອອບລາຍ</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">ອີງຕາມ %1$d ລາຍງານ</item>
+        <item quantity="other">ອີງຕາມ %1$d ລາຍງານ</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">ຢຸດວິດີໂອຢູ່ໂພສ %1$d</item>
+        <item quantity="other">ຢຸດວິດີໂອ %2$d ຢູ່ໂພສ %1$d</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s ການໂຕ້ຕອບ</item>
+        <item quantity="other">%1$s ການໂຕ້ຕອບ</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s ການຊອກຫາ</item>
+        <item quantity="other">%1$s ການຊອກຫາ</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">ເບິ່ງ %1$s ເທື່ອ</item>
+        <item quantity="other">ເບິ່ງ %1$s ເທື່ອ</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">ການຈອງສຳລັບ %d ຄືນ</item>
+        <item quantity="other">ການຈອງສຳລັບ %d ຄືນ</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">ມີພຽງທ່ານທີ່ເຫັນຂໍ້ມູນນີ້</item>
+        <item quantity="other">ມີພຽງທ່ານທີ່ເຫັນຂໍ້ມູນເຫຼົ່ານີ້</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d ມື້</item>
+        <item quantity="other">%1$d ມື້</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d ຄືນ</item>
+        <item quantity="other">%1$d ຄືນ</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d ຮູບ</item>
+        <item quantity="other">%d ຮູບ</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"ກຳ​ລັງ​ລໍ​ຖ້າ WiFi.
+ %d ຮູບ/ວິ​ດີ​ໂອ​ຄ້າງ​ຢູ່."</item>
+        <item quantity="other">"​ກຳ​ລັງ​ລໍ​ຖ້າ WiFi.
+ %d ຮູບ/ວິ​ດີ​ໂອ​ຄ້າງ​ຢູ່."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">ຮູບສຳລັບໂພສ %1$d</item>
+        <item quantity="other">ຮູບ %2$d ສຳລັບໂພສ %1$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d ມື້ກ່ອນ</item>
+        <item quantity="other">%d ມື້ກ່ອນ</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d ຊົ່ວໂມງກ່ອນ</item>
+        <item quantity="other">%d ຊົ່ວໂມງກ່ອນ</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d ເດືອນ​ກ່ອນ​</item>
+        <item quantity="other">%d ເດືອນກ່ອນ</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d ອາທິດກ່ອນ</item>
+        <item quantity="other">%d ອາທິດກ່ອນ</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d ປີກ່ອນ</item>
+        <item quantity="other">%d ປີກ່ອນ</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d ອັບເດດ</item>
+        <item quantity="other">%d ອັບເດດ</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">ເບິ່ງ %d ຄຳຕອບ</item>
+        <item quantity="other">ເບິ່ງ %d ຄຳຕອບ</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="one">+%1$,d</item>
+        <item quantity="other">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">ສາຍວິດີໂອຢູ່ໂພສ %1$d</item>
+        <item quantity="other">ສາຍວິດີໂອ %2$d ຢູ່ໂພສ %1$d</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+%d ການແບ່ງປັນອື່ນ</item>
+        <item quantity="other">+%d ການແບ່ງປັນອື່ນ</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">ປ່ຽນຈຸດຈອດ</item>
+        <item quantity="other">ປ່ຽນຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">ກຳລັງປ່ຽນຈຸດຈອດ</item>
+        <item quantity="other">ກຳລັງປ່ຽນຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d ຄົນເບິ່ງ</item>
+        <item quantity="other">%,d ຄົນເບິ່ງ</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d ຄະແນນ</item>
+        <item quantity="other">%d ຄະແນນ</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d ຄຳຕິຊົມ</item>
+        <item quantity="other">%d ຄຳຕິຊົມ</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">ໄດ້ຄະແນນ %d ດາວ</item>
+        <item quantity="other">ໄດ້ຄະແນນ %d ດາວ</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="one">%d ດາວ</item>
+        <item quantity="other">%d ດາວ</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">1 %2$s ຣີແອັກຊັນ</item>
+        <item quantity="other">%1$,d ຣີແອັກຊັນ %2$s</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">ອັບເດດ %d ນທ ກ່ອນ</item>
+        <item quantity="other">ອັບເດດ %d ນທ ກ່ອນ</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">ສຳລັບລົດໄຟ %1$d, ໃຫ້ຂຶ້ນ %2$s ສຳລັບທາງອອກທີ່ໄວທີ່ສຸດ</item>
+        <item quantity="other">ສຳລັບລົດໄຟ %1$d, ໃຫ້ຂຶ້ນ %2$s ສຳລັບທາງອອກທີ່ໄວທີ່ສຸດ</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">ສຳລັບລົດໄຟ %1$d, ຂຶ້ນ %2$s ສຳລັບການປ່ຽນທີ່ໄວທີ່ສຸດ</item>
+        <item quantity="other">ສຳລັບລົດໄຟ %1$d, ຂຶ້ນ %2$s ສຳລັບການປ່ຽນທີ່ໄວທີ່ສຸດ</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">ລົດທີ່ຄົນໜ້ອຍສຸດແມ່ນ %1$s</item>
+        <item quantity="other">ລົດທີ່ຄົນໜ້ອຍສຸດແມ່ນ %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">%1$d ລົດໄຟ</item>
+        <item quantity="other">%1$d ລົດໄຟ</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d ການຈ່າຍເງິນ</item>
+        <item quantity="other">%d ການຈ່າຍເງິນ</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s + %2$s ເພີ່ມເຕີມ</item>
+        <item quantity="other">%1$s + %2$s ເພີ່ມເຕີມ</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="one">%d+</item>
+        <item quantity="other">%d+</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">ໃຫ້ຄະແນນ 1 ດາວຈາກເຕັມ 5</item>
+        <item quantity="other">ໃຫ້ຄະແນນ %1$d ດາວຈາກເຕັມ 5</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">ເບິ່ງ %s ເທື່ອ</item>
+        <item quantity="other">ເບິ່ງ %s ເທື່ອ</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d ​ອັນ​ດັບ ຫຼື ຄວາມ​ຄິດ​ເຫັນ</item>
+        <item quantity="other">%,d ​ອັນ​ດັບ ຫຼື ຄວາມ​ຄິດ​ເຫັນ</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d ​ອັນ​ດັບ ຫຼື ຄວາມ​ຄິດ​ເຫັນ</item>
+        <item quantity="other">%,d ​ອັນ​ດັບ ຫຼື ຄວາມ​ຄິດ​ເຫັນ</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d ຄົນ</item>
+        <item quantity="other">%d ຄົນ</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="one">%d ຄຳຖາມ</item>
+        <item quantity="other">%d ຄຳຖາມ</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">%d ລາຍການເພີ່ມເຕີມ</item>
+        <item quantity="other">%d ລາຍການເພີ່ມເຕີມ</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">ບັນທຶກໃນ %1$s ແລະ ອີກ %2$d ລາຍຊື່ແລ້ວ</item>
+        <item quantity="other">ບັນທຶກໃນ %1$s ແລະ ອີກ %2$d ລາຍຊື່ແລ້ວ</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">ບັນທຶກການຢ້ຽມຢາມຂອງທ່ານຈາກ %d ມື້ກ່ອນນີ້ບໍ?</item>
+        <item quantity="other">ບັນທຶກການຢ້ຽມຢາມຂອງທ່ານຈາກ %d ມື້ກ່ອນນີ້ບໍ?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">ພົບຜົນການຊອກຫາ %1$d ລາຍການສຳລັບ %2$s</item>
+        <item quantity="other">ພົບຜົນການຊອກຫາ %1$d ລາຍການສຳລັບ %2$s</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">ກຳລັງສົ່ງການໃຫ້ຄະແນນ 1 ດາວ</item>
+        <item quantity="other">ກຳລັງສົ່ງການໃຫ້ຄະແນນ %1$d ດາວ</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">ເປັນເວລາ %d ມື້</item>
+        <item quantity="other">ເປັນເວລາ %d ມື້</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">ເປັນເວລາ %d ມື້</item>
+        <item quantity="other">ເປັນເວລາ %d ມື້</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">ເປັນເວລາ %d ນທ</item>
+        <item quantity="other">ເປັນເວລາ %d ນທ</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">ກຳລັງແບ່ງປັນສະຖານທີ່ຂອງທ່ານກັບ %2$s ແລະ ອີກ %1$d ຄົນ</item>
+        <item quantity="other">ກຳລັງແບ່ງປັນສະຖານທີ່ຂອງທ່ານກັບ %2$s ແລະ ອີກ %1$d ຄົນ</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">ກຳລັງແບ່ງປັນສະຖານທີ່ຂອງທ່ານກັບ %d ການແບ່ງປັນອື່ນໆ</item>
+        <item quantity="other">ກຳລັງແບ່ງປັນສະຖານທີ່ຂອງທ່ານກັບ %d ການແບ່ງປັນອື່ນໆ</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="one">ບັນທຶກ %d ສະຖານທີ່</item>
+        <item quantity="other">ບັນທຶກ %d ສະຖານທີ່</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="one">ພົບ %d ສະຖານທີ່</item>
+        <item quantity="other">ພົບ %d ສະຖານທີ່</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s, %2$d ດາວ</item>
+        <item quantity="other">%1$s, %2$d ດາວ</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">ໃຫ້ຄະແນນ 1 ດາວສຳເລັດແລ້ວ</item>
+        <item quantity="other">ໃຫ້ຄະແນນ %1$d ດາວສຳເລັດແລ້ວ</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">ເບິ່ງ %,d ເທື່ອ</item>
+        <item quantity="other">%,d ຄົນເບິ່ງ</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d ຄະແນນ</item>
+        <item quantity="other">+%d ຄະແນນ</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">ໂພສ %1$d ຮູບພາບ ແລະ ວິດີໂອຂອງ %2$s</item>
+        <item quantity="other">ໂພສ %1$d ຮູບພາບ ແລະ ວິດີໂອຂອງ %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">ໂພສ %1$d ຮູບຂອງ %2$s</item>
+        <item quantity="other">ໂພສ %1$d ຮູບຂອງ %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">ເພີ່ມເຕີມອີກ %d</item>
+        <item quantity="other">ເພີ່ມເຕີມອີກ %d</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">ໂພສ %1$d ຮູບ</item>
+        <item quantity="other">ໂພສ %1$d ຮູບ</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">ໂພສ %1$d</item>
+        <item quantity="other">ໂພສ %1$d</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$d ຄົນກ່າວເຖິງ %2$s</item>
+        <item quantity="other">%1$,d ຄົນກ່າວເຖິງ %2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">1 ການໂຕ້ຕອບ</item>
+        <item quantity="other">%1$,d ການໂຕ້ຕອບ</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">ເບິ່ງຕົວເລືອກເພີ່ມເຕີມອີກ %1$d ອັນຈາກ %2$s</item>
+        <item quantity="other">ເບິ່ງຕົວເລືອກເພີ່ມເຕີມອີກ %1$d ອັນຈາກ %2$s</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">ເບິ່ງອີກ %1$d ຕົວເລືອກ</item>
+        <item quantity="other">ເບິ່ງອີກ %1$d ຕົວເລືອກ</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">ບັນທຶກທີ່ຢູ່ຂອງທ່ານເພື່ອເບິ່ງເສັ້ນທາງຫຼີກເວັ້ນການຈະລາຈອນຕິດຂັດທີ່ໄວທີ່ສຸດ</item>
+        <item quantity="other">ບັນທຶກທີ່ຢູ່ຂອງທ່ານເພື່ອເບິ່ງເສັ້ນທາງຫຼີກເວັ້ນການຈະລາຈອນຕິດຂັດທີ່ໄວທີ່ສຸດ</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">ອັບເດດການອອກເດີນທາງແລ້ວເມື່ອ %1$dວິ ກ່ອນ</item>
+        <item quantity="other">ອັບເດດການອອກເດີນທາງແລ້ວເມື່ອ %1$dວິ ກ່ອນ</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">ອອກເດີນທາງທຸກນາທີ</item>
+        <item quantity="other">ອອກເດີນທາງທຸກ %d ນາທີ</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d ນທ</item>
+        <item quantity="other">%d ນທ</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES_LONG">
+        <item quantity="one">ນາທີ</item>
+        <item quantity="other">ນາທີ</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="one">%1$s (ແຈ້ງເຕືອນ 1 ລາຍການ)</item>
+        <item quantity="other">%1$s (ແຈ້ງເຕືອນ %2$d ລາຍການ)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="one">ລົດເມສາຍ %1$s (ແຈ້ງເຕືອນ 1 ລາຍການ)</item>
+        <item quantity="other">ລົດເມສາຍ %1$s (ແຈ້ງເຕືອນ %2$d ລາຍການ)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="one">ເຮືອບັກ %1$s (ແຈ້ງເຕືອນ 1 ລາຍການ)</item>
+        <item quantity="other">ເຮຶອບັກ %1$s (ແຈ້ງເຕືອນ %2$d ລາຍການ)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="one">ສາຍ %1$s (ແຈ້ງເຕືອນ 1 ລາຍການ)</item>
+        <item quantity="other">ສາຍ %1$s (ແຈ້ງເຕືອນ %2$d ລາຍການ)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="one">ລົດໄຟສາຍ %1$s (ແຈ້ງເຕືອນ 1 ລາຍການ)</item>
+        <item quantity="other">ລົດໄຟສາຍ %1$s (ແຈ້ງເຕືອນ %2$d ລາຍການ)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="one">ລົດລາງສາຍ %1$s (ແຈ້ງເຕືອນ 1 ລາຍການ)</item>
+        <item quantity="other">ລົດລາງສາຍ %1$s (ແຈ້ງເຕືອນ %2$d ລາຍການ)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="one">ທຸກໆ 1 ນທ</item>
+        <item quantity="other">ທຸກໆ %d ນທ</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d ຈຸດຈອດ</item>
+        <item quantity="other">%d ຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_CARD">
+        <item quantity="one">"%1$d
+ນທ ກ່ອນ"</item>
+        <item quantity="other">"%1$d
+ນທ ກ່ອນ"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+ນທ ກ່ອນ"</item>
+        <item quantity="other">"%1$s
+ນທ ກ່ອນ"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Departed %1$s minute ago</item>
+        <item quantity="other">Departed %1$s minutes ago</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d ການເຕືອນ</item>
+        <item quantity="other">+%d ການເຕືອນ</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d ການເຕືອນ</item>
+        <item quantity="other">+ %d ການເຕືອນ</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">ແລະ ອີກ +%d ລາຍການ</item>
+        <item quantity="other">ແລະ ອີກ +%d ລາຍການ</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d ເພີ່ມເຕີມ</item>
+        <item quantity="other">+ %d ເພີ່ມເຕີມ</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_ITEMS_COUNT">
+        <item quantity="one">+ %1$d ເພີ່ມເຕີມ</item>
+        <item quantity="other">+ %1$d ເພີ່ມເຕີມ</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+ນທ"</item>
+        <item quantity="other">"%1$s
+ນທ"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s ນທ ກ່ອນ</item>
+        <item quantity="other">%1$s ນທ ກ່ອນ</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Departs in %1$s minute</item>
+        <item quantity="other">Departs in %1$s minutes</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">%1$s ຄຳເຕືອນເພີ່ມເຕີມ</item>
+        <item quantity="other">%1$s ຄຳເຕືອນເພີ່ມເຕີມ</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s ຮູບ</item>
+        <item quantity="other">%s ຮູບ</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s ຄຳຕິຊົມ</item>
+        <item quantity="other">%s ຄຳຕິຊົມ</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d ການປະກອບສ່ວນ</item>
+        <item quantity="other">%,d ການປະກອບສ່ວນ</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">ເບິ່ງ %,d ເທື່ອ</item>
+        <item quantity="other">ເບິ່ງ %,d ເທື່ອ</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">ເລືອກສູງສຸດ %1$d ລາຍການ</item>
+        <item quantity="other">ເລືອກສູງສຸດ %1$d ລາຍການ</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">ເລືອກສູງສຸດ %1$s ຮູບ</item>
+        <item quantity="other">ເລືອກສູງສຸດ %1$s ຮູບ</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">ເຊົາປິດສຽງວິດີໂອຢູ່ໂພສ %1$d</item>
+        <item quantity="other">ເຊົາປິດສຽງວິດີໂອ %2$d ຢູ່ໂພສ %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d ຈາກທັງໝົດ %2$d</item>
+        <item quantity="other">%1$d ຈາກທັງໝົດ %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"ກຳ​ລັງ​ລໍ​ຖ້າ WiFi.
+ %d ຮູບ​ຄ້າງ​ຢູ່."</item>
+        <item quantity="other">"ກຳ​ລັງ​ລໍ​ຖ້າ WiFi.
+ %d ຮູບ​ຄ້າງ​ຢູ່."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">ເລືອກ %d ຮູບແລ້ວ</item>
+        <item quantity="other">ເລືອກ %d ຮູບແລ້ວ</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">Visited %1$d of %2$d place</item>
+        <item quantity="other">Visited %1$d of %2$d places</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ປິດຕົວປະຢັດ​ແບັດເຕີຣີເພື່ອເພີ່ມຄວາມຖືກຕ້ອງຂອງສະຖານທີ່ໃນເວລາແບ່ງປັນກັບ %1$s ແລະ ອີກ %2$d ຄົນ</item>
+        <item quantity="other">ປິດຕົວປະຢັດ​ແບັດເຕີຣີເພື່ອເພີ່ມຄວາມຖືກຕ້ອງຂອງສະຖານທີ່ໃນເວລາແບ່ງປັນກັບ %1$s ແລະ ອີກ %2$d ຄົນ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ຈະຕ້ອງເປີດໃຊ້ສະຖານທີ່ອຸປະກອນກ່ອນເພື່ອສືບຕໍ່ການແບ່ງປັນສະຖານທີ່ກັບ %1$s ແລະ ອີກ %2$d ຄົນ</item>
+        <item quantity="other">ຈະຕ້ອງເປີດໃຊ້ສະຖານທີ່ອຸປະກອນກ່ອນເພື່ອສືບຕໍ່ການແບ່ງປັນສະຖານທີ່ກັບ %1$s ແລະ ອີກ %2$d ຄົນ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ອັບເດດການແບ່ງປັນສະຖານທີ່ເພື່ອສືບຕໍ່ການແບ່ງປັນຢູ່ອຸປະກອນນີ້ກັບ %1$s ແລະ ອີກ %2$d ຄົນ</item>
+        <item quantity="other">ອັບເດດການແບ່ງປັນສະຖານທີ່ເພື່ອສືບຕໍ່ການແບ່ງປັນຢູ່ອຸປະກອນນີ້ກັບ %1$s ແລະ ອີກ %2$d ຄົນ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ໃຫ້ແຜນທີ່ຈຳແນກກິດຈະກຳທາງກາຍະພາບຂອງທ່ານເພື່ອເພີ່ມຄວາມຖືກຕ້ອງຂອງສະຖານທີ່ໃນເວລາແບ່ງປັນກັບ %1$s ແລະ ອີກ %2$d ຄົນ</item>
+        <item quantity="other">ໃຫ້ແຜນທີ່ຈຳແນກກິດຈະກຳທາງກາຍະພາບຂອງທ່ານເພື່ອເພີ່ມຄວາມຖືກຕ້ອງຂອງສະຖານທີ່ໃນເວລາແບ່ງປັນກັບ %1$s ແລະ ອີກ %2$d ຄົນ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ອະນຸຍາດໃຫ້ແຜນທີ່ເຂົ້າເຖິງສະຖານທີ່ຂອງທ່ານໄດ້ຕະຫຼອດເພື່ອເພີ່ມຄວາມຖືກຕ້ອງຂອງສະຖານທີ່ໃນເວລາແບ່ງປັນກັບ %1$s ແລະ ອີກ %2$d ຄົນ</item>
+        <item quantity="other">ອະນຸຍາດໃຫ້ແຜນທີ່ເຂົ້າເຖິງສະຖານທີ່ຂອງທ່ານໄດ້ຕະຫຼອດເພື່ອເພີ່ມຄວາມຖືກຕ້ອງຂອງສະຖານທີ່ໃນເວລາແບ່ງປັນກັບ %1$s ແລະ ອີກ %2$d ຄົນ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ອະນຸຍາດໃຫ້ແຜນທີ່ເຂົ້າເຖິງສະຖານທີ່ຂອງທ່ານເພື່ອສືບຕໍ່ການແບ່ງປັນກັບ %1$s ແລະ ອີກ %2$d ຄົນໄດ້ຕະຫຼອດ</item>
+        <item quantity="other">ອະນຸຍາດໃຫ້ແຜນທີ່ເຂົ້າເຖິງສະຖານທີ່ຂອງທ່ານເພື່ອສືບຕໍ່ການແບ່ງປັນກັບ %1$s ແລະ ອີກ %2$d ຄົນໄດ້ຕະຫຼອດ</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">ຮູບພາບເພີ່ມເຕີມ %d ຮູບ</item>
+        <item quantity="other">ຮູບພາບເພີ່ມເຕີມ %d ຮູບ</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d ຄຳຕິຊົມ)</item>
+        <item quantity="other">(%,d ຄຳຕິຊົມ)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="one">%1$s ວິນາທີ</item>
+        <item quantity="other">%1$s ວິນາທີ</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">ວິດີໂອສຳລັບໂພສ %1$d</item>
+        <item quantity="other">ວິດີໂອ %2$d ສຳລັບໂພສ %1$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">ວິດີໂອສຳລັບໂພສ %1$d ແມ່ນເຕັມຈໍຢູ່</item>
+        <item quantity="other">ວິດີໂອ %2$d ສຳລັບໂພສ %1$d ແມ່ນເຕັມຈໍຢູ່</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d ຄືນ</item>
+        <item quantity="other">%2$s × %1$d ຄືນ</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%2$s ສຳລັບ %1$d ຄືນ ຮວມພາສີ + ຄ່າບໍລິການ</item>
+        <item quantity="other">%2$s ສຳລັບ %1$d ຄືນ ຮວມພາສີ + ຄ່າບໍລິການ</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">ຍ່າງ 1 ນທ</item>
+        <item quantity="other">ຍ່າງ %d ນທ</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d ຈຸດຈອດ</item>
+        <item quantity="other">+ %d ຈຸດຈອດ</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d ຈຸດຈອດ)</item>
+        <item quantity="other">(%d ຈຸດຈອດ)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d ອາທິດກ່ອນ</item>
+        <item quantity="other">%d ອາທິດກ່ອນ</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d ປີກ່ອນ</item>
+        <item quantity="other">%d ປີກ່ອນ</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">ເບິ່ງຮູບພາບທີ່ຍັງເຫຼືອ</item>
+        <item quantity="other">ເບິ່ງ %1$d ຮູບພາບທີ່ຍັງເຫຼືອ</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">ຄຳຕິຊົມ ຫຼື ອັບເດດຂອງທ່ານ</item>
+        <item quantity="other">ຄຳຕິຊົມ ຫຼື ອັບເດດຂອງທ່ານ</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">ທ່ານກຳລັງຕິດຕາມ %1$s ແລະ ອີກ %2$d ລາຍຊື່</item>
+        <item quantity="other">ທ່ານກຳລັງຕິດຕາມ %1$s ແລະ ອີກ %2$d ລາຍຊື່</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s ແລະ ອີກ %2$d ຄົນ</item>
+        <item quantity="other">%1$s ແລະ ອີກ %2$d ຄົນ</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="one">%1$d ຈາກທັງໝົດ %2$d</item>
+        <item quantity="other">%1$d ຈາກທັງໝົດ %2$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d ຈາກເຕັມ %2$d</item>
+        <item quantity="other">%1$d ຈາກເຕັມ %2$d</item>
+    </plurals>
+    <plurals name="plurals_0x7f12014e">
+        <item quantity="one"></item>
+        <item quantity="other">ລະດັບ %1$d</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="one">%1$d ນທ</item>
+        <item quantity="other">%1$d ນທ</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">ຖ່າຍ 1 ລາຍການແລ້ວ</item>
+        <item quantity="other">ຖ່າຍ %1$d ລາຍການແລ້ວ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ການແຈ້ງເຕືອນໃໝ່</item>
+        <item quantity="other">%d ການແຈ້ງເຕືອນໃໝ່</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="one">+ %1$d ເພີ່ມເຕີມ</item>
+        <item quantity="other">+ %1$d ເພີ່ມເຕີມ</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="one">ມີ %d ຄົນກຳລັງພິມ</item>
+        <item quantity="other">ມີ %d ຄົນກຳລັງພິມ</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">ສຳເນົາຜູ້ຮັບ %d ຄົນແລ້ວ</item>
+        <item quantity="other">ສຳເນົາຜູ້ຮັບ %d ຄົນແລ້ວ</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">ເວົ້າບາງຢ່າງກ່ຽວກັບຮູບພາບນີ້ (ບໍ່ບັງຄັບ)</item>
+        <item quantity="other">ເວົ້າບາງຢ່າງກ່ຽວກັບຮູບພາບຂອງທ່ານ (ບໍ່ບັງຄັບ)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d ດາວຈາກເຕັມ %2$d.</item>
+        <item quantity="other">%1$d ດາວຈາກເຕັມ %2$d</item>
+    </plurals>
+    <plurals name="tell_maps_know_before_you_go_place_contextual_zero_state_post_tip">
+        <item quantity="one">ຕ້ອງການໂພສເຄັດລັບກ່ຽວກັບສະຖານທີ່ນີ້ບໍ?</item>
+        <item quantity="other">ຕ້ອງການໂພສເຄັດລັບກ່ຽວກັບໜຶ່ງໃນສະຖານທີ່ເຫຼົ່ານີ້ບໍ?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_post_tip_or_photo">
+        <item quantity="one">ຕ້ອງການໂພສຮູບພາບ ຫຼື ເຄັດລັບກ່ຽວກັບສະຖານທີ່ນີ້ບໍ?</item>
+        <item quantity="other">ຕ້ອງການໂພສຮູບພາບ ຫຼື ເຄັດລັບກ່ຽວກັບໜຶ່ງໃນສະຖານທີ່ເຫຼົ່ານີ້ບໍ?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_update_a_place">
+        <item quantity="one">ທ່ານຕ້ອງການອັບເດດຂໍ້ມູນບາງຢ່າງກ່ຽວກັບສະຖານທີ່ນີ້ບໍ?</item>
+        <item quantity="other">ທ່ານຕ້ອງການອັບເດດສະຖານທີ່ໃດ?</item>
+    </plurals>
+</resources>

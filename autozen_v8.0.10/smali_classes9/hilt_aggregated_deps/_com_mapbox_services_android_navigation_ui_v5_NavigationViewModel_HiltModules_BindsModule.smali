@@ -1,0 +1,3 @@
+.class public Lhilt_aggregated_deps/_com_mapbox_services_android_navigation_ui_v5_NavigationViewModel_HiltModules_BindsModule;
+.super Ljava/lang/Object;
+.source "SourceFile"

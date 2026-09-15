@@ -1,0 +1,120 @@
+.class public final Lcom/mapbox/maps/plugin/overlay/MapOverlayPlugin$DefaultImpls;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/mapbox/maps/plugin/overlay/MapOverlayPlugin;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "DefaultImpls"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public static cleanup(Lcom/mapbox/maps/plugin/overlay/MapOverlayPlugin;)V
+    .locals 0
+
+    .line 1
+    invoke-static {p0}, Lcom/mapbox/maps/plugin/MapPlugin$DefaultImpls;->cleanup(Lcom/mapbox/maps/plugin/MapPlugin;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static initialize(Lcom/mapbox/maps/plugin/overlay/MapOverlayPlugin;)V
+    .locals 0
+
+    .line 1
+    invoke-static {p0}, Lcom/mapbox/maps/plugin/MapPlugin$DefaultImpls;->initialize(Lcom/mapbox/maps/plugin/MapPlugin;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static onDelegateProvider(Lcom/mapbox/maps/plugin/overlay/MapOverlayPlugin;Lcom/mapbox/maps/plugin/delegates/MapDelegateProvider;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-static {p0, p1}, Lcom/mapbox/maps/plugin/MapPlugin$DefaultImpls;->onDelegateProvider(Lcom/mapbox/maps/plugin/MapPlugin;Lcom/mapbox/maps/plugin/delegates/MapDelegateProvider;)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+.method public static onSizeChanged(Lcom/mapbox/maps/plugin/overlay/MapOverlayPlugin;II)V
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lcom/mapbox/maps/plugin/MapSizePlugin$DefaultImpls;->onSizeChanged(Lcom/mapbox/maps/plugin/MapSizePlugin;II)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static synthetic reframe$default(Lcom/mapbox/maps/plugin/overlay/MapOverlayPlugin;Lcom/mapbox/maps/plugin/overlay/OnReframeFinished;ILjava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    if-nez p3, :cond_1
+
+    .line 2
+    .line 3
+    and-int/lit8 p2, p2, 0x1
+
+    .line 4
+    .line 5
+    if-eqz p2, :cond_0
+
+    .line 6
+    .line 7
+    const/4 p1, 0x0
+
+    .line 8
+    :cond_0
+    invoke-interface {p0, p1}, Lcom/mapbox/maps/plugin/overlay/MapOverlayPlugin;->reframe(Lcom/mapbox/maps/plugin/overlay/OnReframeFinished;)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+
+    .line 12
+    :cond_1
+    const-string p0, "Super calls with default arguments not supported in this target, function: reframe"
+
+    .line 13
+    .line 14
+    invoke-static {p0}, Lz4;->f(Ljava/lang/String;)V
+
+    .line 15
+    .line 16
+    .line 17
+    return-void
+.end method

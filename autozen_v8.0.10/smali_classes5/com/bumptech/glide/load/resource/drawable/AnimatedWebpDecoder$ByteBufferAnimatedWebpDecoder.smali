@@ -1,0 +1,138 @@
+.class final Lcom/bumptech/glide/load/resource/drawable/AnimatedWebpDecoder$ByteBufferAnimatedWebpDecoder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/bumptech/glide/load/ResourceDecoder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bumptech/glide/load/resource/drawable/AnimatedWebpDecoder;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "ByteBufferAnimatedWebpDecoder"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/bumptech/glide/load/ResourceDecoder<",
+        "Ljava/nio/ByteBuffer;",
+        "Landroid/graphics/drawable/Drawable;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final delegate:Lcom/bumptech/glide/load/resource/drawable/AnimatedWebpDecoder;
+
+
+# virtual methods
+.method public bridge synthetic decode(Ljava/lang/Object;IILcom/bumptech/glide/load/Options;)Lcom/bumptech/glide/load/engine/Resource;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 12
+    check-cast p1, Ljava/nio/ByteBuffer;
+
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/resource/drawable/AnimatedWebpDecoder$ByteBufferAnimatedWebpDecoder;->decode(Ljava/nio/ByteBuffer;IILcom/bumptech/glide/load/Options;)Lcom/bumptech/glide/load/engine/Resource;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public decode(Ljava/nio/ByteBuffer;IILcom/bumptech/glide/load/Options;)Lcom/bumptech/glide/load/engine/Resource;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/nio/ByteBuffer;",
+            "II",
+            "Lcom/bumptech/glide/load/Options;",
+            ")",
+            "Lcom/bumptech/glide/load/engine/Resource<",
+            "Landroid/graphics/drawable/Drawable;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {p1}, Lgi0;->e(Ljava/nio/ByteBuffer;)Landroid/graphics/ImageDecoder$Source;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    iget-object p0, p0, Lcom/bumptech/glide/load/resource/drawable/AnimatedWebpDecoder$ByteBufferAnimatedWebpDecoder;->delegate:Lcom/bumptech/glide/load/resource/drawable/AnimatedWebpDecoder;
+
+    .line 6
+    .line 7
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/resource/drawable/AnimatedWebpDecoder;->decode(Landroid/graphics/ImageDecoder$Source;IILcom/bumptech/glide/load/Options;)Lcom/bumptech/glide/load/engine/Resource;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p0
+
+    .line 11
+    return-object p0
+.end method
+
+.method public bridge synthetic handles(Ljava/lang/Object;Lcom/bumptech/glide/load/Options;)Z
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    check-cast p1, Ljava/nio/ByteBuffer;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/load/resource/drawable/AnimatedWebpDecoder$ByteBufferAnimatedWebpDecoder;->handles(Ljava/nio/ByteBuffer;Lcom/bumptech/glide/load/Options;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    return p0
+.end method
+
+.method public handles(Ljava/nio/ByteBuffer;Lcom/bumptech/glide/load/Options;)Z
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 8
+    iget-object p0, p0, Lcom/bumptech/glide/load/resource/drawable/AnimatedWebpDecoder$ByteBufferAnimatedWebpDecoder;->delegate:Lcom/bumptech/glide/load/resource/drawable/AnimatedWebpDecoder;
+
+    invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/resource/drawable/AnimatedWebpDecoder;->handles(Ljava/nio/ByteBuffer;)Z
+
+    move-result p0
+
+    return p0
+.end method

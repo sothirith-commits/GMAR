@@ -1,0 +1,465 @@
+.class public final Ljpt;
+.super Lcueo;
+.source "PG"
+
+# interfaces
+.implements Lcufu;
+
+
+# instance fields
+.field a:Ljava/lang/Object;
+
+.field b:Ljava/lang/Object;
+
+.field c:I
+
+.field final synthetic d:Ljjw;
+
+.field final synthetic e:Ljoq;
+
+.field final synthetic f:Lgfz;
+
+.field private synthetic g:Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>(Ljjw;Lgfz;Ljoq;Lcudt;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Ljpt;->d:Ljjw;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Ljpt;->f:Lgfz;
+
+    .line 4
+    .line 5
+    iput-object p3, p0, Ljpt;->e:Ljoq;
+
+    .line 6
+    .line 7
+    const/4 p1, 0x2
+
+    .line 8
+    invoke-direct {p0, p1, p4}, Lcueo;-><init>(ILcudt;)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lculq;
+
+    .line 2
+    .line 3
+    check-cast p2, Lcudt;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1, p2}, Lcuei;->c(Ljava/lang/Object;Lcudt;)Lcudt;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
+
+    .line 9
+    sget-object p1, Lcubp;->a:Lcubp;
+
+    .line 10
+    .line 11
+    check-cast p0, Ljpt;
+
+    .line 12
+    .line 13
+    invoke-virtual {p0, p1}, Ljpt;->b(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p0
+
+    .line 17
+    return-object p0
+.end method
+
+.method public final b(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 11
+
+    .line 1
+    sget-object v0, Lcueb;->a:Lcueb;
+
+    .line 2
+    .line 3
+    iget v1, p0, Ljpt;->c:I
+
+    .line 4
+    .line 5
+    const/16 v2, -0x100
+
+    .line 6
+    .line 7
+    const/4 v3, 0x0
+
+    .line 8
+    if-eqz v1, :cond_0
+
+    .line 9
+    .line 10
+    iget-object v1, p0, Ljpt;->b:Ljava/lang/Object;
+
+    .line 11
+    .line 12
+    iget-object v4, p0, Ljpt;->a:Ljava/lang/Object;
+
+    .line 13
+    .line 14
+    iget-object v0, p0, Ljpt;->g:Ljava/lang/Object;
+
+    .line 15
+    .line 16
+    move-object v5, v0
+
+    .line 17
+    check-cast v5, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 18
+    .line 19
+    :try_start_0
+    invoke-static {p1}, Lclqq;->bB(Ljava/lang/Object;)V
+    :try_end_0
+    .catch Ljava/util/concurrent/CancellationException; {:try_start_0 .. :try_end_0} :catch_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 20
+    .line 21
+    .line 22
+    goto :goto_0
+
+    .line 23
+    :catchall_0
+    move-exception v0
+
+    .line 24
+    move-object p1, v0
+
+    .line 25
+    goto :goto_1
+
+    .line 26
+    :catch_0
+    move-exception v0
+
+    .line 27
+    move-object p1, v0
+
+    .line 28
+    goto :goto_2
+
+    .line 29
+    :cond_0
+    invoke-static {p1}, Lclqq;->bB(Ljava/lang/Object;)V
+
+    .line 30
+    .line 31
+    .line 32
+    iget-object p1, p0, Ljpt;->g:Ljava/lang/Object;
+
+    .line 33
+    .line 34
+    check-cast p1, Lculq;
+
+    .line 35
+    .line 36
+    new-instance v7, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 37
+    .line 38
+    invoke-direct {v7, v2}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
+
+    .line 39
+    .line 40
+    .line 41
+    iget-object v1, p0, Ljpt;->d:Ljjw;
+
+    .line 42
+    .line 43
+    iget-object v5, p0, Ljpt;->f:Lgfz;
+
+    .line 44
+    .line 45
+    iget-object v6, p0, Ljpt;->e:Ljoq;
+
+    .line 46
+    .line 47
+    invoke-virtual {v1}, Ljjw;->b()Lcom/google/common/util/concurrent/ListenableFuture;
+
+    .line 48
+    .line 49
+    .line 50
+    move-result-object v8
+
+    .line 51
+    new-instance v4, Lacv;
+
+    .line 52
+    .line 53
+    const/4 v9, 0x0
+
+    .line 54
+    const/16 v10, 0xa
+
+    .line 55
+    .line 56
+    invoke-direct/range {v4 .. v10}, Lacv;-><init>(Lgfz;Ljoq;Ljava/util/concurrent/atomic/AtomicInteger;Lcom/google/common/util/concurrent/ListenableFuture;Lcudt;I)V
+
+    .line 57
+    .line 58
+    .line 59
+    const/4 v1, 0x3
+
+    .line 60
+    const/4 v5, 0x0
+
+    .line 61
+    invoke-static {p1, v3, v5, v4, v1}, Lcugn;->H(Lculq;Lcudy;ILcufu;I)Lcumz;
+
+    .line 62
+    .line 63
+    .line 64
+    move-result-object v1
+
+    .line 65
+    :try_start_1
+    iput-object v7, p0, Ljpt;->g:Ljava/lang/Object;
+
+    .line 66
+    .line 67
+    iput-object v8, p0, Ljpt;->a:Ljava/lang/Object;
+
+    .line 68
+    .line 69
+    iput-object v1, p0, Ljpt;->b:Ljava/lang/Object;
+
+    .line 70
+    .line 71
+    const/4 p1, 0x1
+
+    .line 72
+    iput p1, p0, Ljpt;->c:I
+
+    .line 73
+    .line 74
+    invoke-static {v8, p0}, Lfkq;->i(Lcom/google/common/util/concurrent/ListenableFuture;Lcudt;)Ljava/lang/Object;
+
+    .line 75
+    .line 76
+    .line 77
+    move-result-object p1
+    :try_end_1
+    .catch Ljava/util/concurrent/CancellationException; {:try_start_1 .. :try_end_1} :catch_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 78
+    if-eq p1, v0, :cond_1
+
+    .line 79
+    .line 80
+    move-object v5, v7
+
+    .line 81
+    move-object v4, v8
+
+    .line 82
+    :goto_0
+    :try_start_2
+    check-cast p1, Lgqi;
+    :try_end_2
+    .catch Ljava/util/concurrent/CancellationException; {:try_start_2 .. :try_end_2} :catch_0
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    .line 83
+    .line 84
+    invoke-interface {v1, v3}, Lcumz;->i(Ljava/util/concurrent/CancellationException;)V
+
+    .line 85
+    .line 86
+    .line 87
+    return-object p1
+
+    .line 88
+    :cond_1
+    return-object v0
+
+    .line 89
+    :goto_1
+    :try_start_3
+    iget-object p0, p0, Ljpt;->d:Ljjw;
+
+    .line 90
+    .line 91
+    invoke-static {}, Ljjx;->a()V
+
+    .line 92
+    .line 93
+    .line 94
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 95
+    .line 96
+    .line 97
+    move-result-object p0
+
+    .line 98
+    invoke-static {p0}, Ljava/util/Objects;->toString(Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 99
+    .line 100
+    .line 101
+    throw p1
+
+    .line 102
+    :catchall_1
+    move-exception v0
+
+    .line 103
+    move-object p0, v0
+
+    .line 104
+    goto :goto_3
+
+    .line 105
+    :catch_1
+    move-exception v0
+
+    .line 106
+    move-object p1, v0
+
+    .line 107
+    move-object v5, v7
+
+    .line 108
+    move-object v4, v8
+
+    .line 109
+    :goto_2
+    iget-object p0, p0, Ljpt;->d:Ljjw;
+
+    .line 110
+    .line 111
+    invoke-static {}, Ljjx;->a()V
+
+    .line 112
+    .line 113
+    .line 114
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 115
+    .line 116
+    .line 117
+    move-result-object p0
+
+    .line 118
+    invoke-static {p0}, Ljava/util/Objects;->toString(Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 119
+    .line 120
+    .line 121
+    invoke-virtual {v5}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
+
+    .line 122
+    .line 123
+    .line 124
+    move-result p0
+
+    .line 125
+    invoke-interface {v4}, Lcom/google/common/util/concurrent/ListenableFuture;->isCancelled()Z
+
+    .line 126
+    .line 127
+    .line 128
+    move-result v0
+
+    .line 129
+    if-eqz v0, :cond_2
+
+    .line 130
+    .line 131
+    if-eq p0, v2, :cond_2
+
+    .line 132
+    .line 133
+    new-instance p0, Ljpr;
+
+    .line 134
+    .line 135
+    invoke-virtual {v5}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
+
+    .line 136
+    .line 137
+    .line 138
+    move-result p1
+
+    .line 139
+    invoke-direct {p0, p1}, Ljpr;-><init>(I)V
+
+    .line 140
+    .line 141
+    .line 142
+    throw p0
+
+    .line 143
+    :cond_2
+    throw p1
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_1
+
+    .line 144
+    :goto_3
+    invoke-interface {v1, v3}, Lcumz;->i(Ljava/util/concurrent/CancellationException;)V
+
+    .line 145
+    .line 146
+    .line 147
+    throw p0
+.end method
+
+.method public final c(Ljava/lang/Object;Lcudt;)Lcudt;
+    .locals 3
+
+    .line 1
+    new-instance v0, Ljpt;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Ljpt;->d:Ljjw;
+
+    .line 4
+    .line 5
+    iget-object v2, p0, Ljpt;->f:Lgfz;
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Ljpt;->e:Ljoq;
+
+    .line 8
+    .line 9
+    invoke-direct {v0, v1, v2, p0, p2}, Ljpt;-><init>(Ljjw;Lgfz;Ljoq;Lcudt;)V
+
+    .line 10
+    .line 11
+    .line 12
+    iput-object p1, v0, Ljpt;->g:Ljava/lang/Object;
+
+    .line 13
+    .line 14
+    return-object v0
+.end method

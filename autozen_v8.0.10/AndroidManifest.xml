@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="37" android:compileSdkVersionCodename="17" package="com.zenthek.autozen" platformBuildVersionCode="37" platformBuildVersionName="17">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.BIND_APPWIDGET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+        </intent>
+        <intent>
+            <action android:name="android.appwidget.action.APPWIDGET_PICK"/>
+        </intent>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+        </intent>
+        <intent>
+            <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.INSERT"/>
+            <data android:mimeType="vnd.android.cursor.dir/event"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="sms"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.DIAL"/>
+            <data android:path="tel:"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="https"/>
+        </intent>
+        <package android:name="com.google.android.aicore"/>
+    </queries>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation"/>
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.READ_BASIC_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="com.google.android.apps.aicore.service.BIND_SERVICE"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-feature android:glEsVersion="0x30000" android:required="true"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <permission android:name="com.zenthek.autozen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.zenthek.autozen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory"  android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.pairip.application.Application" android:networkSecurityConfig="@xml/network_security_config" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme.NoActionBar.NoStatusBar">
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:enabled="false" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:enabled="false" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerCmpNetworksListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerDetailActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerMultiAdActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerTcfInfoListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerTcfStringActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerTestModeNetworkActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerUnifiedFlowActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:name="com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:exported="false" android:name="com.here.sdk.consent.ConsentActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <meta-data android:name="io.sentry.dsn" android:value="https://6e0054cb98c26586fabf118ad2d831e8@o4508698193100800.ingest.de.sentry.io/4508698205880400"/>
+        <meta-data android:name="io.sentry.traces.user-interaction.enable" android:value="true"/>
+        <meta-data android:name="io.sentry.auto-init" android:value="false"/>
+        <meta-data android:name="io.sentry.attach-screenshot" android:value="true"/>
+        <meta-data android:name="io.sentry.attach-view-hierarchy" android:value="false"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_stat_notification_icon_small"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/colorPrimary"/>
+        <meta-data android:name="preloaded_fonts" android:resource="@array/preloaded_fonts"/>
+        <meta-data android:name="com.google.mlkit.vision.DEPENDENCIES" android:value="langid,smart_reply"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-4219473884700224~3242089786"/>
+        <provider android:authorities="com.zenthek.autozen.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="com.mapbox.maps.loader.MapboxMapsInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="com.mapbox.common.MapboxSDKCommonInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <activity android:configChanges="uiMode" android:exported="true" android:launchMode="singleTask" android:name="app.ui.main.ActivitySplashScreen" android:noHistory="true" android:screenOrientation="sensor" android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="geo"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:path="/"/>
+                <data android:pathPrefix="/maps"/>
+                <data android:host="local.google.com"/>
+                <data android:host="maps.google.ad"/>
+                <data android:host="maps.google.ae"/>
+                <data android:host="maps.google.as"/>
+                <data android:host="maps.google.at"/>
+                <data android:host="maps.google.ba"/>
+                <data android:host="maps.google.be"/>
+                <data android:host="maps.google.bf"/>
+                <data android:host="maps.google.bg"/>
+                <data android:host="maps.google.bi"/>
+                <data android:host="maps.google.bj"/>
+                <data android:host="maps.google.bs"/>
+                <data android:host="maps.google.bt"/>
+                <data android:host="maps.google.ca"/>
+                <data android:host="maps.google.cd"/>
+                <data android:host="maps.google.cf"/>
+                <data android:host="maps.google.cg"/>
+                <data android:host="maps.google.ch"/>
+                <data android:host="maps.google.ci"/>
+                <data android:host="maps.google.cl"/>
+                <data android:host="maps.google.cm"/>
+                <data android:host="maps.google.cn"/>
+                <data android:host="maps.google.co.ao"/>
+                <data android:host="maps.google.co.bw"/>
+                <data android:host="maps.google.co.ck"/>
+                <data android:host="maps.google.co.cr"/>
+                <data android:host="maps.google.co.id"/>
+                <data android:host="maps.google.co.il"/>
+                <data android:host="maps.google.co.in"/>
+                <data android:host="maps.google.co.jp"/>
+                <data android:host="maps.google.co.ke"/>
+                <data android:host="maps.google.co.kr"/>
+                <data android:host="maps.google.co.ls"/>
+                <data android:host="maps.google.co.mz"/>
+                <data android:host="maps.google.co.nz"/>
+                <data android:host="maps.google.co.th"/>
+                <data android:host="maps.google.co.tz"/>
+                <data android:host="maps.google.co.ug"/>
+                <data android:host="maps.google.co.uk"/>
+                <data android:host="maps.google.co.ve"/>
+                <data android:host="maps.google.co.vi"/>
+                <data android:host="maps.google.co.za"/>
+                <data android:host="maps.google.co.zm"/>
+                <data android:host="maps.google.co.zw"/>
+                <data android:host="maps.google.com"/>
+                <data android:host="maps.google.com.ag"/>
+                <data android:host="maps.google.com.ai"/>
+                <data android:host="maps.google.com.ar"/>
+                <data android:host="maps.google.com.au"/>
+                <data android:host="maps.google.com.bd"/>
+                <data android:host="maps.google.com.bh"/>
+                <data android:host="maps.google.com.bn"/>
+                <data android:host="maps.google.com.bo"/>
+                <data android:host="maps.google.com.br"/>
+                <data android:host="maps.google.com.bz"/>
+                <data android:host="maps.google.com.cu"/>
+                <data android:host="maps.google.com.do"/>
+                <data android:host="maps.google.com.ec"/>
+                <data android:host="maps.google.com.eg"/>
+                <data android:host="maps.google.com.et"/>
+                <data android:host="maps.google.com.fj"/>
+                <data android:host="maps.google.com.gh"/>
+                <data android:host="maps.google.com.gi"/>
+                <data android:host="maps.google.com.gt"/>
+                <data android:host="maps.google.com.hk"/>
+                <data android:host="maps.google.com.jm"/>
+                <data android:host="maps.google.com.kh"/>
+                <data android:host="maps.google.com.kw"/>
+                <data android:host="maps.google.com.lb"/>
+                <data android:host="maps.google.com.lv"/>
+                <data android:host="maps.google.com.ly"/>
+                <data android:host="maps.google.com.mt"/>
+                <data android:host="maps.google.com.mx"/>
+                <data android:host="maps.google.com.my"/>
+                <data android:host="maps.google.com.na"/>
+                <data android:host="maps.google.com.ng"/>
+                <data android:host="maps.google.com.ni"/>
+                <data android:host="maps.google.com.np"/>
+                <data android:host="maps.google.com.om"/>
+                <data android:host="maps.google.com.pa"/>
+                <data android:host="maps.google.com.pe"/>
+                <data android:host="maps.google.com.pg"/>
+                <data android:host="maps.google.com.ph"/>
+                <data android:host="maps.google.com.pr"/>
+                <data android:host="maps.google.com.py"/>
+                <data android:host="maps.google.com.qa"/>
+                <data android:host="maps.google.com.sa"/>
+                <data android:host="maps.google.com.sb"/>
+                <data android:host="maps.google.com.sg"/>
+                <data android:host="maps.google.com.sl"/>
+                <data android:host="maps.google.com.sv"/>
+                <data android:host="maps.google.com.tw"/>
+                <data android:host="maps.google.com.ua"/>
+                <data android:host="maps.google.com.uy"/>
+                <data android:host="maps.google.com.vc"/>
+                <data android:host="maps.google.cv"/>
+                <data android:host="maps.google.cz"/>
+                <data android:host="maps.google.de"/>
+                <data android:host="maps.google.dj"/>
+                <data android:host="maps.google.dk"/>
+                <data android:host="maps.google.dm"/>
+                <data android:host="maps.google.dz"/>
+                <data android:host="maps.google.ee"/>
+                <data android:host="maps.google.es"/>
+                <data android:host="maps.google.fi"/>
+                <data android:host="maps.google.fm"/>
+                <data android:host="maps.google.fr"/>
+                <data android:host="maps.google.ga"/>
+                <data android:host="maps.google.ge"/>
+                <data android:host="maps.google.gg"/>
+                <data android:host="maps.google.gl"/>
+                <data android:host="maps.google.gm"/>
+                <data android:host="maps.google.gp"/>
+                <data android:host="maps.google.gr"/>
+                <data android:host="maps.google.gy"/>
+                <data android:host="maps.google.hn"/>
+                <data android:host="maps.google.hr"/>
+                <data android:host="maps.google.ht"/>
+                <data android:host="maps.google.hu"/>
+                <data android:host="maps.google.ie"/>
+                <data android:host="maps.google.im"/>
+                <data android:host="maps.google.iq"/>
+                <data android:host="maps.google.is"/>
+                <data android:host="maps.google.it"/>
+                <data android:host="maps.google.je"/>
+                <data android:host="maps.google.jo"/>
+                <data android:host="maps.google.ki"/>
+                <data android:host="maps.google.la"/>
+                <data android:host="maps.google.li"/>
+                <data android:host="maps.google.lk"/>
+                <data android:host="maps.google.lt"/>
+                <data android:host="maps.google.lu"/>
+                <data android:host="maps.google.lv"/>
+                <data android:host="maps.google.md"/>
+                <data android:host="maps.google.mg"/>
+                <data android:host="maps.google.mk"/>
+                <data android:host="maps.google.ml"/>
+                <data android:host="maps.google.mn"/>
+                <data android:host="maps.google.ms"/>
+                <data android:host="maps.google.mt"/>
+                <data android:host="maps.google.mu"/>
+                <data android:host="maps.google.mv"/>
+                <data android:host="maps.google.mw"/>
+                <data android:host="maps.google.ne"/>
+                <data android:host="maps.google.nf"/>
+                <data android:host="maps.google.nl"/>
+                <data android:host="maps.google.no"/>
+                <data android:host="maps.google.nr"/>
+                <data android:host="maps.google.nu"/>
+                <data android:host="maps.google.pl"/>
+                <data android:host="maps.google.pn"/>
+                <data android:host="maps.google.pt"/>
+                <data android:host="maps.google.ro"/>
+                <data android:host="maps.google.rs"/>
+                <data android:host="maps.google.ru"/>
+                <data android:host="maps.google.rw"/>
+                <data android:host="maps.google.sc"/>
+                <data android:host="maps.google.se"/>
+                <data android:host="maps.google.sh"/>
+                <data android:host="maps.google.si"/>
+                <data android:host="maps.google.sk"/>
+                <data android:host="maps.google.sm"/>
+                <data android:host="maps.google.sn"/>
+                <data android:host="maps.google.so"/>
+                <data android:host="maps.google.st"/>
+                <data android:host="maps.google.td"/>
+                <data android:host="maps.google.tg"/>
+                <data android:host="maps.google.tk"/>
+                <data android:host="maps.google.tl"/>
+                <data android:host="maps.google.tn"/>
+                <data android:host="maps.google.to"/>
+                <data android:host="maps.google.tt"/>
+                <data android:host="maps.google.vg"/>
+                <data android:host="maps.google.vu"/>
+                <data android:host="maps.google.ws"/>
+                <data android:host="mapy.google.pl"/>
+                <data android:host="maps.google.pl"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="*" android:scheme="autozen"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="uiMode" android:enableOnBackInvokedCallback="true" android:exported="false" android:launchMode="singleTask" android:name="app.ui.main.MainActivity" android:screenOrientation="sensor" android:theme="@style/AppTheme.NoActionBar.NoStatusBar">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="uiMode" android:exported="false" android:launchMode="singleTask" android:name="app.ui.main.onboarding.OnboardingActivity" android:screenOrientation="sensor" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:configChanges="uiMode" android:enableOnBackInvokedCallback="true" android:exported="false" android:name="app.ui.main.preferences.SettingsActivityV2" android:screenOrientation="sensor" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:configChanges="uiMode" android:exported="false" android:name="app.ui.main.drawer.AppSelectorActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="app.notifications.IncomingNotificationActivity" android:screenOrientation="sensor" android:taskAffinity="" android:theme="@style/AppTheme.NoActionBar.Translucent"/>
+        <service android:exported="false" android:foregroundServiceType="location" android:name="app.service.MainForegroundService"/>
+        <service android:exported="true" android:name="app.service.ServiceNotificationListener" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <activity android:enabled="false" android:exported="true" android:launchMode="singleTask" android:name="app.ui.main.ActivityLauncherDummy" android:theme="@style/AppTheme.NoActionBar.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.HOME"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="app.ui.main.receiver.BluetoothReceiver">
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.ACL_CONNECTED"/>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="app.ui.main.receiver.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="app.ui.main.bubble.LauncherFloatingBubbleService"/>
+        <service android:exported="false" android:name="app.ui.main.bubble.DynamicIslandService"/>
+        <service android:exported="false" android:name="app.debug.obd.MockObdOverlayService"/>
+        <service android:exported="false" android:name="app.ui.main.push.PushNotificationMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="uiMode" android:enableOnBackInvokedCallback="true" android:exported="false" android:name="app.ui.inappbilling.AccountMigrationActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:exported="false" android:name="app.ui.appcheck.AppCheckFailedActivity"/>
+        <activity android:configChanges="uiMode" android:enableOnBackInvokedCallback="true" android:exported="false" android:name="app.ui.launcherV2.settings.LauncherConfigActivity" android:screenOrientation="sensor" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="uiMode" android:enableOnBackInvokedCallback="true" android:exported="false" android:launchMode="singleTask" android:name="app.ui.main.maps.mapsv4.UpgradeInformativeScreenActivity" android:screenOrientation="sensor" android:theme="@style/AppTheme.NoActionBar"/>
+        <service android:foregroundServiceType="location" android:name="com.mapbox.services.android.navigation.v5.navigation.NavigationService"/>
+        <service android:exported="true" android:foregroundServiceType="location" android:name="com.zenthek.here_navigation.service.HereNavigationService"/>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="9.1.0"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivityV2" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="false" android:name="com.google.android.libraries.ads.mobile.sdk.common.AdActivity" android:theme="@style/Theme.GoogleMobileAds"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.appcheck.debug.FirebaseAppCheckDebugRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.appcheck.playintegrity.FirebaseAppCheckPlayIntegrityRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:name="com.google.firebase.auth.internal.GenericIdpActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="firebase.auth" android:path="/" android:scheme="genericidp"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:name="com.google.firebase.auth.internal.RecaptchaActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="firebase.auth" android:path="/" android:scheme="recaptcha"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:exported="false" android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder">
+            <meta-data android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY" android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl"/>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:enabled="true" android:exported="false" android:fitsSystemWindows="true" android:name="androidx.credentials.playservices.controllers.identityauth.HiddenActivity" android:theme="@style/Theme.Hidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:enabled="true" android:exported="false" android:fitsSystemWindows="true" android:name="androidx.credentials.playservices.controllers.identitycredentials.IdentityCredentialApiHiddenActivity" android:theme="@style/Theme.Hidden"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.nl.smartreply.thin.internal.ThinSmartReplyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.nl.languageid.thin.internal.ThinLanguageIdRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.nl.smartreply.internal.SmartReplyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.nl.languageid.internal.LanguageIdRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="com.zenthek.autozen.mlkitinitprovider" android:exported="false" android:initOrder="99" android:name="com.google.mlkit.common.internal.MlKitInitProvider"/>
+        <meta-data android:name="com.bytedance.sdk.pangle.version" android:value="8.1.0.4"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTCeilingLandingPageActivity">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.IABLandingPageActivity" android:theme="@style/tt_landing_page">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTLandingPageActivity" android:theme="@style/tt_landing_page">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTPlayableLandingPageActivity" android:theme="@style/tt_landing_page">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTVideoLandingPageLink2Activity" android:theme="@style/tt_landing_page">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTHistoryLandingPageActivity" android:theme="@style/tt_landing_page">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTHistoryActivity" android:theme="@style/tt_landing_page">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTDelegateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTWebsiteActivity" android:theme="@style/tt_privacy_landing_page">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTAppOpenAdActivity" android:theme="@style/tt_app_open_ad_no_animation">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTAppOpenAdTransActivity" android:theme="@style/tt_app_open_ad_no_animation_trans">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTRewardVideoActivity" android:theme="@style/tt_full_screen_new">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTRewardWebActivity" android:theme="@style/tt_full_screen_new">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTFullWebActivity" android:theme="@style/tt_full_screen_new">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTRewardExpressVideoActivity" android:theme="@style/tt_full_screen_new">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTFullScreenVideoActivity" android:theme="@style/tt_full_screen_new">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTFullScreenExpressVideoActivity" android:theme="@style/tt_full_screen_new">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.single.TTAdActivity" android:theme="@style/tt_full_screen_new">
+            <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        </activity>
+        <provider android:authorities="com.zenthek.autozen.applovininitprovider" android:exported="false" android:initOrder="101" android:name="com.applovin.sdk.AppLovinInitProvider"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.applovin.adview.AppLovinFullscreenActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.applovin.adview.AppLovinFullscreenImmersiveActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.sdk.AppLovinWebViewActivity"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerAxonEventsListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.creative.MaxCreativeDebuggerActivity" android:theme="@style/com.applovin.creative.CreativeDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity" android:theme="@style/com.applovin.creative.CreativeDebuggerActivity.Theme"/>
+        <service android:exported="false" android:name="com.applovin.impl.adview.activity.FullscreenAdService" android:stopWithTask="false"/>
+        <service android:exported="false" android:name="com.applovin.impl.adview.activity.AppRestartDuringAdDetectionService"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.mapbox.common.location.LocationUpdatesReceiver">
+            <intent-filter>
+                <action android:name="com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:enabled="false" android:exported="false" android:name="com.google.firebase.sessions.SessionLifecycleService"/>
+        <provider android:authorities="com.zenthek.autozen.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:authorities="com.zenthek.autozen.SentryInitProvider" android:exported="false" android:name="io.sentry.android.core.SentryInitProvider"/>
+        <provider android:authorities="com.zenthek.autozen.SentryPerformanceProvider" android:exported="false" android:initOrder="200" android:name="io.sentry.android.core.SentryPerformanceProvider"/>
+        <provider android:authorities="com.zenthek.autozen.mapboxtelemetryinitprovider" android:exported="false" android:initOrder="100" android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"/>
+        <service android:exported="false" android:name="com.mapbox.android.telemetry.MapboxTelemetryService"/>
+        <uses-library android:name="android.ext.adservices" android:required="false"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <activity android:exported="true" android:name="androidx.compose.ui.tooling.PreviewActivity"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <provider android:authorities="com.zenthek.autozen.com.squareup.picasso" android:exported="false" android:name="com.squareup.picasso.PicassoProvider"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.here.services.internal.LocationService"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <provider android:authorities="com.zenthek.autozen.SentryNdkPreloadProvider" android:exported="false" android:initOrder="2000000000" android:name="io.sentry.ndk.SentryNdkPreloadProvider"/>
+        <meta-data android:name="io.sentry.gradle-plugin-integrations" android:value="AppStartInstrumentation,ComposeInstrumentation,DatabaseInstrumentation,FileIOInstrumentation,LogcatInstrumentation,OkHttpInstrumentation"/>
+        <activity android:exported="false" android:name="com.pairip.licensecheck.LicenseActivity"/>
+    </application>
+</manifest>

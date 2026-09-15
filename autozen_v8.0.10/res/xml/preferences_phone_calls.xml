@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen app:title="@string/settings_category_phone"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat android:title="@string/settings_enable_phone_calls_title" android:key="@string/preference_key_phone_calls" android:summary="@string/settings_enable_phone_calls_summary" android:defaultValue="false" />
+</PreferenceScreen>

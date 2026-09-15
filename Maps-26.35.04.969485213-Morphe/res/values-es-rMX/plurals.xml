@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Subiendo %1$d contenido multimedia</item>
+        <item quantity="other">Subiendo %1$d contenidos multimedia</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Esperando la conexión Wi-Fi.
+ %d foto o video pendiente."</item>
+        <item quantity="other">"Esperando la conexión Wi-Fi.
+ %d fotos o videos pendientes."</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d de %2$d</item>
+        <item quantity="other">%1$d de %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Esperando la conexión Wi-Fi.
+ %d foto pendiente."</item>
+        <item quantity="other">"Esperando la conexión Wi-Fi.
+ %d fotos pendientes."</item>
+    </plurals>
+</resources>

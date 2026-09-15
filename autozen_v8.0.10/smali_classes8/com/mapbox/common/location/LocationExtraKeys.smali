@@ -1,0 +1,23 @@
+.class public final Lcom/mapbox/common/location/LocationExtraKeys;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final IS_EXTERNAL:Ljava/lang/String; = "is_external"
+
+.field public static final IS_MOCK:Ljava/lang/String; = "is_mock"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

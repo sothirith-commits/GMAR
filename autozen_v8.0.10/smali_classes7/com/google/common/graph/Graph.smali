@@ -1,0 +1,116 @@
+.class public interface abstract Lcom/google/common/graph/Graph;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/common/graph/BaseGraph;
+
+
+# annotations
+.annotation runtime Lcom/google/common/graph/ElementTypesAreNonnullByDefault;
+.end annotation
+
+.annotation runtime Lcom/google/errorprone/annotations/DoNotMock;
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<N:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/google/common/graph/BaseGraph<",
+        "TN;>;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract allowsSelfLoops()Z
+.end method
+
+.method public abstract edges()Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "Lcom/google/common/graph/EndpointPair<",
+            "TN;>;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract inDegree(Ljava/lang/Object;)I
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;)I"
+        }
+    .end annotation
+.end method
+
+.method public abstract incidentEdges(Ljava/lang/Object;)Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;)",
+            "Ljava/util/Set<",
+            "Lcom/google/common/graph/EndpointPair<",
+            "TN;>;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract isDirected()Z
+.end method
+
+.method public abstract nodes()Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "TN;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract outDegree(Ljava/lang/Object;)I
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;)I"
+        }
+    .end annotation
+.end method
+
+.method public abstract predecessors(Ljava/lang/Object;)Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;)",
+            "Ljava/util/Set<",
+            "TN;>;"
+        }
+    .end annotation
+.end method
+
+.method public bridge synthetic successors(Ljava/lang/Object;)Ljava/lang/Iterable;
+    .locals 0
+
+    .line 1
+    invoke-interface {p0, p1}, Lcom/google/common/graph/Graph;->successors(Ljava/lang/Object;)Ljava/util/Set;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public abstract successors(Ljava/lang/Object;)Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;)",
+            "Ljava/util/Set<",
+            "TN;>;"
+        }
+    .end annotation
+.end method

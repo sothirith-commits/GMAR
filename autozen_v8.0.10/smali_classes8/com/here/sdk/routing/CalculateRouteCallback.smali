@@ -1,0 +1,22 @@
+.class public interface abstract Lcom/here/sdk/routing/CalculateRouteCallback;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Ljava/lang/FunctionalInterface;
+.end annotation
+
+
+# virtual methods
+.method public abstract onRouteCalculated(Lcom/here/sdk/routing/RoutingError;Ljava/util/List;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/here/sdk/routing/RoutingError;",
+            "Ljava/util/List<",
+            "Lcom/here/sdk/routing/Route;",
+            ">;)V"
+        }
+    .end annotation
+.end method

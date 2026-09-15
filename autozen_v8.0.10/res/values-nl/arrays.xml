@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>bel</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>thuis</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>navigeer</item>
+        <item>naviger</item>
+        <item>naviger til</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>volgende</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>open</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>muziek pauzeren</item>
+        <item>pauzeren</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>muziek afspelen</item>
+        <item>afspelen</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>vorige</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>zoek</item>
+        <item>find</item>
+        <item>finde</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>weer</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>werk</item>
+    </string-array>
+</resources>

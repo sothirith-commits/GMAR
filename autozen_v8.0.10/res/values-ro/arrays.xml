@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>suna</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>acasa</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>mergi</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>urmatoarea</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>deschide</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>pauza musica</item>
+        <item>pauza</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>pune musica</item>
+        <item>pune</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>inapoi</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>cauta</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>vreme</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>munca</item>
+    </string-array>
+</resources>

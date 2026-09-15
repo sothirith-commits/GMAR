@@ -1,0 +1,794 @@
+.class public abstract Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$StreamDecoder;,
+        Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$UnsafeDirectNioDecoder;,
+        Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;,
+        Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$ArrayDecoder;
+    }
+.end annotation
+
+
+# static fields
+.field private static volatile defaultRecursionLimit:I = 0x64
+
+
+# instance fields
+.field groupDepth:I
+
+.field messageDepth:I
+
+.field recursionLimit:I
+
+.field private shouldDiscardUnknownFields:Z
+
+.field sizeLimit:I
+
+.field wrapper:Lcom/google/crypto/tink/shaded/protobuf/CodedInputStreamReader;
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    sget v0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->defaultRecursionLimit:I
+
+    .line 5
+    .line 6
+    iput v0, p0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->recursionLimit:I
+
+    .line 7
+    .line 8
+    const v0, 0x7fffffff
+
+    .line 9
+    .line 10
+    .line 11
+    iput v0, p0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->sizeLimit:I
+
+    .line 12
+    .line 13
+    const/4 v0, 0x0
+
+    .line 14
+    iput-boolean v0, p0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z
+
+    .line 15
+    .line 16
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$1;)V
+    .locals 0
+
+    .line 17
+    invoke-direct {p0}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;-><init>()V
+
+    return-void
+.end method
+
+.method public static decodeZigZag32(I)I
+    .locals 1
+
+    ushr-int/lit8 v0, p0, 0x1
+
+    and-int/lit8 p0, p0, 0x1
+
+    neg-int p0, p0
+
+    xor-int/2addr p0, v0
+
+    return p0
+.end method
+
+.method public static decodeZigZag64(J)J
+    .locals 4
+
+    const/4 v0, 0x1
+
+    ushr-long v0, p0, v0
+
+    const-wide/16 v2, 0x1
+
+    and-long/2addr p0, v2
+
+    neg-long p0, p0
+
+    xor-long/2addr p0, v0
+
+    return-wide p0
+.end method
+
+.method public static newInstance(Ljava/io/InputStream;)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+    .locals 1
+
+    const/16 v0, 0x1000
+
+    .line 82
+    invoke-static {p0, v0}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->newInstance(Ljava/io/InputStream;I)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static newInstance(Ljava/io/InputStream;I)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+    .locals 2
+
+    const/4 v0, 0x0
+
+    if-lez p1, :cond_1
+
+    if-nez p0, :cond_0
+
+    .line 68
+    sget-object p0, Lcom/google/crypto/tink/shaded/protobuf/Internal;->EMPTY_BYTE_ARRAY:[B
+
+    invoke-static {p0}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->newInstance([B)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 69
+    :cond_0
+    new-instance v1, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$StreamDecoder;
+
+    invoke-direct {v1, p0, p1, v0}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$StreamDecoder;-><init>(Ljava/io/InputStream;ILcom/google/crypto/tink/shaded/protobuf/CodedInputStream$1;)V
+
+    return-object v1
+
+    .line 70
+    :cond_1
+    const-string p0, "bufferSize must be > 0"
+
+    invoke-static {p0}, Lfi0;->h(Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public static newInstance(Ljava/lang/Iterable;Z)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Iterable<",
+            "Ljava/nio/ByteBuffer;",
+            ">;Z)",
+            "Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;"
+        }
+    .end annotation
+
+    .line 71
+    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    move v2, v1
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_2
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Ljava/nio/ByteBuffer;
+
+    .line 72
+    invoke-virtual {v3}, Ljava/nio/Buffer;->remaining()I
+
+    move-result v4
+
+    add-int/2addr v2, v4
+
+    .line 73
+    invoke-virtual {v3}, Ljava/nio/ByteBuffer;->hasArray()Z
+
+    move-result v4
+
+    if-eqz v4, :cond_0
+
+    or-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    .line 74
+    :cond_0
+    invoke-virtual {v3}, Ljava/nio/ByteBuffer;->isDirect()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_1
+
+    or-int/lit8 v1, v1, 0x2
+
+    goto :goto_0
+
+    :cond_1
+    or-int/lit8 v1, v1, 0x4
+
+    goto :goto_0
+
+    :cond_2
+    const/4 v0, 0x2
+
+    if-ne v1, v0, :cond_3
+
+    .line 75
+    new-instance v0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, p0, v2, p1, v1}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;-><init>(Ljava/lang/Iterable;IZLcom/google/crypto/tink/shaded/protobuf/CodedInputStream$1;)V
+
+    return-object v0
+
+    .line 76
+    :cond_3
+    new-instance p1, Lcom/google/crypto/tink/shaded/protobuf/IterableByteBufferInputStream;
+
+    invoke-direct {p1, p0}, Lcom/google/crypto/tink/shaded/protobuf/IterableByteBufferInputStream;-><init>(Ljava/lang/Iterable;)V
+
+    invoke-static {p1}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->newInstance(Ljava/io/InputStream;)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static newInstance(Ljava/nio/ByteBuffer;Z)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+    .locals 3
+
+    .line 1
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->hasArray()Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->array()[B
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+
+    .line 11
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->arrayOffset()I
+
+    .line 12
+    .line 13
+    .line 14
+    move-result v1
+
+    .line 15
+    invoke-virtual {p0}, Ljava/nio/Buffer;->position()I
+
+    .line 16
+    .line 17
+    .line 18
+    move-result v2
+
+    .line 19
+    add-int/2addr v2, v1
+
+    .line 20
+    invoke-virtual {p0}, Ljava/nio/Buffer;->remaining()I
+
+    .line 21
+    .line 22
+    .line 23
+    move-result p0
+
+    .line 24
+    invoke-static {v0, v2, p0, p1}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->newInstance([BIIZ)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object p0
+
+    .line 28
+    return-object p0
+
+    .line 29
+    :cond_0
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->isDirect()Z
+
+    .line 30
+    .line 31
+    .line 32
+    move-result v0
+
+    .line 33
+    if-eqz v0, :cond_1
+
+    .line 34
+    .line 35
+    invoke-static {}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$UnsafeDirectNioDecoder;->isSupported()Z
+
+    .line 36
+    .line 37
+    .line 38
+    move-result v0
+
+    .line 39
+    if-eqz v0, :cond_1
+
+    .line 40
+    .line 41
+    new-instance v0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$UnsafeDirectNioDecoder;
+
+    .line 42
+    .line 43
+    const/4 v1, 0x0
+
+    .line 44
+    invoke-direct {v0, p0, p1, v1}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$UnsafeDirectNioDecoder;-><init>(Ljava/nio/ByteBuffer;ZLcom/google/crypto/tink/shaded/protobuf/CodedInputStream$1;)V
+
+    .line 45
+    .line 46
+    .line 47
+    return-object v0
+
+    .line 48
+    :cond_1
+    invoke-virtual {p0}, Ljava/nio/Buffer;->remaining()I
+
+    .line 49
+    .line 50
+    .line 51
+    move-result p1
+
+    .line 52
+    new-array v0, p1, [B
+
+    .line 53
+    .line 54
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
+
+    .line 55
+    .line 56
+    .line 57
+    move-result-object p0
+
+    .line 58
+    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
+
+    .line 59
+    .line 60
+    .line 61
+    const/4 p0, 0x0
+
+    .line 62
+    const/4 v1, 0x1
+
+    .line 63
+    invoke-static {v0, p0, p1, v1}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->newInstance([BIIZ)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+
+    .line 64
+    .line 65
+    .line 66
+    move-result-object p0
+
+    .line 67
+    return-object p0
+.end method
+
+.method public static newInstance([B)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+    .locals 2
+
+    const/4 v0, 0x0
+
+    .line 77
+    array-length v1, p0
+
+    invoke-static {p0, v0, v1}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->newInstance([BII)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static newInstance([BII)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 78
+    invoke-static {p0, p1, p2, v0}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->newInstance([BIIZ)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static newInstance([BIIZ)Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;
+    .locals 6
+
+    .line 79
+    new-instance v0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$ArrayDecoder;
+
+    const/4 v5, 0x0
+
+    move-object v1, p0
+
+    move v2, p1
+
+    move v3, p2
+
+    move v4, p3
+
+    invoke-direct/range {v0 .. v5}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$ArrayDecoder;-><init>([BIIZLcom/google/crypto/tink/shaded/protobuf/CodedInputStream$1;)V
+
+    .line 80
+    :try_start_0
+    invoke-virtual {v0, v3}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$ArrayDecoder;->pushLimit(I)I
+    :try_end_0
+    .catch Lcom/google/crypto/tink/shaded/protobuf/InvalidProtocolBufferException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object v0
+
+    :catch_0
+    move-exception v0
+
+    move-object p0, v0
+
+    .line 81
+    invoke-static {p0}, Lit0;->q(Ljava/lang/Throwable;)V
+
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public abstract checkLastTagWas(I)V
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/crypto/tink/shaded/protobuf/InvalidProtocolBufferException;
+        }
+    .end annotation
+.end method
+
+.method public checkRecursionLimit()V
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/crypto/tink/shaded/protobuf/InvalidProtocolBufferException;
+        }
+    .end annotation
+
+    .line 1
+    iget v0, p0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->messageDepth:I
+
+    .line 2
+    .line 3
+    iget v1, p0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->groupDepth:I
+
+    .line 4
+    .line 5
+    add-int/2addr v0, v1
+
+    .line 6
+    iget p0, p0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->recursionLimit:I
+
+    .line 7
+    .line 8
+    if-ge v0, p0, :cond_0
+
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-static {}, Lcom/google/crypto/tink/shaded/protobuf/InvalidProtocolBufferException;->recursionLimitExceeded()Lcom/google/crypto/tink/shaded/protobuf/InvalidProtocolBufferException;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p0
+
+    .line 15
+    throw p0
+.end method
+
+.method public checkValidEndTag()V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/crypto/tink/shaded/protobuf/InvalidProtocolBufferException;
+        }
+    .end annotation
+
+    .line 1
+    iget v0, p0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->groupDepth:I
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_0
+
+    .line 4
+    .line 5
+    const/4 v0, 0x0
+
+    .line 6
+    invoke-virtual {p0, v0}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->checkLastTagWas(I)V
+
+    .line 7
+    .line 8
+    .line 9
+    :cond_0
+    return-void
+.end method
+
+.method public abstract getTotalBytesRead()I
+.end method
+
+.method public abstract isAtEnd()Z
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract popLimit(I)V
+.end method
+
+.method public abstract pushLimit(I)I
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/crypto/tink/shaded/protobuf/InvalidProtocolBufferException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readBool()Z
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readBytes()Lcom/google/crypto/tink/shaded/protobuf/ByteString;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readDouble()D
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readEnum()I
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readFixed32()I
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readFixed64()J
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readFloat()F
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readInt32()I
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readInt64()J
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readSFixed32()I
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readSFixed64()J
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readSInt32()I
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readSInt64()J
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readString()Ljava/lang/String;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readStringRequireUtf8()Ljava/lang/String;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readTag()I
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readUInt32()I
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract readUInt64()J
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract skipField(I)Z
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public skipMessage()V
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    :cond_0
+    invoke-virtual {p0}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->readTag()I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    if-nez v0, :cond_1
+
+    .line 6
+    .line 7
+    goto :goto_0
+
+    .line 8
+    :cond_1
+    invoke-virtual {p0}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->checkRecursionLimit()V
+
+    .line 9
+    .line 10
+    .line 11
+    iget v1, p0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->groupDepth:I
+
+    .line 12
+    .line 13
+    add-int/lit8 v1, v1, 0x1
+
+    .line 14
+    .line 15
+    iput v1, p0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->groupDepth:I
+
+    .line 16
+    .line 17
+    invoke-virtual {p0, v0}, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->skipField(I)Z
+
+    .line 18
+    .line 19
+    .line 20
+    move-result v0
+
+    .line 21
+    iget v1, p0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->groupDepth:I
+
+    .line 22
+    .line 23
+    add-int/lit8 v1, v1, -0x1
+
+    .line 24
+    .line 25
+    iput v1, p0, Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream;->groupDepth:I
+
+    .line 26
+    .line 27
+    if-nez v0, :cond_0
+
+    .line 28
+    .line 29
+    :goto_0
+    return-void
+.end method

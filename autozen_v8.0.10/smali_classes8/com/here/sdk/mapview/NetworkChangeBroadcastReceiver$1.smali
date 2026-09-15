@@ -1,0 +1,88 @@
+.class Lcom/here/sdk/mapview/NetworkChangeBroadcastReceiver$1;
+.super Landroid/content/BroadcastReceiver;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/here/sdk/mapview/NetworkChangeBroadcastReceiver;-><init>(Lcom/here/sdk/mapview/NetworkChangesObserver$Listener;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/here/sdk/mapview/NetworkChangeBroadcastReceiver;
+
+.field final synthetic val$observer:Lcom/here/sdk/mapview/NetworkChangesObserver$Listener;
+
+
+# direct methods
+.method public constructor <init>(Lcom/here/sdk/mapview/NetworkChangeBroadcastReceiver;Lcom/here/sdk/mapview/NetworkChangesObserver$Listener;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/here/sdk/mapview/NetworkChangeBroadcastReceiver$1;->this$0:Lcom/here/sdk/mapview/NetworkChangeBroadcastReceiver;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Lcom/here/sdk/mapview/NetworkChangeBroadcastReceiver$1;->val$observer:Lcom/here/sdk/mapview/NetworkChangesObserver$Listener;
+
+    .line 4
+    .line 5
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+    .locals 1
+
+    .line 1
+    const-string p1, "noConnectivity"
+
+    .line 2
+    .line 3
+    const/4 v0, 0x0
+
+    .line 4
+    invoke-virtual {p2, p1, v0}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+
+    .line 5
+    .line 6
+    .line 7
+    move-result p1
+
+    .line 8
+    iget-object p0, p0, Lcom/here/sdk/mapview/NetworkChangeBroadcastReceiver$1;->val$observer:Lcom/here/sdk/mapview/NetworkChangesObserver$Listener;
+
+    .line 9
+    .line 10
+    if-eqz p1, :cond_0
+
+    .line 11
+    .line 12
+    invoke-interface {p0}, Lcom/here/sdk/mapview/NetworkChangesObserver$Listener;->onDisconnected()V
+
+    .line 13
+    .line 14
+    .line 15
+    return-void
+
+    .line 16
+    :cond_0
+    invoke-interface {p0}, Lcom/here/sdk/mapview/NetworkChangesObserver$Listener;->onConnected()V
+
+    .line 17
+    .line 18
+    .line 19
+    return-void
+.end method

@@ -1,0 +1,69 @@
+.class public final Lfjb;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# direct methods
+.method public static a(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
+
+    .line 4
+    move-result p0
+
+    .line 5
+    .line 6
+    if-lez p0, :cond_0
+
+    .line 7
+    return-void
+
+    .line 8
+    .line 9
+    :cond_0
+    const-string p0, "name may not be empty"
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-static {p0}, Lfkq;->c(Ljava/lang/String;)V
+
+    .line 13
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    throw p0
+.end method
+
+.method public final hashCode()I
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    throw p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    throw p0
+.end method

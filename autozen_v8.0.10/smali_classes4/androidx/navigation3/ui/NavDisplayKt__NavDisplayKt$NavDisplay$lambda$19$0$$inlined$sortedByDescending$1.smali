@@ -1,0 +1,139 @@
+.class public final Landroidx/navigation3/ui/NavDisplayKt__NavDisplayKt$NavDisplay$lambda$19$0$$inlined$sortedByDescending$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/Comparator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroidx/navigation3/ui/NavDisplayKt__NavDisplayKt;->NavDisplay(Landroidx/navigation3/scene/SceneState;Landroidx/navigationevent/compose/NavigationEventState;Landroidx/compose/ui/Modifier;Landroidx/compose/ui/Alignment;Landroidx/compose/animation/SizeTransform;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Ljava/util/Comparator;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic $zIndices$inlined:Landroidx/collection/MutableObjectFloatMap;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/collection/MutableObjectFloatMap;)V
+    .locals 0
+
+    iput-object p1, p0, Landroidx/navigation3/ui/NavDisplayKt__NavDisplayKt$NavDisplay$lambda$19$0$$inlined$sortedByDescending$1;->$zIndices$inlined:Landroidx/collection/MutableObjectFloatMap;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;TT;)I"
+        }
+    .end annotation
+
+    .line 1
+    check-cast p2, Ljava/util/Map$Entry;
+
+    .line 2
+    .line 3
+    iget-object v0, p0, Landroidx/navigation3/ui/NavDisplayKt__NavDisplayKt$NavDisplay$lambda$19$0$$inlined$sortedByDescending$1;->$zIndices$inlined:Landroidx/collection/MutableObjectFloatMap;
+
+    .line 4
+    .line 5
+    invoke-interface {p2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p2
+
+    .line 9
+    invoke-virtual {v0, p2}, Landroidx/collection/ObjectFloatMap;->get(Ljava/lang/Object;)F
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p2
+
+    .line 13
+    invoke-static {p2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p2
+
+    .line 17
+    check-cast p1, Ljava/util/Map$Entry;
+
+    .line 18
+    .line 19
+    iget-object p0, p0, Landroidx/navigation3/ui/NavDisplayKt__NavDisplayKt$NavDisplay$lambda$19$0$$inlined$sortedByDescending$1;->$zIndices$inlined:Landroidx/collection/MutableObjectFloatMap;
+
+    .line 20
+    .line 21
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object p1
+
+    .line 25
+    invoke-virtual {p0, p1}, Landroidx/collection/ObjectFloatMap;->get(Ljava/lang/Object;)F
+
+    .line 26
+    .line 27
+    .line 28
+    move-result p0
+
+    .line 29
+    invoke-static {p0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object p0
+
+    .line 33
+    invoke-static {p2, p0}, Lkotlin/comparisons/ComparisonsKt;->compareValues(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
+
+    .line 34
+    .line 35
+    .line 36
+    move-result p0
+
+    .line 37
+    return p0
+.end method

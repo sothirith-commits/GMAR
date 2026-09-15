@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="one">%2$d पैकी %1$d</item>
+        <item quantity="other">%2$d पैकी %1$d</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">तुमच्याकडे %d अ‍ॅक्टिव्ह मेट्रो तिकीट आहे</item>
+        <item quantity="other">तुमच्याकडे %d अ‍ॅक्टिव्ह मेट्रो तिकिटे आहेत</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">तुमच्याकडे या प्रवासासाठी %d अ‍ॅक्टिव्ह तिकीट आहे</item>
+        <item quantity="other">तुमच्याकडे या प्रवासासाठी %d अ‍ॅक्टिव्ह तिकिटे आहेत</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">आणखी %d पर्याय</item>
+        <item quantity="other">आणखी %d पर्याय</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="one">%1$d व्यक्तीने तक्रार केली आहे</item>
+        <item quantity="other">%1$d लोकांनी तक्रार केली आहे</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d व्यक्तीने नोंदवले आहे</item>
+        <item quantity="other">%1$d लोकांनी नोंदवले आहे</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d सूचना</item>
+        <item quantity="other">%d सूचना</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d स्थान</item>
+        <item quantity="other">%1$d स्थाने</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">उत्तर पहा</item>
+        <item quantity="other">(%,d) उत्तरे पहा</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">येथे एक्सप्लोर करा</item>
+        <item quantity="other">%d ठिकणे येथे एक्सप्लोर करा</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d बाइक उपलब्‍ध आहे</item>
+        <item quantity="other">%d बाइक उपलब्‍ध आहेत</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">स्टेशनवर %s बाइक उपलब्ध आहे</item>
+        <item quantity="other">स्टेशनवर %s बाइक उपलब्ध आहेत</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d सायकल</item>
+        <item quantity="other">%d सायकल</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d डॉक उपलब्‍ध आहे</item>
+        <item quantity="other">%d डॉक उपलब्‍ध आहेत</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d डॉक</item>
+        <item quantity="other">%d डॉक</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">%1$d व्यक्तीने शिफारस केली आहे</item>
+        <item quantity="other">%1$d लोकांनी शिफारस केली आहे</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">आणखी जलद मार्ग, %1$s थांबा कमी आहे</item>
+        <item quantity="other">आणखी जलद मार्ग, %1$s थांबे कमी आहेत</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">आणखी जलद मार्ग, %1$s थांबा जास्त आहे</item>
+        <item quantity="other">आणखी जलद मार्ग, %1$s थांबे जास्त आहेत</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">आणखी जलद मार्ग उपलब्ध आहे, %1$s थांबा बदलला आहे</item>
+        <item quantity="other">आणखी जलद मार्ग उपलब्ध आहे, %1$s थांबे बदलले आहेत</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">नवीन मार्ग आवश्यक आहे, %1$s थांबा कमी आहे</item>
+        <item quantity="other">नवीन मार्ग आवश्यक आहे, %1$s थांबे कमी आहेत</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">नवीन मार्ग आवश्यक आहे, %1$s थांबा जास्त आहे</item>
+        <item quantity="other">नवीन मार्ग आवश्यक आहे, %1$s थांबे जास्त आहेत</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">नवीन मार्ग आवश्यक आहे, %1$s थांबा बदलला आहे</item>
+        <item quantity="other">नवीन मार्ग आवश्यक आहे, %1$s थांबे बदलले आहेत</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">नवीन मार्ग, %1$s थांबा कमी आहे</item>
+        <item quantity="other">नवीन मार्ग, %1$s थांबे कमी आहेत</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">नवीन मार्ग, %1$s थांबा कमी आहे</item>
+        <item quantity="other">नवीन मार्ग, %1$s थांबे कमी आहेत</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">चार्जिंगसाठीचा %1$s थांबा कमी लागणारा नवीन मार्ग उपलब्ध आहे. ड्राइव्ह आणि चार्ज करण्याच्या वेळेच्या समावेशासह %2$s जलद आहे.</item>
+        <item quantity="other">चार्जिंगसाठीचे %1$s थांबे कमी लागणारा नवीन मार्ग उपलब्ध आहे. ड्राइव्ह आणि चार्ज करण्याच्या वेळेच्या समावेशासह %2$s जलद आहे.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">चार्जिंगसाठीचा %1$s थांबा जास्त लागणारा नवीन मार्ग उपलब्ध आहे. ड्राइव्ह आणि चार्ज करण्याच्या वेळेच्या समावेशासह %2$s जलद आहे.</item>
+        <item quantity="other">चार्जिंगसाठीचे %1$s थांबे जास्त लागणारा नवीन मार्ग उपलब्ध आहे. ड्राइव्ह आणि चार्ज करण्याच्या वेळेच्या समावेशासह %2$s जलद आहे.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">तुम्हाला नवीन मार्ग वापरावा लागेल. चार्जिंगसाठीचा %1$s थांबा कमी लागेल. तुम्ही %2$s वाजता पोहोचाल.</item>
+        <item quantity="other">तुम्हाला नवीन मार्ग वापरावा लागेल. चार्जिंगसाठीचे %1$s थांबे कमी लागतील. तुम्ही %2$s वाजता पोहोचाल.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">तुम्हाला नवीन मार्ग वापरावा लागेल. चार्जिंगसाठीचा %1$s थांब जास्त लागेल. तुम्ही %2$s वाजता पोहोचाल.</item>
+        <item quantity="other">तुम्हाला नवीन मार्ग वापरावा लागेल. चार्जिंगसाठीचे %1$s थांबे जास्त लागतील. तुम्ही %2$s वाजता पोहोचाल.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">तुम्हाला नवीन मार्ग वापरावा लागेल. चार्जिंगसाठीचा %1$s थांबा बदलला आहे. तुम्ही %2$s वाजता पोहोचाल.</item>
+        <item quantity="other">तुम्हाला नवीन मार्ग वापरावा लागेल. चार्जिंगसाठीचे %1$s थांबे बदलले आहेत. तुम्ही %2$s वाजता पोहोचाल.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">चार्जिंगसाठीचा %1$s थांबा कमी लागणारा नवीन मार्ग उपलब्ध आहे. आगमनाची वेळ समान आहे.</item>
+        <item quantity="other">चार्जिंगसाठीचे %1$s थांबे कमी लागणारा नवीन मार्ग उपलब्ध आहे. आगमनाची वेळ समान आहे.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">चार्जिंगसाठीचा %1$s थांबा कमी लागणारा नवीन मार्ग उपलब्ध आहे. ड्राइव्ह आणि चार्ज करण्याच्या वेळेच्या समावेशासह %2$s धीमा आहे.</item>
+        <item quantity="other">चार्जिंगसाठीचे %1$s थांबे कमी लागणारा नवीन मार्ग उपलब्ध आहे. ड्राइव्ह आणि चार्ज करण्याच्या वेळेच्या समावेशासह %2$s धीमा आहे.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">%1$d दिवसापूर्वी वापरले</item>
+        <item quantity="other">%1$d दिवसांपूर्वी वापरले</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">%1$d आठवड्यापूर्वी वापरले</item>
+        <item quantity="other">%1$d आठवड्यांपूर्वी वापरले</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">+%1$d नेटवर्क</item>
+        <item quantity="other">+%1$d नेटवर्क</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">%1$d निवडले आहे</item>
+        <item quantity="other">%1$d निवडली आहेत</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s चार्जिंगसाठीचा थांबा</item>
+        <item quantity="other">%1$s चार्जिंगसाठीचे थांबे</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d थांबा</item>
+        <item quantity="other">%1$d थांबे</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d निवडले</item>
+        <item quantity="other">%1$d निवडली</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">आणखी %1$d</item>
+        <item quantity="other">आणखी %1$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">आणखी %1$d</item>
+        <item quantity="other">आणखी %1$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">आणखी %1$d</item>
+        <item quantity="other">आणखी %1$d</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="one">ऑफिसला पोहोचण्यासाठी %2$d मिनिट लागेल</item>
+        <item quantity="other">ऑफिसला पोहोचण्यासाठी %1$d तास %2$d मिनिटे लागतील</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="one">घरी पोहोचण्यासाठी %2$d मिनिट लागेल</item>
+        <item quantity="other">घरी पोहोचण्यासाठी %1$d तास %2$d मिनिटे लागतील</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="one">ऑफिसला पोहोचण्यास %2$d मि. लागेल</item>
+        <item quantity="other">ऑफिसला पोहोचण्यास %1$d ता. %2$d मि. लागतील</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="one">ट्रिपसाठीचा वेळ %2$d मिनिट</item>
+        <item quantity="other">ट्रिपसाठीचा वेळ %1$d ता. %2$d मि.</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="one">घरी पोहोचण्यास %2$d मि. लागेल</item>
+        <item quantity="other">घरी पोहोचण्यास %1$d ता. %2$d मि. लागतील</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">नेहमीपेक्षा %d मिनिट जलद</item>
+        <item quantity="other">नेहमीपेक्षा %d मिनिटे जलद</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">नेहमीपेक्षा %d मिनिट संथ</item>
+        <item quantity="other">नेहमीपेक्षा %d मिनिटे संथ</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">%d अंश दाखवणारा नकाशा.</item>
+        <item quantity="other">%d अंश दाखवणारा नकाशा.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">%d-तारा संस्था</item>
+        <item quantity="other">%d-तारांकित संस्था</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">पातळी %d स्थानिक मार्गदर्शक</item>
+        <item quantity="other">पातळी %d स्थानिक मार्गदर्शक</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">तुम्‍ही %1$s ला 1 स्‍टारने रेट केले आहे</item>
+        <item quantity="other">तुम्‍ही %1$s ला %2$d स्‍टारने रेट केले आहे</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">गुण</item>
+        <item quantity="other">गुण</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s दिवस</item>
+        <item quantity="other">%s दिवस</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s दि</item>
+        <item quantity="other">%s दि</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sदि</item>
+        <item quantity="other">%sदि</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s दिवस</item>
+        <item quantity="other">%s दिवस</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s तास</item>
+        <item quantity="other">%s तास</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s ता</item>
+        <item quantity="other">%s ता</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sता</item>
+        <item quantity="other">%sता</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s मिनिट</item>
+        <item quantity="other">%s मिनिटे</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s मि</item>
+        <item quantity="other">%s मि</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sमि</item>
+        <item quantity="other">%sमि</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s सेकंद</item>
+        <item quantity="other">%s सेकंद</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">%1$s फूट जात रहा</item>
+        <item quantity="other">%1$s फूट जात रहा</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">%1$s किलोमीटर जात रहा</item>
+        <item quantity="other">%1$s किलोमीटर जात रहा</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">%1$s मीटर जात रहा</item>
+        <item quantity="other">%1$s मीटर जात रहा</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">%1$s मैल जात रहा</item>
+        <item quantity="other">%1$s मैल जात रहा</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">%1$s यार्ड जात रहा</item>
+        <item quantity="other">%1$s यार्ड जात रहा</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">%2$s वर %1$s फूट जात रहा</item>
+        <item quantity="other">%2$s वर %1$s फूट जात रहा</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">%2$s वर %1$s किलोमीटर जात रहा</item>
+        <item quantity="other">%2$s वर %1$s किलोमीटर जात रहा</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">%2$s वर %1$s मीटर जात रहा</item>
+        <item quantity="other">%2$s वर %1$s मीटर जात रहा</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">%2$s वर %1$s मैल जात रहा</item>
+        <item quantity="other">%2$s वर %1$s मैल जात रहा</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">%2$s वर %1$s यार्ड जात रहा</item>
+        <item quantity="other">%2$s वर %1$s यार्ड जात रहा</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s फूटमध्ये</item>
+        <item quantity="other">%1$s फुटांमध्ये</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s किलोमीटरमध्ये</item>
+        <item quantity="other">%1$s किलोमीटरमध्ये</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s मीटरमध्ये</item>
+        <item quantity="other">%1$s मीटरमध्ये</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s मैलमध्ये</item>
+        <item quantity="other">%1$s मैलांमध्ये</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s यार्डमध्ये</item>
+        <item quantity="other">%1$s यार्डमध्ये</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s किलोमीटर प्रति तास</item>
+        <item quantity="other">%s किलोमीटर प्रति तास</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s मैल प्रति तास</item>
+        <item quantity="other">%s मैल प्रति तास</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">तुमचे गंतव्यस्थान %1$s फूट पुढे आहे</item>
+        <item quantity="other">तुमचे गंतव्यस्थान %1$s फूट पुढे आहे</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">तुमचे गंतव्यस्थान %1$s किलोमीटर पुढे आहे</item>
+        <item quantity="other">तुमचे गंतव्यस्थान %1$s किलोमीटर पुढे आहे</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">तुमचे गंतव्यस्थानस्थान %1$s मीटर पुढे आहे</item>
+        <item quantity="other">तुमचे गंतव्यस्थानस्थान %1$s मीटर पुढे आहे</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">तुमचे गंतव्यस्थान %1$s मैल पुढे आहे</item>
+        <item quantity="other">तुमचे गंतव्यस्थान %1$s मैल पुढे आहे</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">तुमचे गंतव्यस्थान %1$s यार्ड पुढे आहे</item>
+        <item quantity="other">तुमचे गंतव्यस्थान %1$s यार्ड पुढे आहे</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d थांबा</item>
+        <item quantity="other">%d थांबे</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d कनेक्टिंग मोड</item>
+        <item quantity="other">%1$d कनेक्टिंग मोड</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">%d दिवसापूर्वी अपडेट केली आहे</item>
+        <item quantity="other">%d दिवसांपूर्वी अपडेट केली आहे</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">%d महिन्यापूर्वी अपडेट केली आहे</item>
+        <item quantity="other">%d महिन्यांपूर्वी अपडेट केली आहे</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">%d आठवड्यापूर्वी अपडेट केली आहे</item>
+        <item quantity="other">%d आठवड्यांपूर्वी अपडेट केली आहे</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d सायकल</item>
+        <item quantity="other">%d सायकल</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">जवळपासची %d सायकल</item>
+        <item quantity="other">जवळपासच्या %d सायकल</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">%1$d निवडला आहे</item>
+        <item quantity="other">%1$d निवडले आहेत</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%2$d चार्जिंग पोर्ट पैकी %1$d उपलब्ध आहे</item>
+        <item quantity="other">%2$d चार्जिंग पोर्ट पैकी %1$d उपलब्ध आहेत</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d चार्जिंग पोर्ट</item>
+        <item quantity="other">%d चार्जिंग पोर्ट</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">1 तार्‍याने रेट करता आले नाही, कृपया पुन्हा प्रयत्न करा</item>
+        <item quantity="other">%1$d तार्‍यांनी रेट करणे अयशस्वी झाले, कृपया पुन्हा प्रयत्न करा</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">%s मजला</item>
+        <item quantity="other">%s मजले</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">%d अतिरिक्त रात्र</item>
+        <item quantity="other">%d अतिरिक्त रात्री</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">%d रात्र जोडा</item>
+        <item quantity="other">%d रात्री जोडा</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">%1$d रात्रीच्या मुक्कामासाठी हे हॉटेल उपलब्ध आहे. रात्रीच्या सरासरी %3$s दरामध्ये %2$s.</item>
+        <item quantity="other">%1$d रात्रींच्या मुक्कामासाठी हे हॉटेल उपलब्ध आहे. रात्रीच्या सरासरी %3$s दरामध्ये %2$s.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">रात्रीच्या सरासरी %2$s दरामध्ये %1$s</item>
+        <item quantity="other">रात्रींच्या सरासरी %2$s दरामध्ये %1$s</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d अतिथी</item>
+        <item quantity="other">%d अतिथी</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">आणि आणखी %d.</item>
+        <item quantity="other">आणि आणखी %d.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">आणखी %d.</item>
+        <item quantity="other">आणखी %d.</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="one">%d दिवसापूर्वी</item>
+        <item quantity="other">%d दिवसांपूर्वी</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="one">%d तासापूर्वी</item>
+        <item quantity="other">%d तासांपूर्वी</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="one">%d मिनिटापूर्वी</item>
+        <item quantity="other">%d मिनिटांपूर्वी</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">%1$s आणि आणखी %2$d मध्ये सेव्ह केले</item>
+        <item quantity="other">%1$s आणि आणखी %2$d मध्ये सेव्ह केली</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">सेव्ह केले आहे आणि %1$d सूचीमध्ये आहे</item>
+        <item quantity="other">सेव्ह केले आहे आणि %1$d सूचीमध्ये आहे</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="one">%d सूचीमधून काढले</item>
+        <item quantity="other">%d सूचींमधून काढले</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">तुम्ही %d महिन्यापूर्वी भेट दिली</item>
+        <item quantity="other">तुम्ही %d महिन्यांपूर्वी भेट दिली</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">तुम्ही %d आठवड्यापूर्वी भेट दिली</item>
+        <item quantity="other">तुम्ही %d आठवड्यांपूर्वी भेट दिली</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">तुम्ही %d वर्षापूर्वी भेट दिली</item>
+        <item quantity="other">तुम्ही %d वर्षांपूर्वी भेट दिली</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%dइव्‍हेंट</item>
+        <item quantity="other">%d इव्हेंट</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d आयटम</item>
+        <item quantity="other">%d आयटम</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d ठिकाण</item>
+        <item quantity="other">%d ठिकाणे</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">%d सेव्ह</item>
+        <item quantity="other">%d सेव्ह</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d प्रवास</item>
+        <item quantity="other">%d प्रवास</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s व्ह्यू</item>
+        <item quantity="other">%s व्ह्यू</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="one">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">%d दिवसापूर्वी संपादित केली</item>
+        <item quantity="other">%d दिवसांपूर्वी संपादित केली</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">%d महिन्यापूर्वी संपादित केली</item>
+        <item quantity="other">%d महिन्यांपूर्वी संपादित केली</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">%d आठवड्यापूर्वी संपादित केली</item>
+        <item quantity="other">%d आठवड्यांपूर्वी संपादित केली</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">%d वर्षापूर्वी संपादित केली</item>
+        <item quantity="other">%d वर्षांपूर्वी संपादित केली</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="one">%d थांबा</item>
+        <item quantity="other">%d थांबे</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">तुमच्याकडे %d पॉइंट आहे</item>
+        <item quantity="other">तुमच्याकडे %d पॉइंट आहेत</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">%1$d पातळीवर पोहोचण्यासाठी फक्त %2$d पॉइंट हवा आहे</item>
+        <item quantity="other">%1$d पातळीवर पोहोचण्यासाठी फक्त %2$d पॉइंट हवे आहेत</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">स्तर %d</item>
+        <item quantity="other">स्तर %d</item>
+    </plurals>
+    <plurals name="plurals_0x7f120093">
+        <item quantity="one">स्थानिक मार्गदर्शक पातळी %d</item>
+        <item quantity="other">स्थानिक मार्गदर्शक पातळी %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">%d वर्षापासून व्यवसाय करत आहे</item>
+        <item quantity="other">%d पेक्षा जास्त वर्षांपासून व्यवसाय करत आहे</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d दिवसापूर्वी</item>
+        <item quantity="other">%d दिवसांंपूर्वी</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d तासापूर्वी</item>
+        <item quantity="other">%d तासांपूर्वी</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d मिनिटापूर्वी</item>
+        <item quantity="other">%d मिनिटापूर्वी</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">येथे %d ठिकाण</item>
+        <item quantity="other">येथे %d ठिकाणे</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">फोटो काढून टाकला</item>
+        <item quantity="other">फोटो काढून टाकले</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d पोस्ट वरील व्हिडिओ मोठा करा</item>
+        <item quantity="other">%1$d पोस्ट वरील %2$d व्हिडिओ मोठा करा</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%2$,d पैकी %1$,d</item>
+        <item quantity="other">%2$,d पैकी %1$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">%1$d मीडिया अपलोड करत आहे</item>
+        <item quantity="other">%1$d मीडिया अपलोड करत आहे</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">मेनू फोटो नंबर %d</item>
+        <item quantity="other">मेनू फोटो नंबर %d</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d तक्रार</item>
+        <item quantity="other">%1$d तक्रारी</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">ही लिंक असलेले लोक तुमचे स्थान एक दिवस आणि %d तासासाठी पाहू शकतात</item>
+        <item quantity="other">ही लिंक असलेले लोक तुमचे स्थान एक दिवस आणि %d तासांसाठी पाहू शकतात</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">ही लिंक असलेले लोक तुमचे स्थान एक तास आणि %d दिवसासाठी पाहू शकतात</item>
+        <item quantity="other">ही लिंक असलेले लोक तुमचे स्थान एक तास आणि %d दिवसांसाठी पाहू शकतात</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">ही लिंक असलेले लोक तुमचे स्थान %d दिवसासाठी पाहू शकतात</item>
+        <item quantity="other">ही लिंक असलेले लोक तुमचे स्थान %d दिवसांसाठी पाहू शकतात</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">ही लिंक असलेले लोक तुमचे स्थान %d तासासाठी पाहू शकतात</item>
+        <item quantity="other">ही लिंक असलेले लोक तुमचे स्थान %d तासांसाठी पाहू शकतात</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">ही लिंक असलेले लोक तुमचे स्थान %d मिनिटासाठी पाहू शकतात</item>
+        <item quantity="other">ही लिंक असलेले लोक तुमचे स्थान %d मिनिटांसाठी पाहू शकतात</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">आणखी %d</item>
+        <item quantity="other">आणखी %d</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d पोस्ट वरील व्हिडिओ म्यूट करा</item>
+        <item quantity="other">%1$d पोस्ट वरील %2$d व्हिडिओ म्यूट करा</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d फोटो/व्हिडिओ</item>
+        <item quantity="other">%d फोटो/व्हिडिओ</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d व्हिडिओ</item>
+        <item quantity="other">%d व्हिडिओ</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">%2$d पैकी %1$d कस्टम अवतार</item>
+        <item quantity="other">%2$d पैकी %1$d कस्टम अवतार</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d नवीन अपडेट</item>
+        <item quantity="other">%d नवीन अपडेट</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">व्यवसायासंबंधित अपडेट, %1$s नवीन सूचना</item>
+        <item quantity="other">व्यवसायासंबंधित अपडेट, %1$s नवीन सूचना</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d फोटो</item>
+        <item quantity="other">%d फोटो</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d परीक्षण</item>
+        <item quantity="other">%d परीक्षणे</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">थंबनेल नंबर %d</item>
+        <item quantity="other">थंबनेल नंबर %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d ऑफलाइन क्षेत्र</item>
+        <item quantity="other">%d ऑफलाइन क्षेत्र</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d तक्रारीवर आधारित आहे</item>
+        <item quantity="other">%1$d तक्रारींवर आधारित आहे</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d पोस्ट वरील व्हिडिओ थांबवा</item>
+        <item quantity="other">%1$d पोस्ट वरील %2$d व्हिडिओ थांबवा</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s परस्परसंवाद</item>
+        <item quantity="other">%1$s परस्परसंवाद</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s शोध</item>
+        <item quantity="other">%1$s शोध</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s व्ह्यू</item>
+        <item quantity="other">%1$s व्ह्यू</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">%d रात्रीसाठी आरक्षण</item>
+        <item quantity="other">%d रात्रींसाठी आरक्षण</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">हे फक्त तुम्ही पाहू शकता</item>
+        <item quantity="other">ही फक्त तुम्ही पाहू शकता</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d दिवस</item>
+        <item quantity="other">%1$d दिवस</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d रात्र</item>
+        <item quantity="other">%1$d रात्र</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d फोटो</item>
+        <item quantity="other">%d फोटो</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"वायफायची वाट पाहत आहे.
+ %d फोटो/व्हिडिओ प्रलंबित आहे."</item>
+        <item quantity="other">"वायफायची वाट पाहत आहे.
+ %d फोटो/व्हिडिओ प्रलंबित आहेत."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">%1$d पोस्टसाठी फोटो</item>
+        <item quantity="other">%1$d पोस्टसाठी %2$d फोटो</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d दिवसापूर्वी</item>
+        <item quantity="other">%d दिवसांपूर्वी</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d तासापूर्वी</item>
+        <item quantity="other">%d तासांपूर्वी</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d महिन्यापूर्वी</item>
+        <item quantity="other">%d महिन्यांपूर्वी</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d आठवड्यापूर्वी</item>
+        <item quantity="other">%d आठवड्यांपूर्वी</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d वर्षापूर्वी</item>
+        <item quantity="other">%d वर्षांपूर्वी</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d अपडेट</item>
+        <item quantity="other">%d अपडेट</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">%d उत्तर पहा</item>
+        <item quantity="other">%d उत्तरे पहा</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="one">+%1$,d</item>
+        <item quantity="other">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d पोस्ट वरील व्हिडिओ प्ले करा</item>
+        <item quantity="other">%1$d पोस्ट वरील %2$d व्हिडिओ प्ले करा</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+%d अन्य शेअर</item>
+        <item quantity="other">+%d अन्य शेअर</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">थांबा बदला</item>
+        <item quantity="other">थांबे बदला</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">थांबा बदलत आहे</item>
+        <item quantity="other">थांबे बदलत आहे</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d दृश्य</item>
+        <item quantity="other">%,d दृश्ये</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d रेटिंग</item>
+        <item quantity="other">%d रेटिंग</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d परीक्षण</item>
+        <item quantity="other">%d परीक्षण</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">%d स्टारने रेट केले</item>
+        <item quantity="other">%d स्टारने रेट केले</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="one">%d तारा</item>
+        <item quantity="other">%d तारे</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">१ %2$s प्रतिक्रिया</item>
+        <item quantity="other">%1$,d %2$s प्रतिक्रिया</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">%dमिनिटापूर्वी अपडेट केले</item>
+        <item quantity="other">%dमिनिटांपूर्वी अपडेट केले</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">%1$d डब्यांच्या रेल्वेसाठी, सर्वात जलद बाहेर पडण्याकरिता %2$s डब्यात चढा</item>
+        <item quantity="other">%1$d डब्यांच्या रेल्वेसाठी, सर्वात जलद बाहेर पडण्याकरिता %2$s डब्यात चढा</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">%1$d डब्यांच्या रेल्वेसाठी, पुढील प्लॅटफॉर्मवर सर्वात जलद पोहोचण्याकरिता %2$s डब्यात चढा</item>
+        <item quantity="other">%1$d डब्यांच्या रेल्वेसाठी, पुढील प्लॅटफॉर्मवर सर्वात जलद पोहोचण्याकरिता %2$s डब्यात चढा</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">%1$s ही सर्वात कमी गर्दी असलेली कार आहे</item>
+        <item quantity="other">%1$s या सर्वात कमी गर्दी असलेल्या कार आहेत</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">%1$d कार ट्रेन</item>
+        <item quantity="other">%1$d कार ट्रेन</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d पेमेंट करा</item>
+        <item quantity="other">%d पेमेंट करा</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s आणि आणखी %2$s</item>
+        <item quantity="other">%1$s आणि आणखी %2$s</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="one">%d+</item>
+        <item quantity="other">%d+</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">5पैकी 1 तारा रेट करा</item>
+        <item quantity="other">5पैकी %1$d तारे रेट करा</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s व्‍ह्यू</item>
+        <item quantity="other">%s व्‍ह्यू</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d रेटिंग किंवा पुनरावलोकन</item>
+        <item quantity="other">%,d रेटिंग किंवा पुनरावलोकने</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d रेटिंग किंवा पुनरावलोकन</item>
+        <item quantity="other">%,d रेटिंग किंवा पुनरावलोकने</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d व्यक्ती</item>
+        <item quantity="other">%d लोक</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="one">%d प्रश्न</item>
+        <item quantity="other">%d प्रश्न</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">%d अधिक सूची</item>
+        <item quantity="other">%d अधिक सूची</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">%1$sआणि आणखी %2$d सूचीमध्ये सेव्ह केले</item>
+        <item quantity="other">%1$sआणि आणखी %2$d सूचींमध्ये सेव्ह केले</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">तुमची %d दिवसापूर्वीची भेट सेव्ह करायची?</item>
+        <item quantity="other">तुमची %d दिवसांंपूर्वीची भेट सेव्ह करायची?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">%2$s साठी %1$d परिणाम मिळाला</item>
+        <item quantity="other">%2$s साठी %1$d परिणाम मिळाले</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">एका तार्‍याचे रेटिंग पाठवत आहे</item>
+        <item quantity="other">%1$d तार्‍यांचे रेटिंग पाठवत आहे</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">%d दिवसासाठी</item>
+        <item quantity="other">%d दिवसांसाठी</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">%d तासासाठी</item>
+        <item quantity="other">%d तासांसाठी</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">%d मिनिटासाठी</item>
+        <item quantity="other">%d मिनिटासाठी</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">%2$s आणि इतर %1$d व्यक्तीसोबत तुमचे स्थान शेअर करत आहे</item>
+        <item quantity="other">%2$s आणि इतर %1$d लोकांसोबत तुमचे स्थान शेअर करत आहे</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">तुमचे स्थान %d इतर व्यक्तीसह शेअर करत आहे</item>
+        <item quantity="other">तुमचे स्थान %d इतर लोकांसह शेअर करत आहे</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="one">%d ठिकाण सेव्ह करा</item>
+        <item quantity="other">%d ठिकाणे सेव्ह करा</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="one">%d ठिकाण आढळले आहे</item>
+        <item quantity="other">%d ठिकाणे आढळली आहेत</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s, %2$d तारा</item>
+        <item quantity="other">%1$s, %2$d तारे</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">यशस्वीरित्या 1 तार्‍याने रेट केले</item>
+        <item quantity="other">यशस्वीरित्या %1$d तार्‍यांनी रेट केले</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d व्ह्यू</item>
+        <item quantity="other">%,d व्ह्यू</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d गुण</item>
+        <item quantity="other">+%d गुण</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">%2$s चा %1$d फोटो किंवा व्हिडिओ पोस्ट करा</item>
+        <item quantity="other">%2$s चे %1$d फोटो आणि व्हिडिओ पोस्ट करा</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">%2$s चा %1$d फोटो पोस्‍ट करा</item>
+        <item quantity="other">%2$s चे %1$d फोटो पोस्‍ट करा</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">आणखी %d</item>
+        <item quantity="other">आणखी %d</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">%1$d फोटो पोस्ट करा</item>
+        <item quantity="other">%1$d फोटो पोस्ट करा</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">%1$d पोस्ट करा</item>
+        <item quantity="other">%1$d पोस्ट करा</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">+%1$d व्यक्तीने %2$s चा उललेख केला आहे</item>
+        <item quantity="other">+%1$,d व्यक्तींनी %2$s चा उललेख केला आहे</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">१ प्रतिक्रिया</item>
+        <item quantity="other">%1$,d प्रतिक्रिया</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">%2$s या किमती पासूनचा %1$d आणखी पर्याय पहा</item>
+        <item quantity="other">%2$s या किमती पासूनचे %1$d आणखी पर्याय पहा</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">आणखी %1$d पर्याय पहा</item>
+        <item quantity="other">आणखी %1$d पर्याय पहा</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">रहदारी जवळपासचा जलद मार्ग पाहण्यासाठी तुमचा ॲड्रेस सेव्ह करा</item>
+        <item quantity="other">रहदारी जवळपासचे जलद मार्ग पाहण्यासाठी तुमचे ॲड्रेस सेव्ह करा</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">प्रस्थाने %1$dसे पूर्वी अपडेट केली</item>
+        <item quantity="other">प्रस्थाने %1$dसे पूर्वी अपडेट केली</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">दर मिनिटानी सुटते</item>
+        <item quantity="other">दर %d मिनिटांनी सुटते</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d मि</item>
+        <item quantity="other">%d मि</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES_LONG">
+        <item quantity="one">मिनिट</item>
+        <item quantity="other">मिनिटे</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="one">%1$s (१ अलर्ट)</item>
+        <item quantity="other">%1$s (%2$d अलर्ट)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="one">%1$s बस (१ अलर्ट)</item>
+        <item quantity="other">%1$s बस (%2$d अलर्ट)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="one">%1$s फेरी (१ अलर्ट)</item>
+        <item quantity="other">%1$s फेरी (%2$d अलर्ट)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="one">%1$s लाइन (१ अलर्ट)</item>
+        <item quantity="other">%1$s लाइन (%2$d अलर्ट)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="one">%1$s ट्रेन (१ अलर्ट)</item>
+        <item quantity="other">%1$s ट्रेन (%2$d अलर्ट)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="one">%1$s ट्राम (१ अलर्ट)</item>
+        <item quantity="other">%1$s ट्राम (%2$d अलर्ट)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="one">दर १ मिनिटाने</item>
+        <item quantity="other">दर %d मिनिटांनी</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d थांबा</item>
+        <item quantity="other">%d थांबे</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_CARD">
+        <item quantity="one">"%1$d
+मिनिटापूर्वी"</item>
+        <item quantity="other">"%1$d
+मिनिटांपूर्वी"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+मि पूर्वी"</item>
+        <item quantity="other">"%1$s
+मि पूर्वी"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s मिनिटापूर्वी निर्गमन केले</item>
+        <item quantity="other">%1$s मिनिटांंपूर्वी निर्गमन केले</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d सूचना</item>
+        <item quantity="other">+%d सूचना</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d सूचना</item>
+        <item quantity="other">+ %d सूचना</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d आणखी</item>
+        <item quantity="other">+%d आणखी</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ आणखी %d</item>
+        <item quantity="other">+ आणखी %d</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_ITEMS_COUNT">
+        <item quantity="one">आणि आणखी %1$d</item>
+        <item quantity="other">आणि आणखी %1$d</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+मि"</item>
+        <item quantity="other">"%1$s
+मि"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s मिनिटापूर्वी</item>
+        <item quantity="other">%1$s मिनिटांपूर्वी</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s मिनिटामध्ये निर्गमन करेल</item>
+        <item quantity="other">%1$s मिनिटांंमध्ये निर्गमन करेल</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">आणखी %1$s चेतावणी</item>
+        <item quantity="other">आणखी %1$s चेतावण्या</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s फोटो</item>
+        <item quantity="other">%s फोटो</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s परीक्षण</item>
+        <item quantity="other">%s परीक्षणे</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d योगदान</item>
+        <item quantity="other">%,d योगदाने</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d व्ह्यू</item>
+        <item quantity="other">%,d व्ह्यू</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">कमाल %1$d निवडा</item>
+        <item quantity="other">कमाल %1$d निवडा</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">कमाल %1$s फोटो निवडा</item>
+        <item quantity="other">कमाल %1$s फोटो निवडा</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d पोस्ट वरील व्हिडिओ अनम्यूट करा</item>
+        <item quantity="other">%1$d पोस्ट वरील %2$d व्हिडिओ अनम्यूट करा</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%2$d पैकी %1$d</item>
+        <item quantity="other">%2$d पैकी %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"वाय-फाय ची वाट पाहत आहे.
+ %d प्रलंबित फोटो."</item>
+        <item quantity="other">"वाय-फाय ची वाट पाहत आहे.
+ %d प्रलंबित फोटो."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d फोटो निवडला</item>
+        <item quantity="other">%d फोटो निवडले</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">%2$d ठिकाणापैकी %1$d ला भेट दिली</item>
+        <item quantity="other">%2$d ठिकाणांंपैकी %1$d ला भेट दिली</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s सह आणखी %2$d शी स्थान शेअर करताना त्याची अचूकता वाढवण्यासाठी बॅटरी सेव्हर बंद करा</item>
+        <item quantity="other">%1$s सह आणखी %2$d जणांशी स्थान शेअर करताना त्याची अचूकता वाढवण्यासाठी बॅटरी सेव्हर बंद करा</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s सह आणखी %2$d शी स्थान शेअरिंग सुरू ठेवण्यासाठी डिव्हाइसचे स्थान सुरू करणे आवश्यक आहे</item>
+        <item quantity="other">%1$s सह आणखी %2$d जणांशी स्थान शेअरिंग सुरू ठेवण्यासाठी डिव्हाइसचे स्थान सुरू करणे आवश्यक आहे</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">या डिव्हाइसवरून %1$s सह आणखी %2$d शी शेअर करणे सुरू ठेवण्यासाठी स्थान शेअरिंग अपडेट करा</item>
+        <item quantity="other">या डिव्हाइसवरून %1$s सह आणखी %2$d जणांशी शेअर करणे सुरू ठेवण्यासाठी स्थान शेअरिंग अपडेट करा</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s सह आणखी %2$d शी स्थान शेअर करताना त्याची अचूकता वाढवण्यासाठी Maps ला तुमची शारीरिक अ‍ॅक्टिव्हिटी ओळखू द्या</item>
+        <item quantity="other">%1$s सह आणखी %2$d जणांशी स्थान शेअर करताना त्याची अचूकता वाढवण्यासाठी Maps ला तुमची शारीरिक अ‍ॅक्टिव्हिटी ओळखू द्या</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s सह आणखी %2$d शी स्थान शेअर करताना त्याची अचूकता वाढवण्यासाठी Maps ला नेहमी तुमचे स्थान अ‍ॅक्सेस करण्याची अनुमती द्या</item>
+        <item quantity="other">%1$s सह आणखी %2$d जणांशी स्थान शेअर करताना त्याची अचूकता वाढवण्यासाठी Maps ला नेहमी तुमचे स्थान अ‍ॅक्सेस करण्याची अनुमती द्या</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s सह आणखी %2$d शी शेअर करणे सुरू ठेवण्यासाठी Maps ला नेहमी तुमचे स्थान अ‍ॅक्सेस करण्याची अनुमती द्या</item>
+        <item quantity="other">%1$s सह आणखी %2$d जणांशी शेअर करणे सुरू ठेवण्यासाठी Maps ला नेहमी तुमचे स्थान अ‍ॅक्सेस करण्याची अनुमती द्या</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">%d हून अधिक फोटो</item>
+        <item quantity="other">%d हून अधिक फोटो</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d परीक्षण)</item>
+        <item quantity="other">(%,d परीक्षणे)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="one">%1$s सेकंद</item>
+        <item quantity="other">%1$s सेकंद</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">%1$d पोस्टसाठी व्हिडिओ</item>
+        <item quantity="other">%1$d पोस्टसाठी %2$d व्हिडिओ</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">%1$d पोस्टसाठी व्हिडिओ फुल स्क्रीनमध्ये आहे</item>
+        <item quantity="other">%1$d पोस्टसाठी %2$d व्हिडिओ फुल स्क्रीनमध्ये आहेत</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d रात्र</item>
+        <item quantity="other">%2$s × %1$d रात्री</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%1$d रात्रीसाठी कर आणि शुल्कांसह %2$s</item>
+        <item quantity="other">%1$d रात्रींसाठी कर आणि शुल्कांसह %2$s</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">चालत एक मिनिट</item>
+        <item quantity="other">चालत %d मिनिटे</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d थांबा</item>
+        <item quantity="other">+ %d थांबे</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d थांबा)</item>
+        <item quantity="other">(%d थांबे)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d आठवड्यापूर्वी</item>
+        <item quantity="other">%d आठवड्यांपूर्वी</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d वर्षापूर्वी</item>
+        <item quantity="other">%d वर्षांपूर्वी</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">शिल्लक असलेला फोटो पहा</item>
+        <item quantity="other">शिल्लक असलेले %1$d फोटो पहा</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">तुमचे परीक्षण किंवा अपडेट</item>
+        <item quantity="other">तुमची परीक्षणे किंवा अपडेट</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">तुम्ही %1$s आणि आणखी %2$d सूची फॉलो करत आहे</item>
+        <item quantity="other">तुम्ही %1$s आणि आणखी %2$d सूची फॉलो करत आहे</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s आणि आणखी %2$d</item>
+        <item quantity="other">%1$s आणि आणखी %2$d</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="one">%2$d पैकी %1$d</item>
+        <item quantity="other">%2$d पैकी %1$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%2$d पैकी %1$d</item>
+        <item quantity="other">%2$d पैकी %1$d</item>
+    </plurals>
+    <plurals name="plurals_0x7f12014e">
+        <item quantity="one"></item>
+        <item quantity="other">पातळी %1$d</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="one">%1$d मिनिट</item>
+        <item quantity="other">%1$d मिनिटे</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">१ कॅप्चर केला</item>
+        <item quantity="other">%1$d कॅप्चर केले</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d नवीन सूचना</item>
+        <item quantity="other">%d नवीन सूचना</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="one">+ %1$d आणखी</item>
+        <item quantity="other">+ %1$d आणखी</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="one">%d व्यक्ती टाइप करत आहे</item>
+        <item quantity="other">%d लोक टाइप करत आहेत</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">मिळवणाऱ्याचे %d नाव कॉपी केले</item>
+        <item quantity="other">मिळवणाऱ्यांची %d नावे कॉपी केली</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">या फोटोबद्दल काहीतरी म्हणा (पर्यायी)</item>
+        <item quantity="other">तुमच्या फोटोबद्दल काहीतरी म्हणा (पर्यायी)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%2$d पैकी %1$dएक तारा</item>
+        <item quantity="other">%2$d पैकी %1$dएक तारे</item>
+    </plurals>
+    <plurals name="tell_maps_know_before_you_go_place_contextual_zero_state_post_tip">
+        <item quantity="one">या ठिकाणाबद्दल टीप पोस्ट करायची आहे का?</item>
+        <item quantity="other">यांपैकी एका ठिकाणाबद्दल टीप पोस्ट करायची आहे का?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_post_tip_or_photo">
+        <item quantity="one">या ठिकाणाबद्दल फोटो किंवा टीप पोस्ट करायची आहे का?</item>
+        <item quantity="other">यांपैकी एका ठिकाणाबद्दल फोटो किंवा टीप पोस्ट करायची आहे का?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_update_a_place">
+        <item quantity="one">तुम्हाला या ठिकाणाबद्दल काहीतरी अपडेट करायचे आहे का?</item>
+        <item quantity="other">तुम्हाला कोणते ठिकाण अपडेट करायचे आहे?</item>
+    </plurals>
+</resources>

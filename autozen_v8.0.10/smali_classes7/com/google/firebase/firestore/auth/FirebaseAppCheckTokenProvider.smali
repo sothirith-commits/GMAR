@@ -1,0 +1,585 @@
+.class public final Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;
+.super Lcom/google/firebase/firestore/auth/CredentialsProvider;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/firebase/firestore/auth/CredentialsProvider<",
+        "Ljava/lang/String;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private changeListener:Lcom/google/firebase/firestore/util/Listener;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/google/firebase/firestore/util/Listener<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private forceRefresh:Z
+
+.field private interopAppCheckTokenProvider:Lcom/google/firebase/appcheck/interop/InteropAppCheckTokenProvider;
+
+.field private final tokenListener:Lcom/google/firebase/appcheck/interop/AppCheckTokenListener;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/firebase/inject/Deferred;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/google/firebase/inject/Deferred<",
+            "Lcom/google/firebase/appcheck/interop/InteropAppCheckTokenProvider;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Lcom/google/firebase/firestore/auth/CredentialsProvider;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Lnq;
+
+    .line 5
+    .line 6
+    invoke-direct {v0, p0}, Lnq;-><init>(Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;)V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object v0, p0, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->tokenListener:Lcom/google/firebase/appcheck/interop/AppCheckTokenListener;
+
+    .line 10
+    .line 11
+    new-instance v0, Lon;
+
+    .line 12
+    .line 13
+    const/4 v1, 0x2
+
+    .line 14
+    invoke-direct {v0, p0, v1}, Lon;-><init>(Ljava/lang/Object;I)V
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-interface {p1, v0}, Lcom/google/firebase/inject/Deferred;->whenAvailable(Lcom/google/firebase/inject/Deferred$DeferredHandler;)V
+
+    .line 18
+    .line 19
+    .line 20
+    return-void
+.end method
+
+.method public static synthetic O(Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;Lcom/google/firebase/appcheck/AppCheckTokenResult;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->lambda$new$0(Lcom/google/firebase/appcheck/AppCheckTokenResult;)V
+
+    return-void
+.end method
+
+.method public static synthetic a(Lcom/google/android/gms/tasks/Task;)Lcom/google/android/gms/tasks/Task;
+    .locals 0
+
+    .line 1
+    invoke-static {p0}, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->lambda$getToken$2(Lcom/google/android/gms/tasks/Task;)Lcom/google/android/gms/tasks/Task;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static synthetic lambda$getToken$2(Lcom/google/android/gms/tasks/Task;)Lcom/google/android/gms/tasks/Task;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->isSuccessful()Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->getResult()Ljava/lang/Object;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p0
+
+    .line 11
+    check-cast p0, Lcom/google/firebase/appcheck/AppCheckTokenResult;
+
+    .line 12
+    .line 13
+    invoke-virtual {p0}, Lcom/google/firebase/appcheck/AppCheckTokenResult;->getToken()Ljava/lang/String;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p0
+
+    .line 17
+    invoke-static {p0}, Lcom/google/android/gms/tasks/Tasks;->forResult(Ljava/lang/Object;)Lcom/google/android/gms/tasks/Task;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object p0
+
+    .line 21
+    return-object p0
+
+    .line 22
+    :cond_0
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->getException()Ljava/lang/Exception;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object p0
+
+    .line 26
+    invoke-static {p0}, Lcom/google/android/gms/tasks/Tasks;->forException(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/Task;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object p0
+
+    .line 30
+    return-object p0
+.end method
+
+.method private synthetic lambda$new$0(Lcom/google/firebase/appcheck/AppCheckTokenResult;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->onTokenChanged(Lcom/google/firebase/appcheck/AppCheckTokenResult;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method private synthetic lambda$new$1(Lcom/google/firebase/inject/Provider;)V
+    .locals 1
+
+    .line 1
+    monitor-enter p0
+
+    .line 2
+    :try_start_0
+    invoke-interface {p1}, Lcom/google/firebase/inject/Provider;->get()Ljava/lang/Object;
+
+    .line 3
+    .line 4
+    .line 5
+    move-result-object p1
+
+    .line 6
+    check-cast p1, Lcom/google/firebase/appcheck/interop/InteropAppCheckTokenProvider;
+
+    .line 7
+    .line 8
+    iput-object p1, p0, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->interopAppCheckTokenProvider:Lcom/google/firebase/appcheck/interop/InteropAppCheckTokenProvider;
+
+    .line 9
+    .line 10
+    if-eqz p1, :cond_0
+
+    .line 11
+    .line 12
+    iget-object v0, p0, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->tokenListener:Lcom/google/firebase/appcheck/interop/AppCheckTokenListener;
+
+    .line 13
+    .line 14
+    invoke-interface {p1, v0}, Lcom/google/firebase/appcheck/interop/InteropAppCheckTokenProvider;->addAppCheckTokenListener(Lcom/google/firebase/appcheck/interop/AppCheckTokenListener;)V
+
+    .line 15
+    .line 16
+    .line 17
+    goto :goto_0
+
+    .line 18
+    :catchall_0
+    move-exception p1
+
+    .line 19
+    goto :goto_1
+
+    .line 20
+    :cond_0
+    :goto_0
+    monitor-exit p0
+
+    .line 21
+    return-void
+
+    .line 22
+    :goto_1
+    monitor-exit p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 23
+    throw p1
+.end method
+
+.method public static synthetic o(Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;Lcom/google/firebase/inject/Provider;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->lambda$new$1(Lcom/google/firebase/inject/Provider;)V
+
+    return-void
+.end method
+
+.method private declared-synchronized onTokenChanged(Lcom/google/firebase/appcheck/AppCheckTokenResult;)V
+    .locals 3
+
+    .line 1
+    const-string v0, "Error getting App Check token; using placeholder token instead. Error: "
+
+    .line 2
+    .line 3
+    monitor-enter p0
+
+    .line 4
+    :try_start_0
+    invoke-virtual {p1}, Lcom/google/firebase/appcheck/AppCheckTokenResult;->getError()Ljava/lang/Exception;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object v1
+
+    .line 8
+    if-eqz v1, :cond_0
+
+    .line 9
+    .line 10
+    const-string v1, "FirebaseAppCheckTokenProvider"
+
+    .line 11
+    .line 12
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    .line 13
+    .line 14
+    invoke-direct {v2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-virtual {p1}, Lcom/google/firebase/appcheck/AppCheckTokenResult;->getError()Ljava/lang/Exception;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v0
+
+    .line 21
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v0
+
+    .line 28
+    const/4 v2, 0x0
+
+    .line 29
+    new-array v2, v2, [Ljava/lang/Object;
+
+    .line 30
+    .line 31
+    invoke-static {v1, v0, v2}, Lcom/google/firebase/firestore/util/Logger;->warn(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    .line 32
+    .line 33
+    .line 34
+    goto :goto_0
+
+    .line 35
+    :catchall_0
+    move-exception p1
+
+    .line 36
+    goto :goto_1
+
+    .line 37
+    :cond_0
+    :goto_0
+    iget-object v0, p0, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->changeListener:Lcom/google/firebase/firestore/util/Listener;
+
+    .line 38
+    .line 39
+    if-eqz v0, :cond_1
+
+    .line 40
+    .line 41
+    invoke-virtual {p1}, Lcom/google/firebase/appcheck/AppCheckTokenResult;->getToken()Ljava/lang/String;
+
+    .line 42
+    .line 43
+    .line 44
+    move-result-object p1
+
+    .line 45
+    invoke-interface {v0, p1}, Lcom/google/firebase/firestore/util/Listener;->onValue(Ljava/lang/Object;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 46
+    .line 47
+    .line 48
+    :cond_1
+    monitor-exit p0
+
+    .line 49
+    return-void
+
+    .line 50
+    :goto_1
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 51
+    throw p1
+.end method
+
+
+# virtual methods
+.method public declared-synchronized getToken()Lcom/google/android/gms/tasks/Task;
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/google/android/gms/tasks/Task<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    monitor-enter p0
+
+    .line 2
+    :try_start_0
+    iget-object v0, p0, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->interopAppCheckTokenProvider:Lcom/google/firebase/appcheck/interop/InteropAppCheckTokenProvider;
+
+    .line 3
+    .line 4
+    if-nez v0, :cond_0
+
+    .line 5
+    .line 6
+    new-instance v0, Lcom/google/firebase/FirebaseApiNotAvailableException;
+
+    .line 7
+    .line 8
+    const-string v1, "AppCheck is not available"
+
+    .line 9
+    .line 10
+    invoke-direct {v0, v1}, Lcom/google/firebase/FirebaseApiNotAvailableException;-><init>(Ljava/lang/String;)V
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-static {v0}, Lcom/google/android/gms/tasks/Tasks;->forException(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/Task;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 17
+    monitor-exit p0
+
+    .line 18
+    return-object v0
+
+    .line 19
+    :catchall_0
+    move-exception v0
+
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :cond_0
+    :try_start_1
+    iget-boolean v1, p0, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->forceRefresh:Z
+
+    .line 22
+    .line 23
+    invoke-interface {v0, v1}, Lcom/google/firebase/appcheck/interop/InteropAppCheckTokenProvider;->getToken(Z)Lcom/google/android/gms/tasks/Task;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object v0
+
+    .line 27
+    const/4 v1, 0x0
+
+    .line 28
+    iput-boolean v1, p0, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->forceRefresh:Z
+
+    .line 29
+    .line 30
+    sget-object v1, Lcom/google/firebase/firestore/util/Executors;->DIRECT_EXECUTOR:Ljava/util/concurrent/Executor;
+
+    .line 31
+    .line 32
+    new-instance v2, Lko;
+
+    .line 33
+    .line 34
+    const/16 v3, 0x13
+
+    .line 35
+    .line 36
+    invoke-direct {v2, v3}, Lko;-><init>(I)V
+
+    .line 37
+    .line 38
+    .line 39
+    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/tasks/Task;->continueWithTask(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/Continuation;)Lcom/google/android/gms/tasks/Task;
+
+    .line 40
+    .line 41
+    .line 42
+    move-result-object v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 43
+    monitor-exit p0
+
+    .line 44
+    return-object v0
+
+    .line 45
+    :goto_0
+    :try_start_2
+    monitor-exit p0
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    .line 46
+    throw v0
+.end method
+
+.method public declared-synchronized invalidateToken()V
+    .locals 1
+
+    .line 1
+    monitor-enter p0
+
+    .line 2
+    const/4 v0, 0x1
+
+    .line 3
+    :try_start_0
+    iput-boolean v0, p0, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->forceRefresh:Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 4
+    .line 5
+    monitor-exit p0
+
+    .line 6
+    return-void
+
+    .line 7
+    :catchall_0
+    move-exception v0
+
+    .line 8
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 9
+    throw v0
+.end method
+
+.method public declared-synchronized setChangeListener(Lcom/google/firebase/firestore/util/Listener;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/google/firebase/firestore/util/Listener<",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    monitor-enter p0
+
+    .line 2
+    :try_start_0
+    iput-object p1, p0, Lcom/google/firebase/firestore/auth/FirebaseAppCheckTokenProvider;->changeListener:Lcom/google/firebase/firestore/util/Listener;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 3
+    .line 4
+    monitor-exit p0
+
+    .line 5
+    return-void
+
+    .line 6
+    :catchall_0
+    move-exception p1
+
+    .line 7
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 8
+    throw p1
+.end method

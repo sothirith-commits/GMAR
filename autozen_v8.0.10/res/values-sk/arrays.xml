@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>hovor</item>
+        <item>zavolať</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>domov</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>navigovať</item>
+        <item>choď</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>predchádzajúca</item>
+        <item>ďalšia</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>otvorte</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>pozastaviť hudbu</item>
+        <item>pozastaviť</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>prehrať hudbu</item>
+        <item>prehrať</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>predchádzajúca</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>hľadať</item>
+        <item>nájsť</item>
+        <item>prehľadať</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>počasie</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>práca</item>
+    </string-array>
+</resources>

@@ -1,0 +1,158 @@
+.class public abstract Landroid/support/v4/os/IResultReceiver2$Stub;
+.super Landroid/os/Binder;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/support/v4/os/IResultReceiver2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroid/support/v4/os/IResultReceiver2;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "Stub"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroid/support/v4/os/IResultReceiver2$Stub$Proxy;
+    }
+.end annotation
+
+
+# virtual methods
+.method public asBinder()Landroid/os/IBinder;
+    .locals 0
+
+    return-object p0
+.end method
+
+.method public onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+    .locals 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Landroid/support/v4/os/IResultReceiver2;->DESCRIPTOR:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    const v1, 0xffffff
+
+    .line 4
+    .line 5
+    .line 6
+    const/4 v2, 0x1
+
+    .line 7
+    if-lt p1, v2, :cond_0
+
+    .line 8
+    .line 9
+    if-gt p1, v1, :cond_0
+
+    .line 10
+    .line 11
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    .line 12
+    .line 13
+    .line 14
+    :cond_0
+    const v3, 0x5f4e5446
+
+    .line 15
+    .line 16
+    .line 17
+    if-ne p1, v3, :cond_1
+
+    .line 18
+    .line 19
+    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 20
+    .line 21
+    .line 22
+    return v2
+
+    .line 23
+    :cond_1
+    if-ne p1, v1, :cond_2
+
+    .line 24
+    .line 25
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    .line 26
+    .line 27
+    .line 28
+    invoke-interface {p0}, Landroid/support/v4/os/IResultReceiver2;->getInterfaceVersion()I
+
+    .line 29
+    .line 30
+    .line 31
+    move-result p0
+
+    .line 32
+    invoke-virtual {p3, p0}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 33
+    .line 34
+    .line 35
+    return v2
+
+    .line 36
+    :cond_2
+    if-eq p1, v2, :cond_3
+
+    .line 37
+    .line 38
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/os/Binder;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+
+    .line 39
+    .line 40
+    .line 41
+    move-result p0
+
+    .line 42
+    return p0
+
+    .line 43
+    :cond_3
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    .line 44
+    .line 45
+    .line 46
+    move-result p1
+
+    .line 47
+    sget-object p3, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    .line 48
+    .line 49
+    invoke-virtual {p2, p3}, Landroid/os/Parcel;->readTypedObject(Landroid/os/Parcelable$Creator;)Ljava/lang/Object;
+
+    .line 50
+    .line 51
+    .line 52
+    move-result-object p2
+
+    .line 53
+    check-cast p2, Landroid/os/Bundle;
+
+    .line 54
+    .line 55
+    invoke-interface {p0, p1, p2}, Landroid/support/v4/os/IResultReceiver2;->send(ILandroid/os/Bundle;)V
+
+    .line 56
+    .line 57
+    .line 58
+    return v2
+.end method

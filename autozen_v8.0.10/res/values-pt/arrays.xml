@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>ligar</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>casa</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>dirigir</item>
+        <item>navegue</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>próxima</item>
+        <item>seguinte</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>abrir</item>
+        <item>abra</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>pausar música</item>
+        <item>pausar</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>tocar música</item>
+        <item>tocar</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>anterior</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>pesquisar</item>
+        <item>encontrar</item>
+        <item>procurar</item>
+        <item>procure</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>clima</item>
+        <item>tempo</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>trabalho</item>
+    </string-array>
+</resources>

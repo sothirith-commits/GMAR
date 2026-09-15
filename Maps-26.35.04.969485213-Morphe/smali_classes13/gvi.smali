@@ -1,0 +1,409 @@
+.class public final Lgvi;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field public A:Ljava/lang/CharSequence;
+
+.field public B:Ljava/lang/Integer;
+
+.field public C:Lcom/google/common/collect/ImmutableList;
+
+.field public a:Ljava/lang/CharSequence;
+
+.field public b:Ljava/lang/CharSequence;
+
+.field public c:Ljava/lang/CharSequence;
+
+.field public d:Ljava/lang/CharSequence;
+
+.field public e:Ljava/lang/CharSequence;
+
+.field public f:Lgvw;
+
+.field public g:[B
+
+.field public h:Ljava/lang/Integer;
+
+.field public i:Landroid/net/Uri;
+
+.field public j:Ljava/lang/Integer;
+
+.field public k:Ljava/lang/Integer;
+
+.field public l:Ljava/lang/Integer;
+
+.field public m:Ljava/lang/Boolean;
+
+.field public n:Ljava/lang/Integer;
+
+.field public o:Ljava/lang/Integer;
+
+.field public p:Ljava/lang/Integer;
+
+.field public q:Ljava/lang/Integer;
+
+.field public r:Ljava/lang/Integer;
+
+.field public s:Ljava/lang/Integer;
+
+.field public t:Ljava/lang/CharSequence;
+
+.field public u:Ljava/lang/CharSequence;
+
+.field public v:Ljava/lang/CharSequence;
+
+.field public w:Ljava/lang/CharSequence;
+
+.field public x:Ljava/lang/Integer;
+
+.field public y:Ljava/lang/Integer;
+
+.field public z:Ljava/lang/CharSequence;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 121
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {}, Lcom/google/common/collect/ImmutableList;->of()Lcom/google/common/collect/ImmutableList;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lgvi;->C:Lcom/google/common/collect/ImmutableList;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lgvj;)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p1, Lgvj;->b:Ljava/lang/CharSequence;
+
+    .line 5
+    .line 6
+    iput-object v0, p0, Lgvi;->a:Ljava/lang/CharSequence;
+
+    .line 7
+    .line 8
+    iget-object v0, p1, Lgvj;->c:Ljava/lang/CharSequence;
+
+    .line 9
+    .line 10
+    iput-object v0, p0, Lgvi;->b:Ljava/lang/CharSequence;
+
+    .line 11
+    .line 12
+    iget-object v0, p1, Lgvj;->d:Ljava/lang/CharSequence;
+
+    .line 13
+    .line 14
+    iput-object v0, p0, Lgvi;->c:Ljava/lang/CharSequence;
+
+    .line 15
+    .line 16
+    iget-object v0, p1, Lgvj;->e:Ljava/lang/CharSequence;
+
+    .line 17
+    .line 18
+    iput-object v0, p0, Lgvi;->d:Ljava/lang/CharSequence;
+
+    .line 19
+    .line 20
+    iget-object v0, p1, Lgvj;->f:Ljava/lang/CharSequence;
+
+    .line 21
+    .line 22
+    iput-object v0, p0, Lgvi;->e:Ljava/lang/CharSequence;
+
+    .line 23
+    .line 24
+    iget-object v0, p1, Lgvj;->g:Lgvw;
+
+    .line 25
+    .line 26
+    iput-object v0, p0, Lgvi;->f:Lgvw;
+
+    .line 27
+    .line 28
+    iget-object v0, p1, Lgvj;->h:[B
+
+    .line 29
+    .line 30
+    iput-object v0, p0, Lgvi;->g:[B
+
+    .line 31
+    .line 32
+    iget-object v0, p1, Lgvj;->i:Ljava/lang/Integer;
+
+    .line 33
+    .line 34
+    iput-object v0, p0, Lgvi;->h:Ljava/lang/Integer;
+
+    .line 35
+    .line 36
+    iget-object v0, p1, Lgvj;->j:Landroid/net/Uri;
+
+    .line 37
+    .line 38
+    iput-object v0, p0, Lgvi;->i:Landroid/net/Uri;
+
+    .line 39
+    .line 40
+    iget-object v0, p1, Lgvj;->k:Ljava/lang/Integer;
+
+    .line 41
+    .line 42
+    iput-object v0, p0, Lgvi;->j:Ljava/lang/Integer;
+
+    .line 43
+    .line 44
+    iget-object v0, p1, Lgvj;->l:Ljava/lang/Integer;
+
+    .line 45
+    .line 46
+    iput-object v0, p0, Lgvi;->k:Ljava/lang/Integer;
+
+    .line 47
+    .line 48
+    iget-object v0, p1, Lgvj;->m:Ljava/lang/Integer;
+
+    .line 49
+    .line 50
+    iput-object v0, p0, Lgvi;->l:Ljava/lang/Integer;
+
+    .line 51
+    .line 52
+    iget-object v0, p1, Lgvj;->n:Ljava/lang/Boolean;
+
+    .line 53
+    .line 54
+    iput-object v0, p0, Lgvi;->m:Ljava/lang/Boolean;
+
+    .line 55
+    .line 56
+    iget-object v0, p1, Lgvj;->p:Ljava/lang/Integer;
+
+    .line 57
+    .line 58
+    iput-object v0, p0, Lgvi;->n:Ljava/lang/Integer;
+
+    .line 59
+    .line 60
+    iget-object v0, p1, Lgvj;->q:Ljava/lang/Integer;
+
+    .line 61
+    .line 62
+    iput-object v0, p0, Lgvi;->o:Ljava/lang/Integer;
+
+    .line 63
+    .line 64
+    iget-object v0, p1, Lgvj;->r:Ljava/lang/Integer;
+
+    .line 65
+    .line 66
+    iput-object v0, p0, Lgvi;->p:Ljava/lang/Integer;
+
+    .line 67
+    .line 68
+    iget-object v0, p1, Lgvj;->s:Ljava/lang/Integer;
+
+    .line 69
+    .line 70
+    iput-object v0, p0, Lgvi;->q:Ljava/lang/Integer;
+
+    .line 71
+    .line 72
+    iget-object v0, p1, Lgvj;->t:Ljava/lang/Integer;
+
+    .line 73
+    .line 74
+    iput-object v0, p0, Lgvi;->r:Ljava/lang/Integer;
+
+    .line 75
+    .line 76
+    iget-object v0, p1, Lgvj;->u:Ljava/lang/Integer;
+
+    .line 77
+    .line 78
+    iput-object v0, p0, Lgvi;->s:Ljava/lang/Integer;
+
+    .line 79
+    .line 80
+    iget-object v0, p1, Lgvj;->v:Ljava/lang/CharSequence;
+
+    .line 81
+    .line 82
+    iput-object v0, p0, Lgvi;->t:Ljava/lang/CharSequence;
+
+    .line 83
+    .line 84
+    iget-object v0, p1, Lgvj;->w:Ljava/lang/CharSequence;
+
+    .line 85
+    .line 86
+    iput-object v0, p0, Lgvi;->u:Ljava/lang/CharSequence;
+
+    .line 87
+    .line 88
+    iget-object v0, p1, Lgvj;->x:Ljava/lang/CharSequence;
+
+    .line 89
+    .line 90
+    iput-object v0, p0, Lgvi;->v:Ljava/lang/CharSequence;
+
+    .line 91
+    .line 92
+    iget-object v0, p1, Lgvj;->z:Ljava/lang/Integer;
+
+    .line 93
+    .line 94
+    iput-object v0, p0, Lgvi;->x:Ljava/lang/Integer;
+
+    .line 95
+    .line 96
+    iget-object v0, p1, Lgvj;->y:Ljava/lang/CharSequence;
+
+    .line 97
+    .line 98
+    iput-object v0, p0, Lgvi;->w:Ljava/lang/CharSequence;
+
+    .line 99
+    .line 100
+    iget-object v0, p1, Lgvj;->A:Ljava/lang/Integer;
+
+    .line 101
+    .line 102
+    iput-object v0, p0, Lgvi;->y:Ljava/lang/Integer;
+
+    .line 103
+    .line 104
+    iget-object v0, p1, Lgvj;->B:Ljava/lang/CharSequence;
+
+    .line 105
+    .line 106
+    iput-object v0, p0, Lgvi;->z:Ljava/lang/CharSequence;
+
+    .line 107
+    .line 108
+    iget-object v0, p1, Lgvj;->C:Ljava/lang/CharSequence;
+
+    .line 109
+    .line 110
+    iput-object v0, p0, Lgvi;->A:Ljava/lang/CharSequence;
+
+    .line 111
+    .line 112
+    iget-object v0, p1, Lgvj;->D:Ljava/lang/Integer;
+
+    .line 113
+    .line 114
+    iput-object v0, p0, Lgvi;->B:Ljava/lang/Integer;
+
+    .line 115
+    .line 116
+    iget-object p1, p1, Lgvj;->E:Lcom/google/common/collect/ImmutableList;
+
+    .line 117
+    .line 118
+    iput-object p1, p0, Lgvi;->C:Lcom/google/common/collect/ImmutableList;
+
+    .line 119
+    .line 120
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a([BI)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lgvi;->g:[B
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_1
+
+    .line 4
+    .line 5
+    const/4 v0, 0x3
+
+    .line 6
+    if-eq p2, v0, :cond_1
+
+    .line 7
+    .line 8
+    iget-object v1, p0, Lgvi;->h:Ljava/lang/Integer;
+
+    .line 9
+    .line 10
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    invoke-static {v1, v0}, Lj$/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 15
+    .line 16
+    .line 17
+    move-result v0
+
+    .line 18
+    if-nez v0, :cond_0
+
+    .line 19
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :cond_0
+    return-void
+
+    .line 22
+    :cond_1
+    :goto_0
+    invoke-virtual {p1}, [B->clone()Ljava/lang/Object;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object p1
+
+    .line 26
+    check-cast p1, [B
+
+    .line 27
+    .line 28
+    iput-object p1, p0, Lgvi;->g:[B
+
+    .line 29
+    .line 30
+    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object p1
+
+    .line 34
+    iput-object p1, p0, Lgvi;->h:Ljava/lang/Integer;
+
+    .line 35
+    .line 36
+    return-void
+.end method

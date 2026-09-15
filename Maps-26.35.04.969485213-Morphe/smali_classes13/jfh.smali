@@ -1,0 +1,14 @@
+.class public interface abstract Ljfh;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# virtual methods
+.method public abstract a()Lorg/chromium/support_lib_boundary/StaticsBoundaryInterface;
+.end method
+
+.method public abstract b()Lorg/chromium/support_lib_boundary/WebkitToCompatConverterBoundaryInterface;
+.end method
+
+.method public abstract c()[Ljava/lang/String;
+.end method

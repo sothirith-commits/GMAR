@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/label_texture_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.gmm.ar.common.label.StrokedTextView android:textColor="@color/google_white" android:ellipsize="end" android:gravity="center" android:id="@id/title" android:layout_width="@dimen/label_texture_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/label_vertical_padding" android:maxLines="1" style="?textAppearanceHeadlineSmall" />
+    <com.google.android.apps.gmm.ar.common.label.StrokedTextView android:textColor="@color/google_white" android:ellipsize="end" android:gravity="center" android:id="@id/subtitle" android:layout_width="@dimen/label_texture_width" android:layout_height="wrap_content" android:maxLines="1" style="?textAppearanceCaption" />
+</LinearLayout>

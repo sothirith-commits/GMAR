@@ -1,0 +1,13 @@
+.class public interface abstract Lcom/here/sdk/core/AuthenticationCallback;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Ljava/lang/FunctionalInterface;
+.end annotation
+
+
+# virtual methods
+.method public abstract onTokenReceived(Lcom/here/sdk/core/AuthenticationError;Lcom/here/sdk/core/AuthenticationData;)V
+.end method

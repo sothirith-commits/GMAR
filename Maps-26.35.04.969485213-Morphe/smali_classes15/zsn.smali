@@ -1,0 +1,3 @@
+.class public interface abstract Lzsn;
+.super Ljava/lang/Object;
+.source "PG"

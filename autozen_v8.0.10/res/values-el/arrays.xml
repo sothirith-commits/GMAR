@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>Κλήση</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>Σπίτι</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>Πλοήγηση</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>Επόμενο</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>Άνοιγμα</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>Παύση</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>Αναπαραγωγή</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>Προηγούμενο</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>Εργασία</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>καιρός</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>Εργασία</item>
+    </string-array>
+</resources>

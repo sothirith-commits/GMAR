@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="100.0dp" android:width="100.0dp" android:viewportWidth="100.0" android:viewportHeight="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_weather_colour_windy__0" android:pathData="M75.48,75.71c-4.25,0.01 -7.69,-3.43 -7.7,-7.68c0,-1.01 0.2,-2.01 0.58,-2.94H24.25c-1.32,-0.09 -2.33,-1.23 -2.24,-2.55c0.08,-1.2 1.04,-2.16 2.24,-2.24h51.23c4.26,0.15 7.58,3.73 7.43,7.98C82.76,72.32 79.52,75.56 75.48,75.71z" />
+    <path android:fillColor="@drawable/$ic_weather_colour_windy__1" android:pathData="M91.43,62.49c-4.25,0.01 -7.7,-3.44 -7.71,-7.69c0,-1.01 0.2,-2.01 0.58,-2.94H3.52c-1.32,0 -2.39,-1.07 -2.39,-2.39c0,-1.32 1.07,-2.39 2.39,-2.39h87.91c4.26,0.15 7.58,3.73 7.43,7.98C98.71,59.1 95.47,62.34 91.43,62.49z" />
+    <path android:fillColor="@drawable/$ic_weather_colour_windy__2" android:pathData="M75.48,24.29c-4.25,-0.01 -7.69,3.43 -7.7,7.68c0,1.01 0.2,2.01 0.58,2.94H40.2c-1.32,0.09 -2.33,1.23 -2.24,2.55c0.08,1.2 1.04,2.16 2.24,2.24h35.28c4.26,-0.15 7.58,-3.73 7.43,-7.98C82.76,27.68 79.52,24.44 75.48,24.29z" />
+</vector>

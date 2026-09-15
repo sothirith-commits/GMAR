@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="36.0dp" android:viewportWidth="36.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateY="-0.3">
+        <path android:fillColor="@color/status_bar_background_icon_color" android:pathData="M1.59,12.4h3.9v1.07H0.33V3.52h1.26V12.4z" />
+        <path android:fillColor="@color/status_bar_background_icon_color" android:pathData="M11.35,4.6H8.73v8.88H7.48V4.6H4.87V3.52h6.48V4.6z" />
+        <path android:fillColor="@color/status_bar_background_icon_color" android:pathData="M17.59,8.88h-3.52v3.53h4.1v1.07h-5.35V3.52h5.28V4.6h-4.03V7.8h3.52V8.88z" />
+    </group>
+</vector>

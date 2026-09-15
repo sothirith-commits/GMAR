@@ -1,0 +1,100 @@
+.class public final Lbgbd;
+.super Ljava/util/AbstractList;
+.source "PG"
+
+# interfaces
+.implements Ljava/util/List;
+.implements Ljava/util/RandomAccess;
+
+
+# instance fields
+.field private final a:Ljava/util/List;
+
+.field private final b:Lbgba;
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/List;Lbgba;)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    invoke-static {p1, v0}, Lbgbf;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    iput-object p1, p0, Lbgbd;->a:Ljava/util/List;
+
+    .line 9
+    .line 10
+    invoke-static {p2, v0}, Lbgbf;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 11
+    .line 12
+    .line 13
+    iput-object p2, p0, Lbgbd;->b:Lbgba;
+
+    .line 14
+    .line 15
+    return-void
+.end method
+
+
+# virtual methods
+.method public final get(I)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbgbd;->a:Ljava/util/List;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lbgbd;->b:Lbgba;
+
+    .line 4
+    .line 5
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p1
+
+    .line 9
+    invoke-interface {p0, p1}, Lbgba;->a(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p0
+
+    .line 13
+    return-object p0
+.end method
+
+.method public final size()I
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lbgbd;->a:Ljava/util/List;
+
+    .line 2
+    .line 3
+    invoke-interface {p0}, Ljava/util/List;->size()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    return p0
+.end method

@@ -1,0 +1,64 @@
+.class final Lcom/fasterxml/jackson/databind/deser/impl/PropertyValue$AnyParameter;
+.super Lcom/fasterxml/jackson/databind/deser/impl/PropertyValue;
+.source "PG"
+
+
+# instance fields
+.field final _property:Lcom/fasterxml/jackson/databind/deser/SettableAnyProperty;
+
+.field final _propertyName:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Lcom/fasterxml/jackson/databind/deser/impl/PropertyValue;Ljava/lang/Object;Lcom/fasterxml/jackson/databind/deser/SettableAnyProperty;Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/fasterxml/jackson/databind/deser/impl/PropertyValue;-><init>(Lcom/fasterxml/jackson/databind/deser/impl/PropertyValue;Ljava/lang/Object;)V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p3, p0, Lcom/fasterxml/jackson/databind/deser/impl/PropertyValue$AnyParameter;->_property:Lcom/fasterxml/jackson/databind/deser/SettableAnyProperty;
+
+    .line 5
+    .line 6
+    iput-object p4, p0, Lcom/fasterxml/jackson/databind/deser/impl/PropertyValue$AnyParameter;->_propertyName:Ljava/lang/String;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public assign(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public setValue(Ljava/lang/Object;)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/fasterxml/jackson/databind/deser/impl/PropertyValue$AnyParameter;->_propertyName:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lcom/fasterxml/jackson/databind/deser/impl/PropertyValue$AnyParameter;->value:Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    iget-object p0, p0, Lcom/fasterxml/jackson/databind/deser/impl/PropertyValue$AnyParameter;->_property:Lcom/fasterxml/jackson/databind/deser/SettableAnyProperty;
+
+    .line 6
+    .line 7
+    invoke-virtual {p0, p1, v0, v1}, Lcom/fasterxml/jackson/databind/deser/SettableAnyProperty;->set(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

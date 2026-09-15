@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/success_card_background" android:paddingTop="6.0dp" android:paddingBottom="2.0dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:src="@drawable/blur_shadow_background" android:scaleType="fitXY" android:alpha="0.1" android:importantForAccessibility="no" android:paddingHorizontal="14.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/success_card_card_view" />
+    <androidx.cardview.widget.CardView android:id="@id/success_card_card_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/og_consent_half_space" android:layout_marginBottom="@dimen/og_consent_default_space" app:cardCornerRadius="16.0dp" app:cardElevation="8.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/success_card_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/og_consent_list_item_min_height" android:paddingHorizontal="@dimen/og_consent_double_space" android:paddingVertical="@dimen/og_consent_half_space" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

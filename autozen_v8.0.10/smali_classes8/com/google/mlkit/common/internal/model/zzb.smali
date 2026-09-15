@@ -1,0 +1,30 @@
+.class public final synthetic Lcom/google/mlkit/common/internal/model/zzb;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic zza:Lcom/google/mlkit/common/internal/model/zzg;
+
+.field public final synthetic zzb:Lcom/google/mlkit/common/model/CustomRemoteModel;
+
+.field public final synthetic zzc:Lcom/google/android/gms/tasks/TaskCompletionSource;
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    iget-object v0, p0, Lcom/google/mlkit/common/internal/model/zzb;->zza:Lcom/google/mlkit/common/internal/model/zzg;
+
+    iget-object v1, p0, Lcom/google/mlkit/common/internal/model/zzb;->zzb:Lcom/google/mlkit/common/model/CustomRemoteModel;
+
+    iget-object p0, p0, Lcom/google/mlkit/common/internal/model/zzb;->zzc:Lcom/google/android/gms/tasks/TaskCompletionSource;
+
+    invoke-virtual {v0, v1, p0}, Lcom/google/mlkit/common/internal/model/zzg;->zzb(Lcom/google/mlkit/common/model/CustomRemoteModel;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
+
+    return-void
+.end method

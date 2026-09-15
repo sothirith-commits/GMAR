@@ -1,0 +1,74 @@
+.class public final Lcom/zenthek/data/persistence/database/AppDatabase_AutoMigration_11_12_Impl;
+.super Landroidx/room/migration/Migration;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\u0008\u0000\u0018\u00002\u00020\u0001B\t\u0008\u0016\u00a2\u0006\u0004\u0008\u0002\u0010\u0003J\u0010\u0010\u0004\u001a\u00020\u00052\u0006\u0010\u0006\u001a\u00020\u0007H\u0016\u00a8\u0006\u0008"
+    }
+    d2 = {
+        "Lcom/zenthek/data/persistence/database/AppDatabase_AutoMigration_11_12_Impl;",
+        "Landroidx/room/migration/Migration;",
+        "<init>",
+        "()V",
+        "migrate",
+        "",
+        "connection",
+        "Landroidx/sqlite/SQLiteConnection;",
+        "Driveme:data_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x4,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    const/16 v0, 0xb
+
+    .line 2
+    .line 3
+    const/16 v1, 0xc
+
+    .line 4
+    .line 5
+    invoke-direct {p0, v0, v1}, Landroidx/room/migration/Migration;-><init>(II)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public migrate(Landroidx/sqlite/SQLiteConnection;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const-string p0, "CREATE TABLE IF NOT EXISTS `startup_apps` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `package_name` TEXT NOT NULL, `order` INTEGER NOT NULL)"
+
+    .line 5
+    .line 6
+    invoke-static {p1, p0}, Landroidx/sqlite/SQLite;->execSQL(Landroidx/sqlite/SQLiteConnection;Ljava/lang/String;)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method

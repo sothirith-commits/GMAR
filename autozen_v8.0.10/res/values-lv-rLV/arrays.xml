@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>zvanīt</item>
+        <item>zvans uz</item>
+        <item>zvans</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>mājas</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>navigovat</item>
+        <item>přejděte do</item>
+        <item>přejděte</item>
+        <item>jít</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>iepriekšējais</item>
+        <item>nākamais</item>
+        <item>nākamā</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>atveriet</item>
+        <item>atvērt</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>pārtraukt</item>
+        <item>pauzēt</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>atskaņot</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>iepriekšējā</item>
+        <item>iepriekšējais</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>atrast</item>
+        <item>meklēšana</item>
+        <item>meklēt</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>laikapstākļi</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>darbs</item>
+    </string-array>
+</resources>

@@ -1,0 +1,418 @@
+.class public final Lbjae;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field private static final h:Lbxfh;
+
+
+# instance fields
+.field public a:Lbixt;
+
+.field public b:F
+
+.field public c:Lbixt;
+
+.field public d:I
+
+.field public final e:Lcqlh;
+
+.field public final f:Lcqlh;
+
+.field public g:I
+
+.field private final i:Lcqlh;
+
+.field private final j:Lcqlh;
+
+.field private final k:Lcqlh;
+
+.field private final l:Lbghz;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    .line 2
+    const-string v0, "bjae"
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {v0}, Lbxfh;->g(Ljava/lang/String;)Lbxfh;
+
+    .line 6
+    move-result-object v0
+
+    .line 7
+    .line 8
+    sput-object v0, Lbjae;->h:Lbxfh;
+
+    .line 9
+    return-void
+.end method
+
+.method public constructor <init>(Lcqlh;Lcqlh;Lcqlh;Lcqlh;Lcqlh;Lbghz;)V
+    .locals 2
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    .line 6
+    iput-object v0, p0, Lbjae;->a:Lbixt;
+
+    .line 7
+    const/4 v1, 0x0
+
+    .line 8
+    .line 9
+    iput v1, p0, Lbjae;->b:F
+
+    .line 10
+    const/4 v1, 0x0
+
+    .line 11
+    .line 12
+    iput v1, p0, Lbjae;->g:I
+
+    .line 13
+    .line 14
+    iput-object v0, p0, Lbjae;->c:Lbixt;
+
+    .line 15
+    .line 16
+    iput v1, p0, Lbjae;->d:I
+
+    .line 17
+    .line 18
+    iput-object p1, p0, Lbjae;->i:Lcqlh;
+
+    .line 19
+    .line 20
+    iput-object p2, p0, Lbjae;->e:Lcqlh;
+
+    .line 21
+    .line 22
+    iput-object p3, p0, Lbjae;->f:Lcqlh;
+
+    .line 23
+    .line 24
+    iput-object p4, p0, Lbjae;->j:Lcqlh;
+
+    .line 25
+    .line 26
+    iput-object p5, p0, Lbjae;->k:Lcqlh;
+
+    .line 27
+    .line 28
+    iput-object p6, p0, Lbjae;->l:Lbghz;
+
+    .line 29
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lbybq;)Lbkpi;
+    .locals 7
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lbjae;->e:Lcqlh;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-interface {v0}, Lcqlh;->a()Ljava/lang/Object;
+
+    .line 6
+    move-result-object v1
+
+    .line 7
+    .line 8
+    check-cast v1, Lbjfw;
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-interface {v1}, Lbjfw;->d()Lbjga;
+
+    .line 12
+    move-result-object v1
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-interface {v1}, Lbjga;->f()Lbixt;
+
+    .line 16
+    move-result-object v1
+
+    .line 17
+    .line 18
+    iput-object v1, p0, Lbjae;->a:Lbixt;
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-interface {v0}, Lcqlh;->a()Ljava/lang/Object;
+
+    .line 22
+    move-result-object v0
+
+    .line 23
+    .line 24
+    check-cast v0, Lbjfw;
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-interface {v0}, Lbjfw;->c()Lbjfy;
+
+    .line 28
+    move-result-object v0
+
+    .line 29
+    .line 30
+    iget v0, v0, Lbjfy;->h:F
+
+    .line 31
+    .line 32
+    iput v0, p0, Lbjae;->b:F
+
+    .line 33
+    .line 34
+    .line 35
+    invoke-virtual {p0}, Lbjae;->b()I
+
+    .line 36
+    move-result v4
+
+    .line 37
+    .line 38
+    iput v4, p0, Lbjae;->g:I
+
+    .line 39
+    .line 40
+    sget-object v1, Lcdou;->a:Lcdou;
+
+    .line 41
+    .line 42
+    :try_start_0
+    iget-object v0, p0, Lbjae;->j:Lcqlh;
+
+    .line 43
+    .line 44
+    .line 45
+    invoke-interface {v0}, Lcqlh;->a()Ljava/lang/Object;
+
+    .line 46
+    move-result-object v0
+
+    .line 47
+    .line 48
+    check-cast v0, Lcmwq;
+
+    .line 49
+    .line 50
+    .line 51
+    invoke-virtual {v0}, Lcmwq;->z()Lcdou;
+
+    .line 52
+    move-result-object v1
+    :try_end_0
+    .catch Lqzo; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 53
+    goto :goto_0
+
+    .line 54
+    :catch_0
+    move-exception v0
+
+    .line 55
+    .line 56
+    sget-object v2, Lbjae;->h:Lbxfh;
+
+    .line 57
+    .line 58
+    sget-object v3, Lbmpj;->a:Lbmpj;
+
+    .line 59
+    .line 60
+    const-string v5, "generate2AxisViewportUpdate can\'t get camera"
+
+    .line 61
+    .line 62
+    const/16 v6, 0x2904
+
+    .line 63
+    .line 64
+    .line 65
+    invoke-static {v3, v5, v6, v0, v2}, La;->cX(Lbmpj;Ljava/lang/String;CLjava/lang/Throwable;Lbxfh;)V
+
+    .line 66
+    :goto_0
+    move-object v3, v1
+
+    .line 67
+    .line 68
+    iget-object p0, p0, Lbjae;->l:Lbghz;
+
+    .line 69
+    .line 70
+    .line 71
+    invoke-interface {p0}, Lbghz;->a()J
+
+    .line 72
+    move-result-wide v0
+
+    .line 73
+    .line 74
+    .line 75
+    invoke-static {v0, v1}, Lj$/time/Duration;->ofMillis(J)Lj$/time/Duration;
+
+    .line 76
+    move-result-object v5
+
+    .line 77
+    .line 78
+    new-instance v1, Lbkpi;
+
+    .line 79
+    const/4 v6, 0x0
+
+    .line 80
+    move-object v2, p1
+
+    .line 81
+    .line 82
+    .line 83
+    invoke-direct/range {v1 .. v6}, Lbkpi;-><init>(Lbybq;Lcdou;ILj$/time/Duration;Z)V
+
+    .line 84
+    return-object v1
+.end method
+
+.method public final b()I
+    .locals 2
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lbjae;->f:Lcqlh;
+
+    .line 3
+    .line 4
+    sget-object v1, Lbiwv;->d:Lbiwv;
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-interface {v0}, Lcqlh;->a()Ljava/lang/Object;
+
+    .line 8
+    move-result-object v0
+
+    .line 9
+    .line 10
+    check-cast v0, Lbjfl;
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-interface {v0}, Lbjfl;->aa()Lbjwg;
+
+    .line 14
+    move-result-object v0
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-virtual {v0}, Lbjwg;->ak()Z
+
+    .line 18
+    move-result v0
+
+    .line 19
+    .line 20
+    if-eqz v0, :cond_0
+
+    .line 21
+    .line 22
+    iget-object p0, p0, Lbjae;->k:Lcqlh;
+
+    .line 23
+    .line 24
+    .line 25
+    invoke-interface {p0}, Lcqlh;->a()Ljava/lang/Object;
+
+    .line 26
+    move-result-object p0
+
+    .line 27
+    .line 28
+    check-cast p0, Lbjbz;
+
+    .line 29
+    .line 30
+    .line 31
+    invoke-virtual {p0, v1}, Lbjbz;->e(Lbiwv;)Z
+
+    .line 32
+    move-result p0
+
+    .line 33
+    goto :goto_0
+
+    .line 34
+    .line 35
+    :cond_0
+    iget-object p0, p0, Lbjae;->i:Lcqlh;
+
+    .line 36
+    .line 37
+    .line 38
+    invoke-interface {p0}, Lcqlh;->a()Ljava/lang/Object;
+
+    .line 39
+    move-result-object p0
+
+    .line 40
+    .line 41
+    check-cast p0, Lbiwp;
+
+    .line 42
+    .line 43
+    .line 44
+    invoke-virtual {p0, v1}, Lbiwp;->F(Lbiwv;)Z
+
+    .line 45
+    move-result p0
+
+    .line 46
+    .line 47
+    :goto_0
+    if-eqz p0, :cond_1
+
+    .line 48
+    const/4 p0, 0x4
+
+    .line 49
+    return p0
+
+    .line 50
+    :cond_1
+    const/4 p0, 0x1
+
+    .line 51
+    return p0
+.end method

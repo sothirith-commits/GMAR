@@ -1,0 +1,77 @@
+.class Lcom/google/common/cache/LocalCache$LocalManualCache;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/common/cache/Cache;
+.implements Ljava/io/Serializable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/cache/LocalCache;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "LocalManualCache"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/google/common/cache/Cache<",
+        "TK;TV;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
+
+
+# instance fields
+.field final localCache:Lcom/google/common/cache/LocalCache;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/google/common/cache/LocalCache<",
+            "TK;TV;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method private constructor <init>(Lcom/google/common/cache/LocalCache;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/google/common/cache/LocalCache<",
+            "TK;TV;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/google/common/cache/LocalCache$LocalManualCache;->localCache:Lcom/google/common/cache/LocalCache;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/google/common/cache/LocalCache;Lcom/google/common/cache/LocalCache$1;)V
+    .locals 0
+
+    .line 7
+    invoke-direct {p0, p1}, Lcom/google/common/cache/LocalCache$LocalManualCache;-><init>(Lcom/google/common/cache/LocalCache;)V
+
+    return-void
+.end method

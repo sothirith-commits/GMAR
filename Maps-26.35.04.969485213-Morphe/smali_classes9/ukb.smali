@@ -1,0 +1,11 @@
+.class public interface abstract Lukb;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Laycq;
+
+
+# virtual methods
+.method public abstract eW(Lukc;)V
+.end method

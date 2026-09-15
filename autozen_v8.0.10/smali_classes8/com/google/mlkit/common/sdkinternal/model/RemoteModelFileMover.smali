@@ -1,0 +1,13 @@
+.class public interface abstract Lcom/google/mlkit/common/sdkinternal/model/RemoteModelFileMover;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract moveAllFilesFromPrivateTempToPrivateDestination(Ljava/io/File;)Ljava/io/File;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/mlkit/common/MlKitException;
+        }
+    .end annotation
+.end method

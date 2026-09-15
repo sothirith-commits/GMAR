@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="one">%1$d sa %2$d</item>
+        <item quantity="other">%1$d sa %2$d</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">Mayroon kang %d aktibong ticket ng metro</item>
+        <item quantity="other">Mayroon kang %d na aktibong ticket ng metro</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">Mayroon kang %d aktibong ticket para sa biyaheng ito</item>
+        <item quantity="other">Mayroon kang %d na aktibong ticket para sa biyaheng ito</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">%d pang opsyon</item>
+        <item quantity="other">%d pang opsyon</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="one">%1$d tao ang nag-ulat</item>
+        <item quantity="other">%1$d na tao ang nag-ulat</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">Iniulat ng %1$d tao</item>
+        <item quantity="other">Iniulat ng %1$d na tao</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d alerto</item>
+        <item quantity="other">%d na alerto</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d lokasyon</item>
+        <item quantity="other">%1$d na lokasyon</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">Tingnan ang mga sagot (%,d)</item>
+        <item quantity="other">Tingnan ang mga sagot (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">I-explore ang %d lugar dito</item>
+        <item quantity="other">I-explore ang %d na lugar dito</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d bisikleta ang available</item>
+        <item quantity="other">%d na bisikleta ang available</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">%s bisikleta sa istasyon</item>
+        <item quantity="other">%s na bisikleta sa istasyon</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d bisikleta</item>
+        <item quantity="other">%d na bisikleta</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d dock ang available</item>
+        <item quantity="other">%d na dock ang available</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d dock</item>
+        <item quantity="other">%d na dock</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">Inirerekomenda ng %1$d tao</item>
+        <item quantity="other">Inirerekomenda ng %1$d na tao</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Mas mabilis na ruta, mas kaunti ng %1$s stop</item>
+        <item quantity="other">Mas mabilis na ruta, mas kaunti ng %1$s na stop</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Mas mabilis na ruta, mas marami ng %1$s stop</item>
+        <item quantity="other">Mas mabilis na ruta, mas marami ng %1$s na stop</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">May available na mas mabilis na ruta, nabago ang %1$s stop</item>
+        <item quantity="other">May available na mas mabilis na ruta, nabago ang %1$s na stop</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Kailangan ng bagong ruta, mas kaunti ng %1$s stop</item>
+        <item quantity="other">Kailangan ng bagong ruta, mas kaunti ng %1$s na stop</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Kailangan ng bagong ruta, mas marami ng %1$s stop</item>
+        <item quantity="other">Kailangan ng bagong ruta, mas marami ng %1$s na stop</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Kailangan ng bagong ruta, nabago ang %1$s stop</item>
+        <item quantity="other">Kailangan ng bagong ruta, nabago ang %1$s na stop</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Bagong ruta, mas kaunti ng %1$s stop</item>
+        <item quantity="other">Bagong ruta, mas kaunti ng %1$s na stop</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Bagong ruta, mas kaunti ng %1$s stop</item>
+        <item quantity="other">Bagong ruta, mas kaunti ng %1$s na stop</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">May bagong ruta na kailangan ng mas kaunti ng %1$s charging stop. Mas mabilis nang %2$s, kasama ang oras para sa pagmamaneho at pag-charge.</item>
+        <item quantity="other">May bagong ruta na kailangan ng mas kaunti ng %1$s na charging stop. Mas mabilis nang %2$s, kasama ang oras para sa pagmamaneho at pag-charge.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">May bagong ruta na kailangan ng %1$s pang charging stop. Mas mabilis nang %2$s, kasama ang oras para sa pagmamaneho at pag-charge.</item>
+        <item quantity="other">May bagong ruta na kailangan ng %1$s pang charging stop. Mas mabilis nang %2$s, kasama ang oras para sa pagmamaneho at pag-charge.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Kakailanganin mong dumaan sa bagong ruta. Kailangan ng mas kaunti ng %1$s charging stop. Darating ka nang %2$s.</item>
+        <item quantity="other">Kakailanganin mong dumaan sa bagong ruta. Kailangan ng mas kaunti ng %1$s na charging stop. Darating ka nang %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Kakailanganin mong dumaan sa bagong ruta. Kailangan ng %1$s pang charging stop. Darating ka nang %2$s.</item>
+        <item quantity="other">Kakailanganin mong dumaan sa bagong ruta. Kailangan ng %1$s pang charging stop. Darating ka nang %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Kakailanganin mong dumaan sa bagong ruta. Nagbago ang %1$s charging stop. Darating ka nang %2$s.</item>
+        <item quantity="other">Kakailanganin mong dumaan sa bagong ruta. Nagbago ang %1$s na charging stop. Darating ka nang %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">May bagong ruta na kailangan ng mas kaunti ng %1$s charging stop. Ganoon pa rin ang oras ng pagdating.</item>
+        <item quantity="other">May bagong ruta na kailangan ng mas kaunti ng %1$s na charging stop. Ganoon pa rin ang oras ng pagdating.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">May bagong ruta na kailangan ng mas kaunti ng %1$s charging stop. Mas mabagal nang %2$s, kasama ang oras para sa pagmamaneho at pag-charge.</item>
+        <item quantity="other">May bagong ruta na kailangan ng mas kaunti ng %1$s na charging stop. Mas mabagal nang %2$s, kasama ang oras para sa pagmamaneho at pag-charge.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">Ginamit %1$d araw na ang nakalipas</item>
+        <item quantity="other">Ginamit %1$d na araw na ang nakalipas</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">Ginamit %1$d linggo na ang nakalipas</item>
+        <item quantity="other">Ginamit %1$d na linggo na ang nakalipas</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">+%1$d network</item>
+        <item quantity="other">+%1$d na network</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">%1$d ang napili</item>
+        <item quantity="other">%1$d ang napili</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s charging stop</item>
+        <item quantity="other">%1$s na charging stop</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d istasyon</item>
+        <item quantity="other">%1$d na istasyon</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d ang napili</item>
+        <item quantity="other">%1$d ang napili</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">+%1$d pa</item>
+        <item quantity="other">+%1$d pa</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">+%1$d pa</item>
+        <item quantity="other">+%1$d pa</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">+%1$d pa</item>
+        <item quantity="other">+%1$d pa</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="one">%1$d hr %2$d min tungo sa trabaho</item>
+        <item quantity="other">%1$d hr %2$d min tungo sa trabaho</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="one">%1$d hr %2$d min pauwi</item>
+        <item quantity="other">%1$d hr %2$d min pauwi</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="one">%1$d hr %2$d min tungo sa trabaho</item>
+        <item quantity="other">%1$d hr %2$d min tungo sa trabaho</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="one">%1$d hr %2$d min biyahe</item>
+        <item quantity="other">%1$d hr %2$d min biyahe</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="one">%1$d hr %2$d min pauwi</item>
+        <item quantity="other">%1$d hr %2$d min pauwi</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">%d min mas mabilis kaysa sa karaniwan</item>
+        <item quantity="other">%d na min mas mabilis kaysa sa karaniwan</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">%d min mas mabagal kaysa sa karaniwan</item>
+        <item quantity="other">%d na min mas mabagal kaysa sa karaniwan</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">%d degrees ang bearing ng mapa</item>
+        <item quantity="other">%d degrees ang bearing ng mapa</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">%d-star na establisamiyento</item>
+        <item quantity="other">%d-star na establisamiyento</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">Level %d na Local Guide</item>
+        <item quantity="other">Level %d na Local Guide</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">Binigyan mo ng rating na %2$d star ang %1$s</item>
+        <item quantity="other">Binigyan mo ng rating na %2$d na star ang %1$s</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">puntos</item>
+        <item quantity="other">na puntos</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s araw</item>
+        <item quantity="other">%s na araw</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s d</item>
+        <item quantity="other">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sd</item>
+        <item quantity="other">%sd</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s araw</item>
+        <item quantity="other">%s araw</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s oras</item>
+        <item quantity="other">%s na oras</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s oras</item>
+        <item quantity="other">%s na oras</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sh</item>
+        <item quantity="other">%sh</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s minuto</item>
+        <item quantity="other">%s na minuto</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sm</item>
+        <item quantity="other">%sm</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s segundo</item>
+        <item quantity="other">%s na segundo</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Magpatuloy nang %1$s talampakan</item>
+        <item quantity="other">Magpatuloy nang %1$s na talampakan</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Magpatuloy nang %1$s kilometro</item>
+        <item quantity="other">Magpatuloy nang %1$s na kilometro</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Magpatuloy nang %1$s metro</item>
+        <item quantity="other">Magpatuloy nang %1$s na metro</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Magpatuloy nang %1$s milya</item>
+        <item quantity="other">Magpatuloy nang %1$s na milya</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Magpatuloy nang %1$s yarda</item>
+        <item quantity="other">Magpatuloy nang %1$s na yarda</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Magpatuloy sa %2$s nang %1$s talampakan</item>
+        <item quantity="other">Magpatuloy sa %2$s nang %1$s na talampakan</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Magpatuloy sa %2$s nang %1$s kilometro</item>
+        <item quantity="other">Magpatuloy sa %2$s nang %1$s na kilometro</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Magpatuloy sa %2$s nang %1$s metro</item>
+        <item quantity="other">Magpatuloy sa %2$s nang %1$s na metro</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Magpatuloy sa %2$s nang %1$s milya</item>
+        <item quantity="other">Magpatuloy sa %2$s nang %1$s na milya</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Magpatuloy sa %2$s nang %1$s yarda</item>
+        <item quantity="other">Magpatuloy sa %2$s nang %1$s na yarda</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">Pagkalampas nang %1$s talampakan</item>
+        <item quantity="other">Pagkalampas nang %1$s na talampakan</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">Sa %1$s kilometro</item>
+        <item quantity="other">Sa %1$s na kilometro</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">Sa %1$s metro</item>
+        <item quantity="other">Sa %1$s na metro</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">Pagkalampas nang %1$s milya</item>
+        <item quantity="other">Pagkalampas nang %1$s na milya</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">Pagkalampas nang %1$s yarda</item>
+        <item quantity="other">Pagkalampas nang %1$s na yarda</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometro bawat oras</item>
+        <item quantity="other">%s na kilometro bawat oras</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s milya bawat oras</item>
+        <item quantity="other">%s na milya bawat oras</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">%1$s talampakan na lang bago makarating sa iyong destinasyon</item>
+        <item quantity="other">%1$s na talampakan na lang bago makarating sa iyong destinasyon</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">%1$s kilometro na lang bago makarating sa iyong destinasyon</item>
+        <item quantity="other">%1$s na kilometro na lang bago makarating sa iyong destinasyon</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">%1$s metro na lang bago makarating sa iyong destinasyon</item>
+        <item quantity="other">%1$s na metro na lang bago makarating sa iyong destinasyon</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">%1$s milya na lang bago makarating sa iyong destinasyon</item>
+        <item quantity="other">%1$s na milya na lang bago makarating sa iyong destinasyon</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">%1$s yarda na lang bago makarating sa iyong destinasyon</item>
+        <item quantity="other">%1$s na yarda na lang bago makarating sa iyong destinasyon</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d istasyon</item>
+        <item quantity="other">%d na istasyon</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d mode sa pagkonekta</item>
+        <item quantity="other">%1$d na mode sa pagkonekta</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">Na-update %d araw na ang nakalipas</item>
+        <item quantity="other">Na-update %d na araw na ang nakalipas</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">Na-update %d buwan na ang nakalipas</item>
+        <item quantity="other">Na-update %d na buwan na ang nakalipas</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">Na-update %d linggo na ang nakalipas</item>
+        <item quantity="other">Na-update %d na linggo na ang nakalipas</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d bisikleta</item>
+        <item quantity="other">%d na bisikleta</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">%d bisikleta sa malapit</item>
+        <item quantity="other">%d na bisikleta sa malapit</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">%1$d ang napili</item>
+        <item quantity="other">%1$d ang napili</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d sa %2$d charging port</item>
+        <item quantity="other">%1$d sa %2$d na charging port</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d charging port</item>
+        <item quantity="other">%d na charging port</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">Hindi nakapagbigay ng rating na %1$d star, pakisubukang muli</item>
+        <item quantity="other">Hindi nakapagbigay ng rating na %1$d na star, pakisubukang muli</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">Mga palapag %s</item>
+        <item quantity="other">Mga palapag %s</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">%d dagdag na gabi</item>
+        <item quantity="other">%d na dagdag na gabi</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">Magdagdag ng %d gabi</item>
+        <item quantity="other">Magdagdag ng %d na gabi</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">May availability ang hotel na ito para sa %1$d gabing pananatili. %2$s para sa average na bawat gabing rate na %3$s.</item>
+        <item quantity="other">May availability ang hotel na ito para sa %1$d na gabing pananatili. %2$s para sa average na bawat gabing rate na %3$s.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">Mag-stay nang %1$s para sa average na rate bawat gabi na %2$s</item>
+        <item quantity="other">Mag-stay nang %1$s para sa average na rate bawat gabi na %2$s</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d bisita</item>
+        <item quantity="other">%d na bisita</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">at %d pa.</item>
+        <item quantity="other">at %d pa.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">+%d pa.</item>
+        <item quantity="other">+%d pa.</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="one">%d araw ang nakalipas</item>
+        <item quantity="other">%d na araw ang nakalipas</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="one">%d oras ang nakalipas</item>
+        <item quantity="other">%d na oras ang nakalipas</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="one">%d minuto ang nakalipas</item>
+        <item quantity="other">%d na minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">Na-save sa %1$s at %2$d pa</item>
+        <item quantity="other">Na-save sa %1$s at %2$d pa</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Na-save at nasa %1$d listahan</item>
+        <item quantity="other">Na-save at nasa %1$d na listahan</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="one">Inalis sa %d listahan</item>
+        <item quantity="other">Inalis sa %d na listahan</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">Bumisita ka noong nakalipas na %d buwan</item>
+        <item quantity="other">Bumisita ka noong nakalipas na %d na buwan</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">Bumisita ka noong nakalipas na %d linggo</item>
+        <item quantity="other">Bumisita ka noong nakalipas na %d na linggo</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">Bumisita ka noong nakalipas na %d taon</item>
+        <item quantity="other">Bumisita ka noong nakalipas na %d na taon</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d event</item>
+        <item quantity="other">%d na event</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d na item</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d lugar</item>
+        <item quantity="other">%d na lugar</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">%d ang na-save</item>
+        <item quantity="other">%d ang na-save</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d biyahe</item>
+        <item quantity="other">%d na biyahe</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s pagtingin</item>
+        <item quantity="other">%s na pagtingin</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="one">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">Na-edit %d araw na ang nakalipas</item>
+        <item quantity="other">Na-edit %d na araw na ang nakalipas</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">Na-edit %d buwan na ang nakalipas</item>
+        <item quantity="other">Na-edit %d na buwan na ang nakalipas</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">Na-edit %d linggo na ang nakalipas</item>
+        <item quantity="other">Na-edit %d na linggo na ang nakalipas</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">Na-edit %d taon na ang nakalipas</item>
+        <item quantity="other">Na-edit %d na taon na ang nakalipas</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="one">%d stop</item>
+        <item quantity="other">%d na stop</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">Mayroon kang %d puntos</item>
+        <item quantity="other">Mayroon kang %d na puntos</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">%1$d puntos na lang ang kulang bago maabot ang level %2$d</item>
+        <item quantity="other">%1$d na puntos na lang ang kulang bago maabot ang level %2$d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">Antas %d</item>
+        <item quantity="other">Antas %d</item>
+    </plurals>
+    <plurals name="plurals_0x7f120093">
+        <item quantity="one">Level %d na Local Guide</item>
+        <item quantity="other">Level %d na Local Guide</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">Mahigit %d taon sa negosyo</item>
+        <item quantity="other">Mahigit %d na taon sa negosyo</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d araw na ang nakalipas</item>
+        <item quantity="other">%d na araw na ang nakalipas</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d oras na ang nakalipas</item>
+        <item quantity="other">%d na oras na ang nakalipas</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d min na ang nakalipas</item>
+        <item quantity="other">%d na min na ang nakalipas</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">%d lugar dito</item>
+        <item quantity="other">%d na lugar dito</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">Naalis na ang mga larawan</item>
+        <item quantity="other">Naalis na ang mga larawan</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">I-maximize ang video %2$d sa Post %1$d</item>
+        <item quantity="other">I-maximize ang video %2$d sa Post %1$d</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d sa %2$,d</item>
+        <item quantity="other">%1$,d sa %2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Nag-a-upload ng %1$d media</item>
+        <item quantity="other">Nag-a-upload ng %1$d na media</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Bilang %d ng larawan sa menu</item>
+        <item quantity="other">Bilang %d ng larawan sa menu</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d ulat</item>
+        <item quantity="other">%1$d na ulat</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">Makikita ng mga taong may ganitong link ang iyong lokasyon sa loob ng 1 araw at %d oras</item>
+        <item quantity="other">Makikita ng mga taong may ganitong link ang iyong lokasyon sa loob ng 1 araw at %d na oras</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">Makikita ng mga taong may ganitong link ang iyong lokasyon sa loob ng 1 araw at %d minuto</item>
+        <item quantity="other">Makikita ng mga taong may ganitong link ang iyong lokasyon sa loob ng 1 araw at %d na minuto</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">Makikita ng mga taong may ganitong link ang iyong lokasyon sa loob ng %d araw</item>
+        <item quantity="other">Makikita ng mga taong may ganitong link ang iyong lokasyon sa loob ng %d na araw</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">Makikita ng mga taong may ganitong link ang iyong lokasyon sa loob ng %d oras</item>
+        <item quantity="other">Makikita ng mga taong may ganitong link ang iyong lokasyon sa loob ng %d na oras</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">Makikita ng mga taong may ganitong link ang iyong lokasyon sa loob ng %d minuto</item>
+        <item quantity="other">Makikita ng mga taong may ganitong link ang iyong lokasyon sa loob ng %d na minuto</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">%d pa</item>
+        <item quantity="other">%d pa</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">I-mute ang video %2$d sa Post %1$d</item>
+        <item quantity="other">I-mute ang video %2$d sa Post %1$d</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d larawan/video</item>
+        <item quantity="other">%d na larawan/video</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d na video</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">Custom na avatar %1$d sa %2$d</item>
+        <item quantity="other">Custom na avatar %1$d sa %2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d bagong update</item>
+        <item quantity="other">%d na bagong update</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">Mga update sa negosyo, %1$s bagong notification</item>
+        <item quantity="other">Mga update sa negosyo, %1$s na bagong notification</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d larawan</item>
+        <item quantity="other">%d na larawan</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d review</item>
+        <item quantity="other">%d na review</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">Thumbnail bilang %d</item>
+        <item quantity="other">Thumbnail bilang %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d offline na lugar</item>
+        <item quantity="other">%d na offline na lugar</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">Batay sa %1$d ulat</item>
+        <item quantity="other">Batay sa %1$d na ulat</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">I-pause ang video %2$d sa Post %1$d</item>
+        <item quantity="other">I-pause ang video %2$d sa Post %1$d</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s interaction</item>
+        <item quantity="other">%1$s na interaction</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s paghahanap</item>
+        <item quantity="other">%1$s na paghahanap</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s view</item>
+        <item quantity="other">%1$s na view</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">Reservation para sa %d gabi</item>
+        <item quantity="other">Reservation para sa %d na gabi</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">Ikaw lang ang makakakita ng mga ito</item>
+        <item quantity="other">Ikaw lang ang makakakita ng mga ito</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d araw</item>
+        <item quantity="other">%1$d na araw</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d gabi</item>
+        <item quantity="other">%1$d na gabi</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d larawan</item>
+        <item quantity="other">%d na larawan</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Naghihintay ng WiFi.
+ %d nakabinbing larawan/video."</item>
+        <item quantity="other">"Naghihintay ng WiFi.
+ %d na nakabinbing larawan/video."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">Larawan %2$d para sa Post %1$d</item>
+        <item quantity="other">Larawan %2$d para sa Post %1$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d araw ang lumipas</item>
+        <item quantity="other">%d na araw ang lumipas</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d oras ang lumipas</item>
+        <item quantity="other">%d na oras ang lumipas</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d buwan ang lumipas</item>
+        <item quantity="other">%d na buwan ang lumipas</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d linggo ang nakalipas</item>
+        <item quantity="other">%d na linggo ang nakalipas</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d taon ang lumipas</item>
+        <item quantity="other">%d na taon ang lumipas</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d update</item>
+        <item quantity="other">%d na update</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">Tingnan ang %d sagot</item>
+        <item quantity="other">Tingnan ang %d na sagot</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="one">+%1$,d</item>
+        <item quantity="other">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">I-play ang video %2$d sa Post %1$d</item>
+        <item quantity="other">I-play ang video %2$d sa Post %1$d</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+%d pang pagbabahagi</item>
+        <item quantity="other">+%d pang pagbabahagi</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Palitan</item>
+        <item quantity="other">Palitan</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Pinapalitan ang Mga Istasyon</item>
+        <item quantity="other">Pinapalitan ang Mga Istasyon</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d pagtingin</item>
+        <item quantity="other">%,d na pagtingin</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d rating</item>
+        <item quantity="other">%d na rating</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d review</item>
+        <item quantity="other">%d na review</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">May rating na %d star</item>
+        <item quantity="other">May rating na %d na star</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="one">%d star</item>
+        <item quantity="other">%d na star</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">%1$,d %2$s na reaksyon</item>
+        <item quantity="other">%1$,d na %2$s na reaksyon</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">Na-update %d min na ang nakalipas</item>
+        <item quantity="other">Na-update %d na min na ang nakalipas</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Para sa tren na may %1$d bagon, sumakay sa %2$s para sa pinakamabilis na paglabas</item>
+        <item quantity="other">Para sa tren na may %1$d na bagon, sumakay sa %2$s para sa pinakamabilis na paglabas</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Para sa tren na may %1$d bagon, sumakay sa %2$s para sa pinakamabilis na paglipat</item>
+        <item quantity="other">Para sa tren na may %1$d na bagon, sumakay sa %2$s para sa pinakamabilis na paglipat</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">%1$s ang pinakamaluwag na mga bagon</item>
+        <item quantity="other">%1$s ang pinakamaluwag na mga bagon</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">Tren na may %1$d bagon</item>
+        <item quantity="other">Tren na may %1$d na bagon</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d pagbabayad</item>
+        <item quantity="other">%d na pagbabayad</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s + %2$s pa</item>
+        <item quantity="other">%1$s + %2$s pa</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="one">%d+</item>
+        <item quantity="other">%d+</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">Bigyan ng rating na %1$d sa 5 star</item>
+        <item quantity="other">Bigyan ng rating na %1$d sa 5 star</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s pagtingin</item>
+        <item quantity="other">%s na pagtingin</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%,d rating at review</item>
+        <item quantity="other">%,d na rating at review</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%,d rating at review</item>
+        <item quantity="other">%,d na rating at review</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%,d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d tao</item>
+        <item quantity="other">%d na tao</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="one">%d tanong</item>
+        <item quantity="other">%d na tanong</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">%d pang listahan</item>
+        <item quantity="other">%d pang listahan</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Na-save sa %1$s at %2$d pang listahan</item>
+        <item quantity="other">Na-save sa %1$s at %2$d pang listahan</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">I-save pagbisita %d araw na nakalipas?</item>
+        <item quantity="other">I-save pagbisita %d araw na nakalipas?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">Nakahanap ng %1$d resulta para sa %2$s</item>
+        <item quantity="other">Nakahanap ng %1$d na resulta para sa %2$s</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">Ipinapadala ang %1$d star na rating</item>
+        <item quantity="other">Ipinapadala ang %1$d na star na rating</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">sa loob ng %d araw</item>
+        <item quantity="other">sa loob ng %d na araw</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">sa loob ng %d oras</item>
+        <item quantity="other">sa loob ng %d na oras</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">sa loob ng %d min</item>
+        <item quantity="other">sa loob ng %d na min</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">Ibinabahagi ang iyong lokasyon kay %2$s at %1$d pang pagbabahagi</item>
+        <item quantity="other">Ibinabahagi ang iyong lokasyon kay %2$s at %1$d pang pagbabahagi</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">Ibinabahagi ang iyong lokasyon sa%d pang pagbabahagi</item>
+        <item quantity="other">Ibinabahagi ang iyong lokasyon sa%d pang pagbabahagi</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="one">I-save ang %d lugar</item>
+        <item quantity="other">I-save ang %d na lugar</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="one">%d lugar ang nakita</item>
+        <item quantity="other">%d na lugar ang nakita</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s, %2$d star</item>
+        <item quantity="other">%1$s, %2$d na star</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">Matagumpay na nakapagbigay ng rating na %1$d star</item>
+        <item quantity="other">Matagumpay na nakapagbigay ng rating na %1$d na star</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d pagtingin</item>
+        <item quantity="other">%,d na pagtingin</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d puntos</item>
+        <item quantity="other">+%d na puntos</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">I-post ang %1$d larawan o video ng %2$s</item>
+        <item quantity="other">I-post ang %1$d na larawan o video ng %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">Mag-post ng %1$d larawan ng %2$s</item>
+        <item quantity="other">Mag-post ng %1$d na larawan ng %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">+%d pa</item>
+        <item quantity="other">+%d pa</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">Mag-post ng %1$d larawan</item>
+        <item quantity="other">Mag-post ng %1$d na larawan</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">I-post ang %1$d</item>
+        <item quantity="other">I-post ang %1$d</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$,d tao ang nagbanggit ng %2$s</item>
+        <item quantity="other">%1$,d na tao ang nagbanggit ng %2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">%1$,d reaksyon</item>
+        <item quantity="other">%1$,d na reaksyon</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">Tumingin ng %1$d pang opsyon mula %2$s</item>
+        <item quantity="other">Tumingin ng %1$d pang opsyon mula %2$s</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">Tingnan ang %1$d pang opsyon</item>
+        <item quantity="other">Tingnan ang %1$d pang opsyon</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">I-save ang iyong mga address upang makita ang pinakamabibilis na ruta na umiiwas sa trapiko</item>
+        <item quantity="other">I-save ang iyong mga address upang makita ang pinakamabibilis na ruta na umiiwas sa trapiko</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">Na-update ang mga pag-alis %1$ds ang nakakalipas</item>
+        <item quantity="other">Na-update ang mga pag-alis %1$ds ang nakakalipas</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">Umaalis bawat %d minuto</item>
+        <item quantity="other">Umaalis bawat %d na minuto</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d na min</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES_LONG">
+        <item quantity="one">minuto</item>
+        <item quantity="other">na minuto</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="one">%1$s (%2$d alerto)</item>
+        <item quantity="other">%1$s (%2$d na alerto)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="one">%1$s bus (%2$d alert)</item>
+        <item quantity="other">%1$s bus (%2$d na alerto)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="one">%1$s ferry (%2$d alerto)</item>
+        <item quantity="other">%1$s ferry (%2$d na alerto)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="one">%1$s line (%2$d alerto)</item>
+        <item quantity="other">%1$s line (%2$d na alerto)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="one">%1$s train (%2$d alerto)</item>
+        <item quantity="other">%1$s train (%2$d na alerto)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="one">%1$s tram (%2$d alerto)</item>
+        <item quantity="other">%1$s tram (%2$d na alerto)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="one">Kada %d min</item>
+        <item quantity="other">Kada %d na min</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d istasyon</item>
+        <item quantity="other">%d na istasyon</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_CARD">
+        <item quantity="one">"%1$d
+min na"</item>
+        <item quantity="other">"%1$d
+na min na"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+min na"</item>
+        <item quantity="other">"%1$s
+min na"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Umalis %1$s minuto ang nakalipas</item>
+        <item quantity="other">Umalis %1$s na minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d alerto</item>
+        <item quantity="other">+%d na alerto</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d alerto</item>
+        <item quantity="other">+ %d na alerto</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d higit pa</item>
+        <item quantity="other">+%d higit pa</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d pa</item>
+        <item quantity="other">+ %d pa</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_ITEMS_COUNT">
+        <item quantity="one">+ %1$d Pa</item>
+        <item quantity="other">+ %1$d Pa</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+min"</item>
+        <item quantity="other">"%1$s
+min"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s min ang nakalipas</item>
+        <item quantity="other">%1$s min ang nakalipas</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Aalis sa loob ng %1$s minuto</item>
+        <item quantity="other">Aalis sa loob ng %1$s na minuto</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">%1$s pang babala</item>
+        <item quantity="other">%1$s pang babala</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s larawan</item>
+        <item quantity="other">%s na larawan</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s review</item>
+        <item quantity="other">%s na review</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d kontribusyon</item>
+        <item quantity="other">%,d na kontribusyon</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d pagtingin</item>
+        <item quantity="other">%,d na pagtingin</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Pumili ng hanggang %1$d</item>
+        <item quantity="other">Pumili ng hanggang %1$d</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Pumili ng hanggang %1$s larawan</item>
+        <item quantity="other">Pumili ng hanggang %1$s na larawan</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">I-unmute ang video %2$d sa Post %1$d</item>
+        <item quantity="other">I-unmute ang video %2$d sa Post %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d sa %2$d</item>
+        <item quantity="other">%1$d sa %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Naghihintay ng WiFi.
+ %d nakabinbing larawan."</item>
+        <item quantity="other">"Naghihintay ng WiFi.
+ %d na nakabinbing larawan."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d larawan ang napili</item>
+        <item quantity="other">%d na larawan ang napili</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">Napuntahan na ang %1$d sa %2$d lugar</item>
+        <item quantity="other">Napuntahan na ang %1$d sa %2$d na lugar</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">I-off ang Pantipid ng Baterya para maging mas tumpak ang lokasyon kapag nagbabahagi kay %1$s + %2$d pang iba</item>
+        <item quantity="other">I-off ang Pantipid ng Baterya para maging mas tumpak ang lokasyon kapag nagbabahagi kay %1$s + %2$d pang iba</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Kailangang ma-on ang lokasyon ng device para patuloy na makapagbahagi ng lokasyon kay %1$s + %2$d pang iba</item>
+        <item quantity="other">Kailangang ma-on ang lokasyon ng device para patuloy na makapagbahagi ng lokasyon kay %1$s + %2$d pang iba</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">I-update ang Pagbabahagi ng Lokasyon para patuloy makapagbahagi kay %1$s + %2$d pang iba mula sa device na ito.</item>
+        <item quantity="other">I-update ang Pagbabahagi ng Lokasyon para patuloy makapagbahagi kay %1$s + %2$d pang iba mula sa device na ito.</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Hayaan ang Maps na makikilala ang iyong pisikal na aktibidad para maging mas tumpak ang lokasyon kapag nagbabahagi kay %1$s + %2$d pang iba</item>
+        <item quantity="other">Hayaan ang Maps na makikilala ang iyong pisikal na aktibidad para maging mas tumpak ang lokasyon kapag nagbabahagi kay %1$s + %2$d pang iba</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Palaging payagan ang Maps na i-access ang iyong lokasyon para maging mas tumpak ang lokasyon kapag nagbabahagi kay %1$s + %2$d pang iba</item>
+        <item quantity="other">Palaging payagan ang Maps na i-access ang iyong lokasyon para maging mas tumpak ang lokasyon kapag nagbabahagi kay %1$s + %2$d pang iba</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Palaging payagan ang Maps na i-access ang iyong lokasyon para patuloy na makapagbahagi kay %1$s + %2$d pang iba</item>
+        <item quantity="other">Palaging payagan ang Maps na i-access ang iyong lokasyon para patuloy na makapagbahagi kay %1$s + %2$d pang iba</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">%d+ Larawan</item>
+        <item quantity="other">%d+ na Larawan</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%,d review)</item>
+        <item quantity="other">(%,d na review)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="one">%1$s segundo</item>
+        <item quantity="other">%1$s na segundo</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">Video %2$d para sa Post %1$d</item>
+        <item quantity="other">Video %2$d para sa Post %1$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">Naka-full screen ang video %2$d para sa Post %1$d</item>
+        <item quantity="other">Naka-full screen ang video %2$d para sa Post %1$d</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d gabi</item>
+        <item quantity="other">%2$s × %1$d na gabi</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%2$s para sa %1$d gabi kasama ang mga buwis + bayarin</item>
+        <item quantity="other">%2$s para sa %1$d na gabi kasama ang mga buwis + bayarin</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">%d minutong paglalakad</item>
+        <item quantity="other">%d na minutong paglalakad</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d stop</item>
+        <item quantity="other">+ %d na stop</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d stop)</item>
+        <item quantity="other">(%d na stop)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d linggo na ang nakalipas</item>
+        <item quantity="other">%d na linggo na ang nakalipas</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d taon na ang nakalipas</item>
+        <item quantity="other">%d na taon na ang nakalipas</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">Tingnan ang natitirang %1$d larawan</item>
+        <item quantity="other">Tingnan ang natitirang %1$d na larawan</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">Ang iyong mga review o update</item>
+        <item quantity="other">Ang iyong mga review o update</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">Sinusubaybayan mo ang %1$s at %2$d pang listahan</item>
+        <item quantity="other">Sinusubaybayan mo ang %1$s at %2$d pang listahan</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s at %2$d pang iba</item>
+        <item quantity="other">%1$s at %2$d pang iba</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="one">%1$d sa %2$d</item>
+        <item quantity="other">%1$d sa %2$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d sa %2$d</item>
+        <item quantity="other">%1$d sa %2$d</item>
+    </plurals>
+    <plurals name="plurals_0x7f12014e">
+        <item quantity="one">level %1$d</item>
+        <item quantity="other">level %1$d</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="one">%1$d min</item>
+        <item quantity="other">%1$d na min</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">%1$d pag-capture</item>
+        <item quantity="other">%1$d na pag-capture</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d bagong notification</item>
+        <item quantity="other">%d na bagong notification</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="one">+ %1$d pa</item>
+        <item quantity="other">+ %1$d pa</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="one">%d tao ang nagta-type</item>
+        <item quantity="other">%d na tao ang nagta-type</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">Nakopya ang %d tatanggap</item>
+        <item quantity="other">Nakopya ang %d na tatanggap</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">Magkomento tungkol sa iyong mga larawan (opsyonal)</item>
+        <item quantity="other">Magkomento tungkol sa iyong mga larawan (opsyonal)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d star sa %2$d</item>
+        <item quantity="other">%1$d na star sa %2$d</item>
+    </plurals>
+    <plurals name="tell_maps_know_before_you_go_place_contextual_zero_state_post_tip">
+        <item quantity="one">Gusto mo bang mag-post ng tip tungkol sa isa sa mga lugar na ito?</item>
+        <item quantity="other">Gusto mo bang mag-post ng tip tungkol sa isa sa mga lugar na ito?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_post_tip_or_photo">
+        <item quantity="one">Gusto mo bang mag-post ng larawan o tip tungkol sa isa sa mga lugar na ito?</item>
+        <item quantity="other">Gusto mo bang mag-post ng larawan o tip tungkol sa isa sa mga lugar na ito?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_update_a_place">
+        <item quantity="one">Aling lugar ang gusto mong i-update?</item>
+        <item quantity="other">Aling lugar ang gusto mong i-update?</item>
+    </plurals>
+</resources>

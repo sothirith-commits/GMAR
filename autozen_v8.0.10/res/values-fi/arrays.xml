@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>soita</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>koti</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>navigoi</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>seuraava</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>avaa</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>tauko</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>toista</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>edellinen</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>etsi</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>sää</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>työ</item>
+    </string-array>
+</resources>

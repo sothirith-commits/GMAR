@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="88.0dp" android:width="89.0dp" android:viewportWidth="89.0" android:viewportHeight="88.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_weather_colour_tornado__0" android:pathData="M84.59,8.25L4.13,8.25a4.13,4.13 0,1 1,0 -8.25L84.59,0a4.13,4.13 0,1 1,0 8.25Z" />
+    <path android:fillColor="@drawable/$ic_weather_colour_tornado__1" android:pathData="M74.05,12.36" android:strokeColor="#fff" android:strokeWidth="8.25" android:strokeLineCap="round" />
+    <path android:fillColor="@drawable/$ic_weather_colour_tornado__2" android:pathData="M16.51,-10.32" android:strokeColor="#fff" android:strokeWidth="8.25" android:strokeLineCap="round" />
+    <path android:fillColor="@drawable/$ic_weather_colour_tornado__3" android:pathData="M63.96,28.11L20.63,28.11a4.13,4.13 0,0 1,0 -8.26L63.96,19.85a4.13,4.13 0,1 1,0 8.26Z" />
+    <path android:fillColor="@drawable/$ic_weather_colour_tornado__4" android:pathData="M70.15,47.96L33.01,47.96a4.13,4.13 0,0 1,0 -8.25L70.15,39.71a4.13,4.13 0,1 1,0 8.25Z" />
+    <path android:fillColor="@drawable/$ic_weather_colour_tornado__5" android:pathData="M57.77,67.82L33.01,67.82a4.13,4.13 0,0 1,0 -8.25L57.77,59.57a4.13,4.13 0,1 1,0 8.25Z" />
+    <path android:fillColor="@drawable/$ic_weather_colour_tornado__6" android:pathData="M38.17,87.68L36.11,87.68a4.13,4.13 0,1 1,0 -8.25h2.06a4.13,4.13 0,1 1,0 8.25Z" />
+</vector>

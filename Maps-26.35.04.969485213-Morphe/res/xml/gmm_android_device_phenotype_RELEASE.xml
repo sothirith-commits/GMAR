@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>gmm_android.device</configuration-package>
+        <log-sources>
+            <log-source>CLIENT_LOGGING_PROD</log-source>
+            <log-source>GMM_COUNTERS</log-source>
+            <log-source>GMM_PRIMES</log-source>
+            <log-source>GMM_REALTIME_COUNTERS</log-source>
+            <log-source>GMM_UE3</log-source>
+        </log-sources>
+        <auto-subpackage>true</auto-subpackage>
+        <params>CBoQIxj0AyAE</params>
+    </phenotype-registration>
+</phenotype-registrations>

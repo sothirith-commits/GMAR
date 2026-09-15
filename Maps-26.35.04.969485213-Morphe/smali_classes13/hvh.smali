@@ -1,0 +1,42 @@
+.class final Lhvh;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lhva;
+
+
+# instance fields
+.field public final a:Lgur;
+
+
+# direct methods
+.method public constructor <init>(Lgur;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lhvh;->a:Lgur;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()I
+    .locals 0
+
+    .line 1
+    const p0, 0x66727473
+
+    .line 2
+    .line 3
+    .line 4
+    return p0
+.end method

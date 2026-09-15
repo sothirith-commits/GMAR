@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_command_call">
+        <item>ring</item>
+        <item>ring til</item>
+        <item>kald til</item>
+    </string-array>
+    <string-array name="voice_command_home">
+        <item>hjem</item>
+    </string-array>
+    <string-array name="voice_command_navigate">
+        <item>naviger</item>
+        <item>navigere til</item>
+        <item>gå</item>
+    </string-array>
+    <string-array name="voice_command_next_song">
+        <item>næste</item>
+    </string-array>
+    <string-array name="voice_command_open_app">
+        <item>åbn</item>
+        <item>åben</item>
+    </string-array>
+    <string-array name="voice_command_pause_music">
+        <item>stop</item>
+        <item>pause</item>
+    </string-array>
+    <string-array name="voice_command_play_music">
+        <item>spil</item>
+        <item>afspille</item>
+    </string-array>
+    <string-array name="voice_command_previous_song">
+        <item>forrige</item>
+        <item>tidligere</item>
+        <item>tilbage</item>
+    </string-array>
+    <string-array name="voice_command_search">
+        <item>@android:string/search_go</item>
+        <item>finde</item>
+        <item>find</item>
+        <item>søg på</item>
+        <item>søg i</item>
+        <item>søg</item>
+    </string-array>
+    <string-array name="voice_command_weather">
+        <item>vejr</item>
+    </string-array>
+    <string-array name="voice_command_work">
+        <item>arbejde</item>
+    </string-array>
+</resources>
