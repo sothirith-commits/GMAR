@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="zero">تتوفر %d دراجة</item>
+        <item quantity="one">تتوفر دراجة واحدة (%d)</item>
+        <item quantity="two">تتوفر دراجتان (%d)</item>
+        <item quantity="few">تتوفر %d دراجات</item>
+        <item quantity="many">تتوفر %d دراجة</item>
+        <item quantity="other">تتوفر %d دراجة</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="zero">يتوفّر %d موقف للدرّاجات الهوائية</item>
+        <item quantity="one">يتوفّر موقف واحد (%d) للدرّاجات الهوائية</item>
+        <item quantity="two">يتوفّر موقفان (%d) للدرّاجات الهوائية</item>
+        <item quantity="few">تتوفّر %d مواقف للدرّاجات الهوائية</item>
+        <item quantity="many">يتوفّر %d موقفًا للدرّاجات الهوائية</item>
+        <item quantity="other">يتوفّر %d موقف للدرّاجات الهوائية</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="zero">مسار أسرع، مع %1$s محطات أقل</item>
+        <item quantity="one">مسار أسرع، مع محطة واحدة (%1$s) أقل</item>
+        <item quantity="two">مسار أسرع، مع محطتين (%1$s) أقل</item>
+        <item quantity="few">مسار أسرع، مع %1$s محطات أقل</item>
+        <item quantity="many">مسار أسرع، مع %1$s محطة أقل</item>
+        <item quantity="other">مسار أسرع، مع %1$s محطة أقل</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="zero">مسار أسرع، مع %1$s محطات إضافية</item>
+        <item quantity="one">مسار أسرع، مع محطة واحدة (%1$s) إضافية</item>
+        <item quantity="two">مسار أسرع، مع محطتين (%1$s) إضافيتين</item>
+        <item quantity="few">مسار أسرع، مع %1$s محطات إضافية</item>
+        <item quantity="many">مسار أسرع، مع %1$s محطة إضافية</item>
+        <item quantity="other">مسار أسرع، مع %1$s محطة إضافية</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="zero">توفّر مسار أسرع، مع تغيير %1$s محطات</item>
+        <item quantity="one">توفّر مسار أسرع، مع تغيير محطة واحدة (%1$s)</item>
+        <item quantity="two">توفّر مسار أسرع، مع تغيير محطتين (%1$s)</item>
+        <item quantity="few">توفّر مسار أسرع، مع تغيير %1$s محطات</item>
+        <item quantity="many">توفّر مسار أسرع، مع تغيير %1$s محطة</item>
+        <item quantity="other">توفّر مسار أسرع، مع تغيير %1$s محطة</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="zero">مطلوب مسار جديد، مع %1$s محطات أقل</item>
+        <item quantity="one">مطلوب مسار جديد، مع محطة واحدة (%1$s) أقل</item>
+        <item quantity="two">مطلوب مسار جديد، مع محطتين (%1$s) أقل</item>
+        <item quantity="few">مطلوب مسار جديد، مع %1$s محطات أقل</item>
+        <item quantity="many">مطلوب مسار جديد، مع %1$s محطة أقل</item>
+        <item quantity="other">مطلوب مسار جديد، مع %1$s محطة أقل</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="zero">مطلوب مسار جديد، مع %1$s محطات إضافية</item>
+        <item quantity="one">مطلوب مسار جديد، مع محطة واحدة (%1$s) إضافية</item>
+        <item quantity="two">مطلوب مسار جديد، مع محطتين (%1$s) إضافيتين</item>
+        <item quantity="few">مطلوب مسار جديد، مع %1$s محطات إضافية</item>
+        <item quantity="many">مطلوب مسار جديد، مع %1$s محطة إضافية</item>
+        <item quantity="other">مطلوب مسار جديد، مع %1$s محطة إضافية</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="zero">مطلوب مسار جديد، مع تغيير %1$s محطات</item>
+        <item quantity="one">مطلوب مسار جديد، مع تغيير محطة (%1$s) واحدة</item>
+        <item quantity="two">مطلوب مسار جديد، مع تغيير محطتين (%1$s)</item>
+        <item quantity="few">مطلوب مسار جديد، مع تغيير %1$s محطات</item>
+        <item quantity="many">مطلوب مسار جديد، مع تغيير %1$s محطة</item>
+        <item quantity="other">مطلوب مسار جديد، مع تغيير %1$s محطة</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="zero">مسار جديد، مع %1$s محطات أقل</item>
+        <item quantity="one">مسار جديد، مع محطة واحدة (%1$s) أقل</item>
+        <item quantity="two">مسار جديد، مع محطتين (%1$s) أقل</item>
+        <item quantity="few">مسار جديد، مع %1$s محطات أقل</item>
+        <item quantity="many">مسار جديد، مع %1$s محطة أقل</item>
+        <item quantity="other">مسار جديد، مع %1$s محطة أقل</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="zero">مسار جديد، مع %1$s محطات أقل</item>
+        <item quantity="one">مسار جديد، مع محطة واحدة (%1$s) أقل</item>
+        <item quantity="two">مسار جديد، مع محطتين (%1$s) أقل</item>
+        <item quantity="few">مسار جديد، مع %1$s محطات أقل</item>
+        <item quantity="many">مسار جديد، مع %1$s محطة أقل</item>
+        <item quantity="other">مسار جديد، مع %1$s محطة أقل</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="zero">يتوفّر مسار جديد مع توقّف أقل بـ %1$s مرة للشحن. هذا المسار أسرع بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="one">يتوفّر مسار جديد مع توقّف أقل بمرة واحدة (%1$s) للشحن. هذا المسار أسرع بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="two">يتوفّر مسار جديد مع توقّف أقل بمرّتين (%1$s) للشحن. هذا المسار أسرع بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="few">يتوفّر مسار جديد مع توقّف أقل بـ %1$s مرات للشحن. هذا المسار أسرع بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="many">يتوفّر مسار جديد مع توقّف أقل بـ %1$s مرة للشحن. هذا المسار أسرع بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="other">يتوفّر مسار جديد مع توقّف أقل بـ %1$s مرة للشحن. هذا المسار أسرع بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="zero">يتوفّر مسار جديد مع توقّف أكثر بـ %1$s مرة للشحن. هذا المسار أسرع بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="one">يتوفّر مسار جديد مع توقّف أكثر بمرة واحدة (%1$s) للشحن. هذا المسار أسرع بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="two">يتوفّر مسار جديد مع توقّف أكثر بمرّتين (%1$s) للشحن. هذا المسار أسرع بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="few">يتوفّر مسار جديد مع توقّف أكثر بـ %1$s مرات للشحن. هذا المسار أسرع بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="many">يتوفّر مسار جديد مع توقّف أكثر بـ %1$s مرة للشحن. هذا المسار أسرع بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="other">يتوفّر مسار جديد مع توقّف أكثر بـ %1$s مرة للشحن. هذا المسار أسرع بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="zero">يجب سلك مسار جديد. سيكون عدد مرات التوقّف للشحن أقل بـ %1$s مرة. ووقت الوصول هو %2$s.</item>
+        <item quantity="one">يجب سلك مسار جديد. سيكون عدد مرات التوقّف للشحن أقل بمرة واحدة (%1$s). ووقت الوصول هو %2$s.</item>
+        <item quantity="two">يجب سلك مسار جديد. سيكون عدد مرات التوقّف للشحن أقل بمرّتين (%1$s). ووقت الوصول هو %2$s.</item>
+        <item quantity="few">يجب سلك مسار جديد. سيكون عدد مرات التوقّف للشحن أقل بـ %1$s مرات. ووقت الوصول هو %2$s.</item>
+        <item quantity="many">يجب سلك مسار جديد. سيكون عدد مرات التوقّف للشحن أقل بـ %1$s مرة. ووقت الوصول هو %2$s.</item>
+        <item quantity="other">يجب سلك مسار جديد. سيكون عدد مرات التوقّف للشحن أقل بـ %1$s مرة. ووقت الوصول هو %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="zero">يجب سلك مسار جديد. سيكون عدد مرات التوقّف للشحن أكثر بـ %1$s مرة. ووقت الوصول هو %2$s.</item>
+        <item quantity="one">يجب سلك مسار جديد. سيكون عدد مرات التوقّف للشحن أكثر بمرة واحدة (%1$s). ووقت الوصول هو %2$s.</item>
+        <item quantity="two">يجب سلك مسار جديد. سيكون عدد مرات التوقّف للشحن أكثر بمرّتين (%1$s). ووقت الوصول هو %2$s.</item>
+        <item quantity="few">يجب سلك مسار جديد. سيكون عدد مرات التوقّف للشحن أكثر بـ %1$s مرات. ووقت الوصول هو %2$s.</item>
+        <item quantity="many">يجب سلك مسار جديد. سيكون عدد مرات التوقّف للشحن أكثر بـ %1$s مرة. ووقت الوصول هو %2$s.</item>
+        <item quantity="other">يجب سلك مسار جديد. سيكون عدد مرات التوقّف للشحن أكثر بـ %1$s مرة. ووقت الوصول هو %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="zero">يجب سلك مسار جديد. سيتم تغيير %1$s محطة شحن. ووقت الوصول هو %2$s.</item>
+        <item quantity="one">يجب سلك مسار جديد. سيتم تغيير محطة شحن واحدة (%1$s). ووقت الوصول هو %2$s.</item>
+        <item quantity="two">يجب سلك مسار جديد. سيتم تغيير محطتَي شحن (%1$s). ووقت الوصول هو %2$s.</item>
+        <item quantity="few">يجب سلك مسار جديد. سيتم تغيير %1$s محطات شحن. ووقت الوصول هو %2$s.</item>
+        <item quantity="many">يجب سلك مسار جديد. سيتم تغيير %1$s محطة شحن. ووقت الوصول هو %2$s.</item>
+        <item quantity="other">يجب سلك مسار جديد. سيتم تغيير %1$s محطة شحن. ووقت الوصول هو %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="zero">يتوفّر مسار جديد مع توقّف أقل بـ %1$s مرة للشحن. وقت الوصول متقارب.</item>
+        <item quantity="one">يتوفّر مسار جديد مع توقّف أقل بمرة واحدة (%1$s) للشحن. وقت الوصول متقارب.</item>
+        <item quantity="two">يتوفّر مسار جديد مع توقّف أقل بمرّتين (%1$s) للشحن. وقت الوصول متقارب.</item>
+        <item quantity="few">يتوفّر مسار جديد مع توقّف أقل بـ %1$s مرات للشحن. وقت الوصول متقارب.</item>
+        <item quantity="many">يتوفّر مسار جديد مع توقّف أقل بـ %1$s مرة للشحن. وقت الوصول متقارب.</item>
+        <item quantity="other">يتوفّر مسار جديد مع توقّف أقل بـ %1$s مرة للشحن. وقت الوصول متقارب.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="zero">يتوفّر مسار جديد مع توقّف أقل بـ %1$s مرة للشحن. هذا المسار أبطأ بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="one">يتوفّر مسار جديد مع توقّف أقل بمرة واحدة (%1$s) للشحن. هذا المسار أبطأ بـ %2$s، ويشمل ذلك وقت القيادة والشحن.</item>
+        <item quantity="two">يتوفّر مسار جديد مع توقّف أقل بمرّتين (%1$s) للشحن. هذا المسار أبطأ بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="few">يتوفّر مسار جديد مع توقّف أقل بـ %1$s مرات للشحن. هذا المسار أبطأ بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="many">يتوفّر مسار جديد مع توقّف أقل بـ %1$s مرة للشحن. هذا المسار أبطأ بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+        <item quantity="other">يتوفّر مسار جديد مع توقّف أقل بـ %1$s مرة للشحن. هذا المسار أبطأ بـ %2$s، ويشمل ذلك وقت القيادة والشحن معًا.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="zero">تم استخدامها قبل %1$d يوم.</item>
+        <item quantity="one">تم استخدامها قبل يوم واحد (%1$d).</item>
+        <item quantity="two">تم استخدامها قبل يومَين (%1$d).</item>
+        <item quantity="few">تم استخدامها قبل %1$d أيام.</item>
+        <item quantity="many">تم استخدامها قبل %1$d يومًا.</item>
+        <item quantity="other">تم استخدامها قبل %1$d يوم.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="zero">تم استخدامها قبل %1$d أسبوع.</item>
+        <item quantity="one">تم استخدامها قبل أسبوع واحد (%1$d).</item>
+        <item quantity="two">تم استخدامها قبل أسبوعَين (%1$d).</item>
+        <item quantity="few">تم استخدامها قبل %1$d أسابيع.</item>
+        <item quantity="many">تم استخدامها قبل %1$d أسبوعًا.</item>
+        <item quantity="other">تم استخدامها قبل %1$d أسبوع.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="zero">‫+ %1$d شبكة</item>
+        <item quantity="one">+ شبكة واحدة (%1$d)</item>
+        <item quantity="two">+ شبكتان (%1$d)</item>
+        <item quantity="few">‫+ %1$d شبكات</item>
+        <item quantity="many">‫+ %1$d شبكة</item>
+        <item quantity="other">‫+ %1$d شبكة</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="zero">تم اختيار %1$d شبكة</item>
+        <item quantity="one">تم اختيار شبكة واحدة (%1$d)</item>
+        <item quantity="two">تم اختيار شبكتين (%1$d)</item>
+        <item quantity="few">تم اختيار %1$d شبكات</item>
+        <item quantity="many">تم اختيار %1$d شبكة</item>
+        <item quantity="other">تم اختيار %1$d شبكة</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="zero">‫%1$s محطة شحن</item>
+        <item quantity="one">محطة شحن واحدة (%1$s)</item>
+        <item quantity="two">محطتا (%1$s) شحن</item>
+        <item quantity="few">‫%1$s محطات شحن</item>
+        <item quantity="many">‫%1$s محطة شحن</item>
+        <item quantity="other">‫%1$s محطة شحن</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="zero">‫%1$d محطة</item>
+        <item quantity="one">محطة واحدة (%1$d)</item>
+        <item quantity="two">محطتان (%1$d)</item>
+        <item quantity="few">‫%1$d محطات</item>
+        <item quantity="many">‫%1$d محطة</item>
+        <item quantity="other">‫%1$d محطة</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="zero">لم يتم اختيار أي شبكة (%1$d).</item>
+        <item quantity="one">تمّ اختيار شبكة واحدة (%1$d).</item>
+        <item quantity="two">تمّ اختيار شبكتين (%1$d).</item>
+        <item quantity="few">تمّ اختيار %1$d شبكات.</item>
+        <item quantity="many">تمّ اختيار %1$d شبكة.</item>
+        <item quantity="other">تمّ اختيار %1$d شبكة.</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="zero">%1$s +%2$d</item>
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="two">%1$s +%2$d</item>
+        <item quantity="few">%1$s +%2$d</item>
+        <item quantity="many">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="zero">%1$d طريقة دفع أخرى</item>
+        <item quantity="one">طريقة واحدة (%1$d) أخرى</item>
+        <item quantity="two">طريقتا دفع (%1$d) أخريان</item>
+        <item quantity="few">%1$d طُرق دفع أخرى</item>
+        <item quantity="many">%1$d طريقة دفع أخرى</item>
+        <item quantity="other">+%1$d طريقة دفع أخرى</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="zero">‫+%1$d مجموعة إضافية</item>
+        <item quantity="one">‫+ مجموعة واحدة (%1$d) إضافية</item>
+        <item quantity="two">‫+ مجموعتان (%1$d) إضافيتان</item>
+        <item quantity="few">‫+%1$d مجموعات إضافية</item>
+        <item quantity="many">‫+%1$d مجموعة إضافية</item>
+        <item quantity="other">‫+%1$d مجموعة إضافية</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="zero">‫+%1$d تفصيل إضافي</item>
+        <item quantity="one">‫+ تفصيل واحد (%1$d) إضافي</item>
+        <item quantity="two">‫+ تفصيلان (%1$d) إضافيان</item>
+        <item quantity="few">‫+%1$d تفاصيل إضافية</item>
+        <item quantity="many">‫+%1$d تفصيلاً إضافيًا</item>
+        <item quantity="other">‫+%1$d تفصيل إضافي</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="zero">‫+%1$d</item>
+        <item quantity="one">‫+%1$d</item>
+        <item quantity="two">‫+%1$d</item>
+        <item quantity="few">‫+%1$d</item>
+        <item quantity="many">‫+%1$d</item>
+        <item quantity="other">‫+%1$d</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="zero">%s يوم</item>
+        <item quantity="one">يوم واحد (%s)</item>
+        <item quantity="two">يومان (%s)</item>
+        <item quantity="few">%s أيام</item>
+        <item quantity="many">%s يومًا</item>
+        <item quantity="other">%s يوم</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="zero">%s يوم</item>
+        <item quantity="one">يوم واحد (%s)</item>
+        <item quantity="two">يومان (%s)</item>
+        <item quantity="few">%s أيام</item>
+        <item quantity="many">%s يومًا</item>
+        <item quantity="other">%s يوم</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="zero">%s ي</item>
+        <item quantity="one">%s ي</item>
+        <item quantity="two">%s ي</item>
+        <item quantity="few">%s ي</item>
+        <item quantity="many">%s ي</item>
+        <item quantity="other">%s ي</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="zero">%s يوم</item>
+        <item quantity="one">يوم واحد (%s)</item>
+        <item quantity="two">يومان (%s)</item>
+        <item quantity="few">%s أيام</item>
+        <item quantity="many">%s يومًا</item>
+        <item quantity="other">%s يوم</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="zero">%s ساعة</item>
+        <item quantity="one">ساعة واحدة (%s)</item>
+        <item quantity="two">ساعتان (%s)</item>
+        <item quantity="few">%s ساعات</item>
+        <item quantity="many">%s ساعة</item>
+        <item quantity="other">%s ساعة</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="zero">%s س</item>
+        <item quantity="one">%s س</item>
+        <item quantity="two">%s س</item>
+        <item quantity="few">%s س</item>
+        <item quantity="many">%s س</item>
+        <item quantity="other">%s س</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="zero">%s س</item>
+        <item quantity="one">%s س</item>
+        <item quantity="two">%s س</item>
+        <item quantity="few">%s س</item>
+        <item quantity="many">%s س</item>
+        <item quantity="other">%s س</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="zero">%s دقيقة</item>
+        <item quantity="one">دقيقة واحدة (%s)</item>
+        <item quantity="two">دقيقتان (%s)</item>
+        <item quantity="few">%s دقائق</item>
+        <item quantity="many">%s دقيقة</item>
+        <item quantity="other">%s دقيقة</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="zero">%s د</item>
+        <item quantity="one">%s د</item>
+        <item quantity="two">%s د</item>
+        <item quantity="few">%s د</item>
+        <item quantity="many">%s د</item>
+        <item quantity="other">%s د</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="zero">%s د</item>
+        <item quantity="one">%s د</item>
+        <item quantity="two">%s د</item>
+        <item quantity="few">%s د</item>
+        <item quantity="many">%s د</item>
+        <item quantity="other">%s د</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="zero">%s</item>
+        <item quantity="one">%s</item>
+        <item quantity="two">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="many">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="zero">%s ثانية</item>
+        <item quantity="one">ثانية واحدة (%s)</item>
+        <item quantity="two">ثانيتان (%s)</item>
+        <item quantity="few">%s ثوانٍ</item>
+        <item quantity="many">%s ثانيةً</item>
+        <item quantity="other">%s ثانية</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="zero">استمر في القيادة لمسافة‏ %1$s قدم</item>
+        <item quantity="one">استمر في القيادة لمسافة‏ قدم واحدة (%1$s)</item>
+        <item quantity="two">استمر في القيادة لمسافة‏ قدمين (%1$s)</item>
+        <item quantity="few">استمر في القيادة لمسافة‏ %1$s أقدام</item>
+        <item quantity="many">استمر في القيادة لمسافة‏ %1$s قدمًا</item>
+        <item quantity="other">استمر في القيادة لمسافة‏ %1$s قدم</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="zero">استمر في القيادة لمسافة %1$s كيلومتر</item>
+        <item quantity="one">استمر في القيادة لمسافة كيلومتر واحد (%1$s)</item>
+        <item quantity="two">استمر في القيادة لمسافة كيلومترين (%1$s)</item>
+        <item quantity="few">استمر في القيادة لمسافة %1$s كيلومترات</item>
+        <item quantity="many">استمر في القيادة لمسافة %1$s كيلومترًا</item>
+        <item quantity="other">استمر في القيادة لمسافة %1$s كيلومتر</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="zero">استمر في القيادة لمسافة‏ %1$s متر</item>
+        <item quantity="one">استمر في القيادة لمسافة‏ متر واحد (%1$s)</item>
+        <item quantity="two">استمر في القيادة لمسافة‏ مترين (%1$s)</item>
+        <item quantity="few">استمر في القيادة لمسافة‏ %1$s أمتار</item>
+        <item quantity="many">استمر في القيادة لمسافة‏ %1$s مترًا</item>
+        <item quantity="other">استمر في القيادة لمسافة‏ %1$s متر</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="zero">استمر في القيادة لمسافة‏ %1$s ميل</item>
+        <item quantity="one">استمر في القيادة لمسافة‏ ميل واحد (%1$s)</item>
+        <item quantity="two">استمر في القيادة لمسافة‏ ميلين (%1$s)</item>
+        <item quantity="few">استمر في القيادة لمسافة‏ %1$s أميال</item>
+        <item quantity="many">استمر في القيادة لمسافة‏ %1$s ميلاً</item>
+        <item quantity="other">استمر في القيادة لمسافة‏ %1$s ميل</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="zero">استمر في القيادة لمسافة‏ %1$s ياردة</item>
+        <item quantity="one">استمر في القيادة لمسافة‏ ياردة واحدة (%1$s)</item>
+        <item quantity="two">استمر في القيادة لمسافة‏ ياردتين (%1$s)</item>
+        <item quantity="few">استمر في القيادة لمسافة‏ %1$s ياردات</item>
+        <item quantity="many">استمر في القيادة لمسافة‏ %1$s ياردة</item>
+        <item quantity="other">استمر في القيادة لمسافة‏ %1$s ياردة</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="zero">استمِر على %2$s لمسافة %1$s قدم</item>
+        <item quantity="one">استمِر على %2$s لمسافة قدم واحدة (%1$s)</item>
+        <item quantity="two">استمِر على %2$s لمسافة قدمين (%1$s)</item>
+        <item quantity="few">استمِر على %2$s لمسافة %1$s أقدام</item>
+        <item quantity="many">استمِر على %2$s لمسافة %1$s قدمًا</item>
+        <item quantity="other">استمِر على %2$s لمسافة %1$s قدم</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="zero">استمِر على %2$s لمسافة %1$s كيلومتر</item>
+        <item quantity="one">استمِر على %2$s لمسافة كيلومتر واحد (%1$s)</item>
+        <item quantity="two">استمِر على %2$s لمسافة كيلومترين (%1$s)</item>
+        <item quantity="few">استمِر على %2$s لمسافة %1$s كيلومترات</item>
+        <item quantity="many">استمِر على %2$s لمسافة %1$s كيلومترًا</item>
+        <item quantity="other">استمِر على %2$s لمسافة %1$s كيلومتر</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="zero">استمِر على %2$s لمسافة %1$s متر</item>
+        <item quantity="one">استمِر على %2$s لمسافة متر واحد (%1$s)</item>
+        <item quantity="two">استمِر على %2$s لمسافة مترَين (%1$s)</item>
+        <item quantity="few">استمِر على %2$s لمسافة %1$s أمتار</item>
+        <item quantity="many">استمِر على %2$s لمسافة %1$s مترًا</item>
+        <item quantity="other">استمِر على %2$s لمسافة %1$s متر</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="zero">استمِر على %2$s لمسافة %1$s ميل</item>
+        <item quantity="one">استمِر على %2$s لمسافة ميل واحد (%1$s)</item>
+        <item quantity="two">استمِر على %2$s لمسافة ميلَين (%1$s)</item>
+        <item quantity="few">استمِر على %2$s لمسافة %1$s أميال</item>
+        <item quantity="many">استمِر على %2$s لمسافة %1$s ميلاً</item>
+        <item quantity="other">استمِر على %2$s لمسافة %1$s ميل</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="zero">استمِر على‏ %2$s لمسافة‏ %1$s ياردة</item>
+        <item quantity="one">استمِر على‏ %2$s لمسافة‏ ياردة واحدة (%1$s)</item>
+        <item quantity="two">استمِر على‏ %2$s لمسافة‏ ياردتين (%1$s)</item>
+        <item quantity="few">استمِر على‏ %2$s لمسافة‏ %1$s ياردات</item>
+        <item quantity="many">استمِر على %2$s لمسافة‏ %1$s ياردة</item>
+        <item quantity="other">استمِر على %2$s لمسافة‏ %1$s ياردة</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="zero">على بُعد‏ %1$s قدم</item>
+        <item quantity="one">على بُعد‏ قدم واحدة (%1$s)</item>
+        <item quantity="two">على بُعد‏ قدمين (%1$s)</item>
+        <item quantity="few">على بُعد‏ %1$s أقدام</item>
+        <item quantity="many">على بُعد‏ %1$s قدمًا</item>
+        <item quantity="other">على بُعد‏ %1$s قدم</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="zero">على بعد %1$s كيلومتر</item>
+        <item quantity="one">على بعد‏ كيلومتر واحد (%1$s)</item>
+        <item quantity="two">على بعد كيلومترين (%1$s)</item>
+        <item quantity="few">على بعد %1$s كيلومترات</item>
+        <item quantity="many">على بعد %1$s كيلومترًا</item>
+        <item quantity="other">على بعد %1$s كيلومتر</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="zero">على بُعد %1$s متر</item>
+        <item quantity="one">على بُعد متر واحد (%1$s)</item>
+        <item quantity="two">على بُعد مترين (%1$s)</item>
+        <item quantity="few">على بُعد %1$s أمتار</item>
+        <item quantity="many">على بُعد %1$s مترًا</item>
+        <item quantity="other">على بُعد %1$s متر</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="zero">على بعد‏ %1$s ميل</item>
+        <item quantity="one">على بعد‏ ميل واحد (%1$s)</item>
+        <item quantity="two">على بعد‏ ميلين (%1$s)</item>
+        <item quantity="few">على بعد‏ %1$s أميال</item>
+        <item quantity="many">على بعد‏ %1$s ميلاً</item>
+        <item quantity="other">على بعد‏ %1$s ميل</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="zero">على بعد %1$s ياردة</item>
+        <item quantity="one">على بعد‏ ياردة واحدة (%1$s)</item>
+        <item quantity="two">على بعد ياردتين (%1$s)</item>
+        <item quantity="few">على بعد %1$s ياردات</item>
+        <item quantity="many">على بعد %1$s ياردة</item>
+        <item quantity="other">على بعد %1$s ياردة</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="zero">%s كيلومتر في الساعة</item>
+        <item quantity="one">كيلومتر واحد (%s) في الساعة</item>
+        <item quantity="two">كيلومتران (%s) في الساعة</item>
+        <item quantity="few">%s كيلومترات في الساعة</item>
+        <item quantity="many">%s كيلومترًا في الساعة</item>
+        <item quantity="other">%s كيلومتر في الساعة</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="zero">%s ميل في الساعة</item>
+        <item quantity="one">ميل واحد (%s) في الساعة</item>
+        <item quantity="two">ميلان (%s) في الساعة</item>
+        <item quantity="few">%s أميال في الساعة</item>
+        <item quantity="many">%s ميلاً في الساعة</item>
+        <item quantity="other">%s ميل في الساعة</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="zero">تصل إلى وجهتك بعد %1$s قدم</item>
+        <item quantity="one">تصل إلى وجهتك بعد قدم واحدة (%1$s)</item>
+        <item quantity="two">تصل إلى وجهتك بعد قدمين (%1$s)</item>
+        <item quantity="few">تصل إلى وجهتك بعد %1$s أقدام</item>
+        <item quantity="many">تصل إلى وجهتك بعد %1$s قدمًا</item>
+        <item quantity="other">تصل إلى وجهتك بعد %1$s قدم</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="zero">تصل إلى وجهتك بعد‏ %1$s كيلومتر</item>
+        <item quantity="one">تصل إلى وجهتك بعد‏ كيلومتر واحد (%1$s)</item>
+        <item quantity="two">تصل إلى وجهتك بعد‏ كيلومترين (%1$s)</item>
+        <item quantity="few">تصل إلى وجهتك بعد‏ %1$s كيلومترات</item>
+        <item quantity="many">تصل إلى وجهتك بعد‏ %1$s كيلومترًا</item>
+        <item quantity="other">تصل إلى وجهتك بعد‏ %1$s كيلومتر</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="zero">تصل إلى وجهتك بعد‏ %1$s متر</item>
+        <item quantity="one">تصل إلى وجهتك بعد‏ متر واحد (%1$s)</item>
+        <item quantity="two">تصل إلى وجهتك بعد‏ مترين (%1$s)</item>
+        <item quantity="few">تصل إلى وجهتك بعد‏ %1$s أمتار</item>
+        <item quantity="many">تصل إلى وجهتك بعد‏ %1$s مترًا</item>
+        <item quantity="other">تصل إلى وجهتك بعد‏ %1$s متر</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="zero">تصل إلى وجهتك بعد‏ %1$s ميل</item>
+        <item quantity="one">تصل إلى وجهتك بعد‏ ميل واحد (%1$s)</item>
+        <item quantity="two">تصل إلى وجهتك بعد ميلين (%1$s)</item>
+        <item quantity="few">تصل إلى وجهتك بعد‏ %1$s أميال</item>
+        <item quantity="many">تصل إلى وجهتك بعد‏ %1$s ميلاً</item>
+        <item quantity="other">تصل إلى وجهتك بعد‏ %1$s ميل</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="zero">تصل إلى وجهتك بعد‏ %1$s ياردة</item>
+        <item quantity="one">تصل إلى وجهتك بعد‏ ياردة واحدة (%1$s)</item>
+        <item quantity="two">تصل إلى وجهتك بعد‏ ياردتين (%1$s)</item>
+        <item quantity="few">تصل إلى وجهتك بعد‏ %1$s ياردات</item>
+        <item quantity="many">تصل إلى وجهتك بعد‏ %1$s ياردة</item>
+        <item quantity="other">تصل إلى وجهتك بعد‏ %1$s ياردة</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="zero">تم اختيار %1$d سرعة</item>
+        <item quantity="one">تم اختيار سرعة واحدة (%1$d)</item>
+        <item quantity="two">تم اختيار سرعتَين (%1$d)</item>
+        <item quantity="few">تم اختيار %1$d سرعات</item>
+        <item quantity="many">تم اختيار %1$d سرعة</item>
+        <item quantity="other">تم اختيار %1$d سرعة</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="zero">‫%1$d بلاغ</item>
+        <item quantity="one">بلاغ واحد (%1$d)</item>
+        <item quantity="two">بلاغان (%1$d)</item>
+        <item quantity="few">‫%1$d بلاغات</item>
+        <item quantity="many">‫%1$d بلاغًا</item>
+        <item quantity="other">‫%1$d بلاغ</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="zero">قبل %d يوم</item>
+        <item quantity="one">قبل يوم (%d)</item>
+        <item quantity="two">قبل يومين (%d)</item>
+        <item quantity="few">قبل %d أيام</item>
+        <item quantity="many">قبل %d يومًا</item>
+        <item quantity="other">قبل %d يوم</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="zero">قبل %d ساعة</item>
+        <item quantity="one">قبل ساعة (%d)</item>
+        <item quantity="two">قبل ساعتين (%d)</item>
+        <item quantity="few">قبل %d ساعات</item>
+        <item quantity="many">قبل %d ساعةً</item>
+        <item quantity="other">قبل %d ساعة</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="zero">قبل %d شهر</item>
+        <item quantity="one">قبل شهر (%d)</item>
+        <item quantity="two">قبل شهرين (%d)</item>
+        <item quantity="few">قبل %d أشهر</item>
+        <item quantity="many">قبل %d شهرًا</item>
+        <item quantity="other">قبل %d شهر</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="zero">قبل %d سنة</item>
+        <item quantity="one">قبل سنة (%d)</item>
+        <item quantity="two">قبل سنتين (%d)</item>
+        <item quantity="few">قبل %d سنوات</item>
+        <item quantity="many">قبل %d سنةً</item>
+        <item quantity="other">قبل %d سنة</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="zero">عدم استبدال أي محطة</item>
+        <item quantity="one">استبدال محطة</item>
+        <item quantity="two">استبدال محطتين</item>
+        <item quantity="few">استبدال محطات</item>
+        <item quantity="many">استبدال محطات</item>
+        <item quantity="other">استبدال محطات</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="zero">لا يجري استبدال أي محطة توقف</item>
+        <item quantity="one">جارٍ استبدال محطة توقف</item>
+        <item quantity="two">جارٍ استبدال محطتي توقف</item>
+        <item quantity="few">جارٍ استبدال محطات توقف</item>
+        <item quantity="many">جارٍ استبدال محطات توقف</item>
+        <item quantity="other">جارٍ استبدال محطات توقف</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="zero">%d محطة</item>
+        <item quantity="one">محطة واحدة (%d)</item>
+        <item quantity="two">محطتان (%d)</item>
+        <item quantity="few">%d محطات</item>
+        <item quantity="many">%d محطة</item>
+        <item quantity="other">%d محطة</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="zero">%1$d نجمة من أصل %2$d نجوم</item>
+        <item quantity="one">نجمة واحدة (%1$d) من أصل %2$d نجوم</item>
+        <item quantity="two">نجمتان (%1$d) من أصل %2$d نجوم</item>
+        <item quantity="few">%1$d نجوم من أصل %2$d نجوم</item>
+        <item quantity="many">%1$d نجمة من أصل %2$d نجوم</item>
+        <item quantity="other">%1$d نجمة من أصل %2$d نجوم</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="zero">‫%1$d إشعار جديد</item>
+        <item quantity="one">تلقّيت إشعارًا</item>
+        <item quantity="two">إشعاران جديدان (%1$d)</item>
+        <item quantity="few">‫%1$d إشعارات جديدة</item>
+        <item quantity="many">‫%1$d إشعارًا جديدًا</item>
+        <item quantity="other">‫%1$d إشعار جديد</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="zero">%1$d نجمة من أصل %2$d</item>
+        <item quantity="one">نجمة واحدة (%1$d) من أصل %2$d</item>
+        <item quantity="two">نجمتان (%1$d) من أصل %2$d</item>
+        <item quantity="few">%1$d نجوم من أصل %2$d</item>
+        <item quantity="many">%1$d نجمةً من أصل %2$d</item>
+        <item quantity="other">%1$d نجمة من أصل %2$d</item>
+    </plurals>
+</resources>

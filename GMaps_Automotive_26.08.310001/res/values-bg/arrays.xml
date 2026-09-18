@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Ж</item>
+        <item>З</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>ниво на батерията, капацитет и скорост на зареждане при различни условия;</item>
+        <item>състояние на климатизацията;</item>
+        <item>ефективност на електрическите двигатели и спирачната система;</item>
+        <item>спецификации, напр. тегло на превозното средство.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>данни за възможния пробег на автомобила;</item>
+        <item>прогнози за батерията в зависимост от дестинацията;</item>
+        <item>препоръки за минимални времена на зареждане;</item>
+        <item>сигнали, например когато не е възможно да стигнете до следващата си спирка или ще пристигнете там с изтощена батерия;</item>
+        <item>по-добро управление на батерията и по-висока ефективност на превозното средство;</item>
+        <item>персонализирано планиране на пътуванията, когато сте влезли в профила си на телефона и в автомобила.</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>При увеличаване и намаляване на мащаба</item>
+        <item>Винаги</item>
+    </string-array>
+</resources>

@@ -1,0 +1,85 @@
+.class public final Lvth;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field private static volatile a:Z = false
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public static a()V
+    .locals 2
+
+    .line 1
+    invoke-static {}, Lvth;->b()Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    return-void
+
+    .line 8
+    :cond_0
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    .line 9
+    .line 10
+    const-string v1, "Not on render thread"
+
+    .line 11
+    .line 12
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 13
+    .line 14
+    .line 15
+    throw v0
+.end method
+
+.method public static b()Z
+    .locals 1
+
+    .line 1
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    instance-of v0, v0, Lvst;
+
+    .line 6
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    const/4 v0, 0x1
+
+    .line 10
+    return v0
+
+    .line 11
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 12
+    return v0
+.end method

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Akkustand, Akkukapazität und Ladegeschwindigkeit bei unterschiedlichen Bedingungen</item>
+        <item>Status der Klimaanlage</item>
+        <item>Elektromotoren und Bremsleistung</item>
+        <item>Spezifikationen, z. B. das Fahrzeuggewicht</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Reichweite des Autos</item>
+        <item>Schätzungen der Akkulaufzeit auf Grundlage des Ziels</item>
+        <item>Empfohlene Mindestladezeit</item>
+        <item>Warnungen, etwa wenn der nächste Zwischenstopp zu weit entfernt oder der Akkustand bei der Ankunft dort zu niedrig ist</item>
+        <item>Verbesserte Akkuverwaltung und Fahrzeugeffizienz</item>
+        <item>Personalisierte Reiseplanung, wenn du auf deinem Smartphone und in deinem Auto angemeldet bist</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Beim Heran- und Herauszoomen</item>
+        <item>Immer</item>
+    </string-array>
+</resources>

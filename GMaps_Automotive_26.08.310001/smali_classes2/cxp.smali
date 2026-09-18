@@ -1,0 +1,1027 @@
+.class public final Lcxp;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field static final a:Lcxp;
+
+.field static final b:Lcxp;
+
+.field static final c:Lajma;
+
+.field private static final d:Ljava/lang/String; = "\u200e"
+
+.field private static final e:Ljava/lang/String; = "\u200f"
+
+
+# instance fields
+.field private final f:Z
+
+.field private final g:Lajma;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    sget-object v0, Lcxt;->c:Lajma;
+
+    .line 2
+    .line 3
+    sput-object v0, Lcxp;->c:Lajma;
+
+    .line 4
+    .line 5
+    new-instance v1, Lcxp;
+
+    .line 6
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    invoke-direct {v1, v2, v0}, Lcxp;-><init>(ZLajma;)V
+
+    .line 9
+    .line 10
+    .line 11
+    sput-object v1, Lcxp;->a:Lcxp;
+
+    .line 12
+    .line 13
+    new-instance v1, Lcxp;
+
+    .line 14
+    .line 15
+    const/4 v2, 0x1
+
+    .line 16
+    invoke-direct {v1, v2, v0}, Lcxp;-><init>(ZLajma;)V
+
+    .line 17
+    .line 18
+    .line 19
+    sput-object v1, Lcxp;->b:Lcxp;
+
+    .line 20
+    .line 21
+    return-void
+.end method
+
+.method public constructor <init>(ZLajma;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-boolean p1, p0, Lcxp;->f:Z
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lcxp;->g:Lajma;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public static a()Lcxp;
+    .locals 2
+
+    .line 1
+    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-static {v0}, Landroid/text/TextUtils;->getLayoutDirectionFromLocale(Ljava/util/Locale;)I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    const/4 v1, 0x1
+
+    .line 10
+    if-ne v0, v1, :cond_0
+
+    .line 11
+    .line 12
+    sget-object v0, Lcxp;->b:Lcxp;
+
+    .line 13
+    .line 14
+    return-object v0
+
+    .line 15
+    :cond_0
+    sget-object v0, Lcxp;->a:Lcxp;
+
+    .line 16
+    .line 17
+    return-object v0
+.end method
+
+.method private static e(Ljava/lang/CharSequence;)I
+    .locals 9
+
+    .line 1
+    new-instance v0, Lcxo;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0}, Lcxo;-><init>(Ljava/lang/CharSequence;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const/4 p0, 0x0
+
+    .line 7
+    iput p0, v0, Lcxo;->c:I
+
+    .line 8
+    .line 9
+    move v1, p0
+
+    .line 10
+    move v2, v1
+
+    .line 11
+    move v3, v2
+
+    .line 12
+    :cond_0
+    :goto_0
+    iget v4, v0, Lcxo;->c:I
+
+    .line 13
+    .line 14
+    iget v5, v0, Lcxo;->b:I
+
+    .line 15
+    .line 16
+    const/4 v6, -0x1
+
+    .line 17
+    const/4 v7, 0x1
+
+    .line 18
+    if-ge v4, v5, :cond_5
+
+    .line 19
+    .line 20
+    if-nez v1, :cond_5
+
+    .line 21
+    .line 22
+    iget-object v5, v0, Lcxo;->a:Ljava/lang/CharSequence;
+
+    .line 23
+    .line 24
+    invoke-interface {v5, v4}, Ljava/lang/CharSequence;->charAt(I)C
+
+    .line 25
+    .line 26
+    .line 27
+    move-result v4
+
+    .line 28
+    iput-char v4, v0, Lcxo;->d:C
+
+    .line 29
+    .line 30
+    invoke-static {v4}, Ljava/lang/Character;->isHighSurrogate(C)Z
+
+    .line 31
+    .line 32
+    .line 33
+    move-result v4
+
+    .line 34
+    if-eqz v4, :cond_1
+
+    .line 35
+    .line 36
+    iget v4, v0, Lcxo;->c:I
+
+    .line 37
+    .line 38
+    invoke-static {v5, v4}, Ljava/lang/Character;->codePointAt(Ljava/lang/CharSequence;I)I
+
+    .line 39
+    .line 40
+    .line 41
+    move-result v4
+
+    .line 42
+    iget v5, v0, Lcxo;->c:I
+
+    .line 43
+    .line 44
+    invoke-static {v4}, Ljava/lang/Character;->charCount(I)I
+
+    .line 45
+    .line 46
+    .line 47
+    move-result v8
+
+    .line 48
+    add-int/2addr v5, v8
+
+    .line 49
+    iput v5, v0, Lcxo;->c:I
+
+    .line 50
+    .line 51
+    invoke-static {v4}, Ljava/lang/Character;->getDirectionality(I)B
+
+    .line 52
+    .line 53
+    .line 54
+    move-result v4
+
+    .line 55
+    goto :goto_1
+
+    .line 56
+    :cond_1
+    iget v4, v0, Lcxo;->c:I
+
+    .line 57
+    .line 58
+    add-int/2addr v4, v7
+
+    .line 59
+    iput v4, v0, Lcxo;->c:I
+
+    .line 60
+    .line 61
+    iget-char v4, v0, Lcxo;->d:C
+
+    .line 62
+    .line 63
+    invoke-static {v4}, Lcxo;->b(C)B
+
+    .line 64
+    .line 65
+    .line 66
+    move-result v4
+
+    .line 67
+    :goto_1
+    if-eqz v4, :cond_3
+
+    .line 68
+    .line 69
+    if-eq v4, v7, :cond_2
+
+    .line 70
+    .line 71
+    const/4 v5, 0x2
+
+    .line 72
+    if-eq v4, v5, :cond_2
+
+    .line 73
+    .line 74
+    const/16 v5, 0x9
+
+    .line 75
+    .line 76
+    if-eq v4, v5, :cond_0
+
+    .line 77
+    .line 78
+    packed-switch v4, :pswitch_data_0
+
+    .line 79
+    .line 80
+    .line 81
+    goto :goto_2
+
+    .line 82
+    :pswitch_0
+    add-int/lit8 v3, v3, -0x1
+
+    .line 83
+    .line 84
+    move v2, p0
+
+    .line 85
+    goto :goto_0
+
+    .line 86
+    :pswitch_1
+    add-int/lit8 v3, v3, 0x1
+
+    .line 87
+    .line 88
+    move v2, v7
+
+    .line 89
+    goto :goto_0
+
+    .line 90
+    :pswitch_2
+    add-int/lit8 v3, v3, 0x1
+
+    .line 91
+    .line 92
+    move v2, v6
+
+    .line 93
+    goto :goto_0
+
+    .line 94
+    :cond_2
+    if-nez v3, :cond_4
+
+    .line 95
+    .line 96
+    return v7
+
+    .line 97
+    :cond_3
+    if-nez v3, :cond_4
+
+    .line 98
+    .line 99
+    return v6
+
+    .line 100
+    :cond_4
+    :goto_2
+    move v1, v3
+
+    .line 101
+    goto :goto_0
+
+    .line 102
+    :cond_5
+    if-nez v1, :cond_6
+
+    .line 103
+    .line 104
+    return p0
+
+    .line 105
+    :cond_6
+    if-nez v2, :cond_9
+
+    .line 106
+    .line 107
+    :goto_3
+    iget v2, v0, Lcxo;->c:I
+
+    .line 108
+    .line 109
+    if-lez v2, :cond_8
+
+    .line 110
+    .line 111
+    invoke-virtual {v0}, Lcxo;->a()B
+
+    .line 112
+    .line 113
+    .line 114
+    move-result v2
+
+    .line 115
+    packed-switch v2, :pswitch_data_1
+
+    .line 116
+    .line 117
+    .line 118
+    goto :goto_3
+
+    .line 119
+    :pswitch_3
+    add-int/lit8 v3, v3, 0x1
+
+    .line 120
+    .line 121
+    goto :goto_3
+
+    .line 122
+    :pswitch_4
+    if-ne v1, v3, :cond_7
+
+    .line 123
+    .line 124
+    return v7
+
+    .line 125
+    :pswitch_5
+    if-ne v1, v3, :cond_7
+
+    .line 126
+    .line 127
+    return v6
+
+    .line 128
+    :cond_7
+    add-int/lit8 v3, v3, -0x1
+
+    .line 129
+    .line 130
+    goto :goto_3
+
+    .line 131
+    :cond_8
+    return p0
+
+    .line 132
+    :cond_9
+    return v2
+
+    .line 133
+    :pswitch_data_0
+    .packed-switch 0xe
+        :pswitch_2
+        :pswitch_2
+        :pswitch_1
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    :pswitch_data_1
+    .packed-switch 0xe
+        :pswitch_5
+        :pswitch_5
+        :pswitch_4
+        :pswitch_4
+        :pswitch_3
+    .end packed-switch
+.end method
+
+.method private static f(Ljava/lang/CharSequence;)I
+    .locals 7
+
+    .line 1
+    new-instance v0, Lcxo;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0}, Lcxo;-><init>(Ljava/lang/CharSequence;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget p0, v0, Lcxo;->b:I
+
+    .line 7
+    .line 8
+    iput p0, v0, Lcxo;->c:I
+
+    .line 9
+    .line 10
+    const/4 p0, 0x0
+
+    .line 11
+    move v1, p0
+
+    .line 12
+    :goto_0
+    move v2, v1
+
+    .line 13
+    :cond_0
+    :goto_1
+    iget v3, v0, Lcxo;->c:I
+
+    .line 14
+    .line 15
+    if-lez v3, :cond_6
+
+    .line 16
+    .line 17
+    invoke-virtual {v0}, Lcxo;->a()B
+
+    .line 18
+    .line 19
+    .line 20
+    move-result v3
+
+    .line 21
+    const/4 v4, -0x1
+
+    .line 22
+    if-eqz v3, :cond_4
+
+    .line 23
+    .line 24
+    const/4 v5, 0x1
+
+    .line 25
+    if-eq v3, v5, :cond_2
+
+    .line 26
+    .line 27
+    const/4 v6, 0x2
+
+    .line 28
+    if-eq v3, v6, :cond_2
+
+    .line 29
+    .line 30
+    const/16 v6, 0x9
+
+    .line 31
+    .line 32
+    if-eq v3, v6, :cond_0
+
+    .line 33
+    .line 34
+    packed-switch v3, :pswitch_data_0
+
+    .line 35
+    .line 36
+    .line 37
+    if-nez v2, :cond_0
+
+    .line 38
+    .line 39
+    goto :goto_2
+
+    .line 40
+    :pswitch_0
+    add-int/lit8 v1, v1, 0x1
+
+    .line 41
+    .line 42
+    goto :goto_1
+
+    .line 43
+    :pswitch_1
+    if-ne v2, v1, :cond_1
+
+    .line 44
+    .line 45
+    return v5
+
+    .line 46
+    :pswitch_2
+    if-ne v2, v1, :cond_1
+
+    .line 47
+    .line 48
+    return v4
+
+    .line 49
+    :cond_1
+    add-int/lit8 v1, v1, -0x1
+
+    .line 50
+    .line 51
+    goto :goto_1
+
+    .line 52
+    :cond_2
+    if-nez v1, :cond_3
+
+    .line 53
+    .line 54
+    return v5
+
+    .line 55
+    :cond_3
+    if-nez v2, :cond_0
+
+    .line 56
+    .line 57
+    goto :goto_2
+
+    .line 58
+    :cond_4
+    if-nez v1, :cond_5
+
+    .line 59
+    .line 60
+    return v4
+
+    .line 61
+    :cond_5
+    if-nez v2, :cond_0
+
+    .line 62
+    .line 63
+    :goto_2
+    goto :goto_0
+
+    .line 64
+    :cond_6
+    return p0
+
+    .line 65
+    :pswitch_data_0
+    .packed-switch 0xe
+        :pswitch_2
+        :pswitch_2
+        :pswitch_1
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+
+# virtual methods
+.method public final b(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcxp;->g:Lajma;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1, v0}, Lcxp;->d(Ljava/lang/CharSequence;Lajma;)Ljava/lang/CharSequence;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    return-object p0
+.end method
+
+.method public final c(Ljava/lang/String;)Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    if-nez p1, :cond_0
+
+    .line 2
+    .line 3
+    const/4 p0, 0x0
+
+    .line 4
+    return-object p0
+
+    .line 5
+    :cond_0
+    iget-object v0, p0, Lcxp;->g:Lajma;
+
+    .line 6
+    .line 7
+    invoke-virtual {p0, p1, v0}, Lcxp;->d(Ljava/lang/CharSequence;Lajma;)Ljava/lang/CharSequence;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p0
+
+    .line 11
+    invoke-interface {p0}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p0
+
+    .line 15
+    return-object p0
+.end method
+
+.method public final d(Ljava/lang/CharSequence;Lajma;)Ljava/lang/CharSequence;
+    .locals 6
+
+    .line 1
+    if-nez p1, :cond_0
+
+    .line 2
+    .line 3
+    const/4 p0, 0x0
+
+    .line 4
+    return-object p0
+
+    .line 5
+    :cond_0
+    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    invoke-virtual {p2, p1, v0}, Lajma;->a(Ljava/lang/CharSequence;I)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p2
+
+    .line 13
+    new-instance v0, Landroid/text/SpannableStringBuilder;
+
+    .line 14
+    .line 15
+    invoke-direct {v0}, Landroid/text/SpannableStringBuilder;-><init>()V
+
+    .line 16
+    .line 17
+    .line 18
+    if-eqz p2, :cond_1
+
+    .line 19
+    .line 20
+    sget-object v1, Lcxt;->b:Lajma;
+
+    .line 21
+    .line 22
+    goto :goto_0
+
+    .line 23
+    :cond_1
+    sget-object v1, Lcxt;->a:Lajma;
+
+    .line 24
+    .line 25
+    :goto_0
+    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
+
+    .line 26
+    .line 27
+    .line 28
+    move-result v2
+
+    .line 29
+    invoke-virtual {v1, p1, v2}, Lajma;->a(Ljava/lang/CharSequence;I)Z
+
+    .line 30
+    .line 31
+    .line 32
+    move-result v1
+
+    .line 33
+    iget-boolean p0, p0, Lcxp;->f:Z
+
+    .line 34
+    .line 35
+    const/4 v2, -0x1
+
+    .line 36
+    const/4 v3, 0x0
+
+    .line 37
+    const-string v4, ""
+
+    .line 38
+    .line 39
+    const/4 v5, 0x1
+
+    .line 40
+    if-nez p0, :cond_4
+
+    .line 41
+    .line 42
+    if-nez v1, :cond_3
+
+    .line 43
+    .line 44
+    invoke-static {p1}, Lcxp;->e(Ljava/lang/CharSequence;)I
+
+    .line 45
+    .line 46
+    .line 47
+    move-result v1
+
+    .line 48
+    if-ne v1, v5, :cond_2
+
+    .line 49
+    .line 50
+    goto :goto_1
+
+    .line 51
+    :cond_2
+    move v1, v3
+
+    .line 52
+    goto :goto_2
+
+    .line 53
+    :cond_3
+    :goto_1
+    sget-object v1, Lcxp;->d:Ljava/lang/String;
+
+    .line 54
+    .line 55
+    goto :goto_3
+
+    .line 56
+    :cond_4
+    :goto_2
+    if-eqz p0, :cond_6
+
+    .line 57
+    .line 58
+    if-eqz v1, :cond_5
+
+    .line 59
+    .line 60
+    invoke-static {p1}, Lcxp;->e(Ljava/lang/CharSequence;)I
+
+    .line 61
+    .line 62
+    .line 63
+    move-result v1
+
+    .line 64
+    if-ne v1, v2, :cond_6
+
+    .line 65
+    .line 66
+    :cond_5
+    sget-object v1, Lcxp;->e:Ljava/lang/String;
+
+    .line 67
+    .line 68
+    goto :goto_3
+
+    .line 69
+    :cond_6
+    move-object v1, v4
+
+    .line 70
+    :goto_3
+    invoke-virtual {v0, v1}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
+
+    .line 71
+    .line 72
+    .line 73
+    if-eq p2, p0, :cond_8
+
+    .line 74
+    .line 75
+    if-eq v5, p2, :cond_7
+
+    .line 76
+    .line 77
+    const/16 v1, 0x202a
+
+    .line 78
+    .line 79
+    goto :goto_4
+
+    .line 80
+    :cond_7
+    const/16 v1, 0x202b
+
+    .line 81
+    .line 82
+    :goto_4
+    invoke-virtual {v0, v1}, Landroid/text/SpannableStringBuilder;->append(C)Landroid/text/SpannableStringBuilder;
+
+    .line 83
+    .line 84
+    .line 85
+    invoke-virtual {v0, p1}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
+
+    .line 86
+    .line 87
+    .line 88
+    const/16 v1, 0x202c
+
+    .line 89
+    .line 90
+    invoke-virtual {v0, v1}, Landroid/text/SpannableStringBuilder;->append(C)Landroid/text/SpannableStringBuilder;
+
+    .line 91
+    .line 92
+    .line 93
+    goto :goto_5
+
+    .line 94
+    :cond_8
+    invoke-virtual {v0, p1}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
+
+    .line 95
+    .line 96
+    .line 97
+    :goto_5
+    if-eqz p2, :cond_9
+
+    .line 98
+    .line 99
+    sget-object p2, Lcxt;->b:Lajma;
+
+    .line 100
+    .line 101
+    goto :goto_6
+
+    .line 102
+    :cond_9
+    sget-object p2, Lcxt;->a:Lajma;
+
+    .line 103
+    .line 104
+    :goto_6
+    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
+
+    .line 105
+    .line 106
+    .line 107
+    move-result v1
+
+    .line 108
+    invoke-virtual {p2, p1, v1}, Lajma;->a(Ljava/lang/CharSequence;I)Z
+
+    .line 109
+    .line 110
+    .line 111
+    move-result p2
+
+    .line 112
+    if-nez p0, :cond_b
+
+    .line 113
+    .line 114
+    if-nez p2, :cond_a
+
+    .line 115
+    .line 116
+    invoke-static {p1}, Lcxp;->f(Ljava/lang/CharSequence;)I
+
+    .line 117
+    .line 118
+    .line 119
+    move-result p2
+
+    .line 120
+    if-ne p2, v5, :cond_c
+
+    .line 121
+    .line 122
+    :cond_a
+    sget-object v4, Lcxp;->d:Ljava/lang/String;
+
+    .line 123
+    .line 124
+    goto :goto_7
+
+    .line 125
+    :cond_b
+    move v3, p2
+
+    .line 126
+    :cond_c
+    if-eqz p0, :cond_e
+
+    .line 127
+    .line 128
+    if-eqz v3, :cond_d
+
+    .line 129
+    .line 130
+    invoke-static {p1}, Lcxp;->f(Ljava/lang/CharSequence;)I
+
+    .line 131
+    .line 132
+    .line 133
+    move-result p0
+
+    .line 134
+    if-ne p0, v2, :cond_e
+
+    .line 135
+    .line 136
+    :cond_d
+    sget-object v4, Lcxp;->e:Ljava/lang/String;
+
+    .line 137
+    .line 138
+    :cond_e
+    :goto_7
+    invoke-virtual {v0, v4}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
+
+    .line 139
+    .line 140
+    .line 141
+    return-object v0
+.end method

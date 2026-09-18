@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>Б</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Харилцан адилгүй нөхцөл байдал дахь батарейн цэнэгийн түвшин, багтаамж, цэнэглэх хурд</item>
+        <item>Агааржуулалтын төлөв</item>
+        <item>Цахилгаан мотор, тоормосны үр ашигт байдал</item>
+        <item>Таны тээврийн хэрэгслийн жин зэрэг үзүүлэлтүүд</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Машины туулах зай</item>
+        <item>Таны очих газарт үндэслэсэн батарейн цэнэгийн тооцоолол</item>
+        <item>Цэнэглэхийг зөвлөсөн хамгийн бага хугацаа</item>
+        <item>Таны дараагийн зогсох газар хэтэрхий хол эсвэл таныг дараагийн зогсох газар бага цэнэгтэй ирэх зэрэг тохиолдолд өгөх сэрэмжлүүлэг</item>
+        <item>Батарейн сайжруулсан менежмент, тээврийн хэрэгслийн нэмэгдүүлсэн үр ашиг</item>
+        <item>Таныг утас, машиндаа нэвтэрсэн үед хувийн болгосон аяллын төлөвлөлт</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Ойртуулж, холдуулах үед</item>
+        <item>Байнга</item>
+    </string-array>
+</resources>

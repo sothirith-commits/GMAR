@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d biçikletë e lirë</item>
+        <item quantity="other">%d biçikleta të lira</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">Ka %d platformë</item>
+        <item quantity="other">Ka %d platforma</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Itinerar më i shpejtë, %1$s ndalesë më pak</item>
+        <item quantity="other">Itinerar më i shpejtë, %1$s ndalesa më pak</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Itinerar më i shpejtë, %1$s ndalesë më shumë</item>
+        <item quantity="other">Itinerar më i shpejtë, %1$s ndalesa më shumë</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Ofrohet një itinerar më i shpejtë, %1$s ndalesë u ndryshua</item>
+        <item quantity="other">Ofrohet një itinerar më i shpejtë, %1$s ndalesa u ndryshuan</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Nevojitet një itinerar i ri, %1$s ndalesë më pak</item>
+        <item quantity="other">Nevojitet një itinerar i ri, %1$s ndalesa më pak</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Nevojitet një itinerar i ri, %1$s ndalesë më shumë</item>
+        <item quantity="other">Nevojitet një itinerar i ri, %1$s ndalesa më shumë</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Nevojitet një itinerar i ri, %1$s ndalesë u ndryshua</item>
+        <item quantity="other">Nevojitet një itinerar i ri, %1$s ndalesa u ndryshuan</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Itinerar i ri, %1$s ndalesë më pak</item>
+        <item quantity="other">Itinerar i ri, %1$s ndalesa më pak</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Itinerar i ri, %1$s ndalesë më pak</item>
+        <item quantity="other">Itinerar i ri, %1$s ndalesa më pak</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Ofrohet itinerar i ri që kërkon %1$s pikë karikimi më pak. %2$s më shpejt, duke përfshirë kohën e drejtimit dhe të karikimit.</item>
+        <item quantity="other">Ofrohet itinerar i ri që kërkon %1$s pika karikimi më pak. %2$s më shpejt, duke përfshirë kohën e drejtimit dhe të karikimit.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Ofrohet itinerar i ri që kërkon %1$s pikë karikimi më shumë. %2$s më shpejt, duke përfshirë kohën e drejtimit dhe të karikimit.</item>
+        <item quantity="other">Ofrohet itinerar i ri që kërkon %1$s pika karikimi më shumë. %2$s më shpejt, duke përfshirë kohën e drejtimit dhe të karikimit.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Do të të duhet të ndjekësh një itinerar të ri. Kërkohet %1$s pikë karikimi më pak. Do të mbërrish në %2$s.</item>
+        <item quantity="other">Do të të duhet të ndjekësh një itinerar të ri. Kërkohen %1$s pika karikimi më pak. Do të mbërrish në %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Do të të duhet të ndjekësh një itinerar të ri. Kërkohet %1$s pikë karikimi më shumë. Do të mbërrish në %2$s.</item>
+        <item quantity="other">Do të të duhet të ndjekësh një itinerar të ri. Kërkohen %1$s pika karikimi më shumë. Do të mbërrish në %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Do të të duhet të ndjekësh një itinerar të ri. U ndryshua %1$s pikë karikimi. Do të mbërrish në %2$s.</item>
+        <item quantity="other">Do të të duhet të ndjekësh një itinerar të ri. U ndryshuan %1$s pika karikimi. Do të mbërrish në %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Ofrohet itinerar i ri që kërkon %1$s pikë karikimi më pak. Kohë e ngjashme mbërritjeje.</item>
+        <item quantity="other">Ofrohet itinerar i ri që kërkon %1$s pika karikimi më pak. Kohë e ngjashme mbërritjeje.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Ofrohet itinerar i ri që kërkon %1$s pikë karikimi më pak. %2$s më ngadalë, duke përfshirë kohën e drejtimit dhe të karikimit.</item>
+        <item quantity="other">Ofrohet itinerar i ri që kërkon %1$s pika karikimi më pak. %2$s më ngadalë, duke përfshirë kohën e drejtimit dhe të karikimit.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">Përdorur %1$d ditë më parë</item>
+        <item quantity="other">Përdorur %1$d ditë më parë</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">Përdorur %1$d javë më parë</item>
+        <item quantity="other">Përdorur %1$d javë më parë</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">+%1$d rrjet</item>
+        <item quantity="other">+%1$d rrjete</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">%1$d i zgjedhur</item>
+        <item quantity="other">%1$d të zgjedhura</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s pikë karikimi</item>
+        <item quantity="other">%1$s pika karikimi</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d ndalesë</item>
+        <item quantity="other">%1$d ndalesa</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d i përzgjedhur</item>
+        <item quantity="other">%1$d të përzgjedhura</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">+%1$d tjetër</item>
+        <item quantity="other">+%1$d të tjera</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">+%1$d më shumë</item>
+        <item quantity="other">+%1$d më shumë</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">+%1$d më shumë</item>
+        <item quantity="other">+%1$d më shumë</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s ditë</item>
+        <item quantity="other">%s ditë</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s ditë</item>
+        <item quantity="other">%s ditë</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sd</item>
+        <item quantity="other">%sd</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s ditë</item>
+        <item quantity="other">%s ditë</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s orë</item>
+        <item quantity="other">%s orë</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s orë</item>
+        <item quantity="other">%s orë</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%so</item>
+        <item quantity="other">%so</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s minutë</item>
+        <item quantity="other">%s minuta</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sm</item>
+        <item quantity="other">%sm</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s sekondë</item>
+        <item quantity="other">%s sekonda</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Vazhdo dhe %1$s fut</item>
+        <item quantity="other">Vazhdo dhe %1$s fut</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Vazhdo dhe %1$s kilometër</item>
+        <item quantity="other">Vazhdo dhe %1$s kilometra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Vazhdo dhe %1$s metër</item>
+        <item quantity="other">Vazhdo dhe %1$s metra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Vazhdo dhe %1$s milje</item>
+        <item quantity="other">Vazhdo dhe %1$s milje</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Vazhdo dhe %1$s jard</item>
+        <item quantity="other">Vazhdo dhe %1$s jardë</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Vazhdo në %2$s dhe %1$s fut</item>
+        <item quantity="other">Vazhdo në %2$s dhe %1$s fut</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Vazhdo në %2$s dhe %1$s kilometër</item>
+        <item quantity="other">Vazhdo në %2$s dhe %1$s kilometra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Vazhdo në %2$s dhe %1$s metër</item>
+        <item quantity="other">Vazhdo në %2$s dhe %1$s metra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Vazhdo në %2$s për %1$s milje</item>
+        <item quantity="other">Vazhdo në %2$s për %1$s milje</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Vazhdo në %2$s dhe %1$s jard</item>
+        <item quantity="other">Vazhdo në %2$s dhe %1$s jardë</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">Për %1$s fut</item>
+        <item quantity="other">Për %1$s fut</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">Për %1$s kilometër</item>
+        <item quantity="other">Për %1$s kilometra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">Për %1$s metër</item>
+        <item quantity="other">Për %1$s metra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">Për %1$s milje</item>
+        <item quantity="other">Për %1$s milje</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">Për %1$s jard</item>
+        <item quantity="other">Për %1$s jardë</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometër në orë</item>
+        <item quantity="other">%s kilometra në orë</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s milje në orë</item>
+        <item quantity="other">%s milje në orë</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Vendmbërritja është %1$s fut përpara</item>
+        <item quantity="other">Vendmbërritja është %1$s fut përpara</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Vendmbërritja është %1$s kilometër përpara</item>
+        <item quantity="other">Vendmbërritja është %1$s kilometra përpara</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Vendmbërritja është %1$s metër përpara</item>
+        <item quantity="other">Vendmbërritja është %1$s metra përpara</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Vendmbërritja është %1$s milje përpara</item>
+        <item quantity="other">Vendmbërritja është %1$s milje përpara</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Vendmbërritja është %1$s jard përpara</item>
+        <item quantity="other">Vendmbërritja është %1$s jardë përpara</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">%1$d i zgjedhur</item>
+        <item quantity="other">%1$d të zgjedhura</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d raportim</item>
+        <item quantity="other">%1$d raportime</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d ditë më parë</item>
+        <item quantity="other">%d ditë më parë</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d orë më parë</item>
+        <item quantity="other">%d orë më parë</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d muaj më parë</item>
+        <item quantity="other">%d muaj më parë</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d vit më parë</item>
+        <item quantity="other">%d vjet më parë</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Ndërroje</item>
+        <item quantity="other">Ndërroji</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Po ndërrohet ndalesa</item>
+        <item quantity="other">Po ndërrohen ndalesat</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d ndalesë</item>
+        <item quantity="other">%d ndalesa</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d nga %2$d</item>
+        <item quantity="other">%1$d nga %2$d</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d yll nga %2$d</item>
+        <item quantity="other">%1$d yje nga %2$d</item>
+    </plurals>
+</resources>

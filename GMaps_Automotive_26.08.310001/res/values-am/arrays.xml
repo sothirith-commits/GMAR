@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>ሀ</item>
+        <item>ለ</item>
+        <item>ሐ</item>
+        <item>መ</item>
+        <item>ሠ</item>
+        <item>ረ</item>
+        <item>ሰ</item>
+        <item>ሸ</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>የባትሪ ደረጃ፣ አቅም እና የኃይል መሙያ ፍጥነት በተለያዩ ሁኔታዎች ውስጥ</item>
+        <item>የአየር ማቀዝቀዣ ሁኔታ</item>
+        <item>የኤሌክትሪክ ሞተሮች እና ፍሬን የመያዝ ብቃት</item>
+        <item>እንደ የተሽከርካሪዎ ክብደት ያሉ ዝርዝር መግለጫዎች</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>የመኪና ክልል</item>
+        <item>በመድረሻዎ ላይ የተመሰረቱ የባትሪ ግምቶች</item>
+        <item>የሚመከሩ ዝቅተኛ የኃይል መሙያ ጊዜያት</item>
+        <item>ማንቂያዎች፣ ለምሳሌ ቀጣይ መቆሚያዎ እርስዎ የማይደርሱበት ሲሆን ወይም ቀጣዩ መቆሚያዎ ላይ በዝቅተኛ ባትሪ ሲደርሱ</item>
+        <item>የተሻሻለ የባትሪ አስተዳደር እና የተሽከርካሪ ብቃት</item>
+        <item>ወደ ስልክዎ እና መኪናዎ ሲገቡ ግላዊነት የተላበሰ የጉዞ ዕቅድ ማውጣት</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>በሚጎላበትና በሚያንስበት ጊዜ</item>
+        <item>ሁልጊዜ</item>
+    </string-array>
+</resources>

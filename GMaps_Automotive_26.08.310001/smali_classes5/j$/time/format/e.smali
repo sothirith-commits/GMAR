@@ -1,0 +1,11 @@
+.class public interface abstract Lj$/time/format/e;
+.super Ljava/lang/Object;
+.source "r8-map-id-13044ccc8962a4e1a13cd45a034361f359e8c9fef5b5de7b66fd3abd9d10af9a"
+
+
+# virtual methods
+.method public abstract i(Lj$/time/format/u;Ljava/lang/StringBuilder;)Z
+.end method
+
+.method public abstract n(Lj$/time/format/r;Ljava/lang/CharSequence;I)I
+.end method

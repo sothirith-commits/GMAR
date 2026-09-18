@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Akun varaustaso, kapasiteetti ja latausnopeus eri olosuhteissa</item>
+        <item>Ilmastoinnin tila</item>
+        <item>Sähkömoottorit ja jarrutusteho</item>
+        <item>Teknisiä tietoja, kuten ajoneuvon paino</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Auton toimintamatka</item>
+        <item>Määränpäähän perustuvia arvioita akun kestosta</item>
+        <item>Suositellut vähimmäislatausajat</item>
+        <item>Ilmoituksia esimerkiksi siitä, jos akku ei riitä seuraavaan pysähdyspaikkaan asti tai akun varaus on vähissä pysähdyspaikalle saavuttaessa</item>
+        <item>Ohjeita akunhallintaan ja ajoneuvon tehokkaaseen käyttöön</item>
+        <item>Personoitu matkan suunnittelu, kun olet kirjautunut sisään puhelimella ja autossa</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Zoomattaessa</item>
+        <item>Aina</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Akulaetuse tase, maht ja laadimiskiirus erinevates tingimustes</item>
+        <item>Kliimaseadme olek</item>
+        <item>Elektrimootorite ja pidurdamistõhusus</item>
+        <item>Üksikasjad (nt sõiduki kaal)</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Sõiduulatus</item>
+        <item>Aku hinnanguline kasutusaeg, arvestades sihtkohta</item>
+        <item>Minimaalne soovituslik laadimisaeg</item>
+        <item>Märguanded (nt kui teie järgmine peatus on sõiduulatusest väljas või kui jõuate järgmisesse peatusesse peaaegu tühja akuga)</item>
+        <item>Teave akuhalduse ja sõiduki tõhususe parandamise kohta</item>
+        <item>Isikupärastatud reisiplaanid, kui olete oma telefonis ja autos sisse logitud</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Sisse- ja väljasuumimisel</item>
+        <item>Alati</item>
+    </string-array>
+</resources>

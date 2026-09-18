@@ -1,0 +1,6 @@
+.class final Lgpz;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lfle;

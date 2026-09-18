@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>Α</item>
+        <item>Β</item>
+        <item>Γ</item>
+        <item>Δ</item>
+        <item>Ε</item>
+        <item>Ζ</item>
+        <item>Η</item>
+        <item>Θ</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Στάθμη, χωρητικότητα και ταχύτητα φόρτισης της μπαταρίας σε διαφορετικές συνθήκες</item>
+        <item>Κατάσταση κλιματισμού</item>
+        <item>Ηλεκτρικοί κινητήρες και αποδοτικότητα φρένων</item>
+        <item>Προδιαγραφές όπως το βάρος του οχήματός σας</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Αυτονομία αυτοκινήτου</item>
+        <item>Εκτιμήσεις σχετικά με την υπολειπόμενη στάθμη της μπαταρίας βάσει του προορισμού σας</item>
+        <item>Προτεινόμενοι ελάχιστοι χρόνοι φόρτισης</item>
+        <item>Ειδοποιήσεις σε περίπτωση που η μπαταρία δεν επαρκεί για να φτάσετε στην επόμενη στάση σας ή εάν πρόκειται να φτάσετε στην επόμενη στάση σας με χαμηλή μπαταρία</item>
+        <item>Προτάσεις για βελτιωμένη διαχείριση μπαταρίας και αποδοτικότητα του οχήματος</item>
+        <item>Εξατομικευμένος σχεδιασμός ταξιδιού, όταν είστε συνδεδεμένοι στο τηλέφωνο και το αυτοκίνητό σας</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Κατά τη μεγέθυνση και τη σμίκρυνση</item>
+        <item>Πάντα</item>
+    </string-array>
+</resources>

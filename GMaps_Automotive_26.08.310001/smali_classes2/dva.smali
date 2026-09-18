@@ -1,0 +1,34 @@
+.class final Ldva;
+.super Ldvf;
+.source "PG"
+
+
+# virtual methods
+.method public final b(Landroid/view/ViewGroup;Landroid/view/View;)F
+    .locals 0
+
+    .line 1
+    invoke-virtual {p2}, Landroid/view/View;->getTranslationY()F
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getHeight()I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result p1
+
+    .line 9
+    int-to-float p1, p1
+
+    .line 10
+    sub-float/2addr p0, p1
+
+    .line 11
+    return p0
+.end method

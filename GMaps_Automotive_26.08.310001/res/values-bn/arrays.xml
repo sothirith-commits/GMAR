@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>বিভিন্ন পরিস্থিতিতে ব্যাটারিতে কতটা চার্জ আছে, ব্যাটারির ক্ষমতা এবং ব্যাটারি কত তাড়াতাড়ি চার্জ হচ্ছে</item>
+        <item>এয়ার কন্ডিশনিং স্ট্যাটাস</item>
+        <item>ইলেকট্রিক মোটর ও ব্রেকের দক্ষতা</item>
+        <item>স্পেসিফিকেশন, যেমন আপনার গাড়ির ওজন</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>কার রেঞ্জ</item>
+        <item>আপনার গন্তব্যে পৌঁছানোর জন্য ব্যাটারির চার্জ আনুমানিক কতটা খরচ হবে</item>
+        <item>কমপক্ষে কতক্ষণ চার্জ করতে হবে সেই সম্পর্কিত সাজেশন</item>
+        <item>সতর্কতা মেসেজ, যেমন পরের স্টপে পৌঁছানোর জন্য আপনার যদি যথেষ্ট চার্জ না থাকে বা পরের স্টপে পৌঁছানোর সময় কম চার্জ থাকে</item>
+        <item>উন্নত ব্যাটারি ম্যানেজমেন্ট ও গাড়ির পারফর্ম্যান্স</item>
+        <item>আপনার ফোন ও গাড়িতে সাইন-ইন করা থাকলে, পছন্দমতো ট্রিপের প্ল্যানিং</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>জুম বাড়ানো ও কমানোর সময়</item>
+        <item>সর্বদা</item>
+    </string-array>
+</resources>

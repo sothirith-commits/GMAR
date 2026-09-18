@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.google.privacy.ptoken.ondevice</configuration-package>
+        <log-sources>
+            <log-source>ON_DEVICE_POLICY</log-source>
+        </log-sources>
+        <auto-subpackage>true</auto-subpackage>
+    </phenotype-registration>
+</phenotype-registrations>

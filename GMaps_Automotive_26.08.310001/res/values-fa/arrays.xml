@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>ا</item>
+        <item>ب</item>
+        <item>ج</item>
+        <item>د</item>
+        <item>ه</item>
+        <item>و</item>
+        <item>ز</item>
+        <item>ح</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>سطح باتری، ظرفیت، و سرعت شارژ در شرایط مختلف</item>
+        <item>وضعیت تهویه مطبوع</item>
+        <item>کارایی موتور الکتریکی و ترمزها</item>
+        <item>مشخصاتی مانند وزن خودرو شما</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>برد خودرو</item>
+        <item>تخمین باتری براساس مقصد شما</item>
+        <item>حداقل زمان‌های توصیه‌شده برای شارژ</item>
+        <item>هشدارها، مثلاً وقتی که ایستگاه بعدی شما دور از دسترس است، یا وقتی که با باتری کم به ایستگاه بعدی خواهید رسید</item>
+        <item>بهبود مدیریت باتری و بهره‌وری خودرو</item>
+        <item>برنامه‌ریزی سفر شخصی‌سازی‌شده، وقتی که در تلفن و خودرو به سیستم وارد شده باشید</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>هنگام بزرگ و کوچک کردن</item>
+        <item>همواره</item>
+    </string-array>
+</resources>

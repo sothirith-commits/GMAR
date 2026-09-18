@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>異なる状況下でのバッテリーの残量、容量、充電速度</item>
+        <item>エアコンの状態</item>
+        <item>電気モーターとブレーキ効率</item>
+        <item>車両重量などの仕様</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>車の航続距離</item>
+        <item>目的地に基づくバッテリーの推定残量</item>
+        <item>推奨される最小充電時間</item>
+        <item>アラート（次の目的地までバッテリーがもたない場合やバッテリー残量が少ない場合など）</item>
+        <item>バッテリー管理と車両効率の向上</item>
+        <item>スマートフォンと車にログインすると、ルート計画をカスタマイズできます</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>ズームイン / ズームアウト時に表示</item>
+        <item>常に使用</item>
+    </string-array>
+</resources>

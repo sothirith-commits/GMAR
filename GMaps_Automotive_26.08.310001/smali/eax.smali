@@ -1,0 +1,95 @@
+.class public final synthetic Leax;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lcng;
+
+
+# instance fields
+.field public final synthetic a:Ljava/util/concurrent/Executor;
+
+.field public final synthetic b:Ljava/lang/String;
+
+.field public final synthetic c:Lantx;
+
+.field public final synthetic d:Ldjv;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/util/concurrent/Executor;Ljava/lang/String;Lantx;Ldjv;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Leax;->a:Ljava/util/concurrent/Executor;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Leax;->b:Ljava/lang/String;
+
+    .line 7
+    .line 8
+    iput-object p3, p0, Leax;->c:Lantx;
+
+    .line 9
+    .line 10
+    iput-object p4, p0, Leax;->d:Ldjv;
+
+    .line 11
+    .line 12
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    .locals 6
+
+    .line 1
+    new-instance v0, Leby;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Leax;->b:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    iget-object v2, p0, Leax;->c:Lantx;
+
+    .line 6
+    .line 7
+    iget-object v3, p0, Leax;->d:Ldjv;
+
+    .line 8
+    .line 9
+    const/4 v5, 0x1
+
+    .line 10
+    move-object v4, p1
+
+    .line 11
+    invoke-direct/range {v0 .. v5}, Leby;-><init>(Ljava/lang/String;Lantx;Ldjv;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;I)V
+
+    .line 12
+    .line 13
+    .line 14
+    iget-object p0, p0, Leax;->a:Ljava/util/concurrent/Executor;
+
+    .line 15
+    .line 16
+    invoke-interface {p0, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+
+    .line 17
+    .line 18
+    .line 19
+    sget-object p0, Lanqp;->a:Lanqp;
+
+    .line 20
+    .line 21
+    return-object p0
+.end method

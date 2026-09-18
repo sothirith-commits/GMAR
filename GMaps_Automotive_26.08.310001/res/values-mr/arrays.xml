@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>वेगवेगळ्या परिस्थितीमधील बॅटरीची पातळी, क्षमता आणि चार्जिंग स्पीड</item>
+        <item>एअर कंडिशनिंगचे स्टेटस</item>
+        <item>इलेक्ट्रिक मोटर आणि ब्रेकिंग कार्यक्षमता</item>
+        <item>तपशील, जसे की तुमच्या वाहनाचे वजन</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>कारची रेंज</item>
+        <item>तुमच्या गंतव्यस्थानाच्या आधारावर बॅटरीचा अंदाज</item>
+        <item>चार्जिंगची शिफारस केलेल्या किमान वेळा</item>
+        <item>अलर्ट, जसे की तुम्ही पुढील थांब्यावर पोहोचणे कठीण आहे किंवा तुम्ही बॅटरी कमी असताना तुमच्या पुढील थांब्यावर कधी पोहोचाल</item>
+        <item>सुधारित बॅटरी व्यवस्थापन आणि वाहन कार्यक्षमता</item>
+        <item>तुम्ही तुमच्या फोन आणि कारमध्ये साइन इन केलेले असताना, पर्सनलाइझ केलेले ट्रिपचे नियोजन</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>झूम इन आणि आउट करताना</item>
+        <item>नेहमी</item>
+    </string-array>
+</resources>

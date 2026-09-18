@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Level, kapasitas, dan kecepatan pengisian daya baterai dalam berbagai kondisi</item>
+        <item>Status AC</item>
+        <item>Efisiensi motor listrik dan pengereman</item>
+        <item>Spesifikasi, seperti berat kendaraan</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Jangkauan mobil</item>
+        <item>Estimasi baterai berdasarkan tujuan</item>
+        <item>Waktu pengisian daya minimum yang direkomendasikan</item>
+        <item>Pemberitahuan, seperti jika baterai akan habis sebelum Anda mencapai perhentian selanjutnya atau jika Anda akan mencapai perhentian selanjutnya saat baterai hampir habis</item>
+        <item>Peningkatan pengelolaan baterai &amp; efisiensi kendaraan</item>
+        <item>Perencanaan perjalanan yang dipersonalisasi, jika Anda login ke ponsel dan mobil</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Saat memperbesar dan memperkecil</item>
+        <item>Selalu</item>
+    </string-array>
+</resources>

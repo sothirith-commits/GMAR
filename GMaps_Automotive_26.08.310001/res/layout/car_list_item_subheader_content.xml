@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?listItemSubheaderTextAppearance" android:gravity="center_vertical" android:id="@id/sub_header_text" android:layout_width="match_parent" android:layout_height="@dimen/car_sub_header_height" android:maxLines="1"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

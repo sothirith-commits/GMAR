@@ -1,0 +1,20 @@
+.class public abstract Lcom/google/android/libraries/social/populous/storage/room/RoomDatabaseManager;
+.super Ldqf;
+.source "PG"
+
+# interfaces
+.implements Ljava/io/Closeable;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ldqf;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

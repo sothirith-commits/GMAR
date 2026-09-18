@@ -1,0 +1,59 @@
+.class public final Luty;
+.super Lrrr;
+.source "PG"
+
+# interfaces
+.implements Lrro;
+.implements Lqnp;
+
+
+# static fields
+.field public static final a:Lrrt;
+
+
+# instance fields
+.field public final b:Landroid/content/Intent;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lxda;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Luty;->a:Lrrt;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Z
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    throw p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    throw p0
+.end method

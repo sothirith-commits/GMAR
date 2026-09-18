@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>úroveň nabitia, kapacita batérie a rýchlosť jej nabíjania za rôznych podmienok;</item>
+        <item>stav klimatizácie;</item>
+        <item>účinnosť elektrických motorov a brzdenia;</item>
+        <item>špecifikácie, napríklad hmotnosť vozidla.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>informácie o dojazde auta;</item>
+        <item>odhady výdrže batérie na základe cieľa cesty;</item>
+        <item>odporúčané minimálne časy nabíjania;</item>
+        <item>upozornenia, napríklad ak je vaša ďalšia zastávka mimo dojazdu alebo ak prídete na ďalšiu zastávku s takmer vybitou batériou;</item>
+        <item>zlepšenú správu batérie a účinnosť vozidla.</item>
+        <item>prispôsobené plánovanie cesty, keď sa prihlásite do telefónu a auta.</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Pri približovaní a odďaľovaní</item>
+        <item>Vždy</item>
+    </string-array>
+</resources>

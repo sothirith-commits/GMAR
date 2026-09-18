@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="car_account_menu_bullet_point_padding">16.0dp</dimen>
+    <dimen name="car_gutter_width">24.0dp</dimen>
+    <dimen name="car_keyline_1">32.0dp</dimen>
+    <dimen name="car_keyline_3">128.0dp</dimen>
+</resources>

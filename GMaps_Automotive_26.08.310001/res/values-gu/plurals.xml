@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d બાઇક ઉપલબ્ધ છે</item>
+        <item quantity="other">%d બાઇક ઉપલબ્ધ છે</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d ડૉક ઉપલબ્ધ છે</item>
+        <item quantity="other">%d ડૉક ઉપલબ્ધ છે</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">વધુ ઝડપી રસ્તો, %1$s સ્ટૉપ ઓછું</item>
+        <item quantity="other">વધુ ઝડપી રસ્તો, %1$s સ્ટૉપ ઓછા</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">વધુ ઝડપી રસ્તો, %1$s સ્ટૉપ વધારે</item>
+        <item quantity="other">વધુ ઝડપી રસ્તો, %1$s સ્ટૉપ વધારે</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">વધુ ઝડપી રસ્તો ઉપલબ્ધ છે, %1$s સ્ટૉપ બદલાયું</item>
+        <item quantity="other">વધુ ઝડપી રસ્તો ઉપલબ્ધ છે, %1$s સ્ટૉપ બદલાયા</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">નવો રસ્તો જરૂરી છે, %1$s સ્ટૉપ ઓછું</item>
+        <item quantity="other">નવો રસ્તો જરૂરી છે, %1$s સ્ટૉપ ઓછા</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">નવો રસ્તો જરૂરી છે, %1$s સ્ટૉપ વધુ</item>
+        <item quantity="other">નવો રસ્તો જરૂરી છે, %1$s સ્ટૉપ વધુ</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">નવો રસ્તો જરૂરી છે, %1$s સ્ટૉપ બદલાયું</item>
+        <item quantity="other">નવો રસ્તો જરૂરી છે, %1$s સ્ટૉપ બદલાયા</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">નવો રસ્તો, %1$s સ્ટૉપ ઓછું</item>
+        <item quantity="other">નવો રસ્તો, %1$s સ્ટૉપ ઓછા</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">નવો રસ્તો, %1$s સ્ટૉપ ઓછું</item>
+        <item quantity="other">નવો રસ્તો, %1$s સ્ટૉપ ઓછા</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">%1$s ઓછા ચાર્જિંગ સ્ટૉપ સાથે, નવો રસ્તો ઉપલબ્ધ છે. ડ્રાઇવિંગ અને ચાર્જિંગ સમયના સમાવેશ સાથે, %2$s વધુ ઝડપી.</item>
+        <item quantity="other">%1$s ઓછા ચાર્જિંગ સ્ટૉપ સાથે, નવો રસ્તો ઉપલબ્ધ છે. ડ્રાઇવિંગ અને ચાર્જિંગ સમયના સમાવેશ સાથે, %2$s વધુ ઝડપી.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">%1$s વધુ ચાર્જિંગ સ્ટૉપ સાથે, નવો રસ્તો ઉપલબ્ધ છે. ડ્રાઇવિંગ અને ચાર્જિંગ સમયના સમાવેશ સાથે, %2$s વધુ ઝડપી.</item>
+        <item quantity="other">%1$s વધુ ચાર્જિંગ સ્ટૉપ સાથે, નવો રસ્તો ઉપલબ્ધ છે. ડ્રાઇવિંગ અને ચાર્જિંગ સમયના સમાવેશ સાથે, %2$s વધુ ઝડપી.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">તમારે કોઈ નવો રસ્તો લેવાની જરૂર પડશે. જ્યાં %1$s ઓછું ચાર્જિંગ સ્ટૉપ હોય. તમે %2$s વાગ્યે પહોંચશો.</item>
+        <item quantity="other">તમારે કોઈ નવો રસ્તો લેવાની જરૂર પડશે. જ્યાં %1$s ઓછા ચાર્જિંગ સ્ટૉપ હોય. તમે %2$s વાગ્યે પહોંચશો.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">તમારે કોઈ નવો રસ્તો લેવાની જરૂર પડશે. જ્યાં %1$s વધુ ચાર્જિંગ સ્ટૉપ હોય. તમે %2$s વાગ્યે પહોંચશો.</item>
+        <item quantity="other">તમારે કોઈ નવો રસ્તો લેવાની જરૂર પડશે. જ્યાં %1$s વધુ ચાર્જિંગ સ્ટૉપ હોય. તમે %2$s વાગ્યે પહોંચશો.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">તમારે કોઈ નવો રસ્તો લેવાની જરૂર પડશે. જ્યાં %1$s ચાર્જિંગ સ્ટૉપ બદલાયું હોય. તમે %2$s વાગ્યે પહોંચશો.</item>
+        <item quantity="other">તમારે કોઈ નવો રસ્તો લેવાની જરૂર પડશે. જ્યાં %1$s ચાર્જિંગ સ્ટૉપ બદલાયા હોય. તમે %2$s વાગ્યે પહોંચશો.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">%1$s ઓછા ચાર્જિંગ સ્ટૉપ સાથે, નવો રસ્તો ઉપલબ્ધ છે. પહોંચવાનો સમય એકસરખો છે.</item>
+        <item quantity="other">%1$s ઓછા ચાર્જિંગ સ્ટૉપ સાથે, નવો રસ્તો ઉપલબ્ધ છે. પહોંચવાનો સમય એકસરખો છે.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">%1$s ઓછા ચાર્જિંગ સ્ટૉપ સાથે, નવો રસ્તો ઉપલબ્ધ છે. ડ્રાઇવિંગ અને ચાર્જિંગ સમયના સમાવેશ સાથે, %2$s ધીમો.</item>
+        <item quantity="other">%1$s ઓછા ચાર્જિંગ સ્ટૉપ સાથે, નવો રસ્તો ઉપલબ્ધ છે. ડ્રાઇવિંગ અને ચાર્જિંગ સમયના સમાવેશ સાથે, %2$s ધીમો.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">%1$d દિવસ પહેલાં ઉપયોગ કર્યો હતો</item>
+        <item quantity="other">%1$d દિવસ પહેલાં ઉપયોગ કર્યો હતો</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">%1$d અઠવાડિયા પહેલાં ઉપયોગ કર્યો હતો</item>
+        <item quantity="other">%1$d અઠવાડિયા પહેલાં ઉપયોગ કર્યો હતો</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">+%1$d નેટવર્ક</item>
+        <item quantity="other">+%1$d નેટવર્ક</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">%1$d પસંદ કર્યુ</item>
+        <item quantity="other">%1$d પસંદ કર્યા</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s ચાર્જિંગ સ્ટૉપ</item>
+        <item quantity="other">%1$s ચાર્જિંગ સ્ટૉપ</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d સ્ટૉપ</item>
+        <item quantity="other">%1$d સ્ટૉપ</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d પસંદ કર્યુ</item>
+        <item quantity="other">%1$d પસંદ કર્યા</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">+ વધુ %1$d</item>
+        <item quantity="other">+ વધુ %1$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">+ વધુ %1$d</item>
+        <item quantity="other">+ વધુ %1$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">+ વધુ %1$d</item>
+        <item quantity="other">+ વધુ %1$d</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s દિવસ</item>
+        <item quantity="other">%s દિવસ</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s દિ</item>
+        <item quantity="other">%s દિ</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s દિ.</item>
+        <item quantity="other">%s દિ.</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s દિવસ</item>
+        <item quantity="other">%s દિવસ</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s કલાક</item>
+        <item quantity="other">%s કલાક</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s ક</item>
+        <item quantity="other">%s ક</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s ક.</item>
+        <item quantity="other">%s ક.</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s મિનિટ</item>
+        <item quantity="other">%s મિનિટ</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s મિ</item>
+        <item quantity="other">%s મિ</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s મિ.</item>
+        <item quantity="other">%s મિ.</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s સેકન્ડ</item>
+        <item quantity="other">%s સેકન્ડ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">%1$s ફૂટ સુધી આગળ વધો</item>
+        <item quantity="other">%1$s ફૂટ સુધી આગળ વધો</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">%1$s કિલોમીટર સુધી આગળ વધો</item>
+        <item quantity="other">%1$s કિલોમીટર સુધી આગળ વધો</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">%1$s મીટર સુધી આગળ વધો</item>
+        <item quantity="other">%1$s મીટર સુધી આગળ વધો</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">%1$s માઇલ સુધી આગળ વધો</item>
+        <item quantity="other">%1$s માઇલ સુધી આગળ વધો</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">%1$s યાર્ડ સુધી આગળ વધો</item>
+        <item quantity="other">%1$s યાર્ડ સુધી આગળ વધો</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">%2$s પર %1$s ફૂટ સુધી આગળ વધો</item>
+        <item quantity="other">%2$s પર %1$s ફૂટ સુધી આગળ વધો</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">%2$s પર %1$s કિલોમીટર સુધી આગળ વધો</item>
+        <item quantity="other">%2$s પર %1$s કિલોમીટર સુધી આગળ વધો</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">%2$s પર %1$s મીટર સુધી આગળ વધો</item>
+        <item quantity="other">%2$s પર %1$s મીટર સુધી આગળ વધો</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">%2$s પર %1$s માઇલ સુધી આગળ વધો</item>
+        <item quantity="other">%2$s પર %1$s માઇલ સુધી આગળ વધો</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">%2$s પર %1$s યાર્ડ સુધી આગળ વધો</item>
+        <item quantity="other">%2$s પર %1$s યાર્ડ સુધી આગળ વધો</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s ફૂટમાં</item>
+        <item quantity="other">%1$s ફૂટમાં</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s કિલોમીટરમાં</item>
+        <item quantity="other">%1$s કિલોમીટરમાં</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s મીટરમાં</item>
+        <item quantity="other">%1$s મીટરમાં</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s માઇલમાં</item>
+        <item quantity="other">%1$s માઇલમાં</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s યાર્ડમાં</item>
+        <item quantity="other">%1$s યાર્ડમાં</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s કિલોમીટર પ્રતિ કલાક</item>
+        <item quantity="other">%s કિલોમીટર પ્રતિ કલાક</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s માઇલ પ્રતિ કલાક</item>
+        <item quantity="other">%s માઇલ પ્રતિ કલાક</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">તમારું ગંતવ્ય %1$s ફૂટ આગળ છે</item>
+        <item quantity="other">તમારું ગંતવ્ય %1$s ફૂટ આગળ છે</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">તમારું ગંતવ્ય %1$s કિલોમીટર આગળ છે</item>
+        <item quantity="other">તમારું ગંતવ્ય %1$s કિલોમીટર આગળ છે</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">તમારું ગંતવ્ય %1$s મીટર આગળ છે</item>
+        <item quantity="other">તમારું ગંતવ્ય %1$s મીટર આગળ છે</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">તમારું ગંતવ્ય %1$s માઇલ આગળ છે</item>
+        <item quantity="other">તમારું ગંતવ્ય %1$s માઇલ આગળ છે</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">તમારું ગંતવ્ય %1$s યાર્ડ આગળ છે</item>
+        <item quantity="other">તમારું ગંતવ્ય %1$s યાર્ડ આગળ છે</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">%1$d પસંદ કરી</item>
+        <item quantity="other">%1$d પસંદ કરી</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d રિપોર્ટ</item>
+        <item quantity="other">%1$d રિપોર્ટ</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d દિવસ પહેલાં</item>
+        <item quantity="other">%d દિવસ પહેલાં</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d કલાક પહેલાં</item>
+        <item quantity="other">%d કલાક પહેલાં</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d મહિનો પહેલાં</item>
+        <item quantity="other">%d મહિના પહેલાં</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d વર્ષ પહેલાં</item>
+        <item quantity="other">%d વર્ષ પહેલાં</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">સ્ટૉપ બદલો</item>
+        <item quantity="other">સ્ટૉપ બદલો</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">સ્ટૉપ બદલીએ છીએ</item>
+        <item quantity="other">સ્ટૉપ્સ બદલીએ છીએ</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d સ્ટૉપ</item>
+        <item quantity="other">%d સ્ટૉપ</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%2$dમાંથી %1$d</item>
+        <item quantity="other">%2$dમાંથી %1$d</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%2$dમાંથી %1$d સ્ટાર</item>
+        <item quantity="other">%2$dમાંથી %1$d સ્ટાર</item>
+    </plurals>
+</resources>

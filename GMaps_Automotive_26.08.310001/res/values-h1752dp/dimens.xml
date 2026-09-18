@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="car_app_bar_height">112.0dp</dimen>
+    <dimen name="car_primary_icon_size">56.0dp</dimen>
+    <dimen name="car_single_line_list_item_height">128.0dp</dimen>
+    <dimen name="car_sub_header_height">96.0dp</dimen>
+    <dimen name="car_touch_target_size">96.0dp</dimen>
+    <dimen name="car_vertical_line_divider_height">96.0dp</dimen>
+</resources>

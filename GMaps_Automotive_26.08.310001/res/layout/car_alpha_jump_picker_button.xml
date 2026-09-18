@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_margin="@dimen/car_padding_0" app:cardCornerRadius="@dimen/car_radius_1" app:layout_columnWeight="1.0" app:layout_rowWeight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:gravity="center" android:id="@id/button" android:background="@drawable/car_alpha_picker_button_background" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/TextAppearance.Car.Body1" />
+</androidx.cardview.widget.CardView>

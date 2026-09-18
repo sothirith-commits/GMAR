@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>raven napolnjenosti, zmogljivost in hitrost polnjenja baterije v različnih pogojih;</item>
+        <item>stanje klimatske naprave;</item>
+        <item>učinkovitost elektromotorjev in zaviranja;</item>
+        <item>tehnični podatki, kot je teža vozila.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>doseg avtomobila;</item>
+        <item>ocene napolnjenosti baterije glede na cilj;</item>
+        <item>priporočeni najkrajši časi polnjenja;</item>
+        <item>opozorila, npr. ko naslednja postaja ni v dosegu ali do naslednje postaje prispete s skoraj prazno baterijo;</item>
+        <item>izboljšano upravljanje energije baterije in učinkovitost delovanja vozila.</item>
+        <item>osebno prilagojeno načrtovanje poti, ko ste prijavljeni v telefon in avtomobil.</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Pri približevanju in oddaljevanju</item>
+        <item>Vedno</item>
+    </string-array>
+</resources>

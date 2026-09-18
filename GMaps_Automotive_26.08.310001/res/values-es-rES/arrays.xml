@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Nivel, capacidad y velocidad de carga de la batería en diferentes condiciones</item>
+        <item>Estado del aire acondicionado</item>
+        <item>Eficiencia de los motores eléctricos y los frenos</item>
+        <item>Especificaciones (por ejemplo, el peso del vehículo)</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Distancia que puede recorrer el vehículo</item>
+        <item>Estimaciones de la batería en función del destino</item>
+        <item>Tiempo mínimo de carga recomendado</item>
+        <item>Alertas (por ejemplo, si tu próxima parada está fuera del radio máximo o si vas a llegar a la próxima parada con poca batería)</item>
+        <item>Gestión de la batería y eficiencia del vehículo mejoradas</item>
+        <item>Planificación de viajes personalizada cuando tienes la sesión iniciada en tu teléfono y tu coche</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Al hacer zoom</item>
+        <item>Siempre</item>
+    </string-array>
+</resources>

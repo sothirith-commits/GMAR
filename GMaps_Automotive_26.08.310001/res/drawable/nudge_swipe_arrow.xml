@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="72.0dp" android:width="220.0dp" android:viewportWidth="220.0" android:viewportHeight="72.0"
+  xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h458v72h-458z" />
+        <path android:fillColor="@drawable/$nudge_swipe_arrow__0" android:pathData="M458,72L0,72L0,0L458,0L458,72Z" android:strokeAlpha="0.95" android:fillAlpha="0.7125" />
+    </group>
+</vector>
