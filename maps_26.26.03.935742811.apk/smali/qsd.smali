@@ -1,8 +1,0 @@
-.class public interface abstract Lqsd;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract a()Lcymm;
-.end method

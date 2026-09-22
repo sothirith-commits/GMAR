@@ -1,8 +1,0 @@
-.class public interface abstract Lgbi;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract b(Lgar;)Lgar;
-.end method

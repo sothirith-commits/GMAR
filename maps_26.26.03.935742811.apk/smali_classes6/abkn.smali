@@ -1,8 +1,0 @@
-.class public interface abstract Labkn;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract sN()Z
-.end method

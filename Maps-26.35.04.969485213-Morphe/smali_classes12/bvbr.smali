@@ -1,8 +1,0 @@
-.class public interface abstract Lbvbr;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract a(Landroid/view/MenuItem;)V
-.end method

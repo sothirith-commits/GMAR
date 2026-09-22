@@ -1,8 +1,0 @@
-.class public interface abstract Laud;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract a(JLcly;)F
-.end method

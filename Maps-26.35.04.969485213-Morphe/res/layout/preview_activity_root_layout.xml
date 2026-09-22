@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/preview_activity_root_layout" android:layout_width="match_parent" android:layout_height="match_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.apps.gmm.systems.screenlayout.ScreenLayout android:id="@id/preview_activity_screen_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
-    <FrameLayout android:id="@id/preview_activity_legacy_view_container" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" />
-</FrameLayout>

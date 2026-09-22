@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.button.MaterialButton android:theme="@style/Theme.GoogleMaterial.DayNight" android:textAppearance="@style/TextAppearance.GoogleMaterial.Button" android:id="@id/button" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:insetLeft="20.0dp" android:insetRight="20.0dp" android:insetTop="4.0dp" android:insetBottom="4.0dp" app:cornerRadius="20.0dp" app:icon="@drawable/rotatable_icon" app:iconGravity="textStart" style="@style/Widget.GoogleMaterial.Button.TextButton" />
-</merge>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="48.0dp" android:width="48.0dp" android:viewportWidth="48.0" android:viewportHeight="48.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="@drawable/$nudge_icon__0" android:pathData="M43.1957 23.3009L43.3982 23.5L43.1957 23.6991L31.7645 34.9356C31.2984 35.3937 30.5447 35.3937 30.0787 34.9356L28.1371 33.027C27.6683 32.5663 27.6683 31.8172 28.1371 31.3565L33.5633 26.0227L5 26.0227L4.72083 26.0227L4.72083 25.7435L4.72083 21.245L4.72083 20.9659L5 20.9659L33.5517 20.9659L28.1371 15.6435C27.6683 15.1828 27.6683 14.4337 28.1371 13.973L30.0787 12.0644C30.5447 11.6063 31.2984 11.6063 31.7645 12.0644L43.1957 23.3009Z" android:strokeColor="@drawable/$nudge_icon__1" android:strokeWidth="0.558343" />
-</vector>

@@ -1,8 +1,0 @@
-.class public interface abstract Ljava/util/function/LongPredicate;
-.super Ljava/lang/Object;
-.source "r8-map-id-13044ccc8962a4e1a13cd45a034361f359e8c9fef5b5de7b66fd3abd9d10af9a"
-
-
-# virtual methods
-.method public abstract test(J)Z
-.end method

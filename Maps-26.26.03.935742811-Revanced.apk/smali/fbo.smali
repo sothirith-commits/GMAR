@@ -1,8 +1,0 @@
-.class public interface abstract Lfbo;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract a(Landroid/view/View;)Ldws;
-.end method

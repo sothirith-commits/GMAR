@@ -1,3 +1,0 @@
-.class public final Lclnt;
-.super Ljava/lang/Object;
-.source "PG"

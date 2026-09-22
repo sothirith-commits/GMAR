@@ -1,8 +1,0 @@
-.class public interface abstract Lwtn;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract a(Lcnwl;)Lwto;
-.end method

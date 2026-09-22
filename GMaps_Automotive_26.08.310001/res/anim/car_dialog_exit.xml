@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<set android:interpolator="@android:anim/accelerate_interpolator"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <alpha android:duration="@integer/car_dialog_exit_duration_ms" android:fromAlpha="1.0" android:toAlpha="0.0" android:delay="@integer/car_dialog_exit_start_delay_ms" />
-    <scale android:duration="@integer/car_dialog_exit_duration_delayed_ms" android:pivotX="50.0%" android:pivotY="50.0%" android:fromXScale="1.0" android:toXScale="@dimen/car_dialog_anim_exit_scale_small" android:fromYScale="1.0" android:toYScale="@dimen/car_dialog_anim_exit_scale_small" android:delay="@integer/car_dialog_exit_start_delay_ms" />
-</set>

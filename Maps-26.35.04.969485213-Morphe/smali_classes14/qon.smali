@@ -1,8 +1,0 @@
-.class public interface abstract Lqon;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract c(Lalfy;Lgql;)V
-.end method
