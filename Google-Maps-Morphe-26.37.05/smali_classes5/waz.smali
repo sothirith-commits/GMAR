@@ -1,0 +1,352 @@
+.class public final Lwaz;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field public static final a:Lbwny;
+
+
+# instance fields
+.field public final b:Lawau;
+
+.field public final c:Lcpuk;
+
+.field public final d:Lwpj;
+
+.field public e:Z
+
+.field public f:Llyk;
+
+.field public final g:Lxxb;
+
+.field public h:Lcom/google/common/util/concurrent/SettableFuture;
+
+.field public final i:Lcprh;
+
+.field private final j:Ljava/util/concurrent/Executor;
+
+.field private final k:Lbvtl;
+
+.field private final l:Z
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    .line 2
+    const-string v0, "waz"
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {v0}, Lbwny;->g(Ljava/lang/String;)Lbwny;
+
+    .line 6
+    move-result-object v0
+
+    .line 7
+    .line 8
+    sput-object v0, Lwaz;->a:Lbwny;
+
+    .line 9
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/app/Activity;Ljava/util/concurrent/Executor;Lawau;Lcpuk;Lbvtl;Lyzs;Lwpj;Lcprh;)V
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    .line 6
+    iput-boolean v0, p0, Lwaz;->e:Z
+
+    .line 7
+    .line 8
+    sget-object v0, Llyk;->c:Llyk;
+
+    .line 9
+    .line 10
+    iput-object v0, p0, Lwaz;->f:Llyk;
+
+    .line 11
+    .line 12
+    iput-object p2, p0, Lwaz;->j:Ljava/util/concurrent/Executor;
+
+    .line 13
+    .line 14
+    iput-object p3, p0, Lwaz;->b:Lawau;
+
+    .line 15
+    .line 16
+    iput-object p4, p0, Lwaz;->c:Lcpuk;
+
+    .line 17
+    .line 18
+    iput-object p5, p0, Lwaz;->k:Lbvtl;
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-virtual {p6, p7, p8}, Lyzs;->d(Lwpj;Lcprh;)Z
+
+    .line 22
+    move-result p2
+
+    .line 23
+    .line 24
+    iput-boolean p2, p0, Lwaz;->l:Z
+
+    .line 25
+    .line 26
+    iput-object p7, p0, Lwaz;->d:Lwpj;
+
+    .line 27
+    .line 28
+    iput-object p8, p0, Lwaz;->i:Lcprh;
+
+    .line 29
+    .line 30
+    .line 31
+    invoke-virtual {p7, p8, p1}, Lwpj;->K(Lcprh;Landroid/content/Context;)Lxxb;
+
+    .line 32
+    move-result-object p1
+
+    .line 33
+    .line 34
+    iput-object p1, p0, Lwaz;->g:Lxxb;
+
+    .line 35
+    return-void
+.end method
+
+
+# virtual methods
+.method public final declared-synchronized a()V
+    .locals 3
+
+    .line 1
+    monitor-enter p0
+
+    .line 2
+    const/4 v0, 0x1
+
+    .line 3
+    .line 4
+    :try_start_0
+    iput-boolean v0, p0, Lwaz;->e:Z
+
+    .line 5
+    .line 6
+    new-instance v0, Lcom/google/common/util/concurrent/SettableFuture;
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-direct {v0}, Lcom/google/common/util/concurrent/SettableFuture;-><init>()V
+
+    .line 10
+    .line 11
+    iput-object v0, p0, Lwaz;->h:Lcom/google/common/util/concurrent/SettableFuture;
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-virtual {p0}, Lwaz;->b()Z
+
+    .line 15
+    move-result v0
+
+    .line 16
+    .line 17
+    if-eqz v0, :cond_2
+
+    .line 18
+    .line 19
+    iget-object v0, p0, Lwaz;->g:Lxxb;
+
+    .line 20
+    .line 21
+    if-nez v0, :cond_0
+
+    .line 22
+    goto :goto_0
+
+    .line 23
+    .line 24
+    :cond_0
+    iget-object v0, p0, Lwaz;->k:Lbvtl;
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-virtual {v0}, Lbvtl;->g()Ljava/lang/Object;
+
+    .line 28
+    move-result-object v0
+
+    .line 29
+    .line 30
+    check-cast v0, Lasdz;
+
+    .line 31
+    .line 32
+    if-eqz v0, :cond_1
+
+    .line 33
+    .line 34
+    .line 35
+    invoke-virtual {v0}, Lasdz;->g()Lcom/google/common/util/concurrent/ListenableFuture;
+
+    .line 36
+    move-result-object v0
+
+    .line 37
+    .line 38
+    new-instance v1, Lvwa;
+
+    .line 39
+    const/4 v2, 0x5
+
+    .line 40
+    .line 41
+    .line 42
+    invoke-direct {v1, p0, v2}, Lvwa;-><init>(Ljava/lang/Object;I)V
+
+    .line 43
+    .line 44
+    iget-object v2, p0, Lwaz;->j:Ljava/util/concurrent/Executor;
+
+    .line 45
+    .line 46
+    .line 47
+    invoke-static {v0, v1, v2}, Lbunv;->bH(Lcom/google/common/util/concurrent/ListenableFuture;Lbyxq;Ljava/util/concurrent/Executor;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 48
+    monitor-exit p0
+
+    .line 49
+    return-void
+
+    .line 50
+    :cond_1
+    monitor-exit p0
+
+    .line 51
+    return-void
+
+    .line 52
+    .line 53
+    :cond_2
+    :goto_0
+    :try_start_1
+    iget-object v0, p0, Lwaz;->h:Lcom/google/common/util/concurrent/SettableFuture;
+
+    .line 54
+    .line 55
+    sget-object v1, Lwao;->d:Lwao;
+
+    .line 56
+    .line 57
+    .line 58
+    invoke-virtual {v0, v1}, Lcom/google/common/util/concurrent/SettableFuture;->m(Ljava/lang/Object;)Z
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 59
+    monitor-exit p0
+
+    .line 60
+    return-void
+
+    .line 61
+    :catchall_0
+    move-exception v0
+
+    .line 62
+    :try_start_2
+    monitor-exit p0
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    .line 63
+    throw v0
+.end method
+
+.method public final b()Z
+    .locals 4
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lwaz;->g:Lxxb;
+
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    .line 5
+    if-nez v0, :cond_0
+
+    .line 6
+    return v1
+
+    .line 7
+    .line 8
+    :cond_0
+    iget-object v2, v0, Lxxb;->g:Lcjfk;
+
+    .line 9
+    .line 10
+    sget-object v3, Lcjfk;->c:Lcjfk;
+
+    .line 11
+    .line 12
+    if-ne v2, v3, :cond_2
+
+    .line 13
+    .line 14
+    iget v0, v0, Lxxb;->J:I
+
+    .line 15
+    .line 16
+    const/16 v2, 0x3a98
+
+    .line 17
+    .line 18
+    if-le v0, v2, :cond_1
+
+    .line 19
+    goto :goto_0
+
+    .line 20
+    .line 21
+    :cond_1
+    iget-boolean p0, p0, Lwaz;->l:Z
+
+    .line 22
+    .line 23
+    if-eqz p0, :cond_2
+
+    .line 24
+    const/4 p0, 0x1
+
+    .line 25
+    return p0
+
+    .line 26
+    :cond_2
+    :goto_0
+    return v1
+.end method

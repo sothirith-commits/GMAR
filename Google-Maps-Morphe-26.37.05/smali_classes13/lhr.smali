@@ -1,0 +1,24 @@
+.class final Llhr;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Llhp;
+
+
+# virtual methods
+.method public final a(Landroid/content/Context;I)Lljx;
+    .locals 0
+
+    .line 1
+    new-instance p0, Lljx;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, p2}, Lljx;-><init>(I)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object p0
+.end method

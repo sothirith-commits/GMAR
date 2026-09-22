@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">Sinulla on %d voimassa oleva metrolippu</item>
+        <item quantity="other">Sinulla on %d voimassa olevaa metrolippua</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">Sinulla on %d voimassa oleva lippu tälle reitille</item>
+        <item quantity="other">Sinulla on %d voimassa olevaa lippua tälle reitille</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">%d muu vaihtoehto</item>
+        <item quantity="other">%d muuta vaihtoehtoa</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="one">%1$d henkilö on ilmoittanut tästä</item>
+        <item quantity="other">%1$d henkilöä on ilmoittanut tästä</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d henkilön ilmoituksen mukaan</item>
+        <item quantity="other">%1$d henkilön ilmoituksen mukaan</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d ilmoitus</item>
+        <item quantity="other">%d ilmoitusta</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d sijainti</item>
+        <item quantity="other">%1$d sijaintia</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">Näytä vastaus</item>
+        <item quantity="other">Näytä vastaukset (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">Tutustu paikkoihin</item>
+        <item quantity="other">Tutustu %d paikkaan täällä</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d pyörä saatavilla</item>
+        <item quantity="other">%d pyörää saatavilla</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">%s polkupyörä asemalla</item>
+        <item quantity="other">%s polkupyörää asemalla</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d polkupyörä</item>
+        <item quantity="other">%d polkupyörää</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d teline vapaana</item>
+        <item quantity="other">%d telinettä vapaana</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d teline</item>
+        <item quantity="other">%d telinettä</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">%1$d henkilö suosittelee</item>
+        <item quantity="other">%1$d henkilöä suosittelee</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Nopeampi reitti, %1$s pysähdys vähemmän</item>
+        <item quantity="other">Nopeampi reitti, %1$s pysähdystä vähemmän</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Nopeampi reitti, %1$s pysähdys enemmän</item>
+        <item quantity="other">Nopeampi reitti, %1$s pysähdystä enemmän</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Nopeampi reitti saatavilla, %1$s pysähdys vaihtunut</item>
+        <item quantity="other">Nopeampi reitti saatavilla, %1$s pysähdystä vaihtunut</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Uusi reitti tarvitaan, %1$s pysähdys vähemmän</item>
+        <item quantity="other">Uusi reitti tarvitaan, %1$s pysähdystä vähemmän</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Uusi reitti tarvitaan, %1$s pysähdys enemmän</item>
+        <item quantity="other">Uusi reitti tarvitaan, %1$s pysähdystä enemmän</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Uusi reitti tarvitaan, %1$s pysähdys vaihtunut</item>
+        <item quantity="other">Uusi reitti tarvitaan, %1$s pysähdystä vaihtunut</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Uusi reitti, %1$s pysähdys vähemmän</item>
+        <item quantity="other">Uusi reitti, %1$s pysähdystä vähemmän</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Uusi reitti, %1$s pysähdys vähemmän</item>
+        <item quantity="other">Uusi reitti, %1$s pysähdystä vähemmän</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Saatavilla uusi reitti, jolla on %1$s latauspysähdys vähemmän ja joka on %2$s nopeampi sisältäen ajo- ja latausajan.</item>
+        <item quantity="other">Saatavilla uusi reitti, jolla on %1$s latauspysähdystä vähemmän ja joka on %2$s nopeampi sisältäen ajo- ja latausajan.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Saatavilla uusi reitti, jolla on %1$s latauspysähdys enemmän ja joka on %2$s nopeampi sisältäen ajo- ja latausajan.</item>
+        <item quantity="other">Saatavilla uusi reitti, jolla on %1$s latauspysähdystä enemmän ja joka on %2$s nopeampi sisältäen ajo- ja latausajan.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Sinun on valittava uusi reitti, jolla on %1$s latauspysähdys vähemmän. Saavut perille %2$s.</item>
+        <item quantity="other">Sinun on valittava uusi reitti, jolla on %1$s latauspysähdystä vähemmän. Saavut perille %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Sinun on valittava uusi reitti, jolla on %1$s latauspysähdys enemmän. Saavut perille %2$s.</item>
+        <item quantity="other">Sinun on valittava uusi reitti, jolla on %1$s latauspysähdystä enemmän. Saavut perille %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Sinun on valittava uusi reitti. %1$s latauspysähdys on vaihtunut. Saavut perille %2$s.</item>
+        <item quantity="other">Sinun on valittava uusi reitti. %1$s latauspysähdystä on vaihtunut. Saavut perille %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Saatavilla uusi reitti, jolla on %1$s latauspysähdys vähemmän. Saapumisaika pysyy ennallaan.</item>
+        <item quantity="other">Saatavilla uusi reitti, jolla on %1$s latauspysähdystä vähemmän. Saapumisaika pysyy ennallaan.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Saatavilla uusi reitti, jolla on %1$s latauspysähdys vähemmän ja joka on %2$s hitaampi sisältäen ajo- ja latausajan.</item>
+        <item quantity="other">Saatavilla uusi reitti, jolla on %1$s latauspysähdystä vähemmän ja joka on %2$s hitaampi sisältäen ajo- ja latausajan.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">Käytetty %1$d päivä sitten</item>
+        <item quantity="other">Käytetty %1$d päivää sitten</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">Käytetty %1$d viikko sitten</item>
+        <item quantity="other">Käytetty %1$d viikkoa sitten</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">+%1$d verkosto</item>
+        <item quantity="other">+%1$d verkostoa</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">%1$d valittu</item>
+        <item quantity="other">%1$d valittu</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s latauspysähdys</item>
+        <item quantity="other">%1$s latauspysähdystä</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d pysähdys</item>
+        <item quantity="other">%1$d pysähdystä</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d valittu</item>
+        <item quantity="other">%1$d valittu</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">ja %1$d muu</item>
+        <item quantity="other">ja %1$d muuta</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">ja %1$d muu</item>
+        <item quantity="other">ja %1$d muuta</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">+%1$d lisää</item>
+        <item quantity="other">+%1$d lisää</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="one">%2$d min työpaikalle</item>
+        <item quantity="other">%1$d h %2$d min työpaikalle</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="one">%2$d min kotiin</item>
+        <item quantity="other">%1$d h %2$d min kotiin</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="one">%2$d min työpaikalle</item>
+        <item quantity="other">%1$d t %2$d min työpaikalle</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="one">%2$d min matka-aika</item>
+        <item quantity="other">%1$d t %2$d min matka-aika</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="one">%2$d min kotiin</item>
+        <item quantity="other">%1$d t %2$d min kotiin</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">%d min tavallista nopeampi</item>
+        <item quantity="other">%d min tavallista nopeampi</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">%d min tavallista hitaampi</item>
+        <item quantity="other">%d min tavallista hitaampi</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Kartan suuntaus %d aste.</item>
+        <item quantity="other">Kartan suuntaus %d astetta.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">%d tähden yritys</item>
+        <item quantity="other">%d tähden yritys</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">Tason %d Local Guide</item>
+        <item quantity="other">Tason %d Local Guide</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">Olet antanut paikalle %1$s 1 tähden.</item>
+        <item quantity="other">Olet antanut paikalle %1$s %2$d tähteä.</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">piste</item>
+        <item quantity="other">pistettä</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s päivä</item>
+        <item quantity="other">%s päivää</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s p</item>
+        <item quantity="other">%s p</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s pv</item>
+        <item quantity="other">%s pv</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s päivä</item>
+        <item quantity="other">%s päivää</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s tunti</item>
+        <item quantity="other">%s tuntia</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s t</item>
+        <item quantity="other">%s t</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s t</item>
+        <item quantity="other">%s t</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s minuutti</item>
+        <item quantity="other">%s minuuttia</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s sekunti</item>
+        <item quantity="other">%s sekuntia</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Jatka %1$s jalka.</item>
+        <item quantity="other">Jatka %1$s jalkaa.</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Jatka %1$s kilometri.</item>
+        <item quantity="other">Jatka %1$s kilometriä.</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Jatka %1$s metri.</item>
+        <item quantity="other">Jatka %1$s metriä.</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Jatka %1$s maili.</item>
+        <item quantity="other">Jatka %1$s mailia.</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Jatka %1$s jaardi.</item>
+        <item quantity="other">Jatka %1$s jaardia.</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Jatka tiellä %2$s %1$s jalka.</item>
+        <item quantity="other">Jatka tiellä %2$s %1$s jalkaa.</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Jatka tiellä %2$s %1$s kilometri.</item>
+        <item quantity="other">Jatka tiellä %2$s %1$s kilometriä.</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Jatka tiellä %2$s %1$s metri.</item>
+        <item quantity="other">Jatka tiellä %2$s %1$s metriä.</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Jatka tiellä %2$s %1$s maili.</item>
+        <item quantity="other">Jatka tiellä %2$s %1$s mailia.</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Jatka tiellä %2$s %1$s jaardi.</item>
+        <item quantity="other">Jatka tiellä %2$s %1$s jaardi.</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s jalan päästä</item>
+        <item quantity="other">%1$s jalan päästä</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s kilometrin päästä</item>
+        <item quantity="other">%1$s kilometrin päästä</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s metrin päästä</item>
+        <item quantity="other">%1$s metrin päästä</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s mailin päästä</item>
+        <item quantity="other">%1$s mailin päästä</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s jaardin päästä</item>
+        <item quantity="other">%1$s jaardin päästä</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometri tunnissa</item>
+        <item quantity="other">%s kilometriä tunnissa</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s maili tunnissa</item>
+        <item quantity="other">%s mailia tunnissa</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Määränpääsi on %1$s jalan päässä.</item>
+        <item quantity="other">Määränpääsi on %1$s jalan päässä.</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Määränpääsi on %1$s kilometrin päässä.</item>
+        <item quantity="other">Määränpääsi on %1$s kilometrin päässä.</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Määränpääsi on %1$s metrin päässä.</item>
+        <item quantity="other">Määränpääsi on %1$s metrin päässä.</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Määränpääsi on %1$s mailin päässä.</item>
+        <item quantity="other">Määränpääsi on %1$s mailin päässä.</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Määränpääsi on %1$s jaardin päässä.</item>
+        <item quantity="other">Määränpääsi on %1$s jaardin päässä.</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d pysäkki</item>
+        <item quantity="other">%d pysäkkiä</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d jatkoyhteysvalinta</item>
+        <item quantity="other">%1$d jatkoyhteysvalintaa</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">Päivitetty %d päivä sitten</item>
+        <item quantity="other">Päivitetty %d päivää sitten</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">Päivitetty %d kuukausi sitten</item>
+        <item quantity="other">Päivitetty %d kuukautta sitten</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">Päivitetty %d viikko sitten</item>
+        <item quantity="other">Päivitetty %d viikkoa sitten</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d polkupyörä</item>
+        <item quantity="other">%d polkupyörää</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">%d pyörä lähellä</item>
+        <item quantity="other">%d pyörää lähellä</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">%1$d valittu</item>
+        <item quantity="other">%1$d valittu</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d/%2$d latausportti</item>
+        <item quantity="other">%1$d/%2$d latausporttia</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d latausportti</item>
+        <item quantity="other">%d latausporttia</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">Yhden tähden antaminen epäonnistui. Yritä uudelleen.</item>
+        <item quantity="other">%1$d tähden antaminen epäonnistui. Yritä uudelleen.</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">Kerros %s</item>
+        <item quantity="other">Kerrokset %s</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">%d lisäyö</item>
+        <item quantity="other">%d lisäyötä</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">Lisää %d yö</item>
+        <item quantity="other">Lisää %d yötä</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">Tässä hotellissa on saatavilla %1$d yön majoituksia. %2$s, niin hinta on keskimäärin %3$s/yö.</item>
+        <item quantity="other">Tässä hotellissa on saatavilla %1$d yön majoituksia. %2$s, niin hinta on keskimäärin %3$s/yö.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">Varaa %1$s, niin hinta on keskimäärin %2$s/yö.</item>
+        <item quantity="other">Varaa %1$s, niin hinta on keskimäärin %2$s/yö.</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d vieras</item>
+        <item quantity="other">%d vierasta</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">ja %d muu.</item>
+        <item quantity="other">ja %d muuta.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">+ %d muu</item>
+        <item quantity="other">+ %d muuta</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="one">%d pv sitten</item>
+        <item quantity="other">%d pv sitten</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="one">%d t sitten</item>
+        <item quantity="other">%d t sitten</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="one">%d min sitten</item>
+        <item quantity="other">%d min sitten</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">Tallennettu listaan %1$s ja %2$d muuhun listaan</item>
+        <item quantity="other">Tallennettu listaan %1$s ja %2$d muuhun listaan</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Tallennettu ja %1$d listalla</item>
+        <item quantity="other">Tallennettu ja %1$d listalla</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="one">Poistettu %d listasta</item>
+        <item quantity="other">Poistettu %d listasta</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">Kävit täällä %d kuukausi sitten.</item>
+        <item quantity="other">Kävit täällä %d kuukautta sitten.</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">Kävit täällä %d viikko sitten.</item>
+        <item quantity="other">Kävit täällä %d viikkoa sitten.</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">Kävit täällä %d vuosi sitten</item>
+        <item quantity="other">Kävit täällä %d vuotta sitten</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d tapahtuma</item>
+        <item quantity="other">%d tapahtumaa</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d kohde</item>
+        <item quantity="other">%d kohdetta</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d paikka</item>
+        <item quantity="other">%d paikkaa</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">%d tallennus</item>
+        <item quantity="other">%d tallennusta</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d reittivaihtoehto</item>
+        <item quantity="other">%d reittivaihtoehtoa</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s näkymä</item>
+        <item quantity="other">%s näkymää</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="one">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">Muokattu %d päivä sitten</item>
+        <item quantity="other">Muokattu %d päivää sitten</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">Muokattu %d kuukausi sitten</item>
+        <item quantity="other">Muokattu %d kuukautta sitten</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">Muokattu %d viikko sitten</item>
+        <item quantity="other">Muokattu %d viikkoa sitten</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">Muokattu %d vuosi sitten</item>
+        <item quantity="other">Muokattu %d vuotta sitten</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="one">%d pysähdys</item>
+        <item quantity="other">%d pysähdystä</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">Sinulla on %d piste</item>
+        <item quantity="other">Sinulla on %d pistettä</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">Enää %1$d piste, niin saavutat tason %2$d</item>
+        <item quantity="other">Enää %1$d pistettä, niin saavutat tason %2$d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">Taso %d</item>
+        <item quantity="other">Taso %d</item>
+    </plurals>
+    <plurals name="plurals_0x7f120093">
+        <item quantity="one">Local Guide ‑taso %d</item>
+        <item quantity="other">Local Guide ‑taso %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">Toiminnassa %d vuoden</item>
+        <item quantity="other">Toiminnassa yli %d vuotta</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d päivä sitten</item>
+        <item quantity="other">%d päivää sitten</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d tunti sitten</item>
+        <item quantity="other">%d tuntia sitten</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d min sitten</item>
+        <item quantity="other">%d min sitten</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">%d paikka täällä</item>
+        <item quantity="other">%d paikkaa täällä</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">Kuva on poistettu</item>
+        <item quantity="other">Kuvaa on poistettu</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Suurenna postauksen %1$d video</item>
+        <item quantity="other">Suurenna postauksen %1$d video %2$d</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d/%2$,d</item>
+        <item quantity="other">%1$,d/%2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Ladataan %1$d mediasisältöä</item>
+        <item quantity="other">Ladataan %1$d mediasisältöä</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Ruokalistasta otetun valokuvan numero %d</item>
+        <item quantity="other">Ruokalistasta otetun valokuvan numero %d</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d ilmoitus</item>
+        <item quantity="other">%1$d ilmoitusta</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">Tämän linkin saaneet ihmiset voivat nähdä sijaintisi yhden vuorokauden ja %d tunnin ajan</item>
+        <item quantity="other">Tämän linkin saaneet ihmiset voivat nähdä sijaintisi yhden vuorokauden ja %d tunnin ajan</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">Tämän linkin saaneet ihmiset voivat nähdä sijaintisi 1 tunnin ja %d minuutin ajan</item>
+        <item quantity="other">Tämän linkin saaneet ihmiset voivat nähdä sijaintisi 1 tunnin ja %d minuutin ajan</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">Tämän linkin saaneet ihmiset voivat nähdä sijaintisi %d päivän ajan</item>
+        <item quantity="other">Tämän linkin saaneet ihmiset voivat nähdä sijaintisi %d päivän ajan</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">Tämän linkin saaneet ihmiset voivat nähdä sijaintisi %d tunnin ajan</item>
+        <item quantity="other">Tämän linkin saaneet ihmiset voivat nähdä sijaintisi %d tunnin ajan</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">Tämän linkin saaneet ihmiset voivat nähdä sijaintisi %d minuutin ajan</item>
+        <item quantity="other">Tämän linkin saaneet ihmiset voivat nähdä sijaintisi %d minuutin ajan</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">%d muu</item>
+        <item quantity="other">%d muuta</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Mykistä postauksen %1$d video</item>
+        <item quantity="other">Mykistä postauksen %1$d video %2$d</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d kuva/video</item>
+        <item quantity="other">%d kuvaa/videota</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videota</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">Oma avatar %1$d/%2$d</item>
+        <item quantity="other">Oma avatar %1$d/%2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d uusi päivitys</item>
+        <item quantity="other">%d uutta päivitystä</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">Yrityspäivitykset – %1$s uusi ilmoitus</item>
+        <item quantity="other">Yrityspäivitykset – %1$s uutta ilmoitusta</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d kuva</item>
+        <item quantity="other">%d kuvaa</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d arvostelu</item>
+        <item quantity="other">%d arvostelua</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">Pikkukuva %d</item>
+        <item quantity="other">Pikkukuva %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d offline-tilainen alue</item>
+        <item quantity="other">%d offline-tilaista aluetta</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">Perustuu %1$d ilmoitukseen</item>
+        <item quantity="other">Perustuu %1$d ilmoitukseen</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Keskeytä postauksen %1$d video</item>
+        <item quantity="other">Keskeytä postauksen %1$d video %2$d</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s Interaktio</item>
+        <item quantity="other">%1$s Interaktiota</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s haku</item>
+        <item quantity="other">%1$s hakua</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s katselukerta</item>
+        <item quantity="other">%1$s katselukertaa</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one"> Varaus %d yöksi</item>
+        <item quantity="other">Varaus %d yöksi</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">Vain sinä näet tämän</item>
+        <item quantity="other">Vain sinä näet nämä</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d päivä</item>
+        <item quantity="other">%1$d päivää</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d yö</item>
+        <item quantity="other">%1$d yötä</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d kuva</item>
+        <item quantity="other">%d kuvaa</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Odotetaan langatonta yhteyttä.
+ %d kuva tai video jonossa."</item>
+        <item quantity="other">"Odotetaan langatonta yhteyttä.
+ %d kuvaa tai videota jonossa."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">Postauksen %1$d kuva</item>
+        <item quantity="other">Postauksen %1$d kuva %2$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d päivä sitten</item>
+        <item quantity="other">%d päivää sitten</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d tunti sitten</item>
+        <item quantity="other">%d tuntia sitten</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d kuukausi sitten</item>
+        <item quantity="other">%d kuukautta sitten</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d viikko sitten</item>
+        <item quantity="other">%d viikkoa sitten</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d vuosi sitten</item>
+        <item quantity="other">%d vuotta sitten</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d päivitys</item>
+        <item quantity="other">%d päivitystä</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">Näytä %d vastaus</item>
+        <item quantity="other">Näytä %d vastausta</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Toista postauksen %1$d video</item>
+        <item quantity="other">Toista postauksen %1$d video %2$d</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+%d muu käyttäjä</item>
+        <item quantity="other">+%d muuta käyttäjää</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Korvaa pysäkki</item>
+        <item quantity="other">Korvaa pysäkit</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Korvataan pysäkki</item>
+        <item quantity="other">Korvataan pysäkit</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d näyttökerta</item>
+        <item quantity="other">%,d näyttökertaa</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d arvio</item>
+        <item quantity="other">%d arviota</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d arvostelu</item>
+        <item quantity="other">%d arvostelua</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">Arvio: %d tähti</item>
+        <item quantity="other">Arvio: %d tähteä</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="one">%d tähti</item>
+        <item quantity="other">%d tähteä</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">1 seuraavantyyppinen reaktio: %2$s</item>
+        <item quantity="other">%1$,d seuraavantyyppistä reaktiota: %2$s</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">Päivitetty %d min sitten</item>
+        <item quantity="other">Päivitetty %d min sitten</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Valitse %1$d vaunun junasta %2$s nopeinta poistumista varten</item>
+        <item quantity="other">Valitse %1$d vaunun junasta %2$s nopeinta poistumista varten</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Valitse %1$d vaunun junasta %2$s nopeinta vaihtoa varten</item>
+        <item quantity="other">Valitse %1$d vaunun junasta %2$s nopeinta vaihtoa varten</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">Tässä vaunussa on eniten tilaa: %1$s</item>
+        <item quantity="other">Näissä vaunuissa on eniten tilaa: %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">%1$d vaunun juna</item>
+        <item quantity="other">%1$d vaunun juna</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d maksuverkosto</item>
+        <item quantity="other">%d maksuverkostoa</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s ja %2$s muu</item>
+        <item quantity="other">%1$s ja %2$s muuta</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="one">%d+</item>
+        <item quantity="other">%d+</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">Anna arvioksi 1/5 tähteä</item>
+        <item quantity="other">Anna arvioksi %1$d/5 tähteä</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s katselukerta</item>
+        <item quantity="other">%s katselukertaa</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d tähtiluokitus tai arvostelu</item>
+        <item quantity="other">%,d tähtiluokitusta tai arvostelua</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d tähtiluokitus tai arvostelu</item>
+        <item quantity="other">%,d tähtiluokitusta tai arvostelua</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d henkilö</item>
+        <item quantity="other">%d henkilöä</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="one">%d kysymys</item>
+        <item quantity="other">%d kysymystä</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">%d luetteloon</item>
+        <item quantity="other">%d luetteloon</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Tallennettu listaan %1$s sekä %2$d muuhun listaan</item>
+        <item quantity="other">Tallennettu listaan %1$s sekä %2$d muuhun listaan</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">Tallennetaanko vierailu, josta on %d päivä?</item>
+        <item quantity="other">Tallennetaanko vierailu, josta on %d päivää?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">Haulla %2$s löytyi %1$d tulos</item>
+        <item quantity="other">Haulla %2$s löytyi %1$d tulosta.</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">Lähetetään yhden tähden arviota.</item>
+        <item quantity="other">Lähetetään %1$d tähden arviota.</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">%d päivän ajan</item>
+        <item quantity="other">%d päivän ajan</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">%d tunnin ajan</item>
+        <item quantity="other">%d tunnin ajan</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">%d minuutin ajan</item>
+        <item quantity="other">%d minuutin ajan</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">Sijaintisi jaetaan henkilölle %2$s ja %1$d muulle</item>
+        <item quantity="other">Sijaintisi jaetaan henkilölle %2$s ja %1$d muulle</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">Sijaintisi jaetaan %d muulle henkilölle</item>
+        <item quantity="other">Sijaintisi jaetaan %d muulle henkilölle</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="one">Tallenna %d paikka</item>
+        <item quantity="other">Tallenna %d paikkaa</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="one">%d paikka löydetty</item>
+        <item quantity="other">%d paikkaa löydetty</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s, %2$d tähti</item>
+        <item quantity="other">%1$s, %2$d tähteä</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">Yhden tähden antaminen onnistui.</item>
+        <item quantity="other">%1$d tähden antaminen onnistui.</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d näyttökerta</item>
+        <item quantity="other">%,d näyttökertaa</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d ⁡⁡⁡pistettä</item>
+        <item quantity="other">+%d ⁡pistettä</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">Julkaise %1$d kuva tai video paikasta %2$s</item>
+        <item quantity="other">Julkaise %1$d kuvaa ja videota paikasta %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">Postaa %1$d kuva paikasta %2$s</item>
+        <item quantity="other">Postaa %1$d kuvaa paikasta %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">+%d muu</item>
+        <item quantity="other">+%d muuta</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">Postaa %1$d kuva</item>
+        <item quantity="other">Postaa %1$d kuvaa</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">Julkaise %1$d</item>
+        <item quantity="other">Julkaise %1$d</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$d henkilö mainitsee aiheen %2$s</item>
+        <item quantity="other">%1$,d henkilöä mainitsee aiheen %2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">Yksi reaktio</item>
+        <item quantity="other">%1$,d reaktiota</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">Näytä %1$d muu vaihtoehto (alkaen %2$s)</item>
+        <item quantity="other">Näytä %1$d muuta vaihtoehtoa (alkaen %2$s)</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">Näytä %1$d muu vaihtoehto</item>
+        <item quantity="other">Näytä %1$d muuta vaihtoehtoa</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">Tallenna osoitteesi, niin näet nopeimmat reitit ruuhkan ohittamiseksi</item>
+        <item quantity="other">Tallenna osoitteesi, niin näet nopeimmat reitit ruuhkan ohittamiseksi</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">Lähtöajat päivitetty %1$d s sitten</item>
+        <item quantity="other">Lähtöajat päivitetty %1$d s sitten</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">Lähtee minuutin välein</item>
+        <item quantity="other">Lähtee %d minuutin välein</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d. min</item>
+        <item quantity="other">%d. min</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES_LONG">
+        <item quantity="one">minuutti</item>
+        <item quantity="other">minuuttia</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="one">%1$s (1 ilmoitus)</item>
+        <item quantity="other">%1$s (%2$d ilmoitusta)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="one">Bussi %1$s (1 ilmoitus)</item>
+        <item quantity="other">Bussi %1$s (%2$d ilmoitusta)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="one">Lautta %1$s (1 ilmoitus)</item>
+        <item quantity="other">Lautta %1$s (%2$d ilmoitusta)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="one">Linja %1$s (1 ilmoitus)</item>
+        <item quantity="other">Linja %1$s (%2$d ilmoitusta)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="one">Juna %1$s (1 ilmoitus)</item>
+        <item quantity="other">Juna %1$s (%2$d ilmoitusta)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="one">Raitiovaunu %1$s (1 ilmoitus)</item>
+        <item quantity="other">Raitiovaunu %1$s (%2$d ilmoitusta)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="one">1 min välein</item>
+        <item quantity="other">%d min välein</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d pysäkki</item>
+        <item quantity="other">%d pysäkkiä</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_CARD">
+        <item quantity="one">"%1$d
+min sitten"</item>
+        <item quantity="other">"%1$d
+min sitten"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">" %1$s
+min sitten"</item>
+        <item quantity="other">" %1$s
+min sitten"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Lähti %1$s minuutti sitten</item>
+        <item quantity="other">Lähti %1$s minuuttia sitten</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d ilmoitus</item>
+        <item quantity="other">+%d ilmoitusta</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d ilmoitus</item>
+        <item quantity="other">+ %d ilmoitusta</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d muu</item>
+        <item quantity="other">+%d muuta</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d muu</item>
+        <item quantity="other">ja %d muuta</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_ITEMS_COUNT">
+        <item quantity="one">ja %1$d muu</item>
+        <item quantity="other">ja %1$d muuta</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">" %1$s
+min"</item>
+        <item quantity="other">" %1$s
+min"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s minuutti sitten</item>
+        <item quantity="other">%1$s minuuttia sitten</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Lähtee %1$s minuutin kuluttua</item>
+        <item quantity="other">Lähtee %1$s minuutin kuluttua</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">%1$s varoitus lisää</item>
+        <item quantity="other">%1$s varoitusta lisää</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s kuva</item>
+        <item quantity="other">%s kuvaa</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s arvostelu</item>
+        <item quantity="other">%s arvostelua</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d lisätty sisältö</item>
+        <item quantity="other">%,d lisättyä sisältöä</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d katselukerta</item>
+        <item quantity="other">%,d katselukertaa</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Valitse enintään %1$d</item>
+        <item quantity="other">Valitse enintään %1$d</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Valitse enintään %1$s valokuva</item>
+        <item quantity="other">Valitse enintään %1$s kuvaa</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Poista mykistys postauksen %1$d videosta</item>
+        <item quantity="other">Poista mykistys postauksen %1$d videosta %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Odotetaan langatonta yhteyttä.
+ %d kuva jonossa."</item>
+        <item quantity="other">"Odotetaan langatonta yhteyttä.
+ %d kuvaa jonossa."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d kuva valittu</item>
+        <item quantity="other">%d kuvaa valittu</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">Käydyt paikat: %1$d/%2$d</item>
+        <item quantity="other">Käydyt paikat: %1$d/%2$d</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Laita virransäästö pois päältä, jotta käyttäjälle %1$s ja %2$d muulle jaetun sijainnin tarkkuutta voidaan parantaa</item>
+        <item quantity="other">Laita virransäästö pois päältä, jotta käyttäjälle %1$s ja %2$d muulle jaetun sijainnin tarkkuutta voidaan parantaa</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Laitteen sijainnin on oltava päällä, jotta sijainnin jakamista käyttäjälle %1$s ja %2$d muulle voidaan jatkaa</item>
+        <item quantity="other">Laitteen sijainnin on oltava päällä, jotta sijainnin jakamista käyttäjälle %1$s ja %2$d muulle voidaan jatkaa</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Päivitä Sijainnin jakaminen, jotta voit jatkaa sijainnin jakamista tältä laitteelta käyttäjälle %1$s ja %2$d muulle</item>
+        <item quantity="other">Päivitä Sijainnin jakaminen, jotta voit jatkaa sijainnin jakamista tältä laitteelta käyttäjälle %1$s ja %2$d muulle</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Anna Mapsin tunnistaa liikkumisesi, jotta käyttäjälle %1$s ja %2$d muulle jaetun sijainnin tarkkuutta voidaan parantaa</item>
+        <item quantity="other">Anna Mapsin tunnistaa liikkumisesi, jotta käyttäjälle %1$s ja %2$d muulle jaetun sijainnin tarkkuutta voidaan parantaa</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Anna Mapsin aina käyttää sijaintiasi, jotta käyttäjälle %1$s ja %2$d muulle jaetun sijainnin tarkkuutta voidaan parantaa</item>
+        <item quantity="other">Anna Mapsin aina käyttää sijaintiasi, jotta käyttäjälle %1$s ja %2$d muulle jaetun sijainnin tarkkuutta voidaan parantaa</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Anna Mapsin aina käyttää sijaintiasi, jotta sijainnin jakamista käyttäjälle %1$s ja %2$d muulle voidaan jatkaa</item>
+        <item quantity="other">Anna Mapsin aina käyttää sijaintiasi, jotta sijainnin jakamista käyttäjälle %1$s ja %2$d muulle voidaan jatkaa</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">+ %d kuva</item>
+        <item quantity="other">+ %d kuvaa</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d arvostelu)</item>
+        <item quantity="other">(%,d arvostelua)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="one">%1$s sekunti</item>
+        <item quantity="other">%1$s sekuntia</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">Postauksen %1$d video</item>
+        <item quantity="other">Postauksen %1$d video %2$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">Postauksen %1$d video näytetään koko näytössä</item>
+        <item quantity="other">Postauksen %1$d video %2$d näytetään koko näytössä</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d yö</item>
+        <item quantity="other">%2$s × %1$d yötä</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%2$s / %1$d yö (sis. verot ja maksut)</item>
+        <item quantity="other">%2$s / %1$d yötä (sis. verot ja maksut)</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">1 minuutin kävelymatka</item>
+        <item quantity="other">%d minuutin kävelymatka</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d pysähdys</item>
+        <item quantity="other">+ %d pysähdystä</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d pysähdys)</item>
+        <item quantity="other">(%d pysähdystä)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d viikko sitten</item>
+        <item quantity="other">%d viikkoa sitten</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d vuosi sitten</item>
+        <item quantity="other">%d vuotta sitten</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">Näytä viimeinen kuva</item>
+        <item quantity="other">Näytä jäljellä olevat %1$d kuvaa</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">Arvostelusi tai päivityksesi</item>
+        <item quantity="other">Arvostelusi ja päivityksesi</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">Seuraat näitä: %1$s ja %2$d muu luettelo</item>
+        <item quantity="other">Seuraat näitä: %1$s ja %2$d muuta luetteloa</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s ja %2$d muu</item>
+        <item quantity="other">%1$s ja %2$d muuta</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="plurals_0x7f12014e">
+        <item quantity="one"></item>
+        <item quantity="other">taso %1$d</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">1 kuva tai video</item>
+        <item quantity="other">%1$d kuvaa tai videota</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d uusi ilmoitus</item>
+        <item quantity="other">%d uutta ilmoitusta</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">%d vastaanottaja kopioitu</item>
+        <item quantity="other">%d vastaanottajaa kopioitu</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">Kerro jotakin tästä kuvasta (valinnainen)</item>
+        <item quantity="other">Kerro jotakin kuvistasi (valinnainen)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Sinulla on ilmoitus</item>
+        <item quantity="other">%1$d uutta ilmoitusta</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d/%2$d tähteä</item>
+        <item quantity="other">%1$d/%2$d tähteä</item>
+    </plurals>
+    <plurals name="tell_maps_know_before_you_go_place_contextual_zero_state_post_tip">
+        <item quantity="one">Haluatko postata vinkin tästä paikasta?</item>
+        <item quantity="other">Haluatko postata vinkin jostakin näistä paikoista?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_post_tip_or_photo">
+        <item quantity="one">Haluatko julkaista kuvan tai vinkin tästä paikasta?</item>
+        <item quantity="other">Haluatko julkaista kuvan tai vinkin jostakin näistä paikoista?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_update_a_place">
+        <item quantity="one">Haluatko päivittää jonkin tiedon tästä paikasta?</item>
+        <item quantity="other">Minkä paikan haluat päivittää?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,941 @@
+.class final Lcsmv;
+.super Lcsqh;
+.source "PG"
+
+# interfaces
+.implements Lj$/util/Set;
+.implements Lcsml;
+
+
+# instance fields
+.field final synthetic a:Lcsna;
+
+
+# direct methods
+.method public constructor <init>(Lcsna;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcsmv;->a:Lcsna;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Lcsqh;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lcsvo;
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcsmq;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lcsmv;->a:Lcsna;
+
+    .line 4
+    .line 5
+    invoke-direct {v0, p0}, Lcsmq;-><init>(Lcsna;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-object v0
+.end method
+
+.method public final b()Lcswi;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcsmz;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lcsmv;->a:Lcsna;
+
+    .line 4
+    .line 5
+    const/4 v1, 0x1
+
+    .line 6
+    invoke-direct {v0, p0, v1}, Lcsmz;-><init>(Lcsna;I)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-object v0
+.end method
+
+.method public final clear()V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcsmv;->a:Lcsna;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcsiv;->clear()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public final contains(Ljava/lang/Object;)Z
+    .locals 11
+
+    .line 1
+    instance-of v0, p1, Ljava/util/Map$Entry;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    if-nez v0, :cond_0
+
+    .line 5
+    .line 6
+    return v1
+
+    .line 7
+    :cond_0
+    check-cast p1, Ljava/util/Map$Entry;
+
+    .line 8
+    .line 9
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    if-eqz v0, :cond_8
+
+    .line 14
+    .line 15
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    instance-of v0, v0, Ljava/lang/Long;
+
+    .line 20
+    .line 21
+    if-nez v0, :cond_1
+
+    .line 22
+    .line 23
+    goto :goto_0
+
+    .line 24
+    :cond_1
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v0
+
+    .line 28
+    check-cast v0, Ljava/lang/Long;
+
+    .line 29
+    .line 30
+    invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-wide v2
+
+    .line 34
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    .line 35
+    .line 36
+    .line 37
+    move-result-object p1
+
+    .line 38
+    const-wide/16 v4, 0x0
+
+    .line 39
+    .line 40
+    cmp-long v0, v2, v4
+
+    .line 41
+    .line 42
+    iget-object p0, p0, Lcsmv;->a:Lcsna;
+
+    .line 43
+    .line 44
+    const/4 v6, 0x1
+
+    .line 45
+    if-nez v0, :cond_3
+
+    .line 46
+    .line 47
+    iget-boolean v0, p0, Lcsna;->d:Z
+
+    .line 48
+    .line 49
+    if-eqz v0, :cond_2
+
+    .line 50
+    .line 51
+    iget-object v0, p0, Lcsna;->b:[Ljava/lang/Object;
+
+    .line 52
+    .line 53
+    iget p0, p0, Lcsna;->e:I
+
+    .line 54
+    .line 55
+    aget-object p0, v0, p0
+
+    .line 56
+    .line 57
+    invoke-static {p0, p1}, Lj$/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 58
+    .line 59
+    .line 60
+    move-result p0
+
+    .line 61
+    if-eqz p0, :cond_2
+
+    .line 62
+    .line 63
+    return v6
+
+    .line 64
+    :cond_2
+    return v1
+
+    .line 65
+    :cond_3
+    const-wide v7, -0x61c8864680b583ebL
+
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    mul-long/2addr v7, v2
+
+    .line 71
+    const/16 v0, 0x20
+
+    .line 72
+    .line 73
+    ushr-long v9, v7, v0
+
+    .line 74
+    .line 75
+    xor-long/2addr v7, v9
+
+    .line 76
+    iget-object v0, p0, Lcsna;->a:[J
+
+    .line 77
+    .line 78
+    const/16 v9, 0x10
+
+    .line 79
+    .line 80
+    ushr-long v9, v7, v9
+
+    .line 81
+    .line 82
+    xor-long/2addr v7, v9
+
+    .line 83
+    long-to-int v7, v7
+
+    .line 84
+    iget v8, p0, Lcsna;->c:I
+
+    .line 85
+    .line 86
+    and-int/2addr v7, v8
+
+    .line 87
+    aget-wide v8, v0, v7
+
+    .line 88
+    .line 89
+    cmp-long v10, v8, v4
+
+    .line 90
+    .line 91
+    if-nez v10, :cond_4
+
+    .line 92
+    .line 93
+    return v1
+
+    .line 94
+    :cond_4
+    cmp-long v8, v2, v8
+
+    .line 95
+    .line 96
+    if-eqz v8, :cond_7
+
+    .line 97
+    .line 98
+    :cond_5
+    add-int/2addr v7, v6
+
+    .line 99
+    iget v8, p0, Lcsna;->c:I
+
+    .line 100
+    .line 101
+    and-int/2addr v7, v8
+
+    .line 102
+    aget-wide v8, v0, v7
+
+    .line 103
+    .line 104
+    cmp-long v10, v8, v4
+
+    .line 105
+    .line 106
+    if-nez v10, :cond_6
+
+    .line 107
+    .line 108
+    return v1
+
+    .line 109
+    :cond_6
+    cmp-long v8, v2, v8
+
+    .line 110
+    .line 111
+    if-nez v8, :cond_5
+
+    .line 112
+    .line 113
+    iget-object p0, p0, Lcsna;->b:[Ljava/lang/Object;
+
+    .line 114
+    .line 115
+    aget-object p0, p0, v7
+
+    .line 116
+    .line 117
+    invoke-static {p0, p1}, Lj$/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 118
+    .line 119
+    .line 120
+    move-result p0
+
+    .line 121
+    return p0
+
+    .line 122
+    :cond_7
+    iget-object p0, p0, Lcsna;->b:[Ljava/lang/Object;
+
+    .line 123
+    .line 124
+    aget-object p0, p0, v7
+
+    .line 125
+    .line 126
+    invoke-static {p0, p1}, Lj$/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 127
+    .line 128
+    .line 129
+    move-result p0
+
+    .line 130
+    return p0
+
+    .line 131
+    :cond_8
+    :goto_0
+    return v1
+.end method
+
+.method public final d(Ljava/util/function/Consumer;)V
+    .locals 6
+
+    .line 1
+    new-instance v0, Lcsme;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lcsmv;->a:Lcsna;
+
+    .line 4
+    .line 5
+    const/4 v1, 0x2
+
+    .line 6
+    const/4 v2, 0x0
+
+    .line 7
+    invoke-direct {v0, p0, v1, v2}, Lcsme;-><init>(Lcsiv;I[B)V
+
+    .line 8
+    .line 9
+    .line 10
+    iget-boolean v1, p0, Lcsna;->d:Z
+
+    .line 11
+    .line 12
+    if-eqz v1, :cond_0
+
+    .line 13
+    .line 14
+    iget v1, p0, Lcsna;->e:I
+
+    .line 15
+    .line 16
+    iput v1, v0, Lcsme;->a:I
+
+    .line 17
+    .line 18
+    invoke-static {p1, v0}, La$$ExternalSyntheticApiModelOutline3;->m(Ljava/util/function/Consumer;Ljava/lang/Object;)V
+
+    .line 19
+    .line 20
+    .line 21
+    :cond_0
+    iget-object v1, p0, Lcsna;->a:[J
+
+    .line 22
+    .line 23
+    iget p0, p0, Lcsna;->e:I
+
+    .line 24
+    .line 25
+    :cond_1
+    :goto_0
+    if-eqz p0, :cond_2
+
+    .line 26
+    .line 27
+    add-int/lit8 p0, p0, -0x1
+
+    .line 28
+    .line 29
+    aget-wide v2, v1, p0
+
+    .line 30
+    .line 31
+    const-wide/16 v4, 0x0
+
+    .line 32
+    .line 33
+    cmp-long v2, v2, v4
+
+    .line 34
+    .line 35
+    if-eqz v2, :cond_1
+
+    .line 36
+    .line 37
+    iput p0, v0, Lcsme;->a:I
+
+    .line 38
+    .line 39
+    invoke-static {p1, v0}, La$$ExternalSyntheticApiModelOutline3;->m(Ljava/util/function/Consumer;Ljava/lang/Object;)V
+
+    .line 40
+    .line 41
+    .line 42
+    goto :goto_0
+
+    .line 43
+    :cond_2
+    return-void
+.end method
+
+.method public final forEach(Ljava/util/function/Consumer;)V
+    .locals 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/function/Consumer<",
+            "-",
+            "Lcsmk;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lcsmv;->a:Lcsna;
+
+    .line 2
+    .line 3
+    iget-boolean v0, p0, Lcsna;->d:Z
+
+    .line 4
+    .line 5
+    const/4 v1, 0x2
+
+    .line 6
+    if-eqz v0, :cond_0
+
+    .line 7
+    .line 8
+    new-instance v0, Lcsme;
+
+    .line 9
+    .line 10
+    iget v2, p0, Lcsna;->e:I
+
+    .line 11
+    .line 12
+    invoke-direct {v0, p0, v2, v1}, Lcsme;-><init>(Lcsiv;II)V
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-static {p1, v0}, La$$ExternalSyntheticApiModelOutline3;->m(Ljava/util/function/Consumer;Ljava/lang/Object;)V
+
+    .line 16
+    .line 17
+    .line 18
+    :cond_0
+    iget-object v0, p0, Lcsna;->a:[J
+
+    .line 19
+    .line 20
+    iget v2, p0, Lcsna;->e:I
+
+    .line 21
+    .line 22
+    :cond_1
+    :goto_0
+    if-eqz v2, :cond_2
+
+    .line 23
+    .line 24
+    add-int/lit8 v2, v2, -0x1
+
+    .line 25
+    .line 26
+    aget-wide v3, v0, v2
+
+    .line 27
+    .line 28
+    const-wide/16 v5, 0x0
+
+    .line 29
+    .line 30
+    cmp-long v3, v3, v5
+
+    .line 31
+    .line 32
+    if-eqz v3, :cond_1
+
+    .line 33
+    .line 34
+    new-instance v3, Lcsme;
+
+    .line 35
+    .line 36
+    invoke-direct {v3, p0, v2, v1}, Lcsme;-><init>(Lcsiv;II)V
+
+    .line 37
+    .line 38
+    .line 39
+    invoke-static {p1, v3}, La$$ExternalSyntheticApiModelOutline3;->m(Ljava/util/function/Consumer;Ljava/lang/Object;)V
+
+    .line 40
+    .line 41
+    .line 42
+    goto :goto_0
+
+    .line 43
+    :cond_2
+    return-void
+.end method
+
+.method public final bridge synthetic iterator()Ljava/util/Iterator;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Lcsmv;->a()Lcsvo;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public final remove(Ljava/lang/Object;)Z
+    .locals 10
+
+    .line 1
+    instance-of v0, p1, Ljava/util/Map$Entry;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_0
+
+    .line 4
+    .line 5
+    goto/16 :goto_0
+
+    .line 6
+    .line 7
+    :cond_0
+    check-cast p1, Ljava/util/Map$Entry;
+
+    .line 8
+    .line 9
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    if-eqz v0, :cond_3
+
+    .line 14
+    .line 15
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    instance-of v0, v0, Ljava/lang/Long;
+
+    .line 20
+    .line 21
+    if-eqz v0, :cond_3
+
+    .line 22
+    .line 23
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object v0
+
+    .line 27
+    check-cast v0, Ljava/lang/Long;
+
+    .line 28
+    .line 29
+    invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-wide v0
+
+    .line 33
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    .line 34
+    .line 35
+    .line 36
+    move-result-object p1
+
+    .line 37
+    const-wide/16 v2, 0x0
+
+    .line 38
+    .line 39
+    cmp-long v4, v0, v2
+
+    .line 40
+    .line 41
+    iget-object p0, p0, Lcsmv;->a:Lcsna;
+
+    .line 42
+    .line 43
+    const/4 v5, 0x1
+
+    .line 44
+    if-nez v4, :cond_1
+
+    .line 45
+    .line 46
+    iget-boolean v0, p0, Lcsna;->d:Z
+
+    .line 47
+    .line 48
+    if-eqz v0, :cond_3
+
+    .line 49
+    .line 50
+    iget-object v0, p0, Lcsna;->b:[Ljava/lang/Object;
+
+    .line 51
+    .line 52
+    iget v1, p0, Lcsna;->e:I
+
+    .line 53
+    .line 54
+    aget-object v0, v0, v1
+
+    .line 55
+    .line 56
+    invoke-static {v0, p1}, Lj$/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 57
+    .line 58
+    .line 59
+    move-result p1
+
+    .line 60
+    if-eqz p1, :cond_3
+
+    .line 61
+    .line 62
+    invoke-virtual {p0}, Lcsna;->m()Ljava/lang/Object;
+
+    .line 63
+    .line 64
+    .line 65
+    return v5
+
+    .line 66
+    :cond_1
+    const-wide v6, -0x61c8864680b583ebL
+
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    mul-long/2addr v6, v0
+
+    .line 72
+    const/16 v4, 0x20
+
+    .line 73
+    .line 74
+    ushr-long v8, v6, v4
+
+    .line 75
+    .line 76
+    xor-long/2addr v6, v8
+
+    .line 77
+    iget-object v4, p0, Lcsna;->a:[J
+
+    .line 78
+    .line 79
+    const/16 v8, 0x10
+
+    .line 80
+    .line 81
+    ushr-long v8, v6, v8
+
+    .line 82
+    .line 83
+    xor-long/2addr v6, v8
+
+    .line 84
+    long-to-int v6, v6
+
+    .line 85
+    iget v7, p0, Lcsna;->c:I
+
+    .line 86
+    .line 87
+    and-int/2addr v6, v7
+
+    .line 88
+    aget-wide v7, v4, v6
+
+    .line 89
+    .line 90
+    cmp-long v9, v7, v2
+
+    .line 91
+    .line 92
+    if-eqz v9, :cond_3
+
+    .line 93
+    .line 94
+    cmp-long v7, v7, v0
+
+    .line 95
+    .line 96
+    if-nez v7, :cond_2
+
+    .line 97
+    .line 98
+    iget-object v0, p0, Lcsna;->b:[Ljava/lang/Object;
+
+    .line 99
+    .line 100
+    aget-object v0, v0, v6
+
+    .line 101
+    .line 102
+    invoke-static {v0, p1}, Lj$/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 103
+    .line 104
+    .line 105
+    move-result p1
+
+    .line 106
+    if-eqz p1, :cond_3
+
+    .line 107
+    .line 108
+    invoke-virtual {p0, v6}, Lcsna;->k(I)Ljava/lang/Object;
+
+    .line 109
+    .line 110
+    .line 111
+    return v5
+
+    .line 112
+    :cond_2
+    add-int/2addr v6, v5
+
+    .line 113
+    iget v7, p0, Lcsna;->c:I
+
+    .line 114
+    .line 115
+    and-int/2addr v6, v7
+
+    .line 116
+    aget-wide v7, v4, v6
+
+    .line 117
+    .line 118
+    cmp-long v9, v7, v2
+
+    .line 119
+    .line 120
+    if-eqz v9, :cond_3
+
+    .line 121
+    .line 122
+    cmp-long v7, v7, v0
+
+    .line 123
+    .line 124
+    if-nez v7, :cond_2
+
+    .line 125
+    .line 126
+    iget-object v7, p0, Lcsna;->b:[Ljava/lang/Object;
+
+    .line 127
+    .line 128
+    aget-object v7, v7, v6
+
+    .line 129
+    .line 130
+    invoke-static {v7, p1}, Lj$/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 131
+    .line 132
+    .line 133
+    move-result v7
+
+    .line 134
+    if-eqz v7, :cond_2
+
+    .line 135
+    .line 136
+    invoke-virtual {p0, v6}, Lcsna;->k(I)Ljava/lang/Object;
+
+    .line 137
+    .line 138
+    .line 139
+    return v5
+
+    .line 140
+    :cond_3
+    :goto_0
+    const/4 p0, 0x0
+
+    .line 141
+    return p0
+.end method
+
+.method public final size()I
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcsmv;->a:Lcsna;
+
+    .line 2
+    .line 3
+    iget p0, p0, Lcsna;->h:I
+
+    .line 4
+    .line 5
+    return p0
+.end method
+
+.method public final bridge synthetic spliterator()Lj$/util/Spliterator;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Lcsqb;->b()Lcswi;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public final vA()Lcsvo;
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcsmr;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lcsmv;->a:Lcsna;
+
+    .line 4
+    .line 5
+    invoke-direct {v0, p0}, Lcsmr;-><init>(Lcsna;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-object v0
+.end method

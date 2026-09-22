@@ -1,0 +1,18 @@
+.class public final Laua;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lauc;
+
+
+# virtual methods
+.method public final a(Layu;)Z
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return p0
+.end method

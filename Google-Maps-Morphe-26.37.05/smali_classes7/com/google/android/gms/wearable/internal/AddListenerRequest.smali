@@ -1,0 +1,243 @@
+.class public Lcom/google/android/gms/wearable/internal/AddListenerRequest;
+.super Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+.source "PG"
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/google/android/gms/wearable/internal/AddListenerRequest;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field public final a:Lbfue;
+
+.field public final b:[Landroid/content/IntentFilter;
+
+.field public final c:Ljava/lang/String;
+
+.field public final d:Ljava/lang/String;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    .line 2
+    new-instance v0, Lbfsu;
+
+    .line 3
+    .line 4
+    const/16 v1, 0x8
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-direct {v0, v1}, Lbfsu;-><init>(I)V
+
+    .line 8
+    .line 9
+    sput-object v0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    .line 10
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/os/IBinder;[Landroid/content/IntentFilter;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 2
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+
+    .line 4
+    .line 5
+    if-eqz p1, :cond_1
+
+    .line 6
+    .line 7
+    const-string v0, "com.google.android.gms.wearable.internal.IWearableListener"
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+
+    .line 11
+    move-result-object v0
+
+    .line 12
+    .line 13
+    instance-of v1, v0, Lbfue;
+
+    .line 14
+    .line 15
+    if-eqz v1, :cond_0
+
+    .line 16
+    .line 17
+    check-cast v0, Lbfue;
+
+    .line 18
+    goto :goto_0
+
+    .line 19
+    .line 20
+    :cond_0
+    new-instance v0, Lbfuc;
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-direct {v0, p1}, Lbfuc;-><init>(Landroid/os/IBinder;)V
+
+    .line 24
+    goto :goto_0
+
+    .line 25
+    :cond_1
+    const/4 v0, 0x0
+
+    .line 26
+    .line 27
+    :goto_0
+    iput-object v0, p0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->a:Lbfue;
+
+    .line 28
+    .line 29
+    iput-object p2, p0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->b:[Landroid/content/IntentFilter;
+
+    .line 30
+    .line 31
+    iput-object p3, p0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->c:Ljava/lang/String;
+
+    .line 32
+    .line 33
+    iput-object p4, p0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->d:Ljava/lang/String;
+
+    .line 34
+    return-void
+.end method
+
+.method public constructor <init>(Lbfuy;)V
+    .locals 0
+
+    .line 35
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->a:Lbfue;
+
+    iget-object p1, p1, Lbfuy;->c:[Landroid/content/IntentFilter;
+
+    iput-object p1, p0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->b:[Landroid/content/IntentFilter;
+
+    const/4 p1, 0x0
+
+    iput-object p1, p0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->c:Ljava/lang/String;
+
+    iput-object p1, p0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->d:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 3
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->a:Lbfue;
+
+    .line 3
+    .line 4
+    const/16 v1, 0x4f45
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-static {p1, v1}, Lbekv;->u(Landroid/os/Parcel;I)I
+
+    .line 8
+    move-result v1
+
+    .line 9
+    .line 10
+    if-nez v0, :cond_0
+
+    .line 11
+    const/4 v0, 0x0
+
+    .line 12
+    goto :goto_0
+
+    .line 13
+    .line 14
+    .line 15
+    :cond_0
+    invoke-interface {v0}, Lbfue;->asBinder()Landroid/os/IBinder;
+
+    .line 16
+    move-result-object v0
+
+    .line 17
+    :goto_0
+    const/4 v2, 0x2
+
+    .line 18
+    .line 19
+    .line 20
+    invoke-static {p1, v2, v0}, Lbekv;->I(Landroid/os/Parcel;ILandroid/os/IBinder;)V
+
+    .line 21
+    const/4 v0, 0x3
+
+    .line 22
+    .line 23
+    iget-object v2, p0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->b:[Landroid/content/IntentFilter;
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-static {p1, v0, v2, p2}, Lbekv;->S(Landroid/os/Parcel;I[Landroid/os/Parcelable;I)V
+
+    .line 27
+    const/4 p2, 0x4
+
+    .line 28
+    .line 29
+    iget-object v0, p0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->c:Ljava/lang/String;
+
+    .line 30
+    .line 31
+    .line 32
+    invoke-static {p1, p2, v0}, Lbekv;->P(Landroid/os/Parcel;ILjava/lang/String;)V
+
+    .line 33
+    const/4 p2, 0x5
+
+    .line 34
+    .line 35
+    iget-object p0, p0, Lcom/google/android/gms/wearable/internal/AddListenerRequest;->d:Ljava/lang/String;
+
+    .line 36
+    .line 37
+    .line 38
+    invoke-static {p1, p2, p0}, Lbekv;->P(Landroid/os/Parcel;ILjava/lang/String;)V
+
+    .line 39
+    .line 40
+    .line 41
+    invoke-static {p1, v1}, Lbekv;->v(Landroid/os/Parcel;I)V
+
+    .line 42
+    return-void
+.end method

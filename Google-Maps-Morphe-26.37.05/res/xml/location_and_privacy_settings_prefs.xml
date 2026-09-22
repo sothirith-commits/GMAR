@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category_layout" android:title="@string/DEVICE_LOCATION_SETTINGS_TITLE" android:key="device_location_category">
+        <Preference android:persistent="false" android:title="@string/DEVICE_LOCATION_SETTINGS_TITLE" android:key="device_location" android:summary="@string/NOTIFICATION_SETTING_ON" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/CLIENT_SIDE_RECENT_HISTORY_ENABLED" android:key="recent_history" android:defaultValue="true" />
+        <Preference android:persistent="false" android:title="@string/LOCATION_ACCESS_FOR_MAPS_SETTINGS_TITLE" android:key="location_access_maps" android:summary="@string/LOCATION_ACCESS_FOR_MAPS_ALWAYS_ALLOW" />
+        <Preference android:persistent="false" android:title="@string/LOCATION_SHARING_SETTINGS_TITLE" android:key="location_sharing" android:summary="@string/LOCATION_SHARING_SETTINGS_SUMMARY" />
+        <Preference android:persistent="false" android:title="@string/STORE_VISIT_DATA_SHARING_SETTINGS_TITLE" android:key="store_visit_data_sharing" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category_layout" android:title="@string/LOCATION_HISTORY_TIMELINE_CATEGORY_TITLE" android:key="location_history_timeline_category">
+        <Preference android:persistent="false" android:title="@string/LOCATION_HISTORY_SETTINGS_TITLE" android:key="location_history" android:summary="@string/LOCATION_PRIVACY_SETTING_ON" />
+        <Preference android:persistent="false" android:title="@string/DELETE_ALL_LOCATION_HISTORY_SETTINGS_TITLE" android:key="delete_all_location_history" android:summary="@string/DELETE_ALL_LOCATION_HISTORY_SUMMARY" />
+        <Preference android:persistent="false" android:title="@string/DELETE_LOCATION_HISTORY_RANGE_SETTINGS_TITLE" android:key="delete_location_history_range" android:summary="@string/DELETE_LOCATION_HISTORY_RANGE_SUMMARY" />
+        <Preference android:persistent="false" android:title="@string/DELETE_LOCATION_HISTORY_RANGE_SETTINGS_TITLE" android:key="location_history_retention" android:summary="@string/DELETE_LOCATION_HISTORY_RANGE_SUMMARY" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/TIMELINE_EMAIL_SETTINGS_TITLE" android:key="timeline_emails" android:summary="@string/TIMELINE_EMAILS_SUMMARY" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category_layout" android:title="@string/PERSONALIZATION_AND_HISTORY_CATEGORY_TITLE" android:key="personalization_and_history">
+        <Preference android:persistent="false" android:title="@string/WEB_AND_APP_ACTIVITY_SETTINGS_TITLE" android:key="web_app_activity" android:summary="@string/WEB_AND_APP_ACTIVITY_SETTINGS_SUMMARY" />
+        <Preference android:persistent="false" android:title="@string/MAPS_HISTORY_SETTINGS_TITLE" android:key="maps_activity" android:summary="@string/MAPS_HISTORY_SETTINGS_SUMMARY" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category_layout" android:title="@string/YOUR_CONTRIBUTIONS_SETTINGS_CATEGORY_TITLE" android:key="your_contributions_category">
+        <Preference android:persistent="false" android:title="@string/DELETE_ALL_INCIDENT_REPORTS_SETTING_TITLE_V2" android:key="delete_all_incident_reports" android:summary="@string/DELETE_ALL_INCIDENT_REPORTS_SETTING_SUMMARY_V2" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category_layout" android:title="@string/OTHER_ACCOUNT_SETTINGS_CATEGORY_TITLE" android:key="other_account_settings_category">
+        <SwitchPreferenceCompat android:persistent="false" android:title="@string/GOOGLE_CONTACTS_SETTINGS_TITLE" android:key="google_contacts" android:summary="@string/GOOGLE_CONTACTS_SETTINGS_DESCRIPTION" android:defaultValue="false" />
+        <Preference android:persistent="false" android:title="@string/REVAMP_HOME_WORK_ADDRESSES_SETTINGS_TITLE" android:key="home_work_address" android:summary="@string/HOME_WORK_ADDRESSES_SUMMARY" />
+        <Preference android:persistent="false" android:title="@string/DELETE_SAVED_TRIP_SETTING_TITLE" android:key="delete_saved_trips" android:summary="@string/DELETE_SAVED_TRIP_SETTING_SUMMARY" />
+        <Preference android:persistent="false" android:title="@string/TESLA_SUPERCHARGER_AVAILABILITY_PREDICTIONS_TITLE" android:key="tesla_consent" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category_layout" android:title="@string/MAPS_PROFILE_CATEGORY_TITLE" android:key="maps_profile_category">
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/RESTRICTED_PROFILE_SETTINGS_TITLE" android:key="restricted_profile" android:summary="@string/RESTRICTED_PROFILE_SUMMARY" android:defaultValue="true" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/VISIBLE_TO_BUSINESSES_SETTINGS_TITLE" android:key="visible_to_businesses" android:summary="@string/VISIBLE_TO_BUSINESSES_SUMMARY" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

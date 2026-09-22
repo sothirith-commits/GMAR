@@ -1,0 +1,1919 @@
+.class public final Lpdh;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbgcw;
+
+
+# instance fields
+.field private final a:Landroid/graphics/RectF;
+
+.field private final b:Landroid/graphics/PointF;
+
+.field private final c:Landroid/graphics/PointF;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    new-instance v0, Landroid/graphics/RectF;
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
+
+    .line 9
+    .line 10
+    iput-object v0, p0, Lpdh;->a:Landroid/graphics/RectF;
+
+    .line 11
+    .line 12
+    new-instance v0, Landroid/graphics/PointF;
+
+    .line 13
+    .line 14
+    const/high16 v1, 0x7fc00000    # Float.NaN
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-direct {v0, v1, v1}, Landroid/graphics/PointF;-><init>(FF)V
+
+    .line 18
+    .line 19
+    iput-object v0, p0, Lpdh;->b:Landroid/graphics/PointF;
+
+    .line 20
+    .line 21
+    new-instance v0, Landroid/graphics/PointF;
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-direct {v0, v1, v1}, Landroid/graphics/PointF;-><init>(FF)V
+
+    .line 25
+    .line 26
+    iput-object v0, p0, Lpdh;->c:Landroid/graphics/PointF;
+
+    .line 27
+    return-void
+.end method
+
+.method public static final c([D[DD)D
+    .locals 29
+
+    .line 1
+    .line 2
+    move-wide/from16 v0, p2
+
+    .line 3
+    const/4 v2, 0x1
+
+    .line 4
+    .line 5
+    aget-wide v3, p0, v2
+
+    .line 6
+    .line 7
+    aget-wide v5, p1, v2
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v3, v4, v5, v6}, Lpdh;->f(DD)Z
+
+    .line 11
+    move-result v3
+
+    .line 12
+    .line 13
+    const-string v4, "(x[1], y[1]) must be valid data point."
+
+    .line 14
+    .line 15
+    .line 16
+    invoke-static {v3, v4}, Lbunv;->aQ(ZLjava/lang/Object;)V
+
+    .line 17
+    const/4 v3, 0x2
+
+    .line 18
+    .line 19
+    aget-wide v4, p0, v3
+
+    .line 20
+    .line 21
+    aget-wide v6, p1, v3
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-static {v4, v5, v6, v7}, Lpdh;->f(DD)Z
+
+    .line 25
+    move-result v4
+
+    .line 26
+    .line 27
+    const-string v5, "(x[2], y[2]) must be valid data point."
+
+    .line 28
+    .line 29
+    .line 30
+    invoke-static {v4, v5}, Lbunv;->aQ(ZLjava/lang/Object;)V
+
+    .line 31
+    const/4 v4, 0x4
+
+    .line 32
+    .line 33
+    new-array v5, v4, [D
+
+    .line 34
+    const/4 v7, 0x0
+
+    .line 35
+    .line 36
+    :goto_0
+    const-wide/16 v8, 0x0
+
+    .line 37
+    .line 38
+    if-ge v7, v4, :cond_3
+
+    .line 39
+    .line 40
+    add-int/lit8 v10, v7, 0x1
+
+    .line 41
+    .line 42
+    aget-wide v11, p0, v7
+
+    .line 43
+    .line 44
+    aget-wide v13, p1, v7
+
+    .line 45
+    .line 46
+    .line 47
+    invoke-static {v11, v12, v13, v14}, Lpdh;->f(DD)Z
+
+    .line 48
+    move-result v13
+
+    .line 49
+    .line 50
+    if-eqz v13, :cond_1
+
+    .line 51
+    .line 52
+    aget-wide v13, p0, v10
+
+    .line 53
+    .line 54
+    move/from16 v16, v7
+
+    .line 55
+    const/4 v15, 0x0
+
+    .line 56
+    .line 57
+    aget-wide v6, p1, v10
+
+    .line 58
+    .line 59
+    .line 60
+    invoke-static {v13, v14, v6, v7}, Lpdh;->f(DD)Z
+
+    .line 61
+    move-result v6
+
+    .line 62
+    .line 63
+    if-eqz v6, :cond_2
+
+    .line 64
+    .line 65
+    sub-double v6, v13, v11
+
+    .line 66
+    .line 67
+    cmpl-double v8, v6, v8
+
+    .line 68
+    .line 69
+    if-lez v8, :cond_0
+
+    .line 70
+    .line 71
+    move/from16 v17, v2
+
+    .line 72
+    goto :goto_1
+
+    .line 73
+    .line 74
+    :cond_0
+    move/from16 v17, v15
+
+    .line 75
+    .line 76
+    .line 77
+    :goto_1
+    invoke-static/range {v16 .. v16}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 78
+    move-result-object v19
+
+    .line 79
+    .line 80
+    .line 81
+    invoke-static {v11, v12}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    .line 82
+    move-result-object v20
+
+    .line 83
+    .line 84
+    .line 85
+    invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 86
+    move-result-object v21
+
+    .line 87
+    .line 88
+    .line 89
+    invoke-static {v13, v14}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    .line 90
+    move-result-object v22
+
+    .line 91
+    .line 92
+    const-string v18, "The control X values must be strictly increasing, found x[%s] = %s and x[%s] = %s."
+
+    .line 93
+    .line 94
+    .line 95
+    invoke-static/range {v17 .. v22}, Lbunv;->bk(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 96
+    .line 97
+    aget-wide v8, p1, v10
+
+    .line 98
+    .line 99
+    aget-wide v11, p1, v16
+
+    .line 100
+    sub-double/2addr v8, v11
+
+    .line 101
+    div-double/2addr v8, v6
+
+    .line 102
+    .line 103
+    aput-wide v8, v5, v16
+
+    .line 104
+    .line 105
+    .line 106
+    invoke-static {v8, v9}, Ljava/lang/Double;->isNaN(D)Z
+
+    .line 107
+    move-result v6
+
+    .line 108
+    xor-int/2addr v6, v2
+
+    .line 109
+    .line 110
+    .line 111
+    invoke-static {v6}, Lbunv;->bc(Z)V
+
+    .line 112
+    goto :goto_2
+
+    .line 113
+    .line 114
+    :cond_1
+    move/from16 v16, v7
+
+    .line 115
+    const/4 v15, 0x0
+
+    .line 116
+    .line 117
+    :cond_2
+    const-wide/high16 v6, 0x7ff8000000000000L    # Double.NaN
+
+    .line 118
+    .line 119
+    aput-wide v6, v5, v16
+
+    .line 120
+    :goto_2
+    move v7, v10
+
+    .line 121
+    goto :goto_0
+
+    .line 122
+    :cond_3
+    const/4 v15, 0x0
+
+    .line 123
+    const/4 v6, 0x3
+
+    .line 124
+    .line 125
+    new-array v7, v6, [D
+
+    .line 126
+    move v10, v15
+
+    .line 127
+    .line 128
+    :goto_3
+    if-ge v10, v6, :cond_7
+
+    .line 129
+    .line 130
+    add-int/lit8 v11, v10, 0x1
+
+    .line 131
+    .line 132
+    aget-wide v12, v5, v10
+
+    .line 133
+    .line 134
+    .line 135
+    invoke-static {v12, v13}, Ljava/lang/Double;->isNaN(D)Z
+
+    .line 136
+    move-result v14
+
+    .line 137
+    .line 138
+    if-eqz v14, :cond_4
+
+    .line 139
+    .line 140
+    aget-wide v12, v5, v11
+
+    .line 141
+    .line 142
+    aput-wide v12, v7, v10
+
+    .line 143
+    goto :goto_4
+
+    .line 144
+    .line 145
+    :cond_4
+    aget-wide v16, v5, v11
+
+    .line 146
+    .line 147
+    .line 148
+    invoke-static/range {v16 .. v17}, Ljava/lang/Double;->isNaN(D)Z
+
+    .line 149
+    move-result v14
+
+    .line 150
+    .line 151
+    if-eqz v14, :cond_5
+
+    .line 152
+    .line 153
+    aput-wide v12, v7, v10
+
+    .line 154
+    goto :goto_4
+
+    .line 155
+    .line 156
+    :cond_5
+    mul-double v18, v12, v16
+
+    .line 157
+    .line 158
+    cmpg-double v14, v18, v8
+
+    .line 159
+    .line 160
+    if-gez v14, :cond_6
+
+    .line 161
+    .line 162
+    aput-wide v8, v7, v10
+
+    .line 163
+    goto :goto_4
+
+    .line 164
+    .line 165
+    :cond_6
+    add-double v12, v12, v16
+
+    .line 166
+    .line 167
+    const-wide/high16 v16, 0x3fe0000000000000L    # 0.5
+
+    .line 168
+    .line 169
+    mul-double v12, v12, v16
+
+    .line 170
+    .line 171
+    aput-wide v12, v7, v10
+
+    .line 172
+    :goto_4
+    move v10, v11
+
+    .line 173
+    goto :goto_3
+
+    .line 174
+    .line 175
+    :cond_7
+    new-array v10, v3, [D
+
+    .line 176
+    .line 177
+    aget-wide v11, v7, v15
+
+    .line 178
+    .line 179
+    aput-wide v11, v10, v15
+
+    .line 180
+    .line 181
+    aget-wide v11, v7, v2
+
+    .line 182
+    .line 183
+    aput-wide v11, v10, v2
+
+    .line 184
+    move v11, v15
+
+    .line 185
+    .line 186
+    :goto_5
+    const-wide/high16 v12, 0x4008000000000000L    # 3.0
+
+    .line 187
+    .line 188
+    if-ge v11, v3, :cond_d
+
+    .line 189
+    .line 190
+    add-int/lit8 v14, v11, 0x1
+
+    .line 191
+    .line 192
+    aget-wide v16, v5, v14
+
+    .line 193
+    .line 194
+    cmpl-double v18, v16, v8
+
+    .line 195
+    .line 196
+    if-nez v18, :cond_9
+
+    .line 197
+    .line 198
+    aput-wide v8, v10, v11
+
+    .line 199
+    .line 200
+    if-ge v14, v3, :cond_8
+
+    .line 201
+    .line 202
+    aput-wide v8, v10, v14
+
+    .line 203
+    .line 204
+    :cond_8
+    move/from16 v20, v6
+
+    .line 205
+    .line 206
+    move-object/from16 v21, v7
+
+    .line 207
+    .line 208
+    move-wide/from16 v22, v8
+
+    .line 209
+    goto :goto_6
+
+    .line 210
+    .line 211
+    :cond_9
+    aget-wide v18, v7, v11
+
+    .line 212
+    .line 213
+    move/from16 v20, v6
+
+    .line 214
+    .line 215
+    move-object/from16 v21, v7
+
+    .line 216
+    .line 217
+    div-double v6, v18, v16
+
+    .line 218
+    .line 219
+    aget-wide v18, v21, v14
+
+    .line 220
+    .line 221
+    move-wide/from16 v22, v8
+
+    .line 222
+    .line 223
+    div-double v8, v18, v16
+
+    .line 224
+    .line 225
+    cmpg-double v16, v6, v22
+
+    .line 226
+    .line 227
+    if-gez v16, :cond_a
+
+    .line 228
+    .line 229
+    aput-wide v22, v10, v11
+
+    .line 230
+    .line 231
+    :cond_a
+    if-ge v14, v3, :cond_b
+
+    .line 232
+    .line 233
+    cmpg-double v16, v8, v22
+
+    .line 234
+    .line 235
+    if-gez v16, :cond_b
+
+    .line 236
+    .line 237
+    aput-wide v22, v10, v14
+
+    .line 238
+    .line 239
+    .line 240
+    :cond_b
+    invoke-static {v6, v7, v8, v9}, Ljava/lang/Math;->hypot(DD)D
+
+    .line 241
+    move-result-wide v6
+
+    .line 242
+    .line 243
+    cmpl-double v8, v6, v12
+
+    .line 244
+    .line 245
+    if-lez v8, :cond_c
+
+    .line 246
+    div-double/2addr v12, v6
+
+    .line 247
+    .line 248
+    aget-wide v6, v10, v11
+
+    .line 249
+    mul-double/2addr v6, v12
+
+    .line 250
+    .line 251
+    aput-wide v6, v10, v11
+
+    .line 252
+    .line 253
+    if-ge v14, v3, :cond_c
+
+    .line 254
+    .line 255
+    aget-wide v6, v10, v14
+
+    .line 256
+    mul-double/2addr v6, v12
+
+    .line 257
+    .line 258
+    aput-wide v6, v10, v14
+
+    .line 259
+    :cond_c
+    :goto_6
+    move v11, v14
+
+    .line 260
+    .line 261
+    move/from16 v6, v20
+
+    .line 262
+    .line 263
+    move-object/from16 v7, v21
+
+    .line 264
+    .line 265
+    move-wide/from16 v8, v22
+
+    .line 266
+    goto :goto_5
+
+    .line 267
+    .line 268
+    :cond_d
+    move/from16 v20, v6
+
+    .line 269
+    .line 270
+    aget-wide v5, p0, v3
+
+    .line 271
+    .line 272
+    aget-wide v7, p0, v2
+
+    .line 273
+    sub-double/2addr v5, v7
+
+    .line 274
+    .line 275
+    aget-wide v16, p1, v2
+
+    .line 276
+    .line 277
+    aget-wide v18, v10, v15
+
+    .line 278
+    .line 279
+    mul-double v21, v5, v18
+
+    .line 280
+    .line 281
+    const-wide/high16 v23, -0x3ff8000000000000L    # -3.0
+
+    .line 282
+    .line 283
+    mul-double v23, v23, v16
+
+    .line 284
+    .line 285
+    add-double v25, v5, v5
+
+    .line 286
+    .line 287
+    mul-double v25, v25, v18
+
+    .line 288
+    .line 289
+    aget-wide v18, p1, v3
+
+    .line 290
+    .line 291
+    mul-double v27, v18, v12
+
+    .line 292
+    .line 293
+    aget-wide v9, v10, v2
+
+    .line 294
+    mul-double/2addr v5, v9
+
+    .line 295
+    .line 296
+    sub-double v23, v23, v25
+
+    .line 297
+    .line 298
+    add-double v23, v23, v27
+
+    .line 299
+    .line 300
+    sub-double v23, v23, v5
+
+    .line 301
+    .line 302
+    add-double v9, v16, v16
+
+    .line 303
+    .line 304
+    add-double v18, v18, v18
+
+    .line 305
+    .line 306
+    add-double v9, v9, v21
+
+    .line 307
+    .line 308
+    sub-double v9, v9, v18
+
+    .line 309
+    add-double/2addr v9, v5
+
+    .line 310
+    .line 311
+    new-array v4, v4, [D
+
+    .line 312
+    .line 313
+    aput-wide v16, v4, v15
+
+    .line 314
+    .line 315
+    aput-wide v21, v4, v2
+
+    .line 316
+    .line 317
+    aput-wide v23, v4, v3
+
+    .line 318
+    .line 319
+    aput-wide v9, v4, v20
+
+    .line 320
+    .line 321
+    .line 322
+    invoke-static {v0, v1, v7, v8}, Ljava/lang/Double;->compare(DD)I
+
+    .line 323
+    move-result v5
+
+    .line 324
+    .line 325
+    if-ltz v5, :cond_e
+
+    .line 326
+    .line 327
+    aget-wide v5, p0, v3
+
+    .line 328
+    .line 329
+    .line 330
+    invoke-static {v0, v1, v5, v6}, Ljava/lang/Double;->compare(DD)I
+
+    .line 331
+    move-result v5
+
+    .line 332
+    .line 333
+    if-gtz v5, :cond_e
+
+    .line 334
+    move v5, v2
+
+    .line 335
+    goto :goto_7
+
+    .line 336
+    :cond_e
+    move v5, v15
+
+    .line 337
+    .line 338
+    .line 339
+    :goto_7
+    invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    .line 340
+    move-result-object v6
+
+    .line 341
+    .line 342
+    .line 343
+    invoke-static {v7, v8}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    .line 344
+    move-result-object v7
+
+    .line 345
+    .line 346
+    aget-wide v8, p0, v3
+
+    .line 347
+    .line 348
+    .line 349
+    invoke-static {v8, v9}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    .line 350
+    move-result-object v8
+
+    .line 351
+    .line 352
+    const-string v9, "The desired X value %s must be in the range [x[1] = %s, x[2] = %s]."
+
+    .line 353
+    .line 354
+    .line 355
+    invoke-static {v5, v9, v6, v7, v8}, Lbunv;->ba(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 356
+    .line 357
+    aget-wide v5, p0, v2
+
+    .line 358
+    sub-double/2addr v0, v5
+
+    .line 359
+    .line 360
+    aget-wide v7, p0, v3
+
+    .line 361
+    sub-double/2addr v7, v5
+
+    .line 362
+    .line 363
+    aget-wide v5, v4, v15
+
+    .line 364
+    .line 365
+    aget-wide v9, v4, v2
+
+    .line 366
+    div-double/2addr v0, v7
+
+    .line 367
+    mul-double/2addr v9, v0
+
+    .line 368
+    add-double/2addr v5, v9
+
+    .line 369
+    .line 370
+    aget-wide v2, v4, v3
+
+    .line 371
+    .line 372
+    const-wide/high16 v7, 0x4000000000000000L    # 2.0
+
+    .line 373
+    .line 374
+    .line 375
+    invoke-static {v0, v1, v7, v8}, Ljava/lang/Math;->pow(DD)D
+
+    .line 376
+    move-result-wide v7
+
+    .line 377
+    mul-double/2addr v2, v7
+
+    .line 378
+    .line 379
+    aget-wide v7, v4, v20
+
+    .line 380
+    .line 381
+    .line 382
+    invoke-static {v0, v1, v12, v13}, Ljava/lang/Math;->pow(DD)D
+
+    .line 383
+    move-result-wide v0
+
+    .line 384
+    mul-double/2addr v7, v0
+
+    .line 385
+    add-double/2addr v5, v2
+
+    .line 386
+    add-double/2addr v5, v7
+
+    .line 387
+    return-wide v5
+.end method
+
+.method private final d(Landroid/graphics/Path;FFFFFFLandroid/graphics/RectF;Z)V
+    .locals 23
+
+    .line 1
+    .line 2
+    move-object/from16 v0, p0
+
+    .line 3
+    .line 4
+    move-object/from16 v1, p1
+
+    .line 5
+    .line 6
+    move/from16 v2, p2
+
+    .line 7
+    .line 8
+    move/from16 v3, p3
+
+    .line 9
+    .line 10
+    move-object/from16 v4, p8
+
+    .line 11
+    .line 12
+    if-nez p9, :cond_6
+
+    .line 13
+    .line 14
+    iget v5, v4, Landroid/graphics/RectF;->left:F
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-static {v2, v5}, Ljava/lang/Float;->compare(FF)I
+
+    .line 18
+    move-result v5
+
+    .line 19
+    .line 20
+    if-lez v5, :cond_6
+
+    .line 21
+    .line 22
+    iget-object v5, v0, Lpdh;->c:Landroid/graphics/PointF;
+
+    .line 23
+    .line 24
+    iget v6, v5, Landroid/graphics/PointF;->x:F
+
+    .line 25
+    float-to-double v6, v6
+
+    .line 26
+    .line 27
+    iget v8, v5, Landroid/graphics/PointF;->y:F
+
+    .line 28
+    float-to-double v8, v8
+
+    .line 29
+    .line 30
+    .line 31
+    invoke-static {v6, v7, v8, v9}, Lpdh;->f(DD)Z
+
+    .line 32
+    move-result v6
+
+    .line 33
+    .line 34
+    if-eqz v6, :cond_6
+
+    .line 35
+    .line 36
+    iget v6, v5, Landroid/graphics/PointF;->x:F
+
+    .line 37
+    .line 38
+    .line 39
+    invoke-static {v2, v6}, Ljava/lang/Float;->compare(FF)I
+
+    .line 40
+    move-result v6
+
+    .line 41
+    .line 42
+    if-gtz v6, :cond_0
+
+    .line 43
+    .line 44
+    goto/16 :goto_1
+
+    .line 45
+    .line 46
+    :cond_0
+    iget v6, v5, Landroid/graphics/PointF;->x:F
+
+    .line 47
+    float-to-double v6, v6
+
+    .line 48
+    .line 49
+    iget v8, v5, Landroid/graphics/PointF;->y:F
+
+    .line 50
+    float-to-double v8, v8
+
+    .line 51
+    .line 52
+    .line 53
+    invoke-static {v6, v7, v8, v9}, Lpdh;->f(DD)Z
+
+    .line 54
+    move-result v6
+
+    .line 55
+    .line 56
+    if-eqz v6, :cond_1
+
+    .line 57
+    .line 58
+    iget v6, v5, Landroid/graphics/PointF;->x:F
+
+    .line 59
+    .line 60
+    iget v7, v4, Landroid/graphics/RectF;->right:F
+
+    .line 61
+    .line 62
+    .line 63
+    invoke-static {v6, v7}, Ljava/lang/Float;->compare(FF)I
+
+    .line 64
+    move-result v6
+
+    .line 65
+    .line 66
+    if-ltz v6, :cond_1
+
+    .line 67
+    return-void
+
+    .line 68
+    .line 69
+    :cond_1
+    iget-object v0, v0, Lpdh;->b:Landroid/graphics/PointF;
+
+    .line 70
+    .line 71
+    iget v6, v0, Landroid/graphics/PointF;->x:F
+
+    .line 72
+    float-to-double v6, v6
+
+    .line 73
+    .line 74
+    iget v8, v5, Landroid/graphics/PointF;->x:F
+
+    .line 75
+    float-to-double v8, v8
+
+    .line 76
+    float-to-double v10, v2
+
+    .line 77
+    .line 78
+    move/from16 v12, p4
+
+    .line 79
+    float-to-double v12, v12
+
+    .line 80
+    .line 81
+    move/from16 v14, p6
+
+    .line 82
+    float-to-double v14, v14
+
+    .line 83
+    .line 84
+    move-wide/from16 v16, v6
+
+    .line 85
+    const/4 v6, 0x5
+
+    .line 86
+    .line 87
+    new-array v7, v6, [D
+
+    .line 88
+    .line 89
+    const/16 v18, 0x0
+
+    .line 90
+    .line 91
+    aput-wide v16, v7, v18
+
+    .line 92
+    .line 93
+    const/16 v16, 0x1
+
+    .line 94
+    .line 95
+    aput-wide v8, v7, v16
+
+    .line 96
+    const/4 v8, 0x2
+
+    .line 97
+    .line 98
+    aput-wide v10, v7, v8
+
+    .line 99
+    const/4 v9, 0x3
+
+    .line 100
+    .line 101
+    aput-wide v12, v7, v9
+
+    .line 102
+    const/4 v10, 0x4
+
+    .line 103
+    .line 104
+    aput-wide v14, v7, v10
+
+    .line 105
+    .line 106
+    iget v11, v0, Landroid/graphics/PointF;->y:F
+
+    .line 107
+    float-to-double v11, v11
+
+    .line 108
+    .line 109
+    iget v13, v5, Landroid/graphics/PointF;->y:F
+
+    .line 110
+    float-to-double v13, v13
+
+    .line 111
+    .line 112
+    move/from16 p0, v8
+
+    .line 113
+    .line 114
+    move/from16 p4, v9
+
+    .line 115
+    float-to-double v8, v3
+
+    .line 116
+    .line 117
+    move/from16 v15, p5
+
+    .line 118
+    .line 119
+    move/from16 p6, v10
+
+    .line 120
+    .line 121
+    move-wide/from16 v19, v11
+
+    .line 122
+    float-to-double v10, v15
+
+    .line 123
+    .line 124
+    move/from16 v12, p7
+
+    .line 125
+    .line 126
+    move-wide/from16 v21, v8
+
+    .line 127
+    float-to-double v8, v12
+
+    .line 128
+    .line 129
+    new-array v6, v6, [D
+
+    .line 130
+    .line 131
+    aput-wide v19, v6, v18
+
+    .line 132
+    .line 133
+    aput-wide v13, v6, v16
+
+    .line 134
+    .line 135
+    aput-wide v21, v6, p0
+
+    .line 136
+    .line 137
+    aput-wide v10, v6, p4
+
+    .line 138
+    .line 139
+    aput-wide v8, v6, p6
+
+    .line 140
+    .line 141
+    iget v8, v4, Landroid/graphics/RectF;->right:F
+
+    .line 142
+    .line 143
+    .line 144
+    invoke-static {v2, v8}, Ljava/lang/Math;->min(FF)F
+
+    .line 145
+    move-result v8
+
+    .line 146
+    float-to-double v9, v8
+
+    .line 147
+    .line 148
+    .line 149
+    invoke-static {v7, v6, v9, v10}, Lpdh;->c([D[DD)D
+
+    .line 150
+    move-result-wide v11
+
+    .line 151
+    double-to-float v11, v11
+
+    .line 152
+    .line 153
+    iget v12, v0, Landroid/graphics/PointF;->x:F
+
+    .line 154
+    float-to-double v12, v12
+
+    .line 155
+    .line 156
+    iget v14, v0, Landroid/graphics/PointF;->y:F
+
+    .line 157
+    float-to-double v14, v14
+
+    .line 158
+    .line 159
+    .line 160
+    invoke-static {v12, v13, v14, v15}, Lpdh;->f(DD)Z
+
+    .line 161
+    move-result v12
+
+    .line 162
+    .line 163
+    if-nez v12, :cond_2
+
+    .line 164
+    .line 165
+    iget v12, v5, Landroid/graphics/PointF;->x:F
+
+    .line 166
+    .line 167
+    iget v13, v4, Landroid/graphics/RectF;->left:F
+
+    .line 168
+    .line 169
+    .line 170
+    invoke-static {v12, v13}, Ljava/lang/Math;->max(FF)F
+
+    .line 171
+    move-result v12
+
+    .line 172
+    float-to-double v13, v12
+
+    .line 173
+    .line 174
+    .line 175
+    invoke-static {v7, v6, v13, v14}, Lpdh;->c([D[DD)D
+
+    .line 176
+    move-result-wide v13
+
+    .line 177
+    double-to-float v13, v13
+
+    .line 178
+    .line 179
+    iget v14, v4, Landroid/graphics/RectF;->top:F
+
+    .line 180
+    .line 181
+    iget v15, v4, Landroid/graphics/RectF;->bottom:F
+
+    .line 182
+    .line 183
+    .line 184
+    invoke-static {v13, v15}, Ljava/lang/Math;->min(FF)F
+
+    .line 185
+    move-result v13
+
+    .line 186
+    .line 187
+    .line 188
+    invoke-static {v14, v13}, Ljava/lang/Math;->max(FF)F
+
+    .line 189
+    move-result v13
+
+    .line 190
+    .line 191
+    .line 192
+    invoke-virtual {v1, v12, v13}, Landroid/graphics/Path;->moveTo(FF)V
+
+    .line 193
+    .line 194
+    :cond_2
+    iget v12, v5, Landroid/graphics/PointF;->x:F
+
+    .line 195
+    .line 196
+    iget v13, v4, Landroid/graphics/RectF;->left:F
+
+    .line 197
+    .line 198
+    .line 199
+    invoke-static {v12, v13}, Ljava/lang/Math;->max(FF)F
+
+    .line 200
+    move-result v12
+
+    .line 201
+    .line 202
+    const/high16 v13, 0x3f800000    # 1.0f
+
+    .line 203
+    add-float/2addr v12, v13
+
+    .line 204
+    .line 205
+    .line 206
+    :goto_0
+    invoke-static {v12, v8}, Ljava/lang/Float;->compare(FF)I
+
+    .line 207
+    move-result v14
+
+    .line 208
+    .line 209
+    if-gez v14, :cond_4
+
+    .line 210
+    float-to-double v14, v12
+
+    .line 211
+    .line 212
+    .line 213
+    invoke-static {v7, v6, v14, v15}, Lpdh;->c([D[DD)D
+
+    .line 214
+    move-result-wide v2
+
+    .line 215
+    double-to-float v2, v2
+
+    .line 216
+    .line 217
+    move-object/from16 v16, v6
+
+    .line 218
+    move-object v3, v7
+
+    .line 219
+    float-to-double v6, v2
+
+    .line 220
+    .line 221
+    .line 222
+    invoke-static {v14, v15, v6, v7}, Lpdh;->f(DD)Z
+
+    .line 223
+    move-result v6
+
+    .line 224
+    .line 225
+    if-eqz v6, :cond_3
+
+    .line 226
+    .line 227
+    iget v6, v4, Landroid/graphics/RectF;->top:F
+
+    .line 228
+    .line 229
+    iget v7, v4, Landroid/graphics/RectF;->bottom:F
+
+    .line 230
+    .line 231
+    .line 232
+    invoke-static {v2, v7}, Ljava/lang/Math;->min(FF)F
+
+    .line 233
+    move-result v2
+
+    .line 234
+    .line 235
+    .line 236
+    invoke-static {v6, v2}, Ljava/lang/Math;->max(FF)F
+
+    .line 237
+    move-result v2
+
+    .line 238
+    .line 239
+    .line 240
+    invoke-virtual {v1, v12, v2}, Landroid/graphics/Path;->lineTo(FF)V
+
+    .line 241
+    :cond_3
+    add-float/2addr v12, v13
+
+    .line 242
+    .line 243
+    move/from16 v2, p2
+
+    .line 244
+    move-object v7, v3
+
+    .line 245
+    .line 246
+    move-object/from16 v6, v16
+
+    .line 247
+    .line 248
+    move/from16 v3, p3
+
+    .line 249
+    goto :goto_0
+
+    .line 250
+    :cond_4
+    float-to-double v2, v11
+
+    .line 251
+    .line 252
+    .line 253
+    invoke-static {v9, v10, v2, v3}, Lpdh;->f(DD)Z
+
+    .line 254
+    move-result v2
+
+    .line 255
+    .line 256
+    if-eqz v2, :cond_5
+
+    .line 257
+    .line 258
+    iget v2, v4, Landroid/graphics/RectF;->top:F
+
+    .line 259
+    .line 260
+    iget v3, v4, Landroid/graphics/RectF;->bottom:F
+
+    .line 261
+    .line 262
+    .line 263
+    invoke-static {v11, v3}, Ljava/lang/Math;->min(FF)F
+
+    .line 264
+    move-result v3
+
+    .line 265
+    .line 266
+    .line 267
+    invoke-static {v2, v3}, Ljava/lang/Math;->max(FF)F
+
+    .line 268
+    move-result v2
+
+    .line 269
+    .line 270
+    .line 271
+    invoke-virtual {v1, v8, v2}, Landroid/graphics/Path;->lineTo(FF)V
+
+    .line 272
+    .line 273
+    .line 274
+    :cond_5
+    invoke-virtual {v0, v5}, Landroid/graphics/PointF;->set(Landroid/graphics/PointF;)V
+
+    .line 275
+    .line 276
+    move/from16 v2, p2
+
+    .line 277
+    .line 278
+    move/from16 v3, p3
+
+    .line 279
+    .line 280
+    .line 281
+    invoke-virtual {v5, v2, v3}, Landroid/graphics/PointF;->set(FF)V
+
+    .line 282
+    return-void
+
+    .line 283
+    .line 284
+    :cond_6
+    :goto_1
+    iget-object v1, v0, Lpdh;->b:Landroid/graphics/PointF;
+
+    .line 285
+    .line 286
+    const/high16 v4, 0x7fc00000    # Float.NaN
+
+    .line 287
+    .line 288
+    .line 289
+    invoke-virtual {v1, v4, v4}, Landroid/graphics/PointF;->set(FF)V
+
+    .line 290
+    .line 291
+    iget-object v0, v0, Lpdh;->c:Landroid/graphics/PointF;
+
+    .line 292
+    .line 293
+    .line 294
+    invoke-virtual {v0, v2, v3}, Landroid/graphics/PointF;->set(FF)V
+
+    .line 295
+    return-void
+.end method
+
+.method private final e()V
+    .locals 2
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lpdh;->a:Landroid/graphics/RectF;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-virtual {v0}, Landroid/graphics/RectF;->setEmpty()V
+
+    .line 6
+    .line 7
+    iget-object v0, p0, Lpdh;->b:Landroid/graphics/PointF;
+
+    .line 8
+    .line 9
+    const/high16 v1, 0x7fc00000    # Float.NaN
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-virtual {v0, v1, v1}, Landroid/graphics/PointF;->set(FF)V
+
+    .line 13
+    .line 14
+    iget-object p0, p0, Lpdh;->c:Landroid/graphics/PointF;
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-virtual {p0, v1, v1}, Landroid/graphics/PointF;->set(FF)V
+
+    .line 18
+    return-void
+.end method
+
+.method private static f(DD)Z
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-static {p0, p1}, Ljava/lang/Double;->isNaN(D)Z
+
+    .line 4
+    move-result p0
+
+    .line 5
+    .line 6
+    if-nez p0, :cond_0
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-static {p2, p3}, Ljava/lang/Double;->isNaN(D)Z
+
+    .line 10
+    move-result p0
+
+    .line 11
+    .line 12
+    if-nez p0, :cond_0
+
+    .line 13
+    const/4 p0, 0x1
+
+    .line 14
+    return p0
+
+    .line 15
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 16
+    return p0
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/graphics/Path;ZZFFFFZFFFZIIII)Z
+    .locals 12
+
+    .line 1
+    .line 2
+    move/from16 v3, p7
+
+    .line 3
+    .line 4
+    move/from16 p2, p13
+
+    .line 5
+    .line 6
+    move/from16 v0, p14
+
+    .line 7
+    .line 8
+    move/from16 v1, p15
+
+    .line 9
+    .line 10
+    move/from16 v2, p16
+
+    .line 11
+    const/4 v10, 0x1
+
+    .line 12
+    .line 13
+    if-nez p3, :cond_2
+
+    .line 14
+    .line 15
+    if-nez p8, :cond_1
+
+    .line 16
+    int-to-float p3, v0
+
+    .line 17
+    .line 18
+    cmpg-float p3, p6, p3
+
+    .line 19
+    .line 20
+    if-gtz p3, :cond_0
+
+    .line 21
+    int-to-float p2, p2
+
+    .line 22
+    .line 23
+    cmpl-float p2, p6, p2
+
+    .line 24
+    .line 25
+    if-ltz p2, :cond_0
+
+    .line 26
+    int-to-float p2, v2
+
+    .line 27
+    .line 28
+    cmpg-float p2, v3, p2
+
+    .line 29
+    .line 30
+    if-gtz p2, :cond_0
+
+    .line 31
+    int-to-float p2, v1
+
+    .line 32
+    .line 33
+    cmpl-float p2, v3, p2
+
+    .line 34
+    .line 35
+    if-ltz p2, :cond_0
+
+    .line 36
+    .line 37
+    const/high16 p2, -0x41000000    # -0.5f
+
+    .line 38
+    .line 39
+    add-float p2, p6, p2
+
+    .line 40
+    .line 41
+    .line 42
+    invoke-virtual {p1, p2, v3}, Landroid/graphics/Path;->moveTo(FF)V
+
+    .line 43
+    .line 44
+    const/high16 p2, 0x3f000000    # 0.5f
+
+    .line 45
+    .line 46
+    add-float p2, p6, p2
+
+    .line 47
+    .line 48
+    .line 49
+    invoke-virtual {p1, p2, v3}, Landroid/graphics/Path;->lineTo(FF)V
+
+    .line 50
+    .line 51
+    .line 52
+    :cond_0
+    invoke-direct {p0}, Lpdh;->e()V
+
+    .line 53
+    return v10
+
+    .line 54
+    :cond_1
+    move v11, v10
+
+    .line 55
+    goto :goto_0
+
+    .line 56
+    .line 57
+    :cond_2
+    move/from16 v11, p8
+
+    .line 58
+    .line 59
+    :goto_0
+    if-nez p3, :cond_3
+
+    .line 60
+    .line 61
+    .line 62
+    invoke-direct {p0}, Lpdh;->e()V
+
+    .line 63
+    const/4 p0, 0x0
+
+    .line 64
+    return p0
+
+    .line 65
+    :cond_3
+    int-to-float p2, p2
+
+    .line 66
+    int-to-float p3, v0
+
+    .line 67
+    .line 68
+    iget-object v8, p0, Lpdh;->a:Landroid/graphics/RectF;
+
+    .line 69
+    .line 70
+    add-int/lit8 v0, v1, -0x32
+
+    .line 71
+    .line 72
+    add-int/lit8 v1, v2, 0x32
+
+    .line 73
+    int-to-float v1, v1
+
+    .line 74
+    int-to-float v0, v0
+
+    .line 75
+    .line 76
+    .line 77
+    invoke-virtual {v8, p2, v0, p3, v1}, Landroid/graphics/RectF;->set(FFFF)V
+
+    .line 78
+    .line 79
+    if-eq v10, v11, :cond_4
+
+    .line 80
+    .line 81
+    const/high16 p2, 0x7fc00000    # Float.NaN
+
+    .line 82
+    move v6, p2
+
+    .line 83
+    goto :goto_1
+
+    .line 84
+    .line 85
+    :cond_4
+    move/from16 v6, p9
+
+    .line 86
+    :goto_1
+    move-object v0, p0
+
+    .line 87
+    move-object v1, p1
+
+    .line 88
+    .line 89
+    move/from16 v2, p4
+
+    .line 90
+    .line 91
+    move/from16 v4, p6
+
+    .line 92
+    .line 93
+    move/from16 v7, p10
+
+    .line 94
+    .line 95
+    move/from16 v9, p12
+
+    .line 96
+    move v5, v3
+
+    .line 97
+    .line 98
+    move/from16 v3, p5
+
+    .line 99
+    .line 100
+    .line 101
+    invoke-direct/range {v0 .. v9}, Lpdh;->d(Landroid/graphics/Path;FFFFFFLandroid/graphics/RectF;Z)V
+
+    .line 102
+    move v4, v6
+
+    .line 103
+    .line 104
+    if-nez v11, :cond_5
+
+    .line 105
+    .line 106
+    const/high16 v6, 0x7fc00000    # Float.NaN
+
+    .line 107
+    const/4 v9, 0x0
+
+    .line 108
+    move v7, v6
+
+    .line 109
+    move-object v0, p0
+
+    .line 110
+    move-object v1, p1
+
+    .line 111
+    .line 112
+    move/from16 v2, p6
+
+    .line 113
+    .line 114
+    move/from16 v3, p7
+
+    .line 115
+    .line 116
+    move/from16 v5, p10
+
+    .line 117
+    .line 118
+    .line 119
+    invoke-direct/range {v0 .. v9}, Lpdh;->d(Landroid/graphics/Path;FFFFFFLandroid/graphics/RectF;Z)V
+
+    .line 120
+    .line 121
+    .line 122
+    invoke-direct {p0}, Lpdh;->e()V
+
+    .line 123
+    :cond_5
+    return v10
+.end method
+
+.method public final b(Landroid/graphics/Path;ZFFFFZFFZIIII)Z
+    .locals 0
+
+    .line 1
+    .line 2
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    .line 3
+    .line 4
+    const-string p1, "drawPathReverse() is not supported yet."
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 8
+    throw p0
+.end method

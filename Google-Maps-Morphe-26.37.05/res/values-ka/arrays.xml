@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>ა</item>
+        <item>ბ</item>
+        <item>გ</item>
+        <item>დ</item>
+        <item>ე</item>
+        <item>ვ</item>
+        <item>ზ</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>ყველა</item>
+        <item>₾</item>
+        <item>₾₾</item>
+        <item>₾₾₾</item>
+        <item>₾₾₾₾</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>ფასის ნებისმიერი კატეგორია</item>
+        <item>იაფი</item>
+        <item>ზომიერად ძვირი</item>
+        <item>ძვირი</item>
+        <item>ძალიან ძვირი</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>ყველა</item>
+        <item>3 ვარსკ.</item>
+        <item>4 ვარსკ.</item>
+        <item>5 ვარსკ.</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>ნებისმიერი</item>
+        <item>ახლა ღიაა</item>
+        <item>მორგებული</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>მასშტაბირებისას</item>
+        <item>ყოველთვის</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>გადიდებისა და შემცირების დროს</item>
+        <item>ყოველთვის</item>
+    </string-array>
+    <string-array name="five_stars_state_commentary">
+        <item>საერთოდ არ მომეწონა</item>
+        <item>არ მომეწონა</item>
+        <item>არა უშავს</item>
+        <item>მომეწონა</item>
+        <item>ძალიან მომეწონა</item>
+    </string-array>
+</resources>

@@ -1,0 +1,173 @@
+.class final Lbfpa;
+.super Lbekt;
+.source "PG"
+
+
+# virtual methods
+.method public final bridge synthetic b(Landroid/content/Context;Landroid/os/Looper;Lbeqf;Ljava/lang/Object;Lcom/google/android/gms/common/api/GoogleApiClient$ConnectionCallbacks;Lcom/google/android/gms/common/api/GoogleApiClient$OnConnectionFailedListener;)Lbeld;
+    .locals 7
+
+    .line 1
+    .line 2
+    check-cast p4, Lbfpe;
+
+    .line 3
+    .line 4
+    new-instance v0, Lbfph;
+
+    .line 5
+    .line 6
+    iget-object p0, p3, Lbeqf;->g:Lbfpe;
+
+    .line 7
+    .line 8
+    iget-object p0, p3, Lbeqf;->i:Ljava/lang/Integer;
+
+    .line 9
+    .line 10
+    new-instance v4, Landroid/os/Bundle;
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-direct {v4}, Landroid/os/Bundle;-><init>()V
+
+    .line 14
+    .line 15
+    const-string p4, "com.google.android.gms.signin.internal.clientRequestedAccount"
+
+    .line 16
+    .line 17
+    iget-object v1, p3, Lbeqf;->a:Landroid/accounts/Account;
+
+    .line 18
+    .line 19
+    .line 20
+    invoke-virtual {v4, p4, v1}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+
+    .line 21
+    .line 22
+    if-eqz p0, :cond_0
+
+    .line 23
+    .line 24
+    const-string p4, "com.google.android.gms.common.internal.ClientSettings.sessionId"
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
+
+    .line 28
+    move-result p0
+
+    .line 29
+    .line 30
+    .line 31
+    invoke-virtual {v4, p4, p0}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
+
+    .line 32
+    .line 33
+    :cond_0
+    const-string p0, "com.google.android.gms.signin.internal.offlineAccessRequested"
+
+    .line 34
+    const/4 p4, 0x0
+
+    .line 35
+    .line 36
+    .line 37
+    invoke-virtual {v4, p0, p4}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+
+    .line 38
+    .line 39
+    const-string p0, "com.google.android.gms.signin.internal.idTokenRequested"
+
+    .line 40
+    .line 41
+    .line 42
+    invoke-virtual {v4, p0, p4}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+
+    .line 43
+    .line 44
+    const-string p0, "com.google.android.gms.signin.internal.serverClientId"
+
+    .line 45
+    const/4 v1, 0x0
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-virtual {v4, p0, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 49
+    .line 50
+    const-string p0, "com.google.android.gms.signin.internal.usePromptModeForAuthCode"
+
+    .line 51
+    const/4 v2, 0x1
+
+    .line 52
+    .line 53
+    .line 54
+    invoke-virtual {v4, p0, v2}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+
+    .line 55
+    .line 56
+    const-string p0, "com.google.android.gms.signin.internal.forceCodeForRefreshToken"
+
+    .line 57
+    .line 58
+    .line 59
+    invoke-virtual {v4, p0, p4}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+
+    .line 60
+    .line 61
+    const-string p0, "com.google.android.gms.signin.internal.hostedDomain"
+
+    .line 62
+    .line 63
+    .line 64
+    invoke-virtual {v4, p0, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 65
+    .line 66
+    const-string p0, "com.google.android.gms.signin.internal.logSessionId"
+
+    .line 67
+    .line 68
+    .line 69
+    invoke-virtual {v4, p0, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 70
+    .line 71
+    const-string p0, "com.google.android.gms.signin.internal.waitForAccessTokenRefresh"
+
+    .line 72
+    .line 73
+    .line 74
+    invoke-virtual {v4, p0, p4}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+
+    .line 75
+    move-object v1, p1
+
+    .line 76
+    move-object v2, p2
+
+    .line 77
+    move-object v3, p3
+
+    .line 78
+    move-object v5, p5
+
+    .line 79
+    move-object v6, p6
+
+    .line 80
+    .line 81
+    .line 82
+    invoke-direct/range {v0 .. v6}, Lbfph;-><init>(Landroid/content/Context;Landroid/os/Looper;Lbeqf;Landroid/os/Bundle;Lcom/google/android/gms/common/api/GoogleApiClient$ConnectionCallbacks;Lcom/google/android/gms/common/api/GoogleApiClient$OnConnectionFailedListener;)V
+
+    .line 83
+    return-object v0
+.end method

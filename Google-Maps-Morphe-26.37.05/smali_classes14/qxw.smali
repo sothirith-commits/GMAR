@@ -1,0 +1,20 @@
+.class public interface abstract Lqxw;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbguc;
+
+
+# virtual methods
+.method public abstract a()Lbcjc;
+.end method
+
+.method public abstract b()Lbgtz;
+.end method
+
+.method public abstract c()Ljava/lang/String;
+.end method
+
+.method public abstract d()Ljava/lang/String;
+.end method

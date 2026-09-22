@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="one">%1$d 個，總共有 %2$d 個</item>
+        <item quantity="other">%1$d 個，總共有 %2$d 個</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">你有 %d 張有效的地鐵車票</item>
+        <item quantity="other">你有 %d 張有效的地鐵車票</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">此行程有 %d 張有效的交通票</item>
+        <item quantity="other">此行程有 %d 張有效的交通票</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">另外 %d 個選項</item>
+        <item quantity="other">另外 %d 個選項</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="one">有 %1$d 人報告</item>
+        <item quantity="other">有 %1$d 人報告</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">有 %1$d 人報告</item>
+        <item quantity="other">有 %1$d 人報告</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d 則快訊</item>
+        <item quantity="other">%d 則快訊</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d 個位置</item>
+        <item quantity="other">%1$d 個位置</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">查看答案</item>
+        <item quantity="other">查看答案 (%,d 個)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">探索這裡</item>
+        <item quantity="other">探索這裡的 %d 個地點</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d 輛單車可以使用</item>
+        <item quantity="other">%d 輛單車可以使用</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">車站有 %s 架單車</item>
+        <item quantity="other">車站有 %s 架單車</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d 架單車</item>
+        <item quantity="other">%d 架單車</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d 個泊位可以使用</item>
+        <item quantity="other">%d 個泊位可以使用</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d 個泊位</item>
+        <item quantity="other">%d 個泊位</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">%1$d 人推薦</item>
+        <item quantity="other">%1$d 人推薦</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">路線更快，充電站少 %1$s 個</item>
+        <item quantity="other">路線更快，充電站少 %1$s 個</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">路線更快，充電站多 %1$s 個</item>
+        <item quantity="other">路線更快，充電站多 %1$s 個</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">有更快的路線，%1$s 個充電站有變</item>
+        <item quantity="other">有更快的路線，%1$s 個充電站有變</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">需要使用新路線，充電站少 %1$s 個</item>
+        <item quantity="other">需要使用新路線，充電站少 %1$s 個</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">需要使用新路線，充電站多 %1$s 個</item>
+        <item quantity="other">需要使用新路線，充電站多 %1$s 個</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">需要使用新路線，%1$s 個充電站有變</item>
+        <item quantity="other">需要使用新路線，%1$s 個充電站有變</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">新路線，充電站少 %1$s 個</item>
+        <item quantity="other">新路線，充電站少 %1$s 個</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">新路線，充電站少 %1$s 個</item>
+        <item quantity="other">新路線，充電站少 %1$s 個</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">有新路線可用，所需充電站減少 %1$s 個。快 %2$s，駕駛和充電時間已計算在內。</item>
+        <item quantity="other">有新路線可用，所需充電站減少 %1$s 個。快 %2$s，駕駛和充電時間已計算在內。</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">有新路線可用，所需充電站增加 %1$s 個。快 %2$s，駕駛和充電時間已計算在內。</item>
+        <item quantity="other">有新路線可用，所需充電站增加 %1$s 個。快 %2$s，駕駛和充電時間已計算在內。</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">您需要採用新路線。所需充電站減少 %1$s 個。您將於%2$s到達。</item>
+        <item quantity="other">您需要採用新路線。所需充電站減少 %1$s 個。您將於%2$s到達。</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">您需要採用新路線。所需充電站增加 %1$s 個。您將於%2$s到達。</item>
+        <item quantity="other">您需要採用新路線。所需充電站增加 %1$s 個。您將於%2$s到達。</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">您需要採用新路線。%1$s 個充電站有變。您將於%2$s到達。</item>
+        <item quantity="other">您需要採用新路線。%1$s 個充電站有變。您將於%2$s到達。</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">有新路線可用，所需充電站減少 %1$s 個。到達時間相若。</item>
+        <item quantity="other">有新路線可用，所需充電站減少 %1$s 個。到達時間相若。</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">有新路線可用，所需充電站減少 %1$s 個。慢 %2$s，駕駛和充電時間已計算在內。</item>
+        <item quantity="other">有新路線可用，所需充電站減少 %1$s 個。慢 %2$s，駕駛和充電時間已計算在內。</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">%1$d 天前使用過</item>
+        <item quantity="other">%1$d 天前使用過</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">%1$d 星期前使用過</item>
+        <item quantity="other">%1$d 星期前使用過</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">+%1$d 個網絡</item>
+        <item quantity="other">+%1$d 個網絡</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">已選取 %1$d 個</item>
+        <item quantity="other">已選取 %1$d 個</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s 個充電站</item>
+        <item quantity="other">%1$s 個充電站</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d 個站</item>
+        <item quantity="other">%1$d 個站</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">已選取 %1$d 個</item>
+        <item quantity="other">已選取 %1$d 個</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s + %2$d 個</item>
+        <item quantity="other">%1$s + %2$d 個</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">+另外 %1$d 種</item>
+        <item quantity="other">+另外 %1$d 種</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">+另外 %1$d 個</item>
+        <item quantity="other">+另外 %1$d 個</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">+另外 %1$d 個</item>
+        <item quantity="other">+另外 %1$d 個</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="one">%2$d 分鐘後到公司</item>
+        <item quantity="other">%1$d 小時 %2$d 分鐘後到公司</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="one">%2$d 分鐘後回到家</item>
+        <item quantity="other">%1$d 小時 %2$d 分鐘後回到家</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="one">%2$d 分鐘後到公司</item>
+        <item quantity="other">%1$d 小時 %2$d 分鐘後到公司</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="one">行程需要 %2$d 分鐘</item>
+        <item quantity="other">行程需要 %1$d 小時 %2$d 分鐘</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="one">%2$d 分鐘後回到家</item>
+        <item quantity="other">%1$d 小時 %2$d 分鐘後回到家</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">比平常快 %d 分鐘</item>
+        <item quantity="other">比平常快 %d 分鐘</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">比平常慢 %d 分鐘</item>
+        <item quantity="other">比平常慢 %d 分鐘</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">地圖方向係 %d 度。</item>
+        <item quantity="other">地圖方向係 %d 度。</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">%d 星住宿</item>
+        <item quantity="other">%d 星住宿</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">第 %d 級本地嚮導</item>
+        <item quantity="other">第 %d 級本地嚮導</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">你已評分%1$s為 1 顆星</item>
+        <item quantity="other">你已評分%1$s為 %2$d 顆星</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">分</item>
+        <item quantity="other">分</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s 天</item>
+        <item quantity="other">%s 天</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s 天</item>
+        <item quantity="other">%s 天</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s 天</item>
+        <item quantity="other">%s 天</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s 天</item>
+        <item quantity="other">%s 天</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s 小時</item>
+        <item quantity="other">%s 小時</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s 小時</item>
+        <item quantity="other">%s 小時</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s 小時</item>
+        <item quantity="other">%s 小時</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s 分鐘</item>
+        <item quantity="other">%s 分鐘</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s 分鐘</item>
+        <item quantity="other">%s 分鐘</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s 分鐘</item>
+        <item quantity="other">%s 分鐘</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s 秒</item>
+        <item quantity="other">%s 秒</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">繼續走 %1$s 英尺</item>
+        <item quantity="other">繼續走 %1$s 英尺</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">繼續走 %1$s 公里</item>
+        <item quantity="other">繼續走 %1$s 公里</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">繼續走 %1$s 米</item>
+        <item quantity="other">繼續走 %1$s 米</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">繼續走 %1$s 英里</item>
+        <item quantity="other">繼續走 %1$s 英里</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">繼續走 %1$s 碼</item>
+        <item quantity="other">繼續走 %1$s 碼</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">繼續在%2$s走 %1$s 英尺</item>
+        <item quantity="other">繼續在%2$s走 %1$s 英尺</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">繼續在%2$s走 %1$s 公里</item>
+        <item quantity="other">繼續在%2$s走 %1$s 公里</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">繼續在%2$s走 %1$s 米</item>
+        <item quantity="other">繼續在%2$s走 %1$s 米</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">繼續在%2$s走 %1$s英里</item>
+        <item quantity="other">繼續在%2$s走 %1$s英里</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">繼續在%2$s走 %1$s 碼</item>
+        <item quantity="other">繼續在%2$s走 %1$s 碼</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">前行 %1$s 英尺後</item>
+        <item quantity="other">前行 %1$s 英尺後</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">前行 %1$s 公里後</item>
+        <item quantity="other">前行 %1$s 公里後</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">前行 %1$s 米後</item>
+        <item quantity="other">前行 %1$s 米後</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">前行 %1$s 英里後</item>
+        <item quantity="other">前行 %1$s 英里後</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">前行 %1$s 碼後</item>
+        <item quantity="other">前行 %1$s 碼後</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">每小時 %s 公里</item>
+        <item quantity="other">每小時 %s 公里</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">每小時 %s 英里</item>
+        <item quantity="other">每小時 %s 英里</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">距離目的地還有 %1$s 英尺</item>
+        <item quantity="other">距離目的地還有 %1$s 英尺</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">距離目的地還有 %1$s 公里</item>
+        <item quantity="other">距離目的地還有 %1$s 公里</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">距離目的地還有 %1$s 米</item>
+        <item quantity="other">距離目的地還有 %1$s 米</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">距離目的地還有 %1$s 英里</item>
+        <item quantity="other">距離目的地還有 %1$s 英里</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">距離目的地還有 %1$s 碼</item>
+        <item quantity="other">距離目的地還有 %1$s 碼</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d 個站</item>
+        <item quantity="other">%d 個站</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d 種接駁方式</item>
+        <item quantity="other">%1$d 種接駁方式</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">%d 天前更新</item>
+        <item quantity="other">%d 天前更新</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">%d 個月前更新</item>
+        <item quantity="other">%d 個月前更新</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">%d 星期前更新</item>
+        <item quantity="other">%d 星期前更新</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d 輛單車</item>
+        <item quantity="other">%d 輛單車</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">附近有 %d 輛單車</item>
+        <item quantity="other">附近有 %d 輛單車</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">已選取 %1$d 個</item>
+        <item quantity="other">已選取 %1$d 個</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%2$d 個充電站中有 %1$d 個可用</item>
+        <item quantity="other">%2$d 個充電站中有 %1$d 個可用</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d 個充電站</item>
+        <item quantity="other">%d 個充電站</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">未能評分為 1 星，請再試一次</item>
+        <item quantity="other">未能評分為 %1$d 星，請再試一次</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">%s 樓</item>
+        <item quantity="other">%s 樓</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">多住 %d 晚</item>
+        <item quantity="other">多住 %d 晚</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">多住 %d 晚</item>
+        <item quantity="other">多住 %d 晚</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">這間酒店可以提供 %1$d 晚住宿。如果%2$s，平均每晚房價為 %3$s。</item>
+        <item quantity="other">這間酒店可以提供 %1$d 晚住宿。如果%2$s，平均每晚房價為 %3$s。</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">如果%1$s，平均每晚房價為 %2$s</item>
+        <item quantity="other">如果%1$s，平均每晚房價為 %2$s</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d 位賓客</item>
+        <item quantity="other">%d 位賓客</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">和另外 %d 個</item>
+        <item quantity="other">和另外 %d 個</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">+ 另外 %d 個。</item>
+        <item quantity="other">+ 另外 %d 個。</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="one">%d 天前</item>
+        <item quantity="other">%d 天前</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="one">%d 小時前</item>
+        <item quantity="other">%d 小時前</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="one">%d 分鐘前</item>
+        <item quantity="other">%d 分鐘前</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">已儲存至「%1$s」和另外 %2$d 個清單</item>
+        <item quantity="other">已儲存至「%1$s」和另外 %2$d 個清單</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">已儲存和列入 %1$d 份清單</item>
+        <item quantity="other">已儲存和列入 %1$d 份清單</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="one">已從 %d 份清單移除</item>
+        <item quantity="other">已從 %d 份清單移除</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">你在 %d 個月前來過</item>
+        <item quantity="other">你在 %d 個月前來過</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">你在 %d 星期前來過</item>
+        <item quantity="other">你在 %d 星期前來過</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">你在 %d 年前來過</item>
+        <item quantity="other">你在 %d 年前來過</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d 項特別活動</item>
+        <item quantity="other">%d 項特別活動</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d 個項目</item>
+        <item quantity="other">%d 個項目</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d 個地點</item>
+        <item quantity="other">%d 個地點</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">%d 次儲存</item>
+        <item quantity="other">%d 次儲存</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d 段行程</item>
+        <item quantity="other">%d 段行程</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s 次瀏覽</item>
+        <item quantity="other">%s 次瀏覽</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="one">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">%d 天前曾編輯</item>
+        <item quantity="other">%d 天前曾編輯</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">%d 個月前曾編輯</item>
+        <item quantity="other">%d 個月前曾編輯</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">%d 星期前曾編輯</item>
+        <item quantity="other">%d 星期前曾編輯</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">%d 年前曾編輯</item>
+        <item quantity="other">%d 年前曾編輯</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="one">%d 個站</item>
+        <item quantity="other">%d 個站</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">您有 %d 分</item>
+        <item quantity="other">您有 %d 分</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">再攞 %1$d 分就可以升上第 %2$d 級</item>
+        <item quantity="other">再攞 %1$d 分就可以升上第 %2$d 級</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">第 %d 級</item>
+        <item quantity="other">第 %d 級</item>
+    </plurals>
+    <plurals name="plurals_0x7f120093">
+        <item quantity="one">本地嚮導第 %d 級</item>
+        <item quantity="other">本地嚮導第 %d 級</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">已開業 %d 年</item>
+        <item quantity="other">已開業超過 %d 年</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d 天前</item>
+        <item quantity="other">%d 天前</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d 小時前</item>
+        <item quantity="other">%d 小時前</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d 分鐘前</item>
+        <item quantity="other">%d 分鐘前</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">這裡有 %d 個地點</item>
+        <item quantity="other">這裡有 %d 個地點</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">已移除相片</item>
+        <item quantity="other">已移除相片</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">全螢幕顯示訊息 %1$d 中的影片</item>
+        <item quantity="other">全螢幕顯示訊息 %1$d 中的影片 %2$d</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d/%2$,d</item>
+        <item quantity="other">%1$,d/%2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">正在上載 %1$d 項媒體</item>
+        <item quantity="other">正在上載 %1$d 項媒體</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">餐牌相片 %d</item>
+        <item quantity="other">餐牌相片 %d</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d 人報告</item>
+        <item quantity="other">%1$d 人報告</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">擁有此連結的人可在 1 天 %d 小時內查看您的位置</item>
+        <item quantity="other">擁有此連結的人可在 1 天 %d 小時內查看您的位置</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">擁有此連結的人可在 1 小時 %d 分鐘內查看您的位置</item>
+        <item quantity="other">擁有此連結的人可在 1 小時 %d 分鐘內查看您的位置</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">擁有此連結的人可在 %d 天內查看您的位置</item>
+        <item quantity="other">擁有此連結的人可在 %d 天內查看您的位置</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">擁有此連結的人可在 %d 小時內查看您的位置</item>
+        <item quantity="other">擁有此連結的人可在 %d 小時內查看您的位置</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">擁有此連結的人可在 %d 分鐘內查看您的位置</item>
+        <item quantity="other">擁有此連結的人可在 %d 分鐘內查看您的位置</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">另外 %d 個</item>
+        <item quantity="other">另外 %d 個</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">將訊息 %1$d 中的影片設為靜音</item>
+        <item quantity="other">將訊息 %1$d 中的影片 %2$d 設為靜音</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d 張相片/段影片</item>
+        <item quantity="other">%d 張相片/段影片</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d 段影片</item>
+        <item quantity="other">%d 段影片</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">自訂頭像 %1$d (共 %2$d 個)</item>
+        <item quantity="other">自訂頭像 %1$d (共 %2$d 個)</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d 項更新</item>
+        <item quantity="other">%d 項更新</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">商家最新消息：%1$s 個新通知</item>
+        <item quantity="other">商家最新消息：%1$s 個新通知</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d 張相片</item>
+        <item quantity="other">%d 張相片</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d 則評論</item>
+        <item quantity="other">%d 則評論</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">縮圖編號 %d</item>
+        <item quantity="other">縮圖編號 %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d 個離線區域</item>
+        <item quantity="other">%d 個離線區域</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">根據 %1$d 人報告</item>
+        <item quantity="other">根據 %1$d 人報告</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">暫停播放訊息 %1$d 中的影片</item>
+        <item quantity="other">暫停播放訊息 %1$d 中的影片 %2$d</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s 次互動</item>
+        <item quantity="other">%1$s 次互動</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s 次搜尋</item>
+        <item quantity="other">%1$s 次搜尋</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s 次檢視</item>
+        <item quantity="other">%1$s 次檢視</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">預訂 %d 晚</item>
+        <item quantity="other">預訂 %d 晚</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">只有您才能查看</item>
+        <item quantity="other">只有您才能查看</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d 天</item>
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d 晚</item>
+        <item quantity="other">%1$d 晚</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d 張相片</item>
+        <item quantity="other">%d 張相片</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"正在等待 Wi-Fi 連線。
+ %d 張相片/段影片尚待處理。"</item>
+        <item quantity="other">"正在等待 Wi-Fi 連線。
+ %d 張相片/段影片尚待處理。"</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">訊息 %1$d 中的相片</item>
+        <item quantity="other">訊息 %1$d 中的相片 %2$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d 天前</item>
+        <item quantity="other">%d 天前</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d 小時前</item>
+        <item quantity="other">%d 小時前</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d 個月前</item>
+        <item quantity="other">%d 個月前</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d 星期前</item>
+        <item quantity="other">%d 星期前</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d 年前</item>
+        <item quantity="other">%d 年前</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d 項更新</item>
+        <item quantity="other">%d 項更新</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">查看 %d 個答案</item>
+        <item quantity="other">查看 %d 個答案</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">播放訊息 %1$d 中的影片</item>
+        <item quantity="other">播放訊息 %1$d 中的影片 %2$d</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+另外 %d 個分享對象</item>
+        <item quantity="other">+另外 %d 個分享對象</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">取代中途站</item>
+        <item quantity="other">取代中途站</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">正在取代中途站</item>
+        <item quantity="other">正在取代中途站</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d 次瀏覽</item>
+        <item quantity="other">%,d 次瀏覽</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d 次評分</item>
+        <item quantity="other">%d 次評分</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d 則評論</item>
+        <item quantity="other">%d 則評論</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">已評為 %d 顆星</item>
+        <item quantity="other">已評為 %d 顆星</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="one">%d 星</item>
+        <item quantity="other">%d 星</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">1 人回應表示%2$s</item>
+        <item quantity="other">%1$,d 人回應表示%2$s</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">%d 分鐘前更新</item>
+        <item quantity="other">%d 分鐘前更新</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">如乘坐 %1$d 卡列車，在 %2$s 上車 (去出口最快)</item>
+        <item quantity="other">如乘坐 %1$d 卡列車，在 %2$s 上車 (去出口最快)</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">如乘坐 %1$d 卡列車，在 %2$s 上車 (以最快速度轉車)</item>
+        <item quantity="other">如乘坐 %1$d 卡列車，在 %2$s 上車 (以最快速度轉車)</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">最唔迫嘅係第 %1$s 個車廂</item>
+        <item quantity="other">最唔迫嘅係第 %1$s 個車廂</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">%1$d 卡列車</item>
+        <item quantity="other">%1$d 卡列車</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d 個付款網絡</item>
+        <item quantity="other">%d 個付款網絡</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s + 另外 %2$s 項</item>
+        <item quantity="other">%1$s + 另外 %2$s 項</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="one">%d+</item>
+        <item quantity="other">%d+</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">獲 1 星評分 (滿分為 5 星)</item>
+        <item quantity="other">獲 %1$d 星評分 (滿分為 5 星)</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s 次瀏覽</item>
+        <item quantity="other">%s 次瀏覽</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d 項評分或評論</item>
+        <item quantity="other">%,d 項評分和評論</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d 項評分或評論</item>
+        <item quantity="other">%,d 項評分和評論</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d 人</item>
+        <item quantity="other">%d 人</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="one">%d 條問題</item>
+        <item quantity="other">%d 條問題</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">另外 %d 份清單</item>
+        <item quantity="other">另外 %d 份清單</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">已儲存在「%1$s」和另外 %2$d 份清單</item>
+        <item quantity="other">已儲存在「%1$s」和另外 %2$d 份清單</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">要儲存 %d 天前的到訪紀錄嗎？</item>
+        <item quantity="other">要儲存 %d 天前的到訪紀錄嗎？</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">搵到 %1$d 個同%2$s有關嘅結果</item>
+        <item quantity="other">搵到 %1$d 個同%2$s有關嘅結果</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">正在傳送 1 星評分</item>
+        <item quantity="other">正在傳送 %1$d 星評分</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">%d 天</item>
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">%d 小時</item>
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">%d 分鐘</item>
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">正在與%2$s和另外 %1$d 人分享位置</item>
+        <item quantity="other">正在與%2$s和另外 %1$d 人分享位置</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">正在與另外 %d 人分享位置</item>
+        <item quantity="other">正在與另外 %d 人分享位置</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="one">儲存 %d 個地點</item>
+        <item quantity="other">儲存 %d 個地點</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="one">找到 %d 個地點</item>
+        <item quantity="other">找到 %d 個地點</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s，%2$d 星</item>
+        <item quantity="other">%1$s，%2$d 星</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">已成功評分為 1 星</item>
+        <item quantity="other">已成功評分為 %1$d 星</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d 次瀏覽</item>
+        <item quantity="other">%,d 次瀏覽</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d 分</item>
+        <item quantity="other">+%d 分</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">發佈 %1$d 張/條%2$s嘅相或者影片</item>
+        <item quantity="other">發佈 %1$d 張/條%2$s嘅相或者影片</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">發佈「%2$s」的 %1$d 張相片</item>
+        <item quantity="other">發佈「%2$s」的 %1$d 張相片</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">+%d 張</item>
+        <item quantity="other">+%d 張</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">發佈 %1$d 張相片</item>
+        <item quantity="other">發佈 %1$d 張相片</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">發佈 %1$d 項</item>
+        <item quantity="other">發佈 %1$d 項</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$d 人提及%2$s</item>
+        <item quantity="other">%1$,d 人提及%2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">1 個反應</item>
+        <item quantity="other">%1$,d 個反應</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">查看另外 %1$d 個選項 (由 %2$s 起)</item>
+        <item quantity="other">查看另外 %1$d 個選項 (由 %2$s 起)</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">查看另外 %1$d 個選項</item>
+        <item quantity="other">查看另外 %1$d 個選項</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">儲存地址即可查看最快的交通路線</item>
+        <item quantity="other">儲存地址即可查看最快的交通路線</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">班次時間已於 %1$d 秒前更新</item>
+        <item quantity="other">班次時間已於 %1$d 秒前更新</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">每分鐘一班</item>
+        <item quantity="other">每 %d 分鐘一班</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d 分鐘</item>
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES_LONG">
+        <item quantity="one">分鐘</item>
+        <item quantity="other">分鐘</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="one">%1$s (1 則快訊)</item>
+        <item quantity="other">%1$s (%2$d 則快訊)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="one">%1$s巴士 (1 則快訊)</item>
+        <item quantity="other">%1$s巴士 (%2$d 則快訊)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="one">%1$s渡輪 (1 則快訊)</item>
+        <item quantity="other">%1$s渡輪 (%2$d 則快訊)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="one">%1$s線 (1 則快訊)</item>
+        <item quantity="other">%1$s線 (%2$d 則快訊)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="one">%1$s火車 (1 則快訊)</item>
+        <item quantity="other">%1$s火車 (%2$d 則快訊)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="one">%1$s電車 (1 則快訊)</item>
+        <item quantity="other">%1$s電車 (%2$d 則快訊)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="one">每 1 分鐘</item>
+        <item quantity="other">每 %d 分鐘</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d 個站</item>
+        <item quantity="other">%d 個站</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_CARD">
+        <item quantity="one">"%1$d
+分鐘前"</item>
+        <item quantity="other">"%1$d
+分鐘前"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+分鐘前"</item>
+        <item quantity="other">"%1$s
+分鐘前"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">已於 %1$s 分鐘前開出</item>
+        <item quantity="other">已於 %1$s 分鐘前開出</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d 則快訊</item>
+        <item quantity="other">+%d 則快訊</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d 則快訊</item>
+        <item quantity="other">+ %d 則快訊</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+ 另外 %d 個</item>
+        <item quantity="other">+ 另外 %d 個</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ 另外 %d 項</item>
+        <item quantity="other">+ 另外 %d 項</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_ITEMS_COUNT">
+        <item quantity="one">+ 另外 %1$d 條</item>
+        <item quantity="other">+ 另外 %1$d 條</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+分鐘"</item>
+        <item quantity="other">"%1$s
+分鐘"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s 分鐘前</item>
+        <item quantity="other">%1$s 分鐘前</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">將於 %1$s 分鐘後開出</item>
+        <item quantity="other">將於 %1$s 分鐘後開出</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">還有 %1$s 個警告</item>
+        <item quantity="other">還有 %1$s 個警告</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s 張相片</item>
+        <item quantity="other">%s 張相片</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s 則評論</item>
+        <item quantity="other">%s 則評論</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d contribution</item>
+        <item quantity="other">%,d 項提供的內容</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d 次檢視</item>
+        <item quantity="other">%,d 次檢視</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">最多選取 %1$d 張</item>
+        <item quantity="other">最多選取 %1$d 張</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">最多可選取 %1$s 張相片</item>
+        <item quantity="other">最多可選取 %1$s 張相片</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">為訊息 %1$d 中的影片取消靜音</item>
+        <item quantity="other">為訊息 %1$d 中的影片 %2$d 取消靜音</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d / %2$d</item>
+        <item quantity="other">%1$d / %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"正在等待 Wi-Fi 連線。
+ %d 張相片尚待處理。"</item>
+        <item quantity="other">"正在等待 Wi-Fi 連線。
+ %d 張相片尚待處理。"</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">已選取 %d 張相片</item>
+        <item quantity="other">已選取 %d 張相片</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">去過 %1$d 個地點 (共 %2$d 個)</item>
+        <item quantity="other">去過 %1$d 個地點 (共 %2$d 個)</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">關閉「慳電模式」，以提升與%1$s和另外 %2$d 人分享位置的準確度</item>
+        <item quantity="other">關閉「慳電模式」，以提升與%1$s和另外 %2$d 人分享位置的準確度</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">您必須啟用裝置位置資訊，才能繼續與%1$s和另外 %2$d 人分享位置</item>
+        <item quantity="other">您必須啟用裝置位置資訊，才能繼續與%1$s和另外 %2$d 人分享位置</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">更新「位置分享」設定，以繼續在此裝置上與%1$s和另外 %2$d 人分享位置</item>
+        <item quantity="other">更新「位置分享」設定，以繼續在此裝置上與%1$s和另外 %2$d 人分享位置</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">讓「地圖」識別您的身體活動，以提升與%1$s和另外 %2$d 人分享位置的準確度</item>
+        <item quantity="other">讓「地圖」識別您的身體活動，以提升與%1$s和另外 %2$d 人分享位置的準確度</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">一律允許「地圖」存取您的位置資料，以提升與%1$s和另外 %2$d 人分享位置的準確度</item>
+        <item quantity="other">一律允許「地圖」存取您的位置資料，以提升與%1$s和另外 %2$d 人分享位置的準確度</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">一律允許「地圖」存取您的位置資料，以繼續與%1$s和另外 %2$d 人分享位置</item>
+        <item quantity="other">一律允許「地圖」存取您的位置資料，以繼續與%1$s和另外 %2$d 人分享位置</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">%d+ 張相片</item>
+        <item quantity="other">%d+ 張相片</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d 則評論)</item>
+        <item quantity="other">(%,d 則評論)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="one">%1$s 秒</item>
+        <item quantity="other">%1$s 秒</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">「訊息 %1$d」中的影片</item>
+        <item quantity="other">「訊息 %1$d」中的影片 %2$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">「訊息 %1$d」中的影片為全螢幕</item>
+        <item quantity="other">「訊息 %1$d」中的影片 %2$d 為全螢幕</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d 晚</item>
+        <item quantity="other">%2$s × %1$d 晚</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%1$d 晚總額：%2$s (包括稅項及費用)</item>
+        <item quantity="other">%1$d 晚總額：%2$s (包括稅項及費用)</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">步行 1 分鐘</item>
+        <item quantity="other">步行 %d 分鐘</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d 個中途點</item>
+        <item quantity="other">+ %d 個中途點</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d 個站)</item>
+        <item quantity="other">(%d 個站)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d 星期前</item>
+        <item quantity="other">%d 星期前</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d 年前</item>
+        <item quantity="other">%d 年前</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">睇其餘嘅相</item>
+        <item quantity="other">睇其餘 %1$d 張相</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">您的評論或最新內容</item>
+        <item quantity="other">您的評論和最新內容</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">你正在追蹤「%1$s」和另外 %2$d 份清單</item>
+        <item quantity="other">你正在追蹤「%1$s」和另外 %2$d 份清單</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s和另外 %2$d 人</item>
+        <item quantity="other">%1$s和另外 %2$d 人</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="plurals_0x7f12014e">
+        <item quantity="one"></item>
+        <item quantity="other">第 %1$d 級</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">1 項拍攝內容</item>
+        <item quantity="other">%1$d 項拍攝內容</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 個新通知</item>
+        <item quantity="other">%d 個新通知</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">已複製 %d 名收件者</item>
+        <item quantity="other">已複製 %d 名收件者</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">加入相片說明 (選填)</item>
+        <item quantity="other">加入相片說明 (選填)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">你有通知</item>
+        <item quantity="other">%1$d 則新通知</item>
+    </plurals>
+    <plurals name="tell_maps_know_before_you_go_place_contextual_zero_state_post_tip">
+        <item quantity="one">要發佈有關此地點的提示嗎？</item>
+        <item quantity="other">要發佈有關其中一個地點的提示嗎？</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_post_tip_or_photo">
+        <item quantity="one">要發佈有關此地點的相片或提示嗎？</item>
+        <item quantity="other">要發佈有關其中一個地點的相片或提示嗎？</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_update_a_place">
+        <item quantity="one">要更新此地點的資料嗎？</item>
+        <item quantity="other">要更新哪個地點？</item>
+    </plurals>
+</resources>

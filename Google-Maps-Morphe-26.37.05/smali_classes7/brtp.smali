@@ -1,0 +1,344 @@
+.class final Lbrtp;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field public final a:Lbrnt;
+
+.field public final b:Z
+
+.field private final c:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 11
+    const/4 p0, 0x0
+
+    throw p0
+.end method
+
+.method public constructor <init>(Ljava/lang/String;Lbrnt;Z)V
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    iput-object p1, p0, Lbrtp;->c:Ljava/lang/String;
+
+    .line 6
+    .line 7
+    iput-object p2, p0, Lbrtp;->a:Lbrnt;
+
+    .line 8
+    .line 9
+    iput-boolean p3, p0, Lbrtp;->b:Z
+
+    .line 10
+    return-void
+.end method
+
+.method static a(Landroid/app/Activity;)Lbrtp;
+    .locals 3
+
+    .line 1
+    .line 2
+    new-instance v0, Lbrtp;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 6
+    move-result-object p0
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    .line 10
+    move-result-object p0
+
+    .line 11
+    .line 12
+    new-instance v1, Lbrnt;
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-direct {v1, p0}, Lbrnt;-><init>(Ljava/lang/String;)V
+
+    .line 16
+    const/4 p0, 0x1
+
+    .line 17
+    const/4 v2, 0x0
+
+    .line 18
+    .line 19
+    .line 20
+    invoke-direct {v0, v2, v1, p0}, Lbrtp;-><init>(Ljava/lang/String;Lbrnt;Z)V
+
+    .line 21
+    return-object v0
+.end method
+
+
+# virtual methods
+.method final b()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lbrtp;->a:Lbrnt;
+
+    .line 3
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    .line 6
+    iget-object p0, v0, Lbrnt;->a:Ljava/lang/String;
+
+    .line 7
+    return-object p0
+
+    .line 8
+    .line 9
+    :cond_0
+    iget-object p0, p0, Lbrtp;->c:Ljava/lang/String;
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-static {p0}, Lbunv;->aL(Ljava/lang/Object;)V
+
+    .line 13
+    return-object p0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 3
+
+    .line 1
+    .line 2
+    instance-of v0, p1, Lbrtp;
+
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    .line 5
+    if-nez v0, :cond_0
+
+    .line 6
+    return v1
+
+    .line 7
+    .line 8
+    :cond_0
+    check-cast p1, Lbrtp;
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-virtual {p0}, Lbrtp;->b()Ljava/lang/String;
+
+    .line 12
+    move-result-object v0
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {p1}, Lbrtp;->b()Ljava/lang/String;
+
+    .line 16
+    move-result-object v2
+
+    .line 17
+    .line 18
+    .line 19
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 20
+    move-result v0
+
+    .line 21
+    .line 22
+    if-eqz v0, :cond_1
+
+    .line 23
+    .line 24
+    iget-boolean p0, p0, Lbrtp;->b:Z
+
+    .line 25
+    .line 26
+    iget-boolean p1, p1, Lbrtp;->b:Z
+
+    .line 27
+    .line 28
+    if-ne p0, p1, :cond_1
+
+    .line 29
+    const/4 p0, 0x1
+
+    .line 30
+    return p0
+
+    .line 31
+    :cond_1
+    return v1
+.end method
+
+.method public final hashCode()I
+    .locals 2
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lbrtp;->b()Ljava/lang/String;
+
+    .line 4
+    move-result-object v0
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    .line 8
+    move-result v0
+
+    .line 9
+    const/4 v1, 0x1
+
+    .line 10
+    .line 11
+    iget-boolean p0, p0, Lbrtp;->b:Z
+
+    .line 12
+    .line 13
+    if-eq v1, p0, :cond_0
+
+    .line 14
+    .line 15
+    const/16 p0, 0x4d5
+
+    .line 16
+    goto :goto_0
+
+    .line 17
+    .line 18
+    :cond_0
+    const/16 p0, 0x4cf
+
+    .line 19
+    .line 20
+    :goto_0
+    mul-int/lit8 v0, v0, 0x1f
+
+    .line 21
+    xor-int/2addr p0, v0
+
+    .line 22
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 3
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lbrtp;->a:Lbrnt;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 6
+    move-result-object v0
+
+    .line 7
+    .line 8
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 9
+    .line 10
+    const-string v2, "MeasurementKey{rawStringEventName="
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 14
+    .line 15
+    iget-object v2, p0, Lbrtp;->c:Ljava/lang/String;
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 19
+    .line 20
+    const-string v2, ", noPiiEventName="
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 27
+    .line 28
+    const-string v0, ", isActivity="
+
+    .line 29
+    .line 30
+    .line 31
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 32
+    .line 33
+    iget-boolean p0, p0, Lbrtp;->b:Z
+
+    .line 34
+    .line 35
+    .line 36
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    .line 37
+    .line 38
+    const-string p0, "}"
+
+    .line 39
+    .line 40
+    .line 41
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 42
+    .line 43
+    .line 44
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 45
+    move-result-object p0
+
+    .line 46
+    return-object p0
+.end method

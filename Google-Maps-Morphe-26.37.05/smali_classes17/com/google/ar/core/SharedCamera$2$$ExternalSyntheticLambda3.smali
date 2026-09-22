@@ -1,0 +1,60 @@
+.class public final synthetic Lcom/google/ar/core/SharedCamera$2$$ExternalSyntheticLambda3;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public synthetic f$0:Landroid/hardware/camera2/CameraCaptureSession$StateCallback;
+
+.field public synthetic f$1:Landroid/hardware/camera2/CameraCaptureSession;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroid/hardware/camera2/CameraCaptureSession$StateCallback;Landroid/hardware/camera2/CameraCaptureSession;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/google/ar/core/SharedCamera$2$$ExternalSyntheticLambda3;->f$0:Landroid/hardware/camera2/CameraCaptureSession$StateCallback;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lcom/google/ar/core/SharedCamera$2$$ExternalSyntheticLambda3;->f$1:Landroid/hardware/camera2/CameraCaptureSession;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/google/ar/core/SharedCamera$2$$ExternalSyntheticLambda3;->f$0:Landroid/hardware/camera2/CameraCaptureSession$StateCallback;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lcom/google/ar/core/SharedCamera$2$$ExternalSyntheticLambda3;->f$1:Landroid/hardware/camera2/CameraCaptureSession;
+
+    .line 4
+    .line 5
+    sget v1, Lbvmo;->d:I
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p0}, Landroid/hardware/camera2/CameraCaptureSession$StateCallback;->onActive(Landroid/hardware/camera2/CameraCaptureSession;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

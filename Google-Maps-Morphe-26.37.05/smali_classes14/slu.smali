@@ -1,0 +1,20 @@
+.class public interface abstract Lslu;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbguc;
+
+
+# virtual methods
+.method public abstract a()Lbcjc;
+.end method
+
+.method public abstract b()Ljava/lang/Integer;
+.end method
+
+.method public abstract c()Ljava/lang/String;
+.end method
+
+.method public abstract d()Z
+.end method

@@ -1,0 +1,120 @@
+.class public final Lcmep;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Ljava/lang/Comparable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/lang/Comparable;"
+    }
+.end annotation
+
+
+# instance fields
+.field final a:Lcmex;
+
+.field public final b:I
+
+.field public final c:Lcmhg;
+
+.field public final d:Z
+
+.field public final e:Z
+
+
+# direct methods
+.method public constructor <init>(Lcmex;ILcmhg;ZZ)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcmep;->a:Lcmex;
+
+    .line 5
+    .line 6
+    iput p2, p0, Lcmep;->b:I
+
+    .line 7
+    .line 8
+    iput-object p3, p0, Lcmep;->c:Lcmhg;
+
+    .line 9
+    .line 10
+    iput-boolean p4, p0, Lcmep;->d:Z
+
+    .line 11
+    .line 12
+    iput-boolean p5, p0, Lcmep;->e:Z
+
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public static final b(Ljava/lang/Object;Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p0, Lcmek;
+
+    .line 2
+    .line 3
+    check-cast p1, Lcmes;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1}, Lcmek;->mergeFrom(Lcmes;)Lcmek;
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lcmhh;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcmep;->c:Lcmhg;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lcmhg;->s:Lcmhh;
+
+    .line 4
+    .line 5
+    return-object p0
+.end method
+
+.method public final bridge synthetic compareTo(Ljava/lang/Object;)I
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcmep;
+
+    .line 2
+    .line 3
+    iget p1, p1, Lcmep;->b:I
+
+    .line 4
+    .line 5
+    iget p0, p0, Lcmep;->b:I
+
+    .line 6
+    .line 7
+    sub-int/2addr p0, p1
+
+    .line 8
+    return p0
+.end method

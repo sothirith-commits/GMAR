@@ -1,0 +1,20 @@
+.class public final synthetic Lpzu;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lauzs;
+
+
+# virtual methods
+.method public final a(Lbvtl;Lcbax;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

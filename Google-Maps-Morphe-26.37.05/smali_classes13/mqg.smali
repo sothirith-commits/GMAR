@@ -1,0 +1,339 @@
+.class public final Lmqg;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field final synthetic a:Lmqi;
+
+.field private final b:Z
+
+
+# direct methods
+.method public constructor <init>(Lmqi;Z)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lmqg;->a:Lmqi;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    iput-boolean p2, p0, Lmqg;->b:Z
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lmqw;)V
+    .locals 4
+
+    .line 1
+    iget-boolean v0, p0, Lmqg;->b:Z
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lmqg;->a:Lmqi;
+
+    .line 6
+    .line 7
+    iget-object v1, v0, Lmqi;->d:Lcpuk;
+
+    .line 8
+    .line 9
+    invoke-interface {v1}, Lcpuk;->a()Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v2
+
+    .line 13
+    check-cast v2, Lbvtl;
+
+    .line 14
+    .line 15
+    invoke-virtual {v2}, Lbvtl;->i()Z
+
+    .line 16
+    .line 17
+    .line 18
+    move-result v2
+
+    .line 19
+    if-eqz v2, :cond_0
+
+    .line 20
+    .line 21
+    iget v2, p1, Lmqw;->c:I
+
+    .line 22
+    .line 23
+    const/4 v3, 0x1
+
+    .line 24
+    if-ne v2, v3, :cond_0
+
+    .line 25
+    .line 26
+    iget-object v2, p1, Lmqw;->a:Lbvtl;
+
+    .line 27
+    .line 28
+    invoke-virtual {v2}, Lbvtl;->d()Ljava/lang/Object;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v2
+
+    .line 32
+    check-cast v2, Lawvf;
+
+    .line 33
+    .line 34
+    invoke-virtual {v2}, Lawvf;->a()Ljava/io/Serializable;
+
+    .line 35
+    .line 36
+    .line 37
+    move-result-object v2
+
+    .line 38
+    check-cast v2, Lolk;
+
+    .line 39
+    .line 40
+    if-eqz v2, :cond_0
+
+    .line 41
+    .line 42
+    iget-object p0, v0, Lmqi;->b:Landroid/app/Activity;
+
+    .line 43
+    .line 44
+    invoke-static {}, Lvrq;->b()Lvrp;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object p1
+
+    .line 48
+    invoke-virtual {p0}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object p0
+
+    .line 52
+    const/4 v0, 0x0
+
+    .line 53
+    invoke-static {p0, v0}, Lxxz;->W(Landroid/content/Context;Lbjau;)Lxxz;
+
+    .line 54
+    .line 55
+    .line 56
+    move-result-object p0
+
+    .line 57
+    iput-object p0, p1, Lvrp;->d:Lxxz;
+
+    .line 58
+    .line 59
+    invoke-static {v2, v0}, Logs;->R(Lolk;Lxxz;)Lxxz;
+
+    .line 60
+    .line 61
+    .line 62
+    move-result-object p0
+
+    .line 63
+    invoke-virtual {p1, p0}, Lvrp;->l(Lxxz;)V
+
+    .line 64
+    .line 65
+    .line 66
+    sget-object p0, Lcovw;->a:Lcovw;
+
+    .line 67
+    .line 68
+    invoke-virtual {p0}, Lcmes;->createBuilder()Lcmek;
+
+    .line 69
+    .line 70
+    .line 71
+    move-result-object p0
+
+    .line 72
+    invoke-virtual {p0}, Lcmek;->copyOnWrite()V
+
+    .line 73
+    .line 74
+    .line 75
+    iget-object v0, p0, Lcmek;->instance:Lcmes;
+
+    .line 76
+    .line 77
+    check-cast v0, Lcovw;
+
+    .line 78
+    .line 79
+    iget v2, v0, Lcovw;->b:I
+
+    .line 80
+    .line 81
+    or-int/2addr v2, v3
+
+    .line 82
+    iput v2, v0, Lcovw;->b:I
+
+    .line 83
+    .line 84
+    iput-boolean v3, v0, Lcovw;->c:Z
+
+    .line 85
+    .line 86
+    invoke-virtual {p0}, Lcmek;->build()Lcmes;
+
+    .line 87
+    .line 88
+    .line 89
+    move-result-object p0
+
+    .line 90
+    check-cast p0, Lcovw;
+
+    .line 91
+    .line 92
+    invoke-virtual {p1, p0}, Lvrp;->k(Lcovw;)V
+
+    .line 93
+    .line 94
+    .line 95
+    sget-object p0, Lcjfk;->c:Lcjfk;
+
+    .line 96
+    .line 97
+    iput-object p0, p1, Lvrp;->b:Lcjfk;
+
+    .line 98
+    .line 99
+    invoke-virtual {p1}, Lvrp;->a()Lvrq;
+
+    .line 100
+    .line 101
+    .line 102
+    move-result-object p0
+
+    .line 103
+    invoke-static {}, Lamkh;->b()Lauwr;
+
+    .line 104
+    .line 105
+    .line 106
+    move-result-object p1
+
+    .line 107
+    iput-object p0, p1, Lauwr;->b:Ljava/lang/Object;
+
+    .line 108
+    .line 109
+    invoke-virtual {p1, v3}, Lauwr;->g(Z)V
+
+    .line 110
+    .line 111
+    .line 112
+    invoke-virtual {p1}, Lauwr;->f()Lamkh;
+
+    .line 113
+    .line 114
+    .line 115
+    move-result-object p0
+
+    .line 116
+    invoke-interface {v1}, Lcpuk;->a()Ljava/lang/Object;
+
+    .line 117
+    .line 118
+    .line 119
+    move-result-object p1
+
+    .line 120
+    check-cast p1, Lbvtl;
+
+    .line 121
+    .line 122
+    invoke-virtual {p1}, Lbvtl;->d()Ljava/lang/Object;
+
+    .line 123
+    .line 124
+    .line 125
+    move-result-object p1
+
+    .line 126
+    check-cast p1, Lamkg;
+
+    .line 127
+    .line 128
+    invoke-interface {p1, p0}, Lamkg;->e(Lamkh;)V
+
+    .line 129
+    .line 130
+    .line 131
+    return-void
+
+    .line 132
+    :cond_0
+    iget-object v0, p0, Lmqg;->a:Lmqi;
+
+    .line 133
+    .line 134
+    iget-object v1, v0, Lmqi;->g:Lcacj;
+
+    .line 135
+    .line 136
+    invoke-virtual {v1}, Lcacj;->aM()Lcom/google/common/util/concurrent/ListenableFuture;
+
+    .line 137
+    .line 138
+    .line 139
+    move-result-object v1
+
+    .line 140
+    new-instance v2, Lmqf;
+
+    .line 141
+    .line 142
+    const/4 v3, 0x0
+
+    .line 143
+    invoke-direct {v2, p0, p1, v3}, Lmqf;-><init>(Ljava/lang/Object;Ljava/lang/Object;I)V
+
+    .line 144
+    .line 145
+    .line 146
+    iget-object p0, v0, Lmqi;->e:Ljava/util/concurrent/Executor;
+
+    .line 147
+    .line 148
+    invoke-static {v1, v2, p0}, Lbunv;->bH(Lcom/google/common/util/concurrent/ListenableFuture;Lbyxq;Ljava/util/concurrent/Executor;)V
+
+    .line 149
+    .line 150
+    .line 151
+    return-void
+.end method
