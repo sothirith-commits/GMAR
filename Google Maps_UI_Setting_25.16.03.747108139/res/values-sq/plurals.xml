@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACTION_ITEM_NEEDS_ATTENTION_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d artikull i ri</item>
+        <item quantity="other">%1$d artikuj të rinj</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">%d opsion tjetër</item>
+        <item quantity="other">%d opsione të tjera</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">Raportuar nga %1$d person</item>
+        <item quantity="other">Raportuar nga %1$d persona</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d sinjalizim</item>
+        <item quantity="other">%d sinjalizime</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d vendndodhje</item>
+        <item quantity="other">%1$d vendndodhje</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">Shiko përgjigjen</item>
+        <item quantity="other">Shiko përgjigjet (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">Eksploro këtu</item>
+        <item quantity="other">Eksploro %d vende këtu</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d biçikletë e lirë</item>
+        <item quantity="other">%d biçikleta të lira</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">%s biçikletë në stacion</item>
+        <item quantity="other">%s biçikleta në stacion</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d biçikletë</item>
+        <item quantity="other">%d biçikleta</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">Ka %d platformë</item>
+        <item quantity="other">Ka %d platforma</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d stacion</item>
+        <item quantity="other">%d stacione</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">Rekomandohet nga %1$d persona</item>
+        <item quantity="other">Rekomandohet nga %1$d persona</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">Përdorur %1$d ditë më parë</item>
+        <item quantity="other">Përdorur %1$d ditë më parë</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">Përdorur %1$d javë më parë</item>
+        <item quantity="other">Përdorur %1$d javë më parë</item>
+    </plurals>
+    <plurals name="CAR_EV_COLLAPSED_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s pikë karikimi</item>
+        <item quantity="other">%1$s pika karikimi</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d i përzgjedhur</item>
+        <item quantity="other">%1$d të përzgjedhura</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">+%1$d tjetër</item>
+        <item quantity="other">+%1$d të tjera</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_BONUS_POINTS_LABEL">
+        <item quantity="one">bonus</item>
+        <item quantity="other">bonus</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_BONUS_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">Ke fituar %d pikë bonus</item>
+        <item quantity="other">Ke fituar %d pikë bonus</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_PLACES_UPDATED_A11Y_LABEL">
+        <item quantity="one">Ke përditësuar %d vend</item>
+        <item quantity="other">Ke përditësuar %d vende</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">Ke fituar %d pikë</item>
+        <item quantity="other">Ke fituar %d pikë</item>
+    </plurals>
+    <plurals name="CHALLENGE_POINTS_LABEL">
+        <item quantity="one">%d pikë</item>
+        <item quantity="other">%d pikë</item>
+    </plurals>
+    <plurals name="CHARGING_ROUTE_SUMMARY_CHARGING_STOPS_SHORT">
+        <item quantity="one">%1$d ndalesë</item>
+        <item quantity="other">%1$d ndalesa</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_HOME_TO_WORK_TITLE">
+        <item quantity="one">%d min. për në punë</item>
+        <item quantity="other">%d min. për në punë</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">%d min. më shpejt se zakonisht</item>
+        <item quantity="other">%d min. më shpejt se zakonisht</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">%d min. më ngadalë se zakonisht</item>
+        <item quantity="other">%d min. më ngadalë se zakonisht</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_UNSPECIFIED_TITLE">
+        <item quantity="one">Koha e udhëtimit: %d min.</item>
+        <item quantity="other">Koha e udhëtimit: %d min.</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_WORK_TO_HOME_TITLE">
+        <item quantity="one">%d min. për në shtëpi</item>
+        <item quantity="other">%d min. për në shtëpi</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Pelengimi i hartës %d gradë.</item>
+        <item quantity="other">Pelengimi i hartës %d gradë.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">Vend me %d-yll</item>
+        <item quantity="other">Vend me %d-yje</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">Local Guide i nivelit %d</item>
+        <item quantity="other">Local Guide i nivelit %d</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_STAT_FOLLOWER_COUNT">
+        <item quantity="one">%,d ndjekës</item>
+        <item quantity="other">%,d ndjekës</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">E ke vlerësuar %1$s me 1 yll</item>
+        <item quantity="other">E ke vlerësuar %1$s me %2$d yje</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_PLACES">
+        <item quantity="one">vend</item>
+        <item quantity="other">vende</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">pikë</item>
+        <item quantity="other">pikë</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s ditë</item>
+        <item quantity="other">%s ditë</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s ditë</item>
+        <item quantity="other">%s ditë</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sd</item>
+        <item quantity="other">%sd</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s ditë</item>
+        <item quantity="other">%s ditë</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s orë</item>
+        <item quantity="other">%s orë</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s orë</item>
+        <item quantity="other">%s orë</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%so</item>
+        <item quantity="other">%so</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s minutë</item>
+        <item quantity="other">%s minuta</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sm</item>
+        <item quantity="other">%sm</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s sekondë</item>
+        <item quantity="other">%s sekonda</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Vazhdo dhe %1$s fut</item>
+        <item quantity="other">Vazhdo dhe %1$s fut</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Vazhdo dhe %1$s kilometër</item>
+        <item quantity="other">Vazhdo dhe %1$s kilometra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Vazhdo dhe %1$s metër</item>
+        <item quantity="other">Vazhdo dhe %1$s metra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Vazhdo dhe %1$s milje</item>
+        <item quantity="other">Vazhdo dhe %1$s milje</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Vazhdo dhe %1$s jard</item>
+        <item quantity="other">Vazhdo dhe %1$s jardë</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Vazhdo në %2$s dhe %1$s fut</item>
+        <item quantity="other">Vazhdo në %2$s dhe %1$s fut</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Vazhdo në %2$s dhe %1$s kilometër</item>
+        <item quantity="other">Vazhdo në %2$s dhe %1$s kilometra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Vazhdo në %2$s dhe %1$s metër</item>
+        <item quantity="other">Vazhdo në %2$s dhe %1$s metra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Vazhdo në %2$s për %1$s milje</item>
+        <item quantity="other">Vazhdo në %2$s për %1$s milje</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Vazhdo në %2$s dhe %1$s jard</item>
+        <item quantity="other">Vazhdo në %2$s dhe %1$s jardë</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">Për %1$s fut</item>
+        <item quantity="other">Për %1$s fut</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">Për %1$s kilometër</item>
+        <item quantity="other">Për %1$s kilometra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">Për %1$s metër</item>
+        <item quantity="other">Për %1$s metra</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">Për %1$s milje</item>
+        <item quantity="other">Për %1$s milje</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">Për %1$s jard</item>
+        <item quantity="other">Për %1$s jardë</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometër në orë</item>
+        <item quantity="other">%s kilometra në orë</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s milje në orë</item>
+        <item quantity="other">%s milje në orë</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Vendmbërritja është %1$s fut përpara</item>
+        <item quantity="other">Vendmbërritja është %1$s fut përpara</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Vendmbërritja është %1$s kilometër përpara</item>
+        <item quantity="other">Vendmbërritja është %1$s kilometra përpara</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Vendmbërritja është %1$s metër përpara</item>
+        <item quantity="other">Vendmbërritja është %1$s metra përpara</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Vendmbërritja është %1$s milje përpara</item>
+        <item quantity="other">Vendmbërritja është %1$s milje përpara</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Vendmbërritja është %1$s jard përpara</item>
+        <item quantity="other">Vendmbërritja është %1$s jardë përpara</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d ndalesë</item>
+        <item quantity="other">%d ndalesa</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d mënyrë lidhjeje</item>
+        <item quantity="other">%1$d mënyra lidhjeje</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">Përditësuar %d ditë më parë</item>
+        <item quantity="other">Përditësuar %d ditë më parë</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">Përditësuar %d muaj më parë</item>
+        <item quantity="other">Përditësuar %d muaj më parë</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">Përditësuar %d javë më parë</item>
+        <item quantity="other">Përditësuar %d javë më parë</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d biçikletë</item>
+        <item quantity="other">%d biçikleta</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">%d biçikletë në afërsi</item>
+        <item quantity="other">%d biçikleta në afërsi</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d nga %2$d portë karikimi</item>
+        <item quantity="other">%1$d nga %2$d porta karikimi</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d portë karikimi</item>
+        <item quantity="other">%d porta karikimi</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">Nuk u vlerësua dot me 1 yll, provo sërish</item>
+        <item quantity="other">Nuk u vlerësua dot me %1$d yje, provo sërish</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">Kati %s</item>
+        <item quantity="other">Katet %s</item>
+    </plurals>
+    <plurals name="FOLLOWER_COUNT_LABEL">
+        <item quantity="one">Ndjekës</item>
+        <item quantity="other">Ndjekës</item>
+    </plurals>
+    <plurals name="FOLLOWING_COUNT_LABEL">
+        <item quantity="one">Ndjek</item>
+        <item quantity="other">Ndjekin</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">%d natë tjetër</item>
+        <item quantity="other">%d net të tjera</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">Shto %d natë</item>
+        <item quantity="other">Shto %d net</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">Ky hotel ka dhoma të lira për qëndrim %1$d-netësh. %2$s për një çmim mesatar prej %3$s për natë.</item>
+        <item quantity="other">Ky hotel ka dhoma të lira për qëndrim %1$d-netësh. %2$s për një çmim mesatar prej %3$s për natë.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">Qëndrim me %1$s për një çmim mesatar prej %2$s për natë</item>
+        <item quantity="other">Qëndrim me %1$s për një çmim mesatar prej %2$s për natë</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d vizitor</item>
+        <item quantity="other">%d vizitorë</item>
+    </plurals>
+    <plurals name="HOTEL_PLACE_COUNT">
+        <item quantity="one">%d vend për qëndruar</item>
+        <item quantity="other">%d vende për të qëndruar</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">dhe %d tjetër.</item>
+        <item quantity="other">dhe %d të tjera.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">+%d tjetër.</item>
+        <item quantity="other">+%d të tjera.</item>
+    </plurals>
+    <plurals name="IN_STORE_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Numri i fotografisë në dyqan %d</item>
+        <item quantity="other">Numri i fotografisë në dyqan %d</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">Ruajtur te \"%1$s\" dhe %2$d tjetër</item>
+        <item quantity="other">Ruajtur te \"%1$s\" dhe %2$d të tjera</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">Ke vizituar %d muaj më parë</item>
+        <item quantity="other">Ke vizituar %d muaj më parë</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">Ke vizituar %d javë më parë</item>
+        <item quantity="other">Ke vizituar %d javë më parë</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">Ke vizituar %d vit më parë</item>
+        <item quantity="other">Ke vizituar %d vite më parë</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d ngjarje</item>
+        <item quantity="other">%d ngjarje</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d artikull</item>
+        <item quantity="other">%d artikuj</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d vend</item>
+        <item quantity="other">%d vende</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">%d ruajtje</item>
+        <item quantity="other">%d ruajtje</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d udhëtim</item>
+        <item quantity="other">%d udhëtime</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s shikim</item>
+        <item quantity="other">%s shikime</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">Modifikuar %d ditë më parë</item>
+        <item quantity="other">Modifikuar %d ditë më parë</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">Modifikuar %d muaj më parë</item>
+        <item quantity="other">Modifikuar %d muaj më parë</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">Modifikuar %d javë më parë</item>
+        <item quantity="other">Modifikuar %d javë më parë</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">Modifikuar %d vit më parë</item>
+        <item quantity="other">Modifikuar %d vite më parë</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">Ke %d pikë</item>
+        <item quantity="other">Ke %d pikë</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TEXT">
+        <item quantity="one">%d pikë</item>
+        <item quantity="other">%d pikë</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">Mbetet edhe %1$d pikë për të arritur nivelin %2$d</item>
+        <item quantity="other">Mbeten edhe %1$d pikë për të arritur nivelin %2$d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">Niveli %d</item>
+        <item quantity="other">Niveli %d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_LEVEL">
+        <item quantity="one">Niveli %d si Local Guide</item>
+        <item quantity="other">Niveli %d si Local Guide</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">%d vit në aktivitet</item>
+        <item quantity="other">Mbi %d vjet në aktivitet</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d ditë më parë</item>
+        <item quantity="other">%d ditë më parë</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d orë më parë</item>
+        <item quantity="other">%d orë më parë</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d min më parë</item>
+        <item quantity="other">%d min më parë</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">%d vend këtu</item>
+        <item quantity="other">%d vende këtu</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">Fotografia u hoq</item>
+        <item quantity="other">Fotografitë u hoqën</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Maksimizo videon në postimin %1$d</item>
+        <item quantity="other">Maksimizo videon %2$d në postimin %1$d</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d nga %2$,d</item>
+        <item quantity="other">%1$,d nga %2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Po ngarkohet %1$d media</item>
+        <item quantity="other">Po ngarkohen %1$d media</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Numri i fotografisë së menysë %d</item>
+        <item quantity="other">Numri i fotografisë së menysë %d</item>
+    </plurals>
+    <plurals name="MERCHANT_PANEL_CALLS_LIST_TIMESTAMP_SECONDS">
+        <item quantity="one">%1$d sekondë</item>
+        <item quantity="other">%1$d sekonda</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d raportim</item>
+        <item quantity="other">%1$d raportime</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">Personat me këtë lidhje mund të ta shohin vendndodhjen për 1 ditë e %d orë</item>
+        <item quantity="other">Personat me këtë lidhje mund të ta shohin vendndodhjen për 1 ditë e %d orë</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">Personat me këtë lidhje mund të ta shohin vendndodhjen për 1 orë e %d minutë</item>
+        <item quantity="other">Personat me këtë lidhje mund të ta shohin vendndodhjen për 1 orë e %d minuta</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">Personat me këtë lidhje mund të ta shohin vendndodhjen për %d ditë</item>
+        <item quantity="other">Personat me këtë lidhje mund të ta shohin vendndodhjen për %d ditë</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">Personat me këtë lidhje mund të ta shohin vendndodhjen për %d orë</item>
+        <item quantity="other">Personat me këtë lidhje mund të ta shohin vendndodhjen për %d orë</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">Personat me këtë lidhje mund të ta shohin vendndodhjen për %d minutë</item>
+        <item quantity="other">Personat me këtë lidhje mund të ta shohin vendndodhjen për %d minuta</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">%d të tjerë</item>
+        <item quantity="other">%d të tjerë</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Hiqni zërin videos në postimin %1$d</item>
+        <item quantity="other">Hiqni zërin videos %2$d në postimin %1$d</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d fotografi/video</item>
+        <item quantity="other">%d fotografi/video</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_VEHICLE_DESCRIPTION">
+        <item quantity="one">automjeti i personalizuar %1$d nga %2$d</item>
+        <item quantity="other">automjeti i personalizuar %1$d nga %2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d përditësim i ri</item>
+        <item quantity="other">%d përditësime të reja</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">Përditësime biznesi, %1$s njoftim i ri</item>
+        <item quantity="other">Përditësime biznesi, %1$s njoftime të reja</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d fotografi</item>
+        <item quantity="other">%d fotografi</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d koment</item>
+        <item quantity="other">%d komente</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">Fotografia numër %d</item>
+        <item quantity="other">Fotografia numër %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d zonë offline</item>
+        <item quantity="other">%d zona offline</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">Bazuar në %1$d raport</item>
+        <item quantity="other">Bazuar në %1$d raporte</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Vendos në pauzë videon në postimin %1$d</item>
+        <item quantity="other">Vendos në pauzë videon %2$d në postimin %1$d</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s ndërveprim</item>
+        <item quantity="other">%1$s ndërveprime</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s kërkim</item>
+        <item quantity="other">%1$s kërkime</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s shikim</item>
+        <item quantity="other">%1$s shikime</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">Rezervim për %d natë</item>
+        <item quantity="other">Rezervim për %d net</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">Këtë mund ta shikosh vetëm ti</item>
+        <item quantity="other">"Këto mund t'i shikosh vetëm ti"</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d ditë</item>
+        <item quantity="other">%1$d ditë</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d natë</item>
+        <item quantity="other">%1$d net</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d fotografi</item>
+        <item quantity="other">%d fotografi</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_CHECKED_DESCRIPTION">
+        <item quantity="one">E ke pëlqyer këtë fotografi</item>
+        <item quantity="other">%d persona, duke të përfshirë ty, e kanë pëlqyer këtë fotografi</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_UNCHECKED_DESCRIPTION">
+        <item quantity="one">Dikush e ka pëlqyer këtë fotografi</item>
+        <item quantity="other">%d persona e kanë pëlqyer këtë fotografi</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Po shtohet %1$d fotografi/video te Google Maps</item>
+        <item quantity="other">Po shtohen %1$d fotografi/video te Google Maps</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Në pritje të lidhjes me WiFi.
+ %d fotografi/video pezull."</item>
+        <item quantity="other">"Në pritje të lidhjes me WiFi.
+ %d fotografi/video pezull."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">Fotografia për postimin %1$d</item>
+        <item quantity="other">Fotografia %2$d për postimin %1$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d ditë më parë</item>
+        <item quantity="other">%d ditë më parë</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d orë më parë</item>
+        <item quantity="other">%d orë më parë</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d muaj më parë</item>
+        <item quantity="other">%d muaj më parë</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d javë më parë</item>
+        <item quantity="other">%d javë më parë</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d vit më parë</item>
+        <item quantity="other">%d vjet më parë</item>
+    </plurals>
+    <plurals name="PHOTO_INDEX_IN_LIST">
+        <item quantity="one">Fotografia %1$,d nga %2$,d</item>
+        <item quantity="other">Fotografia %1$,d nga %2$,d</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d përditësim</item>
+        <item quantity="other">%d përditësime</item>
+    </plurals>
+    <plurals name="PHOTO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Po shtohet %d fotografi te Google Maps</item>
+        <item quantity="other">Po shtohen %d fotografi te Google Maps</item>
+    </plurals>
+    <plurals name="PLACE_QA_MORE_ANSWERS">
+        <item quantity="one">%d përgjigje tjetër</item>
+        <item quantity="other">%d përgjigje të tjera</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">Shiko %d përgjigje</item>
+        <item quantity="other">Shiko %d përgjigje</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="one">+%1$,d</item>
+        <item quantity="other">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Luaj videon në postimin %1$d</item>
+        <item quantity="other">Luaj videon %2$d në postimin %1$d</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+%d bashkëndarje tjetër</item>
+        <item quantity="other">+%d bashkëndarje të tjera</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Ndërroje</item>
+        <item quantity="other">Ndërroji</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Po ndërrohet ndalesa</item>
+        <item quantity="other">Po ndërrohen ndalesat</item>
+    </plurals>
+    <plurals name="POST_ACCESSIBILITY_THUMBS_UP_DESCRIPTION">
+        <item quantity="one">1 pëlqim</item>
+        <item quantity="other">%d pëlqime</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d shikim</item>
+        <item quantity="other">%,d shikime</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d vlerësim</item>
+        <item quantity="other">%d vlerësime</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d koment</item>
+        <item quantity="other">%d komente</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWEE_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">Po ndjek %,d</item>
+        <item quantity="other">Po ndjek %,d</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWER_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">%,d ndjekës</item>
+        <item quantity="other">%,d ndjekës</item>
+    </plurals>
+    <plurals name="PROFILE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">Shiko %,d përgjigje</item>
+        <item quantity="other">Shiko %,d përgjigje</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">Vlerësuar me %d yll</item>
+        <item quantity="other">Vlerësuar me %d yje</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">1 reagim %2$s</item>
+        <item quantity="other">%1$,d reagime %2$s</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">Përditësuar %d minutë më parë</item>
+        <item quantity="other">Përditësuar %d minuta më parë</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Për tren me %1$d vagonë, hip te %2$s për daljen më të shpejtë</item>
+        <item quantity="other">Për tren me %1$d vagonë, hip te %2$s për daljen më të shpejtë</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Për tren me %1$d vagonë, hip te %2$s për transportin më të shpejtë</item>
+        <item quantity="other">Për tren me %1$d vagonë, hip te %2$s për transportin më të shpejtë</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">Vagoni më pak i mbushur është %1$s</item>
+        <item quantity="other">Vagonët më pak të mbushur janë %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">Tren me %1$d vagon</item>
+        <item quantity="other">Tren me %1$d vagonë</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d pagesë</item>
+        <item quantity="other">%d pagesa</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s + %2$s më shumë</item>
+        <item quantity="other">%1$s + %2$s më shumë</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">Vlerësoje me 1 yll nga 5</item>
+        <item quantity="other">Vlerësoje me %1$d yje nga 5</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s shikim</item>
+        <item quantity="other">%s shikime</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d vlerësim ose koment</item>
+        <item quantity="other">%,d vlerësime dhe komente</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d vlerësim ose koment</item>
+        <item quantity="other">%,d vlerësime dhe komente</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d person</item>
+        <item quantity="other">%d persona</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">%d listë tjetër</item>
+        <item quantity="other">%d lista të tjera</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Ruajtur te %1$s dhe %2$d listë tjetër</item>
+        <item quantity="other">Ruajtur te %1$s dhe %2$d lista të tjera</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">Të ruhet vizita e para %d dite?</item>
+        <item quantity="other">Të ruhet vizita e para %d ditëve?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">U gjet %1$d rezultat për \"%2$s\"</item>
+        <item quantity="other">U gjetën %1$d rezultate për \"%2$s\"</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">Po dërgohet vlerësim me 1 yll</item>
+        <item quantity="other">Po dërgohet vlerësim me %1$d yje</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">për %d ditë</item>
+        <item quantity="other">për %d ditë</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">për %d orë</item>
+        <item quantity="other">për %d orë</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">për %d min</item>
+        <item quantity="other">për %d min</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">Vendndodhja jote po ndahet me %2$s dhe me %1$d ndarje tjetër</item>
+        <item quantity="other">Vendndodhja jote po ndahet me %2$s dhe %1$d ndarje të tjera</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">Vendndodhja jote po ndahet me %d ndarje tjetër</item>
+        <item quantity="other">Vendndodhja jote po ndahet me %d ndarje të tjera</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">U vlerësua me sukses me 1 yll</item>
+        <item quantity="other">U vlerësua me sukses me %1$d yje</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d shikim</item>
+        <item quantity="other">%,d shikime</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d pikë</item>
+        <item quantity="other">+%d pikë</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">Posto %1$d fotografi ose video të %2$s</item>
+        <item quantity="other">Posto %1$d fotografi dhe video të %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">Posto %1$d fotografi të %2$s</item>
+        <item quantity="other">Posto %1$d fotografi të %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">+%d tjetër</item>
+        <item quantity="other">+%d të tjera</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">Posto %1$d fotografi</item>
+        <item quantity="other">Posto %1$d fotografi</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">Posto %1$d</item>
+        <item quantity="other">Posto %1$d</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$d person e përmend %2$s</item>
+        <item quantity="other">%1$,d persona e përmendin %2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">1 reagim</item>
+        <item quantity="other">%1$,d reagime</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">Shiko %1$d opsion tjetër nga %2$s</item>
+        <item quantity="other">Shiko %1$d opsione të tjera nga %2$s</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">Shiko %1$d opsion tjetër</item>
+        <item quantity="other">Shiko %1$d opsione të tjera</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">Ruaj adresën për të parë itineraret më të shpejta për të shmangur trafikun</item>
+        <item quantity="other">Ruaj adresat e tua për të parë itineraret më të shpejta për të shmangur trafikun</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">Nisjet u përditësuan %1$d sekondë më parë</item>
+        <item quantity="other">Nisjet u përditësuan %1$d sekonda më parë</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">Niset çdo minutë</item>
+        <item quantity="other">Niset çdo %d minuta</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d ndalesë</item>
+        <item quantity="other">%d ndalesa</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+minutë më parë"</item>
+        <item quantity="other">"%1$s
+minuta më parë"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">U nis %1$s minutë më parë</item>
+        <item quantity="other">U nis %1$s minuta më parë</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d sinjalizim</item>
+        <item quantity="other">+%d sinjalizime</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d sinjalizim</item>
+        <item quantity="other">+ %d sinjalizime</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d tjetër</item>
+        <item quantity="other">+%d të tjera</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d tjetër</item>
+        <item quantity="other">+ %d të tjera</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+minutë"</item>
+        <item quantity="other">"%1$s
+minuta"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s minutë më parë</item>
+        <item quantity="other">%1$s minuta më parë</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Niset për %1$s minutë</item>
+        <item quantity="other">Niset për %1$s minuta</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">%1$s paralajmërim tjetër</item>
+        <item quantity="other">%1$s paralajmërime të tjera</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s fotografi</item>
+        <item quantity="other">%s fotografi</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s koment</item>
+        <item quantity="other">%s komente</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d kontribut</item>
+        <item quantity="other">%,d kontribute</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d shikim</item>
+        <item quantity="other">%,d shikime</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Zgjidh deri në %1$d</item>
+        <item quantity="other">Zgjidh deri në %1$d</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Zgjidh deri në %1$s fotografi</item>
+        <item quantity="other">Zgjidh deri në %1$s fotografi</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Ktheji zërin videos në postimin %1$d</item>
+        <item quantity="other">Ktheji zërin videos %2$d në postimin %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d në %2$d</item>
+        <item quantity="other">%1$d në %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Në pritje të lidhjes me WiFi.
+ %d fotografi pezull."</item>
+        <item quantity="other">"Në pritje të lidhjes me WiFi.
+ %d fotografi pezull."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d fotografi e zgjedhur</item>
+        <item quantity="other">%d fotografi të zgjedhura</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">Vizituar %1$d nga %2$d vend</item>
+        <item quantity="other">Vizituar %1$d nga %2$d vende</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Çaktivizo \"Kursyesin e baterisë\" për të rritur saktësinë e vendndodhjes gjatë ndarjes me %1$s + %2$d tjetër</item>
+        <item quantity="other">Çaktivizo \"Kursyesin e baterisë\" për të rritur saktësinë e vendndodhjes gjatë ndarjes me %1$s + %2$d të tjerë</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Vendndodhja e pajisjes duhet aktivizuar për të vazhduar ndarjen e vendndodhjes me %1$s + %2$d tjetër</item>
+        <item quantity="other">Vendndodhja e pajisjes duhet aktivizuar për të vazhduar ndarjen e vendndodhjes me %1$s + %2$d të tjerë</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Përditëso \"Ndarjen e vendndodhjes\" për të vazhduar ndarjen në këtë pajisje me %1$s + %2$d tjetër</item>
+        <item quantity="other">Përditëso \"Ndarjen e vendndodhjes\" për të vazhduar ndarjen në këtë pajisje me %1$s + %2$d të tjerë</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Lejoji Maps të të njohë aktivitetin fizik për të rritur saktësinë e vendndodhjes gjatë ndarjes me %1$s + %2$d tjetër</item>
+        <item quantity="other">Lejoji Maps të të njohë aktivitetin fizik për të rritur saktësinë e vendndodhjes gjatë ndarjes me %1$s + %2$d të tjerë</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Lejoji gjithnjë Maps qasjen te vendndodhja jote për të rritur saktësinë e vendndodhjes gjatë ndarjes me %1$s + %2$d tjetër</item>
+        <item quantity="other">Lejoji gjithnjë Maps qasjen te vendndodhja jote për të rritur saktësinë e vendndodhjes gjatë ndarjes me %1$s + %2$d të tjerë</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Lejoji gjithnjë Maps qasjen te vendndodhja jote për të vazhduar ndarjen me %1$s + %2$d tjetër</item>
+        <item quantity="other">Lejoji gjithnjë Maps qasjen te vendndodhja jote për të vazhduar ndarjen me %1$s + %2$d të tjerë</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">Mbi %d fotografi</item>
+        <item quantity="other">Mbi %d fotografi</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d koment)</item>
+        <item quantity="other">(%,d komente)</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">Videoja për postimin %1$d</item>
+        <item quantity="other">Videoja %2$d për postimin %1$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">Videoja për postimin %1$d është në ekran të plotë</item>
+        <item quantity="other">Videoja %2$d për postimin %1$d është në ekran të plotë</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d natë</item>
+        <item quantity="other">%2$s × %1$d net</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%2$s për %1$d natë me taksat dhe tarifat</item>
+        <item quantity="other">%2$s për %1$d net me taksat dhe tarifat</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">1 minutë në këmbë</item>
+        <item quantity="other">%d minuta në këmbë</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d ndalesë</item>
+        <item quantity="other">+ %d ndalesa</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d ndalesë)</item>
+        <item quantity="other">(%d ndalesa)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d javë më parë</item>
+        <item quantity="other">%d javë më parë</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d vit më parë</item>
+        <item quantity="other">%d vite më parë</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">Shiko fotografinë e mbetur</item>
+        <item quantity="other">Shiko %1$d fotografitë e mbetura</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">Komenti a përditësimi yt</item>
+        <item quantity="other">Komentet e përditësimet e tua</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">Po ndjek %1$s dhe %2$d listë tjetër</item>
+        <item quantity="other">Po ndjek %1$s dhe %2$d lista të tjera</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s dhe %2$d tjetër</item>
+        <item quantity="other">%1$s dhe %2$d të tjerë</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d nga %2$d</item>
+        <item quantity="other">%1$d nga %2$d</item>
+    </plurals>
+    <plurals name="local_guide_level">
+        <item quantity="one"></item>
+        <item quantity="other">niveli %1$d</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="one">%1$d min.</item>
+        <item quantity="other">%1$d min.</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">1 shkrepje</item>
+        <item quantity="other">%1$d shkrepje</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d njoftim i ri</item>
+        <item quantity="other">%d njoftime të reja</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="one">+ %1$d tjetër</item>
+        <item quantity="other">+ %1$d të tjera</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="one">%d person po shkruan</item>
+        <item quantity="other">%d persona po shkruajnë</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">U kopjua %d marrës</item>
+        <item quantity="other">U kopjuan %d marrës</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">Thuaj diçka për këtë fotografi (opsionale)</item>
+        <item quantity="other">Thuaj diçka për fotografitë e tua (opsionale)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d yll nga %2$d</item>
+        <item quantity="other">%1$d yje nga %2$d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>C</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>İstənilən</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>İstənilən qiymət səviyyəsi</item>
+        <item>Ucuz</item>
+        <item>Orta qiymətə</item>
+        <item>Baha</item>
+        <item>Çox baha</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>İstənilən</item>
+        <item>3-ulduzlu</item>
+        <item>4-ulduzlu</item>
+        <item>5-ulduzlu</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>İstənilən</item>
+        <item>İndi açıqdır</item>
+        <item>Fərdi</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Miqyasını dəyişdirərkən</item>
+        <item>Həmişə</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Böyüdəndə və kiçildəndə</item>
+        <item>Həmişə</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Heç bəyənmədim</item>
+        <item>Bəyənmədim</item>
+        <item>Pis deyil</item>
+        <item>Bəyəndim</item>
+        <item>Sevdim</item>
+    </string-array>
+</resources>

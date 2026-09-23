@@ -1,0 +1,14 @@
+.class public interface abstract Laqei;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# virtual methods
+.method public abstract a()I
+.end method
+
+.method public abstract b()J
+.end method
+
+.method public abstract i(I)Laqdz;
+.end method

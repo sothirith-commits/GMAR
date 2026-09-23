@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Жу</item>
+        <item>3G</item>
+        <item>Ж</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Ар кайсы</item>
+        <item>с</item>
+        <item>сс</item>
+        <item>ссс</item>
+        <item>сссс</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Ар кайсы баа деңгээли</item>
+        <item>Арзан</item>
+        <item>Орто баада</item>
+        <item>Кымбат</item>
+        <item>Абдан кымбат</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Ар кайсы</item>
+        <item>3 жылдыз</item>
+        <item>4 жылдыз</item>
+        <item>5 жылдыз</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Баары</item>
+        <item>Азыр ачык</item>
+        <item>Ыңгайлаштырылган</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Чоңойтуп/кичирейтүү убагында</item>
+        <item>Ар дайым</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Чоңойтулуп жана кичирейтилип жатканда</item>
+        <item>Ар дайым</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Таптакыр жаккан жок</item>
+        <item>Жаккан жок</item>
+        <item>Орточо</item>
+        <item>Жакты</item>
+        <item>Абдан жакты</item>
+    </string-array>
+</resources>

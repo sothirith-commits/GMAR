@@ -1,0 +1,346 @@
+.class public final Lcom/google/android/gms/languageprofile/LanguageFluency;
+.super Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+.source "PG"
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/google/android/gms/languageprofile/LanguageFluency;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field public final a:F
+
+.field public final b:F
+
+.field private final c:Ljava/util/Locale;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lbbpj;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    invoke-direct {v0, v1}, Lbbpj;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    sput-object v0, Lcom/google/android/gms/languageprofile/LanguageFluency;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;FF)V
+    .locals 0
+
+    .line 1
+    invoke-static {p1}, Lbvjm;->b(Ljava/lang/String;)Ljava/util/Locale;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    iput-object p1, p0, Lcom/google/android/gms/languageprofile/LanguageFluency;->c:Ljava/util/Locale;
+
+    .line 9
+    .line 10
+    iput p2, p0, Lcom/google/android/gms/languageprofile/LanguageFluency;->a:F
+
+    .line 11
+    .line 12
+    iput p3, p0, Lcom/google/android/gms/languageprofile/LanguageFluency;->b:F
+
+    .line 13
+    .line 14
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    if-ne p0, p1, :cond_0
+
+    .line 3
+    .line 4
+    return v0
+
+    .line 5
+    :cond_0
+    instance-of v1, p1, Lcom/google/android/gms/languageprofile/LanguageFluency;
+
+    .line 6
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    if-eqz v1, :cond_1
+
+    .line 9
+    .line 10
+    check-cast p1, Lcom/google/android/gms/languageprofile/LanguageFluency;
+
+    .line 11
+    .line 12
+    iget-object v1, p0, Lcom/google/android/gms/languageprofile/LanguageFluency;->c:Ljava/util/Locale;
+
+    .line 13
+    .line 14
+    iget-object v3, p1, Lcom/google/android/gms/languageprofile/LanguageFluency;->c:Ljava/util/Locale;
+
+    .line 15
+    .line 16
+    invoke-static {v1, v3}, La;->h(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 17
+    .line 18
+    .line 19
+    move-result v1
+
+    .line 20
+    if-eqz v1, :cond_1
+
+    .line 21
+    .line 22
+    iget v1, p0, Lcom/google/android/gms/languageprofile/LanguageFluency;->a:F
+
+    .line 23
+    .line 24
+    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v1
+
+    .line 28
+    iget v3, p1, Lcom/google/android/gms/languageprofile/LanguageFluency;->a:F
+
+    .line 29
+    .line 30
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object v3
+
+    .line 34
+    invoke-static {v1, v3}, La;->h(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 35
+    .line 36
+    .line 37
+    move-result v1
+
+    .line 38
+    if-eqz v1, :cond_1
+
+    .line 39
+    .line 40
+    iget v1, p0, Lcom/google/android/gms/languageprofile/LanguageFluency;->b:F
+
+    .line 41
+    .line 42
+    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    .line 43
+    .line 44
+    .line 45
+    move-result-object v1
+
+    .line 46
+    iget p1, p1, Lcom/google/android/gms/languageprofile/LanguageFluency;->b:F
+
+    .line 47
+    .line 48
+    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object p1
+
+    .line 52
+    invoke-static {v1, p1}, La;->h(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 53
+    .line 54
+    .line 55
+    move-result p1
+
+    .line 56
+    if-eqz p1, :cond_1
+
+    .line 57
+    .line 58
+    return v0
+
+    .line 59
+    :cond_1
+    return v2
+.end method
+
+.method public final hashCode()I
+    .locals 5
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/languageprofile/LanguageFluency;->c:Ljava/util/Locale;
+
+    .line 2
+    .line 3
+    iget v1, p0, Lcom/google/android/gms/languageprofile/LanguageFluency;->a:F
+
+    .line 4
+    .line 5
+    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v1
+
+    .line 9
+    iget v2, p0, Lcom/google/android/gms/languageprofile/LanguageFluency;->b:F
+
+    .line 10
+    .line 11
+    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v2
+
+    .line 15
+    const/4 v3, 0x3
+
+    .line 16
+    new-array v3, v3, [Ljava/lang/Object;
+
+    .line 17
+    .line 18
+    const/4 v4, 0x0
+
+    .line 19
+    aput-object v0, v3, v4
+
+    .line 20
+    .line 21
+    const/4 v0, 0x1
+
+    .line 22
+    aput-object v1, v3, v0
+
+    .line 23
+    .line 24
+    const/4 v0, 0x2
+
+    .line 25
+    aput-object v2, v3, v0
+
+    .line 26
+    .line 27
+    invoke-static {v3}, Ljava/util/Arrays;->hashCode([Ljava/lang/Object;)I
+
+    .line 28
+    .line 29
+    .line 30
+    move-result v0
+
+    .line 31
+    return v0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 2
+
+    .line 1
+    invoke-static {p1}, Lbbfc;->c(Landroid/os/Parcel;)I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p2
+
+    .line 5
+    iget-object v0, p0, Lcom/google/android/gms/languageprofile/LanguageFluency;->c:Ljava/util/Locale;
+
+    .line 6
+    .line 7
+    invoke-static {v0}, Lbvjm;->a(Ljava/util/Locale;)Ljava/lang/String;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+
+    .line 11
+    const/4 v1, 0x1
+
+    .line 12
+    invoke-static {p1, v1, v0}, Lbbfc;->y(Landroid/os/Parcel;ILjava/lang/String;)V
+
+    .line 13
+    .line 14
+    .line 15
+    const/4 v0, 0x2
+
+    .line 16
+    iget v1, p0, Lcom/google/android/gms/languageprofile/LanguageFluency;->a:F
+
+    .line 17
+    .line 18
+    invoke-static {p1, v0, v1}, Lbbfc;->i(Landroid/os/Parcel;IF)V
+
+    .line 19
+    .line 20
+    .line 21
+    const/4 v0, 0x3
+
+    .line 22
+    iget v1, p0, Lcom/google/android/gms/languageprofile/LanguageFluency;->b:F
+
+    .line 23
+    .line 24
+    invoke-static {p1, v0, v1}, Lbbfc;->i(Landroid/os/Parcel;IF)V
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-static {p1, p2}, Lbbfc;->e(Landroid/os/Parcel;I)V
+
+    .line 28
+    .line 29
+    .line 30
+    return-void
+.end method

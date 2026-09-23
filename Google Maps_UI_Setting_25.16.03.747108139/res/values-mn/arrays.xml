@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Бүх</item>
+        <item>₮</item>
+        <item>₮₮</item>
+        <item>₮₮₮</item>
+        <item>₮₮₮₮</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Бүх үнийн түвшин</item>
+        <item>Хямд</item>
+        <item>Бага зэрэг үнэтэй</item>
+        <item>Үнэтэй</item>
+        <item>Их үнэтэй</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Бүх</item>
+        <item>3 одтой</item>
+        <item>4 одтой</item>
+        <item>5 одтой</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Дурын</item>
+        <item>Одоо нээлттэй</item>
+        <item>Тусгай</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Томруулах явцад</item>
+        <item>Үргэлж</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Ойртуулж, холдуулах үед</item>
+        <item>Байнга</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Огт таалагдаагүй</item>
+        <item>Таалагдаагүй</item>
+        <item>Давгүй</item>
+        <item>Таалагдсан</item>
+        <item>Маш их таалагдсан</item>
+    </string-array>
+</resources>

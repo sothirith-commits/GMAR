@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACTION_ITEM_NEEDS_ATTENTION_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d шинэ зүйл</item>
+        <item quantity="other">%1$d шинэ зүйл</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">Өөр %d сонголт</item>
+        <item quantity="other">Өөр %d сонголт</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d хүн мэдээлсэн</item>
+        <item quantity="other">%1$d хүн мэдээлсэн</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d сэрэмжлүүлэг</item>
+        <item quantity="other">%d сэрэмжлүүлэг</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d байршил</item>
+        <item quantity="other">%1$d байршил</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">Хариултыг харах</item>
+        <item quantity="other">Хариултуудыг харах (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">Эндэхийг судлах</item>
+        <item quantity="other">Эндэхийн %d газрыг судлах</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d унадаг дугуй байна</item>
+        <item quantity="other">%d унадаг дугуй байна</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">Зогсоол дээр %s унадаг дугуй байна</item>
+        <item quantity="other">Зогсоол дээр %s унадаг дугуй байна</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d унадаг дугуй</item>
+        <item quantity="other">%d унадаг дугуй</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d зогсоол сул байна</item>
+        <item quantity="other">%d зогсоол сул байна</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">Унадаг дугуйн %d зогсоол</item>
+        <item quantity="other">Унадаг дугуйн %d зогсоол</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">%1$d хүн санал болгосон</item>
+        <item quantity="other">%1$d хүн санал болгосон</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">%1$d өдрийн өмнө ашигласан</item>
+        <item quantity="other">%1$d өдрийн өмнө ашигласан</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">%1$d долоо хоногийн өмнө ашигласан</item>
+        <item quantity="other">%1$d долоо хоногийн өмнө ашигласан</item>
+    </plurals>
+    <plurals name="CAR_EV_COLLAPSED_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s цэнэглэх станц</item>
+        <item quantity="other">%1$s цэнэглэх станц</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d-г сонгосон</item>
+        <item quantity="other">%1$d-г сонгосон</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">өөр +%1$d</item>
+        <item quantity="other">өөр +%1$d</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_BONUS_POINTS_LABEL">
+        <item quantity="one">бонус</item>
+        <item quantity="other">бонус</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_BONUS_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">Та %d бонус оноо авсан</item>
+        <item quantity="other">Та %d бонус оноо авсан</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_PLACES_UPDATED_A11Y_LABEL">
+        <item quantity="one">Та %d газрыг шинэчилсэн</item>
+        <item quantity="other">Та %d газрыг шинэчилсэн</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">Та %d оноо авсан</item>
+        <item quantity="other">Та %d оноо авсан</item>
+    </plurals>
+    <plurals name="CHALLENGE_POINTS_LABEL">
+        <item quantity="one">%d оноо</item>
+        <item quantity="other">%d оноо</item>
+    </plurals>
+    <plurals name="CHARGING_ROUTE_SUMMARY_CHARGING_STOPS_SHORT">
+        <item quantity="one">%1$d зогсолт</item>
+        <item quantity="other">%1$d зогсолт</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_HOME_TO_WORK_TITLE">
+        <item quantity="one">Ажил хүртэл %d мин</item>
+        <item quantity="other">Ажил хүртэл %d мин</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">Ердийнхөөс %d минутаар хурдан</item>
+        <item quantity="other">Ердийнхөөс %d минутаар хурдан</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">Ердийнхөөс %d минутаар удаан</item>
+        <item quantity="other">Ердийнхөөс %d минутаар удаан</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_UNSPECIFIED_TITLE">
+        <item quantity="one">%d минутын аяллын цаг</item>
+        <item quantity="other">%d минутын аяллын цаг</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_WORK_TO_HOME_TITLE">
+        <item quantity="one">Гэр хүртэл %d мин</item>
+        <item quantity="other">Гэр хүртэл %d мин</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Газрын зургийн зүг чиг %d хэм.</item>
+        <item quantity="other">Газрын зургийн зүг чиг %d хэм.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">%d одтой үйлчилгээний байгууллага</item>
+        <item quantity="other">%d одтой үйлчилгээний байгууллага</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">%d түвшний орон нутгийн хөтөч</item>
+        <item quantity="other">%d түвшний орон нутгийн хөтөч</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_STAT_FOLLOWER_COUNT">
+        <item quantity="one">%,d дагагч</item>
+        <item quantity="other">%,d дагагч</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">Та %1$s-д 1 од өгсөн</item>
+        <item quantity="other">Та %1$s-д %2$d од өгсөн</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_PLACES">
+        <item quantity="one">газар</item>
+        <item quantity="other">газар</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">оноо</item>
+        <item quantity="other">оноо</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s өдөр</item>
+        <item quantity="other">%s өдөр</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s ө</item>
+        <item quantity="other">%s ө</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sөдөр</item>
+        <item quantity="other">%sөдөр</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s өдөр</item>
+        <item quantity="other">%s өдөр</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s цаг</item>
+        <item quantity="other">%s цаг</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s ц</item>
+        <item quantity="other">%s ц</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sцаг</item>
+        <item quantity="other">%sцаг</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s минут</item>
+        <item quantity="other">%s минут</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s мин</item>
+        <item quantity="other">%s мин</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sмин</item>
+        <item quantity="other">%sмин</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s секунд</item>
+        <item quantity="other">%s секунд</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Дахиад %1$s фут явна уу</item>
+        <item quantity="other">Дахиад %1$s фут явна уу</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Дахиад %1$s километр явна уу</item>
+        <item quantity="other">Дахиад %1$s километр явна уу</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Дахиад %1$s метр явна уу</item>
+        <item quantity="other">Дахиад %1$s метр явна уу</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Дахиад %1$s миль явна уу</item>
+        <item quantity="other">Дахиад %1$s миль явна уу</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Дахиад %1$s ярд явна уу</item>
+        <item quantity="other">Дахиад %1$s ярд явна уу</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">%2$s-р дахиад %1$s фут явна уу</item>
+        <item quantity="other">%2$s-р дахиад %1$s фут явна уу</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">%2$s-р дахиад %1$s километр явна уу</item>
+        <item quantity="other">%2$s-р дахиад %1$s километр явна уу</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">%2$s-р дахиад %1$s метр явна уу</item>
+        <item quantity="other">%2$s-р дахиад %1$s метр явна уу</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">%2$s-р дахиад %1$s миль явна уу</item>
+        <item quantity="other">%2$s-р дахиад %1$s миль явна уу</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">%2$s-р дахиад %1$s ярд явна уу</item>
+        <item quantity="other">%2$s-р дахиад %1$s ярд явна уу</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s фут яваад</item>
+        <item quantity="other">%1$s фут яваад</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s километр яваад</item>
+        <item quantity="other">%1$s километр яваад</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s метр яваад</item>
+        <item quantity="other">%1$s метр яваад</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s миль яваад</item>
+        <item quantity="other">%1$s миль яваад</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s ярд яваад</item>
+        <item quantity="other">%1$s ярд яваад</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s км/цаг</item>
+        <item quantity="other">%s км/цаг</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s миль/цаг</item>
+        <item quantity="other">%s миль/цаг</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Таны очих газар %1$s футийн цаана байна</item>
+        <item quantity="other">Таны очих газар %1$s футийн цаана байна</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Таны очих газар %1$s километрийн цаана байна</item>
+        <item quantity="other">Таны очих газар %1$s километрийн цаана байна</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Таны очих газар %1$s метрийн цаана байна</item>
+        <item quantity="other">Таны очих газар %1$s метрийн цаана байна</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Таны очих газар %1$s милийн цаана байна</item>
+        <item quantity="other">Таны очих газар %1$s милийн цаана байна</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Таны очих газар %1$s ярдын цаана байна</item>
+        <item quantity="other">Таны очих газар %1$s ярдын цаана байна</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d буудал</item>
+        <item quantity="other">%d буудал</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d дамжих горим</item>
+        <item quantity="other">%1$d дамжих горим</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">%d хоногийн өмнө шинэчилсэн</item>
+        <item quantity="other">%d хоногийн өмнө шинэчилсэн</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">%d сарын өмнө шинэчилсэн</item>
+        <item quantity="other">%d сарын өмнө шинэчилсэн</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">%d долоо хоногийн өмнө шинэчилсэн</item>
+        <item quantity="other">%d долоо хоногийн өмнө шинэчилсэн</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d унадаг дугуй</item>
+        <item quantity="other">%d унадаг дугуй</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">Ойролцоо %d унадаг дугуй байна</item>
+        <item quantity="other">Ойролцоо %d унадаг дугуй байна</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%2$d-с %1$d цэнэглэх порт</item>
+        <item quantity="other">%2$d-с %1$d цэнэглэх порт</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d цэнэглэх порт</item>
+        <item quantity="other">%d цэнэглэх порт</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">1 од өгч чадсангүй, дахин оролдоно уу</item>
+        <item quantity="other">%1$d од өгч чадсангүй, дахин оролдоно уу</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">%s-р давхар</item>
+        <item quantity="other">%s-р давхрууд</item>
+    </plurals>
+    <plurals name="FOLLOWER_COUNT_LABEL">
+        <item quantity="one">Дагагч</item>
+        <item quantity="other">Дагагч</item>
+    </plurals>
+    <plurals name="FOLLOWING_COUNT_LABEL">
+        <item quantity="one">Дагаж буй</item>
+        <item quantity="other">Дагаж буй</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">Нэмэлт %d хоног</item>
+        <item quantity="other">Нэмэлт %d хоног</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">%d хоног нэмэх</item>
+        <item quantity="other">%d хоног нэмэх</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">Энэ зочид буудалд %1$d хоног буудаллах боломжтой байна. %2$s хоногт хоногийн дундаж төлбөр нь %3$s болно.</item>
+        <item quantity="other">Энэ зочид буудалд %1$d хоног буудаллах боломжтой байна. %2$s хоногт хоногийн дундаж төлбөр нь %3$s болно.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">%1$s хоногт хоногийн дундаж төлбөр болох %2$s-р буудаллаарай</item>
+        <item quantity="other">%1$s хоногт хоногийн дундаж төлбөр болох %2$s-р буудаллаарай</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d зочин</item>
+        <item quantity="other">%d зочин</item>
+    </plurals>
+    <plurals name="HOTEL_PLACE_COUNT">
+        <item quantity="one">Хоноглож болох %d газар</item>
+        <item quantity="other">Хоноглож болох %d газар</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">болон бусад %d.</item>
+        <item quantity="other">болон бусад %d.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">Дахиад +%d.</item>
+        <item quantity="other">Дахиад +%d.</item>
+    </plurals>
+    <plurals name="IN_STORE_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Дэлгүүрийн доторх зургийн дугаар %d</item>
+        <item quantity="other">Дэлгүүрийн доторх зургийн дугаар %d</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">%1$s болон өөр %2$d-д хадгаллаа</item>
+        <item quantity="other">%1$s болон өөр %2$d-д хадгаллаа</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">Та %d сарын өмнө очсон байна</item>
+        <item quantity="other">Та %d сарын өмнө очсон байна</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">Та %d долоо хоногийн өмнө очсон байна</item>
+        <item quantity="other">Та %d долоо хоногийн өмнө очсон байна</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">Та %d жилийн өмнө очсон байна</item>
+        <item quantity="other">Та %d жилийн өмнө очсон байна</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d арга хэмжээ</item>
+        <item quantity="other">%d арга хэмжээ</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d зүйл</item>
+        <item quantity="other">%d зүйл</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d газар</item>
+        <item quantity="other">%d газар</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">%d хадгалсан</item>
+        <item quantity="other">%d хадгалсан</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d аялал</item>
+        <item quantity="other">%d аялал</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s удаа үзсэн</item>
+        <item quantity="other">%s удаа үзсэн</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">%d хоногийн өмнө зассан</item>
+        <item quantity="other">%d хоногийн өмнө зассан</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">%d сарын өмнө зассан</item>
+        <item quantity="other">%d сарын өмнө зассан</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">%d долоо хоногийн өмнө зассан</item>
+        <item quantity="other">%d долоо хоногийн өмнө зассан</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">%d жилийн өмнө зассан</item>
+        <item quantity="other">%d жилийн өмнө зассан</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">Танд %d оноо байна</item>
+        <item quantity="other">Танд %d оноо байна</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TEXT">
+        <item quantity="one">%d оноо</item>
+        <item quantity="other">%d оноо</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">%1$d-р түвшинд хүрэхэд ердөө %2$d оноо үлдсэн</item>
+        <item quantity="other">%1$d-р түвшинд хүрэхэд ердөө %2$d оноо үлдсэн</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">Түвшин %d</item>
+        <item quantity="other">Түвшин %d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_LEVEL">
+        <item quantity="one">Нутгийн хөтчийн %d-р түвшин</item>
+        <item quantity="other">Нутгийн хөтчийн %d-р түвшин</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">Үйл ажиллагаагаа явуулаад %d жил болж байгаа</item>
+        <item quantity="other">Үйл ажиллагаагаа явуулаад %d+ жил болж байгаа</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d өдрийн өмнө</item>
+        <item quantity="other">%d өдрийн өмнө</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d цагийн өмнө</item>
+        <item quantity="other">%d цагийн өмнө</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d минутын өмнө</item>
+        <item quantity="other">%d минутын өмнө</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">Энд %d газар байна</item>
+        <item quantity="other">Энд %d газар байна</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">Зургийг хаслаа</item>
+        <item quantity="other">Зургийг хаслаа</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Нийтлэл %1$d дээрх видеог томруулах</item>
+        <item quantity="other">Нийтлэл %1$d дээрх %2$d видеог томруулах</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%2$,d-с %1$,d</item>
+        <item quantity="other">%2$,d-с %1$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">%1$d медиа байршуулж байна</item>
+        <item quantity="other">%1$d медиа байршуулж байна</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Цэсийн зургийн дугаар %d</item>
+        <item quantity="other">Цэсийн зургийн дугаар %d</item>
+    </plurals>
+    <plurals name="MERCHANT_PANEL_CALLS_LIST_TIMESTAMP_SECONDS">
+        <item quantity="one">%1$d секунд</item>
+        <item quantity="other">%1$d секунд</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d мэдүүлэг</item>
+        <item quantity="other">%1$d мэдүүлэг</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">Энэхүү холбоостой хүмүүс таны байршлыг нэг өдөр %d цагийн турш харах боломжтой</item>
+        <item quantity="other">Энэхүү холбоостой хүмүүс таны байршлыг нэг өдөр %d цагийн турш харах боломжтой</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">Энэхүү холбоостой хүмүүс таны байршлыг 1 цаг %d мин турш харах боломжтой</item>
+        <item quantity="other">Энэхүү холбоостой хүмүүс таны байршлыг 1 цаг %d мин турш харах боломжтой</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">Энэхүү холбоостой хүмүүс таны байршлыг %d өдрийн турш харах боломжтой</item>
+        <item quantity="other">Энэхүү холбоостой хүмүүс таны байршлыг %d өдрийн турш харах боломжтой</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">Энэхүү холбоостой хүмүүс таны байршлыг %d цагийн турш харах боломжтой</item>
+        <item quantity="other">Энэхүү холбоостой хүмүүс таны байршлыг %d цагийн турш харах боломжтой</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">Энэхүү холбоостой хүмүүс таны байршлыг %d мин турш харах боломжтой</item>
+        <item quantity="other">Энэхүү холбоостой хүмүүс таны байршлыг %d мин турш харах боломжтой</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">Өөр %d</item>
+        <item quantity="other">Өөр %d</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Нийтлэл %1$d дээрх видеоны дууг хаах</item>
+        <item quantity="other">Нийтлэл %1$d дээрх %2$d видеоны дууг хаах</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d зураг/видео</item>
+        <item quantity="other">%d зураг/видео</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d видео</item>
+        <item quantity="other">%d видео</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_VEHICLE_DESCRIPTION">
+        <item quantity="one">%2$d-с %1$d захиалгат тээврийн хэрэгсэл</item>
+        <item quantity="other">%2$d-с %1$d захиалгат тээврийн хэрэгсэл</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d шинэ шинэчлэлт</item>
+        <item quantity="other">%d шинэ шинэчлэлт</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">Бизнесийн шинэчлэлт, %1$s шинэ мэдэгдэл</item>
+        <item quantity="other">Бизнесийн шинэчлэлт, %1$s шинэ мэдэгдэл</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d зураг</item>
+        <item quantity="other">%d зураг</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d шүүмж</item>
+        <item quantity="other">%d шүүмж</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">Өнгөц зургийн дугаар %d</item>
+        <item quantity="other">Өнгөц зургийн дугаар %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d офлайн хэсэг</item>
+        <item quantity="other">%d офлайн хэсэг</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d тайланд тулгуурласан</item>
+        <item quantity="other">%1$d тайланд тулгуурласан</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d нийтлэл дээрх видеог түр зогсоох</item>
+        <item quantity="other">%1$d нийтлэл %2$d дээрх видеог түр зогсоох</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s харилцан үйлдэл</item>
+        <item quantity="other">%1$s харилцан үйлдэл</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s хайлт</item>
+        <item quantity="other">%1$s хайлт</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s удаа үзсэн</item>
+        <item quantity="other">%1$s удаа үзсэн</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">%d хоногийн захиалга</item>
+        <item quantity="other">%d хоногийн захиалга</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">Энэ нь зөвхөн танд харагдана</item>
+        <item quantity="other">Эдгээр нь зөвхөн танд харагдана</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d өдөр</item>
+        <item quantity="other">%1$d өдөр</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d шөнө</item>
+        <item quantity="other">%1$d шөнө</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d зураг</item>
+        <item quantity="other">%d зураг</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_CHECKED_DESCRIPTION">
+        <item quantity="one">Танд энэ зураг таалагдсан</item>
+        <item quantity="other">Таныг оролцуулаад %d хүнд энэ зураг таалагдсан</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_UNCHECKED_DESCRIPTION">
+        <item quantity="one">Нэг хүнд энэ зураг таалагдсан</item>
+        <item quantity="other">%d хүнд энэ зураг таалагдсан</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Газрын зурагт %1$d зураг/видео нэмж байна</item>
+        <item quantity="other">Газрын зурагт %1$d зураг/видеонуудыг нэмж байна</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Wifi-д холбогдохоор хүлээж байна.
+ %d зураг/видео хүлээгдэж байна."</item>
+        <item quantity="other">"Wifi-д холбогдохоор хүлээж байна.
+ %d зураг/видео хүлээгдэж байна."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">%1$d нийтлэлийн зураг</item>
+        <item quantity="other">%1$d нийтлэлийн %2$d зураг</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d өдрийн өмнө</item>
+        <item quantity="other">%d өдрийн өмнө</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d цагийн өмнө</item>
+        <item quantity="other">%d цагийн өмнө</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d сарын өмнө</item>
+        <item quantity="other">%d сарын өмнө</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d долоо хоногийн өмнө</item>
+        <item quantity="other">%d долоо хоногийн өмнө</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d жилийн өмнө</item>
+        <item quantity="other">%d жилийн өмнө</item>
+    </plurals>
+    <plurals name="PHOTO_INDEX_IN_LIST">
+        <item quantity="one">%2$,d зургийн %1$,d</item>
+        <item quantity="other">%2$,d зургийн %1$,d</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d шинэчлэлт</item>
+        <item quantity="other">%d шинэчлэлт</item>
+    </plurals>
+    <plurals name="PHOTO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Газрын зурагт %d зураг нэмж байна</item>
+        <item quantity="other">Газрын зурагт %d зураг нэмж байна</item>
+    </plurals>
+    <plurals name="PLACE_QA_MORE_ANSWERS">
+        <item quantity="one">Бусад %d хариулт</item>
+        <item quantity="other">Бусад %d хариулт</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">%d хариултыг харах</item>
+        <item quantity="other">%d хариултыг харах</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="one">+%1$,d</item>
+        <item quantity="other">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d нийтлэл дээрх видеог тоглуулах</item>
+        <item quantity="other">%1$d нийтлэл дээрх %2$d видеог тоглуулах</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">дахиад +%d хуваалцсан</item>
+        <item quantity="other">дахиад +%d хуваалцсан</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Буудал солих</item>
+        <item quantity="other">Буудал солих</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Буудал сольж байна</item>
+        <item quantity="other">Буудал сольж байна</item>
+    </plurals>
+    <plurals name="POST_ACCESSIBILITY_THUMBS_UP_DESCRIPTION">
+        <item quantity="one">1 таалагдсан</item>
+        <item quantity="other">%d таалагдсан</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d удаа үзсэн</item>
+        <item quantity="other">%,d удаа үзсэн</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d үнэлгээ</item>
+        <item quantity="other">%d үнэлгээ</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d сэтгэгдэл</item>
+        <item quantity="other">%d сэтгэгдэл</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWEE_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">%,d хүнийг дагаж буй</item>
+        <item quantity="other">%,d хүнийг дагаж буй</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWER_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">%,d дагагч</item>
+        <item quantity="other">%,d дагагч</item>
+    </plurals>
+    <plurals name="PROFILE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">%,d хариултыг харах</item>
+        <item quantity="other">%,d хариултыг харах</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">%d одны үнэлгээтэй</item>
+        <item quantity="other">%d одны үнэлгээтэй</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">1 %2$s хариу үйлдэл</item>
+        <item quantity="other">%1$,d %2$s хариу үйлдэл</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">%d минутын өмнө шинэчилсэн</item>
+        <item quantity="other">%d минутын өмнө шинэчилсэн</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">%1$d цуваа галт тэрэгний хувьд, гарцад хамгийн ойр %2$s-д суух</item>
+        <item quantity="other">%1$d цуваа галт тэрэгний хувьд, гарцад хамгийн ойр %2$s-д суух</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">%1$d цуваа галт тэрэгний хувьд, дамжиж суухад хамгийн түргэн %2$s-д суух</item>
+        <item quantity="other">%1$d цуваа галт тэрэгний хувьд, дамжиж суухад хамгийн түргэн %2$s-д суух</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">Хамгийн бага хүнтэй вагон: %1$s</item>
+        <item quantity="other">Хамгийн бага хүнтэй вагонууд: %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">%1$d цуваа галт тэрэг</item>
+        <item quantity="other">%1$d цуваа галт тэрэг</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d төлбөр</item>
+        <item quantity="other">%d төлбөр</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s + өөр %2$s</item>
+        <item quantity="other">%1$s + өөр %2$s</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">5-аас 1 одоор үнэлэх</item>
+        <item quantity="other">5-аас %1$d одоор үнэлэх</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s үзсэн</item>
+        <item quantity="other">%s үзсэн</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d үнэлгээ эсвэл шүүмж</item>
+        <item quantity="other">%,d үнэлгээ болон шүүмж</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d үнэлгээ эсвэл шүүмж</item>
+        <item quantity="other">%,d үнэлгээ болон шүүмж</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d хүн</item>
+        <item quantity="other">%d хүн</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">Өөр %d жагсаалт</item>
+        <item quantity="other">Өөр %d жагсаалт</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">%1$s болон өөр %2$d жагсаалтад хадгалсан</item>
+        <item quantity="other">%1$s болон өөр %2$d жагсаалтад хадгалсан</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">%d өдрийн өмнө зочилсноо хадгалах уу?</item>
+        <item quantity="other">%d өдрийн өмнө зочилсноо хадгалах уу?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">%2$s-н %1$d илэрц олсон</item>
+        <item quantity="other">%2$s-н %1$d илэрц олсон</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">1 од үнэлгээ илгээж байна</item>
+        <item quantity="other">%1$d од үнэлгээ илгээж байна</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">%d өдрийн турш</item>
+        <item quantity="other">%d өдрийн турш</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">%d цагийн турш</item>
+        <item quantity="other">%d цагийн турш</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">%d минутын турш</item>
+        <item quantity="other">%d минутын турш</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">Таны байршлыг %2$s-тай хуваалцаж буй, мөн дахиад %1$d-г хуваалцаж буй</item>
+        <item quantity="other">Таны байршлыг %2$s-тай хуваалцаж буй, мөн дахиад %1$d-г хуваалцаж буй</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">Таны байршлыг дахиад %d-тай цуг хуваалцаж буй</item>
+        <item quantity="other">Таны байршлыг дахиад %d-тай цуг хуваалцаж буй</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">Амжилттай 1 од өгсөн</item>
+        <item quantity="other">Амжилттай %1$d од өгсөн</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d удаа үзсэн</item>
+        <item quantity="other">%,d удаа үзсэн</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d оноо</item>
+        <item quantity="other">+%d оноо</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">%2$s-н %1$d зураг эсвэл видеог нийтлэх</item>
+        <item quantity="other">%2$s-н %1$d зураг эсвэл видеог нийтлэх</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">%2$s-ын %1$d зургийг нийтлэх</item>
+        <item quantity="other">%2$s-ын %1$d зургийг нийтлэх</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">дахиад %d</item>
+        <item quantity="other">дахиад %d</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">%1$d зураг нийтлэх</item>
+        <item quantity="other">%1$d зураг нийтлэх</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">%1$d-г нийтлэх</item>
+        <item quantity="other">%1$d-г нийтлэх</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$d хүн %2$s-н талаар дурдсан</item>
+        <item quantity="other">%1$,d хүн %2$s-н талаар дурдсан</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">1 хариу үйлдэл</item>
+        <item quantity="other">%1$,d хариу үйлдэл</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">%2$s-н бусад %1$d сонголтыг харах</item>
+        <item quantity="other">%2$s-н бусад %1$d сонголтыг харах</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">Өөр %1$d сонголтыг харах</item>
+        <item quantity="other">Өөр %1$d сонголтыг харах</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">Замын түгжрэлд сааталгүйгээр хамгийн хурдан явах маршрутыг харахыг хүсвэл хаягаа хадгалаарай</item>
+        <item quantity="other">Замын түгжрэлд сааталгүйгээр хамгийн хурдан явах маршрутыг харахыг хүсвэл хаягаа хадгалаарай</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">Хөдлөх цаг %1$d сек-н өмнө шинэчлэгдсэн</item>
+        <item quantity="other">Хөдлөх цаг %1$d сек-н өмнө шинэчлэгдсэн</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">Минут тутамд хөдөлнө</item>
+        <item quantity="other">%d минут тутамд хөдөлнө</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d мин</item>
+        <item quantity="other">%d мин</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d буудал</item>
+        <item quantity="other">%d буудал</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+минутын өмнө"</item>
+        <item quantity="other">"%1$s
+минутын өмнө"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s минутын өмнө хөдөлсөн</item>
+        <item quantity="other">%1$s минутын өмнө хөдөлсөн</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%dанхааруулга</item>
+        <item quantity="other">+%d анхааруулга</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d сэрэмжлүүлэг</item>
+        <item quantity="other">+ %d сэрэмжлүүлэг</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+өөр %d</item>
+        <item quantity="other">+өөр %d</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">дахиад + %d</item>
+        <item quantity="other">дахиад + %d</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+мин"</item>
+        <item quantity="other">"%1$s
+мин"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s минутын өмнө</item>
+        <item quantity="other">%1$s минутын өмнө</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s минутын дараа хөдөлнө</item>
+        <item quantity="other">%1$s минутын дараа хөдөлнө</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">өөр %1$s анхааруулга</item>
+        <item quantity="other">өөр %1$s анхааруулга</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s зураг</item>
+        <item quantity="other">%s зураг</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s шүүмж</item>
+        <item quantity="other">%s шүүмж</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d удаагийн хувь нэмэр</item>
+        <item quantity="other">%,d удаагийн хувь нэмэр</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d удаа үзсэн</item>
+        <item quantity="other">%,d удаа үзсэн</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">%1$d хүртэл сонгоно уу</item>
+        <item quantity="other">%1$d хүртэл сонгоно уу</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">%1$s хүртэлх зураг сонгоно уу</item>
+        <item quantity="other">%1$s хүртэлх зураг сонгоно уу</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d нийтлэл дээрх видеоны дууг нээх</item>
+        <item quantity="other">%1$d нийтлэл дээрх %2$d видеоны дууг нээх</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">Нийт %2$d-с %1$d</item>
+        <item quantity="other">Нийт %2$d-с %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Wifi-д холбогдохоор хүлээж байна.
+ %d зураг хүлээгдэж байна."</item>
+        <item quantity="other">"WiFi-д холбогдохоор хүлээж байна.
+ %d зураг хүлээгдэж байна."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d зураг сонгосон</item>
+        <item quantity="other">%d зураг сонгосон</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">%2$d газраас %1$d-д нь очсон</item>
+        <item quantity="other">%2$d газраас %1$d-д нь очсон</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s + бусад %2$d-тай хуваалцах үеийн байршлын нарийвчлалыг нэмэгдүүлэхийн тулд Батарей хэмнэгчийг унтраана уу</item>
+        <item quantity="other">%1$s + бусад %2$d-тай хуваалцах үеийн байршлын нарийвчлалыг нэмэгдүүлэхийн тулд Батарей хэмнэгчийг унтраана уу</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s + бусад %2$d-тай байршил хуваалцахыг үргэлжлүүлэхийн тулд төхөөрөмжийн байршлыг асаах хэрэгтэй</item>
+        <item quantity="other">%1$s + бусад %2$d-тай байршил хуваалцахыг үргэлжлүүлэхийн тулд төхөөрөмжийн байршлыг асаах хэрэгтэй</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Энэ төхөөрөмж дээр %1$s + бусад %2$d-тай үргэлжлүүлэн хуваалцахын тулд Байршил хуваалцахыг шинэчилнэ үү</item>
+        <item quantity="other">Энэ төхөөрөмж дээр %1$s + бусад %2$d-тай үргэлжлүүлэн хуваалцахын тулд Байршил хуваалцахыг шинэчилнэ үү</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s + бусад %2$d-тай хуваалцах үеийн байршлын нарийвчлалыг нэмэгдүүлэхийн тулд биеийн хөдөлгөөнийг тань таних боломжийг Газрын зурагт олгоно уу</item>
+        <item quantity="other">%1$s + бусад %2$d-тай хуваалцах үеийн байршлын нарийвчлалыг нэмэгдүүлэхийн тулд биеийн хөдөлгөөнийг тань таних боломжийг Газрын зурагт олгоно уу</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s + бусад %2$d-тай хуваалцах үеийн байршлын нарийвчлалыг нэмэгдүүлэхийн тулд байршилд тань хандахыг Газрын зурагт үргэлж зөвшөөрнө үү</item>
+        <item quantity="other">%1$s + бусад %2$d-тай хуваалцах үеийн байршлын нарийвчлалыг нэмэгдүүлэхийн тулд байршилд тань хандахыг Газрын зурагт үргэлж зөвшөөрнө үү</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s + бусад %2$d-тай үргэлжлүүлэн хуваалцахын тулд байршилд тань хандахыг Газрын зурагт үргэлж зөвшөөрнө үү</item>
+        <item quantity="other">%1$s + бусад %2$d-тай үргэлжлүүлэн хуваалцахын тулд байршилд тань хандахыг Газрын зурагт үргэлж зөвшөөрнө үү</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">%d+ зураг</item>
+        <item quantity="other">%d+ зураг</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d шүүмж)</item>
+        <item quantity="other">(%,d шүүмж)</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">%1$d нийтлэлийн видео</item>
+        <item quantity="other">%1$d нийтлэлийн %2$d видео</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">%1$d нийтлэлийн видео бүтэн дэлгэцийнх</item>
+        <item quantity="other">%1$d нийтлэлийн %2$d видео бүтэн дэлгэцийнх</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d хоног</item>
+        <item quantity="other">%2$s × %1$d хоног</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">Татвар + хураамж орсон %1$d хоногийн үнэ%2$s</item>
+        <item quantity="other">Татвар + хураамж орсон %1$d хоногийн үнэ%2$s</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">1 мин алхана</item>
+        <item quantity="other">%d мин алхана</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d буудал</item>
+        <item quantity="other">+ %d буудал</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d зогсолт)</item>
+        <item quantity="other">(%d зогсолт)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d долоо хоногийн өмнө</item>
+        <item quantity="other">%d долоо хоногийн өмнө</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d жилийн өмнө</item>
+        <item quantity="other">%d жилийн өмнө</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">Үлдсэн зургийг үзэх</item>
+        <item quantity="other">Үлдсэн %1$d зургийг үзэх</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">Таны шүүмж эсвэл мэдээ</item>
+        <item quantity="other">Таны шүүмж эсвэл мэдээ</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">Та %1$s болон өөр %2$d жагсаалтыг дагаж байна</item>
+        <item quantity="other">Та %1$s болон өөр %2$d жагсаалтыг дагаж байна</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s болон бусад %2$d</item>
+        <item quantity="other">%1$s болон бусад %2$d</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%2$d-с %1$d</item>
+        <item quantity="other">%2$d-с %1$d</item>
+    </plurals>
+    <plurals name="local_guide_level">
+        <item quantity="one"></item>
+        <item quantity="other">%1$d-р түвшин</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="one">%1$d минут</item>
+        <item quantity="other">%1$d минут</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">1-ийг авсан</item>
+        <item quantity="other">%1$d-г авсан</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d шинэ мэдэгдэл</item>
+        <item quantity="other">%d шинэ мэдэгдэл</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="one">+ %1$d илүү</item>
+        <item quantity="other">+ %1$d илүү</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="one">%d хүн бичиж байна</item>
+        <item quantity="other">%d хүн бичиж байна</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">%d хүлээн авагчийг хуулсан</item>
+        <item quantity="other">%d хүлээн авагчийг хуулсан</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">Энэ зургийн талаар саналаа хэлнэ үү (заавал биш)</item>
+        <item quantity="other">Эдгээр зургийн талаар саналаа хэлнэ үү (заавал биш)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%2$d-с %1$d од</item>
+        <item quantity="other">%2$d-с %1$d од</item>
+    </plurals>
+</resources>

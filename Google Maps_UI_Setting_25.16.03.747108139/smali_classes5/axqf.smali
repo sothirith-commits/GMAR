@@ -1,0 +1,17 @@
+.class public interface abstract Laxqf;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbdkf;
+
+
+# virtual methods
+.method public abstract a()Lbdpx;
+.end method
+
+.method public abstract b()Lbdpx;
+.end method
+
+.method public abstract c()Z
+.end method

@@ -1,0 +1,57 @@
+.class public final Lvli;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lvju;
+
+
+# instance fields
+.field private final a:Ljava/util/List;
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/List;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lvjt;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lvli;->a:Ljava/util/List;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lvjt;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lvli;->a:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>કોઈપણ</item>
+        <item>₹</item>
+        <item>₹₹</item>
+        <item>₹₹₹</item>
+        <item>₹₹₹₹</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>કોઈપણ કિંમત સ્તર</item>
+        <item>સસ્તું</item>
+        <item>મધ્યમ મોંઘું</item>
+        <item>મોંઘું</item>
+        <item>ખૂબ મોંઘું</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>કોઈપણ</item>
+        <item>3-સ્ટાર</item>
+        <item>4-સ્ટાર</item>
+        <item>5-સ્ટાર</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>કોઈપણ</item>
+        <item>હમણાં ખુલ્લો છે</item>
+        <item>કસ્ટમ</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>નાનું-મોટું કરતી વખતે</item>
+        <item>હંમેશાં</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>જ્યારે ઝૂમ વધારીએ અને ઘટાડીએ</item>
+        <item>હંમેશાં</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>બહુ ખરાબ</item>
+        <item>નાપસંદ કર્યું</item>
+        <item>ઠીક છે</item>
+        <item>પસંદ છે</item>
+        <item>ઘણું ગમ્યું</item>
+    </string-array>
+</resources>

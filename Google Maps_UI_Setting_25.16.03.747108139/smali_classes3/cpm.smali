@@ -1,0 +1,83 @@
+.class public final Lcpm;
+.super Lcpy;
+.source "PG"
+
+
+# static fields
+.field public static final a:Lcpm;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcpm;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lcpm;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lcpm;->a:Lcpm;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 2
+
+    .line 1
+    const/4 v0, 0x2
+
+    .line 2
+    const/4 v1, 0x0
+
+    .line 3
+    invoke-direct {p0, v0, v1, v0}, Lcpy;-><init>(III)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final a(Lcqb;Lckv;Lcnr;Lcse;Lcpz;)V
+    .locals 0
+
+    .line 1
+    const/4 p3, 0x0
+
+    .line 2
+    invoke-virtual {p1, p3}, Lcqb;->a(I)I
+
+    .line 3
+    .line 4
+    .line 5
+    move-result p3
+
+    .line 6
+    const/4 p4, 0x1
+
+    .line 7
+    invoke-virtual {p1, p4}, Lcqb;->a(I)I
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p1
+
+    .line 11
+    invoke-interface {p2, p3, p1}, Lckv;->l(II)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method

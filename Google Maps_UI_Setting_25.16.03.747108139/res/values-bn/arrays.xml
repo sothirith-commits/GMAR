@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>যেকোনো</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>যেকোনো মূল্যের স্তর</item>
+        <item>সস্তা</item>
+        <item>মোটামুটি দামী</item>
+        <item>দামী</item>
+        <item>খুব দামী</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>যেকোনো</item>
+        <item>৩-তারা</item>
+        <item>৪-তারা</item>
+        <item>৫-তারা</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>যেকোনও</item>
+        <item>এখন খোলা আছে</item>
+        <item>কাস্টম</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>জুম করার সময়</item>
+        <item>সর্বদা</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>জুম বাড়ানো ও কমানোর সময়</item>
+        <item>সর্বদা</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>খুব খারাপ</item>
+        <item>একেবারেই ভাল না</item>
+        <item>মোটামুটি</item>
+        <item>ভাল লেগেছে</item>
+        <item>ভীষণ পছন্দ</item>
+    </string-array>
+</resources>

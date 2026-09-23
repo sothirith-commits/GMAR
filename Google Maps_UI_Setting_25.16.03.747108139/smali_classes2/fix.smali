@@ -1,0 +1,203 @@
+.class public final synthetic Lfix;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lfek;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:Ljava/lang/Object;
+
+.field private final synthetic c:I
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/Object;II)V
+    .locals 0
+
+    .line 1
+    iput p3, p0, Lfix;->c:I
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    iput-object p1, p0, Lfix;->b:Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    iput p2, p0, Lfix;->a:I
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;)V
+    .locals 2
+
+    .line 1
+    iget v0, p0, Lfix;->c:I
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_3
+
+    .line 4
+    .line 5
+    const/4 v1, 0x1
+
+    .line 6
+    if-eq v0, v1, :cond_2
+
+    .line 7
+    .line 8
+    const/4 v1, 0x2
+
+    .line 9
+    if-eq v0, v1, :cond_1
+
+    .line 10
+    .line 11
+    const/4 v1, 0x3
+
+    .line 12
+    if-eq v0, v1, :cond_0
+
+    .line 13
+    .line 14
+    check-cast p1, Lfkt;
+
+    .line 15
+    .line 16
+    iget v0, p0, Lfix;->a:I
+
+    .line 17
+    .line 18
+    iget-object v1, p0, Lfix;->b:Ljava/lang/Object;
+
+    .line 19
+    .line 20
+    check-cast v1, Lfks;
+
+    .line 21
+    .line 22
+    invoke-interface {p1, v1, v0}, Lfkt;->f(Lfks;I)V
+
+    .line 23
+    .line 24
+    .line 25
+    return-void
+
+    .line 26
+    :cond_0
+    check-cast p1, Lfkt;
+
+    .line 27
+    .line 28
+    iget v0, p0, Lfix;->a:I
+
+    .line 29
+    .line 30
+    iget-object v1, p0, Lfix;->b:Ljava/lang/Object;
+
+    .line 31
+    .line 32
+    check-cast v1, Lfks;
+
+    .line 33
+    .line 34
+    invoke-interface {p1, v1, v0}, Lfkt;->r(Lfks;I)V
+
+    .line 35
+    .line 36
+    .line 37
+    return-void
+
+    .line 38
+    :cond_1
+    check-cast p1, Lfkt;
+
+    .line 39
+    .line 40
+    iget v0, p0, Lfix;->a:I
+
+    .line 41
+    .line 42
+    iget-object v1, p0, Lfix;->b:Ljava/lang/Object;
+
+    .line 43
+    .line 44
+    check-cast v1, Lfks;
+
+    .line 45
+    .line 46
+    invoke-interface {p1, v1, v0}, Lfkt;->g(Lfks;I)V
+
+    .line 47
+    .line 48
+    .line 49
+    return-void
+
+    .line 50
+    :cond_2
+    check-cast p1, Lfcl;
+
+    .line 51
+    .line 52
+    sget v0, Lfjd;->y:I
+
+    .line 53
+    .line 54
+    iget-object v0, p0, Lfix;->b:Ljava/lang/Object;
+
+    .line 55
+    .line 56
+    check-cast v0, Lfkf;
+
+    .line 57
+    .line 58
+    iget-object v0, v0, Lfkf;->b:Lfct;
+
+    .line 59
+    .line 60
+    iget v0, p0, Lfix;->a:I
+
+    .line 61
+    .line 62
+    invoke-interface {p1, v0}, Lfcl;->o(I)V
+
+    .line 63
+    .line 64
+    .line 65
+    return-void
+
+    .line 66
+    :cond_3
+    check-cast p1, Lfcl;
+
+    .line 67
+    .line 68
+    sget v0, Lfjd;->y:I
+
+    .line 69
+    .line 70
+    iget v0, p0, Lfix;->a:I
+
+    .line 71
+    .line 72
+    invoke-interface {p1, v0}, Lfcl;->t(I)V
+
+    .line 73
+    .line 74
+    .line 75
+    return-void
+.end method

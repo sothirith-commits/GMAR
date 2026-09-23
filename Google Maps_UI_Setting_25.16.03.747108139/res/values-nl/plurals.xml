@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACTION_ITEM_NEEDS_ATTENTION_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d nieuw item</item>
+        <item quantity="other">%1$d nieuwe items</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">Nog %d optie</item>
+        <item quantity="other">Nog %d opties</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">Gemeld door %1$d persoon</item>
+        <item quantity="other">Gemeld door %1$d personen</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d melding</item>
+        <item quantity="other">%d meldingen</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d locatie</item>
+        <item quantity="other">%1$d locaties</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">Antwoord bekijken</item>
+        <item quantity="other">Antwoorden bekijken (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">Verken hier</item>
+        <item quantity="other">Verken hier %d plaatsen</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d fiets beschikbaar</item>
+        <item quantity="other">%d fietsen beschikbaar</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">%s fiets in stalling</item>
+        <item quantity="other">%s fietsen in stalling</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d fiets</item>
+        <item quantity="other">%d fietsen</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d fietsenrek beschikbaar</item>
+        <item quantity="other">%d fietsenrekken beschikbaar</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d fietsenrek</item>
+        <item quantity="other">%d fietsenrekken</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">Aanbevolen door %1$d persoon</item>
+        <item quantity="other">Aanbevolen door %1$d mensen</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">%1$d dag geleden gebruikt</item>
+        <item quantity="other">%1$d dagen geleden gebruikt</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">%1$d week geleden gebruikt</item>
+        <item quantity="other">%1$d weken geleden gebruikt</item>
+    </plurals>
+    <plurals name="CAR_EV_COLLAPSED_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s oplaadstop</item>
+        <item quantity="other">%1$s oplaadstops</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d geselecteerd</item>
+        <item quantity="other">%1$d geselecteerd</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">+ nog %1$d</item>
+        <item quantity="other">+ nog %1$d</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_BONUS_POINTS_LABEL">
+        <item quantity="one">bonus</item>
+        <item quantity="other">bonus</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_BONUS_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">Je hebt %d bonuspunt verdiend</item>
+        <item quantity="other">Je hebt %d bonuspunten verdiend</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_PLACES_UPDATED_A11Y_LABEL">
+        <item quantity="one">Je hebt %d plaats geüpdatet</item>
+        <item quantity="other">Je hebt %d plaatsen geüpdatet</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">Je hebt %d punt verdiend</item>
+        <item quantity="other">Je hebt %d punten verdiend</item>
+    </plurals>
+    <plurals name="CHALLENGE_POINTS_LABEL">
+        <item quantity="one">%d punt</item>
+        <item quantity="other">%d punten</item>
+    </plurals>
+    <plurals name="CHARGING_ROUTE_SUMMARY_CHARGING_STOPS_SHORT">
+        <item quantity="one">%1$d tussenstop</item>
+        <item quantity="other">%1$d tussenstops</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_HOME_TO_WORK_TITLE">
+        <item quantity="one">%d minuut naar het werk</item>
+        <item quantity="other">%d minuten naar het werk</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">%d minuut korter dan normaal</item>
+        <item quantity="other">%d minuten korter dan normaal</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">%d minuut langer dan normaal</item>
+        <item quantity="other">%d minuten langer dan normaal</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_UNSPECIFIED_TITLE">
+        <item quantity="one">Reistijd: %d min</item>
+        <item quantity="other">Reistijd: %d min</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_WORK_TO_HOME_TITLE">
+        <item quantity="one">%d minuut naar huis</item>
+        <item quantity="other">%d minuten naar huis</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Kaartrichting %d graad.</item>
+        <item quantity="other">Kaartrichting %d graden.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">Bedrijf met %d ster</item>
+        <item quantity="other">Bedrijf met %d sterren</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">Local Guide niveau %d</item>
+        <item quantity="other">Local Guide niveau %d</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_STAT_FOLLOWER_COUNT">
+        <item quantity="one">%,d volger</item>
+        <item quantity="other">%,d volgers</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">Je hebt %1$s met 1 ster beoordeeld</item>
+        <item quantity="other">Je hebt %1$s met %2$d sterren beoordeeld</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_PLACES">
+        <item quantity="one">plaats</item>
+        <item quantity="other">plaatsen</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">punt</item>
+        <item quantity="other">punten</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s dag</item>
+        <item quantity="other">%s dagen</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s d</item>
+        <item quantity="other">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s d</item>
+        <item quantity="other">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s dag</item>
+        <item quantity="other">%s dagen</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s uur</item>
+        <item quantity="other">%s uur</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s u</item>
+        <item quantity="other">%s u</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s u</item>
+        <item quantity="other">%s u</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s minuut</item>
+        <item quantity="other">%s minuten</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s seconde</item>
+        <item quantity="other">%s seconden</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Rijd %1$s voet verder</item>
+        <item quantity="other">Rijd %1$s voet verder</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Rijd %1$s kilometer verder</item>
+        <item quantity="other">Rijd %1$s kilometer verder</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Rijd %1$s meter verder</item>
+        <item quantity="other">Rijd %1$s meter verder</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Rijd %1$s mijl verder</item>
+        <item quantity="other">Rijd %1$s mijl verder</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Rijd %1$s yard verder</item>
+        <item quantity="other">Rijd %1$s yard verder</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Rijd %1$s voet verder op %2$s</item>
+        <item quantity="other">Rijd %1$s voet verder op %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Rijd %1$s kilometer verder op %2$s</item>
+        <item quantity="other">Rijd %1$s kilometer verder op %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Rijd %1$s meter verder op %2$s</item>
+        <item quantity="other">Rijd %1$s meter verder op %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Rijd %1$s mijl verder op %2$s</item>
+        <item quantity="other">Rijd %1$s mijl verder op %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Rijd %1$s yard verder op %2$s</item>
+        <item quantity="other">Rijd %1$s yard verder op %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">Over %1$s voet</item>
+        <item quantity="other">Over %1$s voet</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">Over %1$s kilometer</item>
+        <item quantity="other">Over %1$s kilometer</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">Over %1$s meter</item>
+        <item quantity="other">Over %1$s meter</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">Over %1$s mijl</item>
+        <item quantity="other">Over %1$s mijl</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">Over %1$s yard</item>
+        <item quantity="other">Over %1$s yard</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometer per uur</item>
+        <item quantity="other">%s kilometer per uur</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s mijl per uur</item>
+        <item quantity="other">%s mijl per uur</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Je bevindt je op %1$s voet van je bestemming</item>
+        <item quantity="other">Je bevindt je op %1$s voet van je bestemming</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Je bevindt je op %1$s kilometer van je bestemming</item>
+        <item quantity="other">Je bevindt je op %1$s kilometers van je bestemming</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Je bevindt je op %1$s meter van je bestemming</item>
+        <item quantity="other">Je bevindt je op %1$s meter van je bestemming</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Je bevindt je op %1$s mijl van je bestemming</item>
+        <item quantity="other">Je bevindt je op %1$s mijl van je bestemming</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Je bevindt je op %1$s yard van je bestemming</item>
+        <item quantity="other">Je bevindt je op %1$s yard van je bestemming</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d stop</item>
+        <item quantity="other">%d stops</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d type aansluitend vervoer</item>
+        <item quantity="other">%1$d typen aansluitend vervoer</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">%d dag geleden geüpdatet</item>
+        <item quantity="other">%d dagen geleden geüpdatet</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">%d maand geleden geüpdatet</item>
+        <item quantity="other">%d maanden geleden geüpdatet</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">%d week geleden geüpdatet</item>
+        <item quantity="other">%d weken geleden geüpdatet</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d fiets</item>
+        <item quantity="other">%d fietsen</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">%d fiets in de buurt</item>
+        <item quantity="other">%d fietsen in de buurt</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d van %2$d oplaadpoort</item>
+        <item quantity="other">%1$d van %2$d oplaadpoorten</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d oplaadpoort</item>
+        <item quantity="other">%d oplaadpoorten</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">Beoordeling van één ster kan niet worden toegevoegd, probeer het opnieuw</item>
+        <item quantity="other">Beoordeling van %1$d sterren kan niet worden toegevoegd, probeer het opnieuw</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">%se verdieping</item>
+        <item quantity="other">%se verdiepingen</item>
+    </plurals>
+    <plurals name="FOLLOWER_COUNT_LABEL">
+        <item quantity="one">Volger</item>
+        <item quantity="other">Volgers</item>
+    </plurals>
+    <plurals name="FOLLOWING_COUNT_LABEL">
+        <item quantity="one">Volgend</item>
+        <item quantity="other">Volgend</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">%d extra nacht</item>
+        <item quantity="other">%d extra nachten</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">Voeg %d nacht toe</item>
+        <item quantity="other">Voeg %d nachten toe</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">Dit hotel biedt een verblijf van %1$d nacht. %2$s voor een gemiddelde prijs van %3$s per nacht.</item>
+        <item quantity="other">Dit hotel biedt een verblijf van %1$d nachten. %2$s voor een gemiddelde prijs van %3$s per nacht.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">Verblijf %1$s voor een gemiddelde prijs van %2$s per nacht</item>
+        <item quantity="other">Verblijf %1$s voor een gemiddelde prijs van %2$s per nacht</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d gast</item>
+        <item quantity="other">%d gasten</item>
+    </plurals>
+    <plurals name="HOTEL_PLACE_COUNT">
+        <item quantity="one">%d accommodatie</item>
+        <item quantity="other">%d accommodaties</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">en nog %d.</item>
+        <item quantity="other">en nog %d.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">+ nog %d.</item>
+        <item quantity="other">+ nog %d.</item>
+    </plurals>
+    <plurals name="IN_STORE_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Foto in de winkel, nummer %d</item>
+        <item quantity="other">Foto in de winkel, nummer %d</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">Opgeslagen (%1$s en %2$d andere)</item>
+        <item quantity="other">Opgeslagen (%1$s en %2$d andere)</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">Je was hier %d maand geleden</item>
+        <item quantity="other">Je was hier %d maanden geleden</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">Je was hier %d week geleden</item>
+        <item quantity="other">Je was hier %d weken geleden</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">Je was hier %d jaar geleden</item>
+        <item quantity="other">Je was hier %d jaar geleden</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d evenement</item>
+        <item quantity="other">%d evenementen</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d plaats</item>
+        <item quantity="other">%d plaatsen</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">%d keer opgeslagen</item>
+        <item quantity="other">%d keer opgeslagen</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d reis</item>
+        <item quantity="other">%d reizen</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s weergave</item>
+        <item quantity="other">%s weergaven</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">%d dag geleden bewerkt</item>
+        <item quantity="other">%d dagen geleden bewerkt</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">%d maand geleden bewerkt</item>
+        <item quantity="other">%d maanden geleden bewerkt</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">%d week geleden bewerkt</item>
+        <item quantity="other">%d weken geleden bewerkt</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">%d jaar geleden bewerkt</item>
+        <item quantity="other">%d jaar geleden bewerkt</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">Je hebt %d punt</item>
+        <item quantity="other">Je hebt %d punten</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TEXT">
+        <item quantity="one">%d punt</item>
+        <item quantity="other">%d punten</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">Je hebt nog %1$d punt nodig om niveau %2$d te bereiken</item>
+        <item quantity="other">Je hebt nog %1$d punten nodig om niveau %2$d te bereiken</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">Niveau %d</item>
+        <item quantity="other">Niveau %d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_LEVEL">
+        <item quantity="one">Local Guide-niveau %d</item>
+        <item quantity="other">Local Guide-niveau %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">%d jaar actief</item>
+        <item quantity="other">%d+ jaar actief</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d dag geleden</item>
+        <item quantity="other">%d dagen geleden</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d uur geleden</item>
+        <item quantity="other">%d uur geleden</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d minuut geleden</item>
+        <item quantity="other">%d minuten geleden</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">%d plaats hier</item>
+        <item quantity="other">%d plaatsen hier</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">Foto verwijderd</item>
+        <item quantity="other">"Foto's verwijderd"</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Video op volledig scherm voor post %1$d</item>
+        <item quantity="other">Video %2$d op volledig scherm voor post %1$d</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d van %2$,d</item>
+        <item quantity="other">%1$,d van %2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">%1$d mediabestand uploaden…</item>
+        <item quantity="other">%1$d mediabestanden uploaden…</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Menufoto nummer %d</item>
+        <item quantity="other">Menufoto nummer %d</item>
+    </plurals>
+    <plurals name="MERCHANT_PANEL_CALLS_LIST_TIMESTAMP_SECONDS">
+        <item quantity="one">%1$d seconde</item>
+        <item quantity="other">%1$d seconden</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d melding</item>
+        <item quantity="other">%1$d meldingen</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">Mensen met deze link kunnen je locatie 1 dag en %d uur bekijken</item>
+        <item quantity="other">Mensen met deze link kunnen je locatie 1 dag en %d uur bekijken</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">Mensen met deze link kunnen je locatie 1 uur en %d min bekijken</item>
+        <item quantity="other">Mensen met deze link kunnen je locatie 1 uur en %d min bekijken</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">Mensen met deze link kunnen je locatie %d dag bekijken</item>
+        <item quantity="other">Mensen met deze link kunnen je locatie %d dagen bekijken</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">Mensen met deze link kunnen je locatie %d uur bekijken</item>
+        <item quantity="other">Mensen met deze link kunnen je locatie %d uur bekijken</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">Mensen met deze link kunnen je locatie %d min bekijken</item>
+        <item quantity="other">Mensen met deze link kunnen je locatie %d min bekijken</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">Nog %d</item>
+        <item quantity="other">Nog %d</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Geluid video uitzetten voor post %1$d</item>
+        <item quantity="other">Geluid video %2$d uitzetten voor post %1$d</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d foto/video</item>
+        <item quantity="other">"%d foto's/video's"</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d video</item>
+        <item quantity="other">"%d video's"</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_VEHICLE_DESCRIPTION">
+        <item quantity="one">aangepast voertuig %1$d van %2$d</item>
+        <item quantity="other">aangepast voertuig %1$d van %2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d nieuwe update</item>
+        <item quantity="other">%d nieuwe updates</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">Bedrijfsupdates, %1$s nieuwe melding</item>
+        <item quantity="other">Bedrijfsupdates, %1$s nieuwe meldingen</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">"%d foto's"</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d review</item>
+        <item quantity="other">%d reviews</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">Miniatuur nummer %d</item>
+        <item quantity="other">Miniatuur nummer %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d offline gebied</item>
+        <item quantity="other">%d offline gebieden</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">Op basis van %1$d melding</item>
+        <item quantity="other">Op basis van %1$d meldingen</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Video onderbreken voor post %1$d</item>
+        <item quantity="other">Video %2$d onderbreken voor post %1$d</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s interactie</item>
+        <item quantity="other">%1$s interacties</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s zoekopdracht</item>
+        <item quantity="other">%1$s zoekopdrachten</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s weergave</item>
+        <item quantity="other">%1$s weergaven</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">Reservering voor %d nacht</item>
+        <item quantity="other">Reservering voor %d nachten</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">Alleen jij kunt dit zien</item>
+        <item quantity="other">Alleen jij kunt deze zien</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dagen</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d nacht</item>
+        <item quantity="other">%1$d nachten</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">"%d foto's"</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_CHECKED_DESCRIPTION">
+        <item quantity="one">Je hebt deze foto geliket</item>
+        <item quantity="other">%d mensen inclusief jijzelf hebben deze foto geliket</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_UNCHECKED_DESCRIPTION">
+        <item quantity="one">Iemand heeft deze foto geliket</item>
+        <item quantity="other">%d mensen hebben deze foto geliket</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Er wordt %1$d foto/video toegevoegd aan Maps</item>
+        <item quantity="other">"Er worden %1$d foto's/video's toegevoegd aan Maps"</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Wachten op wifi.
+ %d foto/video in behandeling."</item>
+        <item quantity="other">"Wachten op wifi.
+ %d foto's/video's in behandeling."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">Foto voor post %1$d</item>
+        <item quantity="other">Foto %2$d voor post %1$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d dag geleden</item>
+        <item quantity="other">%d dagen geleden</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d uur geleden</item>
+        <item quantity="other">%d uur geleden</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d maand geleden</item>
+        <item quantity="other">%d maanden geleden</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d week geleden</item>
+        <item quantity="other">%d weken geleden</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d jaar geleden</item>
+        <item quantity="other">%d jaar geleden</item>
+    </plurals>
+    <plurals name="PHOTO_INDEX_IN_LIST">
+        <item quantity="one">Foto %1$,d van %2$,d</item>
+        <item quantity="other">"Foto's %1$,d van %2$,d"</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d update</item>
+        <item quantity="other">%d updates</item>
+    </plurals>
+    <plurals name="PHOTO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Er wordt %d foto toegevoegd aan Maps</item>
+        <item quantity="other">"Er worden %d foto's toegevoegd aan Maps"</item>
+    </plurals>
+    <plurals name="PLACE_QA_MORE_ANSWERS">
+        <item quantity="one">Nog %d antwoord</item>
+        <item quantity="other">Nog %d antwoorden</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">%d antwoord bekijken</item>
+        <item quantity="other">%d antwoorden bekijken</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="one">+%1$,d</item>
+        <item quantity="other">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Video afspelen voor post %1$d</item>
+        <item quantity="other">Video %2$d afspelen voor post %1$d</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+%d andere persoon</item>
+        <item quantity="other">+%d andere personen</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Tussenstop vervangen</item>
+        <item quantity="other">Tussenstops vervangen</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Tussenstop wordt vervangen</item>
+        <item quantity="other">Tussenstops worden vervangen</item>
+    </plurals>
+    <plurals name="POST_ACCESSIBILITY_THUMBS_UP_DESCRIPTION">
+        <item quantity="one">1 like</item>
+        <item quantity="other">%d likes</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d weergave</item>
+        <item quantity="other">%,d weergaven</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d beoordeling</item>
+        <item quantity="other">%d beoordelingen</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d review</item>
+        <item quantity="other">%d reviews</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWEE_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">Je volgt %,d</item>
+        <item quantity="other">Je volgt %,d</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWER_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">%,d volger</item>
+        <item quantity="other">%,d volgers</item>
+    </plurals>
+    <plurals name="PROFILE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">%,d antwoord bekijken</item>
+        <item quantity="other">%,d antwoorden bekijken</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">Beoordeeld met %d ster</item>
+        <item quantity="other">Beoordeeld met %d sterren</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">1 %2$s reactie</item>
+        <item quantity="other">%1$,d %2$s reacties</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">%d min geleden geüpdatet</item>
+        <item quantity="other">%d min geleden geüpdatet</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Bij een trein met %1$d rijtuig stap je in bij %2$s om het station straks snel te kunnen verlaten</item>
+        <item quantity="other">Bij een trein met %1$d rijtuigen stap je in bij %2$s om het station straks snel te kunnen verlaten</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Bij een trein met %1$d rijtuig stap je in bij %2$s om straks snel over te kunnen stappen</item>
+        <item quantity="other">Bij een trein met %1$d rijtuigen stap je in bij %2$s om straks snel over te kunnen stappen</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">Het minst drukke rijtuig is %1$s</item>
+        <item quantity="other">De minst drukke rijtuigen zijn %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">%1$d rijtuig</item>
+        <item quantity="other">%1$d rijtuigen</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d betaling</item>
+        <item quantity="other">%d betalingen</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s + nog %2$s</item>
+        <item quantity="other">%1$s + nog %2$s</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">Beoordelen met 1 uit 5 sterren</item>
+        <item quantity="other">Beoordelen met %1$d uit 5 sterren</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s weergave</item>
+        <item quantity="other">%s weergaven</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d beoordeling of review</item>
+        <item quantity="other">%,d beoordelingen en reviews</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d beoordeling of review</item>
+        <item quantity="other">%,d beoordelingen en reviews</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d persoon</item>
+        <item quantity="other">%d personen</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">%d lijst extra</item>
+        <item quantity="other">%d lijsten extra</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Opgeslagen in %1$s en nog %2$d lijst</item>
+        <item quantity="other">Opgeslagen in %1$s en nog %2$d lijsten</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">Je bezoek van %d dag geleden opslaan?</item>
+        <item quantity="other">Je bezoek van %d dagen geleden opslaan?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">%1$d resultaat gevonden voor %2$s</item>
+        <item quantity="other">%1$d resultaten gevonden voor %2$s</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">Beoordeling van één ster verzenden…</item>
+        <item quantity="other">Beoordeling van %1$d sterren verzenden…</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">gedurende %d dag</item>
+        <item quantity="other">gedurende %d dagen</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">gedurende %d uur</item>
+        <item quantity="other">gedurende %d uur</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">gedurende %d min</item>
+        <item quantity="other">gedurende %d min</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">Je locatie wordt gedeeld met %2$s en %1$d andere persoon</item>
+        <item quantity="other">Je locatie wordt gedeeld met %2$s en %1$d anderen</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">Je locatie wordt gedeeld met %d andere persoon</item>
+        <item quantity="other">Je locatie wordt gedeeld met %d anderen</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">Beoordeling van één ster gegeven</item>
+        <item quantity="other">Beoordeling van %1$d sterren gegeven</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d weergave</item>
+        <item quantity="other">%,d weergaven</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d punt</item>
+        <item quantity="other">+%d punten</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">%1$d foto of video van %2$s posten</item>
+        <item quantity="other">"%1$d foto's en video's van %2$s posten"</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">%1$d foto plaatsen van %2$s</item>
+        <item quantity="other">"%1$d foto's plaatsen van %2$s"</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">+ nog %d</item>
+        <item quantity="other">+ nog %d</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">%1$d foto posten</item>
+        <item quantity="other">"%1$d foto's posten"</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">%1$d posten</item>
+        <item quantity="other">%1$d posten</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$d persoon vermeldt %2$s</item>
+        <item quantity="other">%1$,d mensen vermelden %2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">1 reactie</item>
+        <item quantity="other">%1$,d reacties</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">Nog %1$d optie bekijken vanaf %2$s</item>
+        <item quantity="other">Nog %1$d opties bekijken vanaf %2$s</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">Nog %1$d optie bekijken</item>
+        <item quantity="other">Nog %1$d opties bekijken</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">Sla je adres op om de snelste routes te bekijken die files omzeilen</item>
+        <item quantity="other">Sla je adressen op om de snelste routes te bekijken die files omzeilen</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">Vertrektijden %1$d s geleden geüpdatet</item>
+        <item quantity="other">Vertrektijden %1$d s geleden geüpdatet</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">Vertrekt elke minuut</item>
+        <item quantity="other">Vertrekt elke %d minuten</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d halte</item>
+        <item quantity="other">%d haltes</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+min geleden"</item>
+        <item quantity="other">"%1$s
+min geleden"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s minuut geleden vertrokken</item>
+        <item quantity="other">%1$s minuten geleden vertrokken</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d melding</item>
+        <item quantity="other">+%d meldingen</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d melding</item>
+        <item quantity="other">+ %d meldingen</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d meer</item>
+        <item quantity="other">+%d meer</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ nog %d</item>
+        <item quantity="other">+ nog %d</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+min"</item>
+        <item quantity="other">"%1$s
+min"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s min geleden</item>
+        <item quantity="other">%1$s min geleden</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Vertrekt over %1$s minuut</item>
+        <item quantity="other">Vertrekt over %1$s minuten</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">Nog %1$s waarschuwing</item>
+        <item quantity="other">Nog %1$s waarschuwingen</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s foto</item>
+        <item quantity="other">"%s foto's"</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s review</item>
+        <item quantity="other">%s reviews</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d bijdrage</item>
+        <item quantity="other">%,d bijdragen</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d weergave</item>
+        <item quantity="other">%,d weergaven</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Kies er maximaal %1$d</item>
+        <item quantity="other">Kies er maximaal %1$d</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Selecteer maximaal %1$s foto</item>
+        <item quantity="other">"Selecteer maximaal %1$s foto's"</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Geluid video aanzetten voor post %1$d</item>
+        <item quantity="other">Geluid van video %2$d aanzetten voor post %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d van %2$d</item>
+        <item quantity="other">%1$d van %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Wachten op wifi.
+ %d foto in behandeling."</item>
+        <item quantity="other">"Wachten op wifi.
+ %d foto's in behandeling."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d foto geselecteerd</item>
+        <item quantity="other">"%d foto's geselecteerd"</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">Heeft %1$d van %2$d plaats bezocht</item>
+        <item quantity="other">Heeft %1$d van %2$d plaatsen bezocht</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Zet Batterijbesparing uit om de locatienauwkeurigheid te verbeteren wanneer je deelt met %1$s en %2$d ander persoon</item>
+        <item quantity="other">Zet Batterijbesparing uit om de locatienauwkeurigheid te verbeteren wanneer je deelt met %1$s en %2$d anderen</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">De apparaatlocatie moet aan staan om je locatie te blijven delen met %1$s en %2$d ander persoon</item>
+        <item quantity="other">De apparaatlocatie moet aan staan om je locatie te blijven delen met %1$s en %2$d anderen</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">"Update de instelling voor 'Locatie delen' om op dit apparaat te blijven delen met %1$s en %2$d ander persoon"</item>
+        <item quantity="other">"Update de instelling voor 'Locatie delen' om op dit apparaat te blijven delen met %1$s en %2$d anderen"</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Geef Maps toestemming om je fysieke activiteit te herkennen voor betere locatienauwkeurigheid wanneer je deelt met %1$s en %2$d ander persoon</item>
+        <item quantity="other">Geef Maps toestemming om je fysieke activiteit te herkennen voor betere locatienauwkeurigheid wanneer je deelt met %1$s en %2$d anderen</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Geef Maps altijd toegang tot je locatie om de locatienauwkeurigheid te verbeteren wanneer je deelt met %1$s en %2$d ander persoon</item>
+        <item quantity="other">Geef Maps altijd toegang tot je locatie om de locatienauwkeurigheid te verbeteren wanneer je deelt met %1$s en %2$d anderen</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Geef Maps altijd toegang tot je locatie om deze te blijven delen met %1$s en %2$d ander persoon</item>
+        <item quantity="other">Geef Maps altijd toegang tot je locatie om deze te blijven delen met %1$s en %2$d anderen</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">%d+ foto</item>
+        <item quantity="other">"%d+ foto's"</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d review)</item>
+        <item quantity="other">(%,d reviews)</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">Video voor post %1$d</item>
+        <item quantity="other">Video %2$d voor post %1$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">Video voor post %1$d is voor volledig scherm</item>
+        <item quantity="other">Video %2$d voor post %1$d is voor volledig scherm</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d nacht</item>
+        <item quantity="other">%2$s × %1$d nachten</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%2$s voor %1$d nacht incl. belastingen en toeslagen</item>
+        <item quantity="other">%2$s voor %1$d nachten incl. belastingen en toeslagen</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">1 minuut lopen</item>
+        <item quantity="other">%d minuten lopen</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d tussenstop</item>
+        <item quantity="other">+ %d tussenstops</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d tussenstop)</item>
+        <item quantity="other">(%d tussenstops)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d week geleden</item>
+        <item quantity="other">%d weken geleden</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d jaar geleden</item>
+        <item quantity="other">%d jaar geleden</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">Bekijk overige foto</item>
+        <item quantity="other">"Bekijk overige %1$d foto's"</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">Je review of update</item>
+        <item quantity="other">Je reviews en updates</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">Je volgt %1$s en nog %2$d lijst</item>
+        <item quantity="other">Je volgt %1$s en nog %2$d lijsten</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s en %2$d andere</item>
+        <item quantity="other">%1$s en %2$d anderen</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d van %2$d</item>
+        <item quantity="other">%1$d van %2$d</item>
+    </plurals>
+    <plurals name="local_guide_level">
+        <item quantity="one"></item>
+        <item quantity="other">niveau %1$d</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="one">%1$d min</item>
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">1 foto/video</item>
+        <item quantity="other">"%1$d foto's/video's"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nieuwe melding</item>
+        <item quantity="other">%d nieuwe meldingen</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="one">+ %1$d ander bericht</item>
+        <item quantity="other">+ %1$d andere</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="one">%d persoon is aan het typen</item>
+        <item quantity="other">%d mensen zijn aan het typen</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">%d ontvanger gekopieerd</item>
+        <item quantity="other">%d ontvangers gekopieerd</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">Vertel iets over deze foto (optioneel)</item>
+        <item quantity="other">"Vertel iets over je foto's (optioneel)"</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">U heeft een melding</item>
+        <item quantity="other">%1$d nieuwe meldingen</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d ster van de %2$d</item>
+        <item quantity="other">%1$d sterren van de %2$d</item>
+    </plurals>
+</resources>

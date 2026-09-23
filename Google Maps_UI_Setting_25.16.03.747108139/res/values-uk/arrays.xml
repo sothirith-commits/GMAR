@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Будь-які</item>
+        <item>₴</item>
+        <item>₴₴</item>
+        <item>₴₴₴</item>
+        <item>₴₴₴₴</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Будь-які ціни</item>
+        <item>Недорого</item>
+        <item>Не дуже дорого</item>
+        <item>Дорого</item>
+        <item>Дуже дорого</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Усі</item>
+        <item>3 зірки</item>
+        <item>4 зірки</item>
+        <item>5 зірок</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Усі</item>
+        <item>Відкрито зараз</item>
+        <item>Спеціальні</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Під час масштабування</item>
+        <item>Завжди</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Під час наближення й віддалення</item>
+        <item>Завжди</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Зовсім не сподобалося</item>
+        <item>Не сподобалося</item>
+        <item>Не можу сказати напевно</item>
+        <item>Сподобалося</item>
+        <item>Дуже сподобалося</item>
+    </string-array>
+</resources>

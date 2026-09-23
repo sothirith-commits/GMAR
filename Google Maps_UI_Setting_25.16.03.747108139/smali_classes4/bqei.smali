@@ -1,0 +1,26 @@
+.class public Lbqei;
+.super Lbqeh;
+.source "PG"
+
+
+# direct methods
+.method public constructor <init>(Lbqem;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lbqeh;-><init>(Lbqem;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final d()Lbqem;
+    .locals 0
+
+    .line 1
+    return-object p0
+.end method

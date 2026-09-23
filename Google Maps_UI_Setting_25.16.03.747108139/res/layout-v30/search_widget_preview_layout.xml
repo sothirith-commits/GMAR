@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/AAG.Theme.AppWidget" style="@style/SearchWidgetLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/search_widget_search_box" />
+    <include layout="@layout/search_widget_cards_preview" />
+</LinearLayout>

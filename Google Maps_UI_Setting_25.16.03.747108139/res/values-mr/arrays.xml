@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>कोणतेही</item>
+        <item>₹</item>
+        <item>₹₹</item>
+        <item>₹₹₹</item>
+        <item>₹₹₹₹</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>कोणतीही किंमत पातळी</item>
+        <item>स्वस्त</item>
+        <item>थोडे महाग</item>
+        <item>महाग</item>
+        <item>खूप महाग</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>कोणतेही</item>
+        <item>3-तारा</item>
+        <item>4-तारा</item>
+        <item>5-तारा</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>कोणतेही</item>
+        <item>आता सुरू आहे</item>
+        <item>कस्टम</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>झूम करताना</item>
+        <item>नेहमी</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>झूम इन आणि आउट करताना</item>
+        <item>नेहमी</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>अजिबात आवडले नाही</item>
+        <item>आवडले नाही</item>
+        <item>ठीक आहे</item>
+        <item>आवडले</item>
+        <item>खूप आवडले</item>
+    </string-array>
+</resources>

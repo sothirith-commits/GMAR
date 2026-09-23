@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <mipmap name="adaptiveproduct_maps">@mipmap/adaptiveproduct_maps_launcher</mipmap>
+    <mipmap name="adaptiveproduct_maps_2020">@mipmap/adaptiveproduct_maps</mipmap>
+    <mipmap name="ic_round_launcher_2020">@mipmap/adaptiveproduct_maps</mipmap>
+</resources>

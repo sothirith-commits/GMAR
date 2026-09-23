@@ -1,0 +1,145 @@
+.class public final Lchmc;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lchmb;
+
+
+# static fields
+.field public static final a:Lbnad;
+
+.field public static final b:Lbnad;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Lbnab;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lbnab;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {v0}, Lbnab;->a()Lbnab;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v0
+
+    .line 10
+    const-string v1, "Phenotype__include_server_token_in_rpc"
+
+    .line 11
+    .line 12
+    const/4 v2, 0x1
+
+    .line 13
+    invoke-virtual {v0, v1, v2}, Lbnab;->g(Ljava/lang/String;Z)Lbnad;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v1
+
+    .line 17
+    sput-object v1, Lchmc;->a:Lbnad;
+
+    .line 18
+    .line 19
+    const-string v1, "__phenotype_server_token"
+
+    .line 20
+    .line 21
+    const-string v2, ""
+
+    .line 22
+    .line 23
+    invoke-virtual {v0, v1, v2}, Lbnab;->f(Ljava/lang/String;Ljava/lang/String;)Lbnad;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object v0
+
+    .line 27
+    sput-object v0, Lchmc;->b:Lbnad;
+
+    .line 28
+    .line 29
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lchmc;->b:Lbnad;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lbnad;->b()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    check-cast v0, Ljava/lang/String;
+
+    .line 8
+    .line 9
+    return-object v0
+.end method
+
+.method public final b()Z
+    .locals 1
+
+    .line 1
+    sget-object v0, Lchmc;->a:Lbnad;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lbnad;->b()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    check-cast v0, Ljava/lang/Boolean;
+
+    .line 8
+    .line 9
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v0
+
+    .line 13
+    return v0
+.end method

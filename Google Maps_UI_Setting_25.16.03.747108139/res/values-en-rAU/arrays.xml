@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Any</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Any price level</item>
+        <item>Inexpensive</item>
+        <item>Moderately expensive</item>
+        <item>Expensive</item>
+        <item>Very expensive</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Any</item>
+        <item>3 star</item>
+        <item>4 star</item>
+        <item>5 star</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Any</item>
+        <item>Open now</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>While zooming</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>When zooming in and out</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Hated it</item>
+        <item>Disliked it</item>
+        <item>"It's OK"</item>
+        <item>Liked it</item>
+        <item>Loved it</item>
+    </string-array>
+</resources>

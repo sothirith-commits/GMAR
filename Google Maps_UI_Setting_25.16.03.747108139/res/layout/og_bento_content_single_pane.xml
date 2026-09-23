@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/og_bento_container_with_toolbar" android:background="?colorSurfaceContainer" android:layout_width="match_parent" android:layout_height="match_parent" android:filterTouchesWhenObscured="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/og_bento_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView android:id="@id/og_bento_scroll_container" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/OneGoogleBentoScrollableContainer">
+            <LinearLayout android:orientation="vertical" android:id="@id/og_bento_main_scroll_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/og_bento_accounts_state_layout_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:layout_marginHorizontal="16.0dp" />
+                <View android:id="@id/og_bento_without_accounts_divider" android:background="?colorOutlineVariant" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                <LinearLayout android:orientation="vertical" android:id="@id/og_bento_accounts_cards_footer_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dp">
+                    <include layout="@layout/og_bento_accounts_and_cards" />
+                    <include layout="@layout/og_bento_footer_spacer_and_container" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+    <View android:id="@id/og_bento_disable_content_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:layout_gravity="top" android:id="@id/og_bento_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/toolbar_horizontal_padding_single_pane" />
+</FrameLayout>

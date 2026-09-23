@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>कोई भी</item>
+        <item>₹</item>
+        <item>₹₹</item>
+        <item>₹₹₹</item>
+        <item>₹₹₹₹</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>कोई भी मूल्य स्तर</item>
+        <item>सस्ता</item>
+        <item>थोड़ा महंगा</item>
+        <item>महंगा</item>
+        <item>बहुत महंगा</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>कोई भी</item>
+        <item>3 तारा</item>
+        <item>4 तारा</item>
+        <item>5 तारा</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>कोई भी</item>
+        <item>अभी खुला है</item>
+        <item>कस्टम</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>ज़ूम करते समय</item>
+        <item>हमेशा</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>जब ज़ूम इन और ज़ूम आउट किया जाए</item>
+        <item>हमेशा</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>बिलकुल नापसंद है</item>
+        <item>नापसंद है</item>
+        <item>ठीक है</item>
+        <item>पसंद है</item>
+        <item>बहुत बढ़िया है</item>
+    </string-array>
+</resources>

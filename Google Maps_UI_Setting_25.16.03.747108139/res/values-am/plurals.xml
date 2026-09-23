@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACTION_ITEM_NEEDS_ATTENTION_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d አዳዲስ ንጥሎች</item>
+        <item quantity="other">%1$d አዳዲስ ንጥሎች</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">%d ተጨማሪ አማራጮች</item>
+        <item quantity="other">%d ተጨማሪ አማራጮች</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">በ%1$d ሰው ሪፖርት ተደርጓል</item>
+        <item quantity="other">በ%1$d ሰዎች ሪፖርት ተደርጓል</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d ማንቂያዎች</item>
+        <item quantity="other">%d ማንቂያዎች</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d አካባቢዎች</item>
+        <item quantity="other">%1$d አካባቢዎች</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">ምላሽ ይመልከቱ (%,d)</item>
+        <item quantity="other">ምላሾችን ይመልከቱ (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">እዚህ %d ቦታ ያስሱ</item>
+        <item quantity="other">እዚህ %d ቦታዎችን ያስሱ</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d ብስክሌት ይገኛል</item>
+        <item quantity="other">%d ብስክሌቶች ይገኛሉ</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">%s ብስክሌቶች ጣቢያ ላይ</item>
+        <item quantity="other">%s ብስክሌቶች ጣቢያ ላይ</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d ብስክሌቶች</item>
+        <item quantity="other">%d ብስክሌቶች</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d የማቆሚያ ቦታዎች ይገኛሉ</item>
+        <item quantity="other">%d የማቆሚያ ቦታዎች ይገኛሉ</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d ማቆሚያዎች</item>
+        <item quantity="other">%d ማቆሚያዎች</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">በ%1$d ሰው የተመከረ</item>
+        <item quantity="other">በ%1$d ሰዎች የተመከረ</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">ከ%1$d ቀን በፊት ጥቅም ላይ የዋለ</item>
+        <item quantity="other">ከ%1$d ቀናት በፊት ጥቅም ላይ የዋለ</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">ከ%1$d ሳምንት በፊት ጥቅም ላይ የዋለ</item>
+        <item quantity="other">ከ%1$d ሳምንታት በፊት ጥቅም ላይ የዋለ</item>
+    </plurals>
+    <plurals name="CAR_EV_COLLAPSED_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s የኃይል መሙያ መቆሚያ</item>
+        <item quantity="other">%1$s የኃይል መሙያ መቆሚያዎች</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d ተመርጠዋል</item>
+        <item quantity="other">%1$d ተመርጠዋል</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">+%1$d ተጨማሪ</item>
+        <item quantity="other">+%1$d ተጨማሪ</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_BONUS_POINTS_LABEL">
+        <item quantity="one">ጉርሻ</item>
+        <item quantity="other">ጉርሻ</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_BONUS_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">%d የጉርሻ ነጥቦችን አግኝተዋል</item>
+        <item quantity="other">%d የጉርሻ ነጥቦችን አግኝተዋል</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_PLACES_UPDATED_A11Y_LABEL">
+        <item quantity="one">%d ቦታዎችን አዘምነዋል</item>
+        <item quantity="other">%d ቦታዎችን አዘምነዋል</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">%d ነጥቦች አግኝተዋል</item>
+        <item quantity="other">%d ነጥቦች አግኝተዋል</item>
+    </plurals>
+    <plurals name="CHALLENGE_POINTS_LABEL">
+        <item quantity="one">%d ነጥቦች</item>
+        <item quantity="other">%d ነጥቦች</item>
+    </plurals>
+    <plurals name="CHARGING_ROUTE_SUMMARY_CHARGING_STOPS_SHORT">
+        <item quantity="one">%1$d ማቆሚያ</item>
+        <item quantity="other">%1$d ማቆሚያዎች</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_HOME_TO_WORK_TITLE">
+        <item quantity="one">ለሥራ %d ደቂቃ</item>
+        <item quantity="other">ለሥራ %d ደቂቃዎች</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">ከተለመደው %d ደቂቃ ፈጠን ያለ</item>
+        <item quantity="other">ከተለመደው %d ደቂቃዎች ፈጠን ያለ</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">ከተለመደው %d ደቂቃ ቀስ ያለ</item>
+        <item quantity="other">ከተለመደው %d ደቂቃዎች ቀስ ያለ</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_UNSPECIFIED_TITLE">
+        <item quantity="one">%d ደቂቃ የጉዞ ሰዓት</item>
+        <item quantity="other">%d ደቂቃዎች የጉዞ ሰዓት</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_WORK_TO_HOME_TITLE">
+        <item quantity="one">ለቤት %d ደቂቃ</item>
+        <item quantity="other">ለቤት %d ደቂቃዎች</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">የካርታ አቅጣጫ አመልካች %d ዲግሪ።</item>
+        <item quantity="other">የካርታ አቅጣጫ አመልካች %d ዲግሪ።</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">%d-ኮከብ ተቋም</item>
+        <item quantity="other">%d-ኮከብ ተቋም</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">ደረጃ %d የአካባቢ አስጎብኚ</item>
+        <item quantity="other">ደረጃ %d የአካባቢ አስጎብኚ</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_STAT_FOLLOWER_COUNT">
+        <item quantity="one">%,d ተከታዮች</item>
+        <item quantity="other">%,d ተከታዮች</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">ለ%1$s %2$d ኮከብ ደረጃ ሰጥተዋል</item>
+        <item quantity="other">ለ%1$s %2$d ኮከቦች ደረጃ ሰጥተዋል</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_PLACES">
+        <item quantity="one">ቦታዎች</item>
+        <item quantity="other">ቦታዎች</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">ነጥቦች</item>
+        <item quantity="other">ነጥቦች</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s ቀን</item>
+        <item quantity="other">%s ቀኖች</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s ቀ</item>
+        <item quantity="other">%s ቀ</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sቀ</item>
+        <item quantity="other">%sቀ</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s ቀን</item>
+        <item quantity="other">%s ቀኖች</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s ሰዓት</item>
+        <item quantity="other">%s ሰዓቶች</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s ሰዓ</item>
+        <item quantity="other">%s ሰዓ</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sሰዓ</item>
+        <item quantity="other">%sሰዓ</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s ደቂቃ</item>
+        <item quantity="other">%s ደቂቃዎች</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s ደቂቃ</item>
+        <item quantity="other">%s ደቂቃ</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sደቂ</item>
+        <item quantity="other">%sደቂ</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s ሰከንዶች</item>
+        <item quantity="other">%s ሰከንዶች</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">ለ%1$s ጫማ ይቀጥሉ</item>
+        <item quantity="other">ለ%1$s ጫማ ይቀጥሉ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">ለ%1$s ኪሎሜትር ይቀጥሉ</item>
+        <item quantity="other">ለ%1$s ኪሎሜትር ይቀጥሉ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">ለ%1$s ሜትር ይቀጥሉ</item>
+        <item quantity="other">ለ%1$s ሜትር ይቀጥሉ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">ለ%1$s ማይል ይቀጥሉ</item>
+        <item quantity="other">ለ%1$s ማይል ይቀጥሉ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">ለ%1$s ያርድ ይቀጥሉ</item>
+        <item quantity="other">ለ%1$s ያርድ ይቀጥሉ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">ለ%1$s ጫማ በ%2$s ላይ ይቀጥሉ</item>
+        <item quantity="other">ለ%1$s ጫማ በ%2$s ላይ ይቀጥሉ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">ለ%1$s ኪሎሜትር በ%2$s ላይ ይቀጥሉ</item>
+        <item quantity="other">ለ%1$s ኪሎሜትር በ%2$s ላይ ይቀጥሉ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">ለ%1$s ሜትር በ%2$s ላይ ይቀጥሉ</item>
+        <item quantity="other">ለ%1$s ሜትር በ%2$s ላይ ይቀጥሉ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">ለ%1$s ማይል በ%2$s ላይ ይቀጥሉ</item>
+        <item quantity="other">ለ%1$s ማይል በ%2$s ላይ ይቀጥሉ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">ለ%1$s ያርድ በ%2$s ላይ ይቀጥሉ</item>
+        <item quantity="other">ለ%1$s ያርድ በ%2$s ላይ ይቀጥሉ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">በ%1$s ጫማ</item>
+        <item quantity="other">በ%1$s ጫማ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">በ%1$s ኪሎሜትር</item>
+        <item quantity="other">በ%1$s ኪሎሜትር</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">በ%1$s ሜትር</item>
+        <item quantity="other">በ%1$s ሜትር</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">በ%1$s ማይል</item>
+        <item quantity="other">በ%1$s ማይል</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">በ%1$s ያርድ</item>
+        <item quantity="other">በ%1$s ያርድ</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s ኪሎሜትር በሰዓት</item>
+        <item quantity="other">%s ኪሎሜትር በሰዓት</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s ማይል በሰዓት</item>
+        <item quantity="other">%s ማይል በሰዓት</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">መደረሻዎ ከፊትለፊት %1$s ጫማ ላይ ነው</item>
+        <item quantity="other">መደረሻዎ ከፊትለፊት %1$s ጫማ ላይ ነው</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">መደረሻዎ ከፊትለፊት %1$s ኪሎሜትር ላይ ነው</item>
+        <item quantity="other">መደረሻዎ ከፊትለፊት %1$s ኪሎሜትር ላይ ነው</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">መደረሻዎ ከፊትለፊት %1$s ሜትር ላይ ነው</item>
+        <item quantity="other">መደረሻዎ ከፊትለፊት %1$s ሜትር ላይ ነው</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">መደረሻዎ ከፊትለፊት %1$s ማይል ላይ ነው</item>
+        <item quantity="other">መደረሻዎ ከፊትለፊት %1$s ማይል ላይ ነው</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">መደረሻዎ ከፊትለፊት %1$s ያርድ ላይ ነው</item>
+        <item quantity="other">መደረሻዎ ከፊትለፊት %1$s ያርድ ላይ ነው</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d ማቆሚያ</item>
+        <item quantity="other">%d ማቆሚያዎች</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d የሚያገናኝ ሁነታ</item>
+        <item quantity="other">%1$d የሚያገናኙ ሁነታዎች</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">ከ%d ቀን በፊት ተዘምኗል</item>
+        <item quantity="other">ከ%d ቀናት በፊት ተዘምኗል</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">ከ%d ወር በፊት ተዘምኗል</item>
+        <item quantity="other">ከ%d ወራት በፊት ተዘምኗል</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">ከ%d ሳምንት በፊት ተዘምኗል</item>
+        <item quantity="other">ከ%d ሳምንታት በፊት ተዘምኗል</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d ብስክሌቶች</item>
+        <item quantity="other">%d ብስክሌቶች</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">%d ብስክሌቶች በአቅራቢያ</item>
+        <item quantity="other">%d ብስክሌቶች በአቅራቢያ</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d ከ%2$d የኃይል መሙያ ወደቦች</item>
+        <item quantity="other">%1$d ከ%2$d የኃይል መሙያ ወደቦች</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d የኃይል መሙያ ወደቦች</item>
+        <item quantity="other">%d የኃይል መሙያ ወደቦች</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">%1$d ኮከብ ደረጃ መስጠት አልተሳካም፣ እባክዎ እንደገና ይሞክሩ</item>
+        <item quantity="other">%1$d ኮከቦች ደረጃ መስጠት አልተሳካም፣ እባክዎ እንደገና ይሞክሩ</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">ወለሎች %s</item>
+        <item quantity="other">ወለሎች %s</item>
+    </plurals>
+    <plurals name="FOLLOWER_COUNT_LABEL">
+        <item quantity="one">ተከታዮች</item>
+        <item quantity="other">ተከታዮች</item>
+    </plurals>
+    <plurals name="FOLLOWING_COUNT_LABEL">
+        <item quantity="one">በመከተል ላይ</item>
+        <item quantity="other">በመከተል ላይ</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">%d ተጨማሪ ምሽት</item>
+        <item quantity="other">%d ተጨማሪ ምሽቶች</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">%d አዳር ያክሉ</item>
+        <item quantity="other">%d አዳሮችን ያክሉ</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">ይህ ሆቴል ለ%1$d-አዳር ቆይታ ይገኛል። %2$s በ%3$s አማካይ የአዳር ተመን።</item>
+        <item quantity="other">ይህ ሆቴል ለ%1$d-አዳር ቆይታ ይገኛል። %2$s በ%3$s አማካይ የአዳር ተመን።</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">ለ%1$s በ%2$s አማካይ የአዳር ተመን ይቆዩ።</item>
+        <item quantity="other">ለ%1$s በ%2$s አማካይ የአዳር ተመን ይቆዩ።</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d እንግዶች</item>
+        <item quantity="other">%d እንግዶች</item>
+    </plurals>
+    <plurals name="HOTEL_PLACE_COUNT">
+        <item quantity="one">%dየሚቆዩባቸው ቦታዎች</item>
+        <item quantity="other">%dየሚቆዩባቸው ቦታዎች</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">እና %d ተጨማሪ።</item>
+        <item quantity="other">እና %d ተጨማሪ።</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">+%d ተጨማሪ።</item>
+        <item quantity="other">+%d ተጨማሪ።</item>
+    </plurals>
+    <plurals name="IN_STORE_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">የመደብር ውስጥ ፎቶ ቁጥር %d</item>
+        <item quantity="other">የመደብር ውስጥ ፎቶ ቁጥር %d</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">%1$s እና %2$d ተጨማሪ ውስጥ ተቀምጧል</item>
+        <item quantity="other">%1$s እና %2$d ተጨማሪ ውስጥ ተቀምጧል</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">ከ%d ወር በፊት ጎብኝተዋል</item>
+        <item quantity="other">ከ%d ወራት በፊት ጎብኝተዋል</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">ከ%d ሳምንት በፊት ጎብኝተዋል</item>
+        <item quantity="other">ከ%d ሳምንታት በፊት ጎብኝተዋል</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">ከ%d ዓመት በፊት ጎብኝተዋል</item>
+        <item quantity="other">ከ%d ዓመታት በፊት ጎብኝተዋል</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d ክስተቶች</item>
+        <item quantity="other">%d ክስተቶች</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d ንጥሎች</item>
+        <item quantity="other">%d ንጥሎች</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d ቦታ</item>
+        <item quantity="other">%d ቦታዎች</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">%d የተቀመጡ</item>
+        <item quantity="other">%d የተቀመጡ</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d ጉዞ</item>
+        <item quantity="other">%d ጉዞዎች</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s ዕይታዎች</item>
+        <item quantity="other">%s ዕይታዎች</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">ከ%d ቀኖች በፊት አርትዖት ተደርጎበታል</item>
+        <item quantity="other">ከ%d ቀኖች በፊት አርትዖት ተደርጎበታል</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">ከ%d ወራት በፊት አርትዖት ተደርጎበታል</item>
+        <item quantity="other">ከ%d ወራት በፊት አርትዖት ተደርጎበታል</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">ከ%d ሳምንታት በፊት አርትዖት ተደርጎበታል</item>
+        <item quantity="other">ከ%d ሳምንታት በፊት አርትዖት ተደርጎበታል</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">ከ%d ዓመታት በፊት አርትዖት ተደርጎበታል</item>
+        <item quantity="other">ከ%d ዓመታት በፊት አርትዖት ተደርጎበታል</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">%d ነጥብ አለዎት</item>
+        <item quantity="other">%d ነጥቦች አሉዎት</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TEXT">
+        <item quantity="one">%d ነጥቦች</item>
+        <item quantity="other">%d ነጥቦች</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">ደረጃ %1$d ላይ ለመድረስ %2$d ነጥብ ብቻ ይቀራል</item>
+        <item quantity="other">ደረጃ %1$d ላይ ለመድረስ %2$d ነጥቦች ብቻ ይቀራሉ</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">ደረጃ %d</item>
+        <item quantity="other">ደረጃዎች %d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_LEVEL">
+        <item quantity="one">የአካባቢ አስጎብኚ ደረጃ %d</item>
+        <item quantity="other">የአካባቢ አስጎብኚ ደረጃ %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">%d+ ዓመት በሥራ ላይ</item>
+        <item quantity="other">%d+ ዓመታት በሥራ ላይ</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">ከ%d ቀን በፊት</item>
+        <item quantity="other">ከ%d ቀን በፊት</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">ከ%d ሰዓት በፊት</item>
+        <item quantity="other">ከ%d ሰዓት በፊት</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">ከ%d ደቂቃ በፊት</item>
+        <item quantity="other">ከ%d ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">እዚህ ያለ %d ቦታ</item>
+        <item quantity="other">እዚህ ያሉ %d ቦታዎች</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">ፎቶ ተወግዷል</item>
+        <item quantity="other">ፎቶዎች ተወግደዋል</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">በልጥፍ %1$d ላይ ቪዲዮ %2$dን አስተልቅ</item>
+        <item quantity="other">በልጥፍ %1$d ላይ ቪዲዮ %2$dን አስተልቅ</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d ከ%2$,d</item>
+        <item quantity="other">%1$,d ከ%2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">%1$d ሚዲያ በመስቀል ላይ</item>
+        <item quantity="other">%1$d ሚዲያ በመስቀል ላይ</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">የምናሌ ፎቶ ቁጥር %d</item>
+        <item quantity="other">የምናሌ ፎቶ ቁጥር %d</item>
+    </plurals>
+    <plurals name="MERCHANT_PANEL_CALLS_LIST_TIMESTAMP_SECONDS">
+        <item quantity="one">%1$d ሰከንዶች</item>
+        <item quantity="other">%1$d ሰከንዶች</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d ሪፖርት</item>
+        <item quantity="other">%1$d ሪፖርቶች</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">ይህ አገናኝ ያላቸው ሰዎች አካባቢዎን ለ 1 ቀን እና %d ሰዓቶች ማየት ይችላሉ</item>
+        <item quantity="other">ይህ አገናኝ ያላቸው ሰዎች አካባቢዎን ለ 1 ቀን እና %d ሰዓቶች ማየት ይችላሉ</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">ይህ አገናኝ ያላቸው ሰዎች አካባቢዎን ለ 1 ሰዓት እና %d ደቂቃ ማየት ይችላሉ</item>
+        <item quantity="other">ይህ አገናኝ ያላቸው ሰዎች አካባቢዎን ለ 1 ሰዓት እና %d ደቂቃ ማየት ይችላሉ</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">ይህ አገናኝ ያላቸው ሰዎች አካባቢዎን ለ%d ቀኖች ማየት ይችላሉ</item>
+        <item quantity="other">ይህ አገናኝ ያላቸው ሰዎች አካባቢዎን ለ%d ቀኖች ማየት ይችላሉ</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">ይህ አገናኝ ያላቸው ሰዎች አካባቢዎን ለ%d ሰዓቶች ማየት ይችላሉ</item>
+        <item quantity="other">ይህ አገናኝ ያላቸው ሰዎች አካባቢዎን ለ%d ሰዓቶች ማየት ይችላሉ</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">ይህ አገናኝ ያላቸው ሰዎች አካባቢዎን ለ%d ደቂቃ ማየት ይችላሉ</item>
+        <item quantity="other">ይህ አገናኝ ያላቸው ሰዎች አካባቢዎን ለ%d ደቂቃ ማየት ይችላሉ</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">%d ተጨማሪ</item>
+        <item quantity="other">%d ተጨማሪ</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">በልጥፍ %1$d ላይ ቪዲዮ %2$dን ድምጸ-ከል አድርግ</item>
+        <item quantity="other">በልጥፍ %1$d ላይ ቪዲዮ %2$dን ድምጸ-ከል አድርግ</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d ፎቶ/ቪድዮ</item>
+        <item quantity="other">%d ፎቶዎች/ቪድዮዎች</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d ቪድዮ</item>
+        <item quantity="other">%d ቪድዮዎች</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_VEHICLE_DESCRIPTION">
+        <item quantity="one">ብጁ ተሽከርካሪ %1$d ከ%2$d</item>
+        <item quantity="other">ብጁ ተሽከርካሪ %1$d ከ%2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d አዲስ ዝማኔ</item>
+        <item quantity="other">%d አዳዲስ ዝማኔዎች</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">የንግድ ዝማኔዎች፣ %1$s አዲስ ማሳወቂያ</item>
+        <item quantity="other">የንግድ ዝማኔዎች፣ %1$s አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d ፎቶዎች</item>
+        <item quantity="other">%d ፎቶዎች</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d ግምገማዎች</item>
+        <item quantity="other">%d ግምገማዎች</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">የጥፍር አከል ቁጥር %d</item>
+        <item quantity="other">የጥፍር አከል ቁጥር %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d ከመስመር ውጭ ያለ አካባቢ</item>
+        <item quantity="other">%d ከመስመር ውጭ ያሉ አካባቢዎች</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d ሪፖርት ላይ ተመስርቶ</item>
+        <item quantity="other">%1$d ሪፖርቶች ላይ ተመስርቶ</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">በልጥፍ %1$d ላይ ቪዲዮ %2$dን ለአፍታ አቁም</item>
+        <item quantity="other">በልጥፍ %1$d ላይ ቪዲዮ %2$dን ለአፍታ አቁም</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s መስተጋብር</item>
+        <item quantity="other">%1$s መስተጋብሮች</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s ፍለጋ</item>
+        <item quantity="other">%1$s ፍለጋዎች</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s ዕይታ</item>
+        <item quantity="other">%1$s ዕይታዎች</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">ለ%d አዳሮች የተያዘ ቦታ</item>
+        <item quantity="other">ለ%d አዳሮች የተያዘ ቦታ</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">እነዚህን ማየት የሚችሉት እርስዎ ብቻ ነዎት</item>
+        <item quantity="other">እነዚህን ማየት የሚችሉት እርስዎ ብቻ ነዎት</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d ቀን</item>
+        <item quantity="other">%1$d ቀናት</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d ሌሊት</item>
+        <item quantity="other">%1$d ሌሊቶች</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d ፎቶ</item>
+        <item quantity="other">%d ፎቶዎች</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_CHECKED_DESCRIPTION">
+        <item quantity="one">%d ሰዎች እርስዎን ጨምሮ ይህንን ፎቶ ወደውታል</item>
+        <item quantity="other">%d ሰዎች እርስዎን ጨምሮ ይህንን ፎቶ ወደውታል</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_UNCHECKED_DESCRIPTION">
+        <item quantity="one">%d ሰዎች ይህንን ፎቶ ወደውታል</item>
+        <item quantity="other">%d ሰዎች ይህንን ፎቶ ወደውታል</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">%1$d ፎቶዎችን/ቪዲዮዎችን ወደ ካርታዎች በማከል ላይ</item>
+        <item quantity="other">%1$d ፎቶዎችን/ቪዲዮዎችን ወደ ካርታዎች በማከል ላይ</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"WiFi በመጠበቅ ላይ።
+ %d በመጠባበቅ ላይ ያሉ ፎቶዎች/ቪዲዮዎች።"</item>
+        <item quantity="other">"WiFi በመጠበቅ ላይ።
+ %d በመጠባበቅ ላይ ያሉ ፎቶዎች/ቪዲዮዎች።"</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">የልጥፍ %1$d %2$d ፎቶ</item>
+        <item quantity="other">የልጥፍ %1$d %2$d ፎቶ</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">ከ%d ቀኖች በፊት</item>
+        <item quantity="other">ከ%d ቀኖች በፊት</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">ከ%d ሰዓቶች በፊት</item>
+        <item quantity="other">ከ%d ሰዓቶች በፊት</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">ከ%d ወራት በፊት</item>
+        <item quantity="other">ከ%d ወራት በፊት</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">ከ%d ሳምንታት በፊት</item>
+        <item quantity="other">ከ%d ሳምንታት በፊት</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">ከ%d ዓመታት በፊት</item>
+        <item quantity="other">ከ%d ዓመታት በፊት</item>
+    </plurals>
+    <plurals name="PHOTO_INDEX_IN_LIST">
+        <item quantity="one">ፎቶ %1$,d ከ%2$,d</item>
+        <item quantity="other">ፎቶ %1$,d ከ%2$,d</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d ዝማኔዎች</item>
+        <item quantity="other">%d ዝማኔዎች</item>
+    </plurals>
+    <plurals name="PHOTO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">%d ፎቶዎችን ወደ ካርታዎች በማከል ላይ</item>
+        <item quantity="other">%d ፎቶዎችን ወደ ካርታዎች በማከል ላይ</item>
+    </plurals>
+    <plurals name="PLACE_QA_MORE_ANSWERS">
+        <item quantity="one">%d ተጨማሪ መልሶች</item>
+        <item quantity="other">%d ተጨማሪ መልሶች</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">%d መልሶችን ተመልከት</item>
+        <item quantity="other">%d መልሶችን ተመልከት</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="one">+%1$,d</item>
+        <item quantity="other">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">በልጥፍ %1$d ላይ ቪዲዮ %2$dን አጫውት</item>
+        <item quantity="other">በልጥፍ %1$d ላይ ቪዲዮ %2$dን አጫውት</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+%d ሌላ ማጋራት</item>
+        <item quantity="other">+%d ሌሎች ማጋራቶች</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">መቆሚያ ይተኩ</item>
+        <item quantity="other">መቆሚያዎች ይተኩ</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">ማቆሚያ በመተካት ላይ</item>
+        <item quantity="other">ማቆሚያዎች በመተካት ላይ</item>
+    </plurals>
+    <plurals name="POST_ACCESSIBILITY_THUMBS_UP_DESCRIPTION">
+        <item quantity="one">%d መውደድ</item>
+        <item quantity="other">%d መውደዶች</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d ዕይታ</item>
+        <item quantity="other">%,d ዕይታዎች</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d ደረጃ</item>
+        <item quantity="other">%d ደረጃዎች</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d ግምገማ</item>
+        <item quantity="other">%d ግምገማዎች</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWEE_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">%,d የሚከተሏቸው</item>
+        <item quantity="other">%,d የሚከተሏቸው</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWER_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">%,d ተከታዮች</item>
+        <item quantity="other">%,d ተከታዮች</item>
+    </plurals>
+    <plurals name="PROFILE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">%,d መልሶችን ይመልከቱ</item>
+        <item quantity="other">%,d መልሶችን ይመልከቱ</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">%d ኮከቦች ደረጃ ሰጥተውታል</item>
+        <item quantity="other">%d ኮከቦች ደረጃ ሰጥተውታል</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">%1$,d %2$s ምላሽ</item>
+        <item quantity="other">%1$,d %2$s ምላሾች</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">ከ%d ደቂቃ በፊት ዘምኗል</item>
+        <item quantity="other">ከ%d ደቂቃ በፊት ዘምኗል</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">ለ%1$d መኪና ባቡር፣ በፍጥነት ለመውጣት %2$s ላይ ይሳፈሩ</item>
+        <item quantity="other">ለ%1$d መኪና ባቡር፣ በፍጥነት ለመውጣት %2$s ላይ ይሳፈሩ</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">ለ%1$d መኪና ባቡር፣ በፍጥነት ለመዘዋወር %2$s ላይ ይሳፈሩ</item>
+        <item quantity="other">ለ%1$d መኪና ባቡር፣ በፍጥነት ለመዘዋወር %2$s ላይ ይሳፈሩ</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">በጣም ያልተጨናነቁት መኪናዎች %1$s ናቸው</item>
+        <item quantity="other">በጣም ያልተጨናነቁት መኪናዎች %1$s ናቸው</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">%1$d የመኪና ባቡር</item>
+        <item quantity="other">%1$d የመኪና ባቡር</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d ክፍያ</item>
+        <item quantity="other">%d ክፍያዎች</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s + %2$s ተጨማሪ</item>
+        <item quantity="other">%1$s + %2$s ተጨማሪዎች</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">ከ5 %1$d ኮከቦች ደረጃ ይስጡ</item>
+        <item quantity="other">ከ5 %1$d ኮከቦች ደረጃ ይስጡ</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s ዕይታ</item>
+        <item quantity="other">%s ዕይታዎች</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%,d ደረጃዎች እና ግምገማዎች</item>
+        <item quantity="other">%,d ደረጃዎች እና ግምገማዎች</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%,d ደረጃዎች እና ግምገማዎች</item>
+        <item quantity="other">%,d ደረጃዎች እና ግምገማዎች</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%,d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d ሰው</item>
+        <item quantity="other">%d ሰዎች</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">%d ተጨማሪ ዝርዝሮች</item>
+        <item quantity="other">%d ተጨማሪ ዝርዝሮች</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">%1$s እና %2$d ተጨማሪ ዝርዝሮች ውስጥ ተቀምጧል</item>
+        <item quantity="other">%1$s እና %2$d ተጨማሪ ዝርዝሮች ውስጥ ተቀምጧል</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">ከ%d ቀናት በፊት የነበረው ጉብኝትዎ ይቀመጥ?</item>
+        <item quantity="other">ከ%d ቀናት በፊት የነበረው ጉብኝትዎ ይቀመጥ?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">ለ%2$s %1$d ውጤት ተገኝቷል</item>
+        <item quantity="other">ለ%2$s %1$d ውጤቶች ተገኝተዋል</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">%1$d ኮከብ ደረጃ በመላክ ላይ</item>
+        <item quantity="other">%1$d ኮከቦች ደረጃ በመላክ ላይ</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">ለ%d ቀን</item>
+        <item quantity="other">ለ%d ቀኖች</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">ለ%d ሰዓት</item>
+        <item quantity="other">ለ%d ሰዓቶች</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">ለ%d ደቂቃ</item>
+        <item quantity="other">ለ%d ደቂቃ</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">አካባቢዎን ለ%2$s እና ለ%1$d ሌላ ተጋሪ በማጋራት ላይ</item>
+        <item quantity="other">አካባቢዎን ለ%2$s እና ለ%1$d ሌሎች ተጋሪዎች በማጋራት ላይ</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">አካባቢዎን ለ%d ሌላ ተጋሪዎች ማጋራት</item>
+        <item quantity="other">አካባቢዎን ለ%d ሌላ ተጋሪዎች ማጋራት</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">%1$d ኮከብ ደረጃ በተሳካ ሁኔታ ሰጥተዋል</item>
+        <item quantity="other">%1$d ኮከቦች ደረጃ በተሳካ ሁኔታ ሰጥተዋል</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d ዕይታዎች</item>
+        <item quantity="other">%,d ዕይታዎች</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">%d ነጥቦች</item>
+        <item quantity="other">%d ነጥቦች</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">%1$d የ%2$s ፎቶዎችን ወይም ቪዲዮዎችን ይለጥፉ</item>
+        <item quantity="other">%1$d የ%2$s ፎቶዎችን ወይም ቪዲዮዎችን ይለጥፉ</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">%1$d የ%2$s ፎቶዎችን ለጥፍ</item>
+        <item quantity="other">%1$d የ%2$s ፎቶዎችን ለጥፍ</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">+%d ተጨማሪ</item>
+        <item quantity="other">+%d ተጨማሪ</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">%1$d ፎቶ ይለጥፉ</item>
+        <item quantity="other">%1$d ፎቶዎች ይለጥፉ</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">%1$d ለጥፍ</item>
+        <item quantity="other">%1$d ለጥፍ</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">+%1$,d ሰዎች %2$sን ጠቅሰዋል</item>
+        <item quantity="other">+%1$,d ሰዎች %2$sን ጠቅሰዋል</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">%1$,d ምላሽ</item>
+        <item quantity="other">%1$,d ምላሾች</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">ከ%2$s %1$d ተጨማሪ አማራጭ ይመልከቱ</item>
+        <item quantity="other">ከ%2$s %1$d ተጨማሪ አማራጮችን ይመልከቱ</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">ተጨማሪ %1$d አማራጭ ይመልከቱ</item>
+        <item quantity="other">ተጨማሪ %1$d አማራጮች ይመልከቱ</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">በትራፊክ ዙሪያ ፈጣን መስመሮችን ለማየት አድራሻዎችዎን ያስቀምጡ</item>
+        <item quantity="other">በትራፊክ ዙሪያ ፈጣን መስመሮችን ለማየት አድራሻዎችዎን ያስቀምጡ</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">መነሻዎች ከ%1$dሰ በፊት ዘምነዋል</item>
+        <item quantity="other">መነሻዎች ከ%1$dሰ በፊት ዘምነዋል</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">በየ%d ደቂቃዎች ይነሳል</item>
+        <item quantity="other">በየ%d ደቂቃዎች ይነሳል</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d ደቂቃ</item>
+        <item quantity="other">%d ደቂቃ</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d ማቆሚያ</item>
+        <item quantity="other">%d ማቆሚያዎች</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"ከ%1$s
+ደቂ በፊት"</item>
+        <item quantity="other">"ከ%1$s
+ደቂ በፊት"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">ከ%1$s ደቂቃ በፊት ተነስቷል</item>
+        <item quantity="other">ከ%1$s ደቂቃዎች በፊት ተነስቷል</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d ማንቂያዎች</item>
+        <item quantity="other">+%d ማንቂያዎች</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d ማንቂያዎች</item>
+        <item quantity="other">+ %d ማንቂያዎች</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d ተጨማሪ</item>
+        <item quantity="other">+%d ተጨማሪ</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d ተጨማሪ</item>
+        <item quantity="other">+ %d ተጨማሪ</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+ደቂ"</item>
+        <item quantity="other">"%1$s
+ደቂ"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">ከ%1$s ደቂቃ በፊት</item>
+        <item quantity="other">ከ%1$s ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">በ%1$s ደቂቃ ውስጥ ይነሳል</item>
+        <item quantity="other">በ%1$s ደቂቃዎች ውስጥ ይነሳል</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">%1$s ተጨማሪ ማስጠንቀቂያ</item>
+        <item quantity="other">%1$s ተጨማሪ ማስጠንቀቂያዎች</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s ፎቶ</item>
+        <item quantity="other">%s ፎቶዎች</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s ግምገማ</item>
+        <item quantity="other">%s ግምገማዎች</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d አስተዋጽዖዎች</item>
+        <item quantity="other">%,d አስተዋጽዖዎች</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d ዕይታዎች</item>
+        <item quantity="other">%,d ዕይታዎች</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">እስከ %1$d ድረስ ይምረጡ</item>
+        <item quantity="other">እስከ %1$d ድረስ ይምረጡ</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">እስከ %1$s ፎቶዎች ድረስ ይምረጡ</item>
+        <item quantity="other">እስከ %1$s ፎቶዎች ድረስ ይምረጡ</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">በልጥፍ %1$d ላይ የቪዲዮ %2$dን ድምጸ-ከል አንሳ</item>
+        <item quantity="other">በልጥፍ %1$d ላይ የቪዲዮ %2$dን ድምጸ-ከል አንሳ</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d ከ%2$d ውስጥ</item>
+        <item quantity="other">%1$d ከ%2$d ውስጥ</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"WiFi በመጠበቅ ላይ።
+ %d በመጠባበቅ ላይ ያሉ ፎቶዎች።"</item>
+        <item quantity="other">"WiFi በመጠበቅ ላይ።
+ %d በመጠባበቅ ላይ ያሉ ፎቶዎች።"</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d ፎቶ ተመርጧል</item>
+        <item quantity="other">%d ፎቶዎች ተመርጠዋል</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">ከ%2$d ውስጥ %1$d ቦታ ጎብኝተዋል</item>
+        <item quantity="other">ከ%2$d ውስጥ %1$d ቦታዎች ጎብኝተዋል</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ለ%1$s + %2$d ሌሎች በሚያጋሩበት ጊዜ የአካባቢ ትክክለኝነትን ለመጨመር የባትሪ ኃይል ቆጣቢን ያጥፉ</item>
+        <item quantity="other">ለ%1$s + %2$d ሌሎች በሚያጋሩበት ጊዜ የአካባቢ ትክክለኝነትን ለመጨመር የባትሪ ኃይል ቆጣቢን ያጥፉ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ለ%1$s + %2$d ሌሎች የአካባቢ ማጋራትን ለመቀጠል የመሣሪያ አካባቢ መብራት አለበት</item>
+        <item quantity="other">ለ%1$s + %2$d ሌሎች የአካባቢ ማጋራትን ለመቀጠል የመሣሪያ አካባቢ መብራት አለበት</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">በዚህ መሣሪያ ላይ ለ%1$s + %2$d ሌሎች ማጋራትዎን ለመቀጠል የአካባቢ ማጋራትን ያዘምኑ</item>
+        <item quantity="other">በዚህ መሣሪያ ላይ ለ%1$s + %2$d ሌሎች ማጋራትዎን ለመቀጠል የአካባቢ ማጋራትን ያዘምኑ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ለ%1$s + %2$d ሌሎች በሚያጋሩበት ጊዜ የአካባቢ ትክክለኝነትን ለመጨመር ካርታዎች የእርስዎን አካላዊ እንቅስቃሴ ለይቶ እንዲያውቅ ያድርጉ</item>
+        <item quantity="other">ለ%1$s + %2$d ሌሎች በሚያጋሩበት ጊዜ የአካባቢ ትክክለኝነትን ለመጨመር ካርታዎች የእርስዎን አካላዊ እንቅስቃሴ ለይቶ እንዲያውቅ ያድርጉ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ለ%1$s + %2$d ሌሎች በሚያጋሩበት ጊዜ የአካባቢ ትክክለኝነትን ለመጨመር ሁልጊዜ ካርታዎች የእርስዎን አካባቢ እንዲደርስበት ይፍቀዱ</item>
+        <item quantity="other">ለ%1$s + %2$d ሌሎች በሚያጋሩበት ጊዜ የአካባቢ ትክክለኝነትን ለመጨመር ሁልጊዜ ካርታዎች የእርስዎን አካባቢ እንዲደርስበት ይፍቀዱ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ለ%1$s + %2$d ሌሎች ማጋራትዎን ለመቀጠል ሁልጊዜ ካርታዎች የእርስዎን አካባቢ እንዲደርስበት ይፍቀዱ</item>
+        <item quantity="other">ለ%1$s + %2$d ሌሎች ማጋራትዎን ለመቀጠል ሁልጊዜ ካርታዎች የእርስዎን አካባቢ እንዲደርስበት ይፍቀዱ</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">%d+ ፎቶዎች</item>
+        <item quantity="other">%d+ ፎቶዎች</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%,d ግምገማ)</item>
+        <item quantity="other">(%,d ግምገማዎች)</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">የልጥፍ %1$d ቪዲዮ %2$d</item>
+        <item quantity="other">የልጥፍ %1$d ቪዲዮ %2$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">የልጥፍ %1$d ቪዲዮ %2$d ሙሉ መስኮት ማሳያ ነው</item>
+        <item quantity="other">የልጥፍ %1$d ቪዲዮ %2$d ሙሉ መስኮት ማሳያ ነው</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d አዳሮች</item>
+        <item quantity="other">%2$s × %1$d አዳሮች</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%2$s ለ%1$d አዳሮች ከግብሮች + ክፍያዎች ጋር</item>
+        <item quantity="other">%2$s ለ%1$d አዳሮች ከግብሮች + ክፍያዎች ጋር</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">የ%d ደቂቃ የእግር ጉዞ</item>
+        <item quantity="other">የ%d ደቂቃ የእግር ጉዞ</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d ማቆሚያዎች</item>
+        <item quantity="other">+ %d ማቆሚያዎች</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d መቆሚያ)</item>
+        <item quantity="other">(%d መቆሚያዎች)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">ከ%d ሳምንት በፊት</item>
+        <item quantity="other">ከ%d ሳምንታት በፊት</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">ከ%d ዓመት በፊት</item>
+        <item quantity="other">ከ%d ዓመታት በፊት</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">የቀሩትን %1$d ፎቶዎች ይመልከቱ</item>
+        <item quantity="other">የቀሩትን %1$d ፎቶዎች ይመልከቱ</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">የእርስዎ ግምገማዎች እና ዝማኔዎች</item>
+        <item quantity="other">የእርስዎ ግምገማዎች እና ዝማኔዎች</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">%1$s እና %2$d ተጨማሪ ዝርዝሮችን እየተከተሉ ነው</item>
+        <item quantity="other">%1$s እና %2$d ተጨማሪ ዝርዝሮችን እየተከተሉ ነው</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s እና %2$d ሌሎች</item>
+        <item quantity="other">%1$s እና %2$d ሌሎች</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d ከ%2$d</item>
+        <item quantity="other">%1$d ከ%2$d</item>
+    </plurals>
+    <plurals name="local_guide_level">
+        <item quantity="one">ደረጃ %1$d</item>
+        <item quantity="other">ደረጃ %1$d</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="one">%1$d ደቂቃ</item>
+        <item quantity="other">%1$d ደቂቃ</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">%1$d ቀረጻ</item>
+        <item quantity="other">%1$d ቀረጻዎች</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="one">+ %1$d ተጨማሪ</item>
+        <item quantity="other">+ %1$d ተጨማሪ</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="one">%d ሰዎች እየተየቡ ናቸው</item>
+        <item quantity="other">%d ሰዎች እየተየቡ ናቸው</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">%d ተቀባዮች ተቀድተዋል</item>
+        <item quantity="other">%d ተቀባዮች ተቀድተዋል</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">ስለፎቶዎችዎ የሆነ ነገር ይበሉ (አማራጭ)</item>
+        <item quantity="other">ስለፎቶዎችዎ የሆነ ነገር ይበሉ (አማራጭ)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d ኮከቦች ከ%2$d</item>
+        <item quantity="other">%1$d ኮከቦች ከ%2$d</item>
+    </plurals>
+</resources>

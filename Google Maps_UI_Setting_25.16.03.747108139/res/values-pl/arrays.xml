@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Każda</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Dowolny poziom cenowy</item>
+        <item>Tanio</item>
+        <item>Przystępnie</item>
+        <item>Drogo</item>
+        <item>Bardzo drogo</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Każda</item>
+        <item>3 gwiazdki</item>
+        <item>4 gwiazdki</item>
+        <item>5 gwiazdek</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Dowolne</item>
+        <item>Teraz otwarte</item>
+        <item>Niestandardowe</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Podczas powiększania</item>
+        <item>Zawsze</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Podczas powiększania i pomniejszania</item>
+        <item>Zawsze</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Okropne</item>
+        <item>Nieciekawe</item>
+        <item>W porządku</item>
+        <item>Fajne</item>
+        <item>Fantastyczne</item>
+    </string-array>
+</resources>

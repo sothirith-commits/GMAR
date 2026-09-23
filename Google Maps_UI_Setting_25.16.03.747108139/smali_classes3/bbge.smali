@@ -1,0 +1,22 @@
+.class public interface abstract Lbbge;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<R:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract c(Ljava/lang/Object;)V
+.end method
+
+.method public abstract k(Lcom/google/android/gms/common/api/Status;)V
+.end method

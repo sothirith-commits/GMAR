@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>ਕੋਈ ਵੀ</item>
+        <item>₹</item>
+        <item>₹₹</item>
+        <item>₹₹₹</item>
+        <item>₹₹₹₹</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>ਕੋਈ ਵੀ ਕੀਮਤ ਪੱਧਰ</item>
+        <item>ਸਸਤਾ</item>
+        <item>ਸੰਜਮੀ ਮਹਿੰਗਾ</item>
+        <item>ਮਹਿੰਗਾ</item>
+        <item>ਬਹੁਤ ਮਹਿੰਗਾ</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>ਕੋਈ ਵੀ</item>
+        <item>3-ਤਾਰਾ</item>
+        <item>4-ਤਾਰਾ</item>
+        <item>5-ਤਾਰਾ</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>ਕੋਈ ਵੀ</item>
+        <item>ਹੁਣ ਖੁੱਲ੍ਹਿਆ ਹੋਇਆ ਹੈ</item>
+        <item>ਵਿਉਂਤਿਆ</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>ਜ਼ੂਮ ਕਰਨ ਵੇਲੇ</item>
+        <item>ਹਮੇਸ਼ਾਂ</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>ਅੰਦਰ ਅਤੇ ਬਾਹਰ ਜ਼ੂਮ ਕਰਦੇ ਸਮੇਂ</item>
+        <item>ਹਮੇਸ਼ਾਂ</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>ਬਿਲਕੁਲ ਪਸੰਦ ਨਹੀਂ ਕੀਤਾ ਗਿਆ</item>
+        <item>ਨਾਪਸੰਦ ਕੀਤਾ ਗਿਆ</item>
+        <item>ਇਹ ਠੀਕ-ਠਾਕ ਹੈ</item>
+        <item>ਪਸੰਦ ਕੀਤਾ ਗਿਆ</item>
+        <item>ਬਹੁਤ ਪਸੰਦ ਕੀਤਾ ਗਿਆ</item>
+    </string-array>
+</resources>

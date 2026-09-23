@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Bất kỳ</item>
+        <item>đ</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Bất kỳ mức giá nào</item>
+        <item>Rẻ</item>
+        <item>Tương đối đắt</item>
+        <item>Đắt</item>
+        <item>Rất đắt</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Bất kỳ</item>
+        <item>3 sao</item>
+        <item>4 sao</item>
+        <item>5 sao</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Bất kỳ</item>
+        <item>Đang mở</item>
+        <item>Tùy chỉnh</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Trong khi thu phóng</item>
+        <item>Luôn luôn</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Khi phóng to và thu nhỏ</item>
+        <item>Luôn luôn</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Ghét</item>
+        <item>Không thích</item>
+        <item>Chấp nhận được</item>
+        <item>Thích</item>
+        <item>Rất thích</item>
+    </string-array>
+</resources>

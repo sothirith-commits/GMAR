@@ -1,0 +1,8 @@
+.class public interface abstract Laotm;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# virtual methods
+.method public abstract a(Laoto;)Laotp;
+.end method

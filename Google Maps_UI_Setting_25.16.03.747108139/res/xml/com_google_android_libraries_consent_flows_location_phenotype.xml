@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.google.android.libraries.consent.flows.location</configuration-package>
+        <log-sources>
+            <log-source>LOCATION_CONSENT</log-source>
+        </log-sources>
+        <auto-subpackage>true</auto-subpackage>
+        <configuration-version>747108139</configuration-version>
+    </phenotype-registration>
+</phenotype-registrations>

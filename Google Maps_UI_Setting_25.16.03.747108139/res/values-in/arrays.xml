@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Semua</item>
+        <item>Rp</item>
+        <item>RpRp</item>
+        <item>RpRpRp</item>
+        <item>RpRpRpRp</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Semua tingkat harga</item>
+        <item>Murah</item>
+        <item>Agak mahal</item>
+        <item>Mahal</item>
+        <item>Sangat mahal</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Semua</item>
+        <item>Bintang 3</item>
+        <item>Bintang 4</item>
+        <item>Bintang 5</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Semua</item>
+        <item>Buka sekarang</item>
+        <item>Kustom</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Saat zoom</item>
+        <item>Selalu</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Saat memperbesar dan memperkecil</item>
+        <item>Selalu</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Benci</item>
+        <item>Tidak suka</item>
+        <item>Lumayan</item>
+        <item>Suka</item>
+        <item>Suka sekali</item>
+    </string-array>
+</resources>

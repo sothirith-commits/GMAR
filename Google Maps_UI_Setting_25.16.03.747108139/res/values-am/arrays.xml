@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>ሀ</item>
+        <item>ለ</item>
+        <item>ሐ</item>
+        <item>መ</item>
+        <item>ሰ</item>
+        <item>አ</item>
+        <item>ሸ</item>
+        <item>ምቶች</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>ማንኛውም</item>
+        <item>ETB</item>
+        <item>ETBETB</item>
+        <item>ETBETBETB</item>
+        <item>ETBETBETBETB</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>ማንኛውም የዋጋ ደረጃ</item>
+        <item>ውድ ያልሆነ</item>
+        <item>መጠነኛ ውድ</item>
+        <item>ውድ</item>
+        <item>በጣም ውድ</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>ማንኛውም</item>
+        <item>3-ኮከብ</item>
+        <item>4-ኮከብ</item>
+        <item>5-ኮከብ</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>ማንኛውም</item>
+        <item>አሁን ክፍት ነው</item>
+        <item>ብጁ</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>በማጉላት ላይ እያለ</item>
+        <item>ሁልጊዜ</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>በሚጎላበትና በሚያንስበት ጊዜ</item>
+        <item>ሁልጊዜ</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>ጠልቼዋለሁ</item>
+        <item>አልወደድኩትም</item>
+        <item>ደህና ነው</item>
+        <item>ወድጄዋለሁ</item>
+        <item>በጣም ወድጄዋለሁ</item>
+    </string-array>
+</resources>

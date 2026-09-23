@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>ທຸກປະເພດ</item>
+        <item>₭</item>
+        <item>₭₭</item>
+        <item>₭₭₭</item>
+        <item>₭₭₭₭</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>ລະດັບລາຄາໃດກໍໄດ້</item>
+        <item>ບໍ່ແພງ</item>
+        <item>ແພງປານກາງ</item>
+        <item>ແພງ</item>
+        <item>ແພງຫຼາຍ</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>ທັງໝົດ</item>
+        <item>3 ດາວ</item>
+        <item>4 ດາວ</item>
+        <item>5 ດາວ</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>ໃດກໍໄດ້</item>
+        <item>ຕອນນີ້ເປີດຢູ່</item>
+        <item>ກຳນົດເອງ</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>ໃນລະຫວ່າງການຊູມ</item>
+        <item>ທຸກເທື່ອ</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>ເມື່ອຊູມເຂົ້າ ແລະຊູມອອກ</item>
+        <item>ຕະຫຼອດເວລາ</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>ຊັງ</item>
+        <item>ບໍ່ມັກ</item>
+        <item>ພໍໃຊ້ໄດ້</item>
+        <item>ມັກ</item>
+        <item>ຮັກເລີຍ</item>
+    </string-array>
+</resources>

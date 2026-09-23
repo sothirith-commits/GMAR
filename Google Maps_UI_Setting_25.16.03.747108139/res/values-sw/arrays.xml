@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Yoyote</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Kiwango chochote cha bei</item>
+        <item>Isiyo ghali</item>
+        <item>Si ghali sana</item>
+        <item>Ghali</item>
+        <item>Ghali sana</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Yoyote</item>
+        <item>Nyota 3</item>
+        <item>Nyota 4</item>
+        <item>Nyota 5</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Yoyote</item>
+        <item>Imefunguliwa sasa</item>
+        <item>Maalum</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Wakati unakuza</item>
+        <item>Kila wakati</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Wakati wa kusogeza karibu na kusogeza mbali</item>
+        <item>Kila wakati</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Sijapapenda</item>
+        <item>Sikupapenda</item>
+        <item>Haina tatizo</item>
+        <item>Nimeipenda</item>
+        <item>Nimeipenda zaidi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Všechny</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Libovolná cenová hladina</item>
+        <item>Levné</item>
+        <item>Středně drahé</item>
+        <item>Drahé</item>
+        <item>Velmi drahé</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Všechny</item>
+        <item>***</item>
+        <item>****</item>
+        <item>*****</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Vše</item>
+        <item>Právě otevřeno</item>
+        <item>Vlastní</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Při přiblížení/oddálení</item>
+        <item>Vždy</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Při přibližování a oddalování</item>
+        <item>Vždy</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Velmi špatné</item>
+        <item>Špatné</item>
+        <item>Ujde to</item>
+        <item>Velmi dobré</item>
+        <item>Vynikající</item>
+    </string-array>
+</resources>

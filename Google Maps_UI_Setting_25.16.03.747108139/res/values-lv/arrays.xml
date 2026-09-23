@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Visas</item>
+        <item>€</item>
+        <item>€€</item>
+        <item>€€€</item>
+        <item>€€€€</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Visas cenu amplitūdas</item>
+        <item>Lēti</item>
+        <item>Vidēji dārgi</item>
+        <item>Dārgi</item>
+        <item>Ļoti dārgi</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Visas</item>
+        <item>Trīs zvaigznes</item>
+        <item>Četras zvaigznes</item>
+        <item>Piecas zvaigznes</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Viss</item>
+        <item>Šobrīd atvērts</item>
+        <item>Pielāgots</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Tālummaiņas laikā</item>
+        <item>Vienmēr</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Izmantojot tālummaiņu</item>
+        <item>Vienmēr</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Ļoti nepatika</item>
+        <item>Nepatika</item>
+        <item>Apmierināja</item>
+        <item>Patika</item>
+        <item>Ļoti patika</item>
+    </string-array>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>کوئی بھی</item>
+        <item>Rs</item>
+        <item>RsRs</item>
+        <item>RsRsRs</item>
+        <item>RsRsRsRs</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>قیمت کی کوئی بھی سطح</item>
+        <item>سستا</item>
+        <item>تھوڑا مہنگا</item>
+        <item>مہنگا</item>
+        <item>بہت مہنگا</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>کوئی بھی</item>
+        <item>3 ستارہ</item>
+        <item>4 ستارہ</item>
+        <item>5 ستارہ</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>کوئی بھی</item>
+        <item>ابھی کھلا ہے</item>
+        <item>حسب ضرورت</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>زوم کرنے کے دوران</item>
+        <item>ہمیشہ</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>جب زوم ان اور آؤٹ کررہا ہو</item>
+        <item>ہمیشہ</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>یہ قابل نفرت ہے</item>
+        <item>یہ ناپسند ہے</item>
+        <item>یہ ٹھیک ہے</item>
+        <item>پسند آیا</item>
+        <item>بہت پسند آیا</item>
+    </string-array>
+</resources>

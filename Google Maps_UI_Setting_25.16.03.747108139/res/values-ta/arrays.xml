@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>ஏதேனும்</item>
+        <item>₹</item>
+        <item>₹₹</item>
+        <item>₹₹₹</item>
+        <item>₹₹₹₹</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>எந்த விலையிலும்</item>
+        <item>மலிவானது</item>
+        <item>ஒரளவு விலையுயர்ந்தது</item>
+        <item>விலையுயர்ந்தது</item>
+        <item>மிகவும் விலையுயர்ந்தது</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>ஏதேனும்</item>
+        <item>3 நட்சத்திரம்</item>
+        <item>4 நட்சத்திரம்</item>
+        <item>5 நட்சத்திரம்</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>ஏதேனும்</item>
+        <item>இப்போது திறந்துள்ளது</item>
+        <item>பிரத்தியேகம்</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>பெரிதாக்கும்போது</item>
+        <item>எப்போதும்</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>பெரிதாக்கும்போதும் சிறிதாக்கும்போதும்</item>
+        <item>எப்போதும்</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>வெறுப்பாக இருந்தது</item>
+        <item>பிடிக்கவில்லை</item>
+        <item>பரவாயில்லை</item>
+        <item>பிடித்திருந்தது</item>
+        <item>மிகவும் பிடித்திருந்தது</item>
+    </string-array>
+</resources>

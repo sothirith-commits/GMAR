@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACTION_ITEM_NEEDS_ATTENTION_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d item baru</item>
+        <item quantity="other">%1$d item baru</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">%d opsi lainnya</item>
+        <item quantity="other">%d opsi lainnya</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">Dilaporkan oleh %1$d orang</item>
+        <item quantity="other">Dilaporkan oleh %1$d orang</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d pemberitahuan</item>
+        <item quantity="other">%d pemberitahuan</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d lokasi</item>
+        <item quantity="other">%1$d lokasi</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">Lihat jawaban</item>
+        <item quantity="other">Lihat jawaban (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">Jelajahi di sini</item>
+        <item quantity="other">Jelajahi %d tempat di sini</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d sepeda tersedia</item>
+        <item quantity="other">%d sepeda tersedia</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">%s sepeda di dok sepeda</item>
+        <item quantity="other">%s sepeda di dok sepeda</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d sepeda</item>
+        <item quantity="other">%d sepeda</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d dok sepeda tersedia</item>
+        <item quantity="other">%d dok sepeda tersedia</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d dok sepeda</item>
+        <item quantity="other">%d dok sepeda</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">Direkomendasikan oleh %1$d orang</item>
+        <item quantity="other">Direkomendasikan oleh %1$d orang</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">Digunakan %1$d hari lalu</item>
+        <item quantity="other">Digunakan %1$d hari lalu</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">Digunakan %1$d minggu lalu</item>
+        <item quantity="other">Digunakan %1$d minggu lalu</item>
+    </plurals>
+    <plurals name="CAR_EV_COLLAPSED_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s kali mengisi daya</item>
+        <item quantity="other">%1$s kali mengisi daya</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d dipilih</item>
+        <item quantity="other">%1$d dipilih</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">+%1$d lainnya</item>
+        <item quantity="other">+%1$d lainnya</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_BONUS_POINTS_LABEL">
+        <item quantity="one">bonus</item>
+        <item quantity="other">bonus</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_BONUS_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">Anda mendapatkan %d poin bonus</item>
+        <item quantity="other">Anda mendapatkan %d poin bonus</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_PLACES_UPDATED_A11Y_LABEL">
+        <item quantity="one">Anda telah memperbarui %d tempat</item>
+        <item quantity="other">Anda telah memperbarui %d tempat</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">Anda mendapatkan %d poin</item>
+        <item quantity="other">Anda mendapatkan %d poin</item>
+    </plurals>
+    <plurals name="CHALLENGE_POINTS_LABEL">
+        <item quantity="one">%d poin</item>
+        <item quantity="other">%d poin</item>
+    </plurals>
+    <plurals name="CHARGING_ROUTE_SUMMARY_CHARGING_STOPS_SHORT">
+        <item quantity="one">%1$d perhentian</item>
+        <item quantity="other">%1$d perhentian</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_HOME_TO_WORK_TITLE">
+        <item quantity="one">%d mnt ke kantor</item>
+        <item quantity="other">%d mnt ke kantor</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">%d mnt lebih cepat dari biasanya</item>
+        <item quantity="other">%d mnt lebih cepat dari biasanya</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">%d mnt lebih lambat dari biasanya</item>
+        <item quantity="other">%d mnt lebih lambat dari biasanya</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_UNSPECIFIED_TITLE">
+        <item quantity="one">Waktu perjalanan %d menit</item>
+        <item quantity="other">Waktu perjalanan %d menit</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_WORK_TO_HOME_TITLE">
+        <item quantity="one">%d mnt ke rumah</item>
+        <item quantity="other">%d mnt ke rumah</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Arah peta %d derajat.</item>
+        <item quantity="other">Arah peta %d derajat.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">Penginapan bintang %d</item>
+        <item quantity="other">Penginapan bintang %d</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">Level %d Local Guide</item>
+        <item quantity="other">Level %d Local Guide</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_STAT_FOLLOWER_COUNT">
+        <item quantity="one">%,d pengikut</item>
+        <item quantity="other">%,d pengikut</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">Anda memberi rating untuk %1$s 1 bintang</item>
+        <item quantity="other">Anda memberi rating untuk %1$s %2$d bintang</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_PLACES">
+        <item quantity="one">tempat</item>
+        <item quantity="other">tempat</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">poin</item>
+        <item quantity="other">poin</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s hari</item>
+        <item quantity="other">%s hari</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sh</item>
+        <item quantity="other">%sh</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s hari</item>
+        <item quantity="other">%s hari</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s jam</item>
+        <item quantity="other">%s jam</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s j</item>
+        <item quantity="other">%s j</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sj</item>
+        <item quantity="other">%sj</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s menit</item>
+        <item quantity="other">%s menit</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s mnt</item>
+        <item quantity="other">%s mnt</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sm</item>
+        <item quantity="other">%sm</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s detik</item>
+        <item quantity="other">%s detik</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Lanjutkan sejauh %1$s kaki</item>
+        <item quantity="other">Lanjutkan sejauh %1$s kaki</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Lanjutkan sejauh %1$s kilometer</item>
+        <item quantity="other">Lanjutkan sejauh %1$s kilometer</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Lanjutkan sejauh %1$s meter</item>
+        <item quantity="other">Lanjutkan sejauh %1$s meter</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Lanjutkan sejauh %1$s mil</item>
+        <item quantity="other">Lanjutkan sejauh %1$s mil</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Lanjutkan sejauh %1$s yard</item>
+        <item quantity="other">Lanjutkan sejauh %1$s yard</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Tetap di %2$s sejauh %1$s kaki</item>
+        <item quantity="other">Tetap di %2$s sejauh %1$s kaki</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Tetap di %2$s sejauh %1$s kilometer</item>
+        <item quantity="other">Tetap di %2$s sejauh %1$s kilometer</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Tetap di %2$s sejauh %1$s meter</item>
+        <item quantity="other">Tetap di %2$s sejauh %1$s meter</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Tetap di %2$s sejauh %1$s mil</item>
+        <item quantity="other">Tetap di %2$s sejauh %1$s mil</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Tetap di %2$s sejauh %1$s yard</item>
+        <item quantity="other">Tetap di %2$s sejauh %1$s yard</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">Dalam %1$s kaki</item>
+        <item quantity="other">Dalam %1$s kaki</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">Dalam %1$s kilometer</item>
+        <item quantity="other">Dalam %1$s kilometer</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">Dalam %1$s meter</item>
+        <item quantity="other">Dalam %1$s meter</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">Dalam %1$s mil</item>
+        <item quantity="other">Dalam %1$s mil</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">Dalam %1$s yard</item>
+        <item quantity="other">Dalam %1$s yard</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometer per jam</item>
+        <item quantity="other">%s kilometer per jam</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s mil per jam</item>
+        <item quantity="other">%s mil per jam</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Tujuan Anda berada sejauh %1$s kaki di depan</item>
+        <item quantity="other">Tujuan Anda berada sejauh %1$s kaki di depan</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Tujuan Anda berada sejauh %1$s kilometer di depan</item>
+        <item quantity="other">Tujuan Anda berada sejauh %1$s kilometer di depan</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Tujuan Anda berada sejauh %1$s meter di depan</item>
+        <item quantity="other">Tujuan Anda berada sejauh %1$s meter di depan</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Tujuan Anda berada sejauh %1$s mil di depan</item>
+        <item quantity="other">Tujuan Anda berada sejauh %1$s mil di depan</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Tujuan Anda berada sejauh %1$s yard di depan</item>
+        <item quantity="other">Tujuan Anda berada sejauh %1$s yard di depan</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d perhentian</item>
+        <item quantity="other">%d perhentian</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d moda penghubung</item>
+        <item quantity="other">%1$d moda penghubung</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">Diperbarui %d hari lalu</item>
+        <item quantity="other">Diperbarui %d hari lalu</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">Diperbarui %d bulan lalu</item>
+        <item quantity="other">Diperbarui %d bulan lalu</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">Diperbarui %d minggu lalu</item>
+        <item quantity="other">Diperbarui %d minggu lalu</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d sepeda</item>
+        <item quantity="other">%d sepeda</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">%d sepeda di dekat Anda</item>
+        <item quantity="other">%d sepeda di dekat Anda</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d dari %2$d port pengisian daya</item>
+        <item quantity="other">%1$d dari %2$d port pengisian daya</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d port pengisian daya</item>
+        <item quantity="other">%d port pengisian daya</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">Gagal memberi rating 1 bintang, harap coba lagi</item>
+        <item quantity="other">Gagal memberi rating %1$d bintang, harap coba lagi</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">Lantai %s</item>
+        <item quantity="other">Lantai %s</item>
+    </plurals>
+    <plurals name="FOLLOWER_COUNT_LABEL">
+        <item quantity="one">Pengikut</item>
+        <item quantity="other">Pengikut</item>
+    </plurals>
+    <plurals name="FOLLOWING_COUNT_LABEL">
+        <item quantity="one">Mengikuti</item>
+        <item quantity="other">Mengikuti</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">%d malam lagi</item>
+        <item quantity="other">%d malam lagi</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">Tambahkan %d malam</item>
+        <item quantity="other">Tambahkan %d malam</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">Kamar hotel ini tersedia jika menginap selama %1$d malam. %2$s untuk menikmati tarif rata-rata %3$s per malam.</item>
+        <item quantity="other">Kamar hotel ini tersedia jika menginap selama %1$d malam. %2$s untuk menikmati tarif rata-rata %3$s per malam.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">Menginap %1$s untuk menikmati tarif rata-rata %2$s per malam</item>
+        <item quantity="other">Menginap %1$s untuk menikmati tarif rata-rata %2$s per malam</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d tamu</item>
+        <item quantity="other">%d tamu</item>
+    </plurals>
+    <plurals name="HOTEL_PLACE_COUNT">
+        <item quantity="one">%d tempat menginap</item>
+        <item quantity="other">%d tempat menginap</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">dan %d lainnya.</item>
+        <item quantity="other">dan %d lainnya.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">+%d lainnya.</item>
+        <item quantity="other">+%d lainnya.</item>
+    </plurals>
+    <plurals name="IN_STORE_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Foto dalam toko nomor %d</item>
+        <item quantity="other">Foto toko dalam nomor %d</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">Disimpan di %1$s &amp; %2$d lainnya</item>
+        <item quantity="other">Disimpan di %1$s &amp; %2$d lainnya</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">Anda berkunjung %d bulan lalu</item>
+        <item quantity="other">Anda berkunjung %d bulan lalu</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">Anda berkunjung %d minggu lalu</item>
+        <item quantity="other">Anda berkunjung %d minggu lalu</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">Anda berkunjung %d tahun lalu</item>
+        <item quantity="other">Anda berkunjung %d tahun lalu</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d acara</item>
+        <item quantity="other">%d acara</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d item</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d tempat</item>
+        <item quantity="other">%d tempat</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">Disimpan %d kali</item>
+        <item quantity="other">Disimpan %d kali</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d perjalanan</item>
+        <item quantity="other">%d perjalanan</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s x dilihat</item>
+        <item quantity="other">%s x dilihat</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">Diedit %d hari yang lalu</item>
+        <item quantity="other">Diedit %d hari yang lalu</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">Diedit %d bulan yang lalu</item>
+        <item quantity="other">Diedit %d bulan yang lalu</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">Diedit %d minggu yang lalu</item>
+        <item quantity="other">Diedit %d minggu yang lalu</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">Diedit %d tahun yang lalu</item>
+        <item quantity="other">Diedit %d tahun yang lalu</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">Anda memiliki %d poin</item>
+        <item quantity="other">Anda memiliki %d poin</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TEXT">
+        <item quantity="one">%d poin</item>
+        <item quantity="other">%d poin</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">Hanya perlu %1$d poin lagi untuk mencapai level %2$d</item>
+        <item quantity="other">Hanya perlu %1$d poin lagi untuk mencapai level %2$d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">Level %d</item>
+        <item quantity="other">Level %d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_LEVEL">
+        <item quantity="one">Local Guide Level %d</item>
+        <item quantity="other">Local Guide Level %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">Sudah beroperasi selama %d tahun</item>
+        <item quantity="other">Sudah beroperasi selama %d+ tahun</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d hari lalu</item>
+        <item quantity="other">%d hari lalu</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d jam lalu</item>
+        <item quantity="other">%d jam lalu</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d menit lalu</item>
+        <item quantity="other">%d menit lalu</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">%d tempat di sini</item>
+        <item quantity="other">%d tempat di sini</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">Foto dibuang</item>
+        <item quantity="other">Foto dibuang</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Maksimalkan video di Postingan %1$d</item>
+        <item quantity="other">Maksimalkan video %2$d di Postingan %1$d</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d dari %2$,d</item>
+        <item quantity="other">%1$,d dari %2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Mengupload %1$d media</item>
+        <item quantity="other">Mengupload %1$d media</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Foto menu nomor %d</item>
+        <item quantity="other">Foto menu nomor %d</item>
+    </plurals>
+    <plurals name="MERCHANT_PANEL_CALLS_LIST_TIMESTAMP_SECONDS">
+        <item quantity="one">%1$d detik</item>
+        <item quantity="other">%1$d detik</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d laporan</item>
+        <item quantity="other">%1$d laporan</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">Orang yang memiliki link ini dapat melihat lokasi Anda selama 1 hari dan %d jam</item>
+        <item quantity="other">Orang yang memiliki link ini dapat melihat lokasi Anda selama 1 hari dan %d jam</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">Orang yang memiliki link ini dapat melihat lokasi Anda selama 1 jam dan %d menit</item>
+        <item quantity="other">Orang yang memiliki link ini dapat melihat lokasi Anda selama 1 jam dan %d menit</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">Orang yang memiliki link ini dapat melihat lokasi Anda selama %d hari</item>
+        <item quantity="other">Orang yang memiliki link ini dapat melihat lokasi Anda selama %d hari</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">Orang yang memiliki link ini dapat melihat lokasi Anda selama %d jam</item>
+        <item quantity="other">Orang yang memiliki link ini dapat melihat lokasi Anda selama %d jam</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">Orang yang memiliki link ini dapat melihat lokasi Anda selama %d menit</item>
+        <item quantity="other">Orang yang memiliki link ini dapat melihat lokasi Anda selama %d menit</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">%d lainnya</item>
+        <item quantity="other">%d lainnya</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Bisukan video di Postingan %1$d</item>
+        <item quantity="other">Bisukan video %2$d di Postingan %1$d</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d foto/video</item>
+        <item quantity="other">%d foto/video</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_VEHICLE_DESCRIPTION">
+        <item quantity="one">Kendaraan kustom %1$d dari %2$d</item>
+        <item quantity="other">Kendaraan kustom %1$d dari %2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d pembaruan terkini</item>
+        <item quantity="other">%d pembaruan terkini</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">Info terbaru bisnis, %1$s notifikasi baru</item>
+        <item quantity="other">Info terbaru bisnis, %1$s notifikasi baru</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">%d foto</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d ulasan</item>
+        <item quantity="other">%d ulasan</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">Thumbnail nomor %d</item>
+        <item quantity="other">Thumbnail nomor %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d area offline</item>
+        <item quantity="other">%d area offline</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">Berdasarkan %1$d laporan</item>
+        <item quantity="other">Berdasarkan %1$d laporan</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Jeda video di Postingan %1$d</item>
+        <item quantity="other">Jeda video %2$d di Postingan %1$d</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s interaksi</item>
+        <item quantity="other">%1$s interaksi</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s penelusuran</item>
+        <item quantity="other">%1$s penelusuran</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s x dilihat</item>
+        <item quantity="other">%1$s x dilihat</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">Reservasi untuk %d malam</item>
+        <item quantity="other">Reservasi untuk %d malam</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">Hanya Anda yang dapat melihat ini</item>
+        <item quantity="other">Hanya Anda yang dapat melihat ini</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d hari</item>
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d malam</item>
+        <item quantity="other">%1$d malam</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">%d foto</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_CHECKED_DESCRIPTION">
+        <item quantity="one">Anda menyukai foto ini</item>
+        <item quantity="other">%d orang termasuk Anda menyukai foto ini</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_UNCHECKED_DESCRIPTION">
+        <item quantity="one">Seseorang menyukai foto ini</item>
+        <item quantity="other">%d orang menyukai foto ini</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Menambahkan %1$d foto/video ke Maps</item>
+        <item quantity="other">Menambahkan %1$d foto/video ke Maps</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Menunggu Wi-Fi.
+ %d foto/video tertunda."</item>
+        <item quantity="other">"Menunggu Wi-Fi.
+ %d foto/video tertunda."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">Foto untuk Postingan %1$d</item>
+        <item quantity="other">Foto %2$d untuk Postingan %1$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d hari lalu</item>
+        <item quantity="other">%d hari lalu</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d jam lalu</item>
+        <item quantity="other">%d jam lalu</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d bulan lalu</item>
+        <item quantity="other">%d bulan lalu</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d minggu yang lalu</item>
+        <item quantity="other">%d minggu yang lalu</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d tahun lalu</item>
+        <item quantity="other">%d tahun lalu</item>
+    </plurals>
+    <plurals name="PHOTO_INDEX_IN_LIST">
+        <item quantity="one">Foto %1$,d dari %2$,d</item>
+        <item quantity="other">Foto %1$,d dari %2$,d</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d postingan foto</item>
+        <item quantity="other">%d postingan foto</item>
+    </plurals>
+    <plurals name="PHOTO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Menambahkan %d foto ke Maps</item>
+        <item quantity="other">Menambahkan %d foto ke Maps</item>
+    </plurals>
+    <plurals name="PLACE_QA_MORE_ANSWERS">
+        <item quantity="one">%d jawaban lainnya</item>
+        <item quantity="other">%d jawaban lainnya</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">Lihat %d jawaban</item>
+        <item quantity="other">Lihat %d jawaban</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="one">+%1$,d</item>
+        <item quantity="other">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Putar video di Postingan %1$d</item>
+        <item quantity="other">Putar video %2$d di Postingan %1$d</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+%d pembagian lainnya</item>
+        <item quantity="other">+%d pembagian lainnya</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Ganti stop</item>
+        <item quantity="other">Ganti stop</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Mengganti Perhentian</item>
+        <item quantity="other">Mengganti Perhentian</item>
+    </plurals>
+    <plurals name="POST_ACCESSIBILITY_THUMBS_UP_DESCRIPTION">
+        <item quantity="one">1 suka</item>
+        <item quantity="other">%d suka</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d x dilihat</item>
+        <item quantity="other">%,d x dilihat</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d rating</item>
+        <item quantity="other">%d rating</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d ulasan</item>
+        <item quantity="other">%d ulasan</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWEE_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">%,d mengikuti</item>
+        <item quantity="other">%,d mengikuti</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWER_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">%,d pengikut</item>
+        <item quantity="other">%,d pengikut</item>
+    </plurals>
+    <plurals name="PROFILE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">Lihat %,d jawaban</item>
+        <item quantity="other">Lihat %,d jawaban</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">Diberi rating %d bintang</item>
+        <item quantity="other">Diberi rating %d bintang</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">1 reaksi %2$s</item>
+        <item quantity="other">%1$,d reaksi %2$s</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">Diperbarui %d mnt lalu</item>
+        <item quantity="other">Diperbarui %d mnt lalu</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Untuk kereta dengan %1$d gerbong, naik di %2$s untuk keluar stasiun lebih cepat</item>
+        <item quantity="other">Untuk kereta dengan %1$d gerbong, naik di %2$s untuk keluar stasiun lebih cepat</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Untuk kereta dengan %1$d gerbong, naik di %2$s agar naik kereta berikutnya lebih cepat</item>
+        <item quantity="other">Untuk kereta dengan %1$d gerbong, naik di %2$s agar naik kereta berikutnya lebih cepat</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">Gerbong paling sepi adalah %1$s</item>
+        <item quantity="other">Gerbong paling sepi adalah %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">Kereta %1$d gerbong</item>
+        <item quantity="other">Kereta %1$d gerbong</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d pembayaran</item>
+        <item quantity="other">%d pembayaran</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s + %2$s lainnya</item>
+        <item quantity="other">%1$s + %2$s lainnya</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">Beri rating 1 bintang dari 5</item>
+        <item quantity="other">Beri rating %1$d bintang dari 5</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s x dilihat</item>
+        <item quantity="other">%s x dilihat</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d rating atau ulasan</item>
+        <item quantity="other">%,d rating dan ulasan</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d rating atau ulasan</item>
+        <item quantity="other">%,d rating dan ulasan</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d orang</item>
+        <item quantity="other">%d orang</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">%d daftar lainnya</item>
+        <item quantity="other">%d daftar lainnya</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Disimpan di %1$s &amp; %2$d daftar lainnya</item>
+        <item quantity="other">Disimpan di %1$s &amp; %2$d daftar lainnya</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">Simpan kunjungan Anda dari %d hari lalu?</item>
+        <item quantity="other">Simpan kunjungan Anda dari %d hari lalu?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">Ditemukan %1$d hasil untuk %2$s</item>
+        <item quantity="other">Ditemukan %1$d hasil untuk %2$s</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">Mengirim rating 1 bintang</item>
+        <item quantity="other">Mengirim rating %1$d bintang</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">selama %d hari</item>
+        <item quantity="other">selama %d hari</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">selama %d jam</item>
+        <item quantity="other">selama %d jam</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">selama %d mnt</item>
+        <item quantity="other">selama %d mnt</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">Berbagi lokasi dengan %2$s dan %1$d orang lainnya</item>
+        <item quantity="other">Berbagi lokasi dengan %2$s dan %1$d orang lainnya</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">Berbagi lokasi dengan %d orang lainnya</item>
+        <item quantity="other">Berbagi lokasi dengan %d orang lainnya</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">Berhasil memberi rating 1 bintang</item>
+        <item quantity="other">Berhasil memberi rating %1$d bintang</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d x dilihat</item>
+        <item quantity="other">%,d x dilihat</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d poin</item>
+        <item quantity="other">+%d poin</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">Posting %1$d foto atau video %2$s</item>
+        <item quantity="other">Posting %1$d foto dan video %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">Posting %1$d foto dari %2$s</item>
+        <item quantity="other">Posting %1$d foto dari %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">+%d lainnya</item>
+        <item quantity="other">+%d lainnya</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">Posting %1$d foto</item>
+        <item quantity="other">Posting %1$d foto</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">Posting %1$d</item>
+        <item quantity="other">Posting %1$d</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$d orang membicarakan %2$s</item>
+        <item quantity="other">%1$,d orang membicarakan %2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">1 reaksi</item>
+        <item quantity="other">%1$,d reaksi</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">Lihat %1$d opsi lainnya untuk harga mulai dari %2$s</item>
+        <item quantity="other">Lihat %1$d opsi lainnya untuk harga mulai dari %2$s</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">Lihat %1$d opsi lainnya</item>
+        <item quantity="other">Lihat opsi %1$d lainnya</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">Simpan alamat Anda untuk melihat rute tercepat di sekitar kemacetan</item>
+        <item quantity="other">Simpan alamat Anda untuk melihat rute tercepat di sekitar kemacetan</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">Keberangkatan diperbarui %1$d dtk lalu</item>
+        <item quantity="other">Keberangkatan diperbarui %1$d dtk lalu</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">Berangkat setiap menit</item>
+        <item quantity="other">Berangkat setiap %d menit</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d mnt</item>
+        <item quantity="other">%d mnt</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d perhentian</item>
+        <item quantity="other">%d perhentian</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+mnt lalu"</item>
+        <item quantity="other">"%1$s
+mnt lalu"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Berangkat %1$s menit lalu</item>
+        <item quantity="other">Berangkat %1$s menit lalu</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d pemberitahuan</item>
+        <item quantity="other">+%d pemberitahuan</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d pemberitahuan</item>
+        <item quantity="other">+ %d pemberitahuan</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d lainnya</item>
+        <item quantity="other">+%d lainnya</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d lainnya</item>
+        <item quantity="other">+ %d lainnya</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+mnt"</item>
+        <item quantity="other">"%1$s
+mnt"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s mnt yang lalu</item>
+        <item quantity="other">%1$s mnt yang lalu</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Berangkat dalam %1$s menit</item>
+        <item quantity="other">Berangkat dalam %1$s menit</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">%1$s peringatan lainnya</item>
+        <item quantity="other">%1$s peringatan lainnya</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s foto</item>
+        <item quantity="other">%s foto</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s ulasan</item>
+        <item quantity="other">%s ulasan</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d kontribusi</item>
+        <item quantity="other">%,d kontribusi</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d x dilihat</item>
+        <item quantity="other">%,d x dilihat</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Pilih maksimal %1$d</item>
+        <item quantity="other">Pilih maksimal %1$d</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Pilih maksimal %1$s foto</item>
+        <item quantity="other">Pilih maksimal %1$s foto</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Nyalakan suara video di Postingan %1$d</item>
+        <item quantity="other">Nyalakan suara video %2$d di Postingan %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d dari %2$d</item>
+        <item quantity="other">%1$d dari %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Menunggu Wi-Fi.
+ %d foto tertunda."</item>
+        <item quantity="other">"Menunggu Wi-Fi.
+ %d foto tertunda."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d foto dipilih</item>
+        <item quantity="other">%d foto dipilih</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">Mengunjungi %1$d dari %2$d tempat</item>
+        <item quantity="other">Mengunjungi %1$d dari %2$d tempat</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Nonaktifkan Penghemat Baterai untuk meningkatkan akurasi lokasi saat membagikan lokasi ke %1$s + %2$d lainnya</item>
+        <item quantity="other">Nonaktifkan Penghemat Baterai untuk meningkatkan akurasi lokasi saat membagikan lokasi ke %1$s + %2$d lainnya</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Lokasi perangkat harus diaktifkan untuk terus membagikan lokasi ke %1$s + %2$d lainnya</item>
+        <item quantity="other">Lokasi perangkat harus diaktifkan untuk terus membagikan lokasi ke %1$s + %2$d lainnya</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Perbarui Berbagi Lokasi untuk terus membagikan lokasi melalui perangkat ini ke %1$s + %2$d lainnya</item>
+        <item quantity="other">Perbarui Berbagi Lokasi untuk terus membagikan lokasi melalui perangkat ini ke %1$s + %2$d lainnya</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Izinkan Maps mengidentifikasi aktivitas fisik Anda untuk meningkatkan akurasi lokasi saat membagikan lokasi ke %1$s + %2$d lainnya</item>
+        <item quantity="other">Izinkan Maps mengidentifikasi aktivitas fisik Anda untuk meningkatkan akurasi lokasi saat membagikan lokasi ke %1$s + %2$d lainnya</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Selalu izinkan Maps mengakses lokasi Anda untuk meningkatkan akurasi lokasi saat membagikan lokasi ke %1$s + %2$d lainnya</item>
+        <item quantity="other">Selalu izinkan Maps mengakses lokasi Anda untuk meningkatkan akurasi lokasi saat membagikan lokasi ke %1$s + %2$d lainnya</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Selalu izinkan Maps mengakses lokasi Anda untuk terus membagikan lokasi ke %1$s + %2$d lainnya</item>
+        <item quantity="other">Selalu izinkan Maps mengakses lokasi Anda untuk terus membagikan lokasi ke %1$s + %2$d lainnya</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">%d+ Foto</item>
+        <item quantity="other">%d+ Foto</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d ulasan)</item>
+        <item quantity="other">(%,d ulasan)</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">Video untuk Postingan %1$d</item>
+        <item quantity="other">Video %2$d untuk Postingan %1$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">Video untuk Postingan %1$d menggunakan layar penuh</item>
+        <item quantity="other">Video %2$d untuk Postingan %1$d menggunakan layar penuh</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d malam</item>
+        <item quantity="other">%2$s × %1$d malam</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%2$s untuk %1$d malam sudah termasuk pajak + biaya</item>
+        <item quantity="other">%2$s untuk %1$d malam sudah termasuk pajak + biaya</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">1 mnt jalan kaki</item>
+        <item quantity="other">%d mnt jalan kaki</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d perhentian</item>
+        <item quantity="other">+ %d perhentian</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d perhentian)</item>
+        <item quantity="other">(%d perhentian)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d minggu lalu</item>
+        <item quantity="other">%d minggu lalu</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d tahun lalu</item>
+        <item quantity="other">%d tahun lalu</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">Lihat foto lainnya</item>
+        <item quantity="other">Lihat %1$d foto lainnya</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">Ulasan dan info terbaru Anda</item>
+        <item quantity="other">Ulasan dan info terbaru Anda</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">Anda mengikuti %1$s &amp; %2$d daftar lainnya</item>
+        <item quantity="other">Anda mengikuti %1$s &amp; %2$d daftar lainnya</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s dan %2$d lainnya</item>
+        <item quantity="other">%1$s dan %2$d lainnya</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d dari %2$d</item>
+        <item quantity="other">%1$d dari %2$d</item>
+    </plurals>
+    <plurals name="local_guide_level">
+        <item quantity="one"></item>
+        <item quantity="other">level %1$d</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="one">%1$d mnt</item>
+        <item quantity="other">%1$d mnt</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">1 hasil</item>
+        <item quantity="other">%1$d hasil</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notifikasi baru</item>
+        <item quantity="other">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="one">+ %1$d lainnya</item>
+        <item quantity="other">+ %1$d lainnya</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="one">%d orang sedang mengetik</item>
+        <item quantity="other">%d orang sedang mengetik</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">%d penerima disalin</item>
+        <item quantity="other">%d penerima disalin</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">Tulis sesuatu mengenai foto ini (opsional)</item>
+        <item quantity="other">Tulis sesuatu mengenai foto Anda (opsional)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Anda memiliki notifikasi</item>
+        <item quantity="other">%1$d notifikasi baru</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d dari %2$d bintang</item>
+        <item quantity="other">%1$d dari %2$d bintang</item>
+    </plurals>
+</resources>

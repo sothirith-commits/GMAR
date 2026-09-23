@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">ನಿಮ್ಮ ಬಳಿ %d ಸಕ್ರಿಯ ಮೆಟ್ರೋ ಟಿಕೆಟ್‌ಗಳಿವೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಬಳಿ %d ಸಕ್ರಿಯ ಮೆಟ್ರೋ ಟಿಕೆಟ್‌ಗಳಿವೆ</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">ಈ ಪ್ರಯಾಣಕ್ಕಾಗಿ ನೀವು %d ಸಕ್ರಿಯ ಟಿಕೆಟ್‌ಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ</item>
+        <item quantity="other">ಈ ಪ್ರಯಾಣಕ್ಕಾಗಿ ನೀವು %d ಸಕ್ರಿಯ ಟಿಕೆಟ್‌ಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ</item>
+    </plurals>
+    <plurals name="ACTION_ITEM_NEEDS_ATTENTION_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d ಹೊಸ ಐಟಂಗಳು</item>
+        <item quantity="other">%1$d ಹೊಸ ಐಟಂಗಳು</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">ಇನ್ನೂ %d ಆಯ್ಕೆಗಳು</item>
+        <item quantity="other">ಇನ್ನೂ %d ಆಯ್ಕೆಗಳು</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d ಜನರು ವರದಿ ಮಾಡಿದ್ದಾರೆ</item>
+        <item quantity="other">%1$d ಜನರು ವರದಿ ಮಾಡಿದ್ದಾರೆ</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d ಎಚ್ಚರಿಕೆಗಳು</item>
+        <item quantity="other">%d ಎಚ್ಚರಿಕೆಗಳು</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d ಸ್ಥಳಗಳು</item>
+        <item quantity="other">%1$d ಸ್ಥಳಗಳು</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">ಉತ್ತರಗಳನ್ನು ನೋಡಿ (%,d)</item>
+        <item quantity="other">ಉತ್ತರಗಳನ್ನು ನೋಡಿ (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">ಇಲ್ಲಿ %d ಸ್ಥಳಗಳನ್ನು ಎಕ್ಸ್‌ಪ್ಲೋರ್‌ ಮಾಡಿ</item>
+        <item quantity="other">ಇಲ್ಲಿ %d ಸ್ಥಳಗಳನ್ನು ಎಕ್ಸ್‌ಪ್ಲೋರ್‌ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d ಬೈಕ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+        <item quantity="other">%d ಬೈಕ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">ಸ್ಟೇಶನ್‌ನಲ್ಲಿ %s ಬೈಕ್‌ಗಳು ಲಭ್ಯವಿವೆ</item>
+        <item quantity="other">ಸ್ಟೇಶನ್‌ನಲ್ಲಿ %s ಬೈಕ್‌ಗಳು ಲಭ್ಯವಿವೆ</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d ಬೈಕ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+        <item quantity="other">%d ಬೈಕ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d ಡಾಕ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+        <item quantity="other">%d ಡಾಕ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d ಡಾಕ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+        <item quantity="other">%d ಡಾಕ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">%1$d ಜನರಿಂದ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%1$d ಜನರಿಂದ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">%1$d ದಿನಗಳ ಹಿಂದೆ ಬಳಸಲಾಗಿದೆ</item>
+        <item quantity="other">%1$d ದಿನಗಳ ಹಿಂದೆ ಬಳಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">%1$d ವಾರಗಳ ಹಿಂದೆ ಬಳಸಲಾಗಿದೆ</item>
+        <item quantity="other">%1$d ವಾರಗಳ ಹಿಂದೆ ಬಳಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="CAR_EV_COLLAPSED_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s ಚಾರ್ಜಿಂಗ್ ಸ್ಟಾಪ್‌ಗಳು</item>
+        <item quantity="other">%1$s ಚಾರ್ಜಿಂಗ್ ಸ್ಟಾಪ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%1$d ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">+ಇನ್ನೂ %1$d</item>
+        <item quantity="other">+ಇನ್ನೂ %1$d</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_BONUS_POINTS_LABEL">
+        <item quantity="one">ಬೋನಸ್</item>
+        <item quantity="other">ಬೋನಸ್</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_BONUS_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">ನೀವು %d ಬೋನಸ್ ಪಾಯಿಂಟ್‌ಗಳನ್ನು ಗಳಿಸಿದ್ದೀರಿ</item>
+        <item quantity="other">ನೀವು %d ಬೋನಸ್ ಪಾಯಿಂಟ್‌ಗಳನ್ನು ಗಳಿಸಿದ್ದೀರಿ</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_PLACES_UPDATED_A11Y_LABEL">
+        <item quantity="one">ನೀವು %d ಸ್ಥಳಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿದ್ದೀರಿ</item>
+        <item quantity="other">ನೀವು %d ಸ್ಥಳಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿದ್ದೀರಿ</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">ನೀವು %d ಪಾಯಿಂಟ್‌ಗಳನ್ನು ಗಳಿಸಿದ್ದೀರಿ</item>
+        <item quantity="other">ನೀವು %d ಪಾಯಿಂಟ್‌ಗಳನ್ನು ಗಳಿಸಿದ್ದೀರಿ</item>
+    </plurals>
+    <plurals name="CHALLENGE_POINTS_LABEL">
+        <item quantity="one">%d ಪಾಯಿಂಟ್‌ಗಳು</item>
+        <item quantity="other">%d ಪಾಯಿಂಟ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="CHARGING_ROUTE_SUMMARY_CHARGING_STOPS_SHORT">
+        <item quantity="one">%1$d ನಿಲುಗಡೆಗಳು</item>
+        <item quantity="other">%1$d ನಿಲುಗಡೆಗಳು</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_HOME_TO_WORK_TITLE">
+        <item quantity="one">ಕೆಲಸಕ್ಕೆ %d ನಿಮಿಷಗಳು</item>
+        <item quantity="other">ಕೆಲಸಕ್ಕೆ %d ನಿಮಿಷಗಳು</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">ಸಾಮಾನ್ಯಕ್ಕಿಂತ %d ನಿಮಿಷಗಳು ವೇಗವಾಗಿ</item>
+        <item quantity="other">ಸಾಮಾನ್ಯಕ್ಕಿಂತ %d ನಿಮಿಷಗಳು ವೇಗವಾಗಿ</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">ಸಾಮಾನ್ಯಕ್ಕಿಂತ %d ನಿಮಿಷಗಳು ನಿಧಾನ</item>
+        <item quantity="other">ಸಾಮಾನ್ಯಕ್ಕಿಂತ %d ನಿಮಿಷಗಳು ನಿಧಾನ</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_UNSPECIFIED_TITLE">
+        <item quantity="one">%d ನಿಮಿಷ ಪ್ರಯಾಣದ ಸಮಯ</item>
+        <item quantity="other">%d ನಿಮಿಷ ಪ್ರಯಾಣದ ಸಮಯ</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_WORK_TO_HOME_TITLE">
+        <item quantity="one">ಮನೆಗೆ %d ನಿಮಿಷಗಳು</item>
+        <item quantity="other">ಮನೆಗೆ %d ನಿಮಿಷಗಳು</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Map ಬೇರಿಂಗ್ %d ಡಿಗ್ರಿಗಳು.</item>
+        <item quantity="other">Map ಬೇರಿಂಗ್ %d ಡಿಗ್ರಿಗಳು.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">%d-ಸ್ಟಾರ್ ಸಂಸ್ಥೆ</item>
+        <item quantity="other">%d-ಸ್ಟಾರ್ ಸಂಸ್ಥೆ</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">ಸ್ಥಳೀಯ ಮಾರ್ಗದರ್ಶಕ ಮಟ್ಟ %d</item>
+        <item quantity="other">ಸ್ಥಳೀಯ ಮಾರ್ಗದರ್ಶಕ ಮಟ್ಟ %d</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_STAT_FOLLOWER_COUNT">
+        <item quantity="one">%,d ಅನುಸರಿಸುವವರು</item>
+        <item quantity="other">%,d ಅನುಸರಿಸುವವರು</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">ನೀವು %1$s ಗೆ %2$d ನಕ್ಷತ್ರಗಳನ್ನು ಹಾಕಿ ರೇಟ್ ಮಾಡಿದ್ದೀರಿ</item>
+        <item quantity="other">ನೀವು %1$s ಗೆ %2$d ನಕ್ಷತ್ರಗಳನ್ನು ಹಾಕಿ ರೇಟ್ ಮಾಡಿದ್ದೀರಿ</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_PLACES">
+        <item quantity="one">ಸ್ಥಳಗಳು</item>
+        <item quantity="other">ಸ್ಥಳಗಳು</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">ಪಾಯಿಂಟ್‌‌ಗಳು</item>
+        <item quantity="other">ಪಾಯಿಂಟ್‌‌ಗಳು</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s ದಿನಗಳು</item>
+        <item quantity="other">%s ದಿನಗಳು</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s ದಿ</item>
+        <item quantity="other">%s ದಿ</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sದಿ</item>
+        <item quantity="other">%sದಿ</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s ದಿನಗಳು</item>
+        <item quantity="other">%s ದಿನಗಳು</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s ಗಂಟೆಗಳು</item>
+        <item quantity="other">%s ಗಂಟೆಗಳು</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s ಗಂ</item>
+        <item quantity="other">%s ಗಂ</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sಗಂ</item>
+        <item quantity="other">%sಗಂ</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s ನಿಮಿಷಗಳು</item>
+        <item quantity="other">%s ನಿಮಿಷಗಳು</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s ನಿ</item>
+        <item quantity="other">%s ನಿಮಿ</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sನಿ</item>
+        <item quantity="other">%sನಿ</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s ಸೆಕೆಂಡ್‌ಗಳು</item>
+        <item quantity="other">%s ಸೆಕೆಂಡ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">%1$s ಅಡಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%1$s ಅಡಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">%1$s ಕಿಲೋಮೀಟರ್‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%1$s ಕಿಲೋಮೀಟರ್‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">%1$s ಮೀಟರ್‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%1$s ಮೀಟರ್‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">%1$s ಮೈಲಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%1$s ಮೈಲಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">%1$s ಗಜಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%1$s ಗಜಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">%2$s ನಲ್ಲಿ %1$s ಅಡಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%2$s ನಲ್ಲಿ %1$s ಅಡಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">%2$s ನಲ್ಲಿ %1$s ಕಿಲೋಮೀಟರ್‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%2$s ನಲ್ಲಿ %1$s ಕಿಲೋಮೀಟರ್‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">%2$s ನಲ್ಲಿ %1$s ಮೀಟರ್‌‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%2$s ನಲ್ಲಿ %1$s ಮೀಟರ್‌‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">%2$s ನಲ್ಲಿ %1$s ಮೈಲಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%2$s ನಲ್ಲಿ %1$s ಮೈಲಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">%2$s ನಲ್ಲಿ %1$s ಗಜಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%2$s ನಲ್ಲಿ %1$s ಗಜಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s ಅಡಿಗಳಲ್ಲಿ</item>
+        <item quantity="other">%1$s ಅಡಿಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s ಕಿಲೋಮೀಟರ್‌ಗಳಲ್ಲಿ</item>
+        <item quantity="other">%1$s ಕಿಲೋಮೀಟರ್‌ಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s ಮೀಟರ್‌ಗಳಲ್ಲಿ</item>
+        <item quantity="other">%1$s ಮೀಟರ್‌ಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s ಮೈಲಿಗಳಲ್ಲಿ</item>
+        <item quantity="other">%1$s ಮೈಲಿಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s ಗಜಗಳಲ್ಲಿ</item>
+        <item quantity="other">%1$s ಗಜಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">ಪ್ರತಿ ಗಂಟೆಗೆ %s ಕಿಲೋಮೀಟರ್‌ಗಳು</item>
+        <item quantity="other">ಪ್ರತಿ ಗಂಟೆಗೆ %s ಕಿಲೋಮೀಟರ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">ಪ್ರತಿ ಗಂಟೆಗೆ %s ಮೈಲಿಗಳು</item>
+        <item quantity="other">ಪ್ರತಿ ಗಂಟೆಗೆ %s ಮೈಲಿಗಳು</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನ %1$s ಅಡಿಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನ %1$s ಅಡಿಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವು %1$s ಕಿಲೋಮೀಟರ್‌ಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವು %1$s ಕಿಲೋಮೀಟರ್‌ಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವು %1$s ಮೀಟರ್‌ಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವು %1$s ಮೀಟರ್‌ಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವು %1$s ಮೈಲಿಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವು %1$s ಮೈಲಿಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನ %1$s ಗಜಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನ %1$s ಗಜಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d ನಿಲ್ದಾಣಗಳು</item>
+        <item quantity="other">%d ನಿಲ್ದಾಣಗಳು</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d ಕನೆಕ್ಟಿಂಗ್ ಮೋಡ್‌ಗಳು</item>
+        <item quantity="other">%1$d ಕನೆಕ್ಟಿಂಗ್ ಮೋಡ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">%d ದಿನಗಳ ಹಿಂದೆ ಅಪ್‌ಡೇಟ್‌ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%d ದಿನಗಳ ಹಿಂದೆ ಅಪ್‌ಡೇಟ್‌ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">%d ತಿಂಗಳುಗಳ ಹಿಂದೆ ಅಪ್‍ಡೇಟ್‌ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%d ತಿಂಗಳುಗಳ ಹಿಂದೆ ಅಪ್‍ಡೇಟ್‌ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">%d ವಾರಗಳ ಹಿಂದೆ ಅಪ್‍ಡೇಟ್‌ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%d ವಾರಗಳ ಹಿಂದೆ ಅಪ್‍ಡೇಟ್‌ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d ಬೈಕ್‌ಗಳು ಲಭ್ಯವಿವೆ</item>
+        <item quantity="other">%d ಬೈಕ್‌ಗಳು ಲಭ್ಯವಿವೆ</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">%d ಬೈಕ್‌ಗಳು ಸಮೀಪ ಇವೆ</item>
+        <item quantity="other">%d ಬೈಕ್‌ಗಳು ಸಮೀಪ ಇವೆ</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d ಚಾರ್ಜಿಂಗ್ ಪೋರ್ಟ್‌ಗಳಲ್ಲಿ %2$d</item>
+        <item quantity="other">%1$d ಚಾರ್ಜಿಂಗ್ ಪೋರ್ಟ್‌ಗಳಲ್ಲಿ %2$d</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d ಚಾರ್ಜಿಂಗ್ ಪೋರ್ಟ್‌ಗಳು</item>
+        <item quantity="other">%d ಚಾರ್ಜಿಂಗ್ ಪೋರ್ಟ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">%1$d ನಕ್ಷತ್ರಗಳನ್ನು ಹಾಕಲು ವಿಫಲವಾಗಿದೆ, ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</item>
+        <item quantity="other">%1$d ನಕ್ಷತ್ರಗಳನ್ನು ಹಾಕಲು ವಿಫಲವಾಗಿದೆ, ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">ಮಹಡಿಗಳು %s</item>
+        <item quantity="other">ಮಹಡಿಗಳು %s</item>
+    </plurals>
+    <plurals name="FOLLOWER_COUNT_LABEL">
+        <item quantity="one">ಅನುಸರಿಸುವವರು</item>
+        <item quantity="other">ಅನುಸರಿಸುವವರು</item>
+    </plurals>
+    <plurals name="FOLLOWING_COUNT_LABEL">
+        <item quantity="one">ಅನುಸರಿಸಲಾಗುತ್ತಿದೆ</item>
+        <item quantity="other">ಅನುಸರಿಸಲಾಗುತ್ತಿದೆ</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">%d ಹೆಚ್ಚುವರಿ ರಾತ್ರಿಗಳು</item>
+        <item quantity="other">%d ಹೆಚ್ಚುವರಿ ರಾತ್ರಿಗಳು</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">%d ರಾತ್ರಿಗಳನ್ನು ಸೇರಿಸಿ</item>
+        <item quantity="other">%d ರಾತ್ರಿಗಳನ್ನು ಸೇರಿಸಿ</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">ಈ ಹೋಟೆಲ್ %1$d-ರಾತ್ರಿ ತಂಗಲು ಲಭ್ಯತೆಯನ್ನು ಹೊಂದಿದೆ. %2$s ರಾತ್ರಿಗಾಗಿ ಸರಾಸರಿ ದರ %3$s ಆಗಿದೆ.</item>
+        <item quantity="other">ಈ ಹೋಟೆಲ್ %1$d-ರಾತ್ರಿ ತಂಗಲು ಲಭ್ಯತೆಯನ್ನು ಹೊಂದಿದೆ. %2$s ರಾತ್ರಿಗಾಗಿ ಸರಾಸರಿ ದರ %3$s ಆಗಿದೆ.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">%1$s ರಾತ್ರಿಗಾಗಿ ತಂಗಲು ಸರಾಸರಿ ದರ %2$s ಆಗಿದೆ</item>
+        <item quantity="other">%1$s ರಾತ್ರಿಗಾಗಿ ತಂಗಲು ಸರಾಸರಿ ದರ %2$s ಆಗಿದೆ</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d ಅತಿಥಿಗಳು</item>
+        <item quantity="other">%d ಅತಿಥಿಗಳು</item>
+    </plurals>
+    <plurals name="HOTEL_PLACE_COUNT">
+        <item quantity="one">%d ಉಳಿದುಕೊಳ್ಳಲು ಸ್ಥಳಗಳು</item>
+        <item quantity="other">%d ಉಳಿದುಕೊಳ್ಳಲು ಸ್ಥಳಗಳು</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">ಮತ್ತು %d ಇನ್ನಷ್ಟು.</item>
+        <item quantity="other">ಮತ್ತು %d ಇನ್ನಷ್ಟು.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">+ ಇನ್ನೂ %d.</item>
+        <item quantity="other">+ ಇನ್ನೂ %d.</item>
+    </plurals>
+    <plurals name="IN_STORE_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">ಸ್ಟೋರ್‌ನಲ್ಲಿನ ಫೋಟೋ ಸಂಖ್ಯೆ %d</item>
+        <item quantity="other">ಸ್ಟೋರ್‌ನಲ್ಲಿನ ಫೋಟೋ ಸಂಖ್ಯೆ %d</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">%1$s ಹಾಗೂ ಇನ್ನೂ %2$d ಗಳಲ್ಲಿ ಸೇವ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%1$s ಹಾಗೂ ಇನ್ನೂ %2$d ಗಳಲ್ಲಿ ಸೇವ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">ನೀವು %d ತಿಂಗಳುಗಳ ಹಿಂದೆ ಭೇಟಿ ನೀಡಿದ್ದಿರಿ</item>
+        <item quantity="other">ನೀವು %d ತಿಂಗಳುಗಳ ಹಿಂದೆ ಭೇಟಿ ನೀಡಿದ್ದಿರಿ</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">ನೀವು %d ವಾರಗಳ ಹಿಂದೆ ಭೇಟಿ ನೀಡಿದ್ದಿರಿ</item>
+        <item quantity="other">ನೀವು %d ವಾರಗಳ ಹಿಂದೆ ಭೇಟಿ ನೀಡಿದ್ದಿರಿ</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">ನೀವು %d ವರ್ಷಗಳ ಹಿಂದೆ ಭೇಟಿ ನೀಡಿದ್ದಿರಿ</item>
+        <item quantity="other">ನೀವು %d ವರ್ಷಗಳ ಹಿಂದೆ ಭೇಟಿ ನೀಡಿದ್ದಿರಿ</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d ಈವೆಂಟ್‌ಗಳು</item>
+        <item quantity="other">%d ಈವೆಂಟ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d ಐಟಂಗಳು</item>
+        <item quantity="other">%d ಐಟಂಗಳು</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d ಸ್ಥಳಗಳು</item>
+        <item quantity="other">%d ಸ್ಥಳಗಳು</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">%d ಉಳಿಸಿದ ವಿಷಯಗಳು</item>
+        <item quantity="other">%d ಉಳಿಸಿದ ವಿಷಯಗಳು</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d ಪ್ರಯಾಣಗಳು</item>
+        <item quantity="other">%d ಪ್ರಯಾಣಗಳು</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s ವೀಕ್ಷಣೆಗಳು</item>
+        <item quantity="other">%s ವೀಕ್ಷಣೆಗಳು</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">%d ದಿನಗಳ ಹಿಂದೆ ಎಡಿಟ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%d ದಿನಗಳ ಹಿಂದೆ ಎಡಿಟ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">%d ತಿಂಗಳುಗಳ ಹಿಂದೆ ಎಡಿಟ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%d ತಿಂಗಳುಗಳ ಹಿಂದೆ ಎಡಿಟ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">%d ವಾರಗಳ ಹಿಂದೆ ಎಡಿಟ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%d ವಾರಗಳ ಹಿಂದೆ ಎಡಿಟ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">%d ವರ್ಷಗಳ ಹಿಂದೆ ಎಡಿಟ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%d ವರ್ಷಗಳ ಹಿಂದೆ ಎಡಿಟ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">ನೀವು %d ಪಾಯಿಂಟ್‌ಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ</item>
+        <item quantity="other">ನೀವು %d ಪಾಯಿಂಟ್‌ಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TEXT">
+        <item quantity="one">%d ಪಾಯಿಂಟ್‌ಗಳು</item>
+        <item quantity="other">%d ಪಾಯಿಂಟ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">%1$d ಹಂತವನ್ನು ತಲುಪಲು %2$d ಪಾಯಿಂಟ್‌ಗಳು ಮಾತ್ರ ಬಾಕಿ ಉಳಿದಿವೆ</item>
+        <item quantity="other">%1$d ಹಂತವನ್ನು ತಲುಪಲು %2$d ಪಾಯಿಂಟ್‌ಗಳು ಮಾತ್ರ ಬಾಕಿ ಉಳಿದಿವೆ</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">ಹಂತ %d</item>
+        <item quantity="other">ಹಂತ %d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_LEVEL">
+        <item quantity="one">ಸ್ಥಳೀಯ ಮಾರ್ಗದರ್ಶಕ ಹಂತ %d</item>
+        <item quantity="other">ಸ್ಥಳೀಯ ಮಾರ್ಗದರ್ಶಕ ಹಂತ %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">ವ್ಯಾಪಾರ ಪ್ರಾರಂಭಿಸಿ %d+ ವರ್ಷಗಳಾಗಿವೆ</item>
+        <item quantity="other">ವ್ಯಾಪಾರ ಪ್ರಾರಂಭಿಸಿ %d+ ವರ್ಷಗಳಾಗಿವೆ</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d ದಿನಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%d ದಿನಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d ಗಂಟೆಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%d ಗಂಟೆಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d ನಿಮಿಷಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%d ನಿಮಿಷಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">%d ಸ್ಥಳಗಳು ಇಲ್ಲಿವೆ</item>
+        <item quantity="other">%d ಸ್ಥಳಗಳು ಇಲ್ಲಿವೆ</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">ಫೋಟೋಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ</item>
+        <item quantity="other">ಫೋಟೋಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d ಪೋಸ್ಟ್‌ನಲ್ಲಿ %2$d ವೀಡಿಯೊವನ್ನು ಪೂರ್ಣಪರದೆ ಮಾಡಿ</item>
+        <item quantity="other">%1$d ಪೋಸ್ಟ್‌ನಲ್ಲಿ %2$d ವೀಡಿಯೊವನ್ನು ಪೂರ್ಣಪರದೆ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%2$,d ರಲ್ಲಿ %1$,d</item>
+        <item quantity="other">%2$,d ರಲ್ಲಿ %1$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">%1$d ಮೀಡಿಯಾ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ</item>
+        <item quantity="other">%1$d ಮೀಡಿಯಾ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">ಮೆನು ಫೋಟೋ ಸಂಖ್ಯೆ %d</item>
+        <item quantity="other">ಮೆನು ಫೋಟೋ ಸಂಖ್ಯೆ %d</item>
+    </plurals>
+    <plurals name="MERCHANT_PANEL_CALLS_LIST_TIMESTAMP_SECONDS">
+        <item quantity="one">%1$d ಸೆಕೆಂಡ್‌ಗಳು</item>
+        <item quantity="other">%1$d ಸೆಕೆಂಡ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d ವರದಿಗಳು</item>
+        <item quantity="other">%1$d ವರದಿಗಳು</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">ಈ ಲಿಂಕ್ ಹೊಂದಿರುವ ಜನರು ನಿಮ್ಮ ಸ್ಥಳವನ್ನು 1 ದಿನ ಮತ್ತು %d ಗಂಟೆಗಳ ಕಾಲ ನೋಡಬಹುದು</item>
+        <item quantity="other">ಈ ಲಿಂಕ್ ಹೊಂದಿರುವ ಜನರು ನಿಮ್ಮ ಸ್ಥಳವನ್ನು 1 ದಿನ ಮತ್ತು %d ಗಂಟೆಗಳ ಕಾಲ ನೋಡಬಹುದು</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">ಈ ಲಿಂಕ್ ಹೊಂದಿರುವ ಜನರು ನಿಮ್ಮ ಸ್ಥಳವನ್ನು 1 ಗಂಟೆ ಮತ್ತು %d ನಿಮಿಷದ ಕಾಲ ನೋಡಬಹುದು</item>
+        <item quantity="other">ಈ ಲಿಂಕ್ ಹೊಂದಿರುವ ಜನರು ನಿಮ್ಮ ಸ್ಥಳವನ್ನು 1 ಗಂಟೆ ಮತ್ತು %d ನಿಮಿಷದ ಕಾಲ ನೋಡಬಹುದು</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">ಈ ಲಿಂಕ್ ಹೊಂದಿರುವ ಜನರು ನಿಮ್ಮ ಸ್ಥಳವನ್ನು %d ದಿನಗಳ ಕಾಲ ನೋಡಬಹುದು</item>
+        <item quantity="other">ಈ ಲಿಂಕ್ ಹೊಂದಿರುವ ಜನರು ನಿಮ್ಮ ಸ್ಥಳವನ್ನು %d ದಿನಗಳ ಕಾಲ ನೋಡಬಹುದು</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">ಈ ಲಿಂಕ್ ಹೊಂದಿರುವ ಜನರು ನಿಮ್ಮ ಸ್ಥಳವನ್ನು %d ಗಂಟೆಗಳ ಕಾಲ ನೋಡಬಹುದು</item>
+        <item quantity="other">ಈ ಲಿಂಕ್ ಹೊಂದಿರುವ ಜನರು ನಿಮ್ಮ ಸ್ಥಳವನ್ನು %d ಗಂಟೆಗಳ ಕಾಲ ನೋಡಬಹುದು</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">ಈ ಲಿಂಕ್ ಹೊಂದಿರುವ ಜನರು ನಿಮ್ಮ ಸ್ಥಳವನ್ನು %d ನಿಮಿಷದ ಕಾಲ ನೋಡಬಹುದು</item>
+        <item quantity="other">ಈ ಲಿಂಕ್ ಹೊಂದಿರುವ ಜನರು ನಿಮ್ಮ ಸ್ಥಳವನ್ನು %d ನಿಮಿಷದ ಕಾಲ ನೋಡಬಹುದು</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">ಇನ್ನೂ %d</item>
+        <item quantity="other">ಇನ್ನೂ %d</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d ಪೋಸ್ಟ್‌ನಲ್ಲಿ %2$d ವೀಡಿಯೊವನ್ನು ಮ್ಯೂಟ್‌ ಮಾಡಿ</item>
+        <item quantity="other">%1$d ಪೋಸ್ಟ್‌ನಲ್ಲಿ %2$d ವೀಡಿಯೊವನ್ನು ಮ್ಯೂಟ್‌ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d ಫೋಟೋಗಳು/ವೀಡಿಯೊಗಳು</item>
+        <item quantity="other">%d ಫೋಟೋಗಳು/ವೀಡಿಯೊಗಳು</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d ವೀಡಿಯೊಗಳು</item>
+        <item quantity="other">%d ವೀಡಿಯೊಗಳು</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">%2$d ರಲ್ಲಿ %1$d ಅವತಾರ್ ಅನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ</item>
+        <item quantity="other">%2$d ರಲ್ಲಿ %1$d ಅವತಾರ್ ಅನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_VEHICLE_DESCRIPTION">
+        <item quantity="one">%2$d ರಲ್ಲಿ %1$d ಕಸ್ಟಮ್ ವಾಹನ</item>
+        <item quantity="other">%2$d ರಲ್ಲಿ %1$d ಕಸ್ಟಮ್ ವಾಹನ</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d ಹೊಸ ಅಪ್‌ಡೇಟ್‌ಗಳು</item>
+        <item quantity="other">%d ಹೊಸ ಅಪ್‌ಡೇಟ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">ವ್ಯಾಪಾರದ ಅಪ್‌ಡೇಟ್‌ಗಳು, %1$s ಹೊಸ ನೋಟಿಫಿಕೇಶನ್‌ಗಳು</item>
+        <item quantity="other">ವ್ಯಾಪಾರದ ಅಪ್‌ಡೇಟ್‌ಗಳು, %1$s ಹೊಸ ನೋಟಿಫಿಕೇಶನ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d ಫೋಟೋಗಳು</item>
+        <item quantity="other">%d ಫೋಟೋಗಳು</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d ಅಭಿಪ್ರಾಯಗಳು</item>
+        <item quantity="other">%d ಅಭಿಪ್ರಾಯಗಳು</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">ಥಂಬ್‌ನೇಲ್ ಸಂಖ್ಯೆ %d</item>
+        <item quantity="other">ಥಂಬ್‌ನೇಲ್ ಸಂಖ್ಯೆ %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d ಆಫ್‌ಲೈನ್ ಪ್ರದೇಶಗಳು</item>
+        <item quantity="other">%d ಆಫ್‌ಲೈನ್ ಪ್ರದೇಶಗಳು</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d ವರದಿಗಳನ್ನು ಆಧರಿಸಿದೆ</item>
+        <item quantity="other">%1$d ವರದಿಗಳನ್ನು ಆಧರಿಸಿದೆ</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d ಪೋಸ್ಟ್‌ನಲ್ಲಿ %2$d ವೀಡಿಯೊವನ್ನು ವಿರಾಮಗೊಳಿಸಿ</item>
+        <item quantity="other">%1$d ಪೋಸ್ಟ್‌ನಲ್ಲಿ %2$d ವೀಡಿಯೊವನ್ನು ವಿರಾಮಗೊಳಿಸಿ</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s ಸಂವಹನಗಳು</item>
+        <item quantity="other">%1$s ಸಂವಹನಗಳು</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s ಹುಡುಕಾಟಗಳು</item>
+        <item quantity="other">%1$s ಹುಡುಕಾಟಗಳು</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s ವೀಕ್ಷಣೆಗಳು</item>
+        <item quantity="other">%1$s ವೀಕ್ಷಣೆಗಳು</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">%d ರಾತ್ರಿಗಳಿಗಾಗಿ ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ</item>
+        <item quantity="other">%d ರಾತ್ರಿಗಳಿಗಾಗಿ ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">ಇವುಗಳನ್ನು ನೀವು ಮಾತ್ರ ನೋಡಬಹುದು</item>
+        <item quantity="other">ಇವುಗಳನ್ನು ನೀವು ಮಾತ್ರ ನೋಡಬಹುದು</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d ದಿನಗಳು</item>
+        <item quantity="other">%1$d ದಿನಗಳು</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d ರಾತ್ರಿಗಳು</item>
+        <item quantity="other">%1$d ರಾತ್ರಿಗಳು</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d ಫೋಟೋಗಳು</item>
+        <item quantity="other">%d ಫೋಟೋಗಳು</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_CHECKED_DESCRIPTION">
+        <item quantity="one">ನಿಮ್ಮನ್ನೂ ಒಳಗೊಂಡಂತೆ %d ಜನರು ಈ ಫೋಟೋವನ್ನು ಇಷ್ಟಪಟ್ಟಿದ್ದಾರೆ</item>
+        <item quantity="other">ನಿಮ್ಮನ್ನೂ ಒಳಗೊಂಡಂತೆ %d ಜನರು ಈ ಫೋಟೋವನ್ನು ಇಷ್ಟಪಟ್ಟಿದ್ದಾರೆ</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_UNCHECKED_DESCRIPTION">
+        <item quantity="one">%d ಜನರು ಈ ಫೋಟೋವನ್ನು ಇಷ್ಟಪಟ್ಟಿದ್ದಾರೆ</item>
+        <item quantity="other">%d ಜನರು ಈ ಫೋಟೋವನ್ನು ಇಷ್ಟಪಟ್ಟಿದ್ದಾರೆ</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">ನಕ್ಷೆಗಳಿಗೆ %1$d ಫೋಟೋಗಳು/ವೀಡಿಯೊಗಳನ್ನು ಸೇರಿಸಲಾಗುತ್ತಿದೆ</item>
+        <item quantity="other">ನಕ್ಷೆಗಳಿಗೆ %1$d ಫೋಟೋಗಳು/ವೀಡಿಯೊಗಳನ್ನು ಸೇರಿಸಲಾಗುತ್ತಿದೆ</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"ವೈ-ಫೈಗಾಗಿ ನೀರಿಕ್ಷಿಸಲಾಗುತ್ತಿದೆ.
+ %d ಬಾಕಿ ಉಳಿದಿರುವ ಫೋಟೋಗಳು/ವೀಡಿಯೊಗಳು."</item>
+        <item quantity="other">"ವೈ-ಫೈಗಾಗಿ ನೀರಿಕ್ಷಿಸಲಾಗುತ್ತಿದೆ.
+ %d ಬಾಕಿ ಉಳಿದಿರುವ ಫೋಟೋಗಳು/ವೀಡಿಯೊಗಳು."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">%2$d ಪೋಸ್ಟ್‌ನ ಫೋಟೋ %1$d</item>
+        <item quantity="other">%2$d ಪೋಸ್ಟ್‌ನ ಫೋಟೋ %1$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d ದಿನಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%d ದಿನಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d ಗಂಟೆಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%d ಗಂಟೆಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d ತಿಂಗಳುಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%d ತಿಂಗಳುಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d ವಾರಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%d ವಾರಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d ವರ್ಷಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%d ವರ್ಷಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="PHOTO_INDEX_IN_LIST">
+        <item quantity="one">%2$,d ರಲ್ಲಿ %1$,d ಫೋಟೋ</item>
+        <item quantity="other">%2$,d ರಲ್ಲಿ %1$,d ಫೋಟೋ</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d ಅಪ್‌ಡೇಟ್‌ಗಳು</item>
+        <item quantity="other">%d ಅಪ್‌ಡೇಟ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="PHOTO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">ನಕ್ಷೆಗಳಿಗೆ %d ಫೋಟೋಗಳನ್ನು ಸೇರಿಸಲಾಗುತ್ತಿದೆ</item>
+        <item quantity="other">ನಕ್ಷೆಗಳಿಗೆ %d ಫೋಟೋಗಳನ್ನು ಸೇರಿಸಲಾಗುತ್ತಿದೆ</item>
+    </plurals>
+    <plurals name="PLACE_QA_MORE_ANSWERS">
+        <item quantity="one">ಇನ್ನೂ %d ಉತ್ತರಗಳು</item>
+        <item quantity="other">ಇನ್ನೂ %d ಉತ್ತರಗಳು</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">%d ಉತ್ತರಗಳನ್ನು ವೀಕ್ಷಿಸಿ</item>
+        <item quantity="other">%d ಉತ್ತರಗಳನ್ನು ವೀಕ್ಷಿಸಿ</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="one">+%1$,d</item>
+        <item quantity="other">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d ಪೋಸ್ಟ್‌ನಲ್ಲಿ %2$d ವೀಡಿಯೊವನ್ನು ಪ್ಲೇ ಮಾಡಿ</item>
+        <item quantity="other">%1$d ಪೋಸ್ಟ್‌ನಲ್ಲಿ %2$d ವೀಡಿಯೊವನ್ನು ಪ್ಲೇ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+%d ಇತರ ಹಂಚಿಕೊಳ್ಳುವಿಕೆಗಳು</item>
+        <item quantity="other">+%d ಇತರ ಹಂಚಿಕೊಳ್ಳುವಿಕೆಗಳು</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">ಬದಲಿಸು</item>
+        <item quantity="other">ಬದಲಿಸು</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">ನಿಲ್ದಾಣಗಳನ್ನು ಬದಲಿಸಲಾಗುತ್ತಿದೆ</item>
+        <item quantity="other">ನಿಲ್ದಾಣಗಳನ್ನು ಬದಲಿಸಲಾಗುತ್ತಿದೆ</item>
+    </plurals>
+    <plurals name="POST_ACCESSIBILITY_THUMBS_UP_DESCRIPTION">
+        <item quantity="one">%d ಲೈಕ್‌ಗಳು</item>
+        <item quantity="other">%d ಲೈಕ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d ವೀಕ್ಷಣೆಗಳು</item>
+        <item quantity="other">%,d ವೀಕ್ಷಣೆಗಳು</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d ರೇಟಿಂಗ್‌ಗಳು</item>
+        <item quantity="other">%d ರೇಟಿಂಗ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d ಅಭಿಪ್ರಾಯಗಳು</item>
+        <item quantity="other">%d ಅಭಿಪ್ರಾಯಗಳು</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWEE_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">%,d ಅನುಸರಿಸುತ್ತಿದ್ದಾರೆ</item>
+        <item quantity="other">%,d ಅನುಸರಿಸುತ್ತಿದ್ದಾರೆ</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWER_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">%,d ಅನುಸರಿಸುವವರು</item>
+        <item quantity="other">%,d ಅನುಸರಿಸುವವರು</item>
+    </plurals>
+    <plurals name="PROFILE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">%,d ಉತ್ತರಗಳನ್ನು ವೀಕ್ಷಿಸಿ</item>
+        <item quantity="other">%,d ಉತ್ತರಗಳನ್ನು ವೀಕ್ಷಿಸಿ</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">%d ನಕ್ಷತ್ರಗಳನ್ನು ಹಾಕಿ ರೇಟ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%d ನಕ್ಷತ್ರಗಳನ್ನು ಹಾಕಿ ರೇಟ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">%1$,d %2$s ಪ್ರತಿಕ್ರಿಯೆಗಳು</item>
+        <item quantity="other">%1$,d %2$s ಪ್ರತಿಕ್ರಿಯೆಗಳು</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">%d ನಿಮಿಷಗಳ ಹಿಂದೆ ಅಪ್‍ಡೇಟ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%d ನಿಮಿಷಗಳ ಹಿಂದೆ ಅಪ್‍ಡೇಟ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">%1$d ಕಾರ್ ಟ್ರೈನ್‌ಗಾಗಿ, ವೇಗವಾಗಿ ನಿರ್ಗಮಿಸಲು ಶಿಫಾರಸು ಮಾಡಿದ ಬೋರ್ಡಿಂಗ್ ಸ್ಥಳ %2$s</item>
+        <item quantity="other">%1$d ಕಾರ್ ಟ್ರೈನ್‌ಗಾಗಿ, ವೇಗವಾಗಿ ನಿರ್ಗಮಿಸಲು ಶಿಫಾರಸು ಮಾಡಿದ ಬೋರ್ಡಿಂಗ್ ಸ್ಥಳ %2$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">%1$d ಕಾರ್ ಟ್ರೈನ್‌ಗಾಗಿ, ವೇಗವಾಗಿ ವರ್ಗಾಯಿಸಲು ಶಿಫಾರಸು ಮಾಡಿದ ಬೋರ್ಡಿಂಗ್ ಸ್ಥಳ %2$s</item>
+        <item quantity="other">%1$d ಕಾರ್ ಟ್ರೈನ್‌ಗಾಗಿ, ವೇಗವಾಗಿ ವರ್ಗಾಯಿಸಲು ಶಿಫಾರಸು ಮಾಡಿದ ಬೋರ್ಡಿಂಗ್ ಸ್ಥಳ %2$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">ಕಡಿಮೆ ಪ್ರಯಾಣಿಕರನ್ನು ಹೊಂದಿರುವ ಕಾರ್‌ಗಳು %1$s ಆಗಿವೆ</item>
+        <item quantity="other">ಕಡಿಮೆ ಪ್ರಯಾಣಿಕರನ್ನು ಹೊಂದಿರುವ ಕಾರ್‌ಗಳು %1$s ಆಗಿವೆ</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">%1$d ಕಾರ್‌ ಟ್ರೈನ್‌</item>
+        <item quantity="other">%1$d ಕಾರ್‌ ಟ್ರೈನ್‌</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d ಪಾವತಿಗಳು</item>
+        <item quantity="other">%d ಪಾವತಿಗಳು</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s + %2$s ಇನ್ನಷ್ಟು</item>
+        <item quantity="other">%1$s + %2$s ಇನ್ನಷ್ಟು</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">5 ರಲ್ಲಿ %1$d ನಕ್ಷತ್ರಗಳನ್ನು ಹಾಕಿ ರೇಟ್ ಮಾಡಿ</item>
+        <item quantity="other">5 ರಲ್ಲಿ %1$d ನಕ್ಷತ್ರಗಳನ್ನು ಹಾಕಿ ರೇಟ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s ವೀಕ್ಷಣೆಗಳು</item>
+        <item quantity="other">%s ವೀಕ್ಷಣೆಗಳು</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%,d ರೇಟಿಂಗ್‌ಗಳು ಮತ್ತು ವಿಮರ್ಶೆಗಳು</item>
+        <item quantity="other">%,d ರೇಟಿಂಗ್‌ಗಳು ಮತ್ತು ವಿಮರ್ಶೆಗಳು</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%,d ರೇಟಿಂಗ್‌ಗಳು ಮತ್ತು ವಿಮರ್ಶೆಗಳು</item>
+        <item quantity="other">%,d ರೇಟಿಂಗ್‌ಗಳು ಮತ್ತು ವಿಮರ್ಶೆಗಳು</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%,d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d ವ್ಯಕ್ತಿಗಳು</item>
+        <item quantity="other">%d ವ್ಯಕ್ತಿಗಳು</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">ಇನ್ನೂ %d ಪಟ್ಟಿಗಳು</item>
+        <item quantity="other">ಇನ್ನೂ %d ಪಟ್ಟಿಗಳು</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">%1$s ಮತ್ತು ಇನ್ನೂ %2$d ಪಟ್ಟಿಗಳಲ್ಲಿ ಸೇವ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%1$s ಮತ್ತು ಇನ್ನೂ %2$d ಪಟ್ಟಿಗಳಲ್ಲಿ ಸೇವ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">ನಿಮ್ಮ ಭೇಟಿಯನ್ನು %d ದಿನಗಳ ಹಿಂದೆಯಿಂದ ಸೇವ್ ಮಾಡಬೇಕೇ?</item>
+        <item quantity="other">ನಿಮ್ಮ ಭೇಟಿಯನ್ನು %d ದಿನಗಳ ಹಿಂದೆಯಿಂದ ಸೇವ್ ಮಾಡಬೇಕೇ?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">%2$s ಕುರಿತು %1$d ಫಲಿತಾಂಶಗಳು ಪತ್ತೆಯಾಗಿವೆ</item>
+        <item quantity="other">%2$s ಕುರಿತು %1$d ಫಲಿತಾಂಶಗಳು ಪತ್ತೆಯಾಗಿವೆ</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">%1$d ನಕ್ಷತ್ರಗಳ ರೇಟಿಂಗ್ ಅನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ</item>
+        <item quantity="other">%1$d ನಕ್ಷತ್ರಗಳ ರೇಟಿಂಗ್ ಅನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">%d ದಿನಗಳವರೆಗೆ</item>
+        <item quantity="other">%d ದಿನಗಳವರೆಗೆ</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">%d ಗಂಟೆಗಳವರೆಗೆ</item>
+        <item quantity="other">%d ಗಂಟೆಗಳವರೆಗೆ</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">%d ನಿಮಿಷಗಳವರೆಗೆ</item>
+        <item quantity="other">%d ನಿಮಿಷಗಳವರೆಗೆ</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">ನಿಮ್ಮ ಸ್ಥಳವನ್ನು %2$s ಮತ್ತು ಇತರ %1$d ಜನರ ಜೊತೆಗೆ ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಸ್ಥಳವನ್ನು %2$s ಮತ್ತು ಇತರ %1$d ಜನರ ಜೊತೆಗೆ ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">ನಿಮ್ಮ ಸ್ಥಳವನ್ನು %d ಇತರ ಹಂಚಿಕೆಗಳ ಜೊತೆ ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಸ್ಥಳವನ್ನು %d ಇತರ ಹಂಚಿಕೆಗಳ ಜೊತೆ ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">%1$d ನಕ್ಷತ್ರಗಳನ್ನು ಹಾಕಿ ಯಶಸ್ವಿಯಾಗಿ ರೇಟ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%1$d ನಕ್ಷತ್ರಗಳನ್ನು ಹಾಕಿ ಯಶಸ್ವಿಯಾಗಿ ರೇಟ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d ವೀಕ್ಷಣೆಗಳು</item>
+        <item quantity="other">%,d ವೀಕ್ಷಣೆಗಳು</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d ಪಾಯಿಂಟ್‌ಗಳು</item>
+        <item quantity="other">+%d ಪಾಯಿಂಟ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">%2$s ನ %1$d ಫೋಟೋಗಳು ಅಥವಾ ವೀಡಿಯೊಗಳನ್ನು ಪೋಸ್ಟ್ ಮಾಡಿ</item>
+        <item quantity="other">%2$s ನ %1$d ಫೋಟೋಗಳು ಅಥವಾ ವೀಡಿಯೊಗಳನ್ನು ಪೋಸ್ಟ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">%2$s ನ %1$d ಫೋಟೋಗಳನ್ನು ಪೋಸ್ಟ್‌ ಮಾಡಿ</item>
+        <item quantity="other">%2$s ನ %1$d ಫೋಟೋಗಳನ್ನು ಪೋಸ್ಟ್‌ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">+%d ಹೆಚ್ಚು</item>
+        <item quantity="other">+%d ಹೆಚ್ಚು</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">%1$d ಫೋಟೋಗಳನ್ನು ಪೋಸ್ಟ್ ಮಾಡಿ</item>
+        <item quantity="other">%1$d ಫೋಟೋಗಳನ್ನು ಪೋಸ್ಟ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">%1$d ಪೋಸ್ಟ್ ಮಾಡಿ</item>
+        <item quantity="other">%1$d ಪೋಸ್ಟ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$,d ಜನರು %2$s ಅನ್ನು ಪ್ರಸ್ತಾಪಿಸಿದ್ದಾರೆ</item>
+        <item quantity="other">%1$,d ಜನರು %2$s ಅನ್ನು ಪ್ರಸ್ತಾಪಿಸಿದ್ದಾರೆ</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">%1$,d ಪ್ರತಿಕ್ರಿಯೆಗಳು</item>
+        <item quantity="other">%1$,d ಪ್ರತಿಕ್ರಿಯೆಗಳು</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">%2$s ಬೆಲೆಯ ಇನ್ನೂ %1$d ಆಯ್ಕೆಗಳನ್ನು ನೋಡಿ</item>
+        <item quantity="other">%2$s ಬೆಲೆಯ ಇನ್ನೂ %1$d ಆಯ್ಕೆಗಳನ್ನು ನೋಡಿ</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">%1$d ಹೆಚ್ಚಿನ ಆಯ್ಕೆಗಳನ್ನು ನೋಡಿ</item>
+        <item quantity="other">%1$d ಹೆಚ್ಚಿನ ಆಯ್ಕೆಗಳನ್ನು ನೋಡಿ</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">ಟ್ರಾಫಿಕ್ ತಪ್ಪಿಸಿ ವೇಗವಾಗಿ ಪ್ರಯಾಣಿಸುವುದಕ್ಕಾಗಿ ಮಾರ್ಗಗಳನ್ನು ನೋಡಲು ನಿಮ್ಮ ವಿಳಾಸಗಳನ್ನು ಸೇವ್ ಮಾಡಿ</item>
+        <item quantity="other">ಟ್ರಾಫಿಕ್ ತಪ್ಪಿಸಿ ವೇಗವಾಗಿ ಪ್ರಯಾಣಿಸುವುದಕ್ಕಾಗಿ ಮಾರ್ಗಗಳನ್ನು ನೋಡಲು ನಿಮ್ಮ ವಿಳಾಸಗಳನ್ನು ಸೇವ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">ನಿರ್ಗಮನಗಳನ್ನು %1$dಸೆ ಹಿಂದೆ ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿದೆ</item>
+        <item quantity="other">ನಿರ್ಗಮನಗಳನ್ನು %1$dಸೆ ಹಿಂದೆ ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿದೆ</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">%d ನಿಮಿಷಗಳಿಗೊಮ್ಮೆ ನಿರ್ಗಮಿಸುತ್ತದೆ</item>
+        <item quantity="other">%d ನಿಮಿಷಗಳಿಗೊಮ್ಮೆ ನಿರ್ಗಮಿಸುತ್ತದೆ</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d ನಿಮಿ</item>
+        <item quantity="other">%d ನಿಮಿ</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d ನಿಲ್ದಾಣಗಳು</item>
+        <item quantity="other">%d ನಿಲ್ದಾಣಗಳು</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+ನಿಮಿಷದ ಹಿಂದೆ"</item>
+        <item quantity="other">"%1$s
+ನಿಮಿಷದ ಹಿಂದೆ"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s ನಿಮಿಷಗಳ ಹಿಂದೆ ನಿರ್ಗಮನ</item>
+        <item quantity="other">%1$s ನಿಮಿಷಗಳ ಹಿಂದೆ ನಿರ್ಗಮನ</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d ಎಚ್ಚರಿಕೆಗಳು</item>
+        <item quantity="other">+%d ಎಚ್ಚರಿಕೆಗಳು</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d ಎಚ್ಚರಿಕೆಗಳು</item>
+        <item quantity="other">+ %d ಎಚ್ಚರಿಕೆಗಳು</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d ಇನ್ನಷ್ಟು</item>
+        <item quantity="other">+%d ಇನ್ನಷ್ಟು</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d ಇನ್ನಷ್ಟು</item>
+        <item quantity="other">+ %d ಇನ್ನಷ್ಟು</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+ನಿಮಿಷ"</item>
+        <item quantity="other">"%1$s
+ನಿಮಿಷ"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s ನಿಮಿಷದ ಹಿಂದೆ</item>
+        <item quantity="other">%1$s ನಿಮಿಷದ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s ನಿಮಿಷಗಳಲ್ಲಿ ನಿರ್ಗಮನ</item>
+        <item quantity="other">%1$s ನಿಮಿಷಗಳಲ್ಲಿ ನಿರ್ಗಮನ</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">ಇನ್ನೂ %1$s ಎಚ್ಚರಿಕೆಗಳು</item>
+        <item quantity="other">ಇನ್ನೂ %1$s ಎಚ್ಚರಿಕೆಗಳು</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s ಫೋಟೋಗಳು</item>
+        <item quantity="other">%s ಫೋಟೋಗಳು</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s ವಿಮರ್ಶೆಗಳು</item>
+        <item quantity="other">%s ವಿಮರ್ಶೆಗಳು</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d ಕೊಡುಗೆಗಳು</item>
+        <item quantity="other">%,d ಕೊಡುಗೆಗಳು</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d ವೀಕ್ಷಣೆಗಳು</item>
+        <item quantity="other">%,d ವೀಕ್ಷಣೆಗಳು</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">%1$d ರವರೆಗೆ ಆಯ್ಕೆಮಾಡಿ</item>
+        <item quantity="other">%1$d ರವರೆಗೆ ಆಯ್ಕೆಮಾಡಿ</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">ಗರಿಷ್ಠ %1$s ಫೋಟೋಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ</item>
+        <item quantity="other">ಗರಿಷ್ಠ %1$s ಫೋಟೋಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d ಪೋಸ್ಟ್‌ನಲ್ಲಿ %2$d ವೀಡಿಯೊವನ್ನು ಅನ್‌ಮ್ಯೂಟ್ ಮಾಡಿ</item>
+        <item quantity="other">%1$d ಪೋಸ್ಟ್‌ನಲ್ಲಿ %2$d ವೀಡಿಯೊವನ್ನು ಅನ್‌ಮ್ಯೂಟ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%2$d ರಲ್ಲಿ %1$d</item>
+        <item quantity="other">%2$d ರಲ್ಲಿ %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"ವೈಫೈಗಾಗಿ ನಿರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ.
+ %d ಫೋಟೋಗಳು ಬಾಕಿಯಿದೆ."</item>
+        <item quantity="other">"ವೈಫೈಗಾಗಿ ನಿರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ.
+ %d ಫೋಟೋಗಳು ಬಾಕಿಯಿದೆ."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d ಫೋಟೋಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%d ಫೋಟೋಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">%2$d ಸ್ಥಳಗಳಲ್ಲಿ %1$d ಸ್ಥಳಕ್ಕೆ ಭೇಟಿ ನೀಡಲಾಗಿದೆ</item>
+        <item quantity="other">%2$d ಸ್ಥಳಗಳಲ್ಲಿ %1$d ಸ್ಥಳಕ್ಕೆ ಭೇಟಿ ನೀಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s + %2$d ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳುವಾಗ ಸ್ಥಳದ ನಿಖರತೆಯನ್ನು ಹೆಚ್ಚಿಸಲು, ಬ್ಯಾಟರಿ ಸೇವರ್‌ ಅನ್ನು ಆಫ್ ಮಾಡಿ</item>
+        <item quantity="other">%1$s + %2$d ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳುವಾಗ ಸ್ಥಳದ ನಿಖರತೆಯನ್ನು ಹೆಚ್ಚಿಸಲು, ಬ್ಯಾಟರಿ ಸೇವರ್‌ ಅನ್ನು ಆಫ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s + %2$d ಇತರರೊಂದಿಗೆ ಸ್ಥಳ ಹಂಚಿಕೆಯನ್ನು ಮುಂದುವರಿಸಲು ಸಾಧನದ ಸ್ಥಳವು ಆನ್ ಆಗಿರುವ ಅಗತ್ಯವಿದೆ</item>
+        <item quantity="other">%1$s + %2$d ಇತರರೊಂದಿಗೆ ಸ್ಥಳ ಹಂಚಿಕೆಯನ್ನು ಮುಂದುವರಿಸಲು ಸಾಧನದ ಸ್ಥಳವು ಆನ್ ಆಗಿರುವ ಅಗತ್ಯವಿದೆ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s + %2$d ಇತರರೊಂದಿಗೆ ಈ ಸಾಧನದಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ಮುಂದುವರಿಸಲು, ಸ್ಥಳ ಹಂಚಿಕೆಯನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿ</item>
+        <item quantity="other">%1$s + %2$d ಇತರರೊಂದಿಗೆ ಈ ಸಾಧನದಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ಮುಂದುವರಿಸಲು, ಸ್ಥಳ ಹಂಚಿಕೆಯನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s + %2$d ಇತರರ ಜೊತೆಗೆ ಹಂಚಿಕೊಳ್ಳುವಾಗ ಸ್ಥಳದ ನಿಖರತೆಯನ್ನು ಹೆಚ್ಚಿಸಲು, Maps ನಿಮ್ಮ ದೈಹಿಕ ಚಟುವಟಿಕೆಯನ್ನು ಗುರುತಿಸಲು ಬಿಡಿ</item>
+        <item quantity="other">%1$s + %2$d ಇತರರ ಜೊತೆಗೆ ಹಂಚಿಕೊಳ್ಳುವಾಗ ಸ್ಥಳದ ನಿಖರತೆಯನ್ನು ಹೆಚ್ಚಿಸಲು, Maps ನಿಮ್ಮ ದೈಹಿಕ ಚಟುವಟಿಕೆಯನ್ನು ಗುರುತಿಸಲು ಬಿಡಿ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s + %2$d ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳುವಾಗ ಸ್ಥಳದ ನಿಖರತೆಯನ್ನು ಹೆಚ್ಚಿಸಲು, ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಆ್ಯಕ್ಸೆಸ್ ಮಾಡಲು Maps ಗೆ ಯಾವಾಗಲೂ ಅನುಮತಿಸಿ</item>
+        <item quantity="other">%1$s + %2$d ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳುವಾಗ ಸ್ಥಳದ ನಿಖರತೆಯನ್ನು ಹೆಚ್ಚಿಸಲು, ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಆ್ಯಕ್ಸೆಸ್ ಮಾಡಲು Maps ಗೆ ಯಾವಾಗಲೂ ಅನುಮತಿಸಿ</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">%1$s + %2$d ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ಮುಂದುವರಿಸಲು, ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಆ್ಯಕ್ಸೆಸ್ ಮಾಡಲು Maps ಗೆ ಯಾವಾಗಲೂ ಅನುಮತಿಸಿ</item>
+        <item quantity="other">%1$s + %2$d ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ಮುಂದುವರಿಸಲು, ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಆ್ಯಕ್ಸೆಸ್ ಮಾಡಲು Maps ಗೆ ಯಾವಾಗಲೂ ಅನುಮತಿಸಿ</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">%d+ ಫೋಟೋಗಳು</item>
+        <item quantity="other">%d+ ಫೋಟೋಗಳು</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%,d ವಿಮರ್ಶೆಗಳು)</item>
+        <item quantity="other">(%,d ವಿಮರ್ಶೆಗಳು)</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">%1$d ಪೋಸ್ಟ್‌ಗಾಗಿ %2$d ವೀಡಿಯೊ</item>
+        <item quantity="other">%1$d ಪೋಸ್ಟ್‌ಗಾಗಿ %2$d ವೀಡಿಯೊ</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">%1$d ಪೋಸ್ಟ್‌ಗಾಗಿ %2$d ವೀಡಿಯೊ ಫುಲ್ ಸ್ಕ್ರೀನ್ ಆಗಿದೆ</item>
+        <item quantity="other">%1$d ಪೋಸ್ಟ್‌ಗಾಗಿ %2$d ವೀಡಿಯೊ ಫುಲ್ ಸ್ಕ್ರೀನ್ ಆಗಿದೆ</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%1$d ರಾತ್ರಿಗಳಿಗೆ × %2$s</item>
+        <item quantity="other">%1$d ರಾತ್ರಿಗಳಿಗೆ × %2$s</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%1$d ರಾತ್ರಿಗಳಿಗೆ, ತೆರಿಗೆಗಳು + ಶುಲ್ಕಗಳನ್ನು ಸೇರಿಸಿ ಒಟ್ಟು %2$s</item>
+        <item quantity="other">%1$d ರಾತ್ರಿಗಳಿಗೆ, ತೆರಿಗೆಗಳು + ಶುಲ್ಕಗಳನ್ನು ಸೇರಿಸಿ ಒಟ್ಟು %2$s</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">%d ನಿಮಿಷಗಳ ನಡಿಗೆ</item>
+        <item quantity="other">%d ನಿಮಿಷಗಳ ನಡಿಗೆ</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d ನಿಲುಗಡೆಗಳು</item>
+        <item quantity="other">+ %d ನಿಲುಗಡೆಗಳು</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d ನಿಲ್ದಾಣಗಳು)</item>
+        <item quantity="other">(%d ನಿಲ್ದಾಣಗಳು)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d ವಾರಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%d ವಾರಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d ವರ್ಷಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%d ವರ್ಷಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">ಉಳಿದ %1$d ಫೋಟೋಗಳನ್ನು ವೀಕ್ಷಿಸಿ</item>
+        <item quantity="other">ಉಳಿದ %1$d ಫೋಟೋಗಳನ್ನು ವೀಕ್ಷಿಸಿ</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">ನಿಮ್ಮ ವಿಮರ್ಶೆಗಳು ಮತ್ತು ಅಪ್‌ಡೇಟ್‌ಗಳು</item>
+        <item quantity="other">ನಿಮ್ಮ ವಿಮರ್ಶೆಗಳು ಮತ್ತು ಅಪ್‌ಡೇಟ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">ನೀವು %1$s ಮತ್ತು ಇನ್ನೂ %2$d ಪಟ್ಟಿಗಳನ್ನು ಅನುಸರಿಸುತ್ತಿರುವಿರಿ</item>
+        <item quantity="other">ನೀವು %1$s ಮತ್ತು ಇನ್ನೂ %2$d ಪಟ್ಟಿಗಳನ್ನು ಅನುಸರಿಸುತ್ತಿರುವಿರಿ</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s ಮತ್ತು ಇತರ %2$d ಜನರು</item>
+        <item quantity="other">%1$s ಮತ್ತು ಇತರ %2$d ಜನರು</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%2$d ರಲ್ಲಿ %1$d</item>
+        <item quantity="other">%2$d ರಲ್ಲಿ %1$d</item>
+    </plurals>
+    <plurals name="local_guide_level">
+        <item quantity="one">ಹಂತ %1$d</item>
+        <item quantity="other">ಹಂತ %1$d</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="one">%1$d ನಿಮಿ</item>
+        <item quantity="other">%1$d ನಿಮಿ</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">%1$d ಕ್ಯಾಪ್ಚರ್‌ಗಳು</item>
+        <item quantity="other">%1$d ಕ್ಯಾಪ್ಚರ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ಹೊಸ ನೋಟಿಫಿಕೇಶನ್‍ಗಳು</item>
+        <item quantity="other">%d ಹೊಸ ನೋಟಿಫಿಕೇಶನ್‍ಗಳು</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="one">+ %1$d ಇನ್ನಷ್ಟು</item>
+        <item quantity="other">+ %1$d ಇನ್ನಷ್ಟು</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="one">%d ಜನರು ಟೈಪ್ ಮಾಡುತ್ತಿದ್ದಾರೆ</item>
+        <item quantity="other">%d ಜನರು ಟೈಪ್ ಮಾಡುತ್ತಿದ್ದಾರೆ</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">%d ಜನ ಸ್ವೀಕರಿಸುವವರನ್ನು ನಕಲಿಸಲಾಗಿದೆ</item>
+        <item quantity="other">%d ಜನ ಸ್ವೀಕರಿಸುವವರನ್ನು ನಕಲಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">ನಿಮ್ಮ ಫೋಟೋಗಳ ಕುರಿತು ಏನಾದರೂ ಹೇಳಿ (ಐಚ್ಛಿಕ)</item>
+        <item quantity="other">ನಿಮ್ಮ ಫೋಟೋಗಳ ಕುರಿತು ಏನಾದರೂ ಹೇಳಿ (ಐಚ್ಛಿಕ)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%2$d ರಲ್ಲಿ %1$d ಸ್ಟಾರ್‌ಗಳು</item>
+        <item quantity="other">%2$d ರಲ್ಲಿ %1$d ಸ್ಟಾರ್‌ಗಳು</item>
+    </plurals>
+</resources>

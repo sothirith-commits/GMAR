@@ -1,0 +1,92 @@
+.class public final Lbgen;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lbfgl;
+
+
+# instance fields
+.field public final a:Lcjym;
+
+.field public b:I
+
+.field public c:I
+
+.field public d:I
+
+.field public e:I
+
+.field public f:I
+
+.field public g:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    iput v0, p0, Lbgen;->b:I
+
+    .line 6
+    .line 7
+    iput v0, p0, Lbgen;->c:I
+
+    .line 8
+    .line 9
+    iput v0, p0, Lbgen;->d:I
+
+    .line 10
+    .line 11
+    iput v0, p0, Lbgen;->e:I
+
+    .line 12
+    .line 13
+    iput v0, p0, Lbgen;->f:I
+
+    .line 14
+    .line 15
+    iput v0, p0, Lbgen;->g:I
+
+    .line 16
+    .line 17
+    new-instance v0, Lcjym;
+
+    .line 18
+    .line 19
+    const/16 v1, 0x3e8
+
+    .line 20
+    .line 21
+    invoke-direct {v0, v1}, Lcjym;-><init>(I)V
+
+    .line 22
+    .line 23
+    .line 24
+    iput-object v0, p0, Lbgen;->a:Lcjym;
+
+    .line 25
+    .line 26
+    return-void
+.end method
+
+
+# virtual methods
+.method public final nu(Ljava/lang/String;Ljava/io/PrintWriter;)V
+    .locals 0
+
+    .line 1
+    const/4 p1, 0x0
+
+    .line 2
+    throw p1
+.end method

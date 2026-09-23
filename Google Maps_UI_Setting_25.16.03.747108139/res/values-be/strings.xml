@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gms_core_dialog_continue_text">Працягнуць</string>
+    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"MicroG GmsCore не мае дазволу на працу ў фонавым рэжыме.
+
+Выконвайце інструкцыі \"Не забівай маё прыкладанне\" для вашага тэлефона і прымяніце іх да вашай ўстаноўкі MicroG.
+
+Гэта неабходна для працы прыкладання."</string>
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Неабходна адключыць аптымізацыю батарэі для MicroG GmsCore, каб пазбегнуць праблем.
+
+Адключэнне аптымізацыі батарэі для MicroG не паўплывае на выкарыстанне батарэі.
+
+Націсніце кнопку \"Працягнуць\" і дазвольце змяніць аптымізацыю."</string>
+    <string name="gms_core_dialog_open_website_text">Адкрыць сайт</string>
+    <string name="gms_core_dialog_title">Патрабуецца дзеянне</string>
+    <string name="gms_core_toast_not_installed_message">MicroG GmsCore не ўсталяваны. Усталюйце яго.</string>
+</resources>

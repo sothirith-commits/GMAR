@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">คุณมีตั๋วรถไฟใต้ดินที่ใช้งานอยู่ %d ใบ</item>
+        <item quantity="other">คุณมีตั๋วรถไฟใต้ดินที่ใช้งานอยู่ %d ใบ</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">คุณมีตั๋วที่ใช้งานอยู่สำหรับการเดินทางนี้ %d ใบ</item>
+        <item quantity="other">คุณมีตั๋วที่ใช้งานอยู่สำหรับการเดินทางนี้ %d ใบ</item>
+    </plurals>
+    <plurals name="ACTION_ITEM_NEEDS_ATTENTION_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$d รายการใหม่</item>
+        <item quantity="other">%1$d รายการใหม่</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">มีตัวเลือกอีก %d รายการ</item>
+        <item quantity="other">มีตัวเลือกอีก %d รายการ</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">รายงานโดยผู้ใช้ %1$d ราย</item>
+        <item quantity="other">รายงานโดยผู้ใช้ %1$d ราย</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">การแจ้งเตือน %d รายการ</item>
+        <item quantity="other">การแจ้งเตือน %d รายการ</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d ตำแหน่ง</item>
+        <item quantity="other">%1$d ตำแหน่ง</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">ดูคำตอบ</item>
+        <item quantity="other">ดู %,d คำตอบ</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">สำรวจที่นี่</item>
+        <item quantity="other">สํารวจสถานที่ %d แห่งที่นี่</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">มีจักรยานให้ใช้ได้ %d คัน</item>
+        <item quantity="other">มีจักรยานให้ใช้ได้ %d คัน</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">จักรยาน %s คันที่สถานี</item>
+        <item quantity="other">จักรยาน %s คัน ที่สถานี</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d คัน</item>
+        <item quantity="other">%d คัน</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">มีที่จอดจักรยาน %d ที่</item>
+        <item quantity="other">มีที่จอดจักรยาน %d ที่</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d ที่</item>
+        <item quantity="other">%d ที่</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">แนะนําโดยผู้ใช้ %1$d คน</item>
+        <item quantity="other">แนะนําโดยผู้ใช้ %1$d คน</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">มีการใช้เมื่อ %1$d วันที่ผ่านมา</item>
+        <item quantity="other">มีการใช้เมื่อ %1$d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">มีการใช้เมื่อ %1$d สัปดาห์ที่ผ่านมา</item>
+        <item quantity="other">มีการใช้เมื่อ %1$d สัปดาห์ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="CAR_EV_COLLAPSED_CHARGING_STOPS_COUNT">
+        <item quantity="one">จุดชาร์จ %1$s แห่ง</item>
+        <item quantity="other">จุดชาร์จ %1$s แห่ง</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">เลือกไว้ %1$d รายการ</item>
+        <item quantity="other">เลือกไว้ %1$d รายการ</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">และอีก %1$d แห่ง</item>
+        <item quantity="other">และอีก %1$d แห่ง</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_BONUS_POINTS_LABEL">
+        <item quantity="one">โบนัส</item>
+        <item quantity="other">โบนัส</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_BONUS_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">คุณได้รับคะแนนโบนัสแล้ว %d แต้ม</item>
+        <item quantity="other">คุณได้รับคะแนนโบนัสแล้ว %d แต้ม</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_PLACES_UPDATED_A11Y_LABEL">
+        <item quantity="one">คุณอัปเดตสถานที่แล้ว %d แห่ง</item>
+        <item quantity="other">คุณอัปเดตสถานที่แล้ว %d แห่ง</item>
+    </plurals>
+    <plurals name="CHALLENGES_DIALOG_USER_POINTS_EARNED_A11Y_LABEL">
+        <item quantity="one">คุณได้รับ %d คะแนน</item>
+        <item quantity="other">คุณได้รับ %d คะแนน</item>
+    </plurals>
+    <plurals name="CHALLENGE_POINTS_LABEL">
+        <item quantity="one">%d คะแนน</item>
+        <item quantity="other">%d คะแนน</item>
+    </plurals>
+    <plurals name="CHARGING_ROUTE_SUMMARY_CHARGING_STOPS_SHORT">
+        <item quantity="one">แวะพัก %1$d ครั้ง</item>
+        <item quantity="other">แวะพัก %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_HOME_TO_WORK_TITLE">
+        <item quantity="one">อีก %d นาทีจะถึงที่ทำงาน</item>
+        <item quantity="other">อีก %d นาทีจะถึงที่ทำงาน</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">เร็วกว่าปกติ %d นาที</item>
+        <item quantity="other">เร็วกว่าปกติ %d นาที</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">ช้ากว่าปกติ %d นาที</item>
+        <item quantity="other">ช้ากว่าปกติ %d นาที</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_UNSPECIFIED_TITLE">
+        <item quantity="one">ระยะเวลาเดินทาง %d นาที</item>
+        <item quantity="other">ระยะเวลาเดินทาง %d นาที</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_WORK_TO_HOME_TITLE">
+        <item quantity="one">อีก %d นาทีจะถึงบ้าน</item>
+        <item quantity="other">อีก %d นาทีจะถึงบ้าน</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">แผนที่หันไปทาง %d องศา</item>
+        <item quantity="other">แผนที่หันไปทาง %d องศา</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">สถานประกอบการที่ได้ %d ดาว</item>
+        <item quantity="other">สถานประกอบการที่ได้ %d ดาว</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">Local Guide ระดับ %d</item>
+        <item quantity="other">Local Guide ระดับ %d</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_STAT_FOLLOWER_COUNT">
+        <item quantity="one">ผู้ติดตาม %,d คน</item>
+        <item quantity="other">ผู้ติดตาม %,d คน</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">คุณให้คะแนน %1$s 1 ดาว</item>
+        <item quantity="other">คุณให้คะแนน %1$s %2$d ดาว</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_PLACES">
+        <item quantity="one">สถานที่</item>
+        <item quantity="other">สถานที่</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">คะแนน</item>
+        <item quantity="other">คะแนน</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s วัน</item>
+        <item quantity="other">%s วัน</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s วัน</item>
+        <item quantity="other">%s วัน</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s วัน</item>
+        <item quantity="other">%s วัน</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s วัน</item>
+        <item quantity="other">%s วัน</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s ชั่วโมง</item>
+        <item quantity="other">%s ชั่วโมง</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s ชม.</item>
+        <item quantity="other">%s ชม.</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s ชม.</item>
+        <item quantity="other">%s ชม.</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s นาที</item>
+        <item quantity="other">%s นาที</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s นาที</item>
+        <item quantity="other">%s นาที</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s นาที</item>
+        <item quantity="other">%s นาที</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s วินาที</item>
+        <item quantity="other">%s วินาที</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">ไปอีก %1$s ฟุต</item>
+        <item quantity="other">ไปอีก %1$s ฟุต</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">ไปอีก %1$s กิโลเมตร</item>
+        <item quantity="other">ไปอีก %1$s กิโลเมตร</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">ไปอีก %1$s เมตร</item>
+        <item quantity="other">ไปอีก %1$s เมตร</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">ไปอีก %1$s ไมล์</item>
+        <item quantity="other">ไปอีก %1$s ไมล์</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">ไปอีก %1$s หลา</item>
+        <item quantity="other">ไปอีก %1$s หลา</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">เดินทางต่อไปบน %2$s อีก %1$s ฟุต</item>
+        <item quantity="other">เดินทางต่อไปบน %2$s อีก %1$s ฟุต</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">เดินทางต่อไปบนถนน %2$s อีก %1$s กิโลเมตร</item>
+        <item quantity="other">เดินทางต่อไปบนถนน %2$s อีก %1$s กิโลเมตร</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">เดินทางต่อไปบนถนน %2$s อีก %1$s เมตร</item>
+        <item quantity="other">เดินทางต่อไปบนถนน %2$s อีก %1$s เมตร</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">เดินทางต่อไปบน %2$s อีก %1$s ไมล์</item>
+        <item quantity="other">เดินทางต่อไปบน %2$s อีก %1$s ไมล์</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">เดินทางต่อไปบน %2$s อีก %1$s หลา</item>
+        <item quantity="other">เดินทางต่อไปบน %2$s อีก %1$s หลา</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">อีก %1$s ฟุต</item>
+        <item quantity="other">อีก %1$s ฟุต</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">อีก %1$s กิโลเมตร</item>
+        <item quantity="other">อีก %1$s กิโลเมตร</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">อีก %1$s เมตร</item>
+        <item quantity="other">อีก %1$s เมตร</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">อีก %1$s ไมล์</item>
+        <item quantity="other">อีก %1$s ไมล์</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">อีก %1$s หลา</item>
+        <item quantity="other">อีก %1$s หลา</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s กิโลเมตรต่อชั่วโมง</item>
+        <item quantity="other">%s กิโลเมตรต่อชั่วโมง</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s ไมล์ต่อชั่วโมง</item>
+        <item quantity="other">%s ไมล์ต่อชั่วโมง</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">จุดหมายของคุณอยู่อีก %1$s ฟุตข้างหน้า</item>
+        <item quantity="other">จุดหมายของคุณอยู่อีก %1$s ฟุตข้างหน้า</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">จุดหมายของคุณอยู่อีก %1$s กิโลเมตรข้างหน้า</item>
+        <item quantity="other">จุดหมายของคุณอยู่อีก %1$s กิโลเมตรข้างหน้า</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">จุดหมายของคุณอยู่อีก %1$s เมตรข้างหน้า</item>
+        <item quantity="other">จุดหมายของคุณอยู่อีก %1$s เมตรข้างหน้า</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">จุดหมายของคุณอยู่อีก %1$s ไมล์ข้างหน้า</item>
+        <item quantity="other">จุดหมายของคุณอยู่อีก %1$s ไมล์ข้างหน้า</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">จุดหมายของคุณอยู่อีก %1$s หลาข้างหน้า</item>
+        <item quantity="other">จุดหมายของคุณอยู่อีก %1$s หลาข้างหน้า</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d ป้าย</item>
+        <item quantity="other">%d ป้าย</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d รูปแบบการเดินทางเพื่อเชื่อมต่อ</item>
+        <item quantity="other">%1$d รูปแบบการเดินทางเพื่อเชื่อมต่อ</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">อัปเดตเมื่อ %d วันที่ผ่านมา</item>
+        <item quantity="other">อัปเดตเมื่อ %d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">อัปเดตเมื่อ %d เดือนที่ผ่านมา</item>
+        <item quantity="other">อัปเดตเมื่อ %d เดือนที่ผ่านมา</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">อัปเดตเมื่อ %d สัปดาห์ที่ผ่านมา</item>
+        <item quantity="other">อัปเดตเมื่อ %d สัปดาห์ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d คัน</item>
+        <item quantity="other">%d คัน</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">มีจักรยาน %d คันแถวนี้</item>
+        <item quantity="other">มีจักรยาน %d คันแถวนี้</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">พอร์ตชาร์จ %1$d จาก %2$d พอร์ต</item>
+        <item quantity="other">พอร์ตชาร์จ %1$d จาก %2$d พอร์ต</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">พอร์ตชาร์จ %d พอร์ต</item>
+        <item quantity="other">พอร์ตชาร์จ %d พอร์ต</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">ให้คะแนน 1 ดาวไม่สำเร็จ โปรดลองอีกครั้ง</item>
+        <item quantity="other">ให้คะแนน %1$d ดาวไม่สำเร็จ โปรดลองอีกครั้ง</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">ชั้น %s</item>
+        <item quantity="other">ชั้น %s</item>
+    </plurals>
+    <plurals name="FOLLOWER_COUNT_LABEL">
+        <item quantity="one">ผู้ติดตาม</item>
+        <item quantity="other">ผู้ติดตาม</item>
+    </plurals>
+    <plurals name="FOLLOWING_COUNT_LABEL">
+        <item quantity="one">กำลังติดตาม</item>
+        <item quantity="other">กำลังติดตาม</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">พักเพิ่ม %d คืน</item>
+        <item quantity="other">พักเพิ่ม %d คืน</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">เพิ่ม %d คืน</item>
+        <item quantity="other">เพิ่ม %d คืน</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">โรงแรมนี้พร้อมให้เข้าพักได้ %1$d คืน พัก%2$s คืนได้ในราคาเฉลี่ยคืนละ %3$s</item>
+        <item quantity="other">โรงแรมนี้พร้อมให้เข้าพักได้ %1$d คืน พัก%2$s คืนได้ในราคาเฉลี่ยคืนละ %3$s</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">พัก%1$sได้ในราคาเฉลี่ยคืนละ %2$s</item>
+        <item quantity="other">พัก%1$sได้ในราคาเฉลี่ยคืนละ %2$s</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d คน</item>
+        <item quantity="other">%d คน</item>
+    </plurals>
+    <plurals name="HOTEL_PLACE_COUNT">
+        <item quantity="one">%d สถานที่พัก</item>
+        <item quantity="other">%d สถานที่พัก</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">และอีก %d รายการ</item>
+        <item quantity="other">และอีก %d รายการ</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">อีก %d รายการ</item>
+        <item quantity="other">อีก %d รายการ</item>
+    </plurals>
+    <plurals name="IN_STORE_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">รูปภาพในร้านรูปที่ %d</item>
+        <item quantity="other">รูปภาพในร้านรูปที่ %d</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">บันทึกใน%1$sและอีก %2$d รายการแล้ว</item>
+        <item quantity="other">บันทึกใน%1$sและอีก %2$d รายการแล้ว</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">คุณมาที่นี่เมื่อ %d เดือนที่แล้ว</item>
+        <item quantity="other">คุณมาที่นี่เมื่อ %d เดือนที่แล้ว</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">คุณมาที่นี่เมื่อ %d สัปดาห์ที่แล้ว</item>
+        <item quantity="other">คุณมาที่นี่เมื่อ %d สัปดาห์ที่แล้ว</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">คุณมาที่นี่เมื่อ %d ปีที่แล้ว</item>
+        <item quantity="other">คุณมาที่นี่เมื่อ %d ปีที่แล้ว</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d กิจกรรม</item>
+        <item quantity="other">%d กิจกรรม</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d รายการ</item>
+        <item quantity="other">%d รายการ</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">สถานที่ %d แห่ง</item>
+        <item quantity="other">สถานที่ %d แห่ง</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">บันทึก %d รายการ</item>
+        <item quantity="other">บันทึก %d รายการ</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">การเดินทาง %d ครั้ง</item>
+        <item quantity="other">การเดินทาง %d ครั้ง</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">ดู %s ครั้ง</item>
+        <item quantity="other">ดู %s ครั้ง</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">แก้ไขเมื่อ %d วันที่ผ่านมา</item>
+        <item quantity="other">แก้ไขเมื่อ %d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">แก้ไขเมื่อ %d เดือนที่ผ่านมา</item>
+        <item quantity="other">แก้ไขเมื่อ %d เดือนที่ผ่านมา</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">แก้ไขเมื่อ %d สัปดาห์ที่ผ่านมา</item>
+        <item quantity="other">แก้ไขเมื่อ %d สัปดาห์ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">แก้ไขเมื่อ %d ปีที่ผ่านมา</item>
+        <item quantity="other">แก้ไขเมื่อ %d ปีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">คุณมี %d คะแนน</item>
+        <item quantity="other">คุณมี %d คะแนน</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TEXT">
+        <item quantity="one">%d คะแนน</item>
+        <item quantity="other">%d คะแนน</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">ต้องการอีกเพียง %1$d คะแนนเพื่อเลื่อนขึ้นเป็นระดับ %2$d</item>
+        <item quantity="other">ต้องการอีกเพียง %1$d คะแนนเพื่อเลื่อนขึ้นเป็นระดับ %2$d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">ระดับ %d</item>
+        <item quantity="other">ระดับ %d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_LEVEL">
+        <item quantity="one">Local Guide ระดับ %d</item>
+        <item quantity="other">Local Guide ระดับ %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">เปิดมาแล้ว %d ปี</item>
+        <item quantity="other">เปิดมาแล้วมากกว่า %d ปี</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d วันที่ผ่านมา</item>
+        <item quantity="other">%d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d นาทีที่ผ่านมา</item>
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">สถานที่ %d แห่งซึ่งตั้งอยู่ที่นี่</item>
+        <item quantity="other">สถานที่ %d แห่งซึ่งตั้งอยู่ที่นี่</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">นำรูปภาพออกแล้ว</item>
+        <item quantity="other">นำรูปภาพออกแล้ว</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">ขยายขนาดวิดีโอในโพสต์ %1$d</item>
+        <item quantity="other">ขยายขนาดวิดีโอ %2$d ในโพสต์ %1$d</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d จาก %2$,d รูป</item>
+        <item quantity="other">%1$,d จาก %2$,d รูป</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">กำลังอัปโหลดสื่อ %1$d รายการ</item>
+        <item quantity="other">กำลังอัปโหลดสื่อ %1$d รายการ</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">รูปภาพเมนูหมายเลข %d</item>
+        <item quantity="other">รูปภาพเมนูหมายเลข %d</item>
+    </plurals>
+    <plurals name="MERCHANT_PANEL_CALLS_LIST_TIMESTAMP_SECONDS">
+        <item quantity="one">%1$d วินาที</item>
+        <item quantity="other">%1$d วินาที</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">รายงาน %1$d ครั้ง</item>
+        <item quantity="other">รายงาน %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">ผู้ที่มีลิงก์นี้จะเห็นตำแหน่งของคุณนาน 1 วันกับอีก %d ชั่วโมง</item>
+        <item quantity="other">ผู้ที่มีลิงก์นี้จะเห็นตำแหน่งของคุณนาน 1 วันกับอีก %d ชั่วโมง</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">ผู้ที่มีลิงก์นี้จะเห็นตำแหน่งของคุณนาน 1 ชั่วโมง %d นาที</item>
+        <item quantity="other">ผู้ที่มีลิงก์นี้จะเห็นตำแหน่งของคุณนาน 1 ชั่วโมง %d นาที</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">ผู้ที่มีลิงก์นี้จะเห็นตำแหน่งของคุณนาน %d วัน</item>
+        <item quantity="other">ผู้ที่มีลิงก์นี้จะเห็นตำแหน่งของคุณนาน %d วัน</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">ผู้ที่มีลิงก์นี้จะเห็นตำแหน่งของคุณนาน %d ชั่วโมง</item>
+        <item quantity="other">ผู้ที่มีลิงก์นี้จะเห็นตำแหน่งของคุณนาน %d ชั่วโมง</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">ผู้ที่มีลิงก์นี้จะเห็นตำแหน่งของคุณนาน %d นาที</item>
+        <item quantity="other">ผู้ที่มีลิงก์นี้จะเห็นตำแหน่งของคุณนาน %d นาที</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">และอีก %d จุด</item>
+        <item quantity="other">และอีก %d จุด</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">ปิดเสียงวิดีโอในโพสต์ %1$d</item>
+        <item quantity="other">ปิดเสียงวิดีโอ %2$d ในโพสต์ %1$d</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">รูปภาพ/วิดีโอ %d รายการ</item>
+        <item quantity="other">รูปภาพ/วิดีโอ %d รายการ</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">วิดีโอ %d รายการ</item>
+        <item quantity="other">วิดีโอ %d รายการ</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">อวาตาร์ที่กำหนดเอง %1$d จาก %2$d</item>
+        <item quantity="other">อวาตาร์ที่กำหนดเอง %1$d จาก %2$d</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_VEHICLE_DESCRIPTION">
+        <item quantity="one">ยานพาหนะแบบกำหนดเองคันที่ %1$d จาก %2$d</item>
+        <item quantity="other">ยานพาหนะแบบกำหนดเองคันที่ %1$d จาก %2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">การอัปเดตใหม่ %d รายการ</item>
+        <item quantity="other">การอัปเดตใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">ข้อมูลอัปเดตทางธุรกิจ การแจ้งเตือนใหม่ %1$s รายการ</item>
+        <item quantity="other">ข้อมูลอัปเดตทางธุรกิจ การแจ้งเตือนใหม่ %1$s รายการ</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d รูป</item>
+        <item quantity="other">%d รูป</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d รีวิว</item>
+        <item quantity="other">%d รีวิว</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">ภาพขนาดย่อหมายเลข %d</item>
+        <item quantity="other">ภาพขนาดย่อหมายเลข %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">พื้นที่ออฟไลน์ %d แห่ง</item>
+        <item quantity="other">พื้นที่ออฟไลน์ %d แห่ง</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">อ้างอิงจากการรายงาน %1$d ครั้ง</item>
+        <item quantity="other">อ้างอิงจากการรายงาน %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">หยุดวิดีโอชั่วคราวในโพสต์ %1$d</item>
+        <item quantity="other">หยุดวิดีโอ %2$d ชั่วคราวในโพสต์ %1$d</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">การโต้ตอบ %1$s ครั้ง</item>
+        <item quantity="other">การโต้ตอบ %1$s ครั้ง</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">การค้นหา %1$s ครั้ง</item>
+        <item quantity="other">การค้นหา %1$s ครั้ง</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">ยอดดู %1$s ครั้ง</item>
+        <item quantity="other">ยอดดู %1$s ครั้ง</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">จองห้องพักสำหรับ %d คืน</item>
+        <item quantity="other">จองห้องพักสำหรับ %d คืน</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">เฉพาะคุณเท่านั้นที่เห็นข้อมูลนี้</item>
+        <item quantity="other">เฉพาะคุณเท่านั้นที่เห็นข้อมูลนี้</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d วัน</item>
+        <item quantity="other">%1$d วัน</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d คืน</item>
+        <item quantity="other">%1$d คืน</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d รูป</item>
+        <item quantity="other">%d รูป</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_CHECKED_DESCRIPTION">
+        <item quantity="one">คุณชอบรูปภาพนี้แล้ว</item>
+        <item quantity="other">เมื่อนับรวมคุณแล้ว มีผู้ชอบรูปภาพนี้ %d ราย</item>
+    </plurals>
+    <plurals name="PHOTO_ACCESSIBILITY_THUMBS_UP_UNCHECKED_DESCRIPTION">
+        <item quantity="one">มีผู้ชอบรูปภาพนี้</item>
+        <item quantity="other">มีผู้ชอบรูปภาพนี้ %d ราย</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">กำลังเพิ่มรูปภาพ/วิดีโอ %1$d รายการใน Maps</item>
+        <item quantity="other">กำลังเพิ่มรูปภาพ/วิดีโอ %1$d รายการใน Maps</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"กำลังรอสัญญาณ WiFi.
+ มีรูปภาพ/วิดีโอที่รอดำเนินการทั้งหมด %d รายการ"</item>
+        <item quantity="other">"กำลังรอสัญญาณ Wi-Fi
+ มีรูปภาพ/วิดีโอที่รอดำเนินการทั้งหมด %d รายการ"</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">รูปภาพสำหรับโพสต์ %1$d</item>
+        <item quantity="other">รูปภาพ %2$d สำหรับโพสต์ %1$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d วันที่ผ่านมา</item>
+        <item quantity="other">%d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d เดือนที่ผ่านมา</item>
+        <item quantity="other">%d เดือนที่ผ่านมา</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d สัปดาห์ที่ผ่านมา</item>
+        <item quantity="other">%d สัปดาห์ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d ปีที่ผ่านมา</item>
+        <item quantity="other">%d ปีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="PHOTO_INDEX_IN_LIST">
+        <item quantity="one">รูปภาพ %1$,d จาก %2$,d รูป</item>
+        <item quantity="other">รูปภาพ %1$,d จาก %2$,d รูป</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d อัปเดต</item>
+        <item quantity="other">%d อัปเดต</item>
+    </plurals>
+    <plurals name="PHOTO_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">กำลังเพิ่มรูปภาพ %d ภาพใน Maps</item>
+        <item quantity="other">กำลังเพิ่มรูปภาพ %d ภาพใน Maps</item>
+    </plurals>
+    <plurals name="PLACE_QA_MORE_ANSWERS">
+        <item quantity="one">คำตอบเพิ่มเติมอีก %d รายการ</item>
+        <item quantity="other">คำตอบเพิ่มเติมอีก %d รายการ</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">ดูคำตอบ %d รายการ</item>
+        <item quantity="other">ดูคำตอบ %d รายการ</item>
+    </plurals>
+    <plurals name="PLACE_TOPICS_EXPANDER">
+        <item quantity="one">+%1$,d</item>
+        <item quantity="other">+%1$,d</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">เล่นวิดีโอในโพสต์ %1$d</item>
+        <item quantity="other">เล่นวิดีโอ %2$d ในโพสต์ %1$d</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">คนอื่นๆ อีก %d คน</item>
+        <item quantity="other">คนอื่นๆ อีก %d คน</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">แทนที่จุดแวะระหว่างทาง</item>
+        <item quantity="other">แทนที่จุดแวะระหว่างทาง</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">กำลังแทนที่จุดแวะระหว่างทาง</item>
+        <item quantity="other">กำลังแทนที่จุดแวะระหว่างทาง</item>
+    </plurals>
+    <plurals name="POST_ACCESSIBILITY_THUMBS_UP_DESCRIPTION">
+        <item quantity="one">ชอบ 1 ครั้ง</item>
+        <item quantity="other">ชอบ %d ครั้ง</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">การดู %,d ครั้ง</item>
+        <item quantity="other">การดู %,d ครั้ง</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d คะแนน</item>
+        <item quantity="other">%d คะแนน</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d รีวิว</item>
+        <item quantity="other">%d รีวิว</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWEE_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">กำลังติดตาม %,d ราย</item>
+        <item quantity="other">กำลังติดตาม %,d ราย</item>
+    </plurals>
+    <plurals name="PROFILE_FOLLOWER_COUNT_CONTENT_DESCRIPTION">
+        <item quantity="one">ผู้ติดตาม %,d ราย</item>
+        <item quantity="other">ผู้ติดตาม %,d ราย</item>
+    </plurals>
+    <plurals name="PROFILE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">ดูคำตอบ %,d รายการ</item>
+        <item quantity="other">ดูคำตอบ %,d รายการ</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">ให้คะแนน %d ดาว</item>
+        <item quantity="other">ให้คะแนน %d ดาว</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">รีแอ็กชัน %2$s 1 รายการ</item>
+        <item quantity="other">รีแอ็กชัน %2$s %1$,d รายการ</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">อัปเดตเมื่อ %d นาทีที่แล้ว</item>
+        <item quantity="other">อัปเดตเมื่อ %d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">สำหรับรถไฟที่มี %1$d ตู้โดยสาร ให้ขึ้นตู้โดยสารที่ %2$s เพื่อให้ไปยังทางออกได้เร็วที่สุด</item>
+        <item quantity="other">สำหรับรถไฟที่มี %1$d ตู้โดยสาร ให้ขึ้นตู้โดยสารที่ %2$s เพื่อให้ไปยังทางออกได้เร็วที่สุด</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">สำหรับรถไฟที่มี %1$d ตู้โดยสาร ให้ขึ้นตู้โดยสารที่ %2$s เพื่อให้เปลี่ยนไปยังขบวนถัดไปได้เร็วที่สุด</item>
+        <item quantity="other">สำหรับรถไฟที่มี %1$d ตู้โดยสาร ให้ขึ้นตู้โดยสารที่ %2$s เพื่อให้เปลี่ยนไปยังขบวนถัดไปได้เร็วที่สุด</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">ตู้โดยสาร %1$s มีผู้โดยสารหนาแน่นน้อยที่สุด</item>
+        <item quantity="other">ตู้โดยสาร %1$s มีผู้โดยสารหนาแน่นน้อยที่สุด</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">%1$d ตู้โดยสาร</item>
+        <item quantity="other">%1$d ตู้โดยสาร</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">การชำระเงิน %d รายการ</item>
+        <item quantity="other">การชำระเงิน %d รายการ</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s และอีก %2$s รายการ</item>
+        <item quantity="other">%1$s และอีก %2$s รายการ</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">ให้คะแนน 1 จาก 5 ดาว</item>
+        <item quantity="other">ให้คะแนน %1$d จาก 5 ดาว</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">ดู %s ครั้ง</item>
+        <item quantity="other">ดู %s ครั้ง</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">มีคะแนนหรือรีวิว %d รายการ</item>
+        <item quantity="other">มีคะแนนหรือรีวิว %,d รายการ</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">มีคะแนนหรือรีวิว %d รายการ</item>
+        <item quantity="other">มีคะแนนหรือรีวิว %,d รายการ</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d คน</item>
+        <item quantity="other">%d คน</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">มีอีก %d รายการ</item>
+        <item quantity="other">มีอีก %d รายการ</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">บันทึกใน %1$s และอีก %2$d รายการแล้ว</item>
+        <item quantity="other">บันทึกใน %1$s และอีก %2$d รายการแล้ว</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">บันทึกการเยี่ยมชมจาก %d วันที่แล้วไหม</item>
+        <item quantity="other">บันทึกการเยี่ยมชมจาก %d วันที่แล้วไหม</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">พบผลลัพธ์ %1$d รายการสำหรับ %2$s</item>
+        <item quantity="other">พบผลลัพธ์ %1$d รายการสำหรับ %2$s</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">กำลังส่งคะแนน 1 ดาว</item>
+        <item quantity="other">กำลังส่งคะแนน %1$d ดาว</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">เป็นเวลา %d วัน</item>
+        <item quantity="other">เป็นเวลา %d วัน</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">เป็นเวลา %d ชั่วโมง</item>
+        <item quantity="other">เป็นเวลา %d ชั่วโมง</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">เป็นเวลา %d นาที</item>
+        <item quantity="other">เป็นเวลา %d นาที</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">กําลังแชร์ตําแหน่งของคุณกับ %2$s และบุคคลอื่นอีก %1$d ราย</item>
+        <item quantity="other">กําลังแชร์ตําแหน่งของคุณกับ %2$s และบุคคลอื่นอีก %1$d ราย</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">กําลังแชร์ตําแหน่งของคุณกับบุคคลอื่นอีก %d ราย</item>
+        <item quantity="other">กําลังแชร์ตําแหน่งของคุณกับบุคคลอื่นอีก %d ราย</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">ให้คะแนน 1 ดาวเรียบร้อยแล้ว</item>
+        <item quantity="other">ให้คะแนน %1$d ดาวเรียบร้อยแล้ว</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">ดู %,d ครั้ง</item>
+        <item quantity="other">ดู %,d ครั้ง</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d คะแนน</item>
+        <item quantity="other">+%d คะแนน</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">โพสต์รูปภาพหรือวิดีโอของ %2$s จํานวน %1$d รายการ</item>
+        <item quantity="other">โพสต์รูปภาพและวิดีโอของ %1$d จํานวน %2$s รายการ</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">โพสต์รูปภาพของ %2$s %1$d รูป</item>
+        <item quantity="other">โพสต์รูปภาพของ %2$s %1$d รูป</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">และอีก %d แห่ง</item>
+        <item quantity="other">และอีก %d แห่ง</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">โพสต์รูปภาพ %1$d ภาพ</item>
+        <item quantity="other">โพสต์รูปภาพ %1$d ภาพ</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">%1$d โพสต์</item>
+        <item quantity="other">%1$d โพสต์</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">มีผู้พูดถึง %2$s %1$d คน</item>
+        <item quantity="other">มีผู้พูดถึง %2$s %1$,d คน</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">รีแอ็กชัน 1 รายการ</item>
+        <item quantity="other">รีแอ็กชัน %1$,d รายการ</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">ดูตัวเลือกเพิ่มเติมอีก %1$d รายการในราคาตั้งแต่ %2$s</item>
+        <item quantity="other">ดูตัวเลือกเพิ่มเติมอีก %1$d รายการในราคาตั้งแต่ %2$s</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">ดูตัวเลือกเพิ่มเติมอีก %1$d รายการ</item>
+        <item quantity="other">ดูตัวเลือกเพิ่มเติมอีก %1$d รายการ</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">บันทึกที่อยู่เพื่อดูเส้นทางที่เร็วที่สุดซึ่งจะเลี่ยงการจราจรที่ติดขัด</item>
+        <item quantity="other">บันทึกที่อยู่เพื่อดูเส้นทางที่เร็วที่สุดซึ่งจะเลี่ยงการจราจรที่ติดขัด</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">อัปเดตเวลาออกเดินทางเมื่อ %1$d วินาทีก่อน</item>
+        <item quantity="other">อัปเดตเวลาออกเดินทางเมื่อ %1$d วินาทีก่อน</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">ออกทุกนาที</item>
+        <item quantity="other">ออกทุก %d นาที</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d นาที</item>
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d ป้าย</item>
+        <item quantity="other">%d ป้าย</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+นาทีที่แล้ว"</item>
+        <item quantity="other">"%1$s
+นาทีที่แล้ว"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">ออกเดินทางเมื่อ %1$s นาทีที่แล้ว</item>
+        <item quantity="other">ออกเดินทางเมื่อ %1$s นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">และการแจ้งเตือนอีก %d รายการ</item>
+        <item quantity="other">และการแจ้งเตือนอีก %d รายการ</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">การแจ้งเตือนอีก %d รายการ</item>
+        <item quantity="other">การแจ้งเตือนอีก %d รายการ</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">และอีก %d รายการ</item>
+        <item quantity="other">และอีก %d รายการ</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">และอีก %d รายการ</item>
+        <item quantity="other">และอีก %d รายการ</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+นาที"</item>
+        <item quantity="other">"%1$s
+นาที"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s นาทีที่ผ่านมา</item>
+        <item quantity="other">%1$s นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">ออกเดินทางใน %1$s นาที</item>
+        <item quantity="other">ออกเดินทางใน %1$s นาที</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">คำเตือนอีก %1$s รายการ</item>
+        <item quantity="other">คำเตือนอีก %1$s รายการ</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s รูป</item>
+        <item quantity="other">%s รูป</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s รีวิว</item>
+        <item quantity="other">%s รีวิว</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">การมีส่วนร่วม %,d รายการ</item>
+        <item quantity="other">การมีส่วนร่วม %,d รายการ</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">ดู %,d ครั้ง</item>
+        <item quantity="other">ดู %,d ครั้ง</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">เลือกได้ไม่เกิน %1$d รายการ</item>
+        <item quantity="other">เลือกได้ไม่เกิน %1$d รายการ</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">เลือกได้ไม่เกิน %1$s รูป</item>
+        <item quantity="other">เลือกได้ไม่เกิน %1$s รูป</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">เปิดเสียงวิดีโอในโพสต์ %1$d</item>
+        <item quantity="other">เปิดเสียงวิดีโอ %2$d ในโพสต์ %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d จาก %2$d</item>
+        <item quantity="other">%1$d จาก %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"กำลังรอสัญญาณ WiFi.
+ มีรูปภาพที่รอดำเนินการทั้งหมด %d ภาพ"</item>
+        <item quantity="other">"กำลังรอสัญญาณ WiFi.
+ มีรูปภาพที่รอดำเนินการทั้งหมด %d ภาพ"</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">เลือกรูปภาพไว้ %d รูป</item>
+        <item quantity="other">เลือกรูปภาพไว้ %d รูป</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">ไปมาแล้ว %1$d จาก %2$d ที่</item>
+        <item quantity="other">ไปมาแล้ว %1$d จาก %2$d ที่</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ปิดโหมดประหยัดแบตเตอรี่เพื่อเพิ่มความแม่นยำเมื่อแชร์ตำแหน่งกับ %1$s และอีก %2$d คน</item>
+        <item quantity="other">ปิดโหมดประหยัดแบตเตอรี่เพื่อเพิ่มความแม่นยำเมื่อแชร์ตำแหน่งกับ %1$s และอีก %2$d คน</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ต้องเปิดตำแหน่งอุปกรณ์เพื่อให้แชร์ตำแหน่งกับ %1$s และอีก %2$d คนต่อไปได้</item>
+        <item quantity="other">ต้องเปิดตำแหน่งอุปกรณ์เพื่อให้แชร์ตำแหน่งกับ %1$s และอีก %2$d คนต่อไปได้</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">อัปเดตการแชร์ตำแหน่งเพื่อให้แชร์ตำแหน่งบนอุปกรณ์นี้กับ %1$s และอีก %2$d คนต่อไปได้</item>
+        <item quantity="other">อัปเดตการแชร์ตำแหน่งเพื่อให้แชร์ตำแหน่งบนอุปกรณ์นี้กับ %1$s และอีก %2$d รายต่อไปได้</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">ให้ Maps จดจำกิจกรรมที่คุณทำเพื่อเพิ่มความแม่นยำเมื่อแชร์ตำแหน่งกับ %1$s และอีก %2$d คน</item>
+        <item quantity="other">ให้ Maps จดจำกิจกรรมที่คุณทำเพื่อเพิ่มความแม่นยำเมื่อแชร์ตำแหน่งกับ %1$s และอีก %2$d คน</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">อนุญาตให้ Maps เข้าถึงตำแหน่งของคุณเสมอเพื่อเพิ่มความแม่นยำเมื่อแชร์ตำแหน่งกับ %1$s และอีก %2$d คน</item>
+        <item quantity="other">อนุญาตให้ Maps เข้าถึงตำแหน่งของคุณเสมอเพื่อเพิ่มความแม่นยำเมื่อแชร์ตำแหน่งกับ %1$s และอีก %2$d คน</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">อนุญาตให้ Maps เข้าถึงตำแหน่งของคุณเสมอเพื่อให้แชร์ตำแหน่งกับ %1$s และอีก %2$d คนต่อไปได้</item>
+        <item quantity="other">อนุญาตให้ Maps เข้าถึงตำแหน่งของคุณเสมอเพื่อให้แชร์ตำแหน่งกับ %1$s และอีก %2$d คนต่อไปได้</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">%d+ รูป</item>
+        <item quantity="other">%d+ รูป</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d รีวิว)</item>
+        <item quantity="other">(%,d รีวิว)</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">วิดีโอของโพสต์ %1$d</item>
+        <item quantity="other">วิดีโอ %2$d ของโพสต์ %1$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">วิดีโอของโพสต์ %1$d เป็นแบบเต็มหน้าจอ</item>
+        <item quantity="other">วิดีโอ %2$d ของโพสต์ %1$d เป็นแบบเต็มหน้าจอ</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d คืน</item>
+        <item quantity="other">%2$s × %1$d คืน</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">ราคา %2$s สำหรับ %1$d คืนพร้อมภาษีและค่าธรรมเนียม</item>
+        <item quantity="other">ราคา %2$s สำหรับ %1$d คืนพร้อมภาษีและค่าธรรมเนียม</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">เดิน 1 นาที</item>
+        <item quantity="other">เดิน %d นาที</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d ป้าย</item>
+        <item quantity="other">+ %d ป้าย</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d ป้าย)</item>
+        <item quantity="other">(%d ป้าย)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d สัปดาห์ที่ผ่านมา</item>
+        <item quantity="other">%d สัปดาห์ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d ปีที่ผ่านมา</item>
+        <item quantity="other">%d ปีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">ดูรูปภาพที่เหลือ</item>
+        <item quantity="other">ดูรูปภาพที่เหลือ %1$d รูป</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">รีวิวหรืออัปเดตที่คุณเขียน</item>
+        <item quantity="other">รีวิวหรืออัปเดตที่คุณเขียน</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">คุณกำลังติดตาม %1$s และอีก %2$d รายการ</item>
+        <item quantity="other">คุณกำลังติดตาม %1$s และอีก %2$d รายการ</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s และบุคคลอื่นอีก %2$d ราย</item>
+        <item quantity="other">%1$s และบุคคลอื่นอีก %2$d ราย</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d จาก %2$d ดาว</item>
+        <item quantity="other">%1$d จาก %2$d ดาว</item>
+    </plurals>
+    <plurals name="local_guide_level">
+        <item quantity="one"></item>
+        <item quantity="other">ระดับ %1$d</item>
+    </plurals>
+    <plurals name="lt_num_minutes_ago">
+        <item quantity="one">%1$d นาที</item>
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">1 รายการ</item>
+        <item quantity="other">%1$d รายการ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="num_unread_messages">
+        <item quantity="one">อีก %1$d ข้อความ</item>
+        <item quantity="other">อีก %1$d ข้อความ</item>
+    </plurals>
+    <plurals name="number_of_users_typing_message">
+        <item quantity="one">มี %d คนกำลังพิมพ์อยู่</item>
+        <item quantity="other">มี %d คนกำลังพิมพ์อยู่</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">คัดลอกผู้รับแล้ว %d รายการ</item>
+        <item quantity="other">คัดลอกผู้รับแล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">ใส่ข้อความเกี่ยวกับรูปภาพนี้ (ไม่บังคับ)</item>
+        <item quantity="other">ใส่ข้อความเกี่ยวกับรูปภาพของคุณ (ไม่บังคับ)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">คุณมีการแจ้งเตือน</item>
+        <item quantity="other">การแจ้งเตือนใหม่ %1$d รายการ</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d จาก %2$d ดาว</item>
+        <item quantity="other">%1$d จาก %2$d ดาว</item>
+    </plurals>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Ж</item>
+        <item>З</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Всички</item>
+        <item>лв.</item>
+        <item>лв.лв.</item>
+        <item>лв.лв.лв.</item>
+        <item>лв.лв.лв.лв.</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Което и да е ценово ниво</item>
+        <item>Евтино</item>
+        <item>Умерено скъпо</item>
+        <item>Скъпо</item>
+        <item>Много скъпо</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Всички</item>
+        <item>3 звезди</item>
+        <item>4 звезди</item>
+        <item>5 звезди</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Всички</item>
+        <item>Отворено в момента</item>
+        <item>Персонализирано</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>При промяна на мащаба</item>
+        <item>Винаги</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>При увеличаване и намаляване на мащаба</item>
+        <item>Винаги</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Никак не ми хареса</item>
+        <item>Не ми хареса</item>
+        <item>Добре е</item>
+        <item>Хареса ми</item>
+        <item>Много ми хареса</item>
+    </string-array>
+</resources>

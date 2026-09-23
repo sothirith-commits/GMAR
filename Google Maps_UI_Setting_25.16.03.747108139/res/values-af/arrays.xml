@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Enige</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Enige prysvlak</item>
+        <item>Bekostigbaar</item>
+        <item>Redelik duur</item>
+        <item>Duur</item>
+        <item>Baie duur</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Enige</item>
+        <item>3-ster</item>
+        <item>4-ster</item>
+        <item>5-ster</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Enige</item>
+        <item>Nou oop</item>
+        <item>Gepasmaak</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Terwyl jy zoem</item>
+        <item>Altyd</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Wanneer in- en uitzoem</item>
+        <item>Altyd</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Het dit gehaat</item>
+        <item>Het nie daarvan gehou nie</item>
+        <item>Dit is OK</item>
+        <item>Het daarvan gehou</item>
+        <item>Was mal daaroor</item>
+    </string-array>
+</resources>

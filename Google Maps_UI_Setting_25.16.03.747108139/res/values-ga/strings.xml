@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gms_core_dialog_continue_text">Lean ar aghaidh</string>
+    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"Níl cead ag MicroG GmsCore rith sa chúlra.
+
+Lean an treoir \"Ná maraigh mo aip\" do do ghuthán, agus cuir na treoracha i bhfeidhm ar do shuiteáil MicroG.
+
+Is gá seo chun go n-oibreoidh an aip."</string>
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Caithfidh tú optúimíochtaí ceallraí MicroG GmsCore a dhíchumasú chun fadhbanna a sheachaint.
+
+Ní chuirfidh díghníomhachtú optúimíochtaí ceallraí do MicroG isteach ar úsáid ceallraí ar bhealach diúltach.
+
+Brúigh an cnaipe leanúnaí agus ligean athruithe optúimíochta."</string>
+    <string name="gms_core_dialog_open_website_text">Suíomh Gréasáin oscailte</string>
+    <string name="gms_core_dialog_title">Gníomh riachtanach</string>
+    <string name="gms_core_toast_not_installed_message">Níl MicroG GmsCore suiteáilte. Suiteáil é.</string>
+</resources>

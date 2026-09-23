@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.gmm.home.views.HomeBottomSheetView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/bottomsheet_nested_scroll_view" android:background="?geoColorSurface" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <android.support.v4.app.FragmentContainerView android:id="@id/content_fragment" android:paddingTop="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </androidx.core.widget.NestedScrollView>
+</com.google.android.apps.gmm.home.views.HomeBottomSheetView>

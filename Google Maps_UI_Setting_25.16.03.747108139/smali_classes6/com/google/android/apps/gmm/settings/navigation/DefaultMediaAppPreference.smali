@@ -1,0 +1,43 @@
+.class public final Lcom/google/android/apps/gmm/settings/navigation/DefaultMediaAppPreference;
+.super Landroidx/preference/DialogPreference;
+.source "PG"
+
+# interfaces
+.implements Larky;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    .locals 1
+
+    .line 1
+    const v0, 0x7f040760
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-direct {p0, p1, p2, v0}, Landroidx/preference/DialogPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public final k()Lgqm;
+    .locals 1
+
+    .line 1
+    new-instance v0, Lagrp;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lagrp;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object v0
+.end method

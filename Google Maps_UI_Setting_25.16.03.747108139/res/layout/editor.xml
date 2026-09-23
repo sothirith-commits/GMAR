@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="?geoColorSurface" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.gmm.kits.terra.curvular.components.core.appbar.AppBar android:id="@id/appBar" android:layout_width="match_parent" android:layout_height="wrap_content" app:liftOnScroll="true" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollingContent" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="com.google.android.apps.gmm.ugc.post.editor.resources.DismissKeyboardScrollingViewBehavior">
+        <include layout="@layout/editor_container" />
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/floatingBottomBar" android:background="?geoColorSurface" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:liftOnScroll="true">
+        <com.google.android.material.divider.MaterialDivider android:layout_gravity="top" android:id="@id/bottomBarDivider" android:layout_width="match_parent" android:layout_height="@dimen/geo_comp_navigation_header_outline_bottom_scrolled_width" />
+        <com.google.android.material.button.MaterialButton android:id="@id/floatingBottomPostButton" style="@style/PostEditorBottomPostButton" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

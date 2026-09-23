@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Kõik</item>
+        <item>€</item>
+        <item>€€</item>
+        <item>€€€</item>
+        <item>€€€€</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Kõik hinnatasemed</item>
+        <item>Soodne</item>
+        <item>Mõõdukalt kallis</item>
+        <item>Kallis</item>
+        <item>Väga kallis</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Kõik</item>
+        <item>3 tärniga</item>
+        <item>4 tärniga</item>
+        <item>5 tärniga</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Kõik</item>
+        <item>Praegu avatud</item>
+        <item>Kohandatud</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Suumimise ajal</item>
+        <item>Alati</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Sisse- ja väljasuumimisel</item>
+        <item>Alati</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Ei meeldinud üldse</item>
+        <item>Ei meeldinud</item>
+        <item>Polnud viga</item>
+        <item>Meeldis</item>
+        <item>Meeldis väga</item>
+    </string-array>
+</resources>

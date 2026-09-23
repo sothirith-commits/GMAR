@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>不限</item>
+        <item>¥</item>
+        <item>¥¥</item>
+        <item>¥¥¥</item>
+        <item>¥¥¥¥</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>价格水平不限</item>
+        <item>廉价</item>
+        <item>不算贵</item>
+        <item>昂贵</item>
+        <item>非常贵</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>不限</item>
+        <item>3星级</item>
+        <item>4星级</item>
+        <item>5星级</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>不限</item>
+        <item>营业中</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>缩放时</item>
+        <item>始终</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>在缩放地图时</item>
+        <item>始终</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>讨厌</item>
+        <item>不喜欢</item>
+        <item>还行</item>
+        <item>喜欢</item>
+        <item>超喜欢</item>
+    </string-array>
+</resources>

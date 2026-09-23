@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>V</item>
+        <item>G</item>
+        <item>D</item>
+        <item>Đ</item>
+        <item>E</item>
+        <item>Ž</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Sve</item>
+        <item>€</item>
+        <item>€€</item>
+        <item>€€€</item>
+        <item>€€€€</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Svi nivoi cena</item>
+        <item>Nije skupo</item>
+        <item>Umereno skupo</item>
+        <item>Skupo</item>
+        <item>Veoma skupo</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Sve</item>
+        <item>3 zvezdice</item>
+        <item>4 zvezdice</item>
+        <item>5 zvezdica</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Sve</item>
+        <item>Trenutno otvoreno</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Pri zumiranju</item>
+        <item>Uvek</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Kada se uvećava i umanjuje</item>
+        <item>Uvek</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Bezveze je</item>
+        <item>Ne sviđa mi se</item>
+        <item>Nije loše</item>
+        <item>Sviđa mi se</item>
+        <item>Sjajno je</item>
+    </string-array>
+</resources>

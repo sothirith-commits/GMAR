@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.GoogleMaterial.Light" parent="@style/Base.V27.Theme.GoogleMaterial.Light" />
+    <style name="Base.Theme.GoogleMaterial.Light.BottomSheetDialog" parent="@style/Base.V27.Theme.GoogleMaterial.Light.BottomSheetDialog" />
+    <style name="Base.Theme.GoogleMaterial3.Light" parent="@style/Base.V27.Theme.GoogleMaterial3.Light" />
+    <style name="Base.Theme.GoogleMaterial3.Light.BottomSheetDialog" parent="@style/Base.V27.Theme.GoogleMaterial3.Light.BottomSheetDialog" />
+    <style name="Base.V27.Theme.GoogleMaterial.Light" parent="@style/Base.V24.Theme.GoogleMaterial.Light">
+        <item name="android:navigationBarColor">@color/google_white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Base.V27.Theme.GoogleMaterial.Light.BottomSheetDialog" parent="@style/Base.V21.Theme.GoogleMaterial.Light.BottomSheetDialog">
+        <item name="android:navigationBarColor">@color/google_white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+    </style>
+    <style name="Base.V27.Theme.GoogleMaterial3.Light" parent="@style/Base.V24.Theme.GoogleMaterial3.Light">
+        <item name="android:navigationBarColor">@color/gm3_ref_palette_white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Base.V27.Theme.GoogleMaterial3.Light.BottomSheetDialog" parent="@style/Base.V21.Theme.GoogleMaterial3.Light.BottomSheetDialog">
+        <item name="android:navigationBarColor">@color/gm3_ref_palette_white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+    </style>
+    <style name="GmmDayNightTheme" parent="@style/Base.Theme.Gmm.Gm3">
+        <item name="android:colorBackground">?geoColorSurface</item>
+        <item name="android:textColorPrimary">?geoColorOnSurface</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/primary_disable_only</item>
+        <item name="android:textColorSecondary">?geoColorOnSurfaceVariant</item>
+        <item name="android:windowBackground">?geoColorSurface</item>
+        <item name="android:textColorLink">?geoColorPrimary</item>
+        <item name="android:textAppearanceButton">?textAppearanceButton</item>
+        <item name="android:alertDialogTheme">@style/ThemeOverlay.Gmm.Dialog.Alert</item>
+        <item name="android:editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="android:colorAccent">?geoColorPrimary</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:timePickerDialogTheme">@style/TimePickerDialogTheme</item>
+        <item name="android:datePickerDialogTheme">@style/DialogAccessibleTheme</item>
+        <item name="android:navigationBarDividerColor">@color/divider_daynight_grey</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.Gmm.Dialog.Alert</item>
+        <item name="colorAccent">?geoColorPrimary</item>
+        <item name="colorError">?geoColorNegative</item>
+        <item name="colorErrorStateContent">?geoColorOnNegative</item>
+        <item name="colorHairline">?geoColorOutlineDecorative</item>
+        <item name="colorOnBackground">?geoColorOnSurface</item>
+        <item name="colorOnError">?geoColorOnNegative</item>
+        <item name="colorOnPrimary">?geoColorOnSurface</item>
+        <item name="colorOnPrimaryGoogle">?geoColorOnPrimaryContainer</item>
+        <item name="colorOnPrimaryStateLayerGoogle">?geoColorOnPrimaryContainer</item>
+        <item name="colorOnSecondary">?geoColorOnSecondaryContainer</item>
+        <item name="colorOnSecondaryStateContent">?geoColorOnSecondaryContainer</item>
+        <item name="colorOnSecondaryStateLayer">?geoColorOnSecondaryContainer</item>
+        <item name="colorOnSurface">?geoColorOnSurface</item>
+        <item name="colorOnSurfaceStateContent">?geoColorOnSurface</item>
+        <item name="colorOnSurfaceStateLayer">?geoColorOnSurface</item>
+        <item name="colorOnSurfaceVariant">?geoColorOnSurfaceVariant</item>
+        <item name="colorPrimary">?geoColorSurface</item>
+        <item name="colorPrimaryDark">?geoColorSurface</item>
+        <item name="colorPrimaryGoogle">?geoColorPrimary</item>
+        <item name="colorPrimaryStateContentGoogle">?geoColorPrimary</item>
+        <item name="colorPrimaryVariant">?geoColorSurface</item>
+        <item name="colorPrimaryVariantGoogle">?geoColorPrimary</item>
+        <item name="colorSecondary">?geoColorSecondaryContainer</item>
+        <item name="colorSecondaryVariant">?geoColorSecondaryContainer</item>
+        <item name="colorSurface">?geoColorSurface</item>
+        <item name="colorTextFieldError">?geoColorNegative</item>
+        <item name="colorTextFieldHairline">?geoColorOutlineInteractive</item>
+        <item name="colorTextFieldOnSurfaceVariant">?geoColorOnSurfaceVariant</item>
+        <item name="colorTextFieldPrimary">?geoColorOnSecondaryContainer</item>
+        <item name="colorTextFieldSurface">?geoColorNeutralContainer</item>
+        <item name="colorTimePickerSurface">?geoColorNeutralContainer</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="elevationOverlayColor">@color/terra_color_elevation_overlay</item>
+        <item name="floatingActionButtonStyle">@empty</item>
+        <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList.Material</item>
+        <item name="preferenceTheme">@style/GmmPreferenceTheme</item>
+        <item name="snackbarButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Snackbar</item>
+        <item name="snackbarStyle">@style/Widget.GoogleMaterial.Snackbar</item>
+        <item name="snackbarTextViewStyle">@style/Widget.GoogleMaterial.Snackbar.TextView</item>
+        <item name="textAppearanceBodyExtraSmall">@style/TextAppearance.Geo.Sys.Typescale.BodyExtraSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Geo.Sys.Typescale.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.Geo.Sys.Typescale.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.Geo.Sys.Typescale.BodySmall</item>
+        <item name="textAppearanceDisplayLarge">@style/TextAppearance.Geo.Sys.Typescale.DisplayLarge</item>
+        <item name="textAppearanceDisplayMedium">@style/TextAppearance.Geo.Sys.Typescale.DisplayMedium</item>
+        <item name="textAppearanceDisplaySmall">@style/TextAppearance.Geo.Sys.Typescale.DisplaySmall</item>
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.Geo.Sys.Typescale.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.Geo.Sys.Typescale.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.Geo.Sys.Typescale.HeadlineSmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.Geo.Sys.Typescale.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.Geo.Sys.Typescale.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.Geo.Sys.Typescale.LabelSmall</item>
+        <item name="textAppearanceOverline">@style/mod_overline_text_appearance</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.Geo.Sys.Typescale.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.Geo.Sys.Typescale.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.Geo.Sys.Typescale.TitleSmall</item>
+        <item name="textInputStyle">@empty</item>
+    </style>
+    <style name="OneGoogle.Dialog.Base" parent="@style/OneGoogle.Dialog.Base.V27" />
+    <style name="OneGoogle.Dialog.Base.V27" parent="@style/OneGoogle.Dialog.Base.V23">
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="SudThemeGlifV3" parent="@style/SudBaseThemeGlifV3">
+        <item name="android:navigationBarColor">@color/sud_glif_v3_nav_bar_color_dark</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">@color/sud_glif_v3_nav_bar_divider_color_dark</item>
+        <item name="sucLightSystemNavBar">?android:windowLightNavigationBar</item>
+        <item name="sucSystemNavBarDividerColor">?android:navigationBarDividerColor</item>
+    </style>
+    <style name="SudThemeGlifV3.Light" parent="@style/SudBaseThemeGlifV3.Light">
+        <item name="android:navigationBarColor">@color/sud_glif_v3_nav_bar_color_light</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">@color/sud_glif_v3_nav_bar_divider_color_light</item>
+        <item name="sucLightSystemNavBar">?android:windowLightNavigationBar</item>
+        <item name="sucSystemNavBarDividerColor">?android:navigationBarDividerColor</item>
+    </style>
+</resources>

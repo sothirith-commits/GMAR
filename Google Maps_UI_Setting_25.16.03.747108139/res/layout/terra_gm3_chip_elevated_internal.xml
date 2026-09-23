@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip android:ellipsize="end" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="1.0dp" android:layout_marginEnd="1.0dp" android:elevation="@dimen/geo_comp_action_chip_elevated_elevation" app:chipEndPadding="0.0dp" app:chipStartPadding="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

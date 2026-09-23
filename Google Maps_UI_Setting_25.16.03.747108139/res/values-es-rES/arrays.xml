@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Todo</item>
+        <item>€</item>
+        <item>€€</item>
+        <item>€€€</item>
+        <item>€€€€</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Todos los niveles de precios</item>
+        <item>Asequible</item>
+        <item>Moderadamente caro</item>
+        <item>Caro</item>
+        <item>Muy caro</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Todo</item>
+        <item>3 estrellas</item>
+        <item>4 estrellas</item>
+        <item>5 estrellas</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Cualquiera</item>
+        <item>Abierto ahora</item>
+        <item>Personaliz.</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Al hacer zoom</item>
+        <item>Siempre</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Al hacer zoom</item>
+        <item>Siempre</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>No me ha gustado nada</item>
+        <item>No me ha gustado</item>
+        <item>No está mal</item>
+        <item>Me ha gustado</item>
+        <item>Me ha encantado</item>
+    </string-array>
+</resources>

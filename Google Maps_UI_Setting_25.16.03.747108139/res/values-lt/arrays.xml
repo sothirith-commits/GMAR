@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Bet kiek</item>
+        <item>€</item>
+        <item>€€</item>
+        <item>€€€</item>
+        <item>€€€€</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Bet kuris kainų lygis</item>
+        <item>Nebrangu</item>
+        <item>Vidutinė kaina</item>
+        <item>Brangu</item>
+        <item>Labai brangu</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Bet kiek</item>
+        <item>3 žvaigždutės</item>
+        <item>4 žvaigždutės</item>
+        <item>5 žvaigždutės</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Nesvarbu</item>
+        <item>Atidaryta dabar</item>
+        <item>Tinkintas</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Keičiant mastelį</item>
+        <item>Visada</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Kai artinama ir tolinama</item>
+        <item>Visada</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Labai nepatiko</item>
+        <item>Nepatiko</item>
+        <item>Gerai</item>
+        <item>Patiko</item>
+        <item>Labai patiko</item>
+    </string-array>
+</resources>

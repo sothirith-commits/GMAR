@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/content_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/grippy" android:background="@drawable/grippy_drawable" android:layout_width="@dimen/geo_comp_bottom_sheet_grippy_width" android:layout_height="@dimen/geo_comp_bottom_sheet_grippy_height" android:layout_marginTop="8.0dp" />
+    <FrameLayout android:id="@id/container_overlay" android:background="?geoColorNeutralContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</merge>

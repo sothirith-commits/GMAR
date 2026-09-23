@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>വെള്ളി</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>ഏതും</item>
+        <item>₹</item>
+        <item>₹₹</item>
+        <item>₹₹₹</item>
+        <item>₹₹₹₹</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>ഏത് വില നിലയും</item>
+        <item>ചെലവുകുറഞ്ഞത്</item>
+        <item>മിതമായി ചെലവേറിയത്</item>
+        <item>ചെലവേറിയത്</item>
+        <item>അധിക ചെലവേറിയത്</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>ഏതും</item>
+        <item>3-നക്ഷത്രം</item>
+        <item>4-നക്ഷത്രം</item>
+        <item>5-നക്ഷത്രം</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>ഏതെങ്കിലും</item>
+        <item>തുറന്നിരിക്കുന്നവ</item>
+        <item>ഇഷ്‌ടാനുസൃതം</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>സൂം ചെയ്യുമ്പോൾ</item>
+        <item>എല്ലായ്‌പ്പോഴും</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>സൂം ഇന്നും ഔട്ടും ചെയ്യുമ്പോൾ</item>
+        <item>എല്ലായ്പ്പോഴും</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>വെറുക്കുന്നു</item>
+        <item>ഇഷ്ടപ്പെട്ടില്ല</item>
+        <item>കുഴപ്പമില്ല</item>
+        <item>കൊള്ളാം</item>
+        <item>നന്നായിട്ടുണ്ട്</item>
+    </string-array>
+</resources>

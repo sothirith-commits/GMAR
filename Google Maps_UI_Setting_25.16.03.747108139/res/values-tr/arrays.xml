@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Tümü</item>
+        <item>₺</item>
+        <item>₺₺</item>
+        <item>₺₺₺</item>
+        <item>₺₺₺₺</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Tüm fiyat seviyeleri</item>
+        <item>Pahalı değil</item>
+        <item>Biraz pahalı</item>
+        <item>Pahalı</item>
+        <item>Çok pahalı</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Tümü</item>
+        <item>3 yıldızlı</item>
+        <item>4 yıldızlı</item>
+        <item>5 yıldızlı</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Tümü</item>
+        <item>Şu anda açık</item>
+        <item>Özel</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Yakınlaştırırken</item>
+        <item>Her zaman</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Yakınlaştırırken ve uzaklaştırırken</item>
+        <item>Her zaman</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Hiç beğenmedim</item>
+        <item>Beğenmedim</item>
+        <item>Fena değil</item>
+        <item>Beğendim</item>
+        <item>Çok beğendim</item>
+    </string-array>
+</resources>

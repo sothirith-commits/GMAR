@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CANCELLING_UPLOADS_TITLE">Cancelando la carga</string>
+    <string name="STARTING_UPLOAD_TITLE">Iniciando la carga</string>
+    <string name="STOPPING_UPLOADS_TITLE">Deteniendo la carga</string>
+    <string name="UPLOADING_MEDIA_TITLE">Subiendo contenido multimedia</string>
+    <string name="UPLOAD_NOW">Subir ahora</string>
+    <string name="WAIT_FOR_WIFI">Esperar Wi-Fi</string>
+    <string name="__arcore_cancel">Cancelar</string>
+    <string name="__arcore_continue">Continuar</string>
+    <string name="__arcore_install_app">Esta app requiere la versión más reciente de Servicios de Google Play para RA.</string>
+    <string name="__arcore_install_feature">Esta función requiere la versión más reciente de Servicios de Google Play para RA.</string>
+    <string name="__arcore_installing">Instalando Servicios de Google Play para RA…</string>
+    <string name="sharekit_back">Volver</string>
+    <string name="sharekit_close">Cerrar</string>
+    <string name="sharekit_copy_action_link">Copiar vínculo</string>
+    <string name="sharekit_preview_app_row_more">Más</string>
+    <string name="sharekit_preview_content_description">Imagen de vista previa</string>
+    <string name="sharekit_preview_title">Compartir</string>
+    <string name="sharekit_send">Enviar</string>
+</resources>

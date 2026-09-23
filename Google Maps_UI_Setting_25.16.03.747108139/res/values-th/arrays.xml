@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>ทุกระดับ</item>
+        <item>฿</item>
+        <item>฿฿</item>
+        <item>฿฿฿</item>
+        <item>฿฿฿฿</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>ทุกระดับราคา</item>
+        <item>ไม่แพง</item>
+        <item>แพงพอสมควร</item>
+        <item>แพง</item>
+        <item>แพงมาก</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>ทุกระดับ</item>
+        <item>3 ดาว</item>
+        <item>4 ดาว</item>
+        <item>5 ดาว</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>ทั้งหมด</item>
+        <item>เปิดอยู่</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>ขณะซูม</item>
+        <item>ทุกครั้ง</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>เมื่อซูมเข้าและออก</item>
+        <item>ตลอดเวลา</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>ไม่ชอบเลย</item>
+        <item>ไม่ชอบ</item>
+        <item>พอใช้ได้</item>
+        <item>ชอบ</item>
+        <item>ชอบที่สุด</item>
+    </string-array>
+</resources>

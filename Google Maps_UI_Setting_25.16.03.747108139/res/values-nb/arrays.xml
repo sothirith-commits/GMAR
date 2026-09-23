@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Alle</item>
+        <item>NOK</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Alle prisnivåer</item>
+        <item>Rimelig</item>
+        <item>Litt dyrt</item>
+        <item>Dyrt</item>
+        <item>Veldig dyrt</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Alle</item>
+        <item>3 stjerner</item>
+        <item>4 stjerner</item>
+        <item>5 stjerner</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Alle</item>
+        <item>Åpen nå</item>
+        <item>Egendefinert</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Ved zooming</item>
+        <item>Alltid</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Når du zoomer inn og ut</item>
+        <item>Alltid</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Likte det overhodet ikke</item>
+        <item>Likte det ikke</item>
+        <item>Greit nok</item>
+        <item>Likte det</item>
+        <item>Likte det svært godt</item>
+    </string-array>
+</resources>

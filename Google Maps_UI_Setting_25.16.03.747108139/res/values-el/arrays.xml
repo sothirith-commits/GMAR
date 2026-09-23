@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>Α</item>
+        <item>Β</item>
+        <item>Γ</item>
+        <item>Δ</item>
+        <item>Ε</item>
+        <item>Ζ</item>
+        <item>Η</item>
+        <item>Θ</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Οποιαδ.</item>
+        <item>€</item>
+        <item>€€</item>
+        <item>€€€</item>
+        <item>€€€€</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Οποιοδήποτε επίπεδο τιμών</item>
+        <item>Φτηνό</item>
+        <item>Αρκετά ακριβό</item>
+        <item>Ακριβό</item>
+        <item>Πολύ ακριβό</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Οποιαδ.</item>
+        <item>3 αστ.</item>
+        <item>4 αστ.</item>
+        <item>5 αστ.</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Όλα</item>
+        <item>Ανοιχτά τώρα</item>
+        <item>Προσαρμοσμένο</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Κατά την εστίαση</item>
+        <item>Πάντα</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Κατά τη μεγέθυνση και τη σμίκρυνση</item>
+        <item>Πάντα</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Δεν μου άρεσε καθόλου</item>
+        <item>Δεν μου άρεσε</item>
+        <item>Μέτριο</item>
+        <item>Μου άρεσε</item>
+        <item>Μου άρεσε πολύ</item>
+    </string-array>
+</resources>

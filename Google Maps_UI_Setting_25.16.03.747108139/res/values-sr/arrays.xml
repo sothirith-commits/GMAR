@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Ђ</item>
+        <item>Е</item>
+        <item>Ж</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Све</item>
+        <item>€</item>
+        <item>€€</item>
+        <item>€€€</item>
+        <item>€€€€</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Сви нивои цена</item>
+        <item>Није скупо</item>
+        <item>Умерено скупо</item>
+        <item>Скупо</item>
+        <item>Веома скупо</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Све</item>
+        <item>3 звездице</item>
+        <item>4 звездице</item>
+        <item>5 звездица</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Све</item>
+        <item>Тренутно отворено</item>
+        <item>Прилагођено</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>При зумирању</item>
+        <item>Увек</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Када се увећава и умањује</item>
+        <item>Увек</item>
+    </string-array>
+    <string-array name="interactive_rating_state_commentary">
+        <item>Безвезе је</item>
+        <item>Не свиђа ми се</item>
+        <item>Није лоше</item>
+        <item>Свиђа ми се</item>
+        <item>Сјајно је</item>
+    </string-array>
+</resources>
