@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="12.0sp" android:textColor="?ytOverlayTextPrimary" android:layout_gravity="start|bottom" android:id="@id/ad_badge" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:text="@string/pip_paid_product_badge" android:layout_marginStart="4.0dp" yt:youTubeSansFont="bold"
+      xmlns:yt="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

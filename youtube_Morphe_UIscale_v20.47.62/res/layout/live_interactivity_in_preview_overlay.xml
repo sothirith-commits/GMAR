@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/live_interactivity_in_preview_overlay" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/immersive_live_ephemeral_widget_overlay" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="bottom" android:layout_gravity="start|bottom" android:orientation="vertical" android:id="@id/live_interactivity_in_preview_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/live_chat_immersive_style_text_item_margin_start">
+        <com.google.android.libraries.youtube.livechat.ui.view.AboveChatSlotFrameLayout android:layout_gravity="start|bottom" android:id="@id/above_anchor_start_aligned_container_1" android:paddingBottom="@dimen/live_chat_message_horizontal_padding" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/immersive_live_persistent_widget_overlay" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

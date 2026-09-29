@@ -1,0 +1,42 @@
+.class public final synthetic Lbhkc;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Ljava/util/function/Supplier;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final get()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    sget v0, Lbhnq;->d:I
+
+    .line 2
+    .line 3
+    new-instance v0, Lbhnl;
+
+    .line 4
+    .line 5
+    invoke-direct {v0}, Lbhnl;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-object v0
+.end method

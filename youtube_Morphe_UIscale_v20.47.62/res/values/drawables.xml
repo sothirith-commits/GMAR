@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="connection_toolbar_back_arrow">@drawable/quantum_ic_arrow_back_grey600_24</drawable>
+    <drawable name="deco_dark_background">@drawable/deco_tre_blob_dark</drawable>
+    <drawable name="deco_light_background">@drawable/deco_tre_blob_light</drawable>
+    <drawable name="selectable_item_background_solid_dark">@drawable/selectable_item_background_solid</drawable>
+    <drawable name="selectable_item_background_solid_light">@drawable/selectable_item_background_solid</drawable>
+    <drawable name="yt_fill_person_circle_placeholder_24">@drawable/yt_fill_person_circle_black_24</drawable>
+    <drawable name="yt_fill_youtube_logo_24">@drawable/yt_fill_youtube_logo_black_24</drawable>
+</resources>

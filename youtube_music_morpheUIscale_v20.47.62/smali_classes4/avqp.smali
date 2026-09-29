@@ -1,0 +1,51 @@
+.class public final Lavqp;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lcgnr;
+
+
+# direct methods
+.method public static b(Laxbk;Laxbl;Lcgzs;)Laxbw;
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    invoke-virtual {p2}, Lcgzs;->E()Z
+
+    .line 3
+    .line 4
+    .line 5
+    move-result p2
+
+    .line 6
+    if-ne v0, p2, :cond_0
+
+    .line 7
+    .line 8
+    move-object p0, p1
+
+    .line 9
+    :cond_0
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 10
+    .line 11
+    .line 12
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic gr()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    throw v0
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.creation.common.ui.entrypoint.EntryPointView android:id="@id/entry_point_view" android:background="@drawable/media_generation_additive_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?ytTouchFeedbackCircle" android:layout_marginStart="1.0dp" android:layout_marginEnd="1.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp">
+        <ImageView android:id="@id/entry_point_icon_view" android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:foreground="?ytTouchFeedbackCircle" android:scaleType="fitCenter" android:tint="?ytIconActiveOther" android:layout_marginEnd="4.0dp" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?ytTextPrimary" android:id="@id/entry_point_label_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/entry_point_secondary_icon_view" android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:foreground="?ytTouchFeedbackCircle" android:scaleType="fitCenter" android:tint="?ytIconActiveOther" android:layout_marginStart="4.0dp" />
+    </LinearLayout>
+</com.google.android.libraries.youtube.creation.common.ui.entrypoint.EntryPointView>

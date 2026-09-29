@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@id/position_button" android:background="@drawable/positioning_button_background" android:padding="@dimen/button_padding" android:layout_width="@dimen/button_diameter" android:layout_height="@dimen/button_diameter"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

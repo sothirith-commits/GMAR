@@ -1,0 +1,64 @@
+.class public final Lthx;
+.super Lsgw;
+.source "PG"
+
+# interfaces
+.implements Lszf;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lthw;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, v0}, Lsgw;-><init>(Lcom/google/android/libraries/elements/adl/UpbMiniTable;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+    .locals 0
+
+    .line 7
+    invoke-direct {p0, p1}, Lsgw;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final g()I
+    .locals 4
+
+    .line 1
+    iget-wide v0, p0, Lthx;->c:J
+
+    .line 2
+    .line 3
+    const-wide/16 v2, 0xc
+
+    .line 4
+    .line 5
+    add-long/2addr v0, v2
+
+    .line 6
+    const/4 v2, 0x0
+
+    .line 7
+    invoke-static {v0, v1, v2}, Llibcore/io/Memory;->peekInt(JZ)I
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v0
+
+    .line 11
+    return v0
+.end method

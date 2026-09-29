@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/morphe_check_icon" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/morphe_settings_custom_checkmark" android:contentDescription="@null" android:layout_marginEnd="24.0dp" />
+    <View android:id="@id/morphe_check_icon_placeholder" android:visibility="invisible" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginEnd="24.0dp" />
+    <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="?android:textColorPrimary" android:id="@id/morphe_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

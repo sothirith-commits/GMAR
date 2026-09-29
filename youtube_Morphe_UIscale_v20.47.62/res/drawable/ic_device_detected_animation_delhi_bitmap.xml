@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="150" android:drawable="@drawable/yt_outline_experimental_chromecast_waveform_black_24" />
+    <item android:duration="150" android:drawable="@drawable/outline_chromecast_waveform_frame_2_delhi_webp" />
+    <item android:duration="150" android:drawable="@drawable/outline_chromecast_waveform_frame_3_delhi_webp" />
+    <item android:duration="150" android:drawable="@drawable/outline_chromecast_waveform_frame_4_delhi_webp" />
+</animation-list>

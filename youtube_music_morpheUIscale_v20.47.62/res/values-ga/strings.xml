@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="morphe_settings_submenu_title">Socruithe</string>
+    <string name="morphe_settings_confirm_user_dialog_title">An bhfuil tú cinnte gur mhaith leat dul ar aghaidh?</string>
+    <string name="morphe_settings_save">Sábháil</string>
+    <string name="morphe_settings_reset">Athshocraigh</string>
+    <string name="morphe_settings_reset_color">Athshocraigh dath</string>
+    <string name="morphe_settings_color_invalid">Dath neamhbhailí</string>
+    <string name="morphe_settings_restart_title">Atosú ag teastáil</string>
+    <string name="morphe_settings_restart_dialog_message">Atosaigh an aip chun go mbeidh an t-athrú seo i bhfeidhm.</string>
+    <string name="morphe_settings_restart">Atosaigh</string>
+    <string name="morphe_settings_import">Iompórtáil</string>
+    <string name="morphe_settings_import_copy">Cóipeáil</string>
+    <string name="morphe_settings_import_reset">Athshocraigh socruithe Morphe go réamhshocrú</string>
+    <string name="morphe_settings_import_success">%d socruithe allmhairithe</string>
+    <string name="morphe_settings_import_failure_parse">Theip ar allmhairiú: %s</string>
+    <string name="morphe_settings_search_hint">Socruithe cuardaigh</string>
+    <string name="morphe_settings_search_no_results_title">"Níor aimsíodh aon torthaí do '%s'"</string>
+    <string name="morphe_settings_search_no_results_summary">Bain triail as eochairfhocal eile</string>
+    <string name="morphe_settings_search_recent_searches">Cuardaigh le déanaí</string>
+    <string name="morphe_settings_search_remove_message">Bain as stair an chuardaigh?</string>
+    <string name="morphe_settings_search_clear_history">Glan stair chuardaigh</string>
+    <string name="morphe_settings_search_clear_history_message">An bhfuil tú cinnte gur mhaith leat stair chuardaigh go léir a ghlanadh?</string>
+    <string name="morphe_settings_search_tips_title">Leideanna Cuardaigh</string>
+    <string name="morphe_settings_search_tips_summary">"• Tapáil cosán chun dul chuige
+• Brúigh fada ar shocrú chun dul chuige
+• Brúigh Iontráil chun iarratas cuardaigh a shábháil sa stair
+• Déanann cuardach neamhaird de chásáil agus poncaíocht
+• Tá socruithe tuismitheora le feiceáil os cionn socruithe leanaí díchumasaithe"</string>
+    <string name="morphe_settings_search_empty_history_title">Tá stair chuardaigh folamh</string>
+    <string name="morphe_settings_search_empty_history_summary">Chun stair an chuardaigh a shábháil, clóscríobh iarratas cuardaigh agus brúigh Iontráil</string>
+    <string name="morphe_settings_search_history_title">Taispeáin stair cuardaigh na socruithe</string>
+    <string name="morphe_settings_search_history_summary_on">Taispeántar stair chuardaigh na socruithe</string>
+    <string name="morphe_settings_search_history_summary_off">Ní thaispeántar stair chuardaigh na socruithe</string>
+    <string name="morphe_show_menu_icons_title">Taispeáin deilbhíní socruithe Morphe</string>
+    <string name="morphe_show_menu_icons_summary_on">Taispeántar deilbhíní socruithe</string>
+    <string name="morphe_show_menu_icons_summary_off">Ní thaispeántar deilbhíní socraithe</string>
+    <string name="morphe_language_title">Teanga Morphe</string>
+    <string name="morphe_language_user_dialog_message">"D’fhéadfadh aistriúcháin do roinnt teangacha a bheith ar iarraidh nó neamhiomlán.
+
+Chun teangacha nua a aistriú nó chun na haistriúcháin atá ann cheana a fheabhsú, tabhair cuairt ar morphe.software/translate"</string>
+    <string name="morphe_language_DEFAULT">Teanga an aip</string>
+    <string name="morphe_pref_import_export_title">Iompórtáil / Easpórtáil</string>
+    <string name="morphe_pref_import_export_summary">Socruithe Morphe a Iompórtáil / Easpórtáil</string>
+    <string name="morphe_settings_import_file">Iompórtáil ó chomhad</string>
+    <string name="morphe_settings_import_file_success">D’éirigh le hiompórtáil na socruithe, tapáil Sábháil le cur i bhfeidhm</string>
+    <string name="morphe_settings_import_file_failed">Theip ar shocruithe a iompórtáil</string>
+    <string name="morphe_settings_export_file">Easpórtáil chuig comhad</string>
+    <string name="morphe_settings_export_file_success">Easpórtáladh na socruithe go rathúil</string>
+    <string name="morphe_settings_export_file_failed">Theip ar shocruithe a easpórtáil</string>
+    <string name="morphe_settings_about_links_body_version_current">Tá tú ag baint úsáide as an leagan is déanaí de Morphe Patches &lt;i>%s&lt;/i></string>
+    <string name="morphe_settings_about_links_body_version_outdated">Tá tú ag baint úsáide as leagan &lt;i>%1$s&lt;/i> Morphe Patches&lt;br>&lt;br>&lt;b>Nuashonrú ar fáil: &lt;i>%2$s&lt;/i>&lt;/b>&lt;br>&lt;br>Chun do phaisteanna a nuashonrú, bain úsáid as Morphe chun an aip seo a athphaisteáil</string>
+    <string name="morphe_settings_about_links_dev_header">Nóta</string>
+    <string name="morphe_settings_about_links_dev_body">"Is réamh-eisiúint é an leagan seo agus d'fhéadfadh fadhbanna gan choinne a bheith agat"</string>
+    <string name="morphe_settings_about_links_header">Naisc oifigiúla</string>
+    <string name="morphe_settings_about_links_website">Suíomh Gréasáin</string>
+    <string name="morphe_settings_about_links_donate">Tabhair Síntiús</string>
+    <string name="morphe_settings_about_links_translations">Aistriúcháin</string>
+    <string name="morphe_settings_about_links_credits">Creidmheasanna</string>
+    <string name="morphe_settings_about_links_dev_header_up_to_date">Suas chun dáta</string>
+    <string name="morphe_settings_about_links_dev_header_update_available">Nuashonrú ar fáil</string>
+    <string name="morphe_settings_about_contributors_current">Forbairt reatha</string>
+    <string name="morphe_settings_about_contributors_prior">Forbairt roimhe seo</string>
+    <string name="morphe_settings_about_links_morphe">Forbairt ghníomhach</string>
+    <string name="morphe_settings_about_links_rvx">2022 ‑ 2025</string>
+    <string name="morphe_settings_about_links_rv">2022 ‑ 2025</string>
+    <string name="morphe_settings_about_links_vanced">2019 ‑ 2022</string>
+    <string name="morphe_settings_about_links_licenses">Fógraí ceadúnais</string>
+    <string name="morphe_settings_about_licenses_loading">Ag lódáil...</string>
+    <string name="morphe_debug_screen_title">Dífhabhtú</string>
+    <string name="morphe_debug_screen_summary">Cumasaigh nó díchumasaigh roghanna dífhabhtaithe</string>
+    <string name="morphe_debug_title">Logáil dífhabhtaithe</string>
+    <string name="morphe_debug_summary_on">Tá logaí dífhabhtaithe cumasaithe</string>
+    <string name="morphe_debug_summary_off">Tá logaí dífhabhtaithe díchumasaithe</string>
+    <string name="morphe_debug_stacktrace_title">Rian staice loga dífhabhtaithe</string>
+    <string name="morphe_debug_stacktrace_summary_on">Áirítear le logaí dífhabhtaithe rianta cruachta</string>
+    <string name="morphe_debug_stacktrace_summary_off">Ní chuimsíonn logaí dífhabhtaithe rianta cruachta</string>
+    <string name="morphe_debug_toast_on_error_title">Taispeáin tósta ar earráid Morphe</string>
+    <string name="morphe_debug_toast_on_error_summary_on">Taispeántar tósta má tharlaíonn earráid</string>
+    <string name="morphe_debug_toast_on_error_summary_off">Ní thaispeántar tósta má tharlaíonn earráid</string>
+    <string name="morphe_debug_toast_on_error_user_dialog_message">"Má mhúchtar tóstaí earráide, folaítear gach fógra earráide Morphe.
+
+Ní chuirfear ar an eolas thú faoi aon imeachtaí gan choinne."</string>
+    <string name="morphe_debug_export_logs_title">Easpórtáil logaí dífhabhtaithe</string>
+    <string name="morphe_debug_export_logs_summary">Export Morphe debug logs</string>
+    <string name="morphe_debug_export_logs_file">Easpórtáil chuig comhad</string>
+    <string name="morphe_debug_export_logs_success">Easpórtáladh logaí dífhabhtaithe go rathúil</string>
+    <string name="morphe_debug_export_logs_failed">Theip ar logaí dífhabhtaithe a onnmhairiú</string>
+    <string name="morphe_debug_logs_search_hint">Cuardaigh logaí dífhabhtaithe...</string>
+    <string name="morphe_debug_export_logs_clear">Glan</string>
+    <string name="morphe_debug_logs_disabled">Tá logáil dífhabhtaithe díchumasaithe</string>
+    <string name="morphe_debug_logs_none_found">Níor aimsíodh aon logaí dífhabhtaithe</string>
+    <string name="morphe_debug_logs_copied_to_clipboard">Logaí dífhabhtaithe cóipeáilte</string>
+    <string name="morphe_debug_logs_failed_to_export">Theip ar logaí dífhabhtaithe a onnmhairiú: %s</string>
+    <string name="morphe_debug_logs_clear_toast">Glanadh logaí dífhabhtaithe</string>
+    <string name="morphe_debug_feature_flags_manager_title">Bainisteoir bratacha gnéithe</string>
+    <string name="morphe_debug_feature_flags_manager_summary">Bainistigh bratacha gné booléacha</string>
+    <string name="morphe_debug_feature_flags_manager_active_header">Bratacha gné gníomhacha (%d)</string>
+    <string name="morphe_debug_feature_flags_manager_blocked_header">Bratacha gné blocáilte (%d)</string>
+    <string name="morphe_debug_feature_flags_manager_search_hint">Bratacha gné cuardaigh...</string>
+    <string name="morphe_debug_feature_flags_manager_toast_saved">Bratacha gné sábháilte</string>
+    <string name="morphe_debug_feature_flags_manager_toast_reset">Athshocrú bratacha gnéithe</string>
+    <string name="morphe_debug_feature_flags_manager_toast_copied">Bratacha gné cóipeáilte chuig an ghearrthaisce</string>
+    <string name="morphe_debug_feature_flags_manager_toast_no_flags">Atosaigh an aip chun an socrú seo a úsáid</string>
+    <string name="microg_settings_summary">Oscail na socruithe MicroG</string>
+    <string name="gms_core_toast_not_installed_message">Níl MicroG suiteáilte. Suiteáil é.</string>
+    <string name="gms_core_dialog_title">Gníomh ag teastáil</string>
+    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"Níl cead ag MicroG rith sa chúlra.
+
+Lean an treoir \"Ná maraigh mo aip\" do do ghuthán, agus cuir na treoracha i bhfeidhm ar do shuiteáil MicroG.
+
+Is gá seo chun go n-oibreoidh an aip."</string>
+    <string name="gms_core_dialog_open_website_text">Oscail an suíomh Gréasáin</string>
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Ní mór uasmhéaduithe ceallraí MicroG a dhíchumasú chun fadhbanna a chosc.
+
+Ní bheidh aon tionchar diúltach ag uasmhéaduithe ceallraí do MicroG a dhíchumasú ar úsáid ceallraí.
+
+Tapáil an cnaipe lean ar aghaidh agus ceadaigh athruithe uasmhéadaithe."</string>
+    <string name="gms_core_dialog_continue_text">Lean ar aghaidh</string>
+    <string name="morphe_gms_core_battery_optimization_dialog_title">Dialóg uasmhéadú ceallraí</string>
+    <string name="morphe_gms_core_battery_optimization_dialog_summary_on">Taispeántar dialóg optamaithe ceallraí MicroG</string>
+    <string name="morphe_gms_core_battery_optimization_dialog_summary_off">Ní thaispeántar dialóg optamaithe ceallraí MicroG</string>
+    <string name="morphe_gms_core_battery_optimization_dialog_user_dialog_message">"Má dhíchumasaítear é seo, folófar an leid um optamú ceallraí MicroG.
+
+Mura n-athraítear na hoptamuithe ceallraí, d’fhéadfadh na nithe seo a leanas a bheith i gceist:
+• D’fhéadfadh an aip a dhúnadh go randamach
+• B’fhéidir nach n-oibreoidh fógraí
+• B’fhéidir nach n-oibreoidh athsheinm sa chúlra"</string>
+    <string name="morphe_experimental_app_version_dialog_title">🚨 Foláireamh Turgnamhach 🚨</string>
+    <string name="morphe_experimental_app_version_dialog_message">"Tá leagan turgnamhach den aip de ⚠️ &lt;b>%1$s&lt;/b> in úsáid agat
+&lt;br/>&lt;br/>
+🔧 Bí ag súil le hiompar aisteach nó fabhtanna anaithnid agus muid ag feabhsú na paistí don leagan seo den aip.
+&lt;br/>&lt;br/>
+Más mian leat an taithí is saoire, ansin &lt;b>díshuiteáil&lt;/b> seo agus paisteáil an leagan molta den aip de ✅ &lt;b>%2$s&lt;/b>"</string>
+    <string name="morphe_experimental_app_version_dialog_confirm">⚠️ Ba mhaith liom turgnamhach</string>
+    <string name="morphe_experimental_app_version_dialog_open_homepage">✅ Ba mhaith liom cobhsaíocht</string>
+    <string name="morphe_restart_first_run">Atosaigh chun an socrú a chríochnú</string>
+    <string name="morphe_custom_branding_name_title">Ainm an aip</string>
+    <string name="morphe_custom_branding_name_entry_5">Saincheaptha</string>
+    <string name="morphe_custom_branding_icon_title">Deilbhín aip</string>
+    <string name="morphe_custom_branding_icon_entry_1">Bunaidh</string>
+    <string name="morphe_custom_branding_icon_entry_2">Morphe dubh</string>
+    <string name="morphe_custom_branding_icon_entry_3">Morphe dorcha</string>
+    <string name="morphe_custom_branding_icon_entry_4">Morphe solas</string>
+    <string name="morphe_custom_branding_icon_entry_5">Morphe play</string>
+    <string name="morphe_custom_branding_icon_entry_6">Saincheaptha</string>
+    <string name="morphe_custom_branding_notification_icon_title">Deilbhín fógra</string>
+    <string name="morphe_custom_branding_notification_icon_entry_1">Lean deilbhín an aip</string>
+    <string name="morphe_check_watch_history_domain_name_dialog_title">Fógra Morphe</string>
+    <string name="morphe_check_watch_history_domain_name_dialog_message">Níl do stair faire á sábháil.&lt;br>&lt;br>Is dóichí gur bacadóir fógraí DNS nó seachfhreastalaí líonra is cúis leis seo.&lt;br>&lt;br>Chun seo a shocrú, cuir &lt;b>s.youtube.com&lt;/b> ar an liosta bán nó múch gach bacadóir agus seachfhreastalaí DNS.</string>
+    <string name="morphe_check_watch_history_domain_name_dialog_ignore">Ná taispeáin arís</string>
+    <string name="morphe_spoof_video_streams_screen_title">Sruthanna físe bréige</string>
+    <string name="morphe_spoof_video_streams_screen_summary">Déan sruthanna físe an chliaint a fhalsú chun fadhbanna athsheinm a chosc</string>
+    <string name="morphe_spoof_video_streams_title">Sruthanna físe bréige</string>
+    <string name="morphe_spoof_video_streams_summary_on">"Déantar sruthanna físe a bhréagnú
+
+Mura bhfuil tú i d’úsáideoir YouTube Premium, b’fhéidir nach mbeidh an socrú seo ag teastáil"</string>
+    <string name="morphe_spoof_video_streams_summary_off">"Ní dhéantar bréagadóireacht ar shruthanna físe
+
+B’fhéidir nach n-oibreoidh an athsheinm"</string>
+    <string name="morphe_spoof_video_streams_no_clients_toast">Níorbh fhéidir aon sruthanna cliant a fháil</string>
+    <string name="morphe_spoof_video_streams_user_dialog_message">D’fhéadfadh fadhbanna athsheinm a bheith mar thoradh ar an socrú seo a mhúchadh.</string>
+    <string name="morphe_spoof_video_streams_no_clients_suggest_vr_toast">Bain triail as na nithe seo a leanas a chumasú: Sruthanna físe bréige > Sínigh isteach Android VR</string>
+    <string name="morphe_spoof_video_streams_client_type_title">Cliant réamhshocraithe</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_about_title">Logáil isteach Android VR</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_about_summary">Níl tú logáilte isteach in Android VR. Tapáil anseo le logáil isteach.</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_about_summary_signed_in">Sínithe isteach i Android VR faoi láthair</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_about_summary_disabled">"Chun an ghné seo a úsáid, athraigh 'Cliant réamhshocraithe' go Android VR"</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_dialog_title">Sínigh isteach chuig Android VR</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_dialog_not_signed_in_message">"Is féidir le síniú isteach in Android VR fadhbanna athsheinm a réiteach do roinnt úsáideoirí
+
+Chun síniú isteach, brúigh lean ar aghaidh thíos"</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_dialog_continue">Lean ar aghaidh</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_dialog_reset">Sínigh amach</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_activation_code_dialog_title">Treoracha</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_activation_code_dialog_message">"Cód gníomhachtaithe: %s
+
+1. Tapáil 'Oscail suíomh Gréasáin' thíos chun an suíomh Gréasáin 'Ceangail gléas' a oscailt
+2. Greamaigh ón ngearrthaisce (nó clóscríobh amach) an cód gníomhachtaithe a thaispeántar thuas
+3. Sínigh isteach i Google má iarrtar ort é. Má tá cuntais iolracha agat, roghnaigh an cuntas YouTube seo
+4. Tapáil 'Ceadaigh rochtain YouTube VR'
+5. Fill ar an aip seo tar éis duit an teachtaireacht 'Gléas ceangailte' a bhaint amach"</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_activation_code_dialog_open_website">Oscail an suíomh Gréasáin</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_toast_get_activation_code_failed">Theip ar chód gníomhachtaithe a eisiúint</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_toast_get_authorization_code_failed">Theip ar chomhartha fíordheimhnithe a eisiúint</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_success_dialog_title">Sínithe isteach go rathúil</string>
+    <string name="morphe_spoof_video_streams_sign_in_android_vr_success_dialog_message">"Fíordheimhniú sábháilte
+
+• Ní dhéanfaidh do shocruithe Morphe fíordheimhniú Android VR a allmhairiú/a onnmhairiú
+• Mura n-úsáidtear an aip seo ar feadh 6 mhí, bainfidh Google an fíordheimhniú seo
+• Beidh ort síniú isteach arís má athraíonn tú do phasfhocal Google nó má dhíchláraíonn tú an gléas seo ó do shocruithe Google"</string>
+    <string name="morphe_oauth2_connection_failure_timeout">Níl OAuth2 ar fáil go sealadach (tá an t-am caite ag an API)</string>
+    <string name="morphe_oauth2_connection_failure_status_400">Tá an síniú isteach i Android VR imithe in éag, déan iarracht síniú isteach i VR arís</string>
+    <string name="morphe_oauth2_connection_failure_status">Níl OAuth2 ar fáil go sealadach (stádas %d)</string>
+    <string name="morphe_oauth2_connection_failure_generic">Níl OAuth2 ar fáil go sealadach</string>
+    <string name="morphe_oauth2_connection_failure_auth_not_approved">Ní féidir síniú isteach i VR, níor ceadaíodh fíordheimhniú an tsuímh ghréasáin</string>
+    <string name="morphe_oauth2_connection_failure_auth_error">Ní féidir síniú isteach i VR: %s</string>
+    <string name="morphe_oauth2_toast_reset">Logáilte amach as Android VR</string>
+    <string name="morphe_oauth2_toast_invalid">Comhartha síniú isteach VR neamhbhailí, déan iarracht síniú isteach i VR arís</string>
+    <string name="morphe_spoof_video_streams_disable_player_js_update_title">Díchumasaigh nuashonrú JavaScript an imreora</string>
+    <string name="morphe_spoof_video_streams_disable_player_js_update_summary_on">"Tá nuashonrú JavaScript an imreora díchumasaithe
+
+• Tá hais JavaScript bailí ag teastáil don imreoir
+• Teipfidh ar an athsheinm má chúlghairtear hais JavaScript an imreora i GVS"</string>
+    <string name="morphe_spoof_video_streams_disable_player_js_update_summary_off">Tá nuashonrú JavaScript an imreora cumasaithe</string>
+    <string name="morphe_spoof_video_streams_disable_player_js_update_user_dialog_message">Bíonn haiseanna JavaScript imreora bailí ar feadh thart ar mhí amháin, agus féadfaidh GVS haiseanna atá as dáta a chúlghairm.</string>
+    <string name="morphe_spoof_video_streams_player_js_hash_value_title">Hais JavaScript an imreora</string>
+    <string name="morphe_spoof_video_streams_player_js_hash_value_summary">Cuir isteach hais JavaScript imreora bailí</string>
+    <string name="morphe_disable_quic_protocol_title">Díchumasaigh prótacal QUIC</string>
+    <string name="morphe_disable_quic_protocol_summary_on">Tá prótacal QUIC díchumasaithe</string>
+    <string name="morphe_disable_quic_protocol_summary_off">Tá prótacal QUIC cumasaithe</string>
+    <string name="morphe_disable_drc_audio_title">Díchumasaigh fuaim DRC</string>
+    <string name="morphe_disable_drc_audio_summary_on">Tá fuaim DRC díchumasaithe</string>
+    <string name="morphe_disable_drc_audio_summary_off">Tá fuaim DRC cumasaithe</string>
+    <string name="morphe_force_original_audio_title">Fórsaigh teanga fuaime bhunaidh</string>
+    <string name="morphe_force_original_audio_summary_on">Ag baint úsáide as an teanga fuaime bhunaidh</string>
+    <string name="morphe_force_original_audio_summary_off">Ag baint úsáide as fuaim réamhshocraithe</string>
+    <string name="morphe_hide_fullscreen_ads_title">Folaigh fógraí lánscáileáin</string>
+    <string name="morphe_hide_fullscreen_ads_summary_on">Tá fógraí lánscáileáin i bhfolach</string>
+    <string name="morphe_hide_fullscreen_ads_summary_off">Taispeántar fógraí lánscáileáin</string>
+    <string name="morphe_force_original_audio_not_available">"Chun an gné seo a úsáid, athraigh 'Sruthanna físe bréige' go Android Reel nó TV"</string>
+    <string name="morphe_sanitize_sharing_links_title">Glanadh naisc chomhroinnte</string>
+    <string name="morphe_sanitize_sharing_links_summary_on">Baintear paraiméadar fiosrúcháin rianaithe de naisc chomhroinnte</string>
+    <string name="morphe_sanitize_sharing_links_summary_off">Ní bhaintear paraiméadar fiosrúcháin rianaithe ó naisc chomhroinnte</string>
+    <string name="morphe_replace_music_with_youtube_title">Athraigh naisc chomhroinnte chuig youtube.com</string>
+    <string name="morphe_replace_music_with_youtube_summary_on">Úsáideann naisc chomhroinnte youtube.com</string>
+    <string name="morphe_replace_music_with_youtube_summary_off">Úsáideann naisc chomhroinnte music.youtube.com</string>
+    <string name="morphe_replace_links_with_shortener_title">Athraigh naisc chomhroinnte chuig youtu.be</string>
+    <string name="morphe_replace_links_with_shortener_summary_on">Úsáideann naisc chomhroinnte sruth beo agus Shorts youtu.be</string>
+    <string name="morphe_replace_links_with_shortener_summary_off">Úsáideann naisc chomhroinnte sruth beo agus Shorts a n-URLanna bunaidh</string>
+    <string name="morphe_header_logo_title">Lógó ceanntásca</string>
+    <string name="morphe_header_logo_entry_1">Réamhshocrú</string>
+    <string name="morphe_header_logo_entry_3">Saincheaptha</string>
+    <string name="morphe_settings_music_screen_0_about_title">Maidir</string>
+    <string name="morphe_settings_music_screen_1_ads_title">Fógraí</string>
+    <string name="morphe_settings_music_screen_2_general_title">Ginearálta</string>
+    <string name="morphe_settings_music_screen_3_player_title">Seinnteoir</string>
+    <string name="morphe_settings_music_screen_4_misc_title">Ilghnéitheach</string>
+    <string name="morphe_music_hide_get_premium_label_title">"Folaigh an lipéad 'Faigh Ceoil Préimhe'"</string>
+    <string name="morphe_music_hide_get_premium_label_summary_on">Tá lipéad Get Music Premium i bhfolach</string>
+    <string name="morphe_music_hide_get_premium_label_summary_off">Taispeántar lipéad Get Music Premium</string>
+    <string name="morphe_music_hide_video_ads_title">Folaigh fógraí físe</string>
+    <string name="morphe_music_hide_video_ads_summary_on">Tá fógraí físe i bhfolach</string>
+    <string name="morphe_music_hide_video_ads_summary_off">Taispeántar fógraí físe</string>
+    <string name="morphe_music_crossfade_screen_title">Traschéimniú</string>
+    <string name="morphe_music_crossfade_screen_summary">Cumasc rianta go réidh lena chéile</string>
+    <string name="morphe_music_crossfade_enabled_title">Cumasaigh traschéimniú</string>
+    <string name="morphe_music_crossfade_enabled_summary_on">Traschéimníonn rianta isteach ina chéile</string>
+    <string name="morphe_music_crossfade_enabled_summary_off">Tá traschéimniú díchumasaithe</string>
+    <string name="morphe_music_crossfade_curve_title">Cuar céimnithe</string>
+    <string name="morphe_music_crossfade_curve_summary">Conas a aistríonn an toirt idir rianta</string>
+    <string name="morphe_music_crossfade_curve_entry_equal_power">Cumhacht chomhionann</string>
+    <string name="morphe_music_crossfade_curve_entry_ease_out_cubic">Greim chaolchúiseach</string>
+    <string name="morphe_music_crossfade_curve_entry_ease_out_quad">Éasca go réidh</string>
+    <string name="morphe_music_crossfade_curve_entry_smoothstep">Cuar S réidh</string>
+    <string name="morphe_music_crossfade_duration_title">Fad traschéimnithe</string>
+    <string name="morphe_crossfade_duration_250ms">250 milleasoicind</string>
+    <string name="morphe_crossfade_duration_500ms">500 milleasoicind</string>
+    <string name="morphe_crossfade_duration_750ms">750 milleasoicind</string>
+    <string name="morphe_crossfade_duration_1000ms">1 soicind</string>
+    <string name="morphe_crossfade_duration_2000ms">2 soicind</string>
+    <string name="morphe_crossfade_duration_3000ms">3 soicind</string>
+    <string name="morphe_crossfade_duration_4000ms">4 soicind</string>
+    <string name="morphe_crossfade_duration_5000ms">5 soicind</string>
+    <string name="morphe_crossfade_duration_6000ms">6 soicind</string>
+    <string name="morphe_crossfade_duration_7000ms">7 soicind</string>
+    <string name="morphe_crossfade_duration_8000ms">8 soicind</string>
+    <string name="morphe_crossfade_duration_9000ms">9 soicind</string>
+    <string name="morphe_crossfade_duration_10000ms">10 soicind</string>
+    <string name="morphe_music_crossfade_on_skip_title">Traschéimniú ar scipeáil láimhe</string>
+    <string name="morphe_music_crossfade_on_skip_summary_on">Imrítear traschéimniú nuair a scipeáiltear rianta de láimh</string>
+    <string name="morphe_music_crossfade_on_skip_summary_off">Ní bheidh croschéimniú ar scipeálacha láimhe</string>
+    <string name="morphe_music_crossfade_on_auto_advance_title">Traschéimniú ar uath-dhul chun cinn</string>
+    <string name="morphe_music_crossfade_on_auto_advance_summary_on">Imrítear traschéimniú nuair a chríochnaíonn rian agus téann sé ar aghaidh go dtí an chéad rian eile</string>
+    <string name="morphe_music_crossfade_on_auto_advance_summary_off">Ní bheidh uath-dhul chun cinn ag céimniú trasna</string>
+    <string name="morphe_music_crossfade_session_control_title">Rialú seisiúin</string>
+    <string name="morphe_music_crossfade_session_control_summary_on">Brúigh an cnaipe suaitheadh ​​​​fada chun sos a chur air nó chun an traschéimniú a atosú</string>
+    <string name="morphe_music_crossfade_session_control_summary_off">Tá rialú seisiúin díchumasaithe</string>
+    <string name="morphe_music_crossfade_paused_toast">Tá traschéimniú ar sos don seisiún seo</string>
+    <string name="morphe_music_crossfade_resumed_toast">Tá traschéimniú athruithe</string>
+    <string name="morphe_music_crossfade_video_mode_disabled_toast">Ní féidir mód físe a úsáilleadh nuair a bhíonn traschéimniú curtha ar siúl</string>
+    <string name="morphe_music_crossfade_about_title">Maidir</string>
+    <string name="morphe_music_crossfade_about_summary">"Tá traschéimniú ar fáil le YouTube Music 8.x
+
+Brúigh an cnaipe suaitheadh ​​​​fada chun é a dhíchumasú/a chumasú
+
+Cur i bhfeidhm gné ag VazerOG"</string>
+    <string name="morphe_music_play_permanent_repeat_title">Cumasaigh athrá buan</string>
+    <string name="morphe_music_play_permanent_repeat_summary_on">Tá athrá buan cumasaithe</string>
+    <string name="morphe_music_play_permanent_repeat_summary_off">Tá athrá buan díchumasaithe</string>
+    <string name="morphe_music_hide_cast_button_title">Folaigh an cnaipe teilgthe</string>
+    <string name="morphe_music_hide_cast_button_summary_on">Tá an cnaipe teilgthe i bhfolach</string>
+    <string name="morphe_music_hide_cast_button_summary_off">Taispeántar an cnaipe teilgthe</string>
+    <string name="morphe_music_hide_history_button_title">Folaigh cnaipe na staire</string>
+    <string name="morphe_music_hide_history_button_summary_on">Tá cnaipe na staire i bhfolach</string>
+    <string name="morphe_music_hide_history_button_summary_off">Taispeántar cnaipe na staire</string>
+    <string name="morphe_music_hide_notification_button_title">Folaigh cnaipe fógraí</string>
+    <string name="morphe_music_hide_notification_button_summary_on">Tá cnaipe fógraí i bhfolach</string>
+    <string name="morphe_music_hide_notification_button_summary_off">Taispeántar cnaipe fógraí</string>
+    <string name="morphe_music_hide_search_button_title">Folaigh cnaipe cuardaigh</string>
+    <string name="morphe_music_hide_search_button_summary_on">Tá cnaipe cuardaigh i bhfolach</string>
+    <string name="morphe_music_hide_search_button_summary_off">Taispeántar an cnaipe cuardaigh</string>
+    <string name="morphe_change_start_page_title">Athraigh an leathanach tosaigh</string>
+    <string name="morphe_change_start_page_entry_default">Réamhshocrú</string>
+    <string name="morphe_change_start_page_entry_charts">Cairteacha</string>
+    <string name="morphe_change_start_page_entry_episodes_for_later">Eipeasóidí le haghaidh níos déanaí</string>
+    <string name="morphe_change_start_page_entry_explore">Taiscéal</string>
+    <string name="morphe_change_start_page_entry_history">Stair</string>
+    <string name="morphe_change_start_page_entry_library">Leabharlann</string>
+    <string name="morphe_change_start_page_entry_liked_music">Ceol ar thaitin leat</string>
+    <string name="morphe_change_start_page_entry_playlists">Seinmliostaí</string>
+    <string name="morphe_change_start_page_entry_search">Cuardaigh</string>
+    <string name="morphe_change_start_page_entry_subscriptions">Síntiúis</string>
+    <string name="morphe_music_hide_category_bar_title">Folaigh an barra catagóirí</string>
+    <string name="morphe_music_hide_category_bar_summary_on">Tá an barra catagóirí i bhfolach</string>
+    <string name="morphe_music_hide_category_bar_summary_off">Taispeántar an barra catagóirí</string>
+    <string name="morphe_music_change_miniplayer_color_title">Athraigh dath an mhion-imreora</string>
+    <string name="morphe_music_change_miniplayer_color_summary_on">Tá dath an mhion-imreoir ag teacht leis an imreoir lánscáileáin</string>
+    <string name="morphe_music_change_miniplayer_color_summary_off">Úsáideann an mhion-imreoir an dath réamhshocraithe</string>
+    <string name="morphe_music_miniplayer_next_button_title">Taispeáin an cnaipe seo chugainn sa mhionimreoir</string>
+    <string name="morphe_music_miniplayer_next_button_summary_on">Taispeántar an cnaipe Ar Aghaidh sa mhionimreoir</string>
+    <string name="morphe_music_miniplayer_next_button_summary_off">Ní fheictear an cnaipe \"Ar Aghaidh\" sa mhionimreoir</string>
+    <string name="morphe_music_miniplayer_previous_button_title">Taispeáin an cnaipe roimhe seo sa mhionimreoir</string>
+    <string name="morphe_music_miniplayer_previous_button_summary_on">Taispeántar an cnaipe roimhe seo sa mhionimreoir</string>
+    <string name="morphe_music_miniplayer_previous_button_summary_off">Ní thaispeántar an cnaipe roimhe seo sa mhionimreoir</string>
+    <string name="morphe_music_enable_forced_miniplayer_title">Cumasaigh mionimreoir éigeantach</string>
+    <string name="morphe_music_enable_forced_miniplayer_summary_on">Fanann an miniimreoir íoslaghdaithe nuair a athraíonn an athsheinm</string>
+    <string name="morphe_music_enable_forced_miniplayer_summary_off">Leathnaíonn an miniimreoir go lánscáileán nuair a athraíonn an athsheinm</string>
+    <string name="morphe_music_navigation_bar_screen_title">Barra nascleanúna</string>
+    <string name="morphe_music_navigation_bar_screen_summary">Folaigh nó athraigh cnaipí an bharra nascleanúna</string>
+    <string name="morphe_music_hide_navigation_bar_home_button_title">Folaigh Baile</string>
+    <string name="morphe_music_hide_navigation_bar_home_button_summary_on">Tá cnaipe Baile folaithe</string>
+    <string name="morphe_music_hide_navigation_bar_home_button_summary_off">Taispeántar an cnaipe baile</string>
+    <string name="morphe_music_hide_navigation_bar_samples_button_title">Folaigh Samplaí</string>
+    <string name="morphe_music_hide_navigation_bar_samples_button_summary_on">Tá cnaipe na samplaí i bhfolach</string>
+    <string name="morphe_music_hide_navigation_bar_samples_button_summary_off">Taispeántar cnaipe na samplaí</string>
+    <string name="morphe_music_hide_navigation_bar_explore_button_title">Folaigh Iniúchadh</string>
+    <string name="morphe_music_hide_navigation_bar_explore_button_summary_on">Tá an cnaipe iniúchadh i bhfolach</string>
+    <string name="morphe_music_hide_navigation_bar_explore_button_summary_off">Taispeántar an cnaipe iniúchadh</string>
+    <string name="morphe_music_hide_navigation_bar_library_button_title">Folaigh Leabharlann</string>
+    <string name="morphe_music_hide_navigation_bar_library_button_summary_on">Tá cnaipe na leabharlainne i bhfolach</string>
+    <string name="morphe_music_hide_navigation_bar_library_button_summary_off">Taispeántar cnaipe na leabharlainne</string>
+    <string name="morphe_music_hide_navigation_bar_upgrade_button_title">Folaigh an tUasghrádú</string>
+    <string name="morphe_music_hide_navigation_bar_upgrade_button_summary_on">Tá an cnaipe uasghrádaithe i bhfolach</string>
+    <string name="morphe_music_hide_navigation_bar_upgrade_button_summary_off">Taispeántar an cnaipe uasghrádaithe</string>
+    <string name="morphe_music_hide_navigation_bar_title">Folaigh barra nascleanúna</string>
+    <string name="morphe_music_hide_navigation_bar_summary_on">Tá an barra nascleanúna i bhfolach</string>
+    <string name="morphe_music_hide_navigation_bar_summary_off">Taispeántar barra nascleanúna</string>
+    <string name="morphe_music_hide_navigation_bar_labels_title">Folaigh lipéid cnaipí nascleanúna</string>
+    <string name="morphe_music_hide_navigation_bar_labels_summary_on">Tá lipéid i bhfolach</string>
+    <string name="morphe_music_hide_navigation_bar_labels_summary_off">Taispeántar lipéid</string>
+    <string name="morphe_music_hide_upgrade_button_title">Folaigh an cnaipe uasghrádaithe</string>
+    <string name="morphe_music_hide_upgrade_button_summary_on">Tá an cnaipe i bhfolach</string>
+    <string name="morphe_music_hide_upgrade_button_summary_off">Taispeántar an cnaipe</string>
+</resources>

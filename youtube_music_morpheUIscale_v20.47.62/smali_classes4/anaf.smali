@@ -1,0 +1,83 @@
+.class public final synthetic Lanaf;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Ljava/util/function/Function;
+
+
+# instance fields
+.field public final synthetic a:Ljava/lang/Class;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/Class;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lanaf;->a:Ljava/lang/Class;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic andThen(Ljava/util/function/Function;)Ljava/util/function/Function;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Lj$/util/function/Function$-CC;->$default$andThen(Ljava/util/function/Function;Ljava/util/function/Function;)Ljava/util/function/Function;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method
+
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lanaf;->a:Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p1}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    check-cast p1, Landroid/view/View;
+
+    .line 8
+    .line 9
+    return-object p1
+.end method
+
+.method public final synthetic compose(Ljava/util/function/Function;)Ljava/util/function/Function;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Lj$/util/function/Function$-CC;->$default$compose(Ljava/util/function/Function;Ljava/util/function/Function;)Ljava/util/function/Function;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method

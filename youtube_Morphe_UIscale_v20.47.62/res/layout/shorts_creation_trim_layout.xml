@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/trim_page_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/trim_header_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/trim_preview_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/trim_footer_container" android:layout_below="@id/trim_header_container" />
+    <RelativeLayout android:id="@id/trim_footer_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/shorts_camera_speed_text_size" android:gravity="center" android:id="@id/shorts_trim_duration_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="?ytOverlayBackgroundMedium" android:shadowDx="@dimen/shorts_camera_speed_text_shadowDx" android:shadowDy="@dimen/shorts_camera_speed_text_shadowDy" android:layout_above="@id/trim_footer_container" android:layout_below="@id/trim_header_container" android:layout_centerHorizontal="true" yt:robotoFont="medium" />
+</RelativeLayout>

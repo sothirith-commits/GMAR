@@ -1,0 +1,58 @@
+.class final Lslf;
+.super Lslu;
+.source "PG"
+
+
+# instance fields
+.field final synthetic a:Lslz;
+
+
+# direct methods
+.method public constructor <init>(Lslz;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lslf;->a:Lslz;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, p1}, Lslu;-><init>(Lslz;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b()V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lslf;->a:Lslz;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lslz;->c:Lspe;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0}, Lslu;->c()Lspg;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v1
+
+    .line 9
+    const/4 v2, -0x1
+
+    .line 10
+    invoke-virtual {v0, v1, v2}, Lspe;->r(Lspg;I)V
+
+    .line 11
+    .line 12
+    .line 13
+    return-void
+.end method

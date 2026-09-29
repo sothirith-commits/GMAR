@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/player_container" android:paddingTop="@dimen/trim_player_view_padding" android:paddingBottom="@dimen/trim_player_view_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/unify_trim_video_controller" android:layout_alignParentTop="true" />
+    <com.google.android.libraries.youtube.creation.trim.UnifyTrimVideoControllerView android:id="@id/unify_trim_video_controller" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/shorts_edit_video_trim_container" />
+    <RelativeLayout android:id="@id/shorts_edit_video_trim_container" android:background="?ytOverlayBackgroundSolid" android:layout_width="match_parent" android:layout_height="80.0dp" android:layout_alignParentBottom="true">
+        <com.google.android.libraries.youtube.creation.trim.ShortsVideoTrimView2 android:id="@id/shorts_edit_video_trim_view" android:paddingTop="7.0dp" android:paddingBottom="7.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" support:alignBoundsToThumbnails="true" support:enablePlayhead="true" support:snapToFrames="id_0x7f0b0ccf" />
+    </RelativeLayout>
+</RelativeLayout>

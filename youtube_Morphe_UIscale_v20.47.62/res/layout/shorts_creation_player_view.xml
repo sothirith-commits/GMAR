@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.RoundedFrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/rounded_container" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:corners="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.creation.editor.ShortsPlayerViewContainer android:layout_gravity="center_horizontal" android:id="@id/shorts_creation_player_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.creation.playback.ShortsPreviewPlayerView android:id="@id/shorts_creation_player_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.google.android.libraries.youtube.creation.editor.ShortsPlayerViewContainer>
+    <View android:layout_gravity="start" android:id="@id/video_preview_start_crop_overlay" android:background="@color/reel_black_pure_alpha_30" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" />
+    <View android:layout_gravity="end" android:id="@id/video_preview_end_crop_overlay" android:background="@color/reel_black_pure_alpha_30" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" />
+</com.google.android.libraries.youtube.common.ui.RoundedFrameLayout>

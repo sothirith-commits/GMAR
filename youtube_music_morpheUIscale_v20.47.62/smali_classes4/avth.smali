@@ -1,0 +1,74 @@
+.class public final synthetic Lavth;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Laigm;
+
+
+# instance fields
+.field public final synthetic a:Lavtt;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lavtt;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lavth;->a:Lavtt;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lavth;->a:Lavtt;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lavtt;->s:Lcjac;
+
+    .line 4
+    .line 5
+    check-cast p1, Ljava/util/Collection;
+
+    .line 6
+    .line 7
+    invoke-interface {v0}, Lcjac;->gr()Ljava/lang/Object;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+
+    .line 11
+    check-cast v0, Laxae;
+
+    .line 12
+    .line 13
+    invoke-interface {p1}, Ljava/util/Collection;->size()I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result p1
+
+    .line 17
+    invoke-virtual {v0, p1}, Laxae;->f(I)V
+
+    .line 18
+    .line 19
+    .line 20
+    return-void
+.end method

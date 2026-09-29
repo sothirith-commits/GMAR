@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:persistent="false" android:layout="@layout/loading_dialog_view" android:selectable="false" android:key="@string/time_watched_loading_pref_key" app:iconSpaceReserved="false" />
+    <PreferenceCategory android:persistent="false" android:layout="@layout/preference_group_title" android:key="@string/reminders_group_key" app:iconSpaceReserved="false" />
+    <PreferenceCategory android:persistent="false" android:layout="@layout/preference_group_title" android:key="@string/daily_limit_group_key" app:iconSpaceReserved="false" />
+</PreferenceScreen>

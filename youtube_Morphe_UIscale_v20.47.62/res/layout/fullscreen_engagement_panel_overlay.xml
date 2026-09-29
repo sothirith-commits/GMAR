@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.youtube.app.player.overlay.FullscreenEngagementPanelCoordinatorLayout android:layout_gravity="end|bottom" android:id="@id/fullscreen_engagement_panel_holder" android:layout_width="match_parent" android:layout_height="match_parent" yt:maxLandscapeWidth="320.0dp" yt:minLandscapeWidth="320.0dp" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/navigation_bar_background_view_stub" android:layout="@layout/navigation_bar_background_view" android:inflatedId="@id/navigation_bar_background_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

@@ -1,0 +1,105 @@
+.class public final Lcom/google/android/libraries/youtube/composition/api/OnFrameProcessedParams;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field final obf31d8b47aafdafc1659a6fd811c3c9d073d0d2b4fce0fcdf41e21ae5338e4c69c:Ljava/lang/String;
+
+.field final obf5a452459503be70d2ed2fca46dd91e05e820a957f175686a77d03fff80f664fe:Lcom/google/android/libraries/youtube/media/interfaces/Time;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Lcom/google/android/libraries/youtube/media/interfaces/Time;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/google/android/libraries/youtube/composition/api/OnFrameProcessedParams;->obf31d8b47aafdafc1659a6fd811c3c9d073d0d2b4fce0fcdf41e21ae5338e4c69c:Ljava/lang/String;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lcom/google/android/libraries/youtube/composition/api/OnFrameProcessedParams;->obf5a452459503be70d2ed2fca46dd91e05e820a957f175686a77d03fff80f664fe:Lcom/google/android/libraries/youtube/media/interfaces/Time;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final toString()Ljava/lang/String;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/libraries/youtube/composition/api/OnFrameProcessedParams;->obf5a452459503be70d2ed2fca46dd91e05e820a957f175686a77d03fff80f664fe:Lcom/google/android/libraries/youtube/media/interfaces/Time;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 8
+    .line 9
+    const-string v2, "OnFrameProcessedParams{obf31d8b47aafdafc1659a6fd811c3c9d073d0d2b4fce0fcdf41e21ae5338e4c69c="
+
+    .line 10
+    .line 11
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 12
+    .line 13
+    .line 14
+    iget-object v2, p0, Lcom/google/android/libraries/youtube/composition/api/OnFrameProcessedParams;->obf31d8b47aafdafc1659a6fd811c3c9d073d0d2b4fce0fcdf41e21ae5338e4c69c:Ljava/lang/String;
+
+    .line 15
+    .line 16
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 17
+    .line 18
+    .line 19
+    const-string v2, ",obf5a452459503be70d2ed2fca46dd91e05e820a957f175686a77d03fff80f664fe="
+
+    .line 20
+    .line 21
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 25
+    .line 26
+    .line 27
+    const-string v0, "}"
+
+    .line 28
+    .line 29
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 30
+    .line 31
+    .line 32
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v0
+
+    .line 36
+    return-object v0
+.end method

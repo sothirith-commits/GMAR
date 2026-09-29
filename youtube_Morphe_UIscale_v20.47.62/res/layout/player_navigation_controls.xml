@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/immersive_live_navigation_controls" android:background="?ytOverlayBackgroundMedium" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.libraries.youtube.common.ui.TouchImageView android:layout_gravity="center" android:id="@id/immersive_live_play_pause_button" android:background="@drawable/player_button_circle_background" android:padding="@dimen/player_live_control_group_icon_padding" android:focusable="true" android:layout_width="@dimen/play_pause_overlay_primary_icon_size" android:layout_height="@dimen/play_pause_overlay_primary_icon_size" android:layout_margin="@dimen/player_live_control_group_spacing" android:src="@drawable/player_play" android:scaleType="fitCenter" android:contentDescription="@string/accessibility_play" android:importantForAccessibility="yes" style="@style/PlayerButton" />
+        <FrameLayout android:layout_gravity="start|bottom" android:id="@id/immersive_live_skip_to_live_elements_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/player_live_skip_to_live_height" android:layout_marginBottom="@dimen/player_live_skip_to_live_bottom_margin" />
+    </FrameLayout>
+</merge>

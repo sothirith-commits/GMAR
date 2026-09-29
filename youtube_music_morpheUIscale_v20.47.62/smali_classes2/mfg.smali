@@ -1,0 +1,73 @@
+.class public final synthetic Lmfg;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lmfz;
+
+.field public final synthetic b:Lawdt;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lmfz;Lawdt;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lmfg;->a:Lmfz;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lmfg;->b:Lawdt;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lmfg;->a:Lmfz;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lmfg;->b:Lawdt;
+
+    .line 4
+    .line 5
+    invoke-virtual {v0}, Lmfz;->b()Lj$/util/Optional;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v2
+
+    .line 9
+    new-instance v3, Lmfa;
+
+    .line 10
+    .line 11
+    invoke-direct {v3, v0, v1}, Lmfa;-><init>(Lmfz;Lawdt;)V
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-virtual {v2, v3}, Lj$/util/Optional;->ifPresent(Ljava/util/function/Consumer;)V
+
+    .line 15
+    .line 16
+    .line 17
+    return-void
+.end method

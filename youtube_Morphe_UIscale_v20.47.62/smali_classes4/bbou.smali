@@ -1,0 +1,660 @@
+.class public final Lbbou;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lafmu;
+
+
+# static fields
+.field static final a:Lbbot;
+
+.field public static final b:Lafmv;
+
+
+# instance fields
+.field public final c:Lbbov;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lbbot;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lbbot;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lbbou;->a:Lbbot;
+
+    .line 7
+    .line 8
+    sput-object v0, Lbbou;->b:Lafmv;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+.method public constructor <init>(Lbbov;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lbbou;->c:Lbbov;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic a()Lafmi;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lbbou;->c()Lbbos;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public final b()Larox;
+    .locals 2
+
+    .line 1
+    new-instance v0, Larov;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Larov;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p0}, Lbbou;->getOfflineFutureUnplayableInfoModel()Lbbmm;
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-static {}, Laspx;->L()Larox;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v1
+
+    .line 13
+    invoke-virtual {v0, v1}, Larov;->j(Ljava/lang/Iterable;)V
+
+    .line 14
+    .line 15
+    .line 16
+    invoke-virtual {p0}, Lbbou;->getOnTapCommandOverrideDataModel()Lbbml;
+
+    .line 17
+    .line 18
+    .line 19
+    invoke-static {}, Laspx;->L()Larox;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object v1
+
+    .line 23
+    invoke-virtual {v0, v1}, Larov;->j(Ljava/lang/Iterable;)V
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-virtual {v0}, Larov;->g()Larox;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object v0
+
+    .line 30
+    return-object v0
+.end method
+
+.method public final c()Lbbos;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lbbos;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lbbou;->c:Lbbov;
+
+    .line 4
+    .line 5
+    invoke-virtual {v1}, Latrw;->toBuilder()Latro;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v1
+
+    .line 9
+    invoke-direct {v0, v1}, Lbbos;-><init>(Latro;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-object v0
+.end method
+
+.method public final d()[B
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Latqb;->toByteArray()[B
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    return-object v0
+.end method
+
+.method public final e()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lbbov;->d:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    return-object v0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 1
+
+    .line 1
+    instance-of v0, p1, Lbbou;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 6
+    .line 7
+    check-cast p1, Lbbou;
+
+    .line 8
+    .line 9
+    iget-object p1, p1, Lbbou;->c:Lbbov;
+
+    .line 10
+    .line 11
+    invoke-virtual {v0, p1}, Latrw;->equals(Ljava/lang/Object;)Z
+
+    .line 12
+    .line 13
+    .line 14
+    move-result p1
+
+    .line 15
+    if-eqz p1, :cond_0
+
+    .line 16
+    .line 17
+    const/4 p1, 0x1
+
+    .line 18
+    return p1
+
+    .line 19
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 20
+    return p1
+.end method
+
+.method public getAction()Lbbor;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    iget v0, v0, Lbbov;->e:I
+
+    .line 4
+    .line 5
+    invoke-static {v0}, Lbbor;->a(I)Lbbor;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    if-nez v0, :cond_0
+
+    .line 10
+    .line 11
+    sget-object v0, Lbbor;->a:Lbbor;
+
+    .line 12
+    .line 13
+    :cond_0
+    return-object v0
+.end method
+
+.method public getExpirationTimestamp()Ljava/lang/Long;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    iget-wide v0, v0, Lbbov;->f:J
+
+    .line 4
+    .line 5
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    return-object v0
+.end method
+
+.method public getLastUpdatedTimestampSeconds()Ljava/lang/Long;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    iget-wide v0, v0, Lbbov;->i:J
+
+    .line 4
+    .line 5
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    return-object v0
+.end method
+
+.method public getOfflineFutureUnplayableInfo()Lbbmo;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lbbov;->h:Lbbmo;
+
+    .line 4
+    .line 5
+    if-nez v0, :cond_0
+
+    .line 6
+    .line 7
+    sget-object v0, Lbbmo;->a:Lbbmo;
+
+    .line 8
+    .line 9
+    :cond_0
+    return-object v0
+.end method
+
+.method public getOfflineFutureUnplayableInfoModel()Lbbmm;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lbbov;->h:Lbbmo;
+
+    .line 4
+    .line 5
+    if-nez v0, :cond_0
+
+    .line 6
+    .line 7
+    sget-object v0, Lbbmo;->a:Lbbmo;
+
+    .line 8
+    .line 9
+    :cond_0
+    invoke-virtual {v0}, Latrw;->toBuilder()Latro;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    new-instance v1, Lbbmm;
+
+    .line 14
+    .line 15
+    invoke-virtual {v0}, Latro;->build()Latrw;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    check-cast v0, Lbbmo;
+
+    .line 20
+    .line 21
+    invoke-direct {v1, v0}, Lbbmm;-><init>(Lbbmo;)V
+
+    .line 22
+    .line 23
+    .line 24
+    return-object v1
+.end method
+
+.method public getOfflinePlaybackDisabledReason()Lbbne;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    iget v0, v0, Lbbov;->m:I
+
+    .line 4
+    .line 5
+    invoke-static {v0}, Lbbne;->a(I)Lbbne;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    if-nez v0, :cond_0
+
+    .line 10
+    .line 11
+    sget-object v0, Lbbne;->a:Lbbne;
+
+    .line 12
+    .line 13
+    :cond_0
+    return-object v0
+.end method
+
+.method public getOfflineStateBytes()Latqt;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lbbov;->g:Latqt;
+
+    .line 4
+    .line 5
+    return-object v0
+.end method
+
+.method public getOfflineToken()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lbbov;->l:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    return-object v0
+.end method
+
+.method public getOnTapCommandOverrideData()Lbbmn;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lbbov;->j:Lbbmn;
+
+    .line 4
+    .line 5
+    if-nez v0, :cond_0
+
+    .line 6
+    .line 7
+    sget-object v0, Lbbmn;->a:Lbbmn;
+
+    .line 8
+    .line 9
+    :cond_0
+    return-object v0
+.end method
+
+.method public getOnTapCommandOverrideDataModel()Lbbml;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lbbov;->j:Lbbmn;
+
+    .line 4
+    .line 5
+    if-nez v0, :cond_0
+
+    .line 6
+    .line 7
+    sget-object v0, Lbbmn;->a:Lbbmn;
+
+    .line 8
+    .line 9
+    :cond_0
+    invoke-virtual {v0}, Latrw;->toBuilder()Latro;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    new-instance v1, Lbbml;
+
+    .line 14
+    .line 15
+    invoke-virtual {v0}, Latro;->build()Latrw;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    check-cast v0, Lbbmn;
+
+    .line 20
+    .line 21
+    invoke-direct {v1, v0}, Lbbml;-><init>(Lbbmn;)V
+
+    .line 22
+    .line 23
+    .line 24
+    return-object v1
+.end method
+
+.method public getShortMessageForDisabledAction()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lbbov;->k:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    return-object v0
+.end method
+
+.method public bridge synthetic getType()Lafmk;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lbbou;->getType()Lafmv;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public getType()Lafmv;
+    .locals 1
+
+    .line 6
+    sget-object v0, Lbbou;->b:Lafmv;
+
+    return-object v0
+.end method
+
+.method public final hashCode()I
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Latrw;->hashCode()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    const v1, 0xf6181
+
+    .line 8
+    .line 9
+    .line 10
+    xor-int/2addr v0, v1
+
+    .line 11
+    return v0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbbou;->c:Lbbov;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 8
+    .line 9
+    const-string v2, "OfflineVideoPolicyEntityModel{"
+
+    .line 10
+    .line 11
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 15
+    .line 16
+    .line 17
+    const-string v0, "}"
+
+    .line 18
+    .line 19
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 20
+    .line 21
+    .line 22
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v0
+
+    .line 26
+    return-object v0
+.end method

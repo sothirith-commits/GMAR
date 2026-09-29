@@ -1,0 +1,81 @@
+.class final Lafcw;
+.super Lafcx;
+.source "PG"
+
+
+# instance fields
+.field final synthetic a:Lafcy;
+
+
+# direct methods
+.method public constructor <init>(Lafcy;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lafcw;->a:Lafcy;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Lafcx;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final afterTextChanged(Landroid/text/Editable;)V
+    .locals 2
+
+    .line 1
+    iget-object p1, p0, Lafcw;->a:Lafcy;
+
+    .line 2
+    .line 3
+    iget-object v0, p1, Lafcy;->d:Landroid/widget/TextView;
+
+    .line 4
+    .line 5
+    const/16 v1, 0x8
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 8
+    .line 9
+    .line 10
+    iget-object v0, p1, Lafcy;->e:Landroid/widget/EditText;
+
+    .line 11
+    .line 12
+    const/4 v1, 0x0
+
+    .line 13
+    invoke-virtual {v0, v1}, Landroid/widget/EditText;->setError(Ljava/lang/CharSequence;)V
+
+    .line 14
+    .line 15
+    .line 16
+    iget-object v0, p1, Lafcy;->f:Landroid/widget/EditText;
+
+    .line 17
+    .line 18
+    invoke-virtual {v0, v1}, Landroid/widget/EditText;->setError(Ljava/lang/CharSequence;)V
+
+    .line 19
+    .line 20
+    .line 21
+    iget-object p1, p1, Lafcy;->g:Landroid/widget/EditText;
+
+    .line 22
+    .line 23
+    invoke-virtual {p1, v1}, Landroid/widget/EditText;->setError(Ljava/lang/CharSequence;)V
+
+    .line 24
+    .line 25
+    .line 26
+    return-void
+.end method

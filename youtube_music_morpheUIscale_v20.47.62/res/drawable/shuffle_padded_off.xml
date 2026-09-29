@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill" android:height="22.0dp" android:width="22.0dp" android:drawable="@drawable/yt_outline_arrow_shuffle_vd_theme_24" android:top="3.0dp" android:bottom="3.0dp" />
+</layer-list>

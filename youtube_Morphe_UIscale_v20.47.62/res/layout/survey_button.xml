@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/small_font_size" android:textColor="@color/yt_white1" android:ellipsize="end" android:gravity="left|center" android:background="@drawable/survey_button_background" android:paddingLeft="8.0dp" android:paddingRight="4.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="false" android:drawablePadding="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="deco_profiles_margin_top">48.0dp</dimen>
+    <dimen name="deco_subtitle_margin_top">22.0dp</dimen>
+    <dimen name="launchscreens_product_logo_bottom">64.0dp</dimen>
+</resources>

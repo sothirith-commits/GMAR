@@ -1,0 +1,2 @@
+
+$fake_command_module|c57370b34a048e31·var gq=class extends M{static i(){return new gq(y(2))}static parse(a){return new gq(z(a,2))}create(a){return new gq(a)}get log(){return F(this.g,1,"",9)}set log(a){E(this.g,1,a,9)}get Fb(){return I(this.g,2,a=>new R(a),0)}set Fb(a){E(this.g,2,a,11)}};v("addToBytestore|51273d8b80b51cd6",Xd(gq.parse,function(a){var b=a.store.get("FakeCommandModel");b=b?gq.parse(b):gq.i();b.log+=" is successfully add";a.store.set("FakeCommandModel",b)}));(çÅ—ñ×Áîµ½: YœæÀàMãÛ…†h`Ñ¢ $ï7Í@qO²‡|¦uÒÃH

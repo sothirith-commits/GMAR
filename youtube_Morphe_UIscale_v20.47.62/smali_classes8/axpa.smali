@@ -1,0 +1,222 @@
+.class public final Laxpa;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field public static final a:Latru;
+
+.field public static final b:Latru;
+
+.field public static final c:Latru;
+
+.field public static final d:Latru;
+
+.field public static final e:Latru;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 8
+
+    .line 1
+    sget-object v0, Lbdag;->a:Lbdag;
+
+    .line 2
+    .line 3
+    sget-object v1, Laxoz;->a:Laxoz;
+
+    .line 4
+    .line 5
+    sget-object v5, Latup;->k:Latup;
+
+    .line 6
+    .line 7
+    const-class v6, Laxoz;
+
+    .line 8
+    .line 9
+    const/4 v3, 0x0
+
+    .line 10
+    const v4, 0xb8f6c22
+
+    .line 11
+    .line 12
+    .line 13
+    move-object v2, v1
+
+    .line 14
+    invoke-static/range {v0 .. v6}, Latrw;->newSingularGeneratedExtension(Lcom/google/protobuf/MessageLite;Ljava/lang/Object;Lcom/google/protobuf/MessageLite;Latsb;ILatup;Ljava/lang/Class;)Latru;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object v0
+
+    .line 18
+    sput-object v0, Laxpa;->a:Latru;
+
+    .line 19
+    .line 20
+    sget-object v1, Lbdag;->a:Lbdag;
+
+    .line 21
+    .line 22
+    sget-object v2, Laxov;->a:Laxov;
+
+    .line 23
+    .line 24
+    sget-object v6, Latup;->k:Latup;
+
+    .line 25
+    .line 26
+    const-class v7, Laxov;
+
+    .line 27
+    .line 28
+    const/4 v4, 0x0
+
+    .line 29
+    const v5, 0xce386fc
+
+    .line 30
+    .line 31
+    .line 32
+    move-object v3, v2
+
+    .line 33
+    invoke-static/range {v1 .. v7}, Latrw;->newSingularGeneratedExtension(Lcom/google/protobuf/MessageLite;Ljava/lang/Object;Lcom/google/protobuf/MessageLite;Latsb;ILatup;Ljava/lang/Class;)Latru;
+
+    .line 34
+    .line 35
+    .line 36
+    move-result-object v0
+
+    .line 37
+    sput-object v0, Laxpa;->b:Latru;
+
+    .line 38
+    .line 39
+    sget-object v1, Lbdag;->a:Lbdag;
+
+    .line 40
+    .line 41
+    sget-object v2, Laxow;->a:Laxow;
+
+    .line 42
+    .line 43
+    sget-object v6, Latup;->k:Latup;
+
+    .line 44
+    .line 45
+    const-class v7, Laxow;
+
+    .line 46
+    .line 47
+    const v5, 0xd582b65
+
+    .line 48
+    .line 49
+    .line 50
+    move-object v3, v2
+
+    .line 51
+    invoke-static/range {v1 .. v7}, Latrw;->newSingularGeneratedExtension(Lcom/google/protobuf/MessageLite;Ljava/lang/Object;Lcom/google/protobuf/MessageLite;Latsb;ILatup;Ljava/lang/Class;)Latru;
+
+    .line 52
+    .line 53
+    .line 54
+    move-result-object v0
+
+    .line 55
+    sput-object v0, Laxpa;->c:Latru;
+
+    .line 56
+    .line 57
+    sget-object v1, Lbdag;->a:Lbdag;
+
+    .line 58
+    .line 59
+    sget-object v2, Laxoy;->a:Laxoy;
+
+    .line 60
+    .line 61
+    sget-object v6, Latup;->k:Latup;
+
+    .line 62
+    .line 63
+    const-class v7, Laxoy;
+
+    .line 64
+    .line 65
+    const v5, 0xcba2b1a
+
+    .line 66
+    .line 67
+    .line 68
+    move-object v3, v2
+
+    .line 69
+    invoke-static/range {v1 .. v7}, Latrw;->newSingularGeneratedExtension(Lcom/google/protobuf/MessageLite;Ljava/lang/Object;Lcom/google/protobuf/MessageLite;Latsb;ILatup;Ljava/lang/Class;)Latru;
+
+    .line 70
+    .line 71
+    .line 72
+    move-result-object v0
+
+    .line 73
+    sput-object v0, Laxpa;->d:Latru;
+
+    .line 74
+    .line 75
+    sget-object v1, Lbdag;->a:Lbdag;
+
+    .line 76
+    .line 77
+    sget-object v2, Laxox;->a:Laxox;
+
+    .line 78
+    .line 79
+    sget-object v6, Latup;->k:Latup;
+
+    .line 80
+    .line 81
+    const-class v7, Laxox;
+
+    .line 82
+    .line 83
+    const v5, 0xf0d2e36
+
+    .line 84
+    .line 85
+    .line 86
+    move-object v3, v2
+
+    .line 87
+    invoke-static/range {v1 .. v7}, Latrw;->newSingularGeneratedExtension(Lcom/google/protobuf/MessageLite;Ljava/lang/Object;Lcom/google/protobuf/MessageLite;Latsb;ILatup;Ljava/lang/Class;)Latru;
+
+    .line 88
+    .line 89
+    .line 90
+    move-result-object v0
+
+    .line 91
+    sput-object v0, Laxpa;->e:Latru;
+
+    .line 92
+    .line 93
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="16.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_large_font_size" android:textColor="#333333" android:ellipsize="end" android:layout_gravity="start|top" android:id="@id/title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="32.0dp" android:maxLines="4" android:textAlignment="viewStart" android:paddingEnd="32.0dp" yt:robotoFont="regular" />
+    <ProgressBar android:layout_gravity="center" android:padding="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,25 @@
+.class public final Lkvh;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field final synthetic a:Lkvi;
+
+
+# direct methods
+.method public constructor <init>(Lkvi;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lkvh;->a:Lkvi;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

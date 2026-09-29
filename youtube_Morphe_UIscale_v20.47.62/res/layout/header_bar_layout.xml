@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/header_container" android:layout_width="match_parent" android:layout_height="48.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/tool_bar" android:background="?ytOverlayBackgroundSolid" android:layout_width="match_parent" android:layout_height="match_parent" yt:contentInsetStart="0.0dp" yt:contentInsetStartWithNavigation="0.0dp" yt:navigationContentDescription="@string/accessibility_back" yt:navigationIcon="@drawable/quantum_ic_arrow_back_white_24" yt:titleMarginEnd="12.0dp" yt:titleMarginStart="0.0dp" />
+    <FrameLayout android:id="@id/elements_header" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

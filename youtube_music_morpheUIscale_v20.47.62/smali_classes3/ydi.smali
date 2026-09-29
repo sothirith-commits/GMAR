@@ -1,0 +1,66 @@
+.class public final Lydi;
+.super Lcom/google/android/libraries/elements/interfaces/TaskQueue;
+.source "PG"
+
+
+# instance fields
+.field private final a:Ljava/util/concurrent/Executor;
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/concurrent/Executor;)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Lcom/google/android/libraries/elements/interfaces/TaskQueue;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Lbipd;
+
+    .line 5
+    .line 6
+    invoke-direct {v0, p1}, Lbipd;-><init>(Ljava/util/concurrent/Executor;)V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object v0, p0, Lydi;->a:Ljava/util/concurrent/Executor;
+
+    .line 10
+    .line 11
+    return-void
+.end method
+
+
+# virtual methods
+.method public final submit(Lcom/google/android/libraries/elements/interfaces/Closure;)V
+    .locals 2
+
+    .line 1
+    if-eqz p1, :cond_0
+
+    .line 2
+    .line 3
+    iget-object v0, p0, Lydi;->a:Ljava/util/concurrent/Executor;
+
+    .line 4
+    .line 5
+    new-instance v1, Lydh;
+
+    .line 6
+    .line 7
+    invoke-direct {v1, p1}, Lydh;-><init>(Lcom/google/android/libraries/elements/interfaces/Closure;)V
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+
+    .line 11
+    .line 12
+    .line 13
+    :cond_0
+    return-void
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/inline_panel" android:background="?ytOverlayBackgroundSolid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.creation.common.ui.CreationButtonView android:id="@id/shared_inline_action_start_view_group" android:layout_width="wrap_content" android:layout_height="@dimen/inline_panel_button_height" android:layout_alignParentTop="true" android:layout_alignParentStart="true" yt:creationButtonLayout="shorts_camera_bottom" />
+    <FrameLayout android:id="@id/shared_inline_action_middle_view_group" android:layout_width="match_parent" android:layout_height="@dimen/inline_panel_button_height" android:layout_toStartOf="@id/shared_inline_action_end_view_group" android:layout_toEndOf="@id/shared_inline_action_start_view_group" />
+    <com.google.android.libraries.youtube.creation.common.ui.CreationButtonView android:id="@id/shared_inline_action_end_view_group" android:layout_width="wrap_content" android:layout_height="@dimen/inline_panel_button_height" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" yt:buttonContentDescription="@string/done" yt:creationButtonLayout="shorts_camera_bottom" yt:iconDrawable="@drawable/yt_fill_check_white_36" />
+</RelativeLayout>

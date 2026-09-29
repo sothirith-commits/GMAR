@@ -1,0 +1,72 @@
+.class public final synthetic Laxku;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Laxkv;
+
+.field public final synthetic b:Lazjf;
+
+
+# direct methods
+.method public synthetic constructor <init>(Laxkv;Lazjf;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Laxku;->a:Laxkv;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Laxku;->b:Lazjf;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Laxku;->a:Laxkv;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Laxkv;->f:Lcgli;
+
+    .line 4
+    .line 5
+    invoke-interface {v0}, Lcgli;->gr()Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    check-cast v0, Laxkw;
+
+    .line 10
+    .line 11
+    iget-object v1, p0, Laxku;->b:Lazjf;
+
+    .line 12
+    .line 13
+    invoke-interface {v0, v1}, Laxkw;->d(Lazjf;)V
+
+    .line 14
+    .line 15
+    .line 16
+    return-void
+.end method

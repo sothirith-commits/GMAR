@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.creation.common.ui.CreationButtonView android:id="@id/timeline_next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:buttonContentDescription="@string/shorts_a11y_continue_to_upload" yt:creationButtonLayout="shorts_camera" yt:iconDrawable="@drawable/yt_outline_arrow_right_black_24"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto" />

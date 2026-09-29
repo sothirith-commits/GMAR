@@ -1,0 +1,302 @@
+.class public final Lcdpt;
+.super Lbknp;
+.source "PG"
+
+# interfaces
+.implements Lbkpi;
+
+
+# static fields
+.field public static final a:Lcdpt;
+
+.field public static final b:Lbknr;
+
+.field private static volatile c:Lbkpn;
+
+
+# instance fields
+.field private d:B
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 7
+
+    .line 1
+    new-instance v1, Lcdpt;
+
+    .line 2
+    .line 3
+    invoke-direct {v1}, Lcdpt;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v1, Lcdpt;->a:Lcdpt;
+
+    .line 7
+    .line 8
+    const-class v0, Lcdpt;
+
+    .line 9
+    .line 10
+    invoke-static {v0, v1}, Lbknt;->registerDefaultInstance(Ljava/lang/Class;Lbknt;)V
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-static {}, Lcom/google/protos/youtube/elements/CommandOuterClass$Command;->getDefaultInstance()Lcom/google/protos/youtube/elements/CommandOuterClass$Command;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v0
+
+    .line 17
+    sget-object v5, Lbkrb;->k:Lbkrb;
+
+    .line 18
+    .line 19
+    const/4 v3, 0x0
+
+    .line 20
+    const v4, 0xb91f50b
+
+    .line 21
+    .line 22
+    .line 23
+    const-class v6, Lcdpt;
+
+    .line 24
+    .line 25
+    move-object v2, v1
+
+    .line 26
+    invoke-static/range {v0 .. v6}, Lbknt;->newSingularGeneratedExtension(Lcom/google/protobuf/MessageLite;Ljava/lang/Object;Lcom/google/protobuf/MessageLite;Lbkny;ILbkrb;Ljava/lang/Class;)Lbknr;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object v0
+
+    .line 30
+    sput-object v0, Lcdpt;->b:Lbknr;
+
+    .line 31
+    .line 32
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Lbknp;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x2
+
+    .line 5
+    iput-byte v0, p0, Lcdpt;->d:B
+
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final dynamicMethod(Lbkns;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Lbkns;->ordinal()I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    const/4 p3, 0x0
+
+    .line 6
+    packed-switch p1, :pswitch_data_0
+
+    .line 7
+    .line 8
+    .line 9
+    throw p3
+
+    .line 10
+    :pswitch_0
+    sget-object p1, Lcdpt;->c:Lbkpn;
+
+    .line 11
+    .line 12
+    if-nez p1, :cond_1
+
+    .line 13
+    .line 14
+    const-class p2, Lcdpt;
+
+    .line 15
+    .line 16
+    monitor-enter p2
+
+    .line 17
+    :try_start_0
+    sget-object p1, Lcdpt;->c:Lbkpn;
+
+    .line 18
+    .line 19
+    if-nez p1, :cond_0
+
+    .line 20
+    .line 21
+    new-instance p1, Lbknn;
+
+    .line 22
+    .line 23
+    sget-object p3, Lcdpt;->a:Lcdpt;
+
+    .line 24
+    .line 25
+    invoke-direct {p1, p3}, Lbknn;-><init>(Lbknt;)V
+
+    .line 26
+    .line 27
+    .line 28
+    sput-object p1, Lcdpt;->c:Lbkpn;
+
+    .line 29
+    .line 30
+    :cond_0
+    monitor-exit p2
+
+    .line 31
+    return-object p1
+
+    .line 32
+    :catchall_0
+    move-exception p1
+
+    .line 33
+    monitor-exit p2
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 34
+    throw p1
+
+    .line 35
+    :cond_1
+    return-object p1
+
+    .line 36
+    :pswitch_1
+    sget-object p1, Lcdpt;->a:Lcdpt;
+
+    .line 37
+    .line 38
+    return-object p1
+
+    .line 39
+    :pswitch_2
+    new-instance p1, Lcdps;
+
+    .line 40
+    .line 41
+    invoke-direct {p1}, Lcdps;-><init>()V
+
+    .line 42
+    .line 43
+    .line 44
+    return-object p1
+
+    .line 45
+    :pswitch_3
+    new-instance p1, Lcdpt;
+
+    .line 46
+    .line 47
+    invoke-direct {p1}, Lcdpt;-><init>()V
+
+    .line 48
+    .line 49
+    .line 50
+    return-object p1
+
+    .line 51
+    :pswitch_4
+    sget-object p1, Lcdpt;->a:Lcdpt;
+
+    .line 52
+    .line 53
+    const-string p2, "\u0001\u0000"
+
+    .line 54
+    .line 55
+    invoke-static {p1, p2, p3}, Lcdpt;->newMessageInfo(Lcom/google/protobuf/MessageLite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 56
+    .line 57
+    .line 58
+    move-result-object p1
+
+    .line 59
+    return-object p1
+
+    .line 60
+    :pswitch_5
+    if-nez p2, :cond_2
+
+    .line 61
+    .line 62
+    const/4 p1, 0x0
+
+    .line 63
+    goto :goto_0
+
+    .line 64
+    :cond_2
+    const/4 p1, 0x1
+
+    .line 65
+    :goto_0
+    iput-byte p1, p0, Lcdpt;->d:B
+
+    .line 66
+    .line 67
+    return-object p3
+
+    .line 68
+    :pswitch_6
+    iget-byte p1, p0, Lcdpt;->d:B
+
+    .line 69
+    .line 70
+    invoke-static {p1}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
+
+    .line 71
+    .line 72
+    .line 73
+    move-result-object p1
+
+    .line 74
+    return-object p1
+
+    .line 75
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method

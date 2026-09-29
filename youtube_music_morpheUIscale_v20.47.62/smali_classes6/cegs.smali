@@ -1,0 +1,30 @@
+.class public final Lcegs;
+.super Lcegv;
+.source "PG"
+
+
+# static fields
+.field public static final synthetic d:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcegv;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+    .locals 0
+
+    .line 5
+    invoke-direct {p0, p1}, Lcegv;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    return-void
+.end method

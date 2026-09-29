@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bitrate_entries">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+        <item>Always High</item>
+    </string-array>
+    <array name="cast_expanded_controller_default_control_buttons">
+        <item>@id/cast_button_type_closed_caption</item>
+        <item>@id/cast_button_type_skip_previous</item>
+        <item>@id/cast_button_type_skip_next</item>
+        <item>@id/cast_button_type_mute_toggle</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_dev_yt">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod_yt">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <array name="com_google_android_gms_fonts_certs_yt">
+        <item>@array/com_google_android_gms_fonts_certs_dev_yt</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod_yt</item>
+    </array>
+    <string-array name="double_tap_length_entries">
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+    </string-array>
+    <string-array name="double_tap_length_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="download_network_preference_entries">
+        <item>@string/download_network_preference_wifi_only</item>
+        <item>@string/download_network_preference_wifi_or_unrestricted_data_only</item>
+        <item>@string/download_network_preference_all</item>
+    </string-array>
+    <string-array name="download_network_preference_summaries">
+        <item>@string/download_network_preference_wifi_only_summary</item>
+        <item>@string/download_network_preference_wifi_or_unrestricted_data_only_summary</item>
+        <item>@string/download_network_preference_all_summary</item>
+    </string-array>
+    <string-array name="firebase_safelisted_events">
+        <item>_s</item>
+        <item>_ui</item>
+        <item>_f</item>
+        <item>_e</item>
+        <item>_au</item>
+        <item>_err</item>
+        <item>_cd</item>
+        <item>_ou</item>
+        <item>enable</item>
+        <item>disable</item>
+        <item>dynamic_link_app_open</item>
+        <item>dynamic_link_first_open</item>
+        <item>ytmp_sg_com</item>
+        <item>ytmp_ytb_sb_can</item>
+    </string-array>
+    <string-array name="ytm_hosts_allowlist">
+        <item>fdb00c43dbde8b51cb312aa81d3b5fa17713adb94b28f598d77f8eb89daceedf, com.google.android.projection.gearhead</item>
+    </string-array>
+    <string-array name="morphe_language_entries">
+        <item>@string/morphe_language_DEFAULT</item>
+        <item>Afrikaans</item>
+        <item>አማርኛ</item>
+        <item>العربية</item>
+        <item>অসমীয়া</item>
+        <item>Azərbaycanca</item>
+        <item>Беларуская</item>
+        <item>Български</item>
+        <item>বাংলা</item>
+        <item>Bosanski</item>
+        <item>Català</item>
+        <item>Čeština</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Eesti</item>
+        <item>Euskara</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Gaeilge</item>
+        <item>Galego</item>
+        <item>Kurmanji</item>
+        <item>سۆرانی</item>
+        <item>ગુજરાતી</item>
+        <item>עברית</item>
+        <item>हिन्दी</item>
+        <item>Hrvatski</item>
+        <item>Magyar</item>
+        <item>Հայերեն</item>
+        <item>Bahasa Indonesia</item>
+        <item>Íslenska</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>ქართული</item>
+        <item>Қазақ тілі</item>
+        <item>ភាសាខ្មែរ</item>
+        <item>ಕನ್ನಡ</item>
+        <item>한국어</item>
+        <item>Кыргызча</item>
+        <item>ລາວ</item>
+        <item>Lietuvių</item>
+        <item>Latviešu</item>
+        <item>Македонски</item>
+        <item>മലയാളം</item>
+        <item>Монгол</item>
+        <item>मराठी</item>
+        <item>Bahasa Melayu</item>
+        <item>မြန်မာစာ</item>
+        <item>Norsk bokmål</item>
+        <item>नेपाली</item>
+        <item>Nederlands</item>
+        <item>ଓଡ଼ିଆ</item>
+        <item>ਪੰਜਾਬੀ</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>සිංහල</item>
+        <item>Slovenčina</item>
+        <item>Slovenščina</item>
+        <item>Shqip</item>
+        <item>Српски</item>
+        <item>Svenska</item>
+        <item>Kiswahili</item>
+        <item>தமிழ்</item>
+        <item>తెలుగు</item>
+        <item>ไทย</item>
+        <item>Tagalog</item>
+        <item>Türkçe</item>
+        <item>Українська</item>
+        <item>اردو</item>
+        <item>Oʻzbekcha</item>
+        <item>Tiếng Việt</item>
+        <item>中文</item>
+        <item>isiZulu</item>
+    </string-array>
+    <string-array name="morphe_language_entry_values">
+        <item>DEFAULT</item>
+        <item>AF</item>
+        <item>AM</item>
+        <item>AR</item>
+        <item>AS</item>
+        <item>AZ</item>
+        <item>BE</item>
+        <item>BG</item>
+        <item>BN</item>
+        <item>BS</item>
+        <item>CA</item>
+        <item>CS</item>
+        <item>DA</item>
+        <item>DE</item>
+        <item>EL</item>
+        <item>EN</item>
+        <item>ES</item>
+        <item>ET</item>
+        <item>EU</item>
+        <item>FA</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>GA</item>
+        <item>GL</item>
+        <item>KMR</item>
+        <item>CKB</item>
+        <item>GU</item>
+        <item>HE</item>
+        <item>HI</item>
+        <item>HR</item>
+        <item>HU</item>
+        <item>HY</item>
+        <item>ID</item>
+        <item>IS</item>
+        <item>IT</item>
+        <item>JA</item>
+        <item>KA</item>
+        <item>KK</item>
+        <item>KM</item>
+        <item>KN</item>
+        <item>KO</item>
+        <item>KY</item>
+        <item>LO</item>
+        <item>LT</item>
+        <item>LV</item>
+        <item>MK</item>
+        <item>ML</item>
+        <item>MN</item>
+        <item>MR</item>
+        <item>MS</item>
+        <item>MY</item>
+        <item>NB</item>
+        <item>NE</item>
+        <item>NL</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>RO</item>
+        <item>RU</item>
+        <item>SI</item>
+        <item>SK</item>
+        <item>SL</item>
+        <item>SQ</item>
+        <item>SR</item>
+        <item>SV</item>
+        <item>SW</item>
+        <item>TA</item>
+        <item>TE</item>
+        <item>TH</item>
+        <item>TL</item>
+        <item>TR</item>
+        <item>UK</item>
+        <item>UR</item>
+        <item>UZ</item>
+        <item>VI</item>
+        <item>ZH</item>
+        <item>ZU</item>
+    </string-array>
+    <string-array name="morphe_custom_branding_icon_entries">
+        <item>@string/morphe_custom_branding_icon_entry_1</item>
+        <item>@string/morphe_custom_branding_icon_entry_2</item>
+        <item>@string/morphe_custom_branding_icon_entry_3</item>
+        <item>@string/morphe_custom_branding_icon_entry_4</item>
+        <item>@string/morphe_custom_branding_icon_entry_5</item>
+    </string-array>
+    <string-array name="morphe_custom_branding_icon_entry_values">
+        <item>ORIGINAL</item>
+        <item>BLACK</item>
+        <item>DARK</item>
+        <item>LIGHT</item>
+        <item>PLAY</item>
+    </string-array>
+    <string-array name="morphe_custom_branding_icon_custom_entries">
+        <item>@string/morphe_custom_branding_icon_entry_1</item>
+        <item>@string/morphe_custom_branding_icon_entry_2</item>
+        <item>@string/morphe_custom_branding_icon_entry_3</item>
+        <item>@string/morphe_custom_branding_icon_entry_4</item>
+        <item>@string/morphe_custom_branding_icon_entry_5</item>
+        <item>@string/morphe_custom_branding_icon_entry_6</item>
+    </string-array>
+    <string-array name="morphe_custom_branding_icon_custom_entry_values">
+        <item>ORIGINAL</item>
+        <item>BLACK</item>
+        <item>DARK</item>
+        <item>LIGHT</item>
+        <item>PLAY</item>
+        <item>CUSTOM</item>
+    </string-array>
+    <string-array name="morphe_custom_branding_notification_icon_entries">
+        <item>@string/morphe_custom_branding_notification_icon_entry_1</item>
+        <item>@string/morphe_custom_branding_icon_entry_1</item>
+        <item>@string/morphe_custom_branding_icon_entry_2</item>
+        <item>@string/morphe_custom_branding_icon_entry_3</item>
+        <item>@string/morphe_custom_branding_icon_entry_4</item>
+        <item>@string/morphe_custom_branding_icon_entry_5</item>
+    </string-array>
+    <string-array name="morphe_custom_branding_notification_icon_entry_values">
+        <item>FOLLOW</item>
+        <item>ORIGINAL</item>
+        <item>BLACK</item>
+        <item>DARK</item>
+        <item>LIGHT</item>
+        <item>PLAY</item>
+    </string-array>
+    <string-array name="morphe_custom_branding_notification_icon_custom_entries">
+        <item>@string/morphe_custom_branding_notification_icon_entry_1</item>
+        <item>@string/morphe_custom_branding_icon_entry_1</item>
+        <item>@string/morphe_custom_branding_icon_entry_2</item>
+        <item>@string/morphe_custom_branding_icon_entry_3</item>
+        <item>@string/morphe_custom_branding_icon_entry_4</item>
+        <item>@string/morphe_custom_branding_icon_entry_5</item>
+        <item>@string/morphe_custom_branding_icon_entry_6</item>
+    </string-array>
+    <string-array name="morphe_custom_branding_notification_icon_custom_entry_values">
+        <item>FOLLOW</item>
+        <item>ORIGINAL</item>
+        <item>BLACK</item>
+        <item>DARK</item>
+        <item>LIGHT</item>
+        <item>PLAY</item>
+        <item>CUSTOM</item>
+    </string-array>
+    <string-array name="morphe_custom_branding_name_entries">
+        <item>@string/app_launcher_name</item>
+        <item>@string/morphe_custom_branding_name_entry_2</item>
+        <item>@string/morphe_custom_branding_name_entry_3</item>
+        <item>@string/morphe_custom_branding_name_entry_4</item>
+    </string-array>
+    <string-array name="morphe_custom_branding_name_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="morphe_custom_branding_name_custom_entries">
+        <item>@string/app_launcher_name</item>
+        <item>@string/morphe_custom_branding_name_entry_2</item>
+        <item>@string/morphe_custom_branding_name_entry_3</item>
+        <item>@string/morphe_custom_branding_name_entry_4</item>
+        <item>@string/morphe_custom_branding_name_entry_5</item>
+    </string-array>
+    <string-array name="morphe_custom_branding_name_custom_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="morphe_change_start_page_entries">
+        <item>@string/morphe_change_start_page_entry_default</item>
+        <item>@string/morphe_change_start_page_entry_charts</item>
+        <item>@string/morphe_change_start_page_entry_episodes_for_later</item>
+        <item>@string/morphe_change_start_page_entry_explore</item>
+        <item>@string/morphe_change_start_page_entry_history</item>
+        <item>@string/morphe_change_start_page_entry_library</item>
+        <item>@string/morphe_change_start_page_entry_liked_music</item>
+        <item>@string/morphe_change_start_page_entry_playlists</item>
+        <item>@string/morphe_change_start_page_entry_search</item>
+        <item>@string/morphe_change_start_page_entry_subscriptions</item>
+    </string-array>
+    <string-array name="morphe_change_start_page_entry_values">
+        <item>DEFAULT</item>
+        <item>CHARTS</item>
+        <item>EPISODES_FOR_LATER</item>
+        <item>EXPLORE</item>
+        <item>HISTORY</item>
+        <item>LIBRARY</item>
+        <item>LIKED_MUSIC</item>
+        <item>PLAYLISTS</item>
+        <item>SEARCH</item>
+        <item>SUBSCRIPTIONS</item>
+    </string-array>
+    <string-array name="morphe_header_logo_entries">
+        <item>@string/morphe_header_logo_entry_1</item>
+        <item>@string/morphe_header_logo_entry_2</item>
+    </string-array>
+    <string-array name="morphe_header_logo_entry_values">
+        <item>DEFAULT</item>
+        <item>MORPHE</item>
+    </string-array>
+    <string-array name="morphe_header_logo_custom_entries">
+        <item>@string/morphe_header_logo_entry_1</item>
+        <item>@string/morphe_header_logo_entry_2</item>
+        <item>@string/morphe_header_logo_entry_3</item>
+    </string-array>
+    <string-array name="morphe_header_logo_custom_entry_values">
+        <item>DEFAULT</item>
+        <item>MORPHE</item>
+        <item>CUSTOM</item>
+    </string-array>
+    <string-array name="morphe_music_crossfade_curve_entries">
+        <item>@string/morphe_music_crossfade_curve_entry_equal_power</item>
+        <item>@string/morphe_music_crossfade_curve_entry_ease_out_cubic</item>
+        <item>@string/morphe_music_crossfade_curve_entry_ease_out_quad</item>
+        <item>@string/morphe_music_crossfade_curve_entry_smoothstep</item>
+    </string-array>
+    <string-array name="morphe_music_crossfade_curve_entry_values">
+        <item>EQUAL_POWER</item>
+        <item>EASE_OUT_CUBIC</item>
+        <item>EASE_OUT_QUAD</item>
+        <item>SMOOTHSTEP</item>
+    </string-array>
+    <string-array name="morphe_music_crossfade_duration_entries">
+        <item>@string/morphe_crossfade_duration_250ms</item>
+        <item>@string/morphe_crossfade_duration_500ms</item>
+        <item>@string/morphe_crossfade_duration_750ms</item>
+        <item>@string/morphe_crossfade_duration_1000ms</item>
+        <item>@string/morphe_crossfade_duration_2000ms</item>
+        <item>@string/morphe_crossfade_duration_3000ms</item>
+        <item>@string/morphe_crossfade_duration_4000ms</item>
+        <item>@string/morphe_crossfade_duration_5000ms</item>
+        <item>@string/morphe_crossfade_duration_6000ms</item>
+        <item>@string/morphe_crossfade_duration_7000ms</item>
+        <item>@string/morphe_crossfade_duration_8000ms</item>
+        <item>@string/morphe_crossfade_duration_9000ms</item>
+        <item>@string/morphe_crossfade_duration_10000ms</item>
+    </string-array>
+    <string-array name="morphe_music_crossfade_duration_entry_values">
+        <item>MILLISECONDS_250</item>
+        <item>MILLISECONDS_500</item>
+        <item>MILLISECONDS_750</item>
+        <item>MILLISECONDS_1000</item>
+        <item>MILLISECONDS_2000</item>
+        <item>MILLISECONDS_3000</item>
+        <item>MILLISECONDS_4000</item>
+        <item>MILLISECONDS_5000</item>
+        <item>MILLISECONDS_6000</item>
+        <item>MILLISECONDS_7000</item>
+        <item>MILLISECONDS_8000</item>
+        <item>MILLISECONDS_9000</item>
+        <item>MILLISECONDS_10000</item>
+    </string-array>
+    <string-array name="morphe_spoof_video_streams_client_type_entries">
+        <item>Android Reel</item>
+        <item>Android Music No SDK</item>
+        <item>Android VR</item>
+        <item>TV</item>
+        <item>visionOS</item>
+    </string-array>
+    <string-array name="morphe_spoof_video_streams_client_type_entry_values">
+        <item>ANDROID_REEL</item>
+        <item>ANDROID_MUSIC_NO_SDK</item>
+        <item>ANDROID_VR_1_64</item>
+        <item>TV</item>
+        <item>VISIONOS</item>
+    </string-array>
+</resources>

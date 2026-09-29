@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/vaa_consent_view" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.webkit.WebView android:id="@id/id_0x7f0b1799" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ProgressBar android:id="@id/progress_loader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?android:progressBarStyle" />
+    <ImageView android:id="@id/close_button" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginTop="12.0dp" android:src="@drawable/vaa_close_button" android:contentDescription="@string/accessibility_close_button" android:layout_marginStart="10.0dp" android:layout_alignParentStart="true" />
+</RelativeLayout>

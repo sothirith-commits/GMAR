@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:layout_width="match_parent" android:layout_height="match_parent" android:shape="oval">
+            <padding android:left="12.0dp" android:top="12.0dp" android:right="12.0dp" android:bottom="12.0dp" />
+            <size android:height="36.0dp" android:width="36.0dp" />
+            <solid android:color="?ytAdditiveBackground" />
+        </shape>
+    </item>
+    <item android:drawable="?actionBarItemBackground" />
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/yt_outline_x_black_24" android:tint="?ytTextPrimary" />
+    </item>
+</layer-list>

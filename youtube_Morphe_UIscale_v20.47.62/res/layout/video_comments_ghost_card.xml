@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:orientation="horizontal" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="16.0dp" android:paddingEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/comments_title" android:background="?ghostCardBackground" android:layout_width="120.0dp" android:layout_height="16.0dp" android:layout_alignParentEnd="false" />
+    <View android:id="@id/comments_1" android:background="?ghostCardBackground" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="16.0dp" android:layout_below="@id/comments_title" android:layout_alignParentEnd="true" />
+    <View android:id="@id/comments_2" android:background="?ghostCardBackground" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="8.0dp" android:layout_below="@id/comments_1" android:layout_alignParentEnd="true" />
+</RelativeLayout>

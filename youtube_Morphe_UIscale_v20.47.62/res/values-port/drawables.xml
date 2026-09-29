@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="deco_dark_background">@drawable/deco_duo_blob_dark</drawable>
+    <drawable name="deco_light_background">@drawable/deco_duo_blob_light</drawable>
+</resources>

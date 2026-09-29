@@ -1,0 +1,83 @@
+.class public final Laebf;
+.super Ladtx;
+.source "PG"
+
+# interfaces
+.implements Laeat;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/research/xeno/effect/Effect;Ljava/util/UUID;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ladtx;-><init>(Lcom/google/research/xeno/effect/Effect;Ljava/util/UUID;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(Laepd;)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Ladtx;->a:Lcom/google/research/xeno/effect/Effect;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lcom/google/research/xeno/effect/Effect;->c:Ljava/util/Map;
+
+    .line 4
+    .line 5
+    const-string v1, "playback_position"
+
+    .line 6
+    .line 7
+    invoke-virtual {p0, v1}, Ladtq;->e(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v1
+
+    .line 11
+    invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v0
+
+    .line 15
+    check-cast v0, Lcom/google/research/xeno/effect/Control;
+
+    .line 16
+    .line 17
+    invoke-static {v0}, Lj$/util/Optional;->ofNullable(Ljava/lang/Object;)Lj$/util/Optional;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v0
+
+    .line 21
+    new-instance v1, Laebe;
+
+    .line 22
+    .line 23
+    invoke-direct {v1, p1}, Laebe;-><init>(Laepd;)V
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-virtual {v0, v1}, Lj$/util/Optional;->ifPresent(Ljava/util/function/Consumer;)V
+
+    .line 27
+    .line 28
+    .line 29
+    return-void
+.end method

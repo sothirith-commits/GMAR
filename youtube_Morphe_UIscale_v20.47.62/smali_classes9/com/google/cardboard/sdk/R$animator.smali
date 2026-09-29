@@ -1,0 +1,31 @@
+.class public final Lcom/google/cardboard/sdk/R$animator;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field public static final fragment_close_enter:I = 0x7f020009
+
+.field public static final fragment_close_exit:I = 0x7f02000a
+
+.field public static final fragment_fade_enter:I = 0x7f02000b
+
+.field public static final fragment_fade_exit:I = 0x7f02000c
+
+.field public static final fragment_open_enter:I = 0x7f02000d
+
+.field public static final fragment_open_exit:I = 0x7f02000e
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

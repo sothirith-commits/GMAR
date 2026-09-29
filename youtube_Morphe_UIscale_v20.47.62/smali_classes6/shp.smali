@@ -1,0 +1,271 @@
+.class public final Lshp;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field public a:Ljava/lang/String;
+
+.field public b:Ljava/lang/String;
+
+.field public c:Ljava/lang/String;
+
+.field public d:Ljava/lang/String;
+
+.field public e:Lcom/google/protos/youtube/elements/CommandOuterClass$Command;
+
+.field public f:Lcom/google/protos/youtube/elements/CommandOuterClass$Command;
+
+.field public g:Ltqs;
+
+.field public h:Lql;
+
+.field public i:Lshq;
+
+.field public j:Ljava/lang/Object;
+
+.field public k:Ljava/lang/Boolean;
+
+.field public l:Ljava/lang/Boolean;
+
+.field public m:Ljava/lang/Boolean;
+
+.field public n:Latqt;
+
+.field public o:I
+
+.field private p:I
+
+.field private q:B
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lshr;
+    .locals 20
+
+    .line 1
+    move-object/from16 v0, p0
+
+    .line 2
+    .line 3
+    iget-byte v1, v0, Lshp;->q:B
+
+    .line 4
+    .line 5
+    const/4 v2, 0x1
+
+    .line 6
+    if-ne v1, v2, :cond_1
+
+    .line 7
+    .line 8
+    iget v12, v0, Lshp;->o:I
+
+    .line 9
+    .line 10
+    if-nez v12, :cond_0
+
+    .line 11
+    .line 12
+    goto :goto_0
+
+    .line 13
+    :cond_0
+    new-instance v3, Lshr;
+
+    .line 14
+    .line 15
+    iget-object v4, v0, Lshp;->a:Ljava/lang/String;
+
+    .line 16
+    .line 17
+    iget-object v5, v0, Lshp;->b:Ljava/lang/String;
+
+    .line 18
+    .line 19
+    iget-object v6, v0, Lshp;->c:Ljava/lang/String;
+
+    .line 20
+    .line 21
+    iget-object v7, v0, Lshp;->d:Ljava/lang/String;
+
+    .line 22
+    .line 23
+    iget-object v8, v0, Lshp;->e:Lcom/google/protos/youtube/elements/CommandOuterClass$Command;
+
+    .line 24
+    .line 25
+    iget-object v9, v0, Lshp;->f:Lcom/google/protos/youtube/elements/CommandOuterClass$Command;
+
+    .line 26
+    .line 27
+    iget-object v10, v0, Lshp;->g:Ltqs;
+
+    .line 28
+    .line 29
+    iget-object v11, v0, Lshp;->h:Lql;
+
+    .line 30
+    .line 31
+    iget v13, v0, Lshp;->p:I
+
+    .line 32
+    .line 33
+    iget-object v14, v0, Lshp;->i:Lshq;
+
+    .line 34
+    .line 35
+    iget-object v15, v0, Lshp;->j:Ljava/lang/Object;
+
+    .line 36
+    .line 37
+    iget-object v1, v0, Lshp;->k:Ljava/lang/Boolean;
+
+    .line 38
+    .line 39
+    iget-object v2, v0, Lshp;->l:Ljava/lang/Boolean;
+
+    .line 40
+    .line 41
+    move-object/from16 v16, v1
+
+    .line 42
+    .line 43
+    iget-object v1, v0, Lshp;->m:Ljava/lang/Boolean;
+
+    .line 44
+    .line 45
+    move-object/from16 v18, v1
+
+    .line 46
+    .line 47
+    iget-object v1, v0, Lshp;->n:Latqt;
+
+    .line 48
+    .line 49
+    move-object/from16 v19, v1
+
+    .line 50
+    .line 51
+    move-object/from16 v17, v2
+
+    .line 52
+    .line 53
+    invoke-direct/range {v3 .. v19}, Lshr;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/google/protos/youtube/elements/CommandOuterClass$Command;Lcom/google/protos/youtube/elements/CommandOuterClass$Command;Ltqs;Lql;IILshq;Ljava/lang/Object;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Latqt;)V
+
+    .line 54
+    .line 55
+    .line 56
+    return-object v3
+
+    .line 57
+    :cond_1
+    :goto_0
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 58
+    .line 59
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 60
+    .line 61
+    .line 62
+    iget v2, v0, Lshp;->o:I
+
+    .line 63
+    .line 64
+    if-nez v2, :cond_2
+
+    .line 65
+    .line 66
+    const-string v2, " dialogType"
+
+    .line 67
+    .line 68
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 69
+    .line 70
+    .line 71
+    :cond_2
+    iget-byte v2, v0, Lshp;->q:B
+
+    .line 72
+    .line 73
+    if-nez v2, :cond_3
+
+    .line 74
+    .line 75
+    const-string v2, " requestedOrientation"
+
+    .line 76
+    .line 77
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 78
+    .line 79
+    .line 80
+    :cond_3
+    new-instance v2, Ljava/lang/IllegalStateException;
+
+    .line 81
+    .line 82
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 83
+    .line 84
+    .line 85
+    move-result-object v1
+
+    .line 86
+    const-string v3, "Missing required properties:"
+
+    .line 87
+    .line 88
+    invoke-virtual {v3, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 89
+    .line 90
+    .line 91
+    move-result-object v1
+
+    .line 92
+    invoke-direct {v2, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 93
+    .line 94
+    .line 95
+    throw v2
+.end method
+
+.method public final b(I)V
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lshp;->p:I
+
+    .line 2
+    .line 3
+    const/4 p1, 0x1
+
+    .line 4
+    iput-byte p1, p0, Lshp;->q:B
+
+    .line 5
+    .line 6
+    return-void
+.end method

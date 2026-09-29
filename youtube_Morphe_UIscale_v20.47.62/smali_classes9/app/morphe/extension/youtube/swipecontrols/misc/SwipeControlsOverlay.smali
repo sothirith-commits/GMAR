@@ -1,0 +1,14 @@
+.class public interface abstract Lapp/morphe/extension/youtube/swipecontrols/misc/SwipeControlsOverlay;
+.super Ljava/lang/Object;
+.source "SwipeControlsOverlay.kt"
+
+
+# virtual methods
+.method public abstract onBrightnessChanged(D)V
+.end method
+
+.method public abstract onEnterSwipeSession()V
+.end method
+
+.method public abstract onVolumeChanged(II)V
+.end method

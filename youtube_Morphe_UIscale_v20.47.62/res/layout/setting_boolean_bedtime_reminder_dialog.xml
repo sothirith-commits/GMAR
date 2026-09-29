@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="10.0dp" android:paddingBottom="18.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minWidth="300.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="20.0sp" android:textColor="?android:textColorPrimary" android:id="@id/dialog_title" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" yt:robotoFont="medium" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:id="@id/select_range" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_during_hours" style="?ytTextStyleLabel" />
+        <com.google.android.apps.youtube.app.settings.presenter.TimeRangeView android:orientation="vertical" android:id="@id/time_range" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/dialog_divider" android:background="?ytSeparator" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" />
+        <CheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" />
+    </LinearLayout>
+</ScrollView>

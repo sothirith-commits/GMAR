@@ -1,0 +1,29 @@
+.class public final Lbmiz;
+.super Lbmpo;
+.source "PG"
+
+
+# direct methods
+.method public constructor <init>(Lbmav;Lbmar;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lbmpo;-><init>(Lbmav;Lbmar;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final P(Ljava/lang/Throwable;)Z
+    .locals 0
+
+    .line 1
+    const/4 p1, 0x0
+
+    .line 2
+    return p1
+.end method

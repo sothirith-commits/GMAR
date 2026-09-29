@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/editor_engagement_panel_top_bar" android:background="@android:color/transparent" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/engagement_panel_top_bar_element_view_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+    <FrameLayout android:id="@id/app_effects_control_input_container" android:paddingBottom="@dimen/reel_effects_control_input_container_bottom_margin" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/reel_effects_control_input_container_horizontal_margin" />
+</LinearLayout>

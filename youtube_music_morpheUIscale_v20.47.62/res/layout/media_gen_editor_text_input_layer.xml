@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/media_gen_input_scrim" android:background="?ytOverlayBackgroundMediumLight" android:focusable="false" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/media_gen_editor_text_input" android:importantForAccessibility="no" />
+    <include android:id="@id/media_gen_editor_text_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/media_gen_editor_text_input" />
+</RelativeLayout>

@@ -1,0 +1,363 @@
+.class final Lcihs;
+.super Ljava/util/concurrent/atomic/AtomicBoolean;
+.source "PG"
+
+# interfaces
+.implements Lchwu;
+.implements Lckwz;
+
+
+# static fields
+.field private static final serialVersionUID:J = -0x66f7ddf0554a95a7L
+
+
+# instance fields
+.field final a:Lckwy;
+
+.field final b:Lciht;
+
+.field final c:Lcihr;
+
+.field d:Lckwz;
+
+
+# direct methods
+.method public constructor <init>(Lckwy;Lciht;Lcihr;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcihs;->a:Lckwy;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lcihs;->b:Lciht;
+
+    .line 7
+    .line 8
+    iput-object p3, p0, Lcihs;->c:Lcihr;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(Ljava/lang/Throwable;)V
+    .locals 2
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    const/4 v1, 0x1
+
+    .line 3
+    invoke-virtual {p0, v0, v1}, Lcihs;->compareAndSet(ZZ)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    iget-object v0, p0, Lcihs;->b:Lciht;
+
+    .line 10
+    .line 11
+    iget-object v1, p0, Lcihs;->c:Lcihr;
+
+    .line 12
+    .line 13
+    invoke-virtual {v0, v1}, Lciht;->b(Lcihr;)V
+
+    .line 14
+    .line 15
+    .line 16
+    iget-object v0, p0, Lcihs;->a:Lckwy;
+
+    .line 17
+    .line 18
+    invoke-interface {v0, p1}, Lckwy;->b(Ljava/lang/Throwable;)V
+
+    .line 19
+    .line 20
+    .line 21
+    return-void
+
+    .line 22
+    :cond_0
+    invoke-static {p1}, Lciyj;->e(Ljava/lang/Throwable;)V
+
+    .line 23
+    .line 24
+    .line 25
+    return-void
+.end method
+
+.method public final e(Lckwz;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcihs;->d:Lckwz;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p1}, Lcixk;->i(Lckwz;Lckwz;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    iput-object p1, p0, Lcihs;->d:Lckwz;
+
+    .line 10
+    .line 11
+    iget-object p1, p0, Lcihs;->a:Lckwy;
+
+    .line 12
+    .line 13
+    invoke-interface {p1, p0}, Lckwy;->e(Lckwz;)V
+
+    .line 14
+    .line 15
+    .line 16
+    :cond_0
+    return-void
+.end method
+
+.method public final iI()V
+    .locals 6
+
+    .line 1
+    iget-object v0, p0, Lcihs;->d:Lckwz;
+
+    .line 2
+    .line 3
+    invoke-interface {v0}, Lckwz;->iI()V
+
+    .line 4
+    .line 5
+    .line 6
+    const/4 v0, 0x0
+
+    .line 7
+    const/4 v1, 0x1
+
+    .line 8
+    invoke-virtual {p0, v0, v1}, Lcihs;->compareAndSet(ZZ)Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result v0
+
+    .line 12
+    if-eqz v0, :cond_4
+
+    .line 13
+    .line 14
+    iget-object v0, p0, Lcihs;->b:Lciht;
+
+    .line 15
+    .line 16
+    iget-object v1, p0, Lcihs;->c:Lcihr;
+
+    .line 17
+    .line 18
+    monitor-enter v0
+
+    .line 19
+    :try_start_0
+    iget-object v2, v0, Lciht;->c:Lcihr;
+
+    .line 20
+    .line 21
+    if-eqz v2, :cond_3
+
+    .line 22
+    .line 23
+    if-eq v2, v1, :cond_0
+
+    .line 24
+    .line 25
+    goto :goto_1
+
+    .line 26
+    :cond_0
+    iget-wide v2, v1, Lcihr;->c:J
+
+    .line 27
+    .line 28
+    const-wide/16 v4, -0x1
+
+    .line 29
+    .line 30
+    add-long/2addr v2, v4
+
+    .line 31
+    iput-wide v2, v1, Lcihr;->c:J
+
+    .line 32
+    .line 33
+    const-wide/16 v4, 0x0
+
+    .line 34
+    .line 35
+    cmp-long v2, v2, v4
+
+    .line 36
+    .line 37
+    if-nez v2, :cond_2
+
+    .line 38
+    .line 39
+    iget-boolean v2, v1, Lcihr;->d:Z
+
+    .line 40
+    .line 41
+    if-nez v2, :cond_1
+
+    .line 42
+    .line 43
+    goto :goto_0
+
+    .line 44
+    :cond_1
+    invoke-virtual {v0, v1}, Lciht;->c(Lcihr;)V
+
+    .line 45
+    .line 46
+    .line 47
+    monitor-exit v0
+
+    .line 48
+    return-void
+
+    .line 49
+    :cond_2
+    :goto_0
+    monitor-exit v0
+
+    .line 50
+    return-void
+
+    .line 51
+    :cond_3
+    :goto_1
+    monitor-exit v0
+
+    .line 52
+    return-void
+
+    .line 53
+    :catchall_0
+    move-exception v1
+
+    .line 54
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 55
+    throw v1
+
+    .line 56
+    :cond_4
+    return-void
+.end method
+
+.method public final iJ(Ljava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcihs;->a:Lckwy;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1}, Lckwy;->iJ(Ljava/lang/Object;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public final iM()V
+    .locals 2
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    const/4 v1, 0x1
+
+    .line 3
+    invoke-virtual {p0, v0, v1}, Lcihs;->compareAndSet(ZZ)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    iget-object v0, p0, Lcihs;->b:Lciht;
+
+    .line 10
+    .line 11
+    iget-object v1, p0, Lcihs;->c:Lcihr;
+
+    .line 12
+    .line 13
+    invoke-virtual {v0, v1}, Lciht;->b(Lcihr;)V
+
+    .line 14
+    .line 15
+    .line 16
+    iget-object v0, p0, Lcihs;->a:Lckwy;
+
+    .line 17
+    .line 18
+    invoke-interface {v0}, Lckwy;->iM()V
+
+    .line 19
+    .line 20
+    .line 21
+    :cond_0
+    return-void
+.end method
+
+.method public final iN(J)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcihs;->d:Lckwz;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1, p2}, Lckwz;->iN(J)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

@@ -1,0 +1,53 @@
+.class public final Laabv;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lcgnr;
+
+
+# instance fields
+.field private final a:Laabc;
+
+
+# direct methods
+.method public constructor <init>(Laabc;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Laabv;->a:Laabc;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic gr()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Laabv;->a:Laabc;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Laabc;->e:Lbhgt;
+
+    .line 4
+    .line 5
+    check-cast v0, Lbhhb;
+
+    .line 6
+    .line 7
+    iget-object v0, v0, Lbhhb;->a:Ljava/lang/Object;
+
+    .line 8
+    .line 9
+    return-object v0
+.end method

@@ -1,0 +1,65 @@
+.class final Lbcth;
+.super Lbctg;
+.source "PG"
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Lbcvb;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lbctg;-><init>(Landroid/content/Context;Lbcvb;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final bridge synthetic a(Landroid/content/Context;)Landroid/view/ViewGroup;
+    .locals 2
+
+    .line 1
+    new-instance v0, Landroid/widget/FrameLayout;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
+
+    .line 4
+    .line 5
+    .line 6
+    new-instance p1, Lai;
+
+    .line 7
+    .line 8
+    const/4 v1, 0x0
+
+    .line 9
+    invoke-direct {p1, v1}, Lai;-><init>(I)V
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-virtual {v0, p1}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-static {}, Landroid/view/View;->generateViewId()I
+
+    .line 16
+    .line 17
+    .line 18
+    move-result p1
+
+    .line 19
+    invoke-virtual {v0, p1}, Landroid/widget/FrameLayout;->setId(I)V
+
+    .line 20
+    .line 21
+    .line 22
+    return-object v0
+.end method

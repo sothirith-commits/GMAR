@@ -1,0 +1,101 @@
+.class public final synthetic Lakyn;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Ljava/util/function/Consumer;
+
+
+# instance fields
+.field public final synthetic a:Lcfzf;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcfzf;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lakyn;->a:Lcfzf;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 2
+
+    .line 1
+    check-cast p1, Ljava/lang/Float;
+
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p1
+
+    .line 7
+    iget-object v0, p0, Lakyn;->a:Lcfzf;
+
+    .line 8
+    .line 9
+    invoke-virtual {v0}, Lbknm;->copyOnWrite()V
+
+    .line 10
+    .line 11
+    .line 12
+    iget-object v0, v0, Lcfzf;->instance:Lbknt;
+
+    .line 13
+    .line 14
+    check-cast v0, Lcfzg;
+
+    .line 15
+    .line 16
+    sget-object v1, Lcfzg;->a:Lcfzg;
+
+    .line 17
+    .line 18
+    iget v1, v0, Lcfzg;->b:I
+
+    .line 19
+    .line 20
+    or-int/lit8 v1, v1, 0x1
+
+    .line 21
+    .line 22
+    iput v1, v0, Lcfzg;->b:I
+
+    .line 23
+    .line 24
+    iput p1, v0, Lcfzg;->c:F
+
+    .line 25
+    .line 26
+    return-void
+.end method
+
+.method public final synthetic andThen(Ljava/util/function/Consumer;)Ljava/util/function/Consumer;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Lj$/util/function/Consumer$-CC;->$default$andThen(Ljava/util/function/Consumer;Ljava/util/function/Consumer;)Ljava/util/function/Consumer;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method

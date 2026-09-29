@@ -1,0 +1,162 @@
+.class public final synthetic Lwtt;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lyom;
+
+
+# instance fields
+.field public final synthetic a:Lhax;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lhax;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lwtt;->a:Lhax;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(ILxio;)V
+    .locals 3
+
+    .line 1
+    invoke-interface {p2}, Lxio;->j()I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    add-int/lit8 v0, v0, -0x1
+
+    .line 6
+    .line 7
+    iget-object v1, p0, Lwtt;->a:Lhax;
+
+    .line 8
+    .line 9
+    const/4 v2, 0x2
+
+    .line 10
+    if-eq v0, v2, :cond_0
+
+    .line 11
+    .line 12
+    invoke-interface {p2}, Lxio;->g()F
+
+    .line 13
+    .line 14
+    .line 15
+    move-result p2
+
+    .line 16
+    invoke-virtual {v1, p1, p2}, Lhax;->K(IF)V
+
+    .line 17
+    .line 18
+    .line 19
+    return-void
+
+    .line 20
+    :cond_0
+    invoke-interface {p2}, Lxio;->g()F
+
+    .line 21
+    .line 22
+    .line 23
+    move-result p2
+
+    .line 24
+    const/high16 v0, 0x42c80000    # 100.0f
+
+    .line 25
+    .line 26
+    mul-float/2addr p2, v0
+
+    .line 27
+    iget-object v0, v1, Lhax;->c:Lhba;
+
+    .line 28
+    .line 29
+    invoke-virtual {v0}, Lhba;->k()Lhav;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v0
+
+    .line 33
+    invoke-virtual {v0}, Lhav;->E()Lher;
+
+    .line 34
+    .line 35
+    .line 36
+    move-result-object v0
+
+    .line 37
+    check-cast v0, Lhat;
+
+    .line 38
+    .line 39
+    iget v1, v0, Lhat;->a:I
+
+    .line 40
+    .line 41
+    const/high16 v2, 0x1000000
+
+    .line 42
+    .line 43
+    or-int/2addr v1, v2
+
+    .line 44
+    iput v1, v0, Lhat;->a:I
+
+    .line 45
+    .line 46
+    iget-object v1, v0, Lhat;->x:Lhdf;
+
+    .line 47
+    .line 48
+    if-nez v1, :cond_1
+
+    .line 49
+    .line 50
+    new-instance v1, Lhdf;
+
+    .line 51
+    .line 52
+    invoke-direct {v1}, Lhdf;-><init>()V
+
+    .line 53
+    .line 54
+    .line 55
+    iput-object v1, v0, Lhat;->x:Lhdf;
+
+    .line 56
+    .line 57
+    :cond_1
+    iget-object v0, v0, Lhat;->x:Lhdf;
+
+    .line 58
+    .line 59
+    invoke-virtual {v0, p1, p2}, Lhdf;->e(IF)V
+
+    .line 60
+    .line 61
+    .line 62
+    return-void
+.end method

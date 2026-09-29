@@ -1,0 +1,50 @@
+.class public final synthetic Laodc;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lchyq;
+
+
+# instance fields
+.field public final synthetic a:Lchxz;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lchxz;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Laodc;->a:Lchxz;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Laodc;->a:Lchxz;
+
+    .line 2
+    .line 3
+    check-cast v0, Ljava/util/concurrent/atomic/AtomicReference;
+
+    .line 4
+    .line 5
+    invoke-static {v0}, Lchze;->b(Ljava/util/concurrent/atomic/AtomicReference;)Z
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="2000.0dp" android:width="2000.0dp" android:viewportWidth="2000.0" android:viewportHeight="2000.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <path android:fillColor="@drawable/$deco_tre_blob_dark__0" android:pathData="M0,0h2000v2000h-2000z" />
+        <path android:fillColor="@drawable/$deco_tre_blob_dark__1" android:pathData="M0,0h2000v2000h-2000z" />
+        <path android:fillColor="@drawable/$deco_tre_blob_dark__2" android:pathData="M0,0h2000v20000h-2000z" />
+        <path android:fillColor="@drawable/$deco_tre_blob_dark__3" android:pathData="M0,0h2000v2000h-2000z" />
+        <path android:fillColor="@drawable/$deco_tre_blob_dark__4" android:pathData="M0,0h2000v2000h-2000z" />
+    </group>
+</vector>

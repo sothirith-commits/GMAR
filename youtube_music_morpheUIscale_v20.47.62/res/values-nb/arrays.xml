@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bitrate_entries">
+        <item>Lav</item>
+        <item>Vanlig</item>
+        <item>Høy</item>
+        <item>Alltid høy</item>
+    </string-array>
+    <string-array name="double_tap_length_entries">
+        <item>5 sekunder</item>
+        <item>10 sekunder</item>
+        <item>15 sekunder</item>
+        <item>20 sekunder</item>
+        <item>30 sekunder</item>
+        <item>60 sekunder</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+.class final Laraa;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field public final a:Larae;
+
+.field public final b:Z
+
+
+# direct methods
+.method public constructor <init>(Larae;Z)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Laraa;->a:Larae;
+
+    .line 5
+    .line 6
+    iput-boolean p2, p0, Laraa;->b:Z
+
+    .line 7
+    .line 8
+    return-void
+.end method

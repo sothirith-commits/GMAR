@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:transitionGroup="true">
+        <FrameLayout android:id="@id/morphe_toolbar_parent" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="?android:actionBarSize" android:elevation="0.0dp">
+            <android.support.v7.widget.Toolbar android:id="@id/morphe_toolbar" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="?android:actionBarSize" app:navigationIcon="@drawable/morphe_settings_toolbar_arrow_left" app:title="@string/morphe_settings_title" />
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/morphe_search_view_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <android.widget.SearchView android:layout_gravity="center_vertical" android:id="@id/morphe_search_view" android:padding="2.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_marginBottom="6.0dp" android:iconifiedByDefault="false" android:layout_marginStart="56.0dp" android:layout_marginEnd="8.0dp" android:searchIcon="@null" android:queryBackground="@null" />
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/morphe_settings_fragments" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</merge>

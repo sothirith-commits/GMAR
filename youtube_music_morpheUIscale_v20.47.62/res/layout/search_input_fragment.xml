@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.youtube.music.ui.appchrome.insets.InsetAdjustingToolbar android:id="@id/search_toolbar" android:background="@color/ytm_color_black" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:paddingStart="0.0dp" android:paddingEnd="0.0dp">
+        <include layout="@layout/search_toolbar_view" />
+    </com.google.android.apps.youtube.music.ui.appchrome.insets.InsetAdjustingToolbar>
+    <include android:id="@id/toolbar_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/toolbar_divider" />
+    <android.support.v7.widget.RecyclerView android:id="@id/suggestion_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

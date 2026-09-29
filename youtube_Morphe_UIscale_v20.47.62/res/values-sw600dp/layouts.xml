@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <layout name="sud_glif_embedded_template">@layout/sud_glif_embedded_template_card</layout>
+    <layout name="sud_glif_template">@layout/sud_glif_template_card</layout>
+</resources>

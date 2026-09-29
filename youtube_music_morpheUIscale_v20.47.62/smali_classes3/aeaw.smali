@@ -1,0 +1,816 @@
+.class final Laeaw;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field public static final a:Lbhoa;
+
+
+# instance fields
+.field public final b:Ladzq;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 23
+
+    .line 1
+    sget-object v0, Ladts;->a:Ladts;
+
+    .line 2
+    .line 3
+    new-instance v1, Ladzr;
+
+    .line 4
+    .line 5
+    const-string v2, "SLATE.png"
+
+    .line 6
+    .line 7
+    const-string v3, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_SLATE.png"
+
+    .line 8
+    .line 9
+    invoke-direct {v1, v2, v3}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-static {v0, v1}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v0
+
+    .line 16
+    sget-object v1, Ladts;->b:Ladts;
+
+    .line 17
+    .line 18
+    new-instance v2, Ladzr;
+
+    .line 19
+    .line 20
+    const-string v3, "NOIR.png"
+
+    .line 21
+    .line 22
+    const-string v4, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_NOIR.png"
+
+    .line 23
+    .line 24
+    invoke-direct {v2, v3, v4}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-static {v1, v2}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-object v1
+
+    .line 31
+    sget-object v2, Ladts;->c:Ladts;
+
+    .line 32
+    .line 33
+    new-instance v3, Ladzr;
+
+    .line 34
+    .line 35
+    const-string v4, "BW_WASHED_OUT.png"
+
+    .line 36
+    .line 37
+    const-string v5, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_BW_WASHED_OUT.png"
+
+    .line 38
+    .line 39
+    invoke-direct {v3, v4, v5}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 40
+    .line 41
+    .line 42
+    invoke-static {v2, v3}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 43
+    .line 44
+    .line 45
+    move-result-object v2
+
+    .line 46
+    sget-object v3, Ladts;->d:Ladts;
+
+    .line 47
+    .line 48
+    new-instance v4, Ladzr;
+
+    .line 49
+    .line 50
+    const-string v5, "BW_MED_CONTRAST.png"
+
+    .line 51
+    .line 52
+    const-string v6, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_BW_MED_CONTRAST.png"
+
+    .line 53
+    .line 54
+    invoke-direct {v4, v5, v6}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 55
+    .line 56
+    .line 57
+    invoke-static {v3, v4}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 58
+    .line 59
+    .line 60
+    move-result-object v3
+
+    .line 61
+    sget-object v4, Ladts;->e:Ladts;
+
+    .line 62
+    .line 63
+    new-instance v5, Ladzr;
+
+    .line 64
+    .line 65
+    const-string v6, "CRUSH.png"
+
+    .line 66
+    .line 67
+    const-string v7, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_CRUSH.png"
+
+    .line 68
+    .line 69
+    invoke-direct {v5, v6, v7}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 70
+    .line 71
+    .line 72
+    invoke-static {v4, v5}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 73
+    .line 74
+    .line 75
+    move-result-object v4
+
+    .line 76
+    sget-object v5, Ladts;->f:Ladts;
+
+    .line 77
+    .line 78
+    new-instance v6, Ladzr;
+
+    .line 79
+    .line 80
+    const-string v7, "VOGUE_2.png"
+
+    .line 81
+    .line 82
+    const-string v8, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_VOGUE_2.png"
+
+    .line 83
+    .line 84
+    invoke-direct {v6, v7, v8}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 85
+    .line 86
+    .line 87
+    invoke-static {v5, v6}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 88
+    .line 89
+    .line 90
+    move-result-object v5
+
+    .line 91
+    sget-object v6, Ladts;->g:Ladts;
+
+    .line 92
+    .line 93
+    new-instance v7, Ladzr;
+
+    .line 94
+    .line 95
+    const-string v8, "RASA.png"
+
+    .line 96
+    .line 97
+    const-string v9, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_RASA.png"
+
+    .line 98
+    .line 99
+    invoke-direct {v7, v8, v9}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 100
+    .line 101
+    .line 102
+    invoke-static {v6, v7}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 103
+    .line 104
+    .line 105
+    move-result-object v6
+
+    .line 106
+    sget-object v7, Ladts;->h:Ladts;
+
+    .line 107
+    .line 108
+    new-instance v8, Ladzr;
+
+    .line 109
+    .line 110
+    const-string v9, "METRO.png"
+
+    .line 111
+    .line 112
+    const-string v10, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_METRO.png"
+
+    .line 113
+    .line 114
+    invoke-direct {v8, v9, v10}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 115
+    .line 116
+    .line 117
+    invoke-static {v7, v8}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 118
+    .line 119
+    .line 120
+    move-result-object v7
+
+    .line 121
+    sget-object v8, Ladts;->i:Ladts;
+
+    .line 122
+    .line 123
+    new-instance v9, Ladzr;
+
+    .line 124
+    .line 125
+    const-string v10, "POP.png"
+
+    .line 126
+    .line 127
+    const-string v11, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_POP.png"
+
+    .line 128
+    .line 129
+    invoke-direct {v9, v10, v11}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 130
+    .line 131
+    .line 132
+    invoke-static {v8, v9}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 133
+    .line 134
+    .line 135
+    move-result-object v8
+
+    .line 136
+    sget-object v9, Ladts;->j:Ladts;
+
+    .line 137
+    .line 138
+    new-instance v10, Ladzr;
+
+    .line 139
+    .line 140
+    const-string v11, "BEAM_2.png"
+
+    .line 141
+    .line 142
+    const-string v12, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_BEAM_2.png"
+
+    .line 143
+    .line 144
+    invoke-direct {v10, v11, v12}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 145
+    .line 146
+    .line 147
+    invoke-static {v9, v10}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 148
+    .line 149
+    .line 150
+    move-result-object v9
+
+    .line 151
+    sget-object v10, Ladts;->k:Ladts;
+
+    .line 152
+    .line 153
+    new-instance v11, Ladzr;
+
+    .line 154
+    .line 155
+    const-string v12, "BLUSH.png"
+
+    .line 156
+    .line 157
+    const-string v13, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_BLUSH.png"
+
+    .line 158
+    .line 159
+    invoke-direct {v11, v12, v13}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 160
+    .line 161
+    .line 162
+    invoke-static {v10, v11}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 163
+    .line 164
+    .line 165
+    move-result-object v10
+
+    .line 166
+    sget-object v11, Ladts;->l:Ladts;
+
+    .line 167
+    .line 168
+    new-instance v12, Ladzr;
+
+    .line 169
+    .line 170
+    const-string v13, "LUX.png"
+
+    .line 171
+    .line 172
+    const-string v14, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_LUX.png"
+
+    .line 173
+    .line 174
+    invoke-direct {v12, v13, v14}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 175
+    .line 176
+    .line 177
+    invoke-static {v11, v12}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 178
+    .line 179
+    .line 180
+    move-result-object v11
+
+    .line 181
+    sget-object v12, Ladts;->m:Ladts;
+
+    .line 182
+    .line 183
+    new-instance v13, Ladzr;
+
+    .line 184
+    .line 185
+    const-string v14, "COPPER.png"
+
+    .line 186
+    .line 187
+    const-string v15, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_COPPER.png"
+
+    .line 188
+    .line 189
+    invoke-direct {v13, v14, v15}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 190
+    .line 191
+    .line 192
+    invoke-static {v12, v13}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 193
+    .line 194
+    .line 195
+    move-result-object v12
+
+    .line 196
+    sget-object v13, Ladts;->n:Ladts;
+
+    .line 197
+    .line 198
+    new-instance v14, Ladzr;
+
+    .line 199
+    .line 200
+    const-string v15, "WEST.png"
+
+    .line 201
+    .line 202
+    move-object/from16 v16, v0
+
+    .line 203
+    .line 204
+    const-string v0, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_WEST.png"
+
+    .line 205
+    .line 206
+    invoke-direct {v14, v15, v0}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 207
+    .line 208
+    .line 209
+    invoke-static {v13, v14}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 210
+    .line 211
+    .line 212
+    move-result-object v0
+
+    .line 213
+    sget-object v13, Ladts;->o:Ladts;
+
+    .line 214
+    .line 215
+    new-instance v14, Ladzr;
+
+    .line 216
+    .line 217
+    const-string v15, "RETRO.png"
+
+    .line 218
+    .line 219
+    move-object/from16 v17, v0
+
+    .line 220
+    .line 221
+    const-string v0, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_RETRO.png"
+
+    .line 222
+    .line 223
+    invoke-direct {v14, v15, v0}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 224
+    .line 225
+    .line 226
+    invoke-static {v13, v14}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 227
+    .line 228
+    .line 229
+    move-result-object v0
+
+    .line 230
+    sget-object v13, Ladts;->p:Ladts;
+
+    .line 231
+    .line 232
+    new-instance v14, Ladzr;
+
+    .line 233
+    .line 234
+    const-string v15, "CHROMA_2.png"
+
+    .line 235
+    .line 236
+    move-object/from16 v18, v0
+
+    .line 237
+    .line 238
+    const-string v0, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_CHROMA_2.png"
+
+    .line 239
+    .line 240
+    invoke-direct {v14, v15, v0}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 241
+    .line 242
+    .line 243
+    invoke-static {v13, v14}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 244
+    .line 245
+    .line 246
+    move-result-object v0
+
+    .line 247
+    sget-object v13, Ladts;->q:Ladts;
+
+    .line 248
+    .line 249
+    new-instance v14, Ladzr;
+
+    .line 250
+    .line 251
+    const-string v15, "PALMA.png"
+
+    .line 252
+    .line 253
+    move-object/from16 v19, v0
+
+    .line 254
+    .line 255
+    const-string v0, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_PALMA.png"
+
+    .line 256
+    .line 257
+    invoke-direct {v14, v15, v0}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 258
+    .line 259
+    .line 260
+    invoke-static {v13, v14}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 261
+    .line 262
+    .line 263
+    move-result-object v0
+
+    .line 264
+    sget-object v13, Ladts;->r:Ladts;
+
+    .line 265
+    .line 266
+    new-instance v14, Ladzr;
+
+    .line 267
+    .line 268
+    const-string v15, "VIBE.png"
+
+    .line 269
+    .line 270
+    move-object/from16 v20, v0
+
+    .line 271
+    .line 272
+    const-string v0, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_VIBE.png"
+
+    .line 273
+    .line 274
+    invoke-direct {v14, v15, v0}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 275
+    .line 276
+    .line 277
+    invoke-static {v13, v14}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 278
+    .line 279
+    .line 280
+    move-result-object v0
+
+    .line 281
+    sget-object v13, Ladts;->s:Ladts;
+
+    .line 282
+    .line 283
+    new-instance v14, Ladzr;
+
+    .line 284
+    .line 285
+    const-string v15, "TERRA.png"
+
+    .line 286
+    .line 287
+    move-object/from16 v21, v0
+
+    .line 288
+    .line 289
+    const-string v0, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_TERRA.png"
+
+    .line 290
+    .line 291
+    invoke-direct {v14, v15, v0}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 292
+    .line 293
+    .line 294
+    invoke-static {v13, v14}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 295
+    .line 296
+    .line 297
+    move-result-object v0
+
+    .line 298
+    sget-object v13, Ladts;->t:Ladts;
+
+    .line 299
+    .line 300
+    new-instance v14, Ladzr;
+
+    .line 301
+    .line 302
+    const-string v15, "VIVID.png"
+
+    .line 303
+    .line 304
+    move-object/from16 v22, v0
+
+    .line 305
+    .line 306
+    const-string v0, "https://www.gstatic.com/youtube/kazoo/server/assets/lut_VIVID.png"
+
+    .line 307
+    .line 308
+    invoke-direct {v14, v15, v0}, Ladzr;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 309
+    .line 310
+    .line 311
+    invoke-static {v13, v14}, Laeau;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
+
+    .line 312
+    .line 313
+    .line 314
+    move-result-object v0
+
+    .line 315
+    const/16 v13, 0x14
+
+    .line 316
+    .line 317
+    new-array v13, v13, [Ljava/util/Map$Entry;
+
+    .line 318
+    .line 319
+    const/4 v14, 0x0
+
+    .line 320
+    aput-object v16, v13, v14
+
+    .line 321
+    .line 322
+    const/4 v14, 0x1
+
+    .line 323
+    aput-object v1, v13, v14
+
+    .line 324
+    .line 325
+    const/4 v1, 0x2
+
+    .line 326
+    aput-object v2, v13, v1
+
+    .line 327
+    .line 328
+    const/4 v1, 0x3
+
+    .line 329
+    aput-object v3, v13, v1
+
+    .line 330
+    .line 331
+    const/4 v1, 0x4
+
+    .line 332
+    aput-object v4, v13, v1
+
+    .line 333
+    .line 334
+    const/4 v1, 0x5
+
+    .line 335
+    aput-object v5, v13, v1
+
+    .line 336
+    .line 337
+    const/4 v1, 0x6
+
+    .line 338
+    aput-object v6, v13, v1
+
+    .line 339
+    .line 340
+    const/4 v1, 0x7
+
+    .line 341
+    aput-object v7, v13, v1
+
+    .line 342
+    .line 343
+    const/16 v1, 0x8
+
+    .line 344
+    .line 345
+    aput-object v8, v13, v1
+
+    .line 346
+    .line 347
+    const/16 v1, 0x9
+
+    .line 348
+    .line 349
+    aput-object v9, v13, v1
+
+    .line 350
+    .line 351
+    const/16 v1, 0xa
+
+    .line 352
+    .line 353
+    aput-object v10, v13, v1
+
+    .line 354
+    .line 355
+    const/16 v1, 0xb
+
+    .line 356
+    .line 357
+    aput-object v11, v13, v1
+
+    .line 358
+    .line 359
+    const/16 v1, 0xc
+
+    .line 360
+    .line 361
+    aput-object v12, v13, v1
+
+    .line 362
+    .line 363
+    const/16 v1, 0xd
+
+    .line 364
+    .line 365
+    aput-object v17, v13, v1
+
+    .line 366
+    .line 367
+    const/16 v1, 0xe
+
+    .line 368
+    .line 369
+    aput-object v18, v13, v1
+
+    .line 370
+    .line 371
+    const/16 v1, 0xf
+
+    .line 372
+    .line 373
+    aput-object v19, v13, v1
+
+    .line 374
+    .line 375
+    const/16 v1, 0x10
+
+    .line 376
+    .line 377
+    aput-object v20, v13, v1
+
+    .line 378
+    .line 379
+    const/16 v1, 0x11
+
+    .line 380
+    .line 381
+    aput-object v21, v13, v1
+
+    .line 382
+    .line 383
+    const/16 v1, 0x12
+
+    .line 384
+    .line 385
+    aput-object v22, v13, v1
+
+    .line 386
+    .line 387
+    const/16 v1, 0x13
+
+    .line 388
+    .line 389
+    aput-object v0, v13, v1
+
+    .line 390
+    .line 391
+    invoke-static {v13}, Lbhoa;->s([Ljava/util/Map$Entry;)Lbhoa;
+
+    .line 392
+    .line 393
+    .line 394
+    move-result-object v0
+
+    .line 395
+    sput-object v0, Laeaw;->a:Lbhoa;
+
+    .line 396
+    .line 397
+    return-void
+.end method
+
+.method public constructor <init>(Ladzq;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Laeaw;->b:Ladzq;
+
+    .line 5
+    .line 6
+    return-void
+.end method

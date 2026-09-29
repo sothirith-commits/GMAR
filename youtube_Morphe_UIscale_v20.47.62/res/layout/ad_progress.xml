@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14.0sp" android:textColor="#cdffffff" android:layout_gravity="center_vertical" android:id="@id/ad_badge" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14.0sp" android:textColor="#cdffffff" android:layout_gravity="center_vertical" android:id="@id/ad_choices_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14.0sp" android:textColor="#cdffffff" android:layout_gravity="center_vertical" android:id="@id/ad_pod_index" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14.0sp" android:textColor="#cdffffff" android:layout_gravity="center_vertical" android:id="@id/ad_duration" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

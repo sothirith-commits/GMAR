@@ -1,0 +1,45 @@
+.class public final synthetic Lrfq;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lchza;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 1
+    check-cast p1, Laywz;
+
+    .line 2
+    .line 3
+    iget p1, p1, Laywz;->j:I
+
+    .line 4
+    .line 5
+    invoke-static {p1}, Laywy;->b(I)Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result p1
+
+    .line 9
+    return p1
+.end method

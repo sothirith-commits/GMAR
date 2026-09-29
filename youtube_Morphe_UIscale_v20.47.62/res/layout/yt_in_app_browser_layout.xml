@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:fitsSystemWindows="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/browser_loading_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout android:id="@id/browser_loading_layout" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/browser_app_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@id/webview_container" android:paddingTop="56.0dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/header_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+    </com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout>
+</FrameLayout>

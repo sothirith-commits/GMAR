@@ -1,0 +1,306 @@
+.class public final Lbwcs;
+.super Lbknt;
+.source "PG"
+
+# interfaces
+.implements Lbkpi;
+
+
+# static fields
+.field public static final a:Lbwcs;
+
+.field private static volatile d:Lbkpn;
+
+
+# instance fields
+.field public b:Lbkok;
+
+.field public c:Lbkok;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lbwcs;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lbwcs;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lbwcs;->a:Lbwcs;
+
+    .line 7
+    .line 8
+    const-class v1, Lbwcs;
+
+    .line 9
+    .line 10
+    invoke-static {v1, v0}, Lbknt;->registerDefaultInstance(Ljava/lang/Class;Lbknt;)V
+
+    .line 11
+    .line 12
+    .line 13
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Lbknt;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-static {}, Lbknt;->emptyProtobufList()Lbkok;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object v0
+
+    .line 8
+    iput-object v0, p0, Lbwcs;->b:Lbkok;
+
+    .line 9
+    .line 10
+    invoke-static {}, Lbknt;->emptyProtobufList()Lbkok;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    iput-object v0, p0, Lbwcs;->c:Lbkok;
+
+    .line 15
+    .line 16
+    invoke-static {}, Lbwcs;->emptyIntList()Lbkob;
+
+    .line 17
+    .line 18
+    .line 19
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final dynamicMethod(Lbkns;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    invoke-virtual {p1}, Lbkns;->ordinal()I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    const/4 p2, 0x1
+
+    .line 6
+    if-eqz p1, :cond_7
+
+    .line 7
+    .line 8
+    const/4 p3, 0x2
+
+    .line 9
+    if-eq p1, p3, :cond_6
+
+    .line 10
+    .line 11
+    const/4 p2, 0x3
+
+    .line 12
+    if-eq p1, p2, :cond_5
+
+    .line 13
+    .line 14
+    const/4 p2, 0x4
+
+    .line 15
+    if-eq p1, p2, :cond_4
+
+    .line 16
+    .line 17
+    const/4 p2, 0x5
+
+    .line 18
+    if-eq p1, p2, :cond_3
+
+    .line 19
+    .line 20
+    const/4 p2, 0x6
+
+    .line 21
+    if-ne p1, p2, :cond_2
+
+    .line 22
+    .line 23
+    sget-object p1, Lbwcs;->d:Lbkpn;
+
+    .line 24
+    .line 25
+    if-nez p1, :cond_1
+
+    .line 26
+    .line 27
+    const-class p2, Lbwcs;
+
+    .line 28
+    .line 29
+    monitor-enter p2
+
+    .line 30
+    :try_start_0
+    sget-object p1, Lbwcs;->d:Lbkpn;
+
+    .line 31
+    .line 32
+    if-nez p1, :cond_0
+
+    .line 33
+    .line 34
+    new-instance p1, Lbknn;
+
+    .line 35
+    .line 36
+    sget-object p3, Lbwcs;->a:Lbwcs;
+
+    .line 37
+    .line 38
+    invoke-direct {p1, p3}, Lbknn;-><init>(Lbknt;)V
+
+    .line 39
+    .line 40
+    .line 41
+    sput-object p1, Lbwcs;->d:Lbkpn;
+
+    .line 42
+    .line 43
+    :cond_0
+    monitor-exit p2
+
+    .line 44
+    return-object p1
+
+    .line 45
+    :catchall_0
+    move-exception p1
+
+    .line 46
+    monitor-exit p2
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 47
+    throw p1
+
+    .line 48
+    :cond_1
+    return-object p1
+
+    .line 49
+    :cond_2
+    const/4 p1, 0x0
+
+    .line 50
+    throw p1
+
+    .line 51
+    :cond_3
+    sget-object p1, Lbwcs;->a:Lbwcs;
+
+    .line 52
+    .line 53
+    return-object p1
+
+    .line 54
+    :cond_4
+    new-instance p1, Lbwcr;
+
+    .line 55
+    .line 56
+    invoke-direct {p1}, Lbwcr;-><init>()V
+
+    .line 57
+    .line 58
+    .line 59
+    return-object p1
+
+    .line 60
+    :cond_5
+    new-instance p1, Lbwcs;
+
+    .line 61
+    .line 62
+    invoke-direct {p1}, Lbwcs;-><init>()V
+
+    .line 63
+    .line 64
+    .line 65
+    return-object p1
+
+    .line 66
+    :cond_6
+    const-string p1, "\u0001\u0002\u0000\u0000\t\u000c\u0002\u0000\u0002\u0000\t\u001a\u000c\u001a"
+
+    .line 67
+    .line 68
+    new-array p3, p3, [Ljava/lang/Object;
+
+    .line 69
+    .line 70
+    const-string v0, "c"
+
+    .line 71
+    .line 72
+    const/4 v1, 0x0
+
+    .line 73
+    aput-object v0, p3, v1
+
+    .line 74
+    .line 75
+    const-string v0, "b"
+
+    .line 76
+    .line 77
+    aput-object v0, p3, p2
+
+    .line 78
+    .line 79
+    sget-object p2, Lbwcs;->a:Lbwcs;
+
+    .line 80
+    .line 81
+    invoke-static {p2, p1, p3}, Lbwcs;->newMessageInfo(Lcom/google/protobuf/MessageLite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 82
+    .line 83
+    .line 84
+    move-result-object p1
+
+    .line 85
+    return-object p1
+
+    .line 86
+    :cond_7
+    invoke-static {p2}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
+
+    .line 87
+    .line 88
+    .line 89
+    move-result-object p1
+
+    .line 90
+    return-object p1
+.end method
