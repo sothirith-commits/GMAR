@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.app.FragmentContainerView android:name="com.google.android.apps.gmm.kits.lightbox.Lightbox2" android:id="@id/lightbox2" android:layout_width="match_parent" android:layout_height="match_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,8 +1,0 @@
-.class public interface abstract Ladwm;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract a(Lcmek;Ladwn;)V
-.end method

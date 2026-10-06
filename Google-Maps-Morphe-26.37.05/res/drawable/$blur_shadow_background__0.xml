@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<gradient android:angle="0.0" android:type="linear" android:fillAlpha="0.8" android:startX="257.25" android:startY="18.0" android:endX="85.75" android:endY="18.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:color="@color/og_consent_gradient_color_1" android:offset="0.0" />
-    <item android:color="@color/og_consent_gradient_color_2" android:offset="0.3" />
-    <item android:color="@color/og_consent_gradient_color_3" android:offset="0.546" />
-    <item android:color="@color/og_consent_gradient_color_4" android:offset="0.825" />
-    <item android:color="@color/og_consent_gradient_color_5" android:offset="1.0" />
-</gradient>

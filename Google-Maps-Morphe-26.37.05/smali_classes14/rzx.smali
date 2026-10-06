@@ -1,8 +1,0 @@
-.class public interface abstract Lrzx;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract a(Lrfs;)V
-.end method

@@ -1,8 +1,0 @@
-.class public interface abstract Lwah;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract a(Lcigp;Lbvtl;)Lwai;
-.end method

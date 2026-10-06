@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/min_mode_main" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.libraries.pixel.display.burnin.BurnInLayout android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no">
-        <FrameLayout android:id="@id/main_container" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true" android:importantForAccessibility="noHideDescendants" />
-        <android.support.v4.app.FragmentContainerView android:id="@id/nav_container" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
-        <View android:id="@id/gesture_detector_view" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/ACCESSIBILITY_MAP" />
-    </com.google.android.libraries.pixel.display.burnin.BurnInLayout>
-</androidx.coordinatorlayout.widget.CoordinatorLayout>

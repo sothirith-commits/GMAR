@@ -1,8 +1,0 @@
-.class public interface abstract Lipn;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract sN(Ljava/lang/CharSequence;)Landroidx/preference/Preference;
-.end method

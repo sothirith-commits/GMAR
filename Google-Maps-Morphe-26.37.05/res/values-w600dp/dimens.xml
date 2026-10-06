@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="og_consent_modal_dialog_horizontal_inset">0.0dp</dimen>
-    <dimen name="og_consent_modal_dialog_vertical_inset">8.0dp</dimen>
-    <dimen name="og_consent_native_content_width">@dimen/og_consent_max_content_width</dimen>
-    <dimen name="sud_glif_expressive_footer_bar_padding_end">24.0dp</dimen>
-    <dimen name="sud_glif_expressive_footer_bar_padding_start">4.0dp</dimen>
-</resources>

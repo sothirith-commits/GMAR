@@ -1,8 +1,0 @@
-.class public interface abstract Lwdx;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract b(Z)V
-.end method
