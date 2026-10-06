@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Preference android:persistent="false" android:layout="@layout/store_visit_data_sharing_paused_banner" android:selectable="false" android:key="banner_container" />
-    <Preference android:persistent="false" android:layout="@layout/store_visit_data_sharing_email_legend" android:title="@string/STORE_VISIT_DATA_SHARING_SETTINGS_EMAIL_DISCLAIMER" android:selectable="false" android:key="email_legend" />
-    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:layout="@layout/store_visit_data_sharing_switch_preference" android:key="store_visit_data_sharing" android:summary="@string/STORE_VISIT_DATA_SHARING_SETTINGS_SUMMARY_V3" android:defaultValue="false" />
-</PreferenceScreen>

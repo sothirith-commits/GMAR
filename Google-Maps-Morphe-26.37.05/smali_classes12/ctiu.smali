@@ -1,8 +1,0 @@
-.class public interface abstract Lctiu;
-.super Ljava/lang/Object;
-.source "PG"
-
-
-# virtual methods
-.method public abstract h(Ljava/lang/Comparable;)Z
-.end method

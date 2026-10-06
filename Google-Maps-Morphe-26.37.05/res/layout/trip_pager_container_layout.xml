@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.libraries.geo.navcore.turncard.views.TurnCardButtonSheetView android:id="@id/button_sheet_controls_container" android:layout_width="match_parent" android:layout_height="60.0dp" />
-    <androidx.viewpager2.widget.ViewPager2 android:id="@id/trip_view_pager" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
-</merge>

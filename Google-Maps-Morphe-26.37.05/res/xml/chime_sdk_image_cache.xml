@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<paths>
-    <cache-path name="glide_image_cache" path="image_manager_disk_cache/" />
-    <cache-path name="glide_cache" path="glide_cache" />
-</paths>

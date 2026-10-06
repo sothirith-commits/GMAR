@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:persistent="false" android:layout="@layout/preference_category_layout" android:title="@string/TESLA_DATA_SHARING_CONSENT_TITLE" android:key="tesla_consent_category">
-        <com.google.android.apps.gmm.settings.locationandprivacy.TeslaConsentContainerPreference android:persistent="false" android:selectable="false" android:key="tesla_consent_container" />
-    </PreferenceCategory>
-</PreferenceScreen>

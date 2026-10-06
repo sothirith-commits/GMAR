@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="100.0dp" android:width="100.0dp" android:viewportWidth="100.0" android:viewportHeight="100.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="@drawable/$aerial_time_slider_background_gradient_vertical__0" android:pathData="M0,0 H100 V100 H0 Z" />
-</vector>

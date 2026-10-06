@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
-        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0dp" android:textColor="?geoColorOnSurface" android:layout_gravity="start" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    </FrameLayout>
-    <RadioGroup android:orientation="horizontal" android:id="@id/segmented_button_group" android:layout_width="match_parent" android:layout_height="wrap_content" />
-    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?geoColorOnSurfaceVariant" android:id="@id/summary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" />
-</LinearLayout>
