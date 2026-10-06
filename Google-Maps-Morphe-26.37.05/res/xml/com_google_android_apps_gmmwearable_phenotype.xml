@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.google.android.apps.gmmwearable</configuration-package>
+        <log-sources>
+            <log-source>CLIENT_LOGGING_PROD</log-source>
+            <log-source>CW_COUNTERS</log-source>
+            <log-source>GMM_UE3</log-source>
+            <log-source>GMM_WEARABLE_CLEARCUT_COUNTERS</log-source>
+            <log-source>GMM_WEARABLE_PRIMES</log-source>
+        </log-sources>
+        <auto-subpackage>true</auto-subpackage>
+    </phenotype-registration>
+</phenotype-registrations>

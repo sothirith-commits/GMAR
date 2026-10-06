@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|top" android:orientation="horizontal" android:id="@id/leading_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/og_consent_default_space" android:layout_marginBottom="@dimen/og_consent_default_space" android:baselineAligned="false" />
+    <View android:id="@id/spacer_leading_center" android:layout_width="@dimen/og_consent_default_space" android:layout_height="1.0dp" />
+    <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:id="@id/center_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/og_consent_default_space" android:layout_marginBottom="@dimen/og_consent_default_space" android:baselineAligned="false" />
+    <View android:id="@id/spacer_center_trailing" android:layout_width="@dimen/og_consent_default_space" android:layout_height="1.0dp" />
+    <LinearLayout android:gravity="end|top" android:orientation="horizontal" android:id="@id/trailing_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/og_consent_default_space" android:layout_marginBottom="@dimen/og_consent_default_space" android:baselineAligned="false" />
+</merge>

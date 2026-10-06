@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="one">%1$d iš %2$d</item>
+        <item quantity="few">%1$d iš %2$d</item>
+        <item quantity="many">%1$d iš %2$d</item>
+        <item quantity="other">%1$d iš %2$d</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">Turite %d aktyvų metro bilietą</item>
+        <item quantity="few">Turite %d aktyvius metro bilietus</item>
+        <item quantity="many">Turite %d aktyvaus metro bilieto</item>
+        <item quantity="other">Turite %d aktyvių metro bilietų</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">Turite %d aktyvų šios kelionės bilietą</item>
+        <item quantity="few">Turite %d aktyvius šios kelionės bilietus</item>
+        <item quantity="many">Turite %d aktyvaus šios kelionės bilieto</item>
+        <item quantity="other">Turite %d aktyvų šios kelionės bilietų</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">Dar %d parinktis</item>
+        <item quantity="few">Dar %d parinkčių</item>
+        <item quantity="many">Dar %d parinkčių</item>
+        <item quantity="other">Dar %d parinktys</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="one">Pranešė %1$d žmogus</item>
+        <item quantity="few">Pranešė %1$d žmonės</item>
+        <item quantity="many">Pranešė %1$d žmogaus</item>
+        <item quantity="other">Pranešė %1$d žmonių</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">Pranešė %1$d asmuo</item>
+        <item quantity="few">Pranešė %1$d asmenys</item>
+        <item quantity="many">Pranešė %1$d asmens</item>
+        <item quantity="other">Pranešė %1$d asmenų</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="few">+%1$d</item>
+        <item quantity="many">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d įspėjimas</item>
+        <item quantity="few">%d įspėjimai</item>
+        <item quantity="many">%d įspėjimo</item>
+        <item quantity="other">%d įspėjimų</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d vietovė</item>
+        <item quantity="few">%1$d vietovės</item>
+        <item quantity="many">%1$d vietovių</item>
+        <item quantity="other">%1$d vietovės</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">Peržiūrėti atsakymus (%,d)</item>
+        <item quantity="few">Peržiūrėti atsakymus (%,d)</item>
+        <item quantity="many">Peržiūrėti atsakymus (%,d)</item>
+        <item quantity="other">Peržiūrėti atsakymus (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">Čia naršykite %d vietas</item>
+        <item quantity="few">Čia naršykite %d vietas</item>
+        <item quantity="many">Čia naršykite %d vietas</item>
+        <item quantity="other">Čia naršykite %d vietas</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">Yra %d dviratis</item>
+        <item quantity="few">Yra %d dviračiai</item>
+        <item quantity="many">Yra %d dviračio</item>
+        <item quantity="other">Yra %d dviračių</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">%s dviratis stotyje</item>
+        <item quantity="few">%s dviračiai stotyje</item>
+        <item quantity="many">%s dviračio stotyje</item>
+        <item quantity="other">%s dviračių stotyje</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d dviratis</item>
+        <item quantity="few">%d dviračiai</item>
+        <item quantity="many">%d dviračio</item>
+        <item quantity="other">%d dviračių</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">Yra %d stovas</item>
+        <item quantity="few">Yra %d stovai</item>
+        <item quantity="many">Yra %d stovo</item>
+        <item quantity="other">Yra %d stovų</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d stovas</item>
+        <item quantity="few">%d stovai</item>
+        <item quantity="many">%d stovo</item>
+        <item quantity="other">%d stovų</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">Rekomenduoja %1$d žmogus</item>
+        <item quantity="few">Rekomenduoja %1$d žmonės</item>
+        <item quantity="many">Rekomenduoja %1$d žmogaus</item>
+        <item quantity="other">Rekomenduoja %1$d žmonių</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Greitesnis maršrutas, %1$s stotel. mažiau</item>
+        <item quantity="few">Greitesnis maršrutas, %1$s stotel. mažiau</item>
+        <item quantity="many">Greitesnis maršrutas, %1$s stotel. mažiau</item>
+        <item quantity="other">Greitesnis maršrutas, %1$s stotel. mažiau</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Greitesnis maršrutas, %1$s stotel. daugiau</item>
+        <item quantity="few">Greitesnis maršrutas, %1$s stotel. daugiau</item>
+        <item quantity="many">Greitesnis maršrutas, %1$s stotel. daugiau</item>
+        <item quantity="other">Greitesnis maršrutas, %1$s stotel. daugiau</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Yra greitesnis maršrutas, %1$s stotelė pakeista</item>
+        <item quantity="few">Yra greitesnis maršrutas, %1$s stotelės pakeistos</item>
+        <item quantity="many">Yra greitesnis maršrutas, %1$s stotelių pakeista</item>
+        <item quantity="other">Yra greitesnis maršrutas, %1$s stotelės pakeistos</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Reikalingas naujas maršrutas, %1$s stotel. mažiau</item>
+        <item quantity="few">Reikalingas naujas maršrutas, %1$s stotel. mažiau</item>
+        <item quantity="many">Reikalingas naujas maršrutas, %1$s stotel. mažiau</item>
+        <item quantity="other">Reikalingas naujas maršrutas, %1$s stotel. mažiau</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Reikalingas naujas maršrutas, %1$s stotel. daugiau</item>
+        <item quantity="few">Reikalingas naujas maršrutas, %1$s stotel. daugiau</item>
+        <item quantity="many">Reikalingas naujas maršrutas, %1$s stotel. daugiau</item>
+        <item quantity="other">Reikalingas naujas maršrutas, %1$s stotel. daugiau</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Reikalingas naujas maršrutas, %1$s stotelė pakeista</item>
+        <item quantity="few">Reikalingas naujas maršrutas, %1$s stotelės pakeistos</item>
+        <item quantity="many">Reikalingas naujas maršrutas, %1$s stotelių pakeista</item>
+        <item quantity="other">Reikalingas naujas maršrutas, %1$s stotelės pakeistos</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Naujas maršrutas, %1$s stotel. mažiau</item>
+        <item quantity="few">Naujas maršrutas, %1$s stotel. mažiau</item>
+        <item quantity="many">Naujas maršrutas, %1$s stotel. mažiau</item>
+        <item quantity="other">Naujas maršrutas, %1$s stotel. mažiau</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Naujas maršrutas, %1$s stotel. mažiau</item>
+        <item quantity="few">Naujas maršrutas, %1$s stotel. mažiau</item>
+        <item quantity="many">Naujas maršrutas, %1$s stotel. mažiau</item>
+        <item quantity="other">Naujas maršrutas, %1$s stotel. mažiau</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotele mažiau. %2$s greičiau, įskaitant važiavimo ir įkrovimo laiką.</item>
+        <item quantity="few">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotelėmis mažiau. %2$s greičiau, įskaitant važiavimo ir įkrovimo laiką.</item>
+        <item quantity="many">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotelės mažiau. %2$s greičiau, įskaitant važiavimo ir įkrovimo laiką.</item>
+        <item quantity="other">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotelių mažiau. %2$s greičiau, įskaitant važiavimo ir įkrovimo laiką.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotele daugiau. %2$s greičiau, įskaitant važiavimo ir įkrovimo laiką.</item>
+        <item quantity="few">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotelėmis daugiau. %2$s greičiau, įskaitant važiavimo ir įkrovimo laiką.</item>
+        <item quantity="many">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotelės daugiau. %2$s greičiau, įskaitant važiavimo ir įkrovimo laiką.</item>
+        <item quantity="other">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotelių daugiau. %2$s greičiau, įskaitant važiavimo ir įkrovimo laiką.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Turėsite rinktis naują maršrutą. Reikia %1$s įkrovimo stotele mažiau. Atvyksite %2$s.</item>
+        <item quantity="few">Turėsite rinktis naują maršrutą. Reikia %1$s įkrovimo stotelėmis mažiau. Atvyksite %2$s.</item>
+        <item quantity="many">Turėsite rinktis naują maršrutą. Reikia %1$s įkrovimo stotelės mažiau. Atvyksite %2$s.</item>
+        <item quantity="other">Turėsite rinktis naują maršrutą. Reikia %1$s įkrovimo stotelių mažiau. Atvyksite %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Turėsite rinktis naują maršrutą. Reikia %1$s įkrovimo stotele daugiau. Atvyksite %2$s.</item>
+        <item quantity="few">Turėsite rinktis naują maršrutą. Reikia %1$s įkrovimo stotelėmis daugiau. Atvyksite %2$s.</item>
+        <item quantity="many">Turėsite rinktis naują maršrutą. Reikia %1$s įkrovimo stotelės daugiau. Atvyksite %2$s.</item>
+        <item quantity="other">Turėsite rinktis naują maršrutą. Reikia %1$s įkrovimo stotelių daugiau. Atvyksite %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Turėsite rinktis naują maršrutą. Pakeista %1$s įkrovimo stotelė. Atvyksite %2$s.</item>
+        <item quantity="few">Turėsite rinktis naują maršrutą. Pakeistos %1$s įkrovimo stotelės. Atvyksite %2$s.</item>
+        <item quantity="many">Turėsite rinktis naują maršrutą. Pakeista %1$s įkrovimo stotelės. Atvyksite %2$s.</item>
+        <item quantity="other">Turėsite rinktis naują maršrutą. Pakeista %1$s įkrovimo stotelių. Atvyksite %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotele mažiau. Panašus atvykimo laikas.</item>
+        <item quantity="few">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotelėmis mažiau. Panašus atvykimo laikas.</item>
+        <item quantity="many">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotelės mažiau. Panašus atvykimo laikas.</item>
+        <item quantity="other">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotelių mažiau. Panašus atvykimo laikas.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotele mažiau. %2$s lėčiau, įskaitant važiavimo ir įkrovimo laiką.</item>
+        <item quantity="few">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotelėmis mažiau. %2$s lėčiau, įskaitant važiavimo ir įkrovimo laiką.</item>
+        <item quantity="many">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotelės mažiau. %2$s lėčiau, įskaitant važiavimo ir įkrovimo laiką.</item>
+        <item quantity="other">Galimas naujas maršrutas, kuriame %1$s įkrovimo stotelių mažiau. %2$s lėčiau, įskaitant važiavimo ir įkrovimo laiką.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">Naudota prieš %1$d dieną</item>
+        <item quantity="few">Naudota prieš %1$d dienas</item>
+        <item quantity="many">Naudota prieš %1$d dienos</item>
+        <item quantity="other">Naudota prieš %1$d dienų</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">Naudota prieš %1$d savaitę</item>
+        <item quantity="few">Naudota prieš %1$d savaites</item>
+        <item quantity="many">Naudota prieš %1$d savaitės</item>
+        <item quantity="other">Naudota prieš %1$d savaičių</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">Dar %1$d tinklas</item>
+        <item quantity="few">Dar %1$d tinklai</item>
+        <item quantity="many">Dar %1$d tinklo</item>
+        <item quantity="other">Dar %1$d tinklų</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">Pasirinkta: %1$d</item>
+        <item quantity="few">Pasirinkta: %1$d</item>
+        <item quantity="many">Pasirinkta: %1$d</item>
+        <item quantity="other">Pasirinkta: %1$d</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s įkrovimo stotelė</item>
+        <item quantity="few">%1$s įkrovimo stotelės</item>
+        <item quantity="many">%1$s įkrovimo stotelės</item>
+        <item quantity="other">%1$s įkrovimo stotelių</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d sustojimas</item>
+        <item quantity="few">%1$d sustojimai</item>
+        <item quantity="many">%1$d sustojimo</item>
+        <item quantity="other">%1$d sustojimų</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d pasirinktas</item>
+        <item quantity="few">%1$d pasirinkti</item>
+        <item quantity="many">%1$d pasirinkta</item>
+        <item quantity="other">%1$d pasirinkta</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="few">%1$s +%2$d</item>
+        <item quantity="many">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">Dar %1$d</item>
+        <item quantity="few">Dar %1$d</item>
+        <item quantity="many">Dar %1$d</item>
+        <item quantity="other">Dar %1$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">Dar %1$d</item>
+        <item quantity="few">Dar %1$d</item>
+        <item quantity="many">Dar %1$d</item>
+        <item quantity="other">Dar %1$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">Dar %1$d</item>
+        <item quantity="few">Dar %1$d</item>
+        <item quantity="many">Dar %1$d</item>
+        <item quantity="other">Dar %1$d</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="few">+%1$d</item>
+        <item quantity="many">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="one">%1$d val. %2$d min. iki darbo</item>
+        <item quantity="few">%1$d val. %2$d min. iki darbo</item>
+        <item quantity="many">%1$d val. %2$d min. iki darbo</item>
+        <item quantity="other">%1$d val. %2$d min. iki darbo</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="one">%1$d val. %2$d min. iki namų</item>
+        <item quantity="few">%1$d val. %2$d min. iki namų</item>
+        <item quantity="many">%1$d val. %2$d min. iki namų</item>
+        <item quantity="other">%1$d val. %2$d min. iki namų</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="one">%1$d val. %2$d min. iki darbo</item>
+        <item quantity="few">%1$d val. %2$d min. iki darbo</item>
+        <item quantity="many">%1$d val. %2$d min. iki darbo</item>
+        <item quantity="other">%1$d val. %2$d min. iki darbo</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="one">Kelion. laik. %1$d val. %2$d min.</item>
+        <item quantity="few">Kelion. laik. %1$d val. %2$d min.</item>
+        <item quantity="many">Kelion. laik. %1$d val. %2$d min.</item>
+        <item quantity="other">Kelion. laik. %1$d val. %2$d min.</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="one">%1$d val. %2$d min. iki namų</item>
+        <item quantity="few">%1$d val. %2$d min. iki namų</item>
+        <item quantity="many">%1$d val. %2$d min. iki namų</item>
+        <item quantity="other">%1$d val. %2$d min. iki namų</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">%d minute greičiau nei įprastai</item>
+        <item quantity="few">%d minutėmis greičiau nei įprastai</item>
+        <item quantity="many">%d minutės greičiau nei įprastai</item>
+        <item quantity="other">%d minučių greičiau nei įprastai</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">%d minute lėčiau nei įprastai</item>
+        <item quantity="few">%d minutėmis lėčiau nei įprastai</item>
+        <item quantity="many">%d minutės lėčiau nei įprastai</item>
+        <item quantity="other">%d minučių lėčiau nei įprastai</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Žemėlapio orientacija %d laipsnis.</item>
+        <item quantity="few">Žemėlapio orientacija %d laipsniai.</item>
+        <item quantity="many">Žemėlapio orientacija %d laipsnio.</item>
+        <item quantity="other">Žemėlapio orientacija %d laipsnis.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">%d žvaigždutės įstaiga</item>
+        <item quantity="few">%d žvaigždučių įstaiga</item>
+        <item quantity="many">%d žvaigždutės įstaiga</item>
+        <item quantity="other">%d žvaigždučių įstaiga</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">%d lygio vietos gidas</item>
+        <item quantity="few">%d lygio vietos gidas</item>
+        <item quantity="many">%d lygio vietos gidas</item>
+        <item quantity="other">%d lygio vietos gidas</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">Įvertinote %1$s %2$d žvaigždute</item>
+        <item quantity="few">Įvertinote %1$s %2$d žvaigždutėmis</item>
+        <item quantity="many">Įvertinote %1$s %2$d žvaigždutės</item>
+        <item quantity="other">Įvertinote %1$s %2$d žvaigždučių</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">taškas</item>
+        <item quantity="few">taškai</item>
+        <item quantity="many">taško</item>
+        <item quantity="other">taškų</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s diena</item>
+        <item quantity="few">%s dienos</item>
+        <item quantity="many">%s dienos</item>
+        <item quantity="other">%s dienų</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s d.</item>
+        <item quantity="few">%s d.</item>
+        <item quantity="many">%s d.</item>
+        <item quantity="other">%s d.</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s d.</item>
+        <item quantity="few">%s d.</item>
+        <item quantity="many">%s d.</item>
+        <item quantity="other">%s d.</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s diena</item>
+        <item quantity="few">%s dienos</item>
+        <item quantity="many">%s dienos</item>
+        <item quantity="other">%s dienų</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s valanda</item>
+        <item quantity="few">%s valandos</item>
+        <item quantity="many">%s valandos</item>
+        <item quantity="other">%s valandų</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s val.</item>
+        <item quantity="few">%s val.</item>
+        <item quantity="many">%s val.</item>
+        <item quantity="other">%s val.</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s h</item>
+        <item quantity="few">%s h</item>
+        <item quantity="many">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s minutė</item>
+        <item quantity="few">%s minutės</item>
+        <item quantity="many">%s minutės</item>
+        <item quantity="other">%s minučių</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s min.</item>
+        <item quantity="few">%s min.</item>
+        <item quantity="many">%s min.</item>
+        <item quantity="other">%s min.</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s min</item>
+        <item quantity="few">%s min</item>
+        <item quantity="many">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="many">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s sekundė</item>
+        <item quantity="few">%s sekundės</item>
+        <item quantity="many">%s sekundės</item>
+        <item quantity="other">%s sekundžių</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Toliau važiuokite %1$s pėdą</item>
+        <item quantity="few">Toliau važiuokite %1$s pėdų</item>
+        <item quantity="many">Toliau važiuokite %1$s pėdos</item>
+        <item quantity="other">Toliau važiuokite %1$s pėdų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Važiuokite toliau %1$s kilometrą</item>
+        <item quantity="few">Važiuokite toliau %1$s kilometrus</item>
+        <item quantity="many">Važiuokite toliau %1$s kilometro</item>
+        <item quantity="other">Važiuokite toliau %1$s kilometrų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Toliau važiuokite %1$s metrą</item>
+        <item quantity="few">Toliau važiuokite %1$s metrus</item>
+        <item quantity="many">Toliau važiuokite %1$s metro</item>
+        <item quantity="other">Toliau važiuokite %1$s metrų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Važiuokite toliau %1$s mylią</item>
+        <item quantity="few">Važiuokite toliau %1$s mylias</item>
+        <item quantity="many">Važiuokite toliau %1$s mylios</item>
+        <item quantity="other">Važiuokite toliau %1$s mylių</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Toliau važiuokite %1$s jardą</item>
+        <item quantity="few">Toliau važiuokite %1$s jardus</item>
+        <item quantity="many">Toliau važiuokite %1$s jardo</item>
+        <item quantity="other">Toliau važiuokite %1$s jardų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Toliau važiuokite %2$s dar %1$s pėdą</item>
+        <item quantity="few">Toliau važiuokite %2$s dar %1$s pėdas</item>
+        <item quantity="many">Toliau važiuokite %2$s dar %1$s pėdos</item>
+        <item quantity="other">Toliau važiuokite %2$s dar %1$s pėdų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Važiuokite %2$s dar %1$s kilometrą</item>
+        <item quantity="few">Važiuokite %2$s dar %1$s kilometrus</item>
+        <item quantity="many">Važiuokite %2$s dar %1$s kilometro</item>
+        <item quantity="other">Važiuokite %2$s dar %1$s kilometrų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Toliau važiuokite %2$s dar %1$s metrą</item>
+        <item quantity="few">Toliau važiuokite %2$s dar %1$s metrus</item>
+        <item quantity="many">Toliau važiuokite %2$s dar %1$s metro</item>
+        <item quantity="other">Toliau važiuokite %2$s dar %1$s metrų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Važiuokite %2$s dar %1$s mylią</item>
+        <item quantity="few">Važiuokite %2$s dar %1$s mylias</item>
+        <item quantity="many">Važiuokite %2$s dar %1$s mylios</item>
+        <item quantity="other">Važiuokite %2$s dar %1$s mylių</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Toliau važiuokite %2$s dar %1$s jardą</item>
+        <item quantity="few">Toliau važiuokite %2$s dar %1$s jardus</item>
+        <item quantity="many">Toliau važiuokite %2$s dar %1$s jardo</item>
+        <item quantity="other">Toliau važiuokite %2$s dar %1$s jardų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">Už %1$s pėdos</item>
+        <item quantity="few">Už %1$s pėdų</item>
+        <item quantity="many">Už %1$s pėdos</item>
+        <item quantity="other">Už %1$s pėdų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">Už %1$s kilometro</item>
+        <item quantity="few">Už %1$s kilometrų</item>
+        <item quantity="many">Už %1$s kilometro</item>
+        <item quantity="other">Už %1$s kilometrų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">Už %1$s metro</item>
+        <item quantity="few">Už %1$s metrų</item>
+        <item quantity="many">Už %1$s metro</item>
+        <item quantity="other">Už %1$s metrų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">Už %1$s mylios</item>
+        <item quantity="few">Už %1$s mylių</item>
+        <item quantity="many">Už %1$s mylios</item>
+        <item quantity="other">Už %1$s mylių</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">Už %1$s jardo</item>
+        <item quantity="few">Už %1$s jardų</item>
+        <item quantity="many">Už %1$s jardo</item>
+        <item quantity="other">Už %1$s jardų</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometras per valandą</item>
+        <item quantity="few">%s kilometrai per valandą</item>
+        <item quantity="many">%s kilometro per valandą</item>
+        <item quantity="other">%s kilometrų per valandą</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s mylia per valandą</item>
+        <item quantity="few">%s mylios per valandą</item>
+        <item quantity="many">%s mylios per valandą</item>
+        <item quantity="other">%s mylių per valandą</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Kelionės tikslas – už %1$s pėdos</item>
+        <item quantity="few">Kelionės tikslas – už %1$s pėdų</item>
+        <item quantity="many">Kelionės tikslas – už %1$s pėdos</item>
+        <item quantity="other">Kelionės tikslas – už %1$s pėdų</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Kelionės tikslas – už %1$s kilometro</item>
+        <item quantity="few">Kelionės tikslas – už %1$s kilometrų</item>
+        <item quantity="many">Kelionės tikslas – už %1$s kilometro</item>
+        <item quantity="other">Kelionės tikslas – už %1$s kilometrų</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Kelionės tikslas – už %1$s metro</item>
+        <item quantity="few">Kelionės tikslas – už %1$s metrų</item>
+        <item quantity="many">Kelionės tikslas – už %1$s metro</item>
+        <item quantity="other">Kelionės tikslas – už %1$s metrų</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Kelionės tikslas – už %1$s mylios</item>
+        <item quantity="few">Kelionės tikslas – už %1$s mylių</item>
+        <item quantity="many">Kelionės tikslas – už %1$s mylios</item>
+        <item quantity="other">Kelionės tikslas – už %1$s mylių</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Kelionės tikslas – už %1$s jardo</item>
+        <item quantity="few">Kelionės tikslas – už %1$s jardų</item>
+        <item quantity="many">Kelionės tikslas – už %1$s jardo</item>
+        <item quantity="other">Kelionės tikslas – už %1$s jardų</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d stotelė</item>
+        <item quantity="few">%d stotelės</item>
+        <item quantity="many">%d stotelės</item>
+        <item quantity="other">%d stotelių</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d susisiekimo priemonė</item>
+        <item quantity="few">%1$d susisiekimo priemonės</item>
+        <item quantity="many">%1$d susisiekimo priemonės</item>
+        <item quantity="other">%1$d susisiekimo priemonių</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">Atnaujinta prieš %d dieną</item>
+        <item quantity="few">Atnaujinta prieš %d dienas</item>
+        <item quantity="many">Atnaujinta prieš %d dienos</item>
+        <item quantity="other">Atnaujinta prieš %d dienų</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">Atnaujinta prieš %d mėnesį</item>
+        <item quantity="few">Atnaujinta prieš %d mėnesius</item>
+        <item quantity="many">Atnaujinta prieš %d mėnesio</item>
+        <item quantity="other">Atnaujinta prieš %d mėnesių</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">Atnaujinta prieš %d savaitę</item>
+        <item quantity="few">Atnaujinta prieš %d savaites</item>
+        <item quantity="many">Atnaujinta prieš %d savaitės</item>
+        <item quantity="other">Atnaujinta prieš %d savaičių</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d dviratis</item>
+        <item quantity="few">%d dviračiai</item>
+        <item quantity="many">%d dviračio</item>
+        <item quantity="other">%d dviračių</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">%d dviratis netoliese</item>
+        <item quantity="few">%d dviračiai netoliese</item>
+        <item quantity="many">%d dviračio netoliese</item>
+        <item quantity="other">%d dviračių netoliese</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">Pasirinktas %1$d variantas</item>
+        <item quantity="few">Pasirinkti %1$d variantai</item>
+        <item quantity="many">Pasirinkta %1$d varianto</item>
+        <item quantity="other">Pasirinkta %1$d variantų</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d iš %2$d įkrovimo prievado</item>
+        <item quantity="few">%1$d iš %2$d įkrovimo prievadų</item>
+        <item quantity="many">%1$d iš %2$d įkrovimo prievado</item>
+        <item quantity="other">%1$d iš %2$d įkrovimo prievadų</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d įkrovimo prievadas</item>
+        <item quantity="few">%d įkrovimo prievadai</item>
+        <item quantity="many">%d įkrovimo prievado</item>
+        <item quantity="other">%d įkrovimo prievadai</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">Nepavyko įvertinti %1$d žvaigždute, bandykite dar kartą</item>
+        <item quantity="few">Nepavyko įvertinti %1$d žvaigždutėmis, bandykite dar kartą</item>
+        <item quantity="many">Nepavyko įvertinti %1$d žvaigždutės, bandykite dar kartą</item>
+        <item quantity="other">Nepavyko įvertinti %1$d žvaigždučių, bandykite dar kartą</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">%s aukštas</item>
+        <item quantity="few">%s aukštai</item>
+        <item quantity="many">%s aukšto</item>
+        <item quantity="other">%s aukštų</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">%d papildoma nakvynė</item>
+        <item quantity="few">%d papildomos nakvynės</item>
+        <item quantity="many">%d papildomos nakvynės</item>
+        <item quantity="other">%d papildomų nakvynių</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">Pridėti %d nakvynę</item>
+        <item quantity="few">Pridėti %d nakvynes</item>
+        <item quantity="many">Pridėti %d nakvynės</item>
+        <item quantity="other">Pridėti %d nakvynių</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">Šiame viešbutyje yra laisvų kambarių %1$d nakties viešnagei. %2$s už vidutinę %3$s nakties kainą.</item>
+        <item quantity="few">Šiame viešbutyje yra laisvų kambarių %1$d naktų viešnagei. %2$s už vidutinę %3$s nakties kainą.</item>
+        <item quantity="many">Šiame viešbutyje yra laisvų kambarių %1$d nakties viešnagei. %2$s už vidutinę %3$s nakties kainą.</item>
+        <item quantity="other">Šiame viešbutyje yra laisvų kambarių %1$d naktų viešnagei. %2$s už vidutinę %3$s nakties kainą.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">%1$s viešnagė už vidutinę %2$s nakties kainą</item>
+        <item quantity="few">%1$s viešnagė už vidutinę %2$s nakties kainą</item>
+        <item quantity="many">%1$s viešnagė už vidutinę %2$s nakties kainą.</item>
+        <item quantity="other">%1$s viešnagė už vidutinę %2$s nakties kainą.</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d svečias</item>
+        <item quantity="few">%d svečiai</item>
+        <item quantity="many">%d svečio</item>
+        <item quantity="other">%d svečių</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">ir dar %d.</item>
+        <item quantity="few">ir dar %d.</item>
+        <item quantity="many">ir dar %d.</item>
+        <item quantity="other">ir dar %d.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">Dar %d.</item>
+        <item quantity="few">Dar %d.</item>
+        <item quantity="many">Dar %d.</item>
+        <item quantity="other">Dar %d.</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="one">Prieš %d dieną</item>
+        <item quantity="few">Prieš %d dienas</item>
+        <item quantity="many">Prieš %d dienos</item>
+        <item quantity="other">Prieš %d dienų</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="one">Prieš %d valandą</item>
+        <item quantity="few">Prieš %d valandas</item>
+        <item quantity="many">Prieš %d valandos</item>
+        <item quantity="other">Prieš %d valandų</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="one">Prieš %d minutę</item>
+        <item quantity="few">Prieš %d minutes</item>
+        <item quantity="many">Prieš %d minutės</item>
+        <item quantity="other">Prieš %d minučių</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">Išsaugota sąraše „%1$s“ ir dar %2$d sąraše</item>
+        <item quantity="few">Išsaugota sąraše „%1$s“ ir dar %2$d sąrašuose</item>
+        <item quantity="many">Išsaugota sąraše „%1$s“ ir dar %2$d sąrašo</item>
+        <item quantity="other">Išsaugota sąraše „%1$s“ ir dar %2$d sąrašų</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Išsaugota ir įtraukta į %1$d sąrašą</item>
+        <item quantity="few">Išsaugota ir įtraukta į %1$d sąrašus</item>
+        <item quantity="many">Išsaugota ir įtraukta į %1$d sąrašo</item>
+        <item quantity="other">Išsaugota ir įtraukta į %1$d sąrašų</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="one">Pašalinta iš %d sąrašo</item>
+        <item quantity="few">Pašalinta iš %d sąrašų</item>
+        <item quantity="many">Pašalinta iš %d sąrašo</item>
+        <item quantity="other">Pašalinta iš %d sąrašų</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">Lankėtės prieš %d mėnesį</item>
+        <item quantity="few">Lankėtės prieš %d mėnesius</item>
+        <item quantity="many">Lankėtės prieš %d mėnesio</item>
+        <item quantity="other">Lankėtės prieš %d mėnesių</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">Lankėtės prieš %d savaitę</item>
+        <item quantity="few">Lankėtės prieš %d savaites</item>
+        <item quantity="many">Lankėtės prieš %d savaitės</item>
+        <item quantity="other">Lankėtės prieš %d savaičių</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">Lankėtės prieš %d metus</item>
+        <item quantity="few">Lankėtės prieš %d metus</item>
+        <item quantity="many">Lankėtės prieš %d metų</item>
+        <item quantity="other">Lankėtės prieš %d metų</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d įvykis</item>
+        <item quantity="few">%d įvykiai</item>
+        <item quantity="many">%d įvykio</item>
+        <item quantity="other">%d įvykių</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d elementas</item>
+        <item quantity="few">%d elementai</item>
+        <item quantity="many">%d elemento</item>
+        <item quantity="other">%d elementų</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d vieta</item>
+        <item quantity="few">%d vietos</item>
+        <item quantity="many">%d vietos</item>
+        <item quantity="other">%d vietų</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">Išsaugota %d kartą</item>
+        <item quantity="few">Išsaugota %d kartus</item>
+        <item quantity="many">Išsaugota %d karto</item>
+        <item quantity="other">Išsaugota %d kartų</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d kelionė</item>
+        <item quantity="few">%d kelionės</item>
+        <item quantity="many">%d kelionės</item>
+        <item quantity="other">%d kelionių</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s peržiūra</item>
+        <item quantity="few">%s peržiūros</item>
+        <item quantity="many">%s peržiūros</item>
+        <item quantity="other">%s peržiūrų</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="one">Daugiau nei %d</item>
+        <item quantity="few">Daugiau nei %d</item>
+        <item quantity="many">Daugiau nei %d</item>
+        <item quantity="other">Daugiau nei %d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">Redaguota prieš %d dieną</item>
+        <item quantity="few">Redaguota prieš %d dienas</item>
+        <item quantity="many">Redaguota prieš %d dienos</item>
+        <item quantity="other">Redaguota prieš %d dienų</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">Redaguota prieš %d mėnesį</item>
+        <item quantity="few">Redaguota prieš %d mėnesius</item>
+        <item quantity="many">Redaguota prieš %d mėnesio</item>
+        <item quantity="other">Redaguota prieš %d mėnesių</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">Redaguota prieš %d savaitę</item>
+        <item quantity="few">Redaguota prieš %d savaites</item>
+        <item quantity="many">Redaguota prieš %d savaitės</item>
+        <item quantity="other">Redaguota prieš %d savaičių</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">Redaguota prieš %d metus</item>
+        <item quantity="few">Redaguota prieš %d metus</item>
+        <item quantity="many">Redaguota prieš %d metų</item>
+        <item quantity="other">Redaguota prieš %d metų</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="one">%d sustojimas</item>
+        <item quantity="few">%d sustojimai</item>
+        <item quantity="many">%d sustojimo</item>
+        <item quantity="other">%d sustojimų</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">Turite %d tašką</item>
+        <item quantity="few">Turite %d taškus</item>
+        <item quantity="many">Turite %d taško</item>
+        <item quantity="other">Turite %d taškų</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">Tik %1$d taškas iki %2$d lygio</item>
+        <item quantity="few">Tik %1$d taškai iki %2$d lygio</item>
+        <item quantity="many">Tik %1$d taško iki %2$d lygio</item>
+        <item quantity="other">Tik %1$d taškų iki %2$d lygio</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">%d lygis</item>
+        <item quantity="few">%d lygis</item>
+        <item quantity="many">%d lygis</item>
+        <item quantity="other">%d lygis</item>
+    </plurals>
+    <plurals name="plurals_0x7f120093">
+        <item quantity="one">%d lygio vietos gidas</item>
+        <item quantity="few">%d lygio vietos gidas</item>
+        <item quantity="many">%d lygio vietos gidas</item>
+        <item quantity="other">%d lygio vietos gidas</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">Daugiau kaip %d metai versle</item>
+        <item quantity="few">Daugiau kaip %d metai versle</item>
+        <item quantity="many">Daugiau kaip %d metų versle</item>
+        <item quantity="other">Daugiau kaip %d metų versle</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">Prieš %d dieną</item>
+        <item quantity="few">Prieš %d dienas</item>
+        <item quantity="many">Prieš %d dienos</item>
+        <item quantity="other">Prieš %d dienų</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">Prieš %d valandą</item>
+        <item quantity="few">Prieš %d valandas</item>
+        <item quantity="many">Prieš %d valandos</item>
+        <item quantity="other">Prieš %d valandų</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">Prieš %d min.</item>
+        <item quantity="few">Prieš %d min.</item>
+        <item quantity="many">Prieš %d min.</item>
+        <item quantity="other">Prieš %d min.</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">Čia yra %d vieta</item>
+        <item quantity="few">Čia yra %d vietos</item>
+        <item quantity="many">Čia yra %d vietos</item>
+        <item quantity="other">Čia yra %d vietų</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">Nuotraukos pašalintos</item>
+        <item quantity="few">Nuotraukos pašalintos</item>
+        <item quantity="many">Nuotraukos pašalintos</item>
+        <item quantity="other">Nuotraukos pašalintos</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Padidinti %1$d įrašo %2$d vaizdo įrašą</item>
+        <item quantity="few">Padidinti %1$d įrašo %2$d vaizdo įrašą</item>
+        <item quantity="many">Padidinti %1$d įrašo %2$d vaizdo įrašą</item>
+        <item quantity="other">Padidinti %1$d įrašo %2$d vaizdo įrašą</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d iš %2$,d</item>
+        <item quantity="few">%1$,d iš %2$,d</item>
+        <item quantity="many">%1$,d iš %2$,d</item>
+        <item quantity="other">%1$,d iš %2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Įkeliamas %1$d medijos failas</item>
+        <item quantity="few">Įkeliami %1$d medijos failai</item>
+        <item quantity="many">Įkeliama %1$d medijos failo</item>
+        <item quantity="other">Įkeliama %1$d medijos failų</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Meniu nuotraukų skaičius: %d</item>
+        <item quantity="few">Meniu nuotraukų skaičius: %d</item>
+        <item quantity="many">Meniu nuotraukų skaičius: %d</item>
+        <item quantity="other">Meniu nuotraukų skaičius: %d</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d ataskaita</item>
+        <item quantity="few">%1$d ataskaitos</item>
+        <item quantity="many">%1$d ataskaitos</item>
+        <item quantity="other">%1$d ataskaitų</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą 1 dieną ir %d valandą</item>
+        <item quantity="few">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą 1 dieną ir %d valandas</item>
+        <item quantity="many">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą 1 dieną ir %d valandos</item>
+        <item quantity="other">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą 1 dieną ir %d valandų</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą 1 valandą ir %d min.</item>
+        <item quantity="few">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą 1 valandą ir %d min.</item>
+        <item quantity="many">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą 1 valandą ir %d min.</item>
+        <item quantity="other">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą 1 valandą ir %d min.</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą %d dieną</item>
+        <item quantity="few">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą %d dienas</item>
+        <item quantity="many">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą %d dienos</item>
+        <item quantity="other">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą %d dienų</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą %d valandą</item>
+        <item quantity="few">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą %d valandas</item>
+        <item quantity="many">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą %d valandos</item>
+        <item quantity="other">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą %d valandų</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą %d min.</item>
+        <item quantity="few">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą %d min.</item>
+        <item quantity="many">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą %d min.</item>
+        <item quantity="other">Šią nuorodą turintys žmonės gali matyti jūsų buvimo vietą %d min.</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">Dar %d</item>
+        <item quantity="few">Dar %d</item>
+        <item quantity="many">Dar %d</item>
+        <item quantity="other">Dar %d</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Nutildyti %1$d įrašo %2$d vaizdo įrašą</item>
+        <item quantity="few">Nutildyti %1$d įrašo %2$d vaizdo įrašą</item>
+        <item quantity="many">Nutildyti %1$d įrašo %2$d vaizdo įrašą</item>
+        <item quantity="other">Nutildyti %1$d įrašo %2$d vaizdo įrašą</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d nuotrauka / vaizdo įrašas</item>
+        <item quantity="few">%d nuotraukos / vaizdo įrašai</item>
+        <item quantity="many">%d nuotraukos / vaizdo įrašo</item>
+        <item quantity="other">%d nuotraukų / vaizdo įrašų</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d vaizdo įrašas</item>
+        <item quantity="few">%d vaizdo įrašai</item>
+        <item quantity="many">%d vaizdo įrašo</item>
+        <item quantity="other">%d vaizdo įrašų</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">%1$d tinkintas pseudoportretas iš %2$d</item>
+        <item quantity="few">%1$d tinkintas pseudoportretas iš %2$d</item>
+        <item quantity="many">%1$d tinkintas pseudoportretas iš %2$d</item>
+        <item quantity="other">%1$d tinkintas pseudoportretas iš %2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d naujas atnaujinimas</item>
+        <item quantity="few">%d nauji atnaujinimai</item>
+        <item quantity="many">%d naujo atnaujinimo</item>
+        <item quantity="other">%d naujų atnaujinimų</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">Naujienos apie įmonę, %1$s naujas pranešimas</item>
+        <item quantity="few">Naujienos apie įmonę, %1$s nauji pranešimai</item>
+        <item quantity="many">Naujienos apie įmonę, %1$s naujo pranešimo</item>
+        <item quantity="other">Naujienos apie įmonę, %1$s naujų pranešimų</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d nuotrauka</item>
+        <item quantity="few">%d nuotraukos</item>
+        <item quantity="many">%d nuotraukos</item>
+        <item quantity="other">%d nuotraukų</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d atsiliepimas</item>
+        <item quantity="few">%d atsiliepimai</item>
+        <item quantity="many">%d atsiliepimo</item>
+        <item quantity="other">%d atsiliepimų</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">Miniatiūra Nr. %d</item>
+        <item quantity="few">Miniatiūra Nr. %d</item>
+        <item quantity="many">Miniatiūra Nr. %d</item>
+        <item quantity="other">Miniatiūra Nr. %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d neprisijungus naudojama sritis</item>
+        <item quantity="few">%d neprisijungus naudojamos sritys</item>
+        <item quantity="many">%d neprisijungus naudojamos srities</item>
+        <item quantity="other">%d neprisijungus naudojamų sričių</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">Pagal %1$d ataskaitą</item>
+        <item quantity="few">Pagal %1$d ataskaitas</item>
+        <item quantity="many">Pagal %1$d ataskaitos</item>
+        <item quantity="other">Pagal %1$d ataskaitų</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Pristabdyti %1$d įrašo %2$d vaizdo įrašą</item>
+        <item quantity="few">Pristabdyti %1$d įrašo %2$d vaizdo įrašą</item>
+        <item quantity="many">Pristabdyti %1$d įrašo %2$d vaizdo įrašą</item>
+        <item quantity="other">Pristabdyti %1$d įrašo %2$d vaizdo įrašą</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s sąveika</item>
+        <item quantity="few">%1$s sąveikos</item>
+        <item quantity="many">%1$s sąveikos</item>
+        <item quantity="other">%1$s sąveikų</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s paieška</item>
+        <item quantity="few">%1$s paieškos</item>
+        <item quantity="many">%1$s paieškos</item>
+        <item quantity="other">%1$s paieškų</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s peržiūra</item>
+        <item quantity="few">%1$s peržiūros</item>
+        <item quantity="many">%1$s peržiūros</item>
+        <item quantity="other">%1$s peržiūrų</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">Rezervacija %d nakčiai</item>
+        <item quantity="few">Rezervacija %d naktims</item>
+        <item quantity="many">Rezervacija %d nakties</item>
+        <item quantity="other">Rezervacija %d naktų</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">Tik jūs galite tai matyti</item>
+        <item quantity="few">Tik jūs galite tai matyti</item>
+        <item quantity="many">Tik jūs galite tai matyti</item>
+        <item quantity="other">Tik jūs galite tai matyti</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d diena</item>
+        <item quantity="few">%1$d dienos</item>
+        <item quantity="many">%1$d dienos</item>
+        <item quantity="other">%1$d dienų</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d naktis</item>
+        <item quantity="few">%1$d naktys</item>
+        <item quantity="many">%1$d nakties</item>
+        <item quantity="other">%1$d naktų</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d nuotrauka</item>
+        <item quantity="few">%d nuotraukos</item>
+        <item quantity="many">%d nuotraukos</item>
+        <item quantity="other">%d nuotraukų</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Laukiama, kol bus užmegztas „Wi-Fi“ ryšys.
+ %d laukianti nuotrauka / laukiantis vaizdo įrašas."</item>
+        <item quantity="few">"Laukiama, kol bus užmegztas „Wi-Fi“ ryšys.
+ %d laukiančios nuotraukos / laukiantys vaizdo įrašai."</item>
+        <item quantity="many">"Laukiama, kol bus užmegztas „Wi-Fi“ ryšys.
+ %d laukiančios nuotraukos / laukiančio vaizdo įrašo."</item>
+        <item quantity="other">"Laukiama, kol bus užmegztas „Wi-Fi“ ryšys.
+ %d laukiančių nuotraukų / laukiančių vaizdo įrašų."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">%1$d įrašo %2$d nuotrauka</item>
+        <item quantity="few">%1$d įrašo %2$d nuotrauka</item>
+        <item quantity="many">%1$d įrašo %2$d nuotrauka</item>
+        <item quantity="other">%1$d įrašo %2$d nuotrauka</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">Prieš %d dieną</item>
+        <item quantity="few">Prieš %d dienas</item>
+        <item quantity="many">Prieš %d dienos</item>
+        <item quantity="other">Prieš %d dienų</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">Prieš %d valandą</item>
+        <item quantity="few">Prieš %d valandas</item>
+        <item quantity="many">Prieš %d valandos</item>
+        <item quantity="other">Prieš %d valandų</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">Prieš %d mėnesį</item>
+        <item quantity="few">Prieš %d mėnesius</item>
+        <item quantity="many">Prieš %d mėnesio</item>
+        <item quantity="other">Prieš %d mėnesių</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">Prieš %d savaitę</item>
+        <item quantity="few">Prieš %d savaites</item>
+        <item quantity="many">Prieš %d savaitės</item>
+        <item quantity="other">Prieš %d savaičių</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">Prieš %d metus</item>
+        <item quantity="few">Prieš %d metus</item>
+        <item quantity="many">Prieš %d metų</item>
+        <item quantity="other">Prieš %d metų</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d naujinys</item>
+        <item quantity="few">%d naujiniai</item>
+        <item quantity="many">%d naujinio</item>
+        <item quantity="other">%d naujinių</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">Žr. %d atsakymą</item>
+        <item quantity="few">Žr. %d atsakymus</item>
+        <item quantity="many">Žr. %d atsakymo</item>
+        <item quantity="other">Žr. %d atsakymų</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Leisti %1$d įrašo %2$d vaizdo įrašą</item>
+        <item quantity="few">Leisti %1$d įrašo %2$d vaizdo įrašą</item>
+        <item quantity="many">Leisti %1$d įrašo %2$d vaizdo įrašą</item>
+        <item quantity="other">Leisti %1$d įrašo %2$d vaizdo įrašą</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">Dar %d kitas bendrinimo būdas</item>
+        <item quantity="few">Dar %d kiti bendrinimo būdai</item>
+        <item quantity="many">Dar %d kito bendrinimo būdo</item>
+        <item quantity="other">Dar %d kitų bendrinimo būdų</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Pakeisti</item>
+        <item quantity="few">Pakeisti</item>
+        <item quantity="many">Pakeisti</item>
+        <item quantity="other">Pakeisti</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Keičiamos stotelės</item>
+        <item quantity="few">Keičiamos stotelės</item>
+        <item quantity="many">Keičiamos stotelės</item>
+        <item quantity="other">Keičiamos stotelės</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d peržiūra</item>
+        <item quantity="few">%,d peržiūros</item>
+        <item quantity="many">%,d peržiūros</item>
+        <item quantity="other">%,d peržiūrų</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d įvertinimas</item>
+        <item quantity="few">%d įvertinimai</item>
+        <item quantity="many">%d įvertinimo</item>
+        <item quantity="other">%d įvertinimų</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d atsiliepimas</item>
+        <item quantity="few">%d atsiliepimai</item>
+        <item quantity="many">%d atsiliepimo</item>
+        <item quantity="other">%d atsiliepimų</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">Įvertinta %d žvaigždute</item>
+        <item quantity="few">Įvertinta %d žvaigždutėmis</item>
+        <item quantity="many">Įvertinta %d žvaigždutės</item>
+        <item quantity="other">Įvertinta %d žvaigždučių</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="one">%d žvaigždutė</item>
+        <item quantity="few">%d žvaigždutės</item>
+        <item quantity="many">%d žvaigždutės</item>
+        <item quantity="other">%d žvaigždučių</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">%1$,d %2$s reakcija</item>
+        <item quantity="few">%1$,d %2$s reakcijos</item>
+        <item quantity="many">%1$,d %2$s reakcijos</item>
+        <item quantity="other">%1$,d %2$s reakcijų</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">Atnaujinta prieš %d minutę</item>
+        <item quantity="few">Atnaujinta prieš %d minutes</item>
+        <item quantity="many">Atnaujinta prieš %d minutės</item>
+        <item quantity="other">Atnaujinta prieš %d minučių</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">%1$d automobilių traukinyje įvažiuokite į %2$s, kad išvažiuotumėte greičiausiai</item>
+        <item quantity="few">%1$d automobilių traukinyje įvažiuokite į %2$s, kad išvažiuotumėte greičiausiai</item>
+        <item quantity="many">%1$d automobilių traukinyje įvažiuokite į %2$s, kad išvažiuotumėte greičiausiai</item>
+        <item quantity="other">%1$d automobilių traukinyje įvažiuokite į %2$s, kad išvažiuotumėte greičiausiai</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">%1$d automobilių traukinyje įvažiuokite į %2$s, kad greičiausiai persikeltumėte</item>
+        <item quantity="few">%1$d automobilių traukinyje įvažiuokite į %2$s, kad greičiausiai persikeltumėte</item>
+        <item quantity="many">%1$d automobilių traukinyje įvažiuokite į %2$s, kad greičiausiai persikeltumėte</item>
+        <item quantity="other">%1$d automobilių traukinyje įvažiuokite į %2$s, kad greičiausiai persikeltumėte</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">Automobiliai, kuriuose mažiausiai keleivių: %1$s</item>
+        <item quantity="few">Automobiliai, kuriuose mažiausiai keleivių: %1$s</item>
+        <item quantity="many">Automobiliai, kuriuose mažiausiai keleivių: %1$s</item>
+        <item quantity="other">Automobiliai, kuriuose mažiausiai keleivių: %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">%1$d automobilių traukinys</item>
+        <item quantity="few">%1$d automobilio traukiniai</item>
+        <item quantity="many">%1$d automobilio traukinio</item>
+        <item quantity="other">%1$d automobilio traukinių</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d mokėjimas</item>
+        <item quantity="few">%d mokėjimai</item>
+        <item quantity="many">%d mokėjimo</item>
+        <item quantity="other">%d mokėjimų</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s ir dar %2$s</item>
+        <item quantity="few">%1$s ir dar %2$s</item>
+        <item quantity="many">%1$s ir dar %2$s</item>
+        <item quantity="other">%1$s ir dar %2$s</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="one">Daugiau nei %d</item>
+        <item quantity="few">Daugiau nei %d</item>
+        <item quantity="many">Daugiau nei %d</item>
+        <item quantity="other">Daugiau nei %d</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">Įvertinti %1$d žvaigždute iš 5</item>
+        <item quantity="few">Įvertinti %1$d žvaigždutėmis iš 5</item>
+        <item quantity="many">Įvertinti %1$d žvaigždutės iš 5</item>
+        <item quantity="other">Įvertinti %1$d žvaigždučių iš 5</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s peržiūra</item>
+        <item quantity="few">%s peržiūros</item>
+        <item quantity="many">%s peržiūros</item>
+        <item quantity="other">%s peržiūrų</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%,d vertinimas ir atsiliepimas</item>
+        <item quantity="few">%,d vertinimai ir atsiliepimai</item>
+        <item quantity="many">%,d vertinimo ir atsiliepimo</item>
+        <item quantity="other">%,d vertinimų ir atsiliepimų</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%,d vertinimas ir atsiliepimas</item>
+        <item quantity="few">%,d vertinimai ir atsiliepimai</item>
+        <item quantity="many">%,d vertinimo ir atsiliepimo</item>
+        <item quantity="other">%,d vertinimų ir atsiliepimų</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%,d)</item>
+        <item quantity="few">(%,d)</item>
+        <item quantity="many">(%,d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d žmogus</item>
+        <item quantity="few">%d žmonės</item>
+        <item quantity="many">%d žmogaus</item>
+        <item quantity="other">%d žmonių</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="one">%d klausimas</item>
+        <item quantity="few">%d klausimai</item>
+        <item quantity="many">%d klausimo</item>
+        <item quantity="other">%d klausimų</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">Dar %d sąrašas</item>
+        <item quantity="few">Dar %d sąrašai</item>
+        <item quantity="many">Dar %d sąrašo</item>
+        <item quantity="other">Dar %d sąrašų</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Išsaugota „%1$s“ ir dar %2$d sąraše</item>
+        <item quantity="few">Išsaugota „%1$s“ ir dar %2$d sąrašuose</item>
+        <item quantity="many">Išsaugota „%1$s“ ir dar %2$d sąrašo</item>
+        <item quantity="other">Išsaugota „%1$s“ ir dar %2$d sąrašų</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">Išs. apsil. prieš %d d. duom.?</item>
+        <item quantity="few">Išs. apsil. prieš %d d. duom.?</item>
+        <item quantity="many">Išs. apsil. prieš %d d. duom.?</item>
+        <item quantity="other">Išs. apsil. prieš %d d. duom.?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">Rastas %1$d rezultatas ieškant kategorijoje „%2$s“</item>
+        <item quantity="few">Rasti %1$d rezultatai ieškant kategorijoje „%2$s“</item>
+        <item quantity="many">Rasta %1$d rezultato ieškant kategorijoje „%2$s“</item>
+        <item quantity="other">Rasta %1$d rezultatų ieškant kategorijoje „%2$s“</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">Siunčiamas %1$d žvaigždutės įvertinimas</item>
+        <item quantity="few">Siunčiamas %1$d žvaigždučių įvertinimas</item>
+        <item quantity="many">Siunčiamas %1$d žvaigždutės įvertinimas</item>
+        <item quantity="other">Siunčiamas %1$d žvaigždučių įvertinimas</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">%d dieną</item>
+        <item quantity="few">%d dienas</item>
+        <item quantity="many">%d dienos</item>
+        <item quantity="other">%d dienų</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">%d valandą</item>
+        <item quantity="few">%d valandas</item>
+        <item quantity="many">%d valandos</item>
+        <item quantity="other">%d valandų</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">%d minutę</item>
+        <item quantity="few">%d minutes</item>
+        <item quantity="many">%d minutės</item>
+        <item quantity="other">%d minučių</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">Vietovė bendrinama su %2$s ir dar %1$d naudotoju</item>
+        <item quantity="few">Vietovė bendrinama su %2$s ir dar %1$d naudotojais</item>
+        <item quantity="many">Vietovė bendrinama su %2$s ir dar %1$d naudotojo</item>
+        <item quantity="other">Vietovė bendrinama su %2$s ir dar %1$d naudotojų</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">Vietovė bendrinama su dar %d naudotoju</item>
+        <item quantity="few">Vietovė bendrinama su dar %d naudotojais</item>
+        <item quantity="many">Vietovė bendrinama su dar %d naudotojo</item>
+        <item quantity="other">Vietovė bendrinama su dar %d naudotojų</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="one">Išsaugoti %d vietą</item>
+        <item quantity="few">Išsaugoti %d vietas</item>
+        <item quantity="many">Išsaugoti %d vietos</item>
+        <item quantity="other">Išsaugoti %d vietų</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="one">Rasta %d vieta</item>
+        <item quantity="few">Rastos %d vietos</item>
+        <item quantity="many">Rasta %d vietos</item>
+        <item quantity="other">Rasta %d vietų</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s, %2$d žvaigždutė</item>
+        <item quantity="few">%1$s, %2$d žvaigždutės</item>
+        <item quantity="many">%1$s, %2$d žvaigždutės</item>
+        <item quantity="other">%1$s, %2$d žvaigždučių</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">Sėkmingai įvertinta %1$d žvaigždute</item>
+        <item quantity="few">Sėkmingai įvertinta %1$d žvaigždutėmis</item>
+        <item quantity="many">Sėkmingai įvertinta %1$d žvaigždutės</item>
+        <item quantity="other">Sėkmingai įvertinta %1$d žvaigždučių</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d peržiūra</item>
+        <item quantity="few">%,d peržiūros</item>
+        <item quantity="many">%,d peržiūros</item>
+        <item quantity="other">%,d peržiūrų</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d taškas</item>
+        <item quantity="few">+%d taškai</item>
+        <item quantity="many">+%d taško</item>
+        <item quantity="other">+%d taškų</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">Paskelbti %1$d vietos (%2$s) nuotrauką ir vaizdo įrašą</item>
+        <item quantity="few">Paskelbti %1$d vietos (%2$s) nuotraukas ir vaizdo įrašus</item>
+        <item quantity="many">Paskelbti %1$d vietos (%2$s) nuotraukos ir vaizdo įrašo</item>
+        <item quantity="other">Paskelbti %1$d vietos (%2$s) nuotraukų ir vaizdo įrašų</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">Paskelbti %1$d „%2$s“ nuotrauką</item>
+        <item quantity="few">Paskelbti %1$d „%2$s“ nuotraukas</item>
+        <item quantity="many">Paskelbti %1$d „%2$s“ nuotraukos</item>
+        <item quantity="other">Paskelbti %1$d „%2$s“ nuotraukų</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">Dar %d</item>
+        <item quantity="few">Dar %d</item>
+        <item quantity="many">Dar %d</item>
+        <item quantity="other">Dar %d</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">Paskelbti %1$d nuotrauką</item>
+        <item quantity="few">Paskelbti %1$d nuotraukas</item>
+        <item quantity="many">Paskelbti %1$d nuotraukos</item>
+        <item quantity="other">Paskelbti %1$d nuotraukų</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">Paskelbti %1$d elementą</item>
+        <item quantity="few">Paskelbti %1$d elementus</item>
+        <item quantity="many">Paskelbti %1$d elemento</item>
+        <item quantity="other">Paskelbti %1$d elementų</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$,d žmogus paminėjo temą „%2$s“</item>
+        <item quantity="few">%1$d žmonės paminėjo temą „%2$s“</item>
+        <item quantity="many">%1$,d žmogaus paminėjo temą „%2$s“</item>
+        <item quantity="other">%1$,d žmonių paminėjo temą „%2$s“</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">%1$,d reakcija</item>
+        <item quantity="few">%1$,d reakcijos</item>
+        <item quantity="many">%1$,d reakcijos</item>
+        <item quantity="other">%1$,d reakcijų</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">Žr. dar %1$d parinktį nuo %2$s</item>
+        <item quantity="few">Žr. dar %1$d parinktis nuo %2$s</item>
+        <item quantity="many">Žr. dar %1$d parinkties nuo %2$s</item>
+        <item quantity="other">Žr. dar %1$d parinkčių nuo %2$s</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">Žr. dar %1$d parinktį</item>
+        <item quantity="few">Žr. dar %1$d parinktis</item>
+        <item quantity="many">Žr. dar %1$d parinkties</item>
+        <item quantity="other">Žr. dar %1$d parinkčių</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">Išsaugokite savo adresus ir sužinokite greičiausius eismo maršrutus</item>
+        <item quantity="few">Išsaugokite savo adresus ir sužinokite greičiausius eismo maršrutus</item>
+        <item quantity="many">Išsaugokite savo adresus ir sužinokite greičiausius eismo maršrutus</item>
+        <item quantity="other">Išsaugokite savo adresus ir sužinokite greičiausius eismo maršrutus</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">Išvykimų laikas atnaujintas prieš %1$d sek.</item>
+        <item quantity="few">Išvykimų laikas atnaujintas prieš %1$d sek.</item>
+        <item quantity="many">Išvykimų laikas atnaujintas prieš %1$d sek.</item>
+        <item quantity="other">Išvykimų laikas atnaujintas prieš %1$d sek.</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">Išvyksta kas %d minutę</item>
+        <item quantity="few">Išvyksta kas %d minutes</item>
+        <item quantity="many">Išvyksta kas %d minutės</item>
+        <item quantity="other">Išvyksta kas %d minučių</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d min.</item>
+        <item quantity="few">%d min.</item>
+        <item quantity="many">%d min.</item>
+        <item quantity="other">%d min.</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES_LONG">
+        <item quantity="one">minutė</item>
+        <item quantity="few">minutės</item>
+        <item quantity="many">minutės</item>
+        <item quantity="other">minučių</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="one">%1$s (%2$d įspėjimas)</item>
+        <item quantity="few">%1$s (%2$d įspėjimai)</item>
+        <item quantity="many">%1$s (%2$d įspėjimo)</item>
+        <item quantity="other">%1$s (%2$d įspėjimų)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="one">%1$s autobusas (%2$d įspėjimas)</item>
+        <item quantity="few">%1$s autobusas (%2$d įspėjimai)</item>
+        <item quantity="many">%1$s autobusas (%2$d įspėjimo)</item>
+        <item quantity="other">%1$s autobusas (%2$d įspėjimų)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="one">%1$s keltas (%2$d įspėjimas)</item>
+        <item quantity="few">%1$s keltas (%2$d įspėjimai)</item>
+        <item quantity="many">%1$s keltas (%2$d įspėjimo)</item>
+        <item quantity="other">%1$s keltas (%2$d įspėjimų)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="one">%1$s maršrutas (%2$d įspėjimas)</item>
+        <item quantity="few">%1$s maršrutas (%2$d įspėjimai)</item>
+        <item quantity="many">%1$s maršrutas (%2$d įspėjimo)</item>
+        <item quantity="other">%1$s maršrutas (%2$d įspėjimų)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="one">%1$s traukinys (%2$d įspėjimas)</item>
+        <item quantity="few">%1$s traukinys (%2$d įspėjimai)</item>
+        <item quantity="many">%1$s traukinys (%2$d įspėjimo)</item>
+        <item quantity="other">%1$s traukinys (%2$d įspėjimų)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="one">%1$s tramvajus (%2$d įspėjimas)</item>
+        <item quantity="few">%1$s tramvajus (%2$d įspėjimai)</item>
+        <item quantity="many">%1$s tramvajus (%2$d įspėjimo)</item>
+        <item quantity="other">%1$s tramvajus (%2$d įspėjimų)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="one">Kas %d minutę</item>
+        <item quantity="few">Kas %d minutes</item>
+        <item quantity="many">Kas %d minutės</item>
+        <item quantity="other">Kas %d minučių</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d stotelė</item>
+        <item quantity="few">%d stotelės</item>
+        <item quantity="many">%d stotelės</item>
+        <item quantity="other">%d stotelių</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_CARD">
+        <item quantity="one">"%1$d
+minute anksčiau"</item>
+        <item quantity="few">"%1$d
+minutėmis anksčiau"</item>
+        <item quantity="many">"%1$d
+minutės anksčiau"</item>
+        <item quantity="other">"%1$d
+minučių anksčiau"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"Prieš %1$s
+min."</item>
+        <item quantity="few">"Prieš %1$s
+min."</item>
+        <item quantity="many">"Prieš %1$s
+min."</item>
+        <item quantity="other">"Prieš %1$s
+min."</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Išvyko prieš %1$s minutę</item>
+        <item quantity="few">Išvyko prieš %1$s minutes</item>
+        <item quantity="many">Išvyko prieš %1$s minutės</item>
+        <item quantity="other">Išvyko prieš %1$s minučių</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d įspėjimas</item>
+        <item quantity="few">+%d įspėjimai</item>
+        <item quantity="many">+%d įspėjimo</item>
+        <item quantity="other">+%d įspėjimų</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">ir %d įspėjimas</item>
+        <item quantity="few">ir %d įspėjimai</item>
+        <item quantity="many">ir %d įspėjimų</item>
+        <item quantity="other">ir %d įspėjimų</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">Dar %d</item>
+        <item quantity="few">Dar %d</item>
+        <item quantity="many">Dar %d</item>
+        <item quantity="other">Dar %d</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">ir dar %d</item>
+        <item quantity="few">ir dar %d</item>
+        <item quantity="many">ir dar %d</item>
+        <item quantity="other">ir dar %d</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_ITEMS_COUNT">
+        <item quantity="one">Ir dar %1$d</item>
+        <item quantity="few">Ir dar %1$d</item>
+        <item quantity="many">Ir dar %1$d</item>
+        <item quantity="other">Ir dar %1$d</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+ minutė"</item>
+        <item quantity="few">"%1$s
+ minutės"</item>
+        <item quantity="many">"%1$s
+ minutės"</item>
+        <item quantity="other">"%1$s
+ minučių"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">Prieš %1$s minutę</item>
+        <item quantity="few">Prieš %1$s minutes</item>
+        <item quantity="many">Prieš %1$s minutės</item>
+        <item quantity="other">Prieš %1$s minučių</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Išvyksta po %1$s minutės</item>
+        <item quantity="few">Išvyksta po %1$s minučių</item>
+        <item quantity="many">Išvyksta po %1$s minutės</item>
+        <item quantity="other">Išvyksta po %1$s minučių</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">Dar %1$s įspėjimas</item>
+        <item quantity="few">Dar %1$s įspėjimai</item>
+        <item quantity="many">Dar %1$s įspėjimo</item>
+        <item quantity="other">Dar %1$s įspėjimų</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s nuotrauka</item>
+        <item quantity="few">%s nuotraukos</item>
+        <item quantity="many">%s nuotraukos</item>
+        <item quantity="other">%s nuotraukų</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s atsiliepimas</item>
+        <item quantity="few">%s atsiliepimai</item>
+        <item quantity="many">%s atsiliepimo</item>
+        <item quantity="other">%s atsiliepimų</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d informacijos elementas</item>
+        <item quantity="few">%,d informacijos elementai</item>
+        <item quantity="many">%,d informacijos elemento</item>
+        <item quantity="other">%,d informacijos elementų</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d peržiūra</item>
+        <item quantity="few">%,d peržiūros</item>
+        <item quantity="many">%,d peržiūrų</item>
+        <item quantity="other">%,d peržiūros</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Pasirinkite ne daugiau kaip %1$d</item>
+        <item quantity="few">Pasirinkite ne daugiau kaip %1$d</item>
+        <item quantity="many">Pasirinkite ne daugiau kaip %1$d</item>
+        <item quantity="other">Pasirinkite ne daugiau kaip %1$d</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Pasirinkite iki %1$s nuotraukos</item>
+        <item quantity="few">Pasirinkite iki %1$s nuotraukų</item>
+        <item quantity="many">Pasirinkite iki %1$s nuotraukos</item>
+        <item quantity="other">Pasirinkite iki %1$s nuotraukų</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Įjungti %1$d įrašo %2$d vaizdo įrašo garsą</item>
+        <item quantity="few">Įjungti %1$d įrašo %2$d vaizdo įrašo garsą</item>
+        <item quantity="many">Įjungti %1$d įrašo %2$d vaizdo įrašo garsą</item>
+        <item quantity="other">Įjungti %1$d įrašo %2$d vaizdo įrašo garsą</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d iš %2$d</item>
+        <item quantity="few">%1$d iš %2$d</item>
+        <item quantity="many">%1$d iš %2$d</item>
+        <item quantity="other">%1$d iš %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Laukiama, kol bus užmegztas „Wi-Fi“ ryšys.
+ %d laukianti nuotrauka."</item>
+        <item quantity="few">"Laukiama, kol bus užmegztas „Wi-Fi“ ryšys.
+ %d laukiančios nuotraukos."</item>
+        <item quantity="many">"Laukiama, kol bus užmegztas „Wi-Fi“ ryšys.
+ %d laukiančios nuotraukos."</item>
+        <item quantity="other">"Laukiama, kol bus užmegztas „Wi-Fi“ ryšys.
+ %d laukiančių nuotraukų."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">Pasirinkta %d nuotrauka</item>
+        <item quantity="few">Pasirinktos %d nuotraukos</item>
+        <item quantity="many">Pasirinkta %d nuotraukos</item>
+        <item quantity="other">Pasirinkta %d nuotraukų</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">Aplankyta %1$d iš %2$d vietos</item>
+        <item quantity="few">Aplankyta %1$d iš %2$d vietų</item>
+        <item quantity="many">Aplankyta %1$d iš %2$d vietų</item>
+        <item quantity="other">Aplankyta %1$d iš %2$d vietų</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Išjunkite Akumuliatoriaus tausojimo priemonę, kad padidintumėte vietovės tikslumą bendrinant su naudotoju %1$s ir dar %2$d kitu</item>
+        <item quantity="few">Išjunkite Akumuliatoriaus tausojimo priemonę, kad padidintumėte vietovės tikslumą bendrinant su naudotoju %1$s ir dar %2$d kitais</item>
+        <item quantity="many">Išjunkite Akumuliatoriaus tausojimo priemonę, kad padidintumėte vietovės tikslumą bendrinant su naudotoju %1$s ir dar %2$d kitų</item>
+        <item quantity="other">Išjunkite Akumuliatoriaus tausojimo priemonę, kad padidintumėte vietovės tikslumą bendrinant su naudotoju %1$s ir dar %2$d kitų</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Įrenginio vietovės paslaugos turi būti įjungtos, kad toliau bendrintumėte vietovę su naudotoju %1$s ir dar %2$d kitu</item>
+        <item quantity="few">Įrenginio vietovės paslaugos turi būti įjungtos, kad toliau bendrintumėte vietovę su naudotoju %1$s ir dar %2$d kitais</item>
+        <item quantity="many">Įrenginio vietovės paslaugos turi būti įjungtos, kad toliau bendrintumėte vietovę su naudotoju %1$s ir dar %2$d kitų</item>
+        <item quantity="other">Įrenginio vietovės paslaugos turi būti įjungtos, kad toliau bendrintumėte vietovę su naudotoju %1$s ir dar %2$d kitų</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Atnaujinkite vietovės bendrinimą, kad toliau bendrintumėte šiame įrenginyje su naudotoju %1$s ir dar %2$d kitu</item>
+        <item quantity="few">Atnaujinkite vietovės bendrinimą, kad toliau bendrintumėte šiame įrenginyje su naudotoju %1$s ir dar %2$d kitais</item>
+        <item quantity="many">Atnaujinkite vietovės bendrinimą, kad toliau bendrintumėte šiame įrenginyje su naudotoju %1$s ir dar %2$d kitų</item>
+        <item quantity="other">Atnaujinkite vietovės bendrinimą, kad toliau bendrintumėte šiame įrenginyje su naudotoju %1$s ir dar %2$d kitų</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Leiskite Žemėlapiams atpažinti jūsų fizinę veiklą, kad padidintumėte vietovės tikslumą bendrinant su naudotoju %1$s ir dar %2$d kitu</item>
+        <item quantity="few">Leiskite Žemėlapiams atpažinti jūsų fizinę veiklą, kad padidintumėte vietovės tikslumą bendrinant su naudotoju %1$s ir dar %2$d kitais</item>
+        <item quantity="many">Leiskite Žemėlapiams atpažinti jūsų fizinę veiklą, kad padidintumėte vietovės tikslumą bendrinant su naudotoju %1$s ir dar %2$d kitų</item>
+        <item quantity="other">Leiskite Žemėlapiams atpažinti jūsų fizinę veiklą, kad padidintumėte vietovės tikslumą bendrinant su naudotoju %1$s ir dar %2$d kitų</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Leiskite Žemėlapiams pasiekti jūsų vietovę, kad padidintumėte vietovės tikslumą bendrinant su naudotoju %1$s ir dar %2$d kitu</item>
+        <item quantity="few">Leiskite Žemėlapiams pasiekti jūsų vietovę, kad padidintumėte vietovės tikslumą bendrinant su naudotoju %1$s ir dar %2$d kitais</item>
+        <item quantity="many">Leiskite Žemėlapiams pasiekti jūsų vietovę, kad padidintumėte vietovės tikslumą bendrinant su naudotoju %1$s ir dar %2$d kitų</item>
+        <item quantity="other">Leiskite Žemėlapiams pasiekti jūsų vietovę, kad padidintumėte vietovės tikslumą bendrinant su naudotoju %1$s ir dar %2$d kitų</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Leiskite Žemėlapiams pasiekti jūsų vietovę, kad toliau bendrintumėte su naudotoju %1$s ir dar %2$d kitu</item>
+        <item quantity="few">Leiskite Žemėlapiams pasiekti jūsų vietovę, kad toliau bendrintumėte su naudotoju %1$s ir dar %2$d kitais</item>
+        <item quantity="many">Leiskite Žemėlapiams pasiekti jūsų vietovę, kad toliau bendrintumėte su naudotoju %1$s ir dar %2$d kitų</item>
+        <item quantity="other">Leiskite Žemėlapiams pasiekti jūsų vietovę, kad toliau bendrintumėte su naudotoju %1$s ir dar %2$d kitų</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">Dar %d nuotrauka</item>
+        <item quantity="few">Dar %d nuotraukos</item>
+        <item quantity="many">Dar %d nuotraukos</item>
+        <item quantity="other">Dar %d nuotraukų</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%,d apžvalga)</item>
+        <item quantity="few">(%d apžvalgos)</item>
+        <item quantity="many">(%d apžvalgos)</item>
+        <item quantity="other">(%,d apžvalgų)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="one">%1$s sekundė</item>
+        <item quantity="few">%1$s sekundės</item>
+        <item quantity="many">%1$s sekundės</item>
+        <item quantity="other">%1$s sekundžių</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">%1$d įrašo %2$dvaizdo įrašas</item>
+        <item quantity="few">%1$d įrašų %2$dvaizdo įrašas</item>
+        <item quantity="many">%1$d įrašo %2$dvaizdo įrašas</item>
+        <item quantity="other">%1$d įrašų %2$dvaizdo įrašas</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">%1$d įrašo %2$d vaizdo įrašas rodomas visame ekrane</item>
+        <item quantity="few">%1$d įrašų %2$d vaizdo įrašas rodomas visame ekrane</item>
+        <item quantity="many">%1$d įrašo %2$d vaizdo įrašas rodomas visame ekrane</item>
+        <item quantity="other">%1$d įrašų %2$d vaizdo įrašas rodomas visame ekrane</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d nakvynė</item>
+        <item quantity="few">%2$s × %1$d nakvynės</item>
+        <item quantity="many">%2$s × %1$d nakvynės</item>
+        <item quantity="other">%2$s × %1$d nakvynių</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%2$s, įskaitant mokesčius ir rinkliavas, už %1$d nakvynę</item>
+        <item quantity="few">%2$s, įskaitant mokesčius ir rinkliavas, už %1$d nakvynes</item>
+        <item quantity="many">%2$s, įskaitant mokesčius ir rinkliavas, už %1$d nakvynės</item>
+        <item quantity="other">%2$s, įskaitant mokesčius ir rinkliavas, už %1$d nakvynių</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">%d min. pėsčiomis</item>
+        <item quantity="few">%d min. pėsčiomis</item>
+        <item quantity="many">%d min. pėsčiomis</item>
+        <item quantity="other">%d min. pėsčiomis</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">Dar %d stotelė</item>
+        <item quantity="few">Dar %d stotelės</item>
+        <item quantity="many">Dar %d stotelės</item>
+        <item quantity="other">Dar %d stotelių</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d sustojimas)</item>
+        <item quantity="few">(%d sustojimai)</item>
+        <item quantity="many">(%d sustojimo)</item>
+        <item quantity="other">(%d sustojimų)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">Prieš %d savaitę</item>
+        <item quantity="few">Prieš %d savaites</item>
+        <item quantity="many">Prieš %d savaitės</item>
+        <item quantity="other">Prieš %d savaičių</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">Prieš %d metus</item>
+        <item quantity="few">Prieš %d metus</item>
+        <item quantity="many">Prieš %d metų</item>
+        <item quantity="other">Prieš %d metų</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">Peržiūrėkite likusią %1$d nuotrauką</item>
+        <item quantity="few">Peržiūrėkite likusias %1$d nuotraukas</item>
+        <item quantity="many">Peržiūrėkite likusias %1$d nuotraukų</item>
+        <item quantity="other">Peržiūrėkite likusias %1$d nuotraukas</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">Jūsų atsiliepimai ir atnaujinimai</item>
+        <item quantity="few">Jūsų atsiliepimai ir atnaujinimai</item>
+        <item quantity="many">Jūsų atsiliepimai ir atnaujinimai</item>
+        <item quantity="other">Jūsų atsiliepimai ir atnaujinimai</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">Stebite „%1$s“ ir dar %2$d sąrašą</item>
+        <item quantity="few">Stebite „%1$s“ ir dar %2$d sąrašus</item>
+        <item quantity="many">Stebite „%1$s“ ir dar %2$d sąrašo</item>
+        <item quantity="other">Stebite „%1$s“ ir dar %2$d sąrašų</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s ir dar %2$d naudotojas</item>
+        <item quantity="few">%1$s ir dar %2$d naudotojai</item>
+        <item quantity="many">%1$s ir dar %2$d naudotojo</item>
+        <item quantity="other">%1$s ir dar %2$d naudotojų</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">Dar %1$d</item>
+        <item quantity="few">Dar %1$d</item>
+        <item quantity="many">Dar %1$d</item>
+        <item quantity="other">Dar %1$d</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="one">%1$d iš %2$d</item>
+        <item quantity="few">%1$d iš %2$d</item>
+        <item quantity="many">%1$d iš %2$d</item>
+        <item quantity="other">%1$d iš %2$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d iš %2$d</item>
+        <item quantity="few">%1$d iš %2$d</item>
+        <item quantity="many">%1$d iš %2$d</item>
+        <item quantity="other">%1$d iš %2$d</item>
+    </plurals>
+    <plurals name="plurals_0x7f12014e">
+        <item quantity="one">%1$d lygis</item>
+        <item quantity="few">%1$d lygis</item>
+        <item quantity="many">%1$d lygis</item>
+        <item quantity="other">%1$d lygis</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">%1$d užfiksuotas vaizdas</item>
+        <item quantity="few">%1$d užfiksuoti vaizdai</item>
+        <item quantity="many">%1$d užfiksuoto vaizdo</item>
+        <item quantity="other">%1$d užfiksuotų vaizdų</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">%d naujų pranešimų</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">Nukopijuotas %d gavėjas</item>
+        <item quantity="few">Nukopijuoti %d gavėjai</item>
+        <item quantity="many">Nukopijuota %d gavėjo</item>
+        <item quantity="other">Nukopijuota %d gavėjų</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">Pasakykite ką nors apie savo nuotraukas (nebūtina)</item>
+        <item quantity="few">Pasakykite ką nors apie savo nuotraukas (nebūtina)</item>
+        <item quantity="many">Pasakykite ką nors apie savo nuotraukas (nebūtina)</item>
+        <item quantity="other">Pasakykite ką nors apie savo nuotraukas (nebūtina)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d žvaigždutė iš %2$d</item>
+        <item quantity="few">%1$d žvaigždutės iš %2$d</item>
+        <item quantity="many">%1$d žvaigždutės iš %2$d</item>
+        <item quantity="other">%1$d žvaigždučių iš %2$d</item>
+    </plurals>
+    <plurals name="tell_maps_know_before_you_go_place_contextual_zero_state_post_tip">
+        <item quantity="one">Norite paskelbti patarimą apie vieną iš šių vietų?</item>
+        <item quantity="few">Norite paskelbti patarimą apie vieną iš šių vietų?</item>
+        <item quantity="many">Norite paskelbti patarimą apie vieną iš šių vietų?</item>
+        <item quantity="other">Norite paskelbti patarimą apie vieną iš šių vietų?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_post_tip_or_photo">
+        <item quantity="one">Norite paskelbti nuotrauką arba patarimą apie vieną iš šių vietų?</item>
+        <item quantity="few">Norite paskelbti nuotrauką arba patarimą apie vieną iš šių vietų?</item>
+        <item quantity="many">Norite paskelbti nuotrauką arba patarimą apie vieną iš šių vietų?</item>
+        <item quantity="other">Norite paskelbti nuotrauką arba patarimą apie vieną iš šių vietų?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_update_a_place">
+        <item quantity="one">Kurią vietą norite atnaujinti?</item>
+        <item quantity="few">Kurią vietą norite atnaujinti?</item>
+        <item quantity="many">Kurią vietą norite atnaujinti?</item>
+        <item quantity="other">Kurią vietą norite atnaujinti?</item>
+    </plurals>
+</resources>

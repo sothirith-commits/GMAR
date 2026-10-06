@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:state_pressed="true" android:color="@color/mod_google_white" android:alpha="@dimen/geo_sys_opacity_state_layer_pressed" />
+    <item android:state_focused="true" android:state_selected="true" android:color="@color/mod_google_white" android:alpha="@dimen/geo_sys_opacity_state_layer_hover_and_focus" android:state_hovered="true" />
+    <item android:state_focused="true" android:state_selected="true" android:color="@color/mod_google_white" android:alpha="@dimen/geo_sys_opacity_state_layer_focus" />
+    <item android:state_selected="true" android:color="@color/mod_google_white" android:alpha="@dimen/geo_sys_opacity_state_layer_hover" android:state_hovered="true" />
+    <item android:color="@android:color/transparent" />
+</selector>

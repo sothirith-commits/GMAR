@@ -1,0 +1,47 @@
+.class public final Lbknb;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field public final a:[Lbkxb;
+
+.field public final b:[F
+
+.field public c:F
+
+.field public d:F
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/16 v0, 0x8
+
+    .line 5
+    .line 6
+    new-array v1, v0, [Lbkxb;
+
+    .line 7
+    .line 8
+    iput-object v1, p0, Lbknb;->a:[Lbkxb;
+
+    .line 9
+    .line 10
+    new-array v0, v0, [F
+
+    .line 11
+    .line 12
+    iput-object v0, p0, Lbknb;->b:[F
+
+    .line 13
+    .line 14
+    return-void
+.end method

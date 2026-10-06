@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <root-path name="photos" path="" />
+    <files-path name="files" path="google_maps_media/" />
+    <cache-path name="cache" path="google_maps_media/" />
+</paths>

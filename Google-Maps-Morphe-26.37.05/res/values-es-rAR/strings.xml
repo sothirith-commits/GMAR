@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CANCELLING_UPLOADS_TITLE">Cancelando la carga</string>
+    <string name="STOPPING_UPLOADS_TITLE">Deteniendo la carga</string>
+    <string name="UPLOADING_MEDIA_TITLE">Subiendo contenido multimedia</string>
+    <string name="UPLOAD_NOW">Subir ahora</string>
+    <string name="WAIT_FOR_WIFI">Esperar Wi-Fi</string>
+    <string name="__arcore_cancel">Cancelar</string>
+    <string name="__arcore_continue">Continuar</string>
+    <string name="__arcore_install_app">Esta app requiere la versión más reciente de Servicios de Google Play para RA.</string>
+    <string name="__arcore_install_feature">Esta función requiere la versión más reciente de Servicios de Google Play para RA.</string>
+    <string name="__arcore_installing">Instalando Servicios de Google Play para RA…</string>
+    <string name="sharekit_activity_not_found_error_message">No se encontró ninguna app para ejecutar esta acción.</string>
+    <string name="sharekit_attribution_picker_collapse_content_description">Contraer la lista de atribuciones</string>
+    <string name="sharekit_attribution_picker_expand_content_description">Expandir la lista de atribuciones</string>
+    <string name="sharekit_attribution_picker_info_icon_content_description">Más información</string>
+    <string name="sharekit_attribution_picker_share_with_profile_text">Compartir como %1$s</string>
+    <string name="sharekit_attribution_picker_share_without_profile_text">Compartir sin perfil</string>
+    <string name="sharekit_attribution_picker_tooltip_button_text_v1">Más información</string>
+    <string name="sharekit_attribution_picker_tooltip_button_text_v2">Más información</string>
+    <string name="sharekit_attribution_picker_tooltip_button_text_v3">Entendido</string>
+    <string name="sharekit_attribution_picker_tooltip_disclaimer_text_v3">Tu contenido compartido puede usarse para mejorar las sugerencias en los servicios de Google.</string>
+    <string name="sharekit_attribution_picker_tooltip_link_text_v3">Más información para compartir tu perfil</string>
+    <string name="sharekit_attribution_picker_tooltip_text_no_email_v2">Cuando las personas abran tu vínculo, te verán como alguien con quien pueden compartir. Presiona la flecha hacia abajo para compartir sin tu nombre ni tu foto.</string>
+    <string name="sharekit_attribution_picker_tooltip_text_no_email_v3">Cuando compartes contenido, tus amigos pueden encontrarte y colaborar contigo en las apps de Google. También pueden ver tu nombre y foto. Puedes presionar la flecha hacia abajo para compartir sin perfil.</string>
+    <string name="sharekit_attribution_picker_tooltip_text_v1">Las personas que abran los vínculos que compartes podrán ver tu nombre, foto y correo electrónico en los servicios de Google. Presiona la flecha hacia abajo para compartir los vínculos sin perfil.</string>
+    <string name="sharekit_attribution_picker_tooltip_text_v2">Cuando las personas abran tu vínculo, te verán como alguien con quien pueden compartir. Presiona la flecha hacia abajo para compartir sin tu nombre, foto ni correo electrónico.</string>
+    <string name="sharekit_attribution_picker_tooltip_text_v3">Cuando compartes contenido, tus amigos pueden encontrarte y colaborar contigo en las apps de Google. También pueden ver tu nombre, foto y correo electrónico. Puedes presionar la flecha hacia abajo para compartir sin perfil.</string>
+    <string name="sharekit_attribution_picker_tooltip_title_v2">Compartir vínculos ayuda a mejorar las sugerencias en las apps de Google</string>
+    <string name="sharekit_attribution_picker_tooltip_title_v3">Permite que tus amigos se conecten contigo más fácilmente en Google</string>
+    <string name="sharekit_back">Volver</string>
+    <string name="sharekit_close">Cerrar</string>
+    <string name="sharekit_copy_action_link">Copiar vínculo</string>
+    <string name="sharekit_preview_app_row_more">Más</string>
+    <string name="sharekit_preview_content_description">Imagen de vista previa</string>
+    <string name="sharekit_preview_title">Compartir</string>
+    <string name="sharekit_send">Enviar</string>
+</resources>

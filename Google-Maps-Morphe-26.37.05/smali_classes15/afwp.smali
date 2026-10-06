@@ -1,0 +1,111 @@
+.class public final Lafwp;
+.super Lonc;
+.source "PG"
+
+
+# instance fields
+.field private final a:Lbeop;
+
+
+# direct methods
+.method public constructor <init>(Lbeop;Lbgys;)V
+    .locals 2
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    new-array v0, v0, [Ljava/lang/Object;
+
+    .line 3
+    .line 4
+    const/4 v1, 0x0
+
+    .line 5
+    aput-object p1, v0, v1
+
+    .line 6
+    .line 7
+    invoke-direct {p0, p2, v0}, Lonc;-><init>(Lbgys;[Ljava/lang/Object;)V
+
+    .line 8
+    .line 9
+    .line 10
+    iput-object p1, p0, Lafwp;->a:Lbeop;
+
+    .line 11
+    .line 12
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final a()Lbgwb;
+    .locals 4
+
+    .line 1
+    invoke-super {p0}, Lonc;->a()Lbgwb;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    const/4 v1, 0x2
+
+    .line 6
+    new-array v1, v1, [Lbgwh;
+
+    .line 7
+    .line 8
+    sget-object v2, Lbcux;->c:Lbcux;
+
+    .line 9
+    .line 10
+    new-instance v3, Lafws;
+
+    .line 11
+    .line 12
+    iget-object p0, p0, Lafwp;->a:Lbeop;
+
+    .line 13
+    .line 14
+    invoke-direct {v3, p0, v2}, Lafws;-><init>(Lbeop;Lbcux;)V
+
+    .line 15
+    .line 16
+    .line 17
+    const/4 p0, 0x0
+
+    .line 18
+    aput-object v3, v1, p0
+
+    .line 19
+    .line 20
+    sget-object p0, Lcoib;->fv:Lbxkg;
+
+    .line 21
+    .line 22
+    invoke-static {p0}, Loww;->j(Lbxkg;)Lbgwu;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object p0
+
+    .line 26
+    const/4 v2, 0x1
+
+    .line 27
+    aput-object p0, v1, v2
+
+    .line 28
+    .line 29
+    invoke-virtual {v0, v1}, Lbgwb;->f([Lbgwh;)V
+
+    .line 30
+    .line 31
+    .line 32
+    return-object v0
+.end method

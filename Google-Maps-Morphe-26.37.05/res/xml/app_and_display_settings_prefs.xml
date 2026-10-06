@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:key="app_language_picker" />
+    <Preference android:persistent="false" android:key="dark_mode" />
+    <ListPreference android:persistent="true" android:entries="@array/DISTANCE_UNIT_ENTRIES" android:title="@string/UNITS" android:key="distance_units" android:defaultValue="" android:dialogTitle="@string/UNITS" android:entryValues="@array/DISTANCE_UNIT_VALUES" />
+    <ListPreference android:persistent="true" android:entries="@array/REVAMP_SHOW_SCALEBAR_ENTRIES" android:title="@string/SHOW_SCALEBAR" android:key="show_scalebar" android:defaultValue="fade" android:dialogTitle="@string/SHOW_SCALEBAR" android:entryValues="@array/SHOW_SCALEBAR_VALUES" />
+    <Preference android:persistent="false" android:title="@string/AUTOPLAY_VIDEO_PREVIEWS_TITLE" android:key="video_autoplay_preference" />
+    <Preference android:persistent="false" android:title="Labs" android:key="labs" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="true" android:title="@string/WIFI_ONLY_TITLE" android:key="restrict_cell_usage" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="true" android:title="@string/REVAMP_SATELLITE_KEEP_ON_SETTING_TITLE" android:key="satellite_on_at_startup" android:summary="@string/SATELLITE_KEEP_ON_SETTING_SUMMARY" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="true" android:title="@string/SETTINGS_ITEM_WHEELCHAIR_ACCESSIBILITY_TITLE" android:key="wheelchair_accessibility_opt_in" android:summary="@string/SETTINGS_ITEM_WHEELCHAIR_ACCESSIBILITY_DESCRIPTION" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="false" android:title="@string/VIDEO_SETTINGS_ITEM_ALLOW_AUTOPLAY_TITLE" android:key="allow_video_autoplay_opt_in" android:summary="@string/VIDEO_SETTINGS_ITEM_ALLOW_AUTOPLAY_DESCRIPTION" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="true" android:title="@string/SHAKE_TO_SEND_FEEDBACK" android:key="shake_to_send_feedback_default_off" android:defaultValue="false" />
+</PreferenceScreen>

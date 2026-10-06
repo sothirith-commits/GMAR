@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="one">%1$d av %2$d</item>
+        <item quantity="other">%1$d av %2$d</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">Du har %d aktiv tunnelbanebiljett</item>
+        <item quantity="other">Du har %d aktiva tunnelbanebiljetter</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">Du har %d aktiv biljett för den här resan</item>
+        <item quantity="other">Du har %d aktiva biljetter för den här resan</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">%d alternativ till</item>
+        <item quantity="other">%d alternativ till</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="one">Rapporterat av %1$d person</item>
+        <item quantity="other">Rapporterat av %1$d personer</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">Rapporterat av %1$d person</item>
+        <item quantity="other">Rapporterat av %1$d personer</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d varning</item>
+        <item quantity="other">%d varningar</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d plats</item>
+        <item quantity="other">%1$d platser</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">Visa svar</item>
+        <item quantity="other">Visa svar (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">Utforska här</item>
+        <item quantity="other">Utforska %d platser här</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d cykel tillgänglig</item>
+        <item quantity="other">%d cyklar tillgängliga</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">%s cykel på station</item>
+        <item quantity="other">%s cyklar på station</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d cykel</item>
+        <item quantity="other">%d cyklar</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d cykelställ är tillgängligt</item>
+        <item quantity="other">%d cykelställ är tillgängliga</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d cykelställ</item>
+        <item quantity="other">%d cykelställ</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">Rekommenderas av %1$d person</item>
+        <item quantity="other">Rekommenderas av %1$d personer</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Snabbare rutt, %1$s stopp mindre</item>
+        <item quantity="other">Snabbare rutt, %1$s färre stopp</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Snabbare rutt, %1$s stopp till</item>
+        <item quantity="other">Snabbare rutt, %1$s fler stopp</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Snabbare rutt tillgänglig, %1$s stopp har ändrats</item>
+        <item quantity="other">Snabbare rutt tillgänglig, %1$s stopp har ändrats</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Ny rutt beräknad med %1$s stopp mindre</item>
+        <item quantity="other">Ny rutt beräknad med %1$s färre stopp</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Ny rutt beräknad med %1$s laddstopp till</item>
+        <item quantity="other">Ny rutt beräknad med %1$s laddstopp till</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Ny rutt beräknad med %1$s ändrat laddstopp</item>
+        <item quantity="other">Ny rutt ändrad med %1$s ändrade laddstopp</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Ny rutt, %1$s stopp mindre</item>
+        <item quantity="other">Ny rutt, %1$s färre stopp</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Ny rutt, %1$s stopp mindre</item>
+        <item quantity="other">Ny rutt, %1$s färre stopp</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Det finns en ny rutt som kräver %1$s färre laddstopp. %2$s snabbare, inklusive körtid och laddtid.</item>
+        <item quantity="other">Det finns en ny rutt som kräver %1$s färre laddstopp. %2$s snabbare, inklusive körtid och laddtid.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Det finns en ny rutt som kräver %1$s fler laddstopp. %2$s snabbare, inklusive körtid och laddtid.</item>
+        <item quantity="other">Det finns en ny rutt som kräver %1$s fler laddstopp. %2$s snabbare, inklusive körtid och laddtid.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Ny rutt beräknad med %1$s laddstopp mindre. Du anländer kl. %2$s.</item>
+        <item quantity="other">Ny rutt beräknad med %1$s färre laddstopp. Du anländer kl. %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Ny rutt beräknad med %1$s laddstopp till. Du anländer kl. %2$s.</item>
+        <item quantity="other">Ny rutt beräknad med %1$s laddstopp till. Du anländer kl. %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Ny rutt beräknad med %1$s ändrat laddstopp. Du anländer kl. %2$s.</item>
+        <item quantity="other">Ny rutt beräknad med %1$s ändrade laddstopp. Du anländer kl. %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Det finns en ny rutt som kräver %1$s färre laddstopp. Liknande ankomsttid.</item>
+        <item quantity="other">Det finns en ny rutt som kräver %1$s färre laddstopp. Liknande ankomsttid.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Det finns en ny rutt som kräver %1$s färre laddstopp. %2$s långsammare, inklusive körtid och laddtid.</item>
+        <item quantity="other">Det finns en ny rutt som kräver %1$s färre laddstopp. %2$s långsammare, inklusive körtid och laddtid.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">Användes för %1$d dag sedan</item>
+        <item quantity="other">Användes för %1$d dagar sedan</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">Användes för %1$d vecka sedan</item>
+        <item quantity="other">Användes för %1$d veckor sedan</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">%1$d nätverk till</item>
+        <item quantity="other">%1$d nätverk till</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">%1$d har valts</item>
+        <item quantity="other">%1$d har valts</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s laddstopp</item>
+        <item quantity="other">%1$s laddstopp</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d stopp</item>
+        <item quantity="other">%1$d stopp</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d har valts</item>
+        <item quantity="other">%1$d har valts</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">+%1$d till</item>
+        <item quantity="other">+%1$d till</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">+%1$d till</item>
+        <item quantity="other">+%1$d till</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">+%1$d till</item>
+        <item quantity="other">+%1$d till</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="one">%2$d min till jobbet</item>
+        <item quantity="other">%1$d h %2$d min till jobbet</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="one">%2$d min hem</item>
+        <item quantity="other">%1$d h %2$d min hem</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="one">%2$d min till jobbet</item>
+        <item quantity="other">%1$d h %2$d min till jobbet</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="one">%2$d min restid</item>
+        <item quantity="other">%1$d h %2$d min restid</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="one">%2$d min hem</item>
+        <item quantity="other">%1$d h %2$d min hem</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">%d min snabbare än vanligt</item>
+        <item quantity="other">%d min snabbare än vanligt</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">%d min långsammare än vanligt</item>
+        <item quantity="other">%d min långsammare än vanligt</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Kartbäring %d grad.</item>
+        <item quantity="other">Kartbäring %d grader.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">%d-stjärnigt företag</item>
+        <item quantity="other">%d-stjärnigt företag</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">Local Guide på nivå %d</item>
+        <item quantity="other">Local Guide på nivå %d</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">Du har gett %1$s en stjärna</item>
+        <item quantity="other">Du har gett %1$s %2$d stjärnor</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">poäng</item>
+        <item quantity="other">poäng</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s dag</item>
+        <item quantity="other">%s dagar</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s d</item>
+        <item quantity="other">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sd</item>
+        <item quantity="other">%sd</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s dag</item>
+        <item quantity="other">%s dagar</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s timme</item>
+        <item quantity="other">%s timmar</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s tim</item>
+        <item quantity="other">%s tim</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sh</item>
+        <item quantity="other">%sh</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s minut</item>
+        <item quantity="other">%s minuter</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sm</item>
+        <item quantity="other">%sm</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s sekund</item>
+        <item quantity="other">%s sekunder</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Fortsätt i %1$s fot</item>
+        <item quantity="other">Fortsätt i %1$s fot</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Fortsätt %1$s kilometer</item>
+        <item quantity="other">Fortsätt %1$s kilometer</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Fortsätt %1$s meter</item>
+        <item quantity="other">Fortsätt %1$s meter</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Fortsätt i %1$s mile</item>
+        <item quantity="other">Fortsätt i %1$s mile</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Fortsätt i %1$s yard</item>
+        <item quantity="other">Fortsätt i %1$s yard</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Fortsätt på %2$s i %1$s fot</item>
+        <item quantity="other">Fortsätt på %2$s i %1$s fot</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Fortsätt på %2$s i %1$s kilometer</item>
+        <item quantity="other">Fortsätt på %2$s i %1$s kilometer</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Fortsätt på %2$s i %1$s meter</item>
+        <item quantity="other">Fortsätt på %2$s i %1$s meter</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Fortsätt på %2$s i %1$s mile</item>
+        <item quantity="other">Fortsätt på %2$s i %1$s mile</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Fortsätt på %2$s i %1$s yard</item>
+        <item quantity="other">Fortsätt på %2$s i %1$s yard</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">Efter %1$s fot</item>
+        <item quantity="other">Efter %1$s fot</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">Om %1$s kilometer</item>
+        <item quantity="other">Om %1$s kilometer</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">Efter %1$s meter</item>
+        <item quantity="other">Efter %1$s meter</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">Efter %1$s mile</item>
+        <item quantity="other">Efter %1$s mile</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">Efter %1$s yard</item>
+        <item quantity="other">Efter %1$s yard</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometer per timme</item>
+        <item quantity="other">%s kilometer per timme</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s mile per timme</item>
+        <item quantity="other">%s mile per timme</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Din destination är %1$s fot längre fram</item>
+        <item quantity="other">Din destination är %1$s fot längre fram</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Din destination är %1$s kilometer längre fram</item>
+        <item quantity="other">Din destination är %1$s kilometer längre fram</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Din destination är %1$s meter längre fram</item>
+        <item quantity="other">Din destination är %1$s meter längre fram</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Din destination är %1$s mile längre fram</item>
+        <item quantity="other">Din destination är %1$s mile längre fram</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Din destination är %1$s yard längre fram</item>
+        <item quantity="other">Din destination är %1$s yard längre fram</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d anhalt</item>
+        <item quantity="other">%d anhalter</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d anslutande färdsätt</item>
+        <item quantity="other">%1$d anslutande färdsätt</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">Uppdaterades för %d dag sedan</item>
+        <item quantity="other">Uppdaterades för %d dagar sedan</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">Uppdaterades för %d månad sedan</item>
+        <item quantity="other">Uppdaterades för %d månader sedan</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">Uppdaterades för %d vecka sedan</item>
+        <item quantity="other">Uppdaterades för %d veckor sedan</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d cykel</item>
+        <item quantity="other">%d cyklar</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">%d cykel i närheten</item>
+        <item quantity="other">%d cyklar i närheten</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">%1$d har valts</item>
+        <item quantity="other">%1$d har valts</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d av %2$d laddstolpe</item>
+        <item quantity="other">%1$d av %2$d laddstolpar</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d laddstolpe</item>
+        <item quantity="other">%d laddstolpar</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">Det gick inte att lämna betyget på en stjärna, försök igen</item>
+        <item quantity="other">Det gick inte att lämna betyget på %1$d stjärnor, försök igen</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">Våning %s</item>
+        <item quantity="other">Våningar %s</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">%d extra natt</item>
+        <item quantity="other">%d extra nätter</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">Lägg till %d natt</item>
+        <item quantity="other">Lägg till %d nätter</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">Detta hotell har lediga rum för %1$d natts boende. %2$s till ett genomsnittligt pris på %3$s per natt.</item>
+        <item quantity="other">Detta hotell har lediga rum för %1$d natts boende. %2$s till ett genomsnittligt pris på %3$s per natt.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">%1$s till ett genomsnittligt pris på %2$s per natt</item>
+        <item quantity="other">%1$s till ett genomsnittligt pris på %2$s per natt</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d gäst</item>
+        <item quantity="other">%d gäster</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">och %d till.</item>
+        <item quantity="other">och %d till.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">+%d till.</item>
+        <item quantity="other">+%d till.</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="one">%d dag sedan</item>
+        <item quantity="other">%d dagar sedan</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="one">%d timme sedan</item>
+        <item quantity="other">%d timmar sedan</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="one">%d minut sedan</item>
+        <item quantity="other">%d minuter sedan</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">Sparad i %1$s och %2$d till</item>
+        <item quantity="other">Sparad i %1$s och %2$d till</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Sparad och i %1$d lista</item>
+        <item quantity="other">Sparad och i %1$d listor</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="one">Har tagits bort från %d lista</item>
+        <item quantity="other">Har tagits bort från %d listor</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">Du besökte platsen för %d månad sedan</item>
+        <item quantity="other">Du besökte platsen för %d månader sedan</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">Du besökte platsen för %d vecka sedan</item>
+        <item quantity="other">Du besökte platsen för %d veckor sedan</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">Du besökte platsen för %d år sedan</item>
+        <item quantity="other">Du besökte platsen för %d år sedan</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d evenemang</item>
+        <item quantity="other">%d evenemang</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d objekt</item>
+        <item quantity="other">%d objekt</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d plats</item>
+        <item quantity="other">%d platser</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">Sparad %d gång</item>
+        <item quantity="other">Sparad %d gånger</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d resa</item>
+        <item quantity="other">%d resor</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s visning</item>
+        <item quantity="other">%s visningar</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="one">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">Redigerades för %d dag sedan</item>
+        <item quantity="other">Redigerades för %d dagar sedan</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">Redigerades för %d månad sedan</item>
+        <item quantity="other">Redigerades för %d månader sedan</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">Redigerades för %d vecka sedan</item>
+        <item quantity="other">Redigerades för %d veckor sedan</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">Redigerades för %d år sedan</item>
+        <item quantity="other">Redigerades för %d år sedan</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="one">%d hållplats</item>
+        <item quantity="other">%d hållplatser</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">Du har %d poäng</item>
+        <item quantity="other">Du har %d poäng</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">Du behöver bara %1$d poäng till för att nå nivå %2$d</item>
+        <item quantity="other">Du behöver bara %1$d poäng till för att nå nivå %2$d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">Nivå %d</item>
+        <item quantity="other">Nivå %d</item>
+    </plurals>
+    <plurals name="plurals_0x7f120093">
+        <item quantity="one">Local Guide-nivå %d</item>
+        <item quantity="other">Local Guide-nivå %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">%d år i branschen</item>
+        <item quantity="other">Över %d år i branschen</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d dag sedan</item>
+        <item quantity="other">%d dagar sedan</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d timme sedan</item>
+        <item quantity="other">%d timmar sedan</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d min sedan</item>
+        <item quantity="other">%d min sedan</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">%d plats här</item>
+        <item quantity="other">%d platser här</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">Foto har tagits bort</item>
+        <item quantity="other">Foton har tagits bort</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Maximera video i inlägg %1$d</item>
+        <item quantity="other">Maximera video %2$d i inlägg %1$d</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d av %2$,d</item>
+        <item quantity="other">%1$,d av %2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Laddar upp %1$d medium</item>
+        <item quantity="other">Laddar upp %1$d medier</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Menyfoto %d</item>
+        <item quantity="other">Menyfoto %d</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d rapport</item>
+        <item quantity="other">%1$d rapporter</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">Personer med denna länk kan se din plats i 1 dag och %d timme</item>
+        <item quantity="other">Personer med denna länk kan se din plats i 1 dag och %d timmar</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">Personer med denna länk kan se din plats i 1 timme och %d min</item>
+        <item quantity="other">Personer med denna länk kan se din plats i 1 timme och %d min</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">Personer med denna länk kan se din plats i %d dag</item>
+        <item quantity="other">Personer med denna länk kan se din plats i %d dagar</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">Personer med denna länk kan se din plats i %d timme</item>
+        <item quantity="other">Personer med denna länk kan se din plats i %d timmar</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">Personer med denna länk kan se din plats i %d min</item>
+        <item quantity="other">Personer med denna länk kan se din plats i %d min</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">%d till</item>
+        <item quantity="other">%d till</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Stäng av ljud i video i inlägg %1$d</item>
+        <item quantity="other">Stäng av ljud i video %2$d i inlägg %1$d</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d foto/video</item>
+        <item quantity="other">%d foton/videor</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videor</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">Anpassad avatar %1$d av %2$d</item>
+        <item quantity="other">Anpassad avatar %1$d av %2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d ny uppdatering</item>
+        <item quantity="other">%d nya uppdateringar</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">Företagsuppdateringar, %1$s ny avisering</item>
+        <item quantity="other">Företagsuppdateringar, %1$s nya aviseringar</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">%d foton</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d recension</item>
+        <item quantity="other">%d recensioner</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">Miniatyrbild %d</item>
+        <item quantity="other">Miniatyrbild %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d offlineområde</item>
+        <item quantity="other">%d offlineområden</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">Baserat på %1$d rapport</item>
+        <item quantity="other">Baserat på %1$d rapporter</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Pausa video i inlägg %1$d</item>
+        <item quantity="other">Pausa video %2$d i inlägg %1$d</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s interaktion</item>
+        <item quantity="other">%1$s interaktioner</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s sökning</item>
+        <item quantity="other">%1$s sökningar</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s visning</item>
+        <item quantity="other">%1$s visningar</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">Bokning för %d natt</item>
+        <item quantity="other">Bokning för %d nätter</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">Bara du kan se det här</item>
+        <item quantity="other">Bara du kan se de här</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dagar</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d natt</item>
+        <item quantity="other">%1$d nätter</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">%d foton</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Väntar på wifi.
+ %d väntande foto/video."</item>
+        <item quantity="other">"Väntar på wifi.
+ %d väntande foton/videor."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">Foto för inlägg %1$d</item>
+        <item quantity="other">Foto %2$d för inlägg %1$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d dag sedan</item>
+        <item quantity="other">%d dagar sedan</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d timme sedan</item>
+        <item quantity="other">%d timmar sedan</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d månad sedan</item>
+        <item quantity="other">%d månader sedan</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d vecka sedan</item>
+        <item quantity="other">%d veckor sedan</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d år sedan</item>
+        <item quantity="other">%d år sedan</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d uppdatering</item>
+        <item quantity="other">%d uppdateringar</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">Visa %d svar</item>
+        <item quantity="other">Visa %d svar</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Spela upp video i inlägg %1$d</item>
+        <item quantity="other">Spela upp video %2$d i inlägg %1$d</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+%d annan delar</item>
+        <item quantity="other">+%d andra delar</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Ersätt anhalt</item>
+        <item quantity="other">Ersätt anhalter</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Ersätter anhalt</item>
+        <item quantity="other">Ersätter anhalter</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d visning</item>
+        <item quantity="other">%,d visningar</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d betyg</item>
+        <item quantity="other">%d betyg</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d recension</item>
+        <item quantity="other">%d recensioner</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">Fick %d stjärna</item>
+        <item quantity="other">Fick %d stjärnor</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="one">%d stjärna</item>
+        <item quantity="other">%d stjärnor</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">1 %2$s-reaktion</item>
+        <item quantity="other">%1$,d %2$s-reaktioner</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">Uppdaterades för %d min sedan</item>
+        <item quantity="other">Uppdaterades för %d min sedan</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">För ett tåg med %1$d vagn går du ombord på %2$s för närmaste utgång</item>
+        <item quantity="other">För ett tåg med %1$d vagnar går du ombord på %2$s för närmaste utgång</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">För ett tåg med %1$d vagn går du ombord på %2$s för snabbast byte</item>
+        <item quantity="other">För ett tåg med %1$d vagnar går du ombord på %2$s för snabbast byte</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">Den minst trånga vagnen är %1$s</item>
+        <item quantity="other">De minst trånga vagnarna är %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">Tåg med %1$d vagnar</item>
+        <item quantity="other">Tåg med %1$d vagnar</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d betalning</item>
+        <item quantity="other">%d betalningar</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s + %2$s till</item>
+        <item quantity="other">%1$s + %2$s till</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="one">>%d</item>
+        <item quantity="other">>%d</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">Ge 1 stjärna av 5 i betyg</item>
+        <item quantity="other">Ge %1$d stjärnor av 5 i betyg</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s visning</item>
+        <item quantity="other">%s visningar</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d betyg eller recension</item>
+        <item quantity="other">%,d betyg eller recensioner</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d betyg eller recension</item>
+        <item quantity="other">%,d betyg eller recensioner</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d person</item>
+        <item quantity="other">%d personer</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="one">%d fråga</item>
+        <item quantity="other">%d frågor</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">%d lista till</item>
+        <item quantity="other">%d listor till</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Sparad i %1$s och %2$d lista till</item>
+        <item quantity="other">Sparad i %1$s och %2$d listor till</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">Vill du spara besöket för %d dag sedan?</item>
+        <item quantity="other">Vill du spara besöket för %d dagar sedan?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">%1$d resultat hittades för %2$s</item>
+        <item quantity="other">%1$d resultat hittades för %2$s</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">Skickar en stjärna i betyg</item>
+        <item quantity="other">Skickar %1$d stjärnor i betyg</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">i %d dag</item>
+        <item quantity="other">i %d dagar</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">i %d timme</item>
+        <item quantity="other">i %d timmar</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">i %d min</item>
+        <item quantity="other">i %d min</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">Delar din position med %2$s och på %1$d annat sätt</item>
+        <item quantity="other">Delar din position med %2$s och på %1$d andra sätt</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">Delar din position på %d annat sätt</item>
+        <item quantity="other">Delar din position på %d andra sätt</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="one">Spara %d plats</item>
+        <item quantity="other">Spara %d platser</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="one">%d plats hittades</item>
+        <item quantity="other">%d platser hittades</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s, %2$d stjärna</item>
+        <item quantity="other">%1$s, %2$d stjärnor</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">Du har lämnat en stjärna i betyg</item>
+        <item quantity="other">Du har lämnat %1$d stjärnor i betyg</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d visning</item>
+        <item quantity="other">%,d visningar</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d poäng</item>
+        <item quantity="other">+%d poäng</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">Publicera %1$d foto eller video av %2$s</item>
+        <item quantity="other">Publicera %1$d foton eller videor av %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">Lägg upp %1$d foto från %2$s</item>
+        <item quantity="other">Lägg upp %1$d foton från %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">+ %d till</item>
+        <item quantity="other">+ %d till</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">Lägg upp %1$d foto</item>
+        <item quantity="other">Lägg upp %1$d foton</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">Publicera %1$d</item>
+        <item quantity="other">Publicera %1$d</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$d person har nämnt %2$s</item>
+        <item quantity="other">%1$,d personer har nämnt %2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">En reaktion</item>
+        <item quantity="other">%1$,d reaktioner</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">Visa %1$d till alternativ till från %2$s</item>
+        <item quantity="other">Visa %1$d till alternativ från %2$s</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">Se %1$d alternativ till</item>
+        <item quantity="other">Se %1$d alternativ till</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">Spara din adress för att se de snabbaste rutterna och undvika trafik</item>
+        <item quantity="other">Spara dina adresser om du vill se de snabbaste rutterna och undvika trafik</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">Avgångar uppdaterade för %1$d sekund sedan</item>
+        <item quantity="other">Avgångar uppdaterade för %1$d sekunder sedan</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">Avgår varje minut</item>
+        <item quantity="other">Avgår var %d:e minut</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES_LONG">
+        <item quantity="one">minut</item>
+        <item quantity="other">minuter</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="one">%1$s (en avisering)</item>
+        <item quantity="other">%1$s (%2$d aviseringar)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="one">Buss %1$s (en avisering)</item>
+        <item quantity="other">Buss %1$s (%2$d aviseringar)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="one">Färja %1$s (en avisering)</item>
+        <item quantity="other">Färja %1$s (%2$d aviseringar)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="one">Linje %1$s (en avisering)</item>
+        <item quantity="other">Linje %1$s (%2$d aviseringar)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="one">Tåg %1$s (en avisering)</item>
+        <item quantity="other">Tåg %1$s (%2$d aviseringar)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="one">Spårvagn %1$s (en avisering)</item>
+        <item quantity="other">Spårvagn %1$s (%2$d aviseringar)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="one">Varje minut</item>
+        <item quantity="other">Med %d minuters mellanrum</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d stopp</item>
+        <item quantity="other">%d stopp</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_CARD">
+        <item quantity="one">"%1$d
+min sedan"</item>
+        <item quantity="other">"%1$d
+min sedan"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+min sedan"</item>
+        <item quantity="other">"%1$s
+min sedan"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Avgick för %1$s minut sedan</item>
+        <item quantity="other">Avgick för %1$s minuter sedan</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d varning</item>
+        <item quantity="other">+%d varningar</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d varning</item>
+        <item quantity="other">+ %d varningar</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d till</item>
+        <item quantity="other">+%d till</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">och %d till</item>
+        <item quantity="other">och %d till</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_ITEMS_COUNT">
+        <item quantity="one">+ %1$d till</item>
+        <item quantity="other">+ %1$d till</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+min"</item>
+        <item quantity="other">"%1$s
+min"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">för %1$s min sedan</item>
+        <item quantity="other">för %1$s min sedan</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Avgår om %1$s minut</item>
+        <item quantity="other">Avgår om %1$s minuter</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">%1$s varning till</item>
+        <item quantity="other">%1$s varningar till</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s foto</item>
+        <item quantity="other">%s foton</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s recension</item>
+        <item quantity="other">%s recensioner</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d bidrag</item>
+        <item quantity="other">%,d bidrag</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d visning</item>
+        <item quantity="other">%,d visningar</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Välj upp till %1$d</item>
+        <item quantity="other">Välj upp till %1$d</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Välj upp till %1$s foto</item>
+        <item quantity="other">Välj upp till %1$s foton</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Sätt på ljud i video i inlägg %1$d</item>
+        <item quantity="other">Sätt på ljud i video %2$d i inlägg %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d av %2$d</item>
+        <item quantity="other">%1$d av %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Väntar på wifi.
+ %d väntande foto."</item>
+        <item quantity="other">"Väntar på wifi.
+ %d väntande foton."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d foto har valts</item>
+        <item quantity="other">%d foton har valts</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">Besökt %1$d av %2$d plats</item>
+        <item quantity="other">Besökt %1$d av %2$d platser</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Inaktivera batterisparläget för att öka platsnoggrannheten när du delar din plats med %1$s + %2$d till</item>
+        <item quantity="other">Inaktivera batterisparläget för att öka platsnoggrannheten när du delar din plats %1$s + %2$d till</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Du måste aktivera Platsdelning för att fortsätta dela din plats med %1$s + %2$d till</item>
+        <item quantity="other">Du måste aktivera Platsdelning för att fortsätta dela din plats med %1$s + %2$d till</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Uppdatera Platsdelning för att fortsätta dela din plats på denna enhet med %1$s + %2$d till</item>
+        <item quantity="other">Uppdatera Platsdelning för att fortsätta dela din plats på denna enhet med %1$s + %2$d till</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Tillåt Maps att identifiera din fysiska aktivitet för att öka platsnoggrannheten när du delar din plats med %1$s + %2$d till</item>
+        <item quantity="other">Tillåt Maps att identifiera din fysiska aktivitet för att öka platsnoggrannheten när du delar din plats med %1$s + %2$d till</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Tillåt alltid Maps att komma åt din plats för att öka noggrannheten när du delar din plats med %1$s + %2$d till</item>
+        <item quantity="other">Tillåt alltid Maps att komma åt din plats för att öka noggrannheten när du delar din plats med %1$s + %2$d till</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Tillåt alltid Maps att komma åt din plats för att fortsätta dela den med %1$s + %2$d till</item>
+        <item quantity="other">Tillåt alltid Maps att komma åt din plats för att fortsätta dela den med %1$s + %2$d till</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">>%d foto</item>
+        <item quantity="other">>%d foton</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d recension)</item>
+        <item quantity="other">(%,d recensioner)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="one">%1$s sekund</item>
+        <item quantity="other">%1$s sekunder</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">Video för inlägg %1$d</item>
+        <item quantity="other">Video %2$d för inlägg %1$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">Video för inlägg %1$d är i helskärmsformat</item>
+        <item quantity="other">Video %2$d för inlägg %1$d är i helskärmsformat</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d natt</item>
+        <item quantity="other">%2$s × %1$d nätter</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%2$s för %1$d natt inkl. skatter och avgifter</item>
+        <item quantity="other">%2$s för %1$d nätter inkl. skatter och avgifter</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">En minuts promenad</item>
+        <item quantity="other">%d minuters promenad</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">%d stopp</item>
+        <item quantity="other">%d stopp</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d hållplats)</item>
+        <item quantity="other">(%d hållplatser)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d vecka sedan</item>
+        <item quantity="other">%d veckor sedan</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d år sedan</item>
+        <item quantity="other">%d år sedan</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">Se ytterligare foto</item>
+        <item quantity="other">Se ytterligare %1$d foton</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">Din recension eller nyhet</item>
+        <item quantity="other">Dina recensioner och nyheter</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">Du följer %1$s och %2$d lista till</item>
+        <item quantity="other">Du följer %1$s och %2$d listor till</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s och %2$d till</item>
+        <item quantity="other">%1$s och %2$d till</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="one">%1$d av %2$d</item>
+        <item quantity="other">%1$d av %2$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d av %2$d</item>
+        <item quantity="other">%1$d av %2$d</item>
+    </plurals>
+    <plurals name="plurals_0x7f12014e">
+        <item quantity="one"></item>
+        <item quantity="other">nivå %1$d</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">Ett foto/en video</item>
+        <item quantity="other">%1$d foton/videor</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ny avisering</item>
+        <item quantity="other">%d nya aviseringar</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">%d mottagare kopierades</item>
+        <item quantity="other">%d mottagare kopierades</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">Berätta något om detta foto (valfritt)</item>
+        <item quantity="other">Berätta något om dina foton (valfritt)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Du har en avisering</item>
+        <item quantity="other">%1$d nya aviseringar</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d av %2$d stjärnor</item>
+        <item quantity="other">%1$d av %2$d stjärnor</item>
+    </plurals>
+    <plurals name="tell_maps_know_before_you_go_place_contextual_zero_state_post_tip">
+        <item quantity="one">Vill du lägga upp ett tips om den här platsen?</item>
+        <item quantity="other">Vill du lägga upp ett tips om en av de här platserna?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_post_tip_or_photo">
+        <item quantity="one">Vill du lägga upp ett foto eller ett tips om den här platsen?</item>
+        <item quantity="other">Vill du lägga upp ett foto eller ett tips om en av de här platserna?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_update_a_place">
+        <item quantity="one">Vill du uppdatera något om den här platsen?</item>
+        <item quantity="other">Vilken plats vill du uppdatera?</item>
+    </plurals>
+</resources>

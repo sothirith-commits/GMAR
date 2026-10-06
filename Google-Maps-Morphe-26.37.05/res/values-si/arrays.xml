@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>ඒ</item>
+        <item>බී</item>
+        <item>සී</item>
+        <item>ඩී</item>
+        <item>ඊ</item>
+        <item>එෆ්</item>
+        <item>ජී</item>
+        <item>එච්</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>ඕනෑම එකක්</item>
+        <item>Rs</item>
+        <item>RsRs</item>
+        <item>RsRsRs</item>
+        <item>RsRsRsRs</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>ඕනෑම මිල මට්ටමක්</item>
+        <item>මිල අධික නොවූ</item>
+        <item>තරමක් මිල අධික</item>
+        <item>මිල අධික</item>
+        <item>ඉතා මිල අධික</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>ඕනෑම එකක්</item>
+        <item>තරු 3</item>
+        <item>තරු 4</item>
+        <item>තරුව</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>ඕනෑම එකක්</item>
+        <item>දැන් විවෘතයි</item>
+        <item>අභිරුචි</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>විශාලනය අතරේ</item>
+        <item>සැම විට</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>තුළු සහ බිහි සූමකරණය කරන විට</item>
+        <item>සැමවිටම</item>
+    </string-array>
+    <string-array name="five_stars_state_commentary">
+        <item>එයට අප්‍රියයි</item>
+        <item>එයට අකැමතියි</item>
+        <item>එහි වරදක් නැහැ</item>
+        <item>එයට කැමතියි</item>
+        <item>එයට ප්‍රියයි</item>
+    </string-array>
+</resources>

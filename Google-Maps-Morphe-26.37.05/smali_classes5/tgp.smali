@@ -1,0 +1,668 @@
+.class public final Ltgp;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field private static final e:Lbwny;
+
+
+# instance fields
+.field public final a:Lapbw;
+
+.field public final b:Lcteo;
+
+.field public final c:Lctts;
+
+.field public final d:Lapyz;
+
+.field private final f:Lusb;
+
+.field private final g:Lsoo;
+
+.field private final h:Lspm;
+
+.field private final i:Lbecy;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    .line 2
+    const-string v0, "tgp"
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {v0}, Lbwny;->g(Ljava/lang/String;)Lbwny;
+
+    .line 6
+    move-result-object v0
+
+    .line 7
+    .line 8
+    sput-object v0, Ltgp;->e:Lbwny;
+
+    .line 9
+    return-void
+.end method
+
+.method public constructor <init>(Lapyz;Lapbw;Lcteo;Lajzi;Lbecy;Laybo;Lusb;Lsoo;Lspm;)V
+    .locals 3
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-virtual {p4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {p6}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 19
+    .line 20
+    iput-object p1, p0, Ltgp;->d:Lapyz;
+
+    .line 21
+    .line 22
+    iput-object p2, p0, Ltgp;->a:Lapbw;
+
+    .line 23
+    .line 24
+    iput-object p3, p0, Ltgp;->b:Lcteo;
+
+    .line 25
+    .line 26
+    iput-object p5, p0, Ltgp;->i:Lbecy;
+
+    .line 27
+    .line 28
+    iput-object p7, p0, Ltgp;->f:Lusb;
+
+    .line 29
+    .line 30
+    iput-object p8, p0, Ltgp;->g:Lsoo;
+
+    .line 31
+    .line 32
+    iput-object p9, p0, Ltgp;->h:Lspm;
+
+    .line 33
+    .line 34
+    .line 35
+    invoke-interface {p8}, Lsoo;->b()Lctts;
+
+    .line 36
+    move-result-object p1
+
+    .line 37
+    .line 38
+    .line 39
+    invoke-interface {p4}, Lajzi;->r()Lctts;
+
+    .line 40
+    move-result-object p2
+
+    .line 41
+    .line 42
+    .line 43
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 44
+    move-object p3, p9
+
+    .line 45
+    .line 46
+    check-cast p3, Ltgj;
+
+    .line 47
+    .line 48
+    iget-object p3, p3, Ltgj;->p:Lctts;
+
+    .line 49
+    .line 50
+    const-class p5, Laqaq;
+
+    .line 51
+    .line 52
+    .line 53
+    invoke-static {p6, p5}, Laygw;->aL(Laybo;Ljava/lang/Class;)Lctrc;
+
+    .line 54
+    move-result-object p5
+
+    .line 55
+    .line 56
+    new-instance p6, Limp;
+
+    .line 57
+    .line 58
+    const/16 v0, 0xa
+
+    .line 59
+    const/4 v1, 0x0
+
+    .line 60
+    .line 61
+    .line 62
+    invoke-direct {p6, v1, v0, v1}, Limp;-><init>(Lctej;I[[I)V
+
+    .line 63
+    .line 64
+    new-instance v0, Lbivy;
+
+    .line 65
+    const/4 v2, 0x6
+
+    .line 66
+    .line 67
+    .line 68
+    invoke-direct {v0, p6, p5, v2}, Lbivy;-><init>(Lctgk;Lctrc;I)V
+
+    .line 69
+    .line 70
+    new-instance p5, Ltgl;
+
+    .line 71
+    .line 72
+    .line 73
+    invoke-direct {p5, v1}, Ltgl;-><init>(Lctej;)V
+
+    .line 74
+    .line 75
+    .line 76
+    invoke-static {p1, p2, p3, v0, p5}, Lcthd;->U(Lctrc;Lctrc;Lctrc;Lctrc;Lctgn;)Lctrc;
+
+    .line 77
+    move-result-object p1
+
+    .line 78
+    .line 79
+    new-instance p2, Ltgm;
+
+    .line 80
+    const/4 p3, 0x0
+
+    .line 81
+    .line 82
+    .line 83
+    invoke-direct {p2, p0, v1, p3}, Ltgm;-><init>(Ltgp;Lctej;I)V
+
+    .line 84
+    .line 85
+    sget p3, Lctsg;->a:I
+
+    .line 86
+    .line 87
+    new-instance p3, Lctum;
+
+    .line 88
+    .line 89
+    .line 90
+    invoke-direct {p3, p2, p1}, Lctum;-><init>(Lctgl;Lctrc;)V
+
+    .line 91
+    .line 92
+    new-instance p1, Ltgk;
+
+    .line 93
+    .line 94
+    .line 95
+    invoke-interface {p8}, Lsoo;->b()Lctts;
+
+    .line 96
+    move-result-object p2
+
+    .line 97
+    .line 98
+    .line 99
+    invoke-interface {p2}, Lctts;->e()Ljava/lang/Object;
+
+    .line 100
+    move-result-object p2
+
+    .line 101
+    .line 102
+    check-cast p2, Lrfr;
+
+    .line 103
+    .line 104
+    .line 105
+    invoke-interface {p4}, Lajzi;->d()Laxre;
+
+    .line 106
+    move-result-object p4
+
+    .line 107
+    .line 108
+    instance-of p4, p4, Laxrf;
+
+    .line 109
+    .line 110
+    check-cast p9, Ltgj;
+
+    .line 111
+    .line 112
+    iget-object p5, p9, Ltgj;->p:Lctts;
+
+    .line 113
+    .line 114
+    .line 115
+    invoke-interface {p5}, Lctts;->e()Ljava/lang/Object;
+
+    .line 116
+    move-result-object p5
+
+    .line 117
+    .line 118
+    check-cast p5, Lspl;
+
+    .line 119
+    .line 120
+    .line 121
+    invoke-static {p5}, Lsda;->ae(Lspl;)Z
+
+    .line 122
+    move-result p5
+
+    .line 123
+    .line 124
+    .line 125
+    invoke-direct {p1, p2, p4, p5, v1}, Ltgk;-><init>(Lrfr;ZZLcioy;)V
+
+    .line 126
+    .line 127
+    new-instance p2, Lubf;
+
+    .line 128
+    const/4 p4, 0x1
+
+    .line 129
+    .line 130
+    .line 131
+    invoke-direct {p2, p0, v1, p4}, Lubf;-><init>(Ltgp;Lctej;I)V
+
+    .line 132
+    .line 133
+    new-instance p5, Lctsy;
+
+    .line 134
+    .line 135
+    .line 136
+    invoke-direct {p5, p1, p3, p2, p4}, Lctsy;-><init>(Ljava/lang/Object;Lctrc;Lctgl;I)V
+
+    .line 137
+    .line 138
+    new-instance p1, Ltge;
+
+    .line 139
+    .line 140
+    const/16 p2, 0x8
+
+    .line 141
+    .line 142
+    .line 143
+    invoke-direct {p1, p5, p2}, Ltge;-><init>(Ljava/lang/Object;I)V
+
+    .line 144
+    .line 145
+    check-cast p7, Lstk;
+
+    .line 146
+    .line 147
+    iget-object p2, p7, Lstk;->m:Lctmm;
+
+    .line 148
+    .line 149
+    sget-object p3, Lcttm;->a:Lcttn;
+
+    .line 150
+    .line 151
+    .line 152
+    invoke-static {p1, p2, p3, v1}, Lcthd;->X(Lctrc;Lctmm;Lcttn;Ljava/lang/Object;)Lctts;
+
+    .line 153
+    move-result-object p1
+
+    .line 154
+    .line 155
+    iput-object p1, p0, Ltgp;->c:Lctts;
+
+    .line 156
+    return-void
+.end method
+
+.method public static final b(Ltgk;)Z
+    .locals 1
+
+    .line 1
+    .line 2
+    iget-boolean v0, p0, Ltgk;->b:Z
+
+    .line 3
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    .line 6
+    iget-boolean p0, p0, Ltgk;->c:Z
+
+    .line 7
+    .line 8
+    if-nez p0, :cond_0
+
+    .line 9
+    const/4 p0, 0x1
+
+    .line 10
+    return p0
+
+    .line 11
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 12
+    return p0
+.end method
+
+
+# virtual methods
+.method public final a(Lrfx;Lctej;)Ljava/lang/Object;
+    .locals 11
+
+    .line 1
+    .line 2
+    instance-of v0, p2, Ltgo;
+
+    .line 3
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    move-object v0, p2
+
+    .line 6
+    .line 7
+    check-cast v0, Ltgo;
+
+    .line 8
+    .line 9
+    iget v1, v0, Ltgo;->c:I
+
+    .line 10
+    .line 11
+    const/high16 v2, -0x80000000
+
+    .line 12
+    .line 13
+    and-int v3, v1, v2
+
+    .line 14
+    .line 15
+    if-eqz v3, :cond_0
+
+    .line 16
+    sub-int/2addr v1, v2
+
+    .line 17
+    .line 18
+    iput v1, v0, Ltgo;->c:I
+
+    .line 19
+    goto :goto_0
+
+    .line 20
+    .line 21
+    :cond_0
+    new-instance v0, Ltgo;
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-direct {v0, p0, p2}, Ltgo;-><init>(Ltgp;Lctej;)V
+
+    .line 25
+    .line 26
+    :goto_0
+    iget-object p2, v0, Ltgo;->a:Ljava/lang/Object;
+
+    .line 27
+    .line 28
+    sget-object v1, Lcter;->a:Lcter;
+
+    .line 29
+    .line 30
+    iget v2, v0, Ltgo;->c:I
+
+    .line 31
+    const/4 v3, 0x0
+
+    .line 32
+    const/4 v4, 0x1
+
+    .line 33
+    .line 34
+    if-eqz v2, :cond_2
+
+    .line 35
+    .line 36
+    if-ne v2, v4, :cond_1
+
+    .line 37
+    .line 38
+    .line 39
+    :try_start_0
+    invoke-static {p2}, Lctel;->bY(Ljava/lang/Object;)V
+    :try_end_0
+    .catch Lcom/google/android/apps/gmm/personalplaces/api/SyncStorageException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 40
+    goto :goto_1
+
+    .line 41
+    :catch_0
+    move-exception v0
+
+    .line 42
+    move-object p0, v0
+
+    .line 43
+    goto :goto_2
+
+    .line 44
+    .line 45
+    :cond_1
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    .line 46
+    .line 47
+    const-string p1, "call to \'resume\' before \'invoke\' with coroutine"
+
+    .line 48
+    .line 49
+    .line 50
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 51
+    throw p0
+
+    .line 52
+    .line 53
+    .line 54
+    :cond_2
+    invoke-static {p2}, Lctel;->bY(Ljava/lang/Object;)V
+
+    .line 55
+    .line 56
+    iget-object v7, p1, Lrfx;->d:Lolk;
+
+    .line 57
+    .line 58
+    if-eqz v7, :cond_4
+
+    .line 59
+    .line 60
+    :try_start_1
+    iget-object p1, p0, Ltgp;->i:Lbecy;
+
+    .line 61
+    .line 62
+    .line 63
+    invoke-virtual {p1, v7}, Lbecy;->x(Lolk;)Lapdl;
+
+    .line 64
+    move-result-object v8
+
+    .line 65
+    .line 66
+    iget-object p1, p0, Ltgp;->b:Lcteo;
+
+    .line 67
+    .line 68
+    new-instance v5, Lijo;
+
+    .line 69
+    const/4 v9, 0x0
+
+    .line 70
+    const/4 v10, 0x5
+
+    .line 71
+    move-object v6, p0
+
+    .line 72
+    .line 73
+    .line 74
+    invoke-direct/range {v5 .. v10}, Lijo;-><init>(Ltgp;Lolk;Lapdl;Lctej;I)V
+
+    .line 75
+    .line 76
+    iput v4, v0, Ltgo;->c:I
+
+    .line 77
+    .line 78
+    .line 79
+    invoke-static {p1, v5, v0}, Lcthd;->F(Lcteo;Lctgk;Lctej;)Ljava/lang/Object;
+
+    .line 80
+    move-result-object p2
+
+    .line 81
+    .line 82
+    if-eq p2, v1, :cond_3
+
+    .line 83
+    .line 84
+    :goto_1
+    check-cast p2, Ljava/lang/Boolean;
+
+    .line 85
+    .line 86
+    .line 87
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    .line 88
+    move-result p0
+    :try_end_1
+    .catch Lcom/google/android/apps/gmm/personalplaces/api/SyncStorageException; {:try_start_1 .. :try_end_1} :catch_0
+
+    .line 89
+    .line 90
+    if-eqz p0, :cond_4
+
+    .line 91
+    move v3, v4
+
+    .line 92
+    goto :goto_3
+
+    .line 93
+    :cond_3
+    return-object v1
+
+    .line 94
+    .line 95
+    :goto_2
+    sget-object p1, Ltgp;->e:Lbwny;
+
+    .line 96
+    .line 97
+    .line 98
+    invoke-virtual {p1}, Lbwno;->b()Lbwom;
+
+    .line 99
+    move-result-object p1
+
+    .line 100
+    .line 101
+    check-cast p1, Lbwnv;
+
+    .line 102
+    .line 103
+    .line 104
+    invoke-interface {p1, p0}, Lbwnv;->o(Ljava/lang/Throwable;)Lbwom;
+
+    .line 105
+    move-result-object p0
+
+    .line 106
+    .line 107
+    const/16 p1, 0x65d
+
+    .line 108
+    .line 109
+    .line 110
+    invoke-interface {p0, p1}, Lbwom;->L(I)Lbwom;
+
+    .line 111
+    move-result-object p0
+
+    .line 112
+    .line 113
+    check-cast p0, Lbwnv;
+
+    .line 114
+    .line 115
+    const-string p1, "Could not retrieve starred status."
+
+    .line 116
+    .line 117
+    .line 118
+    invoke-interface {p0, p1}, Lbwnv;->s(Ljava/lang/String;)V
+
+    .line 119
+    .line 120
+    .line 121
+    :cond_4
+    :goto_3
+    invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    .line 122
+    move-result-object p0
+
+    .line 123
+    return-object p0
+.end method

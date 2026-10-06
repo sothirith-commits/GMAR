@@ -1,0 +1,2375 @@
+.class public final Lbihw;
+.super Lbhdu;
+.source "PG"
+
+# interfaces
+.implements Lbhzj;
+
+
+# instance fields
+.field volatile b:Lbifd;
+
+.field volatile c:Lbiff;
+
+.field volatile d:Lbiff;
+
+.field volatile e:Lbiff;
+
+.field volatile f:Lbiff;
+
+.field volatile g:Lbiff;
+
+.field volatile h:Lbiff;
+
+.field volatile i:Lbifd;
+
+.field volatile j:Lbifd;
+
+.field volatile k:Lbiff;
+
+.field volatile l:Lbhdu;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lbihv;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, v0}, Lbhdu;-><init>(Lcom/google/android/libraries/elements/adl/UpbMiniTable;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final A()Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbihw;->f:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_1
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/16 v1, 0x10
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p0
+
+    .line 13
+    if-eqz p0, :cond_0
+
+    .line 14
+    .line 15
+    goto :goto_0
+
+    .line 16
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 17
+    return p0
+
+    .line 18
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    .line 19
+    return p0
+.end method
+
+.method public final B()Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbihw;->e:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_1
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    invoke-virtual {p0, v0, v0}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    if-eqz p0, :cond_0
+
+    .line 12
+    .line 13
+    goto :goto_0
+
+    .line 14
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 15
+    return p0
+
+    .line 16
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    .line 17
+    return p0
+.end method
+
+.method public final C()Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbihw;->j:Lbifd;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    if-nez v0, :cond_1
+
+    .line 5
+    .line 6
+    const/16 v0, 0x9
+
+    .line 7
+    .line 8
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result p0
+
+    .line 12
+    if-eqz p0, :cond_0
+
+    .line 13
+    .line 14
+    goto :goto_0
+
+    .line 15
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 16
+    return p0
+
+    .line 17
+    :cond_1
+    :goto_0
+    return v1
+.end method
+
+.method public final D()Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbihw;->b:Lbifd;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    if-nez v0, :cond_1
+
+    .line 5
+    .line 6
+    const/16 v0, 0x8
+
+    .line 7
+    .line 8
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result p0
+
+    .line 12
+    if-eqz p0, :cond_0
+
+    .line 13
+    .line 14
+    goto :goto_0
+
+    .line 15
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 16
+    return p0
+
+    .line 17
+    :cond_1
+    :goto_0
+    return v1
+.end method
+
+.method public final E()I
+    .locals 4
+
+    .line 1
+    const/16 v0, 0xa
+
+    .line 2
+    .line 3
+    const/16 v1, 0x10
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    if-nez v0, :cond_0
+
+    .line 10
+    .line 11
+    goto :goto_1
+
+    .line 12
+    :cond_0
+    iget-wide v0, p0, Lbihw;->upbHandle:J
+
+    .line 13
+    .line 14
+    const/4 p0, 0x1
+
+    .line 15
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 16
+    .line 17
+    if-eq p0, v2, :cond_1
+
+    .line 18
+    .line 19
+    const-wide/16 v2, 0x5c
+
+    .line 20
+    .line 21
+    goto :goto_0
+
+    .line 22
+    :cond_1
+    const-wide/16 v2, 0x34
+
+    .line 23
+    .line 24
+    :goto_0
+    invoke-static {v0, v1, v2, v3}, Lbihw;->readInt32(JJ)I
+
+    .line 25
+    .line 26
+    .line 27
+    move-result p0
+
+    .line 28
+    invoke-static {p0}, La;->bw(I)I
+
+    .line 29
+    .line 30
+    .line 31
+    move-result p0
+
+    .line 32
+    if-eqz p0, :cond_2
+
+    .line 33
+    .line 34
+    return p0
+
+    .line 35
+    :cond_2
+    :goto_1
+    const/4 p0, 0x0
+
+    .line 36
+    invoke-static {p0}, La;->bw(I)I
+
+    .line 37
+    .line 38
+    .line 39
+    move-result p0
+
+    .line 40
+    return p0
+.end method
+
+.method public final F()I
+    .locals 5
+
+    .line 1
+    iget-wide v0, p0, Lbihw;->upbHandle:J
+
+    .line 2
+    .line 3
+    sget-boolean p0, Lbihw;->IS_64BIT:Z
+
+    .line 4
+    .line 5
+    const/4 v2, 0x1
+
+    .line 6
+    if-eq v2, p0, :cond_0
+
+    .line 7
+    .line 8
+    const-wide/16 v3, 0x38
+
+    .line 9
+    .line 10
+    goto :goto_0
+
+    .line 11
+    :cond_0
+    const-wide/16 v3, 0x14
+
+    .line 12
+    .line 13
+    :goto_0
+    invoke-static {v0, v1, v3, v4}, Lbihw;->readInt32(JJ)I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result p0
+
+    .line 17
+    invoke-static {p0}, La;->bw(I)I
+
+    .line 18
+    .line 19
+    .line 20
+    move-result p0
+
+    .line 21
+    if-nez p0, :cond_1
+
+    .line 22
+    .line 23
+    return v2
+
+    .line 24
+    :cond_1
+    return p0
+.end method
+
+.method public final G()I
+    .locals 5
+
+    .line 1
+    iget-wide v0, p0, Lbihw;->upbHandle:J
+
+    .line 2
+    .line 3
+    sget-boolean p0, Lbihw;->IS_64BIT:Z
+
+    .line 4
+    .line 5
+    const/4 v2, 0x1
+
+    .line 6
+    if-eq v2, p0, :cond_0
+
+    .line 7
+    .line 8
+    const-wide/16 v3, 0x48
+
+    .line 9
+    .line 10
+    goto :goto_0
+
+    .line 11
+    :cond_0
+    const-wide/16 v3, 0x20
+
+    .line 12
+    .line 13
+    :goto_0
+    invoke-static {v0, v1, v3, v4}, Lbihw;->readInt32(JJ)I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result p0
+
+    .line 17
+    invoke-static {p0}, La;->bw(I)I
+
+    .line 18
+    .line 19
+    .line 20
+    move-result p0
+
+    .line 21
+    if-nez p0, :cond_1
+
+    .line 22
+    .line 23
+    return v2
+
+    .line 24
+    :cond_1
+    return p0
+.end method
+
+.method public final H()I
+    .locals 5
+
+    .line 1
+    iget-wide v0, p0, Lbihw;->upbHandle:J
+
+    .line 2
+    .line 3
+    sget-boolean p0, Lbihw;->IS_64BIT:Z
+
+    .line 4
+    .line 5
+    const/4 v2, 0x1
+
+    .line 6
+    if-eq v2, p0, :cond_0
+
+    .line 7
+    .line 8
+    const-wide/16 v3, 0x30
+
+    .line 9
+    .line 10
+    goto :goto_0
+
+    .line 11
+    :cond_0
+    const-wide/16 v3, 0xc
+
+    .line 12
+    .line 13
+    :goto_0
+    invoke-static {v0, v1, v3, v4}, Lbihw;->readInt32(JJ)I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result p0
+
+    .line 17
+    invoke-static {p0}, La;->bK(I)I
+
+    .line 18
+    .line 19
+    .line 20
+    move-result p0
+
+    .line 21
+    if-nez p0, :cond_1
+
+    .line 22
+    .line 23
+    return v2
+
+    .line 24
+    :cond_1
+    return p0
+.end method
+
+.method public final I()I
+    .locals 5
+
+    .line 1
+    iget-wide v0, p0, Lbihw;->upbHandle:J
+
+    .line 2
+    .line 3
+    sget-boolean p0, Lbihw;->IS_64BIT:Z
+
+    .line 4
+    .line 5
+    const/4 v2, 0x1
+
+    .line 6
+    if-eq v2, p0, :cond_0
+
+    .line 7
+    .line 8
+    const-wide/16 v3, 0x58
+
+    .line 9
+    .line 10
+    goto :goto_0
+
+    .line 11
+    :cond_0
+    const-wide/16 v3, 0x30
+
+    .line 12
+    .line 13
+    :goto_0
+    invoke-static {v0, v1, v3, v4}, Lbihw;->readInt32(JJ)I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result p0
+
+    .line 17
+    invoke-static {p0}, La;->cb(I)I
+
+    .line 18
+    .line 19
+    .line 20
+    move-result p0
+
+    .line 21
+    if-nez p0, :cond_1
+
+    .line 22
+    .line 23
+    return v2
+
+    .line 24
+    :cond_1
+    return p0
+.end method
+
+.method public final J()I
+    .locals 5
+
+    .line 1
+    iget-wide v0, p0, Lbihw;->upbHandle:J
+
+    .line 2
+    .line 3
+    sget-boolean p0, Lbihw;->IS_64BIT:Z
+
+    .line 4
+    .line 5
+    const/4 v2, 0x1
+
+    .line 6
+    if-eq v2, p0, :cond_0
+
+    .line 7
+    .line 8
+    const-wide/16 v3, 0x34
+
+    .line 9
+    .line 10
+    goto :goto_0
+
+    .line 11
+    :cond_0
+    const-wide/16 v3, 0x10
+
+    .line 12
+    .line 13
+    :goto_0
+    invoke-static {v0, v1, v3, v4}, Lbihw;->readInt32(JJ)I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result p0
+
+    .line 17
+    invoke-static {p0}, La;->ar(I)I
+
+    .line 18
+    .line 19
+    .line 20
+    move-result p0
+
+    .line 21
+    if-nez p0, :cond_1
+
+    .line 22
+    .line 23
+    return v2
+
+    .line 24
+    :cond_1
+    return p0
+.end method
+
+.method public final K()I
+    .locals 5
+
+    .line 1
+    iget-wide v0, p0, Lbihw;->upbHandle:J
+
+    .line 2
+    .line 3
+    sget-boolean p0, Lbihw;->IS_64BIT:Z
+
+    .line 4
+    .line 5
+    const/4 v2, 0x1
+
+    .line 6
+    if-eq v2, p0, :cond_0
+
+    .line 7
+    .line 8
+    const-wide/16 v3, 0x4c
+
+    .line 9
+    .line 10
+    goto :goto_0
+
+    .line 11
+    :cond_0
+    const-wide/16 v3, 0x24
+
+    .line 12
+    .line 13
+    :goto_0
+    invoke-static {v0, v1, v3, v4}, Lbihw;->readInt32(JJ)I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result p0
+
+    .line 17
+    invoke-static {p0}, La;->cc(I)I
+
+    .line 18
+    .line 19
+    .line 20
+    move-result p0
+
+    .line 21
+    if-nez p0, :cond_1
+
+    .line 22
+    .line 23
+    return v2
+
+    .line 24
+    :cond_1
+    return p0
+.end method
+
+.method public final L()I
+    .locals 5
+
+    .line 1
+    iget-wide v0, p0, Lbihw;->upbHandle:J
+
+    .line 2
+    .line 3
+    sget-boolean p0, Lbihw;->IS_64BIT:Z
+
+    .line 4
+    .line 5
+    const/4 v2, 0x1
+
+    .line 6
+    if-eq v2, p0, :cond_0
+
+    .line 7
+    .line 8
+    const-wide/16 v3, 0x54
+
+    .line 9
+    .line 10
+    goto :goto_0
+
+    .line 11
+    :cond_0
+    const-wide/16 v3, 0x2c
+
+    .line 12
+    .line 13
+    :goto_0
+    invoke-static {v0, v1, v3, v4}, Lbihw;->readInt32(JJ)I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result p0
+
+    .line 17
+    invoke-static {p0}, La;->bK(I)I
+
+    .line 18
+    .line 19
+    .line 20
+    move-result p0
+
+    .line 21
+    if-nez p0, :cond_1
+
+    .line 22
+    .line 23
+    return v2
+
+    .line 24
+    :cond_1
+    return p0
+.end method
+
+.method public final bs()Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbihw;->d:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_1
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/4 v1, 0x4
+
+    .line 8
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result p0
+
+    .line 12
+    if-eqz p0, :cond_0
+
+    .line 13
+    .line 14
+    goto :goto_0
+
+    .line 15
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 16
+    return p0
+
+    .line 17
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    .line 18
+    return p0
+.end method
+
+.method public final d()F
+    .locals 4
+
+    .line 1
+    iget-wide v0, p0, Lbihw;->upbHandle:J
+
+    .line 2
+    .line 3
+    const/4 p0, 0x1
+
+    .line 4
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 5
+    .line 6
+    if-eq p0, v2, :cond_0
+
+    .line 7
+    .line 8
+    const-wide/16 v2, 0x50
+
+    .line 9
+    .line 10
+    goto :goto_0
+
+    .line 11
+    :cond_0
+    const-wide/16 v2, 0x28
+
+    .line 12
+    .line 13
+    :goto_0
+    invoke-static {v0, v1, v2, v3}, Lbihw;->readFloat(JJ)F
+
+    .line 14
+    .line 15
+    .line 16
+    move-result p0
+
+    .line 17
+    return p0
+.end method
+
+.method public final e()F
+    .locals 4
+
+    .line 1
+    iget-wide v0, p0, Lbihw;->upbHandle:J
+
+    .line 2
+    .line 3
+    const/4 p0, 0x1
+
+    .line 4
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 5
+    .line 6
+    if-eq p0, v2, :cond_0
+
+    .line 7
+    .line 8
+    const-wide/16 v2, 0x3c
+
+    .line 9
+    .line 10
+    goto :goto_0
+
+    .line 11
+    :cond_0
+    const-wide/16 v2, 0x18
+
+    .line 12
+    .line 13
+    :goto_0
+    invoke-static {v0, v1, v2, v3}, Lbihw;->readFloat(JJ)F
+
+    .line 14
+    .line 15
+    .line 16
+    move-result p0
+
+    .line 17
+    return p0
+.end method
+
+.method public final f()F
+    .locals 4
+
+    .line 1
+    const/16 v0, 0x9
+
+    .line 2
+    .line 3
+    const/16 v1, 0x20
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    if-eqz v0, :cond_1
+
+    .line 10
+    .line 11
+    iget-wide v0, p0, Lbihw;->upbHandle:J
+
+    .line 12
+    .line 13
+    const/4 p0, 0x1
+
+    .line 14
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 15
+    .line 16
+    if-eq p0, v2, :cond_0
+
+    .line 17
+    .line 18
+    const-wide/16 v2, 0x40
+
+    .line 19
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :cond_0
+    const-wide/16 v2, 0x1c
+
+    .line 22
+    .line 23
+    :goto_0
+    invoke-static {v0, v1, v2, v3}, Lbihw;->readFloat(JJ)F
+
+    .line 24
+    .line 25
+    .line 26
+    move-result p0
+
+    .line 27
+    return p0
+
+    .line 28
+    :cond_1
+    const/high16 p0, 0x3f800000    # 1.0f
+
+    .line 29
+    .line 30
+    return p0
+.end method
+
+.method public final flushToCpp()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public final synthetic g()Lbhwl;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbihw;->i:Lbifd;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_2
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/16 v1, 0x80
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v0
+
+    .line 13
+    if-nez v0, :cond_0
+
+    .line 14
+    .line 15
+    const/4 p0, 0x0
+
+    .line 16
+    return-object p0
+
+    .line 17
+    :cond_0
+    new-instance v0, Lbifd;
+
+    .line 18
+    .line 19
+    const/4 v1, 0x1
+
+    .line 20
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 21
+    .line 22
+    if-eq v1, v2, :cond_1
+
+    .line 23
+    .line 24
+    const/16 v1, 0x28
+
+    .line 25
+    .line 26
+    goto :goto_0
+
+    .line 27
+    :cond_1
+    const/16 v1, 0x70
+
+    .line 28
+    .line 29
+    :goto_0
+    sget-object v2, Lbifc;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 30
+    .line 31
+    invoke-virtual {p0, v1, v2}, Lbhdu;->readMessage(ILcom/google/android/libraries/elements/adl/UpbMiniTable;)Lcom/google/android/libraries/elements/adl/UpbMessage;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v1
+
+    .line 35
+    invoke-direct {v0, v1}, Lbhdu;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    .line 36
+    .line 37
+    .line 38
+    iput-object v0, p0, Lbihw;->i:Lbifd;
+
+    .line 39
+    .line 40
+    return-object v0
+
+    .line 41
+    :cond_2
+    iget-object p0, p0, Lbihw;->i:Lbifd;
+
+    .line 42
+    .line 43
+    return-object p0
+.end method
+
+.method public final synthetic h()Lbhwl;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbihw;->j:Lbifd;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_2
+
+    .line 4
+    .line 5
+    const/16 v0, 0x9
+
+    .line 6
+    .line 7
+    const/4 v1, 0x1
+
+    .line 8
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result v0
+
+    .line 12
+    if-nez v0, :cond_0
+
+    .line 13
+    .line 14
+    const/4 p0, 0x0
+
+    .line 15
+    return-object p0
+
+    .line 16
+    :cond_0
+    new-instance v0, Lbifd;
+
+    .line 17
+    .line 18
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 19
+    .line 20
+    if-eq v1, v2, :cond_1
+
+    .line 21
+    .line 22
+    const/16 v1, 0x2c
+
+    .line 23
+    .line 24
+    goto :goto_0
+
+    .line 25
+    :cond_1
+    const/16 v1, 0x78
+
+    .line 26
+    .line 27
+    :goto_0
+    sget-object v2, Lbifc;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 28
+    .line 29
+    invoke-virtual {p0, v1, v2}, Lbhdu;->readMessage(ILcom/google/android/libraries/elements/adl/UpbMiniTable;)Lcom/google/android/libraries/elements/adl/UpbMessage;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v1
+
+    .line 33
+    invoke-direct {v0, v1}, Lbhdu;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    .line 34
+    .line 35
+    .line 36
+    iput-object v0, p0, Lbihw;->j:Lbifd;
+
+    .line 37
+    .line 38
+    return-object v0
+
+    .line 39
+    :cond_2
+    iget-object p0, p0, Lbihw;->j:Lbifd;
+
+    .line 40
+    .line 41
+    return-object p0
+.end method
+
+.method public final synthetic i()Lbhwl;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbihw;->b:Lbifd;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_2
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/4 v1, 0x1
+
+    .line 8
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result v0
+
+    .line 12
+    if-nez v0, :cond_0
+
+    .line 13
+    .line 14
+    const/4 p0, 0x0
+
+    .line 15
+    return-object p0
+
+    .line 16
+    :cond_0
+    new-instance v0, Lbifd;
+
+    .line 17
+    .line 18
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 19
+    .line 20
+    if-eq v1, v2, :cond_1
+
+    .line 21
+    .line 22
+    const/16 v1, 0xc
+
+    .line 23
+    .line 24
+    goto :goto_0
+
+    .line 25
+    :cond_1
+    const/16 v1, 0x38
+
+    .line 26
+    .line 27
+    :goto_0
+    sget-object v2, Lbifc;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 28
+    .line 29
+    invoke-virtual {p0, v1, v2}, Lbhdu;->readMessage(ILcom/google/android/libraries/elements/adl/UpbMiniTable;)Lcom/google/android/libraries/elements/adl/UpbMessage;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v1
+
+    .line 33
+    invoke-direct {v0, v1}, Lbhdu;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    .line 34
+    .line 35
+    .line 36
+    iput-object v0, p0, Lbihw;->b:Lbifd;
+
+    .line 37
+    .line 38
+    return-object v0
+
+    .line 39
+    :cond_2
+    iget-object p0, p0, Lbihw;->b:Lbifd;
+
+    .line 40
+    .line 41
+    return-object p0
+.end method
+
+.method public final synthetic j()Lbhwm;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbihw;->k:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_2
+
+    .line 4
+    .line 5
+    const/16 v0, 0x9
+
+    .line 6
+    .line 7
+    const/16 v1, 0x40
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v0
+
+    .line 13
+    if-nez v0, :cond_0
+
+    .line 14
+    .line 15
+    const/4 p0, 0x0
+
+    .line 16
+    return-object p0
+
+    .line 17
+    :cond_0
+    new-instance v0, Lbiff;
+
+    .line 18
+    .line 19
+    const/4 v1, 0x1
+
+    .line 20
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 21
+    .line 22
+    if-eq v1, v2, :cond_1
+
+    .line 23
+    .line 24
+    const/16 v1, 0x44
+
+    .line 25
+    .line 26
+    goto :goto_0
+
+    .line 27
+    :cond_1
+    const/16 v1, 0x80
+
+    .line 28
+    .line 29
+    :goto_0
+    sget-object v2, Lbife;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 30
+    .line 31
+    invoke-virtual {p0, v1, v2}, Lbhdu;->readMessage(ILcom/google/android/libraries/elements/adl/UpbMiniTable;)Lcom/google/android/libraries/elements/adl/UpbMessage;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v1
+
+    .line 35
+    invoke-direct {v0, v1}, Lbhdu;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    .line 36
+    .line 37
+    .line 38
+    iput-object v0, p0, Lbihw;->k:Lbiff;
+
+    .line 39
+    .line 40
+    return-object v0
+
+    .line 41
+    :cond_2
+    iget-object p0, p0, Lbihw;->k:Lbiff;
+
+    .line 42
+    .line 43
+    return-object p0
+.end method
+
+.method public final synthetic k()Lbhwm;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbihw;->c:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_2
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/4 v1, 0x2
+
+    .line 8
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result v0
+
+    .line 12
+    if-nez v0, :cond_0
+
+    .line 13
+    .line 14
+    const/4 p0, 0x0
+
+    .line 15
+    return-object p0
+
+    .line 16
+    :cond_0
+    new-instance v0, Lbiff;
+
+    .line 17
+    .line 18
+    const/4 v1, 0x1
+
+    .line 19
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 20
+    .line 21
+    if-eq v1, v2, :cond_1
+
+    .line 22
+    .line 23
+    const/16 v1, 0x10
+
+    .line 24
+    .line 25
+    goto :goto_0
+
+    .line 26
+    :cond_1
+    const/16 v1, 0x40
+
+    .line 27
+    .line 28
+    :goto_0
+    sget-object v2, Lbife;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 29
+    .line 30
+    invoke-virtual {p0, v1, v2}, Lbhdu;->readMessage(ILcom/google/android/libraries/elements/adl/UpbMiniTable;)Lcom/google/android/libraries/elements/adl/UpbMessage;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object v1
+
+    .line 34
+    invoke-direct {v0, v1}, Lbhdu;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    .line 35
+    .line 36
+    .line 37
+    iput-object v0, p0, Lbihw;->c:Lbiff;
+
+    .line 38
+    .line 39
+    return-object v0
+
+    .line 40
+    :cond_2
+    iget-object p0, p0, Lbihw;->c:Lbiff;
+
+    .line 41
+    .line 42
+    return-object p0
+.end method
+
+.method public final synthetic l()Lbhwm;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbihw;->h:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_2
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/16 v1, 0x40
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v0
+
+    .line 13
+    if-nez v0, :cond_0
+
+    .line 14
+    .line 15
+    const/4 p0, 0x0
+
+    .line 16
+    return-object p0
+
+    .line 17
+    :cond_0
+    new-instance v0, Lbiff;
+
+    .line 18
+    .line 19
+    const/4 v1, 0x1
+
+    .line 20
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 21
+    .line 22
+    if-eq v1, v2, :cond_1
+
+    .line 23
+    .line 24
+    const/16 v1, 0x24
+
+    .line 25
+    .line 26
+    goto :goto_0
+
+    .line 27
+    :cond_1
+    const/16 v1, 0x68
+
+    .line 28
+    .line 29
+    :goto_0
+    sget-object v2, Lbife;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 30
+    .line 31
+    invoke-virtual {p0, v1, v2}, Lbhdu;->readMessage(ILcom/google/android/libraries/elements/adl/UpbMiniTable;)Lcom/google/android/libraries/elements/adl/UpbMessage;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v1
+
+    .line 35
+    invoke-direct {v0, v1}, Lbhdu;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    .line 36
+    .line 37
+    .line 38
+    iput-object v0, p0, Lbihw;->h:Lbiff;
+
+    .line 39
+    .line 40
+    return-object v0
+
+    .line 41
+    :cond_2
+    iget-object p0, p0, Lbihw;->h:Lbiff;
+
+    .line 42
+    .line 43
+    return-object p0
+.end method
+
+.method public final synthetic m()Lbhwm;
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lbihw;->g:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_2
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/16 v1, 0x20
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v0
+
+    .line 13
+    if-nez v0, :cond_0
+
+    .line 14
+    .line 15
+    const/4 p0, 0x0
+
+    .line 16
+    return-object p0
+
+    .line 17
+    :cond_0
+    new-instance v0, Lbiff;
+
+    .line 18
+    .line 19
+    const/4 v2, 0x1
+
+    .line 20
+    sget-boolean v3, Lbihw;->IS_64BIT:Z
+
+    .line 21
+    .line 22
+    if-eq v2, v3, :cond_1
+
+    .line 23
+    .line 24
+    goto :goto_0
+
+    .line 25
+    :cond_1
+    const/16 v1, 0x60
+
+    .line 26
+    .line 27
+    :goto_0
+    sget-object v2, Lbife;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 28
+    .line 29
+    invoke-virtual {p0, v1, v2}, Lbhdu;->readMessage(ILcom/google/android/libraries/elements/adl/UpbMiniTable;)Lcom/google/android/libraries/elements/adl/UpbMessage;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v1
+
+    .line 33
+    invoke-direct {v0, v1}, Lbhdu;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    .line 34
+    .line 35
+    .line 36
+    iput-object v0, p0, Lbihw;->g:Lbiff;
+
+    .line 37
+    .line 38
+    return-object v0
+
+    .line 39
+    :cond_2
+    iget-object p0, p0, Lbihw;->g:Lbiff;
+
+    .line 40
+    .line 41
+    return-object p0
+.end method
+
+.method public final synthetic n()Lbhwm;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbihw;->f:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_2
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/16 v1, 0x10
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v0
+
+    .line 13
+    if-nez v0, :cond_0
+
+    .line 14
+    .line 15
+    const/4 p0, 0x0
+
+    .line 16
+    return-object p0
+
+    .line 17
+    :cond_0
+    new-instance v0, Lbiff;
+
+    .line 18
+    .line 19
+    const/4 v1, 0x1
+
+    .line 20
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 21
+    .line 22
+    if-eq v1, v2, :cond_1
+
+    .line 23
+    .line 24
+    const/16 v1, 0x1c
+
+    .line 25
+    .line 26
+    goto :goto_0
+
+    .line 27
+    :cond_1
+    const/16 v1, 0x58
+
+    .line 28
+    .line 29
+    :goto_0
+    sget-object v2, Lbife;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 30
+    .line 31
+    invoke-virtual {p0, v1, v2}, Lbhdu;->readMessage(ILcom/google/android/libraries/elements/adl/UpbMiniTable;)Lcom/google/android/libraries/elements/adl/UpbMessage;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v1
+
+    .line 35
+    invoke-direct {v0, v1}, Lbhdu;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    .line 36
+    .line 37
+    .line 38
+    iput-object v0, p0, Lbihw;->f:Lbiff;
+
+    .line 39
+    .line 40
+    return-object v0
+
+    .line 41
+    :cond_2
+    iget-object p0, p0, Lbihw;->f:Lbiff;
+
+    .line 42
+    .line 43
+    return-object p0
+.end method
+
+.method public final synthetic o()Lbhwm;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbihw;->e:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_2
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    invoke-virtual {p0, v0, v0}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v0
+
+    .line 11
+    if-nez v0, :cond_0
+
+    .line 12
+    .line 13
+    const/4 p0, 0x0
+
+    .line 14
+    return-object p0
+
+    .line 15
+    :cond_0
+    new-instance v0, Lbiff;
+
+    .line 16
+    .line 17
+    const/4 v1, 0x1
+
+    .line 18
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 19
+    .line 20
+    if-eq v1, v2, :cond_1
+
+    .line 21
+    .line 22
+    const/16 v1, 0x18
+
+    .line 23
+    .line 24
+    goto :goto_0
+
+    .line 25
+    :cond_1
+    const/16 v1, 0x50
+
+    .line 26
+    .line 27
+    :goto_0
+    sget-object v2, Lbife;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 28
+    .line 29
+    invoke-virtual {p0, v1, v2}, Lbhdu;->readMessage(ILcom/google/android/libraries/elements/adl/UpbMiniTable;)Lcom/google/android/libraries/elements/adl/UpbMessage;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v1
+
+    .line 33
+    invoke-direct {v0, v1}, Lbhdu;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    .line 34
+    .line 35
+    .line 36
+    iput-object v0, p0, Lbihw;->e:Lbiff;
+
+    .line 37
+    .line 38
+    return-object v0
+
+    .line 39
+    :cond_2
+    iget-object p0, p0, Lbihw;->e:Lbiff;
+
+    .line 40
+    .line 41
+    return-object p0
+.end method
+
+.method public final synthetic p()Lbhwm;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbihw;->d:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_2
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/4 v1, 0x4
+
+    .line 8
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result v0
+
+    .line 12
+    if-nez v0, :cond_0
+
+    .line 13
+    .line 14
+    const/4 p0, 0x0
+
+    .line 15
+    return-object p0
+
+    .line 16
+    :cond_0
+    new-instance v0, Lbiff;
+
+    .line 17
+    .line 18
+    const/4 v1, 0x1
+
+    .line 19
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 20
+    .line 21
+    if-eq v1, v2, :cond_1
+
+    .line 22
+    .line 23
+    const/16 v1, 0x14
+
+    .line 24
+    .line 25
+    goto :goto_0
+
+    .line 26
+    :cond_1
+    const/16 v1, 0x48
+
+    .line 27
+    .line 28
+    :goto_0
+    sget-object v2, Lbife;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 29
+    .line 30
+    invoke-virtual {p0, v1, v2}, Lbhdu;->readMessage(ILcom/google/android/libraries/elements/adl/UpbMiniTable;)Lcom/google/android/libraries/elements/adl/UpbMessage;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object v1
+
+    .line 34
+    invoke-direct {v0, v1}, Lbhdu;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    .line 35
+    .line 36
+    .line 37
+    iput-object v0, p0, Lbihw;->d:Lbiff;
+
+    .line 38
+    .line 39
+    return-object v0
+
+    .line 40
+    :cond_2
+    iget-object p0, p0, Lbihw;->d:Lbiff;
+
+    .line 41
+    .line 42
+    return-object p0
+.end method
+
+.method public final synthetic q()Lbhxo;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbihw;->l:Lbhdu;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_2
+
+    .line 4
+    .line 5
+    const/16 v0, 0xa
+
+    .line 6
+    .line 7
+    const/16 v1, 0x20
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v0
+
+    .line 13
+    if-nez v0, :cond_0
+
+    .line 14
+    .line 15
+    const/4 p0, 0x0
+
+    .line 16
+    return-object p0
+
+    .line 17
+    :cond_0
+    new-instance v0, Lbhdu;
+
+    .line 18
+    .line 19
+    const/4 v1, 0x1
+
+    .line 20
+    sget-boolean v2, Lbihw;->IS_64BIT:Z
+
+    .line 21
+    .line 22
+    if-eq v1, v2, :cond_1
+
+    .line 23
+    .line 24
+    const/16 v1, 0x60
+
+    .line 25
+    .line 26
+    goto :goto_0
+
+    .line 27
+    :cond_1
+    const/16 v1, 0x88
+
+    .line 28
+    .line 29
+    :goto_0
+    sget-object v2, Lbigf;->a:Lcom/google/android/libraries/elements/adl/UpbMiniTable;
+
+    .line 30
+    .line 31
+    invoke-virtual {p0, v1, v2}, Lbhdu;->readMessage(ILcom/google/android/libraries/elements/adl/UpbMiniTable;)Lcom/google/android/libraries/elements/adl/UpbMessage;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v1
+
+    .line 35
+    invoke-direct {v0, v1}, Lbhdu;-><init>(Lcom/google/android/libraries/elements/adl/UpbMessage;)V
+
+    .line 36
+    .line 37
+    .line 38
+    iput-object v0, p0, Lbihw;->l:Lbhdu;
+
+    .line 39
+    .line 40
+    return-object v0
+
+    .line 41
+    :cond_2
+    iget-object p0, p0, Lbihw;->l:Lbhdu;
+
+    .line 42
+    .line 43
+    return-object p0
+.end method
+
+.method public final r()Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbihw;->k:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_1
+
+    .line 4
+    .line 5
+    const/16 v0, 0x9
+
+    .line 6
+    .line 7
+    const/16 v1, 0x40
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p0
+
+    .line 13
+    if-eqz p0, :cond_0
+
+    .line 14
+    .line 15
+    goto :goto_0
+
+    .line 16
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 17
+    return p0
+
+    .line 18
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    .line 19
+    return p0
+.end method
+
+.method public final t()Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbihw;->l:Lbhdu;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_1
+
+    .line 4
+    .line 5
+    const/16 v0, 0xa
+
+    .line 6
+    .line 7
+    const/16 v1, 0x20
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p0
+
+    .line 13
+    if-eqz p0, :cond_0
+
+    .line 14
+    .line 15
+    goto :goto_0
+
+    .line 16
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 17
+    return p0
+
+    .line 18
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    .line 19
+    return p0
+.end method
+
+.method public final u()Z
+    .locals 2
+
+    .line 1
+    const/16 v0, 0x9
+
+    .line 2
+    .line 3
+    const/16 v1, 0x10
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result p0
+
+    .line 9
+    return p0
+.end method
+
+.method public final v()Z
+    .locals 2
+
+    .line 1
+    const/16 v0, 0x9
+
+    .line 2
+    .line 3
+    const/16 v1, 0x20
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result p0
+
+    .line 9
+    return p0
+.end method
+
+.method public final w()Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbihw;->c:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_1
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/4 v1, 0x2
+
+    .line 8
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result p0
+
+    .line 12
+    if-eqz p0, :cond_0
+
+    .line 13
+    .line 14
+    goto :goto_0
+
+    .line 15
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 16
+    return p0
+
+    .line 17
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    .line 18
+    return p0
+.end method
+
+.method public final x()Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbihw;->i:Lbifd;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_1
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/16 v1, 0x80
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p0
+
+    .line 13
+    if-eqz p0, :cond_0
+
+    .line 14
+    .line 15
+    goto :goto_0
+
+    .line 16
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 17
+    return p0
+
+    .line 18
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    .line 19
+    return p0
+.end method
+
+.method public final y()Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbihw;->h:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_1
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/16 v1, 0x40
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p0
+
+    .line 13
+    if-eqz p0, :cond_0
+
+    .line 14
+    .line 15
+    goto :goto_0
+
+    .line 16
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 17
+    return p0
+
+    .line 18
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    .line 19
+    return p0
+.end method
+
+.method public final z()Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbihw;->g:Lbiff;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_1
+
+    .line 4
+    .line 5
+    const/16 v0, 0x8
+
+    .line 6
+    .line 7
+    const/16 v1, 0x20
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lbhdu;->readFieldPresence(II)Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p0
+
+    .line 13
+    if-eqz p0, :cond_0
+
+    .line 14
+    .line 15
+    goto :goto_0
+
+    .line 16
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 17
+    return p0
+
+    .line 18
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    .line 19
+    return p0
+.end method

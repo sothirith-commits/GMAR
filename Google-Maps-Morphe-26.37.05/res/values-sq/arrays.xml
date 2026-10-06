@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>Ç</item>
+        <item>D</item>
+        <item>DH</item>
+        <item>E</item>
+        <item>Ë</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Çfarëdo</item>
+        <item>Lek</item>
+        <item>LekLek</item>
+        <item>LekLekLek</item>
+        <item>LekLekLekLek</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Çfarëdo kategori çmimi</item>
+        <item>Jo i shtrenjtë</item>
+        <item>Mesatarisht i shtrenjtë</item>
+        <item>I shtrenjtë</item>
+        <item>Shumë i shtrenjtë</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Çfarëdo</item>
+        <item>3 yje</item>
+        <item>4 yje</item>
+        <item>5 yje</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>Çfarëdo</item>
+        <item>Hapur tani</item>
+        <item>Personalizo</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>Gjatë zmadhimit</item>
+        <item>Gjithmonë</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Gjatë zmadhimit dhe zvogëlimit</item>
+        <item>Gjithmonë</item>
+    </string-array>
+    <string-array name="five_stars_state_commentary">
+        <item>E urrej</item>
+        <item>Nuk më pëlqen</item>
+        <item>Është mirë</item>
+        <item>Më pëlqen</item>
+        <item>Më pëlqeu shumë</item>
+    </string-array>
+</resources>

@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">Bạn có %d vé tàu điện ngầm còn hiệu lực</item>
+        <item quantity="other">Bạn có %d vé tàu điện ngầm còn hiệu lực</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">Bạn có %d vé còn hiệu lực cho chuyến đi này</item>
+        <item quantity="other">Bạn có %d vé còn hiệu lực cho chuyến đi này</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">%d lựa chọn khác</item>
+        <item quantity="other">%d lựa chọn khác</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="one">%1$d người đã báo cáo</item>
+        <item quantity="other">%1$d người đã báo cáo</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">%1$d người đã báo cáo</item>
+        <item quantity="other">%1$d người đã báo cáo</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d thông báo</item>
+        <item quantity="other">%d thông báo</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d vị trí</item>
+        <item quantity="other">%1$d vị trí</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">Xem câu trả lời</item>
+        <item quantity="other">Xem các câu trả lời (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">Khám phá tại đây</item>
+        <item quantity="other">Khám phá %d địa điểm tại đây</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">Hiện còn %d xe đạp cho thuê</item>
+        <item quantity="other">Hiện còn %d xe đạp cho thuê</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">Có %s xe đạp tại trạm thuê xe đạp</item>
+        <item quantity="other">Có %s xe đạp tại trạm thuê xe đạp</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">Có %d xe đạp</item>
+        <item quantity="other">Có %d xe đạp</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">Còn %d giá dựng xe</item>
+        <item quantity="other">Còn %d giá dựng xe</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">%d giá dựng xe</item>
+        <item quantity="other">%d giá dựng xe</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">%1$d người đã đề xuất</item>
+        <item quantity="other">%1$d người đã đề xuất</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Tuyến đường nhanh hơn, ít hơn %1$s trạm sạc</item>
+        <item quantity="other">Tuyến đường nhanh hơn, ít hơn %1$s trạm sạc</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Tuyến đường nhanh hơn, nhiều hơn %1$s trạm sạc</item>
+        <item quantity="other">Tuyến đường nhanh hơn, nhiều hơn %1$s trạm sạc</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Tuyến đường nhanh hơn, đã thay đổi %1$s trạm sạc</item>
+        <item quantity="other">Tuyến đường nhanh hơn, đã thay đổi %1$s trạm sạc</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Cần đi theo tuyến đường mới, ít hơn %1$s trạm sạc</item>
+        <item quantity="other">Cần đi theo tuyến đường mới, ít hơn %1$s trạm sạc</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Cần đi theo tuyến đường mới, nhiều hơn %1$s trạm sạc</item>
+        <item quantity="other">Cần đi theo tuyến đường mới, nhiều hơn %1$s trạm sạc</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Cần đi theo tuyến đường mới, đã thay đổi %1$s trạm sạc</item>
+        <item quantity="other">Cần đi theo tuyến đường mới, đã thay đổi %1$s trạm sạc</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Tuyến đường mới, ít hơn %1$s trạm sạc</item>
+        <item quantity="other">Tuyến đường mới, ít hơn %1$s trạm sạc</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Tuyến đường mới, ít hơn %1$s trạm sạc</item>
+        <item quantity="other">Tuyến đường mới, ít hơn %1$s trạm sạc</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Có tuyến đường mới, cần ít hơn %1$s trạm sạc. Nhanh hơn %2$s khi lái xe và đã tính thời gian sạc.</item>
+        <item quantity="other">Có tuyến đường mới, cần ít hơn %1$s trạm sạc. Nhanh hơn %2$s khi lái xe và đã tính thời gian sạc.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Có tuyến đường mới, cần nhiều hơn %1$s trạm sạc. Nhanh hơn %2$s khi lái xe và đã tính thời gian sạc.</item>
+        <item quantity="other">Có tuyến đường mới, cần nhiều hơn %1$s trạm sạc. Nhanh hơn %2$s khi lái xe và đã tính thời gian sạc.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Bạn sẽ cần đi theo một tuyến đường mới. Cần ít hơn %1$s trạm sạc. Bạn sẽ đến nơi lúc %2$s.</item>
+        <item quantity="other">Bạn sẽ cần đi theo một tuyến đường mới. Cần ít hơn %1$s trạm sạc. Bạn sẽ đến nơi lúc %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Bạn sẽ cần đi theo một tuyến đường mới. Cần nhiều hơn %1$s trạm sạc. Bạn sẽ đến nơi lúc %2$s.</item>
+        <item quantity="other">Bạn sẽ cần đi theo một tuyến đường mới. Cần nhiều hơn %1$s trạm sạc. Bạn sẽ đến nơi lúc %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Bạn sẽ cần đi theo một tuyến đường mới. Đã thay đổi %1$s trạm sạc. Bạn sẽ đến nơi lúc %2$s.</item>
+        <item quantity="other">Bạn sẽ cần đi theo một tuyến đường mới. Đã thay đổi %1$s trạm sạc. Bạn sẽ đến nơi lúc %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Có tuyến đường mới, cần ít hơn %1$s trạm sạc. Thời gian đến tương đương.</item>
+        <item quantity="other">Có tuyến đường mới, cần ít hơn %1$s trạm sạc. Thời gian đến tương đương.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Có tuyến đường mới, cần ít hơn %1$s trạm sạc. Chậm hơn %2$s khi lái xe và đã tính thời gian sạc.</item>
+        <item quantity="other">Có tuyến đường mới, cần ít hơn %1$s trạm sạc. Chậm hơn %2$s khi lái xe và đã tính thời gian sạc.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">Đã sử dụng %1$d ngày trước</item>
+        <item quantity="other">Đã sử dụng %1$d ngày trước</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">Đã sử dụng %1$d tuần trước</item>
+        <item quantity="other">Đã sử dụng %1$d tuần trước</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">và %1$d mạng khác</item>
+        <item quantity="other">và %1$d mạng khác</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">Đã chọn %1$d mạng</item>
+        <item quantity="other">Đã chọn %1$d mạng</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s trạm sạc</item>
+        <item quantity="other">%1$s trạm sạc</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d điểm dừng</item>
+        <item quantity="other">%1$d điểm dừng</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">Đã chọn %1$d</item>
+        <item quantity="other">Đã chọn %1$d</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s +%2$d</item>
+        <item quantity="other">%1$s +%2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">+%1$d phương thức khác</item>
+        <item quantity="other">+%1$d phương thức khác</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">+%1$d cổng nữa</item>
+        <item quantity="other">+%1$d cổng nữa</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">+%1$d mục khác</item>
+        <item quantity="other">+%1$d mục khác</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="one">%2$d phút đến nơi làm việc</item>
+        <item quantity="other">%1$d giờ %2$d phút đến nơi làm việc</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="one">%2$d phút đến nhà riêng</item>
+        <item quantity="other">%1$d giờ %2$d phút đến nhà riêng</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="one">%2$d phút đến nơi làm việc</item>
+        <item quantity="other">%1$d giờ %2$d phút đến nơi làm việc</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="one">Thời gian chuyến đi %2$d</item>
+        <item quantity="other">Thời gian chuyến đi %1$d giờ %2$d phút</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="one">%2$d phút đến nhà riêng</item>
+        <item quantity="other">%1$d giờ %2$d phút đến nhà riêng</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">Nhanh hơn %d phút so với bình thường</item>
+        <item quantity="other">Nhanh hơn %d phút so với bình thường</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">Chậm hơn %d phút so với bình thường</item>
+        <item quantity="other">Chậm hơn %d phút so với bình thường</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Góc phương vị của bản đồ: %d độ.</item>
+        <item quantity="other">Góc phương vị của bản đồ: %d độ.</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">Cơ sở %d sao</item>
+        <item quantity="other">Cơ sở %d sao</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">Local Guide cấp %d</item>
+        <item quantity="other">Local Guide cấp %d</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">Bạn đã xếp hạng %1$s 1 sao</item>
+        <item quantity="other">Bạn đã xếp hạng %1$s %2$d sao</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">điểm</item>
+        <item quantity="other">điểm</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s ngày</item>
+        <item quantity="other">%s ngày</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s ngày</item>
+        <item quantity="other">%s ngày</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s ngày</item>
+        <item quantity="other">%s ngày</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s ngày</item>
+        <item quantity="other">%s ngày</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s giờ</item>
+        <item quantity="other">%s giờ</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s giờ</item>
+        <item quantity="other">%s giờ</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s giờ</item>
+        <item quantity="other">%s giờ</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s phút</item>
+        <item quantity="other">%s phút</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s phút</item>
+        <item quantity="other">%s phút</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s phút</item>
+        <item quantity="other">%s phút</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s giây</item>
+        <item quantity="other">%s giây</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Đi tiếp %1$s bộ nữa</item>
+        <item quantity="other">Đi tiếp %1$s bộ nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Đi tiếp %1$s ki lô mét nữa</item>
+        <item quantity="other">Đi tiếp %1$s ki lô mét nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Đi tiếp %1$s mét nữa</item>
+        <item quantity="other">Đi tiếp %1$s mét nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Đi tiếp %1$s dặm nữa</item>
+        <item quantity="other">Đi tiếp %1$s dặm nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Đi tiếp %1$s yard nữa</item>
+        <item quantity="other">Đi tiếp %1$s yard nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Đi tiếp %2$s %1$s bộ nữa</item>
+        <item quantity="other">Đi tiếp %2$s %1$s bộ nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Đi tiếp %2$s %1$s ki lô mét nữa</item>
+        <item quantity="other">Đi tiếp %2$s %1$s ki lô mét nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Đi tiếp %2$s %1$s mét nữa</item>
+        <item quantity="other">Đi tiếp %2$s %1$s mét nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Đi tiếp %2$s %1$s dặm nữa</item>
+        <item quantity="other">Đi tiếp %2$s %1$s dặm nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Đi tiếp %2$s %1$s yard nữa</item>
+        <item quantity="other">Đi tiếp %2$s %1$s yard nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s bộ nữa</item>
+        <item quantity="other">%1$s bộ nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s ki lô mét nữa</item>
+        <item quantity="other">%1$s ki lô mét nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s mét nữa</item>
+        <item quantity="other">%1$s mét nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s dặm nữa</item>
+        <item quantity="other">%1$s dặm nữa</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s yard nữa</item>
+        <item quantity="other">%1$s yard nữa</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s ki lô mét mỗi giờ</item>
+        <item quantity="other">%s ki lô mét mỗi giờ</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s dặm mỗi giờ</item>
+        <item quantity="other">%s dặm mỗi giờ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Điểm đến của bạn còn cách %1$s bộ nữa</item>
+        <item quantity="other">Điểm đến của bạn còn cách %1$s bộ nữa</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Điểm đến của bạn còn cách %1$s ki lô mét nữa</item>
+        <item quantity="other">Điểm đến của bạn còn cách %1$s ki lô mét nữa</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Điểm đến của bạn còn cách %1$s mét nữa</item>
+        <item quantity="other">Điểm đến của bạn còn cách %1$s mét nữa</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Điểm đến của bạn còn cách %1$s dặm nữa</item>
+        <item quantity="other">Điểm đến của bạn còn cách %1$s dặm nữa</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Điểm đến của bạn còn cách %1$s yard nữa</item>
+        <item quantity="other">Điểm đến của bạn còn cách %1$s yard nữa</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d trạm dừng</item>
+        <item quantity="other">%d trạm dừng</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d phương tiện nối chuyến</item>
+        <item quantity="other">%1$d phương tiện nối chuyến</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">Cập nhật %d ngày trước</item>
+        <item quantity="other">Cập nhật %d ngày trước</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">Cập nhật %d tháng trước</item>
+        <item quantity="other">Cập nhật %d tháng trước</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">Cập nhật %d tuần trước</item>
+        <item quantity="other">Cập nhật %d tuần trước</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">Có %d xe đạp</item>
+        <item quantity="other">Có %d xe đạp</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">%d xe đạp ở gần đây</item>
+        <item quantity="other">%d xe đạp ở gần đây</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">Đã chọn %1$d</item>
+        <item quantity="other">Đã chọn %1$d</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d trong số %2$d cổng sạc</item>
+        <item quantity="other">%1$d trong số %2$d cổng sạc</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d cổng sạc</item>
+        <item quantity="other">%d cổng sạc</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">Không thể xếp hạng 1 sao, vui lòng thử lại</item>
+        <item quantity="other">Không thể xếp hạng %1$d sao, vui lòng thử lại</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">Tầng %s</item>
+        <item quantity="other">Tầng %s</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">thêm %d đêm</item>
+        <item quantity="other">thêm %d đêm</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">Lưu trú %d đêm</item>
+        <item quantity="other">Lưu trú %d đêm</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">Khách sạn này còn chỗ để ở lại %1$d đêm. %2$s với mức giá trung bình mỗi đêm là %3$s.</item>
+        <item quantity="other">Khách sạn này còn chỗ để ở lại %1$d đêm. %2$s với mức giá trung bình mỗi đêm là %3$s.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">Ở %1$s với mức giá trung bình mỗi đêm là %2$s</item>
+        <item quantity="other">Ở %1$s với mức giá trung bình mỗi đêm là %2$s</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d khách</item>
+        <item quantity="other">%d khách</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">và %d danh mục khác.</item>
+        <item quantity="other">và %d danh mục khác.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">+%d danh mục khác.</item>
+        <item quantity="other">+%d danh mục khác.</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="one">%d ngày trước</item>
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="one">%d giờ trước</item>
+        <item quantity="other">%d giờ trước</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="one">%d phút trước</item>
+        <item quantity="other">%d phút trước</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">Đã lưu vào %1$s &amp; %2$d nơi khác</item>
+        <item quantity="other">Đã lưu vào %1$s &amp; %2$d nơi khác</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Đã lưu và có trong %1$d danh sách</item>
+        <item quantity="other">Đã lưu và có trong %1$d danh sách</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="one">Đã xoá khỏi %d danh sách</item>
+        <item quantity="other">Đã xoá khỏi %d danh sách</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">Bạn đã ghé thăm %d tháng trước</item>
+        <item quantity="other">Bạn đã ghé thăm %d tháng trước</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">Bạn đã ghé thăm %d tuần trước</item>
+        <item quantity="other">Bạn đã ghé thăm %d tuần trước</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">Bạn đã ghé thăm %d năm trước</item>
+        <item quantity="other">Bạn đã ghé thăm %d năm trước</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d sự kiện</item>
+        <item quantity="other">%d sự kiện</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d mục</item>
+        <item quantity="other">%d mục</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d địa điểm</item>
+        <item quantity="other">%d địa điểm</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">%d lượt lưu</item>
+        <item quantity="other">%d lượt lưu</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d chuyến đi</item>
+        <item quantity="other">%d chuyến đi</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s lượt xem</item>
+        <item quantity="other">%s lượt xem</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="one">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">Đã chỉnh sửa %d ngày trước</item>
+        <item quantity="other">Đã chỉnh sửa %d ngày trước</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">Đã chỉnh sửa %d tháng trước</item>
+        <item quantity="other">Đã chỉnh sửa %d tháng trước</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">Đã chỉnh sửa %d tuần trước</item>
+        <item quantity="other">Đã chỉnh sửa %d tuần trước</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">Đã chỉnh sửa %d năm trước</item>
+        <item quantity="other">Đã chỉnh sửa %d năm trước</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="one">%d điểm dừng</item>
+        <item quantity="other">%d điểm dừng</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">Bạn có %d điểm</item>
+        <item quantity="other">Bạn có %d điểm</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">Chỉ còn %1$d điểm nữa là bạn sẽ đạt đến cấp %2$d</item>
+        <item quantity="other">Chỉ còn %1$d điểm nữa là bạn sẽ đạt đến cấp %2$d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">Cấp %d</item>
+        <item quantity="other">Cấp %d</item>
+    </plurals>
+    <plurals name="plurals_0x7f120093">
+        <item quantity="one">Local Guide Cấp %d</item>
+        <item quantity="other">Local Guide Cấp %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">Đã hoạt động %d năm</item>
+        <item quantity="other">Đã hoạt động hơn %d năm</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">%d ngày trước</item>
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">%d giờ trước</item>
+        <item quantity="other">%d giờ trước</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">%d phút trước</item>
+        <item quantity="other">%d phút trước</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">%d địa điểm tại đây</item>
+        <item quantity="other">%d địa điểm tại đây</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">Đã xóa ảnh</item>
+        <item quantity="other">Đã xóa các ảnh</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Phóng to video trên Bài đăng %1$d</item>
+        <item quantity="other">Phóng to video %2$d trên Bài đăng %1$d</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d/%2$,d</item>
+        <item quantity="other">%1$,d/%2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">Đang tải %1$d nội dung nghe nhìn lên</item>
+        <item quantity="other">Đang tải %1$d nội dung nghe nhìn lên</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Ảnh thực đơn số %d</item>
+        <item quantity="other">Ảnh thực đơn số %d</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d báo cáo</item>
+        <item quantity="other">%1$d báo cáo</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">Những người có đường liên kết này có thể xem vị trí của bạn trong 1 ngày %d giờ</item>
+        <item quantity="other">Những người có đường liên kết này có thể xem vị trí của bạn trong 1 ngày %d giờ</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">Những người có đường liên kết này có thể xem vị trí của bạn trong 1 giờ %d phút</item>
+        <item quantity="other">Những người có đường liên kết này có thể xem vị trí của bạn trong 1 giờ %d phút</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">Những người có đường liên kết này có thể xem vị trí của bạn trong %d ngày</item>
+        <item quantity="other">Những người có đường liên kết này có thể xem vị trí của bạn trong %d ngày</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">Những người có đường liên kết này có thể xem vị trí của bạn trong %d giờ</item>
+        <item quantity="other">Những người có đường liên kết này có thể xem vị trí của bạn trong %d giờ</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">Những người có đường liên kết này có thể xem vị trí của bạn trong %d phút</item>
+        <item quantity="other">Những người có đường liên kết này có thể xem vị trí của bạn trong %d phút</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">%d thành viên khác</item>
+        <item quantity="other">%d thành viên khác</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Tắt tiếng video trên Bài đăng %1$d</item>
+        <item quantity="other">Tắt tiếng video %2$d trên Bài đăng %1$d</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d ảnh/video</item>
+        <item quantity="other">%d ảnh/video</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">Hình đại diện tuỳ chỉnh %1$d/%2$d</item>
+        <item quantity="other">Hình đại diện tuỳ chỉnh %1$d/%2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d nội dung cập nhật mới</item>
+        <item quantity="other">%d nội dung cập nhật mới</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">Thông tin cập nhật về doanh nghiệp, có %1$s thông báo mới</item>
+        <item quantity="other">Thông tin cập nhật về doanh nghiệp, có %1$s thông báo mới</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d ảnh</item>
+        <item quantity="other">%d ảnh</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d bài đánh giá</item>
+        <item quantity="other">%d bài đánh giá</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">Hình thu nhỏ số %d</item>
+        <item quantity="other">Hình thu nhỏ số %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d khu vực ngoại tuyến</item>
+        <item quantity="other">%d khu vực ngoại tuyến</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">Dựa trên %1$d báo cáo</item>
+        <item quantity="other">Dựa trên %1$d báo cáo</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Tạm dừng video trên Bài đăng %1$d</item>
+        <item quantity="other">Tạm dừng video %2$d trên Bài đăng %1$d</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s lượt tương tác</item>
+        <item quantity="other">%1$s lượt tương tác</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s lượt tìm kiếm</item>
+        <item quantity="other">%1$s lượt tìm kiếm</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s lượt xem</item>
+        <item quantity="other">%1$s lượt xem</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">Đặt phòng trong %d đêm</item>
+        <item quantity="other">Đặt phòng trong %d đêm</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">Chỉ bạn mới có thể xem nội dung này</item>
+        <item quantity="other">Chỉ bạn mới có thể xem những nội dung này</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d ngày</item>
+        <item quantity="other">%1$d ngày</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d đêm</item>
+        <item quantity="other">%1$d đêm</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d ảnh</item>
+        <item quantity="other">%d ảnh</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Đang đợi Wi-Fi.
+ %d ảnh/video đang chờ xử lý."</item>
+        <item quantity="other">"Đang đợi Wi-Fi.
+ %d ảnh/video đang chờ xử lý."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">Ảnh cho Bài đăng %1$d</item>
+        <item quantity="other">Ảnh %2$d cho Bài đăng%1$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">%d ngày trước</item>
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">%d giờ trước</item>
+        <item quantity="other">%d giờ trước</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">%d tháng trước</item>
+        <item quantity="other">%d tháng trước</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">%d tuần trước</item>
+        <item quantity="other">%d tuần trước</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">%d năm trước</item>
+        <item quantity="other">%d năm trước</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d ảnh cập nhật</item>
+        <item quantity="other">%d ảnh cập nhật</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">Xem %d câu trả lời</item>
+        <item quantity="other">Xem %d câu trả lời</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Phát video trên Bài đăng %1$d</item>
+        <item quantity="other">Phát video %2$d trên Bài đăng %1$d</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">+%d chia sẻ khác</item>
+        <item quantity="other">+%d chia sẻ khác</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Thay thế</item>
+        <item quantity="other">Thay thế</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Đang thay thế trạm dừng</item>
+        <item quantity="other">Đang thay thế các trạm dừng</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d lượt xem</item>
+        <item quantity="other">%,d lượt xem</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d lượt xếp hạng</item>
+        <item quantity="other">%d lượt xếp hạng</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d bài đánh giá</item>
+        <item quantity="other">%d bài đánh giá</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">Đã xếp hạng %d sao</item>
+        <item quantity="other">Đã xếp hạng %d sao</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="one">%d sao</item>
+        <item quantity="other">%d sao</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">1 lượt thể hiện cảm xúc %2$s</item>
+        <item quantity="other">%1$,d lượt thể hiện cảm xúc %2$s</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">Đã cập nhật %d phút trước</item>
+        <item quantity="other">Đã cập nhật %d phút trước</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Đối với tàu %1$d toa, hãy lên ở %2$s để tới lối ra nhanh nhất</item>
+        <item quantity="other">Đối với tàu %1$d toa, hãy lên ở %2$s để tới lối ra nhanh nhất</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Đối với tàu %1$d toa, hãy lên ở %2$s để chuyển tuyến nhanh nhất</item>
+        <item quantity="other">Đối với tàu %1$d toa, hãy lên ở %2$s để chuyển tuyến nhanh nhất</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">Nơi ít đông xe nhất là %1$s</item>
+        <item quantity="other">Nơi ít đông xe nhất là %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">Tàu %1$d toa</item>
+        <item quantity="other">Tàu %1$d toa</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d mạng thanh toán</item>
+        <item quantity="other">%d mạng thanh toán</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s + %2$s tiện nghi khác</item>
+        <item quantity="other">%1$s + %2$s tiện nghi khác</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="one">%d trở lên</item>
+        <item quantity="other">%d trở lên</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">Đánh giá 1/5 sao</item>
+        <item quantity="other">Đánh giá %1$d/5 sao</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s lượt xem</item>
+        <item quantity="other">%s lượt xem</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d lượt xếp hạng hoặc bài đánh giá</item>
+        <item quantity="other">%,d lượt xếp hạng và bài đánh giá</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d lượt xếp hạng hoặc bài đánh giá</item>
+        <item quantity="other">%,d lượt xếp hạng và bài đánh giá</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d người</item>
+        <item quantity="other">%d người</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="one">%d câu hỏi</item>
+        <item quantity="other">%d câu hỏi</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">%d danh sách khác</item>
+        <item quantity="other">%d danh sách khác</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Đã lưu trong %1$s và %2$d danh sách khác</item>
+        <item quantity="other">Đã lưu trong %1$s và %2$d danh sách khác</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">Lưu lượt ghé thăm của bạn từ %d ngày trước?</item>
+        <item quantity="other">Lưu lượt ghé thăm của bạn từ %d ngày trước?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">Đã tìm thấy %1$d kết quả về %2$s</item>
+        <item quantity="other">Đã tìm thấy %1$d kết quả về %2$s</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">Đang gửi xếp hạng 1 sao</item>
+        <item quantity="other">Đang gửi xếp hạng %1$d sao</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">trong %d ngày</item>
+        <item quantity="other">trong %d ngày</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">trong %d giờ</item>
+        <item quantity="other">trong %d giờ</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">trong %d phút</item>
+        <item quantity="other">trong %d phút</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">Đang chia sẻ vị trí của bạn với %2$s và %1$d người khác</item>
+        <item quantity="other">Đang chia sẻ vị trí của bạn với %2$s và %1$d người khác</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">Đang chia sẻ vị trí của bạn với %d người khác</item>
+        <item quantity="other">Đang chia sẻ vị trí của bạn với %d người khác</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="one">Lưu %d địa điểm</item>
+        <item quantity="other">Lưu %d địa điểm</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="one">Đã tìm thấy %d địa điểm</item>
+        <item quantity="other">Đã tìm thấy %d địa điểm</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s, %2$d sao</item>
+        <item quantity="other">%1$s, %2$d sao</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">Đã xếp hạng 1 sao thành công</item>
+        <item quantity="other">Đã xếp hạng %1$d sao thành công</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d lượt xem</item>
+        <item quantity="other">%,d lượt xem</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+%d điểm</item>
+        <item quantity="other">+%d điểm</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">Đăng %1$d ảnh hoặc video về %2$s</item>
+        <item quantity="other">Đăng %1$d ảnh và video về %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">Đăng %1$d ảnh về %2$s</item>
+        <item quantity="other">Đăng %1$d ảnh về %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">+%d ảnh khác</item>
+        <item quantity="other">+%d ảnh khác</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">Đăng %1$d ảnh</item>
+        <item quantity="other">Đăng %1$d ảnh</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">Đăng %1$d mục</item>
+        <item quantity="other">Đăng %1$d mục</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$d người đề cập đến %2$s</item>
+        <item quantity="other">%1$,d người đề cập đến %2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">1 lượt thể hiện cảm xúc</item>
+        <item quantity="other">%1$,d lượt thể hiện cảm xúc</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">Xem %1$d lựa chọn khác từ %2$s</item>
+        <item quantity="other">Xem %1$d lựa chọn khác từ %2$s</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">Xem %1$d lựa chọn khác</item>
+        <item quantity="other">Xem %1$d lựa chọn khác</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">Lưu địa chỉ của bạn để xem tuyến đường nhanh nhất vòng qua đoạn giao thông đông đúc</item>
+        <item quantity="other">Lưu các địa chỉ của bạn để xem tuyến đường nhanh nhất vòng qua đoạn giao thông đông đúc</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">Thông tin khởi hành được cập nhật %1$d giây trước</item>
+        <item quantity="other">Thông tin khởi hành được cập nhật %1$d giây trước</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">Cứ mỗi phút sẽ có một chuyến khởi hành</item>
+        <item quantity="other">Cứ mỗi %d phút sẽ có một chuyến khởi hành</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d phút</item>
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES_LONG">
+        <item quantity="one">phút</item>
+        <item quantity="other">phút</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="one">%1$s (1 thông báo)</item>
+        <item quantity="other">%1$s (%2$d thông báo)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="one">xe buýt %1$s (1 thông báo)</item>
+        <item quantity="other">xe buýt %1$s (%2$d thông báo)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="one">phà %1$s (1 thông báo)</item>
+        <item quantity="other">phà %1$s (%2$d thông báo)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="one">tuyến %1$s (1 thông báo)</item>
+        <item quantity="other">tuyến %1$s (%2$d thông báo)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="one">tàu hoả %1$s (1 thông báo)</item>
+        <item quantity="other">tàu hoả %1$s (%2$d thông báo)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="one">xe điện %1$s (1 thông báo)</item>
+        <item quantity="other">xe điện %1$s (%2$d thông báo)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="one">1 phút/lần</item>
+        <item quantity="other">%d phút/lần</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d trạm dừng</item>
+        <item quantity="other">%d trạm dừng</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_CARD">
+        <item quantity="one">"%1$d
+phút trước"</item>
+        <item quantity="other">"%1$d
+phút trước"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+phút trước"</item>
+        <item quantity="other">"%1$s
+phút trước"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Đã khởi hành %1$s phút trước</item>
+        <item quantity="other">Đã khởi hành %1$s phút trước</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d thông báo</item>
+        <item quantity="other">+%d thông báo</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d thông báo</item>
+        <item quantity="other">+ %d thông báo</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d thông báo khác</item>
+        <item quantity="other">+%d thông báo khác</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d thông báo khác</item>
+        <item quantity="other">+ %d thông báo khác</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_ITEMS_COUNT">
+        <item quantity="one">+ %1$d tuyến khác</item>
+        <item quantity="other">+ %1$d tuyến khác</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+phút nữa"</item>
+        <item quantity="other">"%1$s
+phút nữa"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">%1$s phút trước</item>
+        <item quantity="other">%1$s phút trước</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Sẽ khởi hành sau %1$s phút nữa</item>
+        <item quantity="other">Sẽ khởi hành sau %1$s phút nữa</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">%1$s cảnh báo khác</item>
+        <item quantity="other">%1$s cảnh báo khác</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s ảnh</item>
+        <item quantity="other">%s ảnh</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s bài đánh giá</item>
+        <item quantity="other">%s bài đánh giá</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d lượt đóng góp</item>
+        <item quantity="other">%,d lượt đóng góp</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d lượt xem</item>
+        <item quantity="other">%,d lượt xem</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Chọn tối đa %1$d ảnh</item>
+        <item quantity="other">Chọn tối đa %1$d ảnh</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Chọn tối đa %1$s ảnh</item>
+        <item quantity="other">Chọn tối đa %1$s ảnh</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Bật tiếng video trên Bài đăng %1$d</item>
+        <item quantity="other">Bật tiếng video %2$d trên Bài đăng %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"Đang đợi Wi-Fi.
+ %d ảnh đang chờ xử lý."</item>
+        <item quantity="other">"Đang đợi Wi-Fi.
+ %d ảnh đang chờ xử lý."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">Đã chọn %d ảnh</item>
+        <item quantity="other">Đã chọn %d ảnh</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">Đã ghé thăm %1$d/%2$d địa điểm</item>
+        <item quantity="other">Đã ghé thăm %1$d/%2$d địa điểm</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Tắt Trình tiết kiệm pin để tăng độ chính xác của vị trí khi chia sẻ với %1$s và %2$d người khác</item>
+        <item quantity="other">Tắt Trình tiết kiệm pin để tăng độ chính xác của vị trí khi chia sẻ với %1$s và %2$d người khác</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Bạn phải bật vị trí thiết bị để tiếp tục chia sẻ vị trí với %1$s và %2$d người khác</item>
+        <item quantity="other">Bạn phải bật vị trí thiết bị để tiếp tục chia sẻ vị trí với %1$s và %2$d người khác</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Cập nhật tính năng Chia sẻ vị trí để tiếp tục chia sẻ trên thiết bị này với %1$s và %2$d người khác</item>
+        <item quantity="other">Cập nhật tính năng Chia sẻ vị trí để tiếp tục chia sẻ trên thiết bị này với %1$s và %2$d người khác</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Cho phép Maps nhận ra hoạt động thể chất của bạn để tăng độ chính xác của vị trí khi chia sẻ với %1$s và %2$d người khác</item>
+        <item quantity="other">Cho phép Maps nhận ra hoạt động thể chất của bạn để tăng độ chính xác của vị trí khi chia sẻ với %1$s và %2$d người khác</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Luôn cho phép Maps truy cập thông tin vị trí của bạn để tăng độ chính xác của vị trí khi chia sẻ với %1$s và %2$d người khác</item>
+        <item quantity="other">Luôn cho phép Maps truy cập thông tin vị trí của bạn để tăng độ chính xác của vị trí khi chia sẻ với %1$s và %2$d người khác</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Luôn cho phép Maps truy cập thông tin vị trí của bạn để tiếp tục chia sẻ với %1$s và %2$d người khác</item>
+        <item quantity="other">Luôn cho phép Maps truy cập thông tin vị trí của bạn để tiếp tục chia sẻ với %1$s và %2$d người khác</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">Hơn %d ảnh</item>
+        <item quantity="other">Hơn %d ảnh</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d bài đánh giá)</item>
+        <item quantity="other">(%,d bài đánh giá)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="one">%1$s giây</item>
+        <item quantity="other">%1$s giây</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">Video cho Bài đăng %1$d</item>
+        <item quantity="other">Video %2$d cho Bài đăng %1$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">Video cho Bài đăng %1$d đang ở chế độ toàn màn hình</item>
+        <item quantity="other">Video %2$d cho Bài đăng %1$d đang ở chế độ toàn màn hình</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d đêm</item>
+        <item quantity="other">%2$s × %1$d đêm</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%2$s cho %1$d đêm (đã bao gồm thuế và phí)</item>
+        <item quantity="other">%2$s cho %1$d đêm (đã bao gồm thuế và phí)</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">1 phút đi bộ</item>
+        <item quantity="other">%d phút đi bộ</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">+ %d trạm dừng</item>
+        <item quantity="other">+ %d trạm dừng</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d điểm dừng)</item>
+        <item quantity="other">(%d điểm dừng)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">%d tuần trước</item>
+        <item quantity="other">%d tuần trước</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">%d năm trước</item>
+        <item quantity="other">%d năm trước</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">Xem ảnh còn lại</item>
+        <item quantity="other">Xem %1$d ảnh còn lại</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">Bài đánh giá/thông tin cập nhật</item>
+        <item quantity="other">Các bài đánh giá/thông tin cập nhật</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">Bạn đang theo dõi %1$s và %2$d danh sách khác</item>
+        <item quantity="other">Bạn đang theo dõi %1$s và %2$d danh sách khác</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s và %2$d người khác</item>
+        <item quantity="other">%1$s và %2$d người khác</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="other">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="plurals_0x7f12014e">
+        <item quantity="one"></item>
+        <item quantity="other">cấp %1$d</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">1 ảnh/video</item>
+        <item quantity="other">%1$d ảnh/video</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">Đã sao chép %d người nhận</item>
+        <item quantity="other">Đã sao chép %d người nhận</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">Chia sẻ đôi điều về ảnh này (không bắt buộc)</item>
+        <item quantity="other">Chia sẻ đôi điều về các ảnh của bạn (không bắt buộc)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Bạn có một thông báo</item>
+        <item quantity="other">%1$d thông báo mới</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d/%2$d sao</item>
+        <item quantity="other">%1$d/%2$d sao</item>
+    </plurals>
+    <plurals name="tell_maps_know_before_you_go_place_contextual_zero_state_post_tip">
+        <item quantity="one">Bạn muốn đăng thông tin hữu ích về địa điểm này?</item>
+        <item quantity="other">Bạn muốn đăng thông tin hữu ích về một trong những địa điểm này?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_post_tip_or_photo">
+        <item quantity="one">Bạn muốn đăng ảnh hoặc gợi ý về địa điểm này?</item>
+        <item quantity="other">Bạn muốn đăng ảnh hoặc gợi ý về một trong những địa điểm này?</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_update_a_place">
+        <item quantity="one">Bạn có muốn cập nhật thông tin về địa điểm này không?</item>
+        <item quantity="other">Bạn muốn cập nhật địa điểm nào?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,255 @@
+.class public Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;
+.super Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+.source "PG"
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field public final a:F
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+.end field
+
+.field public final b:F
+
+.field public final c:F
+
+.field public final d:I
+
+.field public final e:I
+
+.field public final f:F
+
+.field public final g:J
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lbfnk;
+
+    .line 2
+    .line 3
+    const/16 v1, 0x10
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Lbfnk;-><init>(I)V
+
+    .line 6
+    .line 7
+    .line 8
+    sput-object v0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+.method public constructor <init>(FIIFJFF)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput p1, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->a:F
+
+    .line 5
+    .line 6
+    iput p2, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->d:I
+
+    .line 7
+    .line 8
+    iput p3, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->e:I
+
+    .line 9
+    .line 10
+    iput p4, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->f:F
+
+    .line 11
+    .line 12
+    iput-wide p5, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->g:J
+
+    .line 13
+    .line 14
+    iput p7, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->b:F
+
+    .line 15
+    .line 16
+    iput p8, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->c:F
+
+    .line 17
+    .line 18
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 1
+    instance-of p0, p1, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;
+
+    .line 2
+    .line 3
+    return p0
+.end method
+
+.method public final hashCode()I
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x1
+
+    .line 2
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    new-instance v0, Ljava/util/ArrayList;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-static {v0, p0}, Lbelc;->h(Ljava/util/List;Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p0
+
+    .line 10
+    return-object p0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 3
+
+    .line 1
+    iget p2, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->a:F
+
+    .line 2
+    .line 3
+    const/16 v0, 0x4f45
+
+    .line 4
+    .line 5
+    invoke-static {p1, v0}, Lbekv;->u(Landroid/os/Parcel;I)I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    const/4 v1, 0x1
+
+    .line 10
+    invoke-static {p1, v1, p2}, Lbekv;->z(Landroid/os/Parcel;IF)V
+
+    .line 11
+    .line 12
+    .line 13
+    const/4 p2, 0x2
+
+    .line 14
+    iget v1, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->d:I
+
+    .line 15
+    .line 16
+    invoke-static {p1, p2, v1}, Lbekv;->A(Landroid/os/Parcel;II)V
+
+    .line 17
+    .line 18
+    .line 19
+    const/4 p2, 0x3
+
+    .line 20
+    iget v1, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->e:I
+
+    .line 21
+    .line 22
+    invoke-static {p1, p2, v1}, Lbekv;->A(Landroid/os/Parcel;II)V
+
+    .line 23
+    .line 24
+    .line 25
+    const/4 p2, 0x4
+
+    .line 26
+    iget v1, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->f:F
+
+    .line 27
+    .line 28
+    invoke-static {p1, p2, v1}, Lbekv;->z(Landroid/os/Parcel;IF)V
+
+    .line 29
+    .line 30
+    .line 31
+    const/4 p2, 0x5
+
+    .line 32
+    iget-wide v1, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->g:J
+
+    .line 33
+    .line 34
+    invoke-static {p1, p2, v1, v2}, Lbekv;->B(Landroid/os/Parcel;IJ)V
+
+    .line 35
+    .line 36
+    .line 37
+    const/4 p2, 0x6
+
+    .line 38
+    iget v1, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->b:F
+
+    .line 39
+    .line 40
+    invoke-static {p1, p2, v1}, Lbekv;->z(Landroid/os/Parcel;IF)V
+
+    .line 41
+    .line 42
+    .line 43
+    const/4 p2, 0x7
+
+    .line 44
+    iget p0, p0, Lcom/google/android/gms/semanticlocation/SemanticLocationEventRequest;->c:F
+
+    .line 45
+    .line 46
+    invoke-static {p1, p2, p0}, Lbekv;->z(Landroid/os/Parcel;IF)V
+
+    .line 47
+    .line 48
+    .line 49
+    invoke-static {p1, v0}, Lbekv;->v(Landroid/os/Parcel;I)V
+
+    .line 50
+    .line 51
+    .line 52
+    return-void
+.end method

@@ -1,0 +1,33 @@
+.class public final Lvca;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lvbx;
+
+
+# virtual methods
+.method public final a()Lcoxh;
+    .locals 0
+
+    .line 1
+    sget-object p0, Lcoxh;->a:Lcoxh;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final b()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public final c()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method

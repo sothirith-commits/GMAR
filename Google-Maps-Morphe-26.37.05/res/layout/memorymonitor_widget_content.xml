@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/memorymonitor_widget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dp" android:alpha="0.8" app:cardBackgroundColor="#def4f3ff" app:cardCornerRadius="8.0dp" app:cardElevation="0.0dp" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="12.0dp" android:layout_width="240.0dp" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MEMORY MONITOR" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_total_pss" android:visibility="gone" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginBottom="4.0dp">
+            <TextView android:textSize="11.0sp" android:textColor="#000000" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Total PSS" android:layout_weight="1.0" />
+            <com.google.android.apps.gmm.base.views.linechart.SparklineView android:id="@id/spark_total_pss" android:layout_width="60.0dp" android:layout_height="match_parent" android:layout_marginEnd="8.0dp" />
+            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#000000" android:gravity="end" android:id="@id/value_total_pss" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="0.0 MB" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_total_rss" android:visibility="gone" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginBottom="4.0dp">
+            <TextView android:textSize="11.0sp" android:textColor="#000000" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Total RSS" android:layout_weight="1.4" />
+            <com.google.android.apps.gmm.base.views.linechart.SparklineView android:id="@id/spark_total_rss" android:layout_width="60.0dp" android:layout_height="match_parent" android:layout_marginEnd="8.0dp" />
+            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#000000" android:gravity="end" android:id="@id/value_total_rss" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="0.0 MB" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_graphics" android:visibility="gone" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginBottom="4.0dp">
+            <TextView android:textSize="11.0sp" android:textColor="#000000" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Graphics" android:layout_weight="1.0" />
+            <com.google.android.apps.gmm.base.views.linechart.SparklineView android:id="@id/spark_graphics" android:layout_width="60.0dp" android:layout_height="match_parent" android:layout_marginEnd="8.0dp" />
+            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#000000" android:gravity="end" android:id="@id/value_graphics" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="0.0 MB" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_native_heap" android:visibility="gone" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginBottom="4.0dp">
+            <TextView android:textSize="11.0sp" android:textColor="#000000" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Native heap" android:layout_weight="1.0" />
+            <com.google.android.apps.gmm.base.views.linechart.SparklineView android:id="@id/spark_native_heap" android:layout_width="60.0dp" android:layout_height="match_parent" android:layout_marginEnd="8.0dp" />
+            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#000000" android:gravity="end" android:id="@id/value_native_heap" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="0.0 MB" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_java_heap" android:visibility="gone" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginBottom="4.0dp">
+            <TextView android:textSize="11.0sp" android:textColor="#000000" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="java Heap" android:layout_weight="1.0" />
+            <com.google.android.apps.gmm.base.views.linechart.SparklineView android:id="@id/spark_java_heap" android:layout_width="60.0dp" android:layout_height="match_parent" android:layout_marginEnd="8.0dp" />
+            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#000000" android:gravity="end" android:id="@id/value_java_heap" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="0.0 MB" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_private_other" android:visibility="gone" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginBottom="4.0dp">
+            <TextView android:textSize="11.0sp" android:textColor="#000000" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Private Other" android:layout_weight="1.0" />
+            <com.google.android.apps.gmm.base.views.linechart.SparklineView android:id="@id/spark_private_other" android:layout_width="60.0dp" android:layout_height="match_parent" android:layout_marginEnd="8.0dp" />
+            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#000000" android:gravity="end" android:id="@id/value_private_other" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="0.0 MB" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_code" android:visibility="gone" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginBottom="8.0dp">
+            <TextView android:textSize="11.0sp" android:textColor="#000000" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Code" android:layout_weight="1.0" />
+            <com.google.android.apps.gmm.base.views.linechart.SparklineView android:id="@id/spark_code" android:layout_width="60.0dp" android:layout_height="match_parent" android:layout_marginEnd="8.0dp" />
+            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#000000" android:gravity="end" android:id="@id/value_code" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="0.0 MB" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

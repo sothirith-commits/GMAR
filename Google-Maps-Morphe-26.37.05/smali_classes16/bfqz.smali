@@ -1,0 +1,96 @@
+.class public final Lbfqz;
+.super Lbfrc;
+.source "PG"
+
+
+# instance fields
+.field final synthetic a:Lcom/google/android/gms/udc/UdcCacheRequest;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/common/api/GoogleApiClient;Lcom/google/android/gms/udc/UdcCacheRequest;)V
+    .locals 0
+
+    .line 1
+    iput-object p2, p0, Lbfqz;->a:Lcom/google/android/gms/udc/UdcCacheRequest;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, p1}, Lbfrc;-><init>(Lcom/google/android/gms/common/api/GoogleApiClient;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final synthetic a(Lcom/google/android/gms/common/api/Status;)Lbels;
+    .locals 2
+
+    .line 1
+    new-instance p0, Lbftm;
+
+    .line 2
+    .line 3
+    const/4 v0, 0x0
+
+    .line 4
+    const/4 v1, 0x1
+
+    .line 5
+    invoke-direct {p0, p1, v0, v1}, Lbftm;-><init>(Lcom/google/android/gms/common/api/Status;Ljava/lang/Object;I)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-object p0
+.end method
+
+.method protected final s(Lbfqx;)V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lbfqy;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0}, Lbfqy;-><init>(Lbfqz;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p1}, Llpw;->a()Landroid/os/Parcel;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v1
+
+    .line 10
+    invoke-static {v1, v0}, Llpy;->g(Landroid/os/Parcel;Landroid/os/IInterface;)V
+
+    .line 11
+    .line 12
+    .line 13
+    iget-object p0, p0, Lbfqz;->a:Lcom/google/android/gms/udc/UdcCacheRequest;
+
+    .line 14
+    .line 15
+    invoke-static {v1, p0}, Llpy;->f(Landroid/os/Parcel;Landroid/os/Parcelable;)V
+
+    .line 16
+    .line 17
+    .line 18
+    const/16 p0, 0x8
+
+    .line 19
+    .line 20
+    invoke-virtual {p1, p0, v1}, Llpw;->A(ILandroid/os/Parcel;)V
+
+    .line 21
+    .line 22
+    .line 23
+    return-void
+.end method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/AAG.Theme.AppWidget" style="@style/TrafficWidgetLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/traffic_widget_loading_container" layout="@layout/traffic_widget_loading_container" />
+    <include android:id="@id/traffic_widget_map_container" android:visibility="invisible" layout="@layout/traffic_widget_map_container" />
+    <include android:id="@id/traffic_widget_permissions_container" android:visibility="invisible" layout="@layout/traffic_widget_permissions_container" />
+    <include android:id="@id/traffic_widget_location_disabled_container" android:visibility="invisible" layout="@layout/traffic_widget_location_disabled_container" />
+    <include android:id="@id/traffic_widget_generic_error_container" android:visibility="invisible" layout="@layout/traffic_widget_generic_error_container" />
+    <include android:id="@id/traffic_widget_network_error_container" android:visibility="invisible" layout="@layout/traffic_widget_network_error_container" />
+</FrameLayout>

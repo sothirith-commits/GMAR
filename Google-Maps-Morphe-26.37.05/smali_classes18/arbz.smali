@@ -1,0 +1,239 @@
+.class public final Larbz;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# annotations
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# static fields
+.field private static final a:Lbweh;
+
+.field private static final b:Lbweh;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 9
+
+    .line 1
+    sget-object v0, Lcpos;->a:Lcpos;
+
+    .line 2
+    .line 3
+    sget-object v1, Lcpos;->l:Lcpos;
+
+    .line 4
+    .line 5
+    sget-object v2, Lcpos;->p:Lcpos;
+
+    .line 6
+    .line 7
+    sget-object v3, Lcpos;->L:Lcpos;
+
+    .line 8
+    .line 9
+    sget-object v4, Lcpos;->W:Lcpos;
+
+    .line 10
+    .line 11
+    sget-object v5, Lcpos;->X:Lcpos;
+
+    .line 12
+    .line 13
+    const/16 v6, 0x9
+
+    .line 14
+    .line 15
+    new-array v6, v6, [Lcpos;
+
+    .line 16
+    .line 17
+    const/4 v7, 0x0
+
+    .line 18
+    sget-object v8, Lcpos;->aw:Lcpos;
+
+    .line 19
+    .line 20
+    aput-object v8, v6, v7
+
+    .line 21
+    .line 22
+    const/4 v7, 0x1
+
+    .line 23
+    sget-object v8, Lcpos;->q:Lcpos;
+
+    .line 24
+    .line 25
+    aput-object v8, v6, v7
+
+    .line 26
+    .line 27
+    const/4 v7, 0x2
+
+    .line 28
+    sget-object v8, Lcpos;->r:Lcpos;
+
+    .line 29
+    .line 30
+    aput-object v8, v6, v7
+
+    .line 31
+    .line 32
+    const/4 v7, 0x3
+
+    .line 33
+    sget-object v8, Lcpos;->s:Lcpos;
+
+    .line 34
+    .line 35
+    aput-object v8, v6, v7
+
+    .line 36
+    .line 37
+    const/4 v7, 0x4
+
+    .line 38
+    sget-object v8, Lcpos;->K:Lcpos;
+
+    .line 39
+    .line 40
+    aput-object v8, v6, v7
+
+    .line 41
+    .line 42
+    const/4 v7, 0x5
+
+    .line 43
+    sget-object v8, Lcpos;->T:Lcpos;
+
+    .line 44
+    .line 45
+    aput-object v8, v6, v7
+
+    .line 46
+    .line 47
+    const/4 v7, 0x6
+
+    .line 48
+    sget-object v8, Lcpos;->R:Lcpos;
+
+    .line 49
+    .line 50
+    aput-object v8, v6, v7
+
+    .line 51
+    .line 52
+    const/4 v7, 0x7
+
+    .line 53
+    sget-object v8, Lcpos;->M:Lcpos;
+
+    .line 54
+    .line 55
+    aput-object v8, v6, v7
+
+    .line 56
+    .line 57
+    const/16 v7, 0x8
+
+    .line 58
+    .line 59
+    sget-object v8, Lcpos;->z:Lcpos;
+
+    .line 60
+    .line 61
+    aput-object v8, v6, v7
+
+    .line 62
+    .line 63
+    invoke-static/range {v0 .. v6}, Lbweh;->J(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;)Lbweh;
+
+    .line 64
+    .line 65
+    .line 66
+    move-result-object v0
+
+    .line 67
+    sput-object v0, Larbz;->a:Lbweh;
+
+    .line 68
+    .line 69
+    sget-object v0, Lcpos;->X:Lcpos;
+
+    .line 70
+    .line 71
+    sget-object v1, Lcpos;->aw:Lcpos;
+
+    .line 72
+    .line 73
+    invoke-static {v0, v1}, Lbweh;->F(Ljava/lang/Object;Ljava/lang/Object;)Lbweh;
+
+    .line 74
+    .line 75
+    .line 76
+    move-result-object v0
+
+    .line 77
+    sput-object v0, Larbz;->b:Lbweh;
+
+    .line 78
+    .line 79
+    return-void
+.end method
+
+.method public static a(Lcpos;)Z
+    .locals 1
+
+    .line 1
+    sget-object v0, Larbz;->b:Lbweh;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0}, Lbweh;->contains(Ljava/lang/Object;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    return p0
+.end method
+
+.method public static b(Lcpos;)Z
+    .locals 1
+
+    .line 1
+    sget-object v0, Larbz;->a:Lbweh;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0}, Lbweh;->contains(Ljava/lang/Object;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    if-nez p0, :cond_0
+
+    .line 8
+    .line 9
+    const/4 p0, 0x1
+
+    .line 10
+    return p0
+
+    .line 11
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 12
+    return p0
+.end method

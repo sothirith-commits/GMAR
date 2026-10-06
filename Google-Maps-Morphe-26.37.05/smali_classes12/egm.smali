@@ -1,0 +1,294 @@
+.class public final Legm;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Ljava/util/Iterator;
+.implements Lcths;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Ljava/util/Iterator<",
+        "TT;>;",
+        "Lcths;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final a:Lega;
+
+.field private final b:Ljava/util/Iterator;
+
+.field private c:Ljava/lang/Object;
+
+.field private d:Ljava/lang/Object;
+
+.field private e:I
+
+
+# direct methods
+.method public constructor <init>(Lega;Ljava/util/Iterator;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Legm;->a:Lega;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Legm;->b:Ljava/util/Iterator;
+
+    .line 7
+    .line 8
+    invoke-static {p1}, Legb;->a(Lega;)I
+
+    .line 9
+    .line 10
+    .line 11
+    move-result p1
+
+    .line 12
+    iput p1, p0, Legm;->e:I
+
+    .line 13
+    .line 14
+    invoke-direct {p0}, Legm;->a()V
+
+    .line 15
+    .line 16
+    .line 17
+    return-void
+.end method
+
+.method private final a()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Legm;->d:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    iput-object v0, p0, Legm;->c:Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Legm;->b:Ljava/util/Iterator;
+
+    .line 6
+    .line 7
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v1
+
+    .line 11
+    if-eqz v1, :cond_0
+
+    .line 12
+    .line 13
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v0
+
+    .line 17
+    goto :goto_0
+
+    .line 18
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 19
+    :goto_0
+    iput-object v0, p0, Legm;->d:Ljava/lang/Object;
+
+    .line 20
+    .line 21
+    return-void
+.end method
+
+.method private final b()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Legm;->a:Lega;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Legb;->a(Lega;)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    iget p0, p0, Legm;->e:I
+
+    .line 8
+    .line 9
+    if-ne v0, p0, :cond_0
+
+    .line 10
+    .line 11
+    return-void
+
+    .line 12
+    :cond_0
+    new-instance p0, Ljava/util/ConcurrentModificationException;
+
+    .line 13
+    .line 14
+    invoke-direct {p0}, Ljava/util/ConcurrentModificationException;-><init>()V
+
+    .line 15
+    .line 16
+    .line 17
+    throw p0
+.end method
+
+
+# virtual methods
+.method public final hasNext()Z
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Legm;->d:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    if-eqz p0, :cond_0
+
+    .line 4
+    .line 5
+    const/4 p0, 0x1
+
+    .line 6
+    return p0
+
+    .line 7
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 8
+    return p0
+.end method
+
+.method public final next()Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TT;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Legm;->b()V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-direct {p0}, Legm;->a()V
+
+    .line 5
+    .line 6
+    .line 7
+    iget-object p0, p0, Legm;->c:Ljava/lang/Object;
+
+    .line 8
+    .line 9
+    if-eqz p0, :cond_0
+
+    .line 10
+    .line 11
+    return-object p0
+
+    .line 12
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    .line 13
+    .line 14
+    invoke-direct {p0}, Ljava/lang/IllegalStateException;-><init>()V
+
+    .line 15
+    .line 16
+    .line 17
+    throw p0
+.end method
+
+.method public final remove()V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Legm;->b()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p0, Legm;->c:Ljava/lang/Object;
+
+    .line 5
+    .line 6
+    if-eqz v0, :cond_0
+
+    .line 7
+    .line 8
+    iget-object v1, p0, Legm;->a:Lega;
+
+    .line 9
+    .line 10
+    invoke-virtual {v1, v0}, Lega;->remove(Ljava/lang/Object;)Z
+
+    .line 11
+    .line 12
+    .line 13
+    const/4 v0, 0x0
+
+    .line 14
+    iput-object v0, p0, Legm;->c:Ljava/lang/Object;
+
+    .line 15
+    .line 16
+    invoke-static {v1}, Legb;->a(Lega;)I
+
+    .line 17
+    .line 18
+    .line 19
+    move-result v0
+
+    .line 20
+    iput v0, p0, Legm;->e:I
+
+    .line 21
+    .line 22
+    return-void
+
+    .line 23
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    .line 24
+    .line 25
+    invoke-direct {p0}, Ljava/lang/IllegalStateException;-><init>()V
+
+    .line 26
+    .line 27
+    .line 28
+    throw p0
+.end method

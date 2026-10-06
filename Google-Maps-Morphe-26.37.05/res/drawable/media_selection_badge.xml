@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/photo_post_editor_gallery_media_ordinal_badge_size" android:width="@dimen/photo_post_editor_gallery_media_ordinal_badge_size" />
+    <solid android:color="?geoColorPrimaryContainer" />
+</shape>

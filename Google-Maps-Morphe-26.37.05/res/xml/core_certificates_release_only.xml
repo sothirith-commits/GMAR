@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app-authenticator>
+    <expected-identity>
+        <package name="com.google.android.glasses.core">
+            <cert-digest>42E18C407031E802A349ACDAEBFBFC8CE93A693E5C1A8A12CE4613E57A233FBC </cert-digest>
+        </package>
+        <package name="com.google.android.glasses.core">
+            <cert-digest>03D6C1FD40D676294BC0BEB0D1A2E7AABC227C2044D176E2A35B3340033352AB </cert-digest>
+        </package>
+    </expected-identity>
+</app-authenticator>

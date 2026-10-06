@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>कुनै पनि</item>
+        <item>रू</item>
+        <item>रूरू</item>
+        <item>रूरूरू</item>
+        <item>रूरूरूरू</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>कुनै पनि मूल्य स्तर</item>
+        <item>सस्तो</item>
+        <item>सामान्य रूपले महंगो</item>
+        <item>महंगो</item>
+        <item>धेरै महंगो</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>कुनै पनि</item>
+        <item>3-तारे</item>
+        <item>4-तारे</item>
+        <item>5-तारे</item>
+    </string-array>
+    <string-array name="RESTRICTION_OPENING_HOURS_OPTIONS">
+        <item>कुनै पनि</item>
+        <item>अहिले खुला छ</item>
+        <item>" कस्टम"</item>
+    </string-array>
+    <string-array name="REVAMP_SHOW_SCALEBAR_ENTRIES">
+        <item>जुम गरेका बेला</item>
+        <item>सधैँ</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>जुम इन र जुम आउट गर्दा</item>
+        <item>सधैँ</item>
+    </string-array>
+    <string-array name="five_stars_state_commentary">
+        <item>पटक्कै मन परेन</item>
+        <item>मन परेन</item>
+        <item>ठिकै लाग्यो</item>
+        <item>मन पर्‍यो</item>
+        <item>एकदमै मन पर्‍यो</item>
+    </string-array>
+</resources>

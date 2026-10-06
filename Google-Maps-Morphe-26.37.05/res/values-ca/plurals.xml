@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_PROPORTION_DESCRIPTION">
+        <item quantity="one">%1$d de %2$d</item>
+        <item quantity="other">%1$d de %2$d</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_PROMO_TEXT">
+        <item quantity="one">Tens %d bitllet de metro actiu</item>
+        <item quantity="other">Tens %d bitllets de metro actius</item>
+    </plurals>
+    <plurals name="ACCESS_ACTIVE_TICKETS_TRIP_DETAILS_PROMO_TEXT">
+        <item quantity="one">Tens %d bitllet actiu per a aquest trajecte</item>
+        <item quantity="other">Tens %d bitllets actius per a aquest trajecte</item>
+    </plurals>
+    <plurals name="ADMISSION_GROUPS_SHOW_MORE_OPTIONS">
+        <item quantity="one">%d opció més</item>
+        <item quantity="other">%d opcions més</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_PEOPLE_REPORTED">
+        <item quantity="one">"N'ha informat %1$d persona"</item>
+        <item quantity="other">"N'han informat %1$d persones"</item>
+    </plurals>
+    <plurals name="AGGREGATION_NUMBER_OF_REPORTS">
+        <item quantity="one">"%1$d persona n'ha informat"</item>
+        <item quantity="other">"%1$d persones n'han informat"</item>
+    </plurals>
+    <plurals name="AI_REVIEW_SUMMARY_FACEPILE_COUNT">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="ALERTS_DISPLAYED_ON_TRIP_CARD">
+        <item quantity="one">%d alerta</item>
+        <item quantity="other">%d alertes</item>
+    </plurals>
+    <plurals name="ALERTS_INCOMING_SHARES_COUNT_TEXT">
+        <item quantity="one">%1$d ubicació</item>
+        <item quantity="other">%1$d ubicacions</item>
+    </plurals>
+    <plurals name="ANSWER_QUESTION_TASK_SEE_ANSWERS">
+        <item quantity="one">Mostra la resposta</item>
+        <item quantity="other">Mostra les respostes (%,d)</item>
+    </plurals>
+    <plurals name="AT_A_PLACE_DIRECTORY_EXPLORE_SNIPPET_CARD_SUBTITLE">
+        <item quantity="one">Explora aquí</item>
+        <item quantity="other">Explora %d llocs aquí</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d bicicleta disponible</item>
+        <item quantity="other">%d bicicletes disponibles</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_AT_DOCK">
+        <item quantity="one">"Hi ha %s bicicleta a l'estació"</item>
+        <item quantity="other">"Hi ha %s bicicletes a l'estació"</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE_ON_MAP">
+        <item quantity="one">%d bicicleta</item>
+        <item quantity="other">%d bicicletes</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d ancoratge disponible</item>
+        <item quantity="other">%d ancoratges disponibles</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE_ON_MAP">
+        <item quantity="one">"%d punt d'ancoratge"</item>
+        <item quantity="other">"%d punts d'ancoratge"</item>
+    </plurals>
+    <plurals name="BOOK_TICKETS_ENCOURAGEMENT_SUBTITLE">
+        <item quantity="one">Recomanat per %1$d persones</item>
+        <item quantity="other">Recomanat per %1$d persones</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Ruta més ràpida, %1$s parada menys</item>
+        <item quantity="other">Ruta més ràpida, %1$s parades menys</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Ruta més ràpida, %1$s parada més</item>
+        <item quantity="other">Ruta més ràpida, %1$s parades més</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Ruta més ràpida disponible, %1$s parada canviada</item>
+        <item quantity="other">Ruta més ràpida disponible, %1$s parades canviades</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Nova ruta necessària, %1$s parada menys</item>
+        <item quantity="other">Nova ruta necessària, %1$s parades menys</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Nova ruta necessària, %1$s parada més</item>
+        <item quantity="other">Nova ruta necessària, %1$s parades més</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Nova ruta necessària, %1$s parada canviada</item>
+        <item quantity="other">Nova ruta necessària, %1$s parades canviades</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Nova ruta, %1$s parada menys</item>
+        <item quantity="other">Nova ruta, %1$s parades menys</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Nova ruta, %1$s parada menys</item>
+        <item quantity="other">Nova ruta, %1$s parades menys</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Ruta nova disponible amb %1$s parada de recàrrega necessària menys. %2$s més ràpida, amb el temps de conducció i de recàrrega inclosos.</item>
+        <item quantity="other">Ruta nova disponible amb %1$s parades de recàrrega necessàries menys. %2$s més ràpida, amb el temps de conducció i de recàrrega inclosos.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Ruta nova disponible amb %1$s parada de recàrrega necessària més. %2$s més ràpida, amb el temps de conducció i de recàrrega inclosos.</item>
+        <item quantity="other">Ruta nova disponible amb %1$s parades de recàrrega necessàries més. %2$s més ràpida, amb el temps de conducció i de recàrrega inclosos.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">"Hauràs d'agafar una ruta nova. Cal %1$s parada de recàrrega menys. Arribaràs a les %2$s."</item>
+        <item quantity="other">"Hauràs d'agafar una ruta nova. Calen %1$s parades de recàrrega menys. Arribaràs a les %2$s."</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">"Hauràs d'agafar una ruta nova. Cal %1$s parada de recàrrega més. Arribaràs a les %2$s."</item>
+        <item quantity="other">"Hauràs d'agafar una ruta nova. Calen %1$s parades de recàrrega més. Arribaràs a les %2$s."</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">"Hauràs d'agafar una ruta nova. S'ha canviat %1$s parada de recàrrega. Arribaràs a les %2$s."</item>
+        <item quantity="other">"Hauràs d'agafar una ruta nova. S'han canviat %1$s parades de recàrrega. Arribaràs a les %2$s."</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">"Ruta nova disponible amb %1$s parada de recàrrega necessària menys. Hora d'arribada similar."</item>
+        <item quantity="other">"Ruta nova disponible amb %1$s parades de recàrrega necessàries menys. Hora d'arribada similar."</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Ruta nova disponible amb %1$s parada de recàrrega necessària menys. %2$s més lenta, amb el temps de conducció i de recàrrega inclosos.</item>
+        <item quantity="other">Ruta nova disponible amb %1$s parades de recàrrega necessàries menys. %2$s més lenta, amb el temps de conducció i de recàrrega inclosos.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">Es va utilitzar fa %1$d dia</item>
+        <item quantity="other">Es va utilitzar fa %1$d dies</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">Es va utilitzar fa %1$d setmana</item>
+        <item quantity="other">Es va utilitzar fa %1$d setmanes</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">+%1$d xarxa</item>
+        <item quantity="other">+%1$d xarxes</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">%1$d de seleccionada</item>
+        <item quantity="other">%1$d de seleccionades</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s parada de recàrrega</item>
+        <item quantity="other">%1$s parades de recàrrega</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d parada</item>
+        <item quantity="other">%1$d parades</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d xarxa seleccionada</item>
+        <item quantity="other">%1$d xarxes seleccionades</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s i %2$d més</item>
+        <item quantity="other">%1$s i %2$d més</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">i %1$d més</item>
+        <item quantity="other">i %1$d més</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">+%1$d més</item>
+        <item quantity="other">+%1$d més</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">+%1$d més</item>
+        <item quantity="other">+%1$d més</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+%1$d</item>
+        <item quantity="other">+%1$d</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_HOME_TO_WORK">
+        <item quantity="one">%2$d min fins a la feina</item>
+        <item quantity="other">%1$d h %2$d min fins a la feina</item>
+    </plurals>
+    <plurals name="COMMUTE_AMBIENT_TITLE_WORK_TO_HOME">
+        <item quantity="one">%2$d min fins a casa</item>
+        <item quantity="other">%1$d h %2$d min fins a casa</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_HOME_TO_WORK">
+        <item quantity="one">%2$d min fins a la feina</item>
+        <item quantity="other">%1$d h %2$d min fins a la feina</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_UNSPECIFIED">
+        <item quantity="one">Durada del trajecte: %2$d min</item>
+        <item quantity="other">Durada del trajecte: %1$d h %2$d min</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TITLE_WORK_TO_HOME">
+        <item quantity="one">%2$d min fins a casa</item>
+        <item quantity="other">%1$d h %2$d min fins a casa</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_FASTER_THAN_USUAL">
+        <item quantity="one">"%d min més ràpid de l'habitual"</item>
+        <item quantity="other">"%d min més ràpid de l'habitual"</item>
+    </plurals>
+    <plurals name="COMMUTE_NOTIFICATION_TRAFFIC_SLOWER_THAN_USUAL">
+        <item quantity="one">"%d min més lent de l'habitual"</item>
+        <item quantity="other">"%d min més lent de l'habitual"</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">"L'orientació del mapa és d’%d grau."</item>
+        <item quantity="other">"L'orientació del mapa és de %d graus."</item>
+    </plurals>
+    <plurals name="COMPLIANT_LODGING_CLASS">
+        <item quantity="one">Establiment d’%d estrella</item>
+        <item quantity="other">Establiment de %d estrelles</item>
+    </plurals>
+    <plurals name="CONTRIBUTIONS_SHARE_DESCRIPTION_LOCAL_GUIDE">
+        <item quantity="one">Local Guide de nivell %d</item>
+        <item quantity="other">Local Guide de nivell %d</item>
+    </plurals>
+    <plurals name="CURRENT_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">Has puntuat %1$s amb 1 estrella</item>
+        <item quantity="other">Has puntuat %1$s amb %2$d estrelles</item>
+    </plurals>
+    <plurals name="CZ_POINTS_DIALOG_LABEL_POINTS_V2">
+        <item quantity="one">punt</item>
+        <item quantity="other">punts</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s dia</item>
+        <item quantity="other">%s dies</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s d</item>
+        <item quantity="other">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s d</item>
+        <item quantity="other">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s dia</item>
+        <item quantity="other">%s dies</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s hora</item>
+        <item quantity="other">%s hores</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s minut</item>
+        <item quantity="other">%s minuts</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s segon</item>
+        <item quantity="other">%s segons</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Continua %1$s peu</item>
+        <item quantity="other">Continua %1$s peus</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Continua %1$s quilòmetre</item>
+        <item quantity="other">Continua %1$s quilòmetres</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Continua %1$s metre</item>
+        <item quantity="other">Continua %1$s metres</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Continua %1$s milla</item>
+        <item quantity="other">Continua %1$s milles</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Continua %1$s iarda</item>
+        <item quantity="other">Continua %1$s iardes</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Continua %1$s peu per %2$s</item>
+        <item quantity="other">Continua %1$s peus per %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Continua %1$s quilòmetre per %2$s</item>
+        <item quantity="other">Continua %1$s quilòmetres per %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Continua %1$s metre per %2$s</item>
+        <item quantity="other">Continua %1$s metres per %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Continua %1$s milles per %2$s</item>
+        <item quantity="other">Continua %1$s milles per %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Continua %1$s iarda per %2$s</item>
+        <item quantity="other">Continua %1$s iardes per %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">"D'aquí a %1$s peu"</item>
+        <item quantity="other">"D'aquí a %1$s peus"</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">"D'aquí a %1$s quilòmetre"</item>
+        <item quantity="other">"D'aquí a %1$s quilòmetres"</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">"D'aquí a %1$s metre"</item>
+        <item quantity="other">"D'aquí a %1$s metres"</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">"D'aquí a %1$s milla"</item>
+        <item quantity="other">"D'aquí a %1$s milles"</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">"D'aquí a %1$s iarda"</item>
+        <item quantity="other">"D'aquí a %1$s iardes"</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s quilòmetre per hora</item>
+        <item quantity="other">%s quilòmetres per hora</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s milla per hora</item>
+        <item quantity="other">%s milles per hora</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Queda %1$s peu per arribar a la teva destinació</item>
+        <item quantity="other">Queden %1$s peus per arribar a la teva destinació</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Queda %1$s quilòmetre per arribar a la teva destinació</item>
+        <item quantity="other">Queden %1$s quilòmetres per arribar a la teva destinació</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Queda %1$s metre per arribar a la teva destinació</item>
+        <item quantity="other">Queden %1$s metres per arribar a la teva destinació</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Queda %1$s milla per arribar a la teva destinació</item>
+        <item quantity="other">Queden %1$s milles per arribar a la teva destinació</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Queda %1$s iarda per arribar a la teva destinació</item>
+        <item quantity="other">Queden %1$s iardes per arribar a la teva destinació</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="one">%d parada</item>
+        <item quantity="other">%d parades</item>
+    </plurals>
+    <plurals name="DIRECTIONS_TRANSIT_OPTIONS_CONNECTING_MODES_CAPTION_WITH_COUNT">
+        <item quantity="one">%1$d mode de connexió</item>
+        <item quantity="other">%1$d modes de connexió</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_DAYS">
+        <item quantity="one">Actualitzat fa %d dia</item>
+        <item quantity="other">Actualitzat fa %d dies</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_MONTHS">
+        <item quantity="one">Actualitzat fa %d mes</item>
+        <item quantity="other">Actualitzat fa %d mesos</item>
+    </plurals>
+    <plurals name="DISCOVERABLE_LISTS_FRESHNESS_LAST_UPDATED_WEEKS">
+        <item quantity="one">Actualitzat fa %d setmana</item>
+        <item quantity="other">Actualitzat fa %d setmanes</item>
+    </plurals>
+    <plurals name="DOCKED_BIKESHARING_NUM_BIKES">
+        <item quantity="one">%d bicicleta</item>
+        <item quantity="other">%d bicicletes</item>
+    </plurals>
+    <plurals name="DOCKLESS_BIKESHARING_BIKES_NEARBY">
+        <item quantity="one">%d bicicleta a prop</item>
+        <item quantity="other">%d bicicletes a prop</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">%1$d seleccionat</item>
+        <item quantity="other">%1$d seleccionats</item>
+    </plurals>
+    <plurals name="EV_INFO_NUM_AVAILABLE_PORTS_ACCESSIBILITY">
+        <item quantity="one">%1$d d’%2$d port de càrrega</item>
+        <item quantity="other">%1$d de %2$d ports de càrrega</item>
+    </plurals>
+    <plurals name="EV_INFO_TOTAL_PORTS_ACCESSIBILITY">
+        <item quantity="one">%d port de càrrega</item>
+        <item quantity="other">%d ports de càrrega</item>
+    </plurals>
+    <plurals name="FAILED_TO_RATE_PLACE_TRY_AGAIN">
+        <item quantity="one">"No s'ha pogut puntuar amb 1 estrella; torna-ho a provar"</item>
+        <item quantity="other">"No s'ha pogut puntuar amb %1$d estrelles; torna-ho a provar"</item>
+    </plurals>
+    <plurals name="FLOORS">
+        <item quantity="one">Planta %s</item>
+        <item quantity="other">Plantes %s</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_EXTRA_NIGHTS">
+        <item quantity="one">%d nit més</item>
+        <item quantity="other">%d nits més</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_ACTION">
+        <item quantity="one">Afegeix %d nit</item>
+        <item quantity="other">Afegeix %d nits</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_FOR_UNAVAILABLE_LINK">
+        <item quantity="one">Aquest hotel té disponibilitat per a %1$d nit. %2$s per %3$s de tarifa mitjana per nit.</item>
+        <item quantity="other">Aquest hotel té disponibilitat per a %1$d nits. %2$s per %3$s de tarifa mitjana per nit.</item>
+    </plurals>
+    <plurals name="HOTEL_ITINERARY_EXTENSION_TIP_LINK">
+        <item quantity="one">%1$s per %2$s de tarifa mitjana per nit</item>
+        <item quantity="other">%1$s per %2$s de tarifa mitjana per nit</item>
+    </plurals>
+    <plurals name="HOTEL_OCCUPANCY_RATE_LABEL">
+        <item quantity="one">%d hoste</item>
+        <item quantity="other">%d hostes</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE">
+        <item quantity="one">i %d més.</item>
+        <item quantity="other">i %d més.</item>
+    </plurals>
+    <plurals name="HOTEL_SUSTAINABILITY_SUMMARY_MULTIPLE_FOR_CONTAINMENT">
+        <item quantity="one">i %d més.</item>
+        <item quantity="other">i %d més.</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_DAYS_AGO_TALKBACK">
+        <item quantity="one">Fa %d dia</item>
+        <item quantity="other">Fa %d dies</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_HOURS_AGO_TALKBACK">
+        <item quantity="one">Fa %d hora</item>
+        <item quantity="other">Fa %d hores</item>
+    </plurals>
+    <plurals name="INTERACTED_PLACE_LAST_INTERACTION_TIME_MINUTES_AGO_TALKBACK">
+        <item quantity="one">Fa %d minut</item>
+        <item quantity="other">Fa %d minuts</item>
+    </plurals>
+    <plurals name="JUSTIFICATION_SAVED_MULTIPLE_LISTS">
+        <item quantity="one">Desat a %1$s i en %2$d llista més</item>
+        <item quantity="other">Desat a %1$s i en %2$d llistes més</item>
+    </plurals>
+    <plurals name="JUST_SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">Desat i en %1$d llista</item>
+        <item quantity="other">Desat i en %1$d llistes</item>
+    </plurals>
+    <plurals name="JUST_SAVE_REMOVED_FROM_LISTS_TOAST">
+        <item quantity="one">"S'ha suprimit d’%d llista"</item>
+        <item quantity="other">"S'ha suprimit de %d llistes"</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="one">Visitat fa %d mes</item>
+        <item quantity="other">Visitat fa %d mesos</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="one">Visitat fa %d setmana</item>
+        <item quantity="other">Visitat fa %d setmanes</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="one">Visitat fa %d any</item>
+        <item quantity="other">Visitat fa %d anys</item>
+    </plurals>
+    <plurals name="LIST_COUNT_EVENTS">
+        <item quantity="one">%d esdeveniment</item>
+        <item quantity="other">%d esdeveniments</item>
+    </plurals>
+    <plurals name="LIST_COUNT_ITEMS">
+        <item quantity="one">%d element</item>
+        <item quantity="other">%d elements</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="one">%d lloc</item>
+        <item quantity="other">%d llocs</item>
+    </plurals>
+    <plurals name="LIST_COUNT_SAVES">
+        <item quantity="one">Desada %d cop</item>
+        <item quantity="other">Desada %d cops</item>
+    </plurals>
+    <plurals name="LIST_COUNT_TRIPS">
+        <item quantity="one">%d trajecte</item>
+        <item quantity="other">%d trajectes</item>
+    </plurals>
+    <plurals name="LIST_COUNT_VIEWS">
+        <item quantity="one">%s visualització</item>
+        <item quantity="other">%s visualitzacions</item>
+    </plurals>
+    <plurals name="LIST_DETAILS_PLACE_ITEM_APPLIED_TAGS_MORE_TAGS_COUNT">
+        <item quantity="one">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_DAYS">
+        <item quantity="one">Editat fa %d dia</item>
+        <item quantity="other">Editat fa %d dies</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_MONTHS">
+        <item quantity="one">Editat fa %d mes</item>
+        <item quantity="other">Editat fa %d mesos</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_WEEKS">
+        <item quantity="one">Editat fa %d setmana</item>
+        <item quantity="other">Editat fa %d setmanes</item>
+    </plurals>
+    <plurals name="LIST_LAST_EDITED_YEARS">
+        <item quantity="one">Editat fa %d any</item>
+        <item quantity="other">Editat fa %d anys</item>
+    </plurals>
+    <plurals name="LITE_NAVIGATION_MULTITASKING_STOPS_REMAINING">
+        <item quantity="one">%d parada</item>
+        <item quantity="other">%d parades</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_DESCRIPTION">
+        <item quantity="one">Tens %d punt</item>
+        <item quantity="other">Tens %d punts</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDES_POINTS_TO_NEXT_LEVEL_DESCRIPTION">
+        <item quantity="one">Només falta %1$d punt per arribar al nivell %2$d</item>
+        <item quantity="other">Només falten %1$d punts per arribar al nivell %2$d</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="one">Nivell %d</item>
+        <item quantity="other">Nivell %d</item>
+    </plurals>
+    <plurals name="plurals_0x7f120093">
+        <item quantity="one">Local Guide de nivell %d</item>
+        <item quantity="other">Local Guide de nivell %d</item>
+    </plurals>
+    <plurals name="LOCAL_SERVICES_ADS_YEARS_IN_BUSINESS">
+        <item quantity="one">%d any en actiu</item>
+        <item quantity="other">Més de %d anys en actiu</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_DAYS_AGO_SHORT">
+        <item quantity="one">Fa %d dia</item>
+        <item quantity="other">Fa %d dies</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_HOURS_AGO_SHORT">
+        <item quantity="one">Fa %d hora</item>
+        <item quantity="other">Fa %d hores</item>
+    </plurals>
+    <plurals name="LOCATION_UPDATED_MINUTES_ABBREVIATED_AGO_SHORT">
+        <item quantity="one">Fa %d min</item>
+        <item quantity="other">Fa %d min</item>
+    </plurals>
+    <plurals name="MANY_PLACES_HERE">
+        <item quantity="one">%d lloc aquí</item>
+        <item quantity="other">%d llocs aquí</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="one">"S'ha suprimit la foto"</item>
+        <item quantity="other">"S'han suprimit les fotos"</item>
+    </plurals>
+    <plurals name="MAXIMIZE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Maximitza el vídeo de la publicació %1$d</item>
+        <item quantity="other">Maximitza el vídeo %2$d de la publicació %1$d</item>
+    </plurals>
+    <plurals name="MEDIA_INDEX_IN_LIST">
+        <item quantity="one">%1$,d de %2$,d</item>
+        <item quantity="other">%1$,d de %2$,d</item>
+    </plurals>
+    <plurals name="MEDIA_UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="one">"S'està penjant %1$d element multimèdia"</item>
+        <item quantity="other">"S'estan penjant %1$d elements multimèdia"</item>
+    </plurals>
+    <plurals name="MENU_PHOTO_CAROUSEL_PHOTO_THUMBNAIL_CONTENT_DESCRIPTION">
+        <item quantity="one">Foto número %d de la carta</item>
+        <item quantity="other">Foto número %d de la carta</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">%1$d informe</item>
+        <item quantity="other">%1$d informes</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_DAY_AND_N_HOURS">
+        <item quantity="one">Les persones que tinguin aquest enllaç poden veure la teva ubicació durant 1 dia i %d hora</item>
+        <item quantity="other">Les persones que tinguin aquest enllaç poden veure la teva ubicació durant 1 dia i %d hores</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_1_HOUR_AND_N_MINS">
+        <item quantity="one">Les persones que tinguin aquest enllaç poden veure la teva ubicació durant 1 hora i %d min</item>
+        <item quantity="other">Les persones que tinguin aquest enllaç poden veure la teva ubicació durant 1 hora i %d min</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_DAYS">
+        <item quantity="one">Les persones que tinguin aquest enllaç poden veure la teva ubicació durant %d dia</item>
+        <item quantity="other">Les persones que tinguin aquest enllaç poden veure la teva ubicació durant %d dies</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_HOURS">
+        <item quantity="one">Les persones que tinguin aquest enllaç poden veure la teva ubicació durant %d hora</item>
+        <item quantity="other">Les persones que tinguin aquest enllaç poden veure la teva ubicació durant %d hores</item>
+    </plurals>
+    <plurals name="MOD_CAN_SEE_WITH_LINK_FOR_MINUTES">
+        <item quantity="one">Les persones que tinguin aquest enllaç poden veure la teva ubicació durant %d min</item>
+        <item quantity="other">Les persones que tinguin aquest enllaç poden veure la teva ubicació durant %d min</item>
+    </plurals>
+    <plurals name="MORE_LIST_ITEMS">
+        <item quantity="one">%d més</item>
+        <item quantity="other">%d més</item>
+    </plurals>
+    <plurals name="MUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Silencia el vídeo de la publicació %1$d</item>
+        <item quantity="other">Silencia el vídeo %2$d de la publicació %1$d</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="one">%d foto i/o vídeo</item>
+        <item quantity="other">%d fotos i/o vídeos</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="one">%d vídeo</item>
+        <item quantity="other">%d vídeos</item>
+    </plurals>
+    <plurals name="NAVATARS_CUSTOM_AVATAR_DESCRIPTION">
+        <item quantity="one">Avatar personalitzat %1$d d‘%2$d</item>
+        <item quantity="other">Avatar personalitzat %1$d de %2$d</item>
+    </plurals>
+    <plurals name="NEWLY_ADDED_PLACES_SNACKBAR_TEXT">
+        <item quantity="one">%d actualització nova</item>
+        <item quantity="other">%d actualitzacions noves</item>
+    </plurals>
+    <plurals name="NOTIFICATIONS_ACTION_HAS_UPDATES_CONTENT_DESC">
+        <item quantity="one">"Novetats de l'empresa, %1$s notificació nova"</item>
+        <item quantity="other">"Novetats de l'empresa, %1$s notificacions noves"</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_PHOTO_STATS">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">%d fotos</item>
+    </plurals>
+    <plurals name="OFFERING_DETAILS_REVIEW_STATS">
+        <item quantity="one">%d ressenya</item>
+        <item quantity="other">%d ressenyes</item>
+    </plurals>
+    <plurals name="OFFERING_MENU_PHOTO_CAROUSEL_CARD_CONTENT_DESCRIPTION">
+        <item quantity="one">Miniatura número %d</item>
+        <item quantity="other">Miniatura número %d</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="one">%d àrea sense connexió</item>
+        <item quantity="other">%d àrees sense connexió</item>
+    </plurals>
+    <plurals name="PARKING_NUMBER_OF_REPORTS">
+        <item quantity="one">Basat en %1$d informe</item>
+        <item quantity="other">Basat en %1$d informes</item>
+    </plurals>
+    <plurals name="PAUSE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Posa en pausa el vídeo de la publicació %1$d</item>
+        <item quantity="other">Posa en pausa el vídeo %2$d de la publicació %1$d</item>
+    </plurals>
+    <plurals name="PERFORMANCE_INTERACTIONS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s interacció</item>
+        <item quantity="other">%1$s interaccions</item>
+    </plurals>
+    <plurals name="PERFORMANCE_SEARCHES_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s cerca</item>
+        <item quantity="other">%1$s cerques</item>
+    </plurals>
+    <plurals name="PERFORMANCE_VIEWS_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s visualització</item>
+        <item quantity="other">%1$s visualitzacions</item>
+    </plurals>
+    <plurals name="PERSONAL_HOTEL_RESERVATION_LENGTH">
+        <item quantity="one">Reserva per a %d nit</item>
+        <item quantity="other">Reserva per a %d nits</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="one">Només tu ho pots veure</item>
+        <item quantity="other">Només tu les pots veure</item>
+    </plurals>
+    <plurals name="PE_DURATION_DAYS">
+        <item quantity="one">%1$d dia</item>
+        <item quantity="other">%1$d dies</item>
+    </plurals>
+    <plurals name="PE_DURATION_NIGHTS">
+        <item quantity="one">%1$d nit</item>
+        <item quantity="other">%1$d nits</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">%d fotos</item>
+    </plurals>
+    <plurals name="PHOTO_AND_VIDEO_UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"S'està esperant la Wi-Fi.
+ Queda %d foto o vídeo pendent."</item>
+        <item quantity="other">"S'està esperant la Wi-Fi.
+ Queden %d fotos o vídeos pendents."</item>
+    </plurals>
+    <plurals name="PHOTO_FOR_POST">
+        <item quantity="one">Foto de la publicació %1$d</item>
+        <item quantity="other">Foto %2$d de la publicació %1$d</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">Fa %d dia</item>
+        <item quantity="other">Fa %d dies</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">Fa %d hora</item>
+        <item quantity="other">Fa %d hores</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">Fa %d mes</item>
+        <item quantity="other">Fa %d mesos</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_WEEKS_AGO">
+        <item quantity="one">Fa %d setmana</item>
+        <item quantity="other">Fa %d setmanes</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">Fa %d any</item>
+        <item quantity="other">Fa %d anys</item>
+    </plurals>
+    <plurals name="PHOTO_UPDATE_COUNT">
+        <item quantity="one">%d actualització</item>
+        <item quantity="other">%d actualitzacions</item>
+    </plurals>
+    <plurals name="PLACE_QA_SEE_ANSWERS_TEXT">
+        <item quantity="one">Mostra %d resposta</item>
+        <item quantity="other">Mostra %d respostes</item>
+    </plurals>
+    <plurals name="PLAY_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Reprodueix el vídeo de la publicació %1$d</item>
+        <item quantity="other">Reprodueix el vídeo %2$d de la publicació %1$d</item>
+    </plurals>
+    <plurals name="PLUS_N_OTHER_SHARES">
+        <item quantity="one">i %d persona més</item>
+        <item quantity="other">i %d persones més</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Substitueix</item>
+        <item quantity="other">Substitueix</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">"S'està substituint la parada"</item>
+        <item quantity="other">"S'estan substituint les parades"</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d visualització</item>
+        <item quantity="other">%,d visualitzacions</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="one">%d puntuació</item>
+        <item quantity="other">%d puntuacions</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="one">%d ressenya</item>
+        <item quantity="other">%d ressenyes</item>
+    </plurals>
+    <plurals name="RATED_STARS_NOTICE">
+        <item quantity="one">"S'ha puntuat amb %d estrella"</item>
+        <item quantity="other">"S'ha puntuat amb %d estrelles"</item>
+    </plurals>
+    <plurals name="RATING_STARS_ACCESSIBILITY">
+        <item quantity="one">%d estrella</item>
+        <item quantity="other">%d estrelles</item>
+    </plurals>
+    <plurals name="REACTION_TYPE_COUNT">
+        <item quantity="one">1 reacció %2$s</item>
+        <item quantity="other">%1$,d reaccions %2$s</item>
+    </plurals>
+    <plurals name="REAL_TIME_DATA_UPDATED_MINUTES_AGO_NOTICE">
+        <item quantity="one">"S'ha actualitzat fa %d min"</item>
+        <item quantity="other">"S'ha actualitzat fa %d min"</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_EXIT_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Per al tren %1$d, pugeu al vagó %2$s per sortir de la manera més ràpida</item>
+        <item quantity="other">Per al tren %1$d, pugeu al vagó %2$s per sortir de la manera més ràpida</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_FASTEST_TRANSFER_VOICEOVER_FORMAT_WITH_LENGTH">
+        <item quantity="one">Per al tren %1$d, pugeu al vagó %2$s per fer el transbord de la manera més ràpida</item>
+        <item quantity="other">Per al tren %1$d, pugeu al vagó %2$s per fer el transbord de la manera més ràpida</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_GRAPHIC_LEAST_CROWDED_VOICEOVER_FORMAT">
+        <item quantity="one">El cotxe que està menys ple és: %1$s</item>
+        <item quantity="other">Els cotxes que estan menys plens són: %1$s</item>
+    </plurals>
+    <plurals name="RECOMMENDED_TRAIN_CAR_TRAIN_LENGTH">
+        <item quantity="one">Tren amb %1$d cotxe</item>
+        <item quantity="other">Tren amb %1$d cotxes</item>
+    </plurals>
+    <plurals name="RESTRICTION_EV_PAYMENT_NETWORK_PIVOT_YOUR_PAYMENTS">
+        <item quantity="one">%d pagament</item>
+        <item quantity="other">%d pagaments</item>
+    </plurals>
+    <plurals name="RESTRICTION_HOTEL_AMENITIES_MULTIPLE_SELECTED">
+        <item quantity="one">%1$s i %2$s més</item>
+        <item quantity="other">%1$s i %2$s més</item>
+    </plurals>
+    <plurals name="RESTRICTION_REVIEW_COUNT_OPTION_LABEL">
+        <item quantity="one">%d o més</item>
+        <item quantity="other">%d o més</item>
+    </plurals>
+    <plurals name="REVIEW_AT_A_PLACE_NOTIFICATION_INLINE_FIVE_STARS_CONTENT_DESCRIPTION">
+        <item quantity="one">Puntua amb 1 estrella sobre 5</item>
+        <item quantity="other">Puntua amb %1$d estrelles sobre 5</item>
+    </plurals>
+    <plurals name="REVIEW_CARD_VIEWS_COUNT">
+        <item quantity="one">%s visualització</item>
+        <item quantity="other">%s visualitzacions</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_ACCESSIBILITY">
+        <item quantity="one">%d puntuació o ressenya</item>
+        <item quantity="other">%,d puntuacions o ressenyes</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_LONG">
+        <item quantity="one">%d puntuació o ressenya</item>
+        <item quantity="other">%,d puntuacions o ressenyes</item>
+    </plurals>
+    <plurals name="REVIEW_COUNT_SHORT">
+        <item quantity="one">(%d)</item>
+        <item quantity="other">(%,d)</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="one">%d persona</item>
+        <item quantity="other">%d persones</item>
+    </plurals>
+    <plurals name="RIDDLER_PLACE_PICKER_NUMBER_OF_QUESTIONS">
+        <item quantity="one">%d pregunta</item>
+        <item quantity="other">%d preguntes</item>
+    </plurals>
+    <plurals name="SAVED_IN_MORE_LISTS_COUNT">
+        <item quantity="one">%d llista més</item>
+        <item quantity="other">%d llistes més</item>
+    </plurals>
+    <plurals name="SAVED_IN_MULTIPLE_LISTS">
+        <item quantity="one">"S'ha desat a %1$s i en %2$d llista més"</item>
+        <item quantity="other">"S'ha desat a %1$s i en %2$d llistes més"</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="one">Vols desar la teva visita de fa %d dia?</item>
+        <item quantity="other">Vols desar la teva visita de fa %d dies?</item>
+    </plurals>
+    <plurals name="SEARCH_RESULT_FETCH_SUCCESS_MESSAGE">
+        <item quantity="one">"S'ha trobat %1$d resultat per a %2$s"</item>
+        <item quantity="other">"S'han trobat %1$d resultats per a %2$s"</item>
+    </plurals>
+    <plurals name="SENDING_STAR_RATING_FOR_PLACE">
+        <item quantity="one">"S'està enviant la puntuació: 1 estrella"</item>
+        <item quantity="other">"S'està enviant la puntuació: %1$d estrelles"</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_DAYS">
+        <item quantity="one">durant %d dia</item>
+        <item quantity="other">durant %d dies</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_HOURS">
+        <item quantity="one">durant %d hora</item>
+        <item quantity="other">durant %d hores</item>
+    </plurals>
+    <plurals name="SHARING_LOCATION_FOR_MINUTES_ABBREVIATED">
+        <item quantity="one">durant %d min</item>
+        <item quantity="other">durant %d min</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_NAME_AND_N_OTHER_SHARES">
+        <item quantity="one">"S'està compartint la teva ubicació amb %2$s i %1$d persona més"</item>
+        <item quantity="other">"S'està compartint la teva ubicació amb %2$s i %1$d persones més"</item>
+    </plurals>
+    <plurals name="SHARING_YOUR_LOCATION_WITH_N_OTHER_SHARES">
+        <item quantity="one">"S'està compartint la teva ubicació amb %d persona més"</item>
+        <item quantity="other">"S'està compartint la teva ubicació amb %d persones més"</item>
+    </plurals>
+    <plurals name="SHORTLISTS_ACTION_BAR_TEXT">
+        <item quantity="one">Desa %d lloc</item>
+        <item quantity="other">Desa %d llocs</item>
+    </plurals>
+    <plurals name="SHORTLISTS_HEADER">
+        <item quantity="one">"S'ha trobat %d lloc"</item>
+        <item quantity="other">"S'han trobat %d llocs"</item>
+    </plurals>
+    <plurals name="STRUCTURED_QUESTION_RATING_CONTENT_DESCRIPTION">
+        <item quantity="one">%1$s, %2$d estrella</item>
+        <item quantity="other">%1$s, %2$d estrelles</item>
+    </plurals>
+    <plurals name="SUCCESSFULLY_RATED_PLACE">
+        <item quantity="one">"S'ha puntuat amb 1 estrella correctament"</item>
+        <item quantity="other">"S'ha puntuat amb %1$d estrelles correctament"</item>
+    </plurals>
+    <plurals name="TAG_PUBLISHED_PHOTOS_TASK_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="one">%,d visualització</item>
+        <item quantity="other">%,d visualitzacions</item>
+    </plurals>
+    <plurals name="THANKS_PAGE_ACHIEVED_LG_POINTS">
+        <item quantity="one">+ %d punt</item>
+        <item quantity="other">+ %d punts</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS_FOR_PLACE">
+        <item quantity="one">Publica %1$d foto o vídeo de: %2$s</item>
+        <item quantity="other">Publica %1$d fotos i vídeos de: %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_ACCESSIBILITY_PLACE_CARD_POST_N_PHOTOS_FOR_PLACE">
+        <item quantity="one">Publica %1$d foto de: %2$s</item>
+        <item quantity="other">Publica %1$d fotos de: %2$s</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="one">I %d més</item>
+        <item quantity="other">I %d més</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS">
+        <item quantity="one">Publica %1$d foto</item>
+        <item quantity="other">Publica %1$d fotos</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_PLACE_CARD_POST_N_PHOTOS_AND_VIDEOS">
+        <item quantity="one">Publica %1$d</item>
+        <item quantity="other">Publica %1$d</item>
+    </plurals>
+    <plurals name="TOPIC_REVIEWS_MENTION_TOPIC_LABEL">
+        <item quantity="one">%1$d persona parla de: %2$s</item>
+        <item quantity="other">%1$,d persones parlen de: %2$s</item>
+    </plurals>
+    <plurals name="TOTAL_REACTION_COUNT">
+        <item quantity="one">1 reacció</item>
+        <item quantity="other">%1$,d reaccions</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK">
+        <item quantity="one">Mostra %1$d opció més a partir de %2$s</item>
+        <item quantity="other">Mostra %1$d opcions més a partir de %2$s</item>
+    </plurals>
+    <plurals name="TOUR_OPERATOR_SEE_MORE_LINK_NO_PRICE">
+        <item quantity="one">Mostra %1$d opció més</item>
+        <item quantity="other">Mostra %1$d opcions més</item>
+    </plurals>
+    <plurals name="TRAFFIC_HUB_ADD_HOME_WORK_PROMO_SUBTITLE">
+        <item quantity="one">Desa la teva adreça per veure les rutes més ràpides que eviten el trànsit</item>
+        <item quantity="other">Desa les teves adreces per veure les rutes més ràpides que eviten el trànsit</item>
+    </plurals>
+    <plurals name="TRANSIT_DEPARTURE_FRESHNESS_RECENT">
+        <item quantity="one">"Les sortides s'han actualitzat fa %1$d s"</item>
+        <item quantity="other">"Les sortides s'han actualitzat fa %1$d s"</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_CONTENT_DESCRIPTION">
+        <item quantity="one">Surt cada minut</item>
+        <item quantity="other">Surt cada %d minuts</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="TRANSIT_FREQUENCY_DEPARTURE_MINUTES_LONG">
+        <item quantity="one">minut</item>
+        <item quantity="other">minuts</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED">
+        <item quantity="one">%1$s (1 alerta)</item>
+        <item quantity="other">%1$s (%2$d alertes)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_BUS">
+        <item quantity="one">Autobús %1$s (1 alerta)</item>
+        <item quantity="other">Autobús %1$s (%2$d alertes)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_FERRY">
+        <item quantity="one">Ferri %1$s (1 alerta)</item>
+        <item quantity="other">Ferri %1$s (%2$d alertes)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_LINE">
+        <item quantity="one">Línia %1$s (1 alerta)</item>
+        <item quantity="other">Línia %1$s (%2$d alertes)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAIN">
+        <item quantity="one">Tren %1$s (1 alerta)</item>
+        <item quantity="other">Tren %1$s (%2$d alertes)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_ALERTS_PARENTHESIZED_TRAM">
+        <item quantity="one">Tramvia %1$s (1 alerta)</item>
+        <item quantity="other">Tramvia %1$s (%2$d alertes)</item>
+    </plurals>
+    <plurals name="TRANSIT_INFERRED_TRIP_PROCESSING_FREQUENCY">
+        <item quantity="one">Cada minut</item>
+        <item quantity="other">Cada %d minuts</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d parada</item>
+        <item quantity="other">%d parades</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_CARD">
+        <item quantity="one">"%1$d
+min enrere"</item>
+        <item quantity="other">"%1$d
+min enrere"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"Fa %1$s
+min"</item>
+        <item quantity="other">"Fa %1$s
+min"</item>
+    </plurals>
+    <plurals name="TRANSIT_PAST_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">Ha sortit fa %1$s minut</item>
+        <item quantity="other">Ha sortit fa %1$s minuts</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+ %d alerta</item>
+        <item quantity="other">+ %d alertes</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">i %d alerta més</item>
+        <item quantity="other">i %d alertes més</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">%d més</item>
+        <item quantity="other">%d més</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">i %d més</item>
+        <item quantity="other">i %d més</item>
+    </plurals>
+    <plurals name="TRANSIT_STATION_ADDITIONAL_ITEMS_COUNT">
+        <item quantity="one">i %1$d més</item>
+        <item quantity="other">i %1$d més</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_MINUTES_STACK">
+        <item quantity="one">"%1$s
+min"</item>
+        <item quantity="other">"%1$s
+min"</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_PAST">
+        <item quantity="one">Fa %1$s min</item>
+        <item quantity="other">Fa %1$s min</item>
+    </plurals>
+    <plurals name="TRANSIT_UPCOMING_DEPARTURE_RELATIVE_TIME_CONTENT_DESCRIPTION">
+        <item quantity="one">"Surt d'aquí a %1$s minut"</item>
+        <item quantity="other">"Surt d'aquí a %1$s minuts"</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="one">%1$s advertiment més</item>
+        <item quantity="other">%1$s advertiments més</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_PHOTOS_STRING_INPUT">
+        <item quantity="one">%s foto</item>
+        <item quantity="other">%s fotos</item>
+    </plurals>
+    <plurals name="UGC_ATTRIBUTION_REVIEWS_STRING_INPUT">
+        <item quantity="one">%s ressenya</item>
+        <item quantity="other">%s ressenyes</item>
+    </plurals>
+    <plurals name="UGC_CONTRIBUTION_COUNT">
+        <item quantity="one">%,d contribució</item>
+        <item quantity="other">%,d contribucions</item>
+    </plurals>
+    <plurals name="UGC_FACTUAL_EDIT_VIEW_COUNT">
+        <item quantity="one">%,d visualització</item>
+        <item quantity="other">%,d visualitzacions</item>
+    </plurals>
+    <plurals name="UGC_MEDIA_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">"Selecciona'n fins a %1$d"</item>
+        <item quantity="other">"Selecciona'n fins a %1$d"</item>
+    </plurals>
+    <plurals name="UGC_PHOTO_UPLOAD_MAX_SELECTION_LIMIT">
+        <item quantity="one">Selecciona %1$s foto com a màxim</item>
+        <item quantity="other">Selecciona %1$s fotos com a màxim</item>
+    </plurals>
+    <plurals name="UNMUTE_BUTTON_FOR_POST_CONTENT_DESCRIPTION">
+        <item quantity="one">Deixa de silenciar el vídeo de la publicació %1$d</item>
+        <item quantity="other">Deixa de silenciar el vídeo %2$d de la publicació %1$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="one">%1$d de %2$d</item>
+        <item quantity="other">%1$d de %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_PENDING_TASK_TITLE">
+        <item quantity="one">"S'està esperant la Wi-Fi.
+ Queda %d foto pendent."</item>
+        <item quantity="other">"S'està esperant la Wi-Fi.
+ Queden %d fotos pendents."</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="one">%d foto seleccionada</item>
+        <item quantity="other">%d fotos seleccionades</item>
+    </plurals>
+    <plurals name="USER_LIST_PROGRESS_SUBTITLE">
+        <item quantity="one">Llocs visitats: %1$d de %2$d</item>
+        <item quantity="other">Llocs visitats: %1$d de %2$d</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_BATTERY_SAVER_ENABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Desactiva la funció Estalvi de bateria per augmentar la precisió de la ubicació en compartir-la amb %1$s i %2$d usuari més</item>
+        <item quantity="other">Desactiva la funció Estalvi de bateria per augmentar la precisió de la ubicació en compartir-la amb %1$s i %2$d usuaris més</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_DEVICE_LOCATION_DISABLED_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Cal que la ubicació del dispositiu estigui activada per continuar compartint la ubicació amb %1$s i %2$d usuari més</item>
+        <item quantity="other">Cal que la ubicació del dispositiu estigui activada per continuar compartint la ubicació amb %1$s i %2$d usuaris més</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_FIX_BECOME_PRIMARY_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">"Actualitza la funció Compartició d'ubicació per continuar compartint des d'aquest dispositiu amb %1$s i %2$d usuari més"</item>
+        <item quantity="other">"Actualitza la funció Compartició d'ubicació per continuar compartint des d'aquest dispositiu amb %1$s i %2$d usuaris més"</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_ACTIVITY_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Permet que Maps reconegui la teva activitat física per augmentar la precisió de la ubicació en compartir-la amb %1$s i %2$d usuari més</item>
+        <item quantity="other">Permet que Maps reconegui la teva activitat física per augmentar la precisió de la ubicació en compartir-la amb %1$s i %2$d usuaris més</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_BACKGROUND_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Permet que Maps accedeixi sempre a la teva ubicació per augmentar la precisió de la ubicació en compartir-la amb %1$s i %2$d usuari més</item>
+        <item quantity="other">Permet que Maps accedeixi sempre a la teva ubicació per augmentar la precisió de la ubicació en compartir-la amb %1$s i %2$d usuaris més</item>
+    </plurals>
+    <plurals name="USR_NOTIFICATION_MISSING_LOCATION_PERMISSION_GAIA_SHARE_AND_OTHERS_TEXT">
+        <item quantity="one">Permet que Maps accedeixi sempre a la teva ubicació per continuar compartint-la amb %1$s i %2$d usuari més</item>
+        <item quantity="other">Permet que Maps accedeixi sempre a la teva ubicació per continuar compartint-la amb %1$s i %2$d usuaris més</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_ENTRY_POINT_PHOTO_LABEL">
+        <item quantity="one">i %d foto més</item>
+        <item quantity="other">i %d fotos més</item>
+    </plurals>
+    <plurals name="VACATION_RENTAL_REVIEW_COUNT_MEDIUM">
+        <item quantity="one">(%d ressenya)</item>
+        <item quantity="other">(%,d ressenyes)</item>
+    </plurals>
+    <plurals name="VIDEO_DURATION_CONTENT_DESCRIPTION_WITH_SECONDS">
+        <item quantity="one">%1$s segon</item>
+        <item quantity="other">%1$s segons</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST">
+        <item quantity="one">Vídeo de la publicació %1$d</item>
+        <item quantity="other">Vídeo %2$d de la publicació %1$d</item>
+    </plurals>
+    <plurals name="VIDEO_FOR_POST_FULL_SCREEN">
+        <item quantity="one">El vídeo de la publicació %1$d es mostra en pantalla completa</item>
+        <item quantity="other">El vídeo %2$d de la publicació %1$d es mostra en pantalla completa</item>
+    </plurals>
+    <plurals name="VR_BASE_PRICE_DETAILS_LABEL">
+        <item quantity="one">%2$s × %1$d nit</item>
+        <item quantity="other">%2$s × %1$d nits</item>
+    </plurals>
+    <plurals name="VR_TOTAL_FOR_RESERVATION_LENGTH_RATE_LABEL_WITH_INCLUSIVE_PRICE">
+        <item quantity="one">%2$s per %1$d nit amb impostos i taxes</item>
+        <item quantity="other">%2$s per %1$d nits amb impostos i taxes</item>
+    </plurals>
+    <plurals name="WALKING_CIRCLE_TEXT">
+        <item quantity="one">1 min a peu</item>
+        <item quantity="other">%d min a peu</item>
+    </plurals>
+    <plurals name="WAYPOINT_HEADER_ADDITIONAL_STOPS_COUNT">
+        <item quantity="one">i %d parada més</item>
+        <item quantity="other">i %d parades més</item>
+    </plurals>
+    <plurals name="WAYPOINT_STOPS_COUNT">
+        <item quantity="one">(%d parada)</item>
+        <item quantity="other">(%d parades)</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="one">Fa %d setmana</item>
+        <item quantity="other">Fa %d setmanes</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="one">Fa %d any</item>
+        <item quantity="other">Fa %d anys</item>
+    </plurals>
+    <plurals name="YOUR_EXPLORE_ACCESSIBILITY_CLICK_ACTION_VIEW_REMAINING_PHOTOS">
+        <item quantity="one">Mostra la foto restant</item>
+        <item quantity="other">Mostra les %1$d fotos restants</item>
+    </plurals>
+    <plurals name="YOUR_REVIEWS_AND_UPDATES">
+        <item quantity="one">La teva ressenya o novetat</item>
+        <item quantity="other">Les teves ressenyes i novetats</item>
+    </plurals>
+    <plurals name="YOU_ARE_FOLLOWING_MULTIPLE_LISTS">
+        <item quantity="one">Segueixes %1$s i %2$d llista més</item>
+        <item quantity="other">Segueixes %1$s i %2$d llistes més</item>
+    </plurals>
+    <plurals name="facepile_caption">
+        <item quantity="one">%1$s i %2$d persona més</item>
+        <item quantity="other">%1$s i %2$d persones més</item>
+    </plurals>
+    <plurals name="facepile_count">
+        <item quantity="one">i %1$d més</item>
+        <item quantity="other">i %1$d més</item>
+    </plurals>
+    <plurals name="five_stars_state_description">
+        <item quantity="one">%1$d de %2$d</item>
+        <item quantity="other">%1$d de %2$d</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d de %2$d</item>
+        <item quantity="other">%1$d de %2$d</item>
+    </plurals>
+    <plurals name="plurals_0x7f12014e">
+        <item quantity="one"></item>
+        <item quantity="other">nivell %1$d</item>
+    </plurals>
+    <plurals name="mediaCount">
+        <item quantity="one">1 captura</item>
+        <item quantity="other">%1$d captures</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificació nova</item>
+        <item quantity="other">%d notificacions noves</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">"S'ha copiat %d destinatari"</item>
+        <item quantity="other">"S'han copiat %d destinataris"</item>
+    </plurals>
+    <plurals name="photo_posts_comment_hint_optional">
+        <item quantity="one">Digues alguna cosa sobre aquesta foto (opcional)</item>
+        <item quantity="other">Digues alguna cosa sobre les teves fotos (opcional)</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Tens una notificació</item>
+        <item quantity="other">%1$d notificacions noves</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d estrella de %2$d</item>
+        <item quantity="other">%1$d estrelles de %2$d</item>
+    </plurals>
+    <plurals name="tell_maps_know_before_you_go_place_contextual_zero_state_post_tip">
+        <item quantity="one">Vols publicar un consell sobre aquest lloc?</item>
+        <item quantity="other">"Vols publicar un consell sobre un d'aquests llocs?"</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_post_tip_or_photo">
+        <item quantity="one">Vols publicar una foto o un consell sobre aquest lloc?</item>
+        <item quantity="other">"Vols publicar una foto o un consell sobre un d'aquests llocs?"</item>
+    </plurals>
+    <plurals name="tell_maps_place_disambiguation_zero_state_update_a_place">
+        <item quantity="one">Vols actualitzar alguna cosa sobre aquest lloc?</item>
+        <item quantity="other">Quin lloc vols actualitzar?</item>
+    </plurals>
+</resources>

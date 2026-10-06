@@ -1,0 +1,36 @@
+.class public final Lhss;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lgxa;
+
+
+# static fields
+.field public static final synthetic a:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lhhz;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x3
+
+    .line 4
+    invoke-direct {v0, v1}, Lhhz;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-static {v0}, Lbunv;->aM(Lbvuo;)Lbvuo;
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

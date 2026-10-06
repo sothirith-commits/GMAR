@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/magic_window_button_tap_size" android:layout_height="@dimen/magic_window_button_tap_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/report_option_button" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/report_option_button_content_description">
+        <ImageView android:layout_gravity="center" android:background="@drawable/magic_window_button_background" android:duplicateParentState="true" android:layout_width="@dimen/magic_window_button_size" android:layout_height="@dimen/magic_window_button_size" android:src="@drawable/gs_more_vert_vd_24" android:scaleType="center" android:tint="@android:color/white" android:importantForAccessibility="no" />
+    </FrameLayout>
+</FrameLayout>

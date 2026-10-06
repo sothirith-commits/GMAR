@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout android:id="@id/og_consent_footer_layout" android:padding="@dimen/og_consent_triple_space" android:layout_width="match_parent" android:layout_height="wrap_content" app:alignItems="center" app:dividerDrawableVertical="@drawable/footer_dot_divider" app:flexDirection="row" app:flexWrap="wrap" app:justifyContent="center" app:showDividerVertical="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

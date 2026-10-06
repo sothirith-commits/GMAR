@@ -1,0 +1,33 @@
+.class public final Lckft;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# direct methods
+.method public static a(Lckzi;ZLcktd;)V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lclbf;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, p1, p2, v1}, Lclbf;-><init>(ZLcktd;I)V
+
+    .line 5
+    .line 6
+    .line 7
+    sget-object p1, Lckte;->i:Lckte;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, p1}, Lckzi;->c(Lckzh;Lckte;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+.end method

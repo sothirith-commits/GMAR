@@ -1,0 +1,405 @@
+0:11361 Abseil
+11361:11357 accompanist
+11361:11357 accompanist_drawablepainter
+11361:11357 accompanist_permissions
+22718:10953 allocator-api2
+33671:11356 android
+11361:11357 android
+11361:11357 Android Date and Time Picker
+11361:11357 Android Date and Time Picker
+45027:54218 Android SDK Extras
+99245:10695 Android SDK for Linux - Versioned Parcelable
+11361:11357 Android Settings Library
+109940:3048 android-jni-wrappers
+112988:10695 android_annotations
+112988:10695 android_annotations
+11361:11357 androidsvg
+11361:11357 androidsvg
+99245:10695 AndroidX - Versioned parcelable
+123683:10695 AndroidX activity library
+123683:10695 AndroidX annotation experimental library
+123683:10695 AndroidX annotation library
+123683:10695 AndroidX annotation library
+123683:10695 AndroidX appcompat library
+123683:10695 AndroidX appcompat library
+123683:10695 AndroidX appsearch builtin_types library
+123683:10695 AndroidX appsearch library
+123683:10695 AndroidX appsearch platform_storage library
+123683:10695 AndroidX architecture core library
+123683:10695 AndroidX asynclayoutinflater library
+123683:10695 AndroidX autofill library
+123683:10695 AndroidX biometric library
+123683:10695 AndroidX browser library
+123683:10695 AndroidX camera common library
+123683:10695 AndroidX camera core library
+134378:10692 AndroidX camera featurecombinationquery library
+123683:10695 AndroidX camera lifecycle library
+134378:10692 AndroidX camera2 base library
+134378:10692 AndroidX camerapipe library
+123683:10695 AndroidX car app library
+123683:10695 AndroidX cardview library
+123683:10695 AndroidX collection library
+145070:10175 AndroidX compose animation library
+145070:10175 AndroidX compose animation library
+145070:10175 AndroidX compose foundation library
+145070:10175 AndroidX compose icons core library
+145070:10175 AndroidX compose icons extended library
+145070:10175 AndroidX compose layout library
+123683:10695 AndroidX compose material library
+123683:10695 AndroidX compose material library
+145070:10175 AndroidX compose material3 adaptive library
+123683:10695 AndroidX compose material3 library
+155245:10147 AndroidX compose material3 library
+145070:10175 AndroidX compose runtime annotation library
+123683:10695 AndroidX compose runtime library
+145070:10175 AndroidX compose runtime library
+145070:10175 AndroidX compose saveable library
+155245:10147 AndroidX compose text google fonts library
+145070:10175 AndroidX compose ui geometry library
+145070:10175 AndroidX compose ui graphics library
+145070:10175 AndroidX compose ui library
+145070:10175 AndroidX compose ui text library
+155245:10147 AndroidX Compose ui tooling preview library
+145070:10175 AndroidX compose ui unit library
+145070:10175 AndroidX compose ui util library
+145070:10175 AndroidX compose window_size_class library
+123683:10695 AndroidX concurrent futures ktx library
+123683:10695 AndroidX concurrent futures library
+145070:10175 AndroidX constraintlayout library
+123683:10695 AndroidX coordinatorlayout library
+145070:10175 AndroidX core backported fixes library
+145070:10175 AndroidX core library
+123683:10695 AndroidX core library
+155245:10147 AndroidX core library
+123683:10695 AndroidX Core Performance
+123683:10695 AndroidX credentials library
+123683:10695 AndroidX cursoradapter library
+123683:10695 AndroidX customview library
+123683:10695 AndroidX customview poolingcontainer library
+123683:10695 AndroidX datastore core library
+123683:10695 AndroidX datastore guava library
+123683:10695 AndroidX datastore library
+123683:10695 AndroidX documentfile library
+123683:10695 AndroidX drawerlayout library
+123683:10695 AndroidX dynamicanimation library
+165392:27410 AndroidX emoji base library
+123683:10695 AndroidX emoji2 base library
+123683:10695 AndroidX emoji2 emoji picker library
+123683:10695 AndroidX exifinterface library
+123683:10695 AndroidX fragment library
+123683:10695 AndroidX graphics path library
+123683:10695 AndroidX graphics shapes library
+123683:10695 AndroidX hilt lifecycle viewmodel compose library
+123683:10695 AndroidX hilt lifecycle viewmodel library
+123683:10695 AndroidX hilt navigation compose library
+123683:10695 AndroidX hilt navigation library
+123683:10695 AndroidX interpolator library
+123683:10695 AndroidX legacy coreui library
+123683:10695 AndroidX legacy coreutils library
+123683:10695 AndroidX legacy v13 library
+123683:10695 AndroidX lifecycle base library
+123683:10695 AndroidX lifecycle base library
+123683:10695 AndroidX lifecycle base library
+123683:10695 AndroidX lifecycle base library
+123683:10695 AndroidX lifecycle common java8 library
+123683:10695 AndroidX lifecycle common library
+123683:10695 AndroidX lifecycle livedatacore library
+123683:10695 AndroidX lifecycle process library
+123683:10695 AndroidX lifecycle service library
+145070:10175 AndroidX loader library
+123683:10695 AndroidX localbroadcastmanager library
+123683:10695 AndroidX media base library
+123683:10695 AndroidX mediarouter library
+123683:10695 AndroidX navigation common library
+123683:10695 AndroidX navigation library
+123683:10695 AndroidX navigation library
+123683:10695 AndroidX navigationevent compose library
+123683:10695 AndroidX navigationevent library
+123683:10695 AndroidX paging common library
+123683:10695 AndroidX paging compose library
+123683:10695 AndroidX palette library
+123683:10695 AndroidX percentlayout library
+145070:10175 AndroidX preference library
+123683:10695 AndroidX print library
+145070:10175 AndroidX privacysandbox adservices java library
+145070:10175 AndroidX privacysandbox adservices library
+123683:10695 AndroidX profileinstaller library
+123683:10695 AndroidX recyclerview base library
+123683:10695 AndroidX room common library
+123683:10695 AndroidX room compiler library
+123683:10695 AndroidX room guava library
+123683:10695 AndroidX room ktx library
+123683:10695 AndroidX room library
+123683:10695 AndroidX room library
+123683:10695 AndroidX room migration library
+123683:10695 AndroidX savedstate compose library
+123683:10695 AndroidX savedstate library
+123683:10695 AndroidX security app_authenticator library
+123683:10695 AndroidX slidingpanelayout library
+123683:10695 AndroidX sqlite library
+123683:10695 AndroidX swiperefreshlayout library
+145070:10175 AndroidX tracing library
+123683:10695 AndroidX transition library
+123683:10695 AndroidX vectordrawable base library
+123683:10695 AndroidX webkit library
+123683:10695 AndroidX window core library
+123683:10695 AndroidX window extensions core library
+123683:10695 AndroidX window java library
+123683:10695 AndroidX window library
+145070:10175 AndroidX work library
+145070:10175 AndroidX work library
+145070:10175 AndroidX work library
+123683:10695 AndroidX xr arcore library
+123683:10695 AndroidX xr arcore library
+123683:10695 AndroidX xr arcore openxr library
+123683:10695 AndroidX xr arcore play services library
+123683:10695 AndroidX xr glimmer library
+123683:10695 AndroidX xr projected  library
+192802:10693 AndroidX xr projected binding library
+123683:10695 AndroidX xr runtime  library
+123683:10695 AndroidX xr runtime  library
+123683:10695 AndroidX xr runtime  library
+123683:10695 AndroidX xr runtime  library
+203495:1096 Animal Sniffer
+203495:1096 Animal Sniffer
+11361:11357 Apache Commons Codec
+11361:11357 Apache Commons Codec
+204591:11359 Apache Commons Lang
+204591:11359 Apache Commons Lang
+215950:10695 apksig
+215950:10695 apksig
+226645:14821 arcore
+11361:11357 auto_value_parcel
+11361:11357 auto_value_parcel
+11361:11357 backup
+11361:11357 backup
+241466:16254 basis_universal
+11361:11357 bazel_features_mock
+11361:11357 bazelbuild/bazel_skylib
+33671:11356 better_link_movement_method
+257720:24922 Boost
+282642:13115 BoringSSL
+295757:1084 Brotli
+11361:11357 car_chassis_lib
+296841:10687 car_lib
+307528:1892 Checker Framework Annotations
+309420:1036 checker_framework_util
+310456:1558 chrome_sync
+312014:1116 cityhash
+11361:11357 com.google.maps.android.compose
+313130:1318 cppitertools
+314448:12876 cpu_feature
+327324:331341 cronet
+658665:16111 crubit
+11361:11357 Dagger
+674776:1320 Darts-clone
+676096:599 disklrucache
+11361:11357 djinni_support_lib
+11361:11357 downloader
+676695:14240 Draco
+690935:66597 Eigen 3
+11361:11357 Error Prone
+11361:11357 Error Prone
+757532:694 esm_vecmath
+758226:11336 Espresso
+769562:12539 ExoPlayer
+11361:11357 ExoPlayer
+782101:1090 fast_double_parser
+11361:11357 FasterXML Jackson
+783191:11945 fastutil
+11361:11357 fcp
+795136:15355 Filament
+11361:11357 firebase/android/encoders
+11361:11357 firebase/android/firebase_annotations
+11361:11357 firebase/android/firebase_components
+11361:11357 firebase/android/firebase_datatransport
+11361:11357 firebase/android/firebase_iid
+11361:11357 firebase/android/firebase_installations
+11361:11357 firebase/android/firebase_installations_interop
+11361:11357 firebase/android/firebase_messaging
+11361:11357 firebase/android/transport
+11361:11357 firebase_common
+11361:11357 FlatBuffers
+11361:11357 flogger
+11361:11357 flogger
+810491:1157 FP16
+811648:11342 fplbase
+822990:1069 gif_decoder
+824059:1039 giflib
+825098:14880 Glide
+839978:4899 Glide
+11361:11357 gloop
+844877:1479 golang/protobuf/v2
+11361:11357 Google API Java Client
+33671:11356 Google APIs Client Library for Java
+11361:11357 Google Auto
+11361:11357 Google Auto
+33671:11356 Google HTTP client library
+11361:11357 Google HTTP Java Client
+846356:12904 google_cloud_java
+11361:11357 google_oauth_java_client
+11361:11357 googlemaps_android_maps_ktx
+11361:11357 googlemaps_android_maps_utils
+11361:11357 gRPC for Kotlin
+11361:11357 gRPC Java
+11361:11357 gRPC Java
+11361:11357 grpc_okhttp
+11361:11357 grpc_okhttp
+11361:11357 gsfclient
+859260:13092 Gson
+859260:13092 Gson
+11361:11357 Guava JDK5
+11361:11357 Guava JDK7
+872352:11370 Guice
+872352:11370 Guice
+11361:11357 HighwayHash
+883722:34981 ICU4C
+918703:37440 ICU4J
+956143:1338 immer
+957481:552 implementation
+958033:94924 impress
+1052957:114258 J2ObjC
+1052957:114258 J2ObjC
+11361:11357 jackson_annotations
+1167215:12722 jackson_core
+11361:11357 jackson_databind
+11361:11357 Jakarta Inject
+11361:11357 Jakarta Inject
+1179937:9115 java_annotations
+11361:11357 jni_wrapper
+1189052:1458 jni_zero
+1190510:1070 jnipp
+11361:11357 Joda-Convert
+11361:11357 Joda-Convert
+1191580:11560 Joda-Time
+1203140:11307 JsInterop Annotations
+1214447:2714 JsonCpp
+11361:11357 JSpecify
+11361:11357 JSR 250
+1217161:1602 JSR 305
+1218763:11365 JSR 330
+1218763:11365 JSR 330
+1230128:13200 Khronos OpenGL headers
+1243328:3480 Kiss FFT
+11361:11357 Kotlin coroutines
+11361:11357 kotlin_math
+11361:11357 kotlinc
+11361:11357 kotlinx_atomicfu
+33671:11356 kotlinx_serialization
+1246808:16702 legacy_libcxx_sort
+1263510:10797 libc
+1274307:7174 libjpeg-turbo
+1281481:1502 libtess2
+1282983:51684 libwebp
+11361:11357 litho
+1334667:84610 LLVM
+1419277:11926 log
+33671:11356 Lottie
+11361:11357 Lullaby
+11361:11357 mapsexperiences
+11361:11357 mapsexperiences
+11361:11357 Material Components for Android
+11361:11357 Material Components for Android
+11361:11357 mathfu
+1431203:1079 meshoptimizer
+1432282:932 mikktspace
+1433214:1069 miniply
+1434283:2459 miniz
+1436742:4610 minizip
+11361:11357 mobiledatadownload
+1441352:11416 mobstore
+1452768:9140 MPC requirements
+1461908:12429 oak
+1474337:10737 objectsize
+1485074:16086 odml
+11361:11357 OkHttp
+11361:11357 OkHttp
+11361:11357 okhttp3_obsoleteurlfactory
+11361:11357 okhttp3_obsoleteurlfactory
+1501160:22880 okhttp4
+11361:11357 Okio
+11361:11357 open_location_code
+11361:11357 OpenCensus
+11361:11357 OpenCensus
+11361:11357 opencl_headers
+1524040:2298 OpenGL Mathematics
+1526338:1503 OpenGL Utility Library
+11361:11357 openlocationcode
+1527841:124981 OpenXR (Khronos)
+1652822:9217 p2putils
+1652822:9217 p2putils
+11361:11357 PerfMark library
+11361:11357 PerfMark library
+1662039:5345 PNG
+11361:11357 program_image_remapper
+1667384:14532 protobuf
+1681916:1732 Protobuf (Kotlin)
+1683648:1732 Protocol Buffers
+1681916:1732 Protocol Buffers for Java
+1681916:1732 Protocol Buffers for Java
+11361:11357 rastermill
+11361:11357 rastermill
+1685380:1558 RE2
+11361:11357 renderscript_intrinsics_replacement_toolkit
+11361:11357 Riegeli
+1686938:1102 robin_map
+11361:11357 rules_android
+11361:11357 rules_rust
+123683:10695 runtime
+123683:10695 runtime
+123683:10695 runtime
+1688040:2500 Rust libz bindings (Google patch)
+11361:11357 ruy
+1690540:11311 rxandroid2
+1690540:11311 rxandroid2
+11361:11357 rxjava2
+11361:11357 rxjava2
+11361:11357 SafeParcelable library
+11361:11357 SafeParcelable library
+11361:11357 Setup Compat library
+11361:11357 Setup Compat library
+11361:11357 Setup Design library
+1701851:1337 shimmer
+11361:11357 sjpeg
+1703188:11460 slf4j
+958033:94924 split_engine
+1714648:11341 spotify-app-remote
+1714648:11341 spotify-app-remote
+1714648:11341 spotify-interapp-client
+1725989:11339 spotify_auth_lib
+1737328:15930 src
+1753258:2510 stb
+11361:11357 SVG Android
+0:11361 TCMalloc
+1755768:13575 TensorFlow
+1769343:11419 TensorFlow Lite Support
+11361:11357 text_layout_builder
+1780762:10773 text_layout_builder
+1791535:11416 TF.Text
+1802951:1524 threeten_extra
+11361:11357 Tink
+1804475:16811 tinyexr
+1821286:11326 tombstone_proto
+1832612:1825 tz database
+11361:11357 Unsmear
+1834437:756 UTF
+1835193:1091 utf8_range
+1780762:10773 v0_35_0
+1836284:1101 v1_15_4
+1837385:1214 v2_0_1
+11361:11357 v3_0_0
+145070:10175 vectordrawable
+1838599:1313 vectorial
+123683:10695 video
+134378:10692 view
+134378:10692 viewfinder_core
+123683:10695 viewpager
+123683:10695 viewpager2
+123683:10695 views_helper
+1839912:1061 yaml-cpp
+1840973:12527 Yoga
+1853500:42655 Zippy
+1688040:2500 zlib
+1896155:3879 Zstandard
+1900034:13320 ZXing
+1900034:13320 ZXing

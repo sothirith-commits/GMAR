@@ -1,0 +1,15 @@
+.class public final Luzn;
+.super Luzr;
+.source "PG"
+
+
+# virtual methods
+.method protected final d()I
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x2
+
+    .line 2
+    return p0
+.end method

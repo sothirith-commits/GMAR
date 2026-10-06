@@ -1,0 +1,11 @@
+.class public interface abstract Lbfwr;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# virtual methods
+.method public abstract a()Lbeka;
+.end method
+
+.method public abstract b()Lbdwj;
+.end method

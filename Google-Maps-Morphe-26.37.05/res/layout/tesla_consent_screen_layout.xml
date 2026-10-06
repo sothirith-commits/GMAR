@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp" android:paddingEnd="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:id="@id/tesla_consent_radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+        <RadioButton android:id="@id/tesla_consent_radio_on" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48.0dp" android:text="@string/NOTIFICATION_SETTING_ON" />
+        <RadioButton android:id="@id/tesla_consent_radio_off" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48.0dp" android:text="@string/NOTIFICATION_SETTING_OFF" />
+    </RadioGroup>
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?android:textColorSecondary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/TESLA_DATA_SHARING_CONSENT_EXPLANATION" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textStyle="bold" android:textColor="?android:textColorSecondary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="@string/TESLA_DATA_SHARING_CONSENT_COLLECTED_DATA" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?android:textColorSecondary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/TESLA_DATA_SHARING_CONSENT_COLLECTED_DATA_EXAMPLES" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textStyle="bold" android:textColor="?android:textColorSecondary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="@string/TESLA_DATA_SHARING_CONSENT_COLLECTED_DATA_ADDITIONAL" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?android:textColorSecondary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/TESLA_DATA_SHARING_CONSENT_COLLECTED_DATA_ADDITIONAL_EXAMPLES" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?android:textColorSecondary" android:id="@id/tesla_consent_disclaimer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/TESLA_DATA_SHARING_CONSENT_COLLECTED_DATA_DISCLAIMER" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?android:textColorSecondary" android:id="@id/tesla_consent_learn_more" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" />
+</LinearLayout>

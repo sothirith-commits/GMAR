@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.google.android.libraries.social.populous</configuration-package>
+        <log-sources>
+            <log-source>BETTERBUG_ANDROID_PRIMES</log-source>
+            <log-source>CALENDAR_ANDROID_PRIMES</log-source>
+            <log-source>DOCS</log-source>
+            <log-source>DOCS_ANDROID_PRIMES</log-source>
+            <log-source>DRIVE</log-source>
+            <log-source>DRIVE_ANDROID_PRIMES</log-source>
+            <log-source>DRIVE_VE</log-source>
+            <log-source>DYNAMITE_ANDROID_PRIMES</log-source>
+            <log-source>GMAIL_ANDROID</log-source>
+            <log-source>GMAIL_ANDROID_PRIMES</log-source>
+            <log-source>GMAIL_COUNTERS</log-source>
+            <log-source>JAM_ANDROID_PRIMES</log-source>
+            <log-source>JAM_KIOSK_ANDROID_PRIMES</log-source>
+            <log-source>JELLY_ANDROID_PRIMES</log-source>
+            <log-source>KEEP</log-source>
+            <log-source>KEEP_ANDROID_PRIMES</log-source>
+            <log-source>MEETINGS_ANDROID_PRIMES</log-source>
+            <log-source>PAISA_FLUTTER_ANDROID_PRIMES</log-source>
+            <log-source>PEOPLE_AUTOCOMPLETE</log-source>
+            <log-source>PHOTOS</log-source>
+            <log-source>PHOTOS_ANDROID_PRIMES</log-source>
+            <log-source>PLAY_MOVIES_ANDROID_PRIMES</log-source>
+            <log-source>SENDKIT</log-source>
+            <log-source>SHEETS</log-source>
+            <log-source>SHEETS_ANDROID_PRIMES</log-source>
+            <log-source>SLIDES</log-source>
+            <log-source>SLIDES_ANDROID_PRIMES</log-source>
+            <log-source>SOCIAL_AFFINITY</log-source>
+            <log-source>SOCIAL_AFFINITY_PHOTOS</log-source>
+            <log-source>TACHYON_ANDROID_PRIMES</log-source>
+            <log-source>TACHYON_LOG_REQUEST</log-source>
+            <log-source>VOICE</log-source>
+            <log-source>VOICE_ANDROID_PRIMES</log-source>
+        </log-sources>
+        <auto-subpackage>true</auto-subpackage>
+    </phenotype-registration>
+</phenotype-registrations>
