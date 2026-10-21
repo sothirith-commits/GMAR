@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>أ</item>
+        <item>ب</item>
+        <item>ج</item>
+        <item>د</item>
+        <item>هـ</item>
+        <item>و</item>
+        <item>ز</item>
+        <item>ح</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>مستوى البطارية والسعة وسرعة الشحن في الظروف المختلفة</item>
+        <item>حالة مكيّف الهواء</item>
+        <item>المحركات الكهربائية وكفاءة المكابح</item>
+        <item>المواصفات، مثل وزن مركبتك</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>نطاق السيارة</item>
+        <item>تقديرات البطارية استنادًا إلى وجهتك</item>
+        <item>الحدّ الأدنى الموصى به لفترات الشحن</item>
+        <item>التنبيهات، مثل عندما تكون محطتك التالية خارج نطاق شحن البطارية أو عندما ستصل إلى محطتك التالية بمستوى شحن منخفض للبطارية</item>
+        <item>تعزيز إدارة البطارية وكفاءة المركبة</item>
+        <item>مخطط مخصص للرحلات عندما تكون مسجّلاً الدخول إلى هاتفك وسيارتك</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>عند التكبير أو التصغير</item>
+        <item>دائمًا</item>
+    </string-array>
+</resources>

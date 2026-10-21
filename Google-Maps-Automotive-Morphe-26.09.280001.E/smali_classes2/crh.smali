@@ -1,0 +1,25 @@
+.class public final Lcrh;
+.super Lcpm;
+.source ":com.google.android.apps.maps@1068809778@26.09.280001.E"
+
+
+# virtual methods
+.method public final c(Landroid/view/View;F)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p2}, Lcpm;->a(F)F
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    invoke-virtual {p1, p0}, Landroid/view/View;->setRotationX(F)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

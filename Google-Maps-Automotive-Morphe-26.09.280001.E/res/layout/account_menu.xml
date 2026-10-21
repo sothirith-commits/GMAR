@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.automotive.onegoogleauto.menu.internal.NudgeFrameLayout android:theme="@style/Theme.Car" android:id="@id/container" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/card_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/car_margin" android:layout_marginTop="@dimen/car_padding_4" android:layout_marginRight="@dimen/car_margin" android:layout_marginBottom="@dimen/car_padding_4" android:elevation="@dimen/car_dialog_elevation" app:cardBackgroundColor="@color/car_grey_868" app:cardCornerRadius="@dimen/car_radius_2">
+        <android.support.v7.widget.RecyclerView android:theme="?dialogListTheme" android:id="@id/list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+</com.google.android.libraries.automotive.onegoogleauto.menu.internal.NudgeFrameLayout>

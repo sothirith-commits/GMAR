@@ -1,0 +1,25 @@
+.class public final Laoin;
+.super Laoih;
+.source ":com.google.android.apps.maps@1068809778@26.09.280001.E"
+
+
+# virtual methods
+.method public final a()Ljava/util/Random;
+    .locals 0
+
+    .line 1
+    invoke-static {}, Lj$/util/concurrent/ThreadLocalRandom;->current()Lj$/util/concurrent/ThreadLocalRandom;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 6
+    .line 7
+    .line 8
+    return-object p0
+.end method

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>電池電量、容量和不同環境下的充電速度</item>
+        <item>空調狀態</item>
+        <item>電動引擎和煞車系統效能</item>
+        <item>汽車重量等規格</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>可行駛距離</item>
+        <item>根據目的地估算電池用量</item>
+        <item>建議最少所需的充電時間</item>
+        <item>顯示警示，例如電量不足以支持到下一站，或你到達下一站時電量會偏低</item>
+        <item>改善電池管理和汽車效能</item>
+        <item>登入手機和汽車後可建立個人化行程計劃</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>放大和縮小時</item>
+        <item>永遠</item>
+    </string-array>
+</resources>

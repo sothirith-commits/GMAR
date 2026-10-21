@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>А</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Уровень заряда батареи, емкость и скорость зарядки в разных условиях.</item>
+        <item>Состояние кондиционера.</item>
+        <item>Эффективность работы двигателя и тормозов.</item>
+        <item>Характеристики, такие как вес автомобиля.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Запас хода автомобиля.</item>
+        <item>Заряд аккумулятора с учетом пункта назначения.</item>
+        <item>Рекомендуемое минимальное время зарядки.</item>
+        <item>Оповещения о невозможности доехать до следующей остановки или о низком заряде аккумулятора в момент прибытия.</item>
+        <item>Улучшенный контроль энергопотребления и эффективность автомобиля.</item>
+        <item>Персонализированное планирование поездок, когда вы вошли в аккаунт на телефоне и в автомобиле.</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>При изменении</item>
+        <item>Всегда</item>
+    </string-array>
+</resources>

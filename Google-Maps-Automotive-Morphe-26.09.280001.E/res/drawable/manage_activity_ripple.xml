@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/car_ui_rotary_focus_pressed_fill_color" />
+            <stroke android:width="@dimen/car_ui_rotary_focus_pressed_stroke_width" android:color="@color/car_ui_rotary_focus_pressed_stroke_color" />
+            <corners android:radius="@dimen/car_account_menu_manage_activity_button_corner_radius" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/car_ui_rotary_focus_fill_color" />
+            <stroke android:width="@dimen/car_ui_rotary_focus_stroke_width" android:color="@color/car_ui_rotary_focus_stroke_color" />
+            <corners android:radius="@dimen/car_account_menu_manage_activity_button_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <ripple android:color="@android:color/white">
+            <item android:drawable="@drawable/manage_activity_background" />
+            <item android:gravity="center" android:id="@android:id/mask" android:left="@dimen/car_account_menu_manage_activity_button_horizontal_padding" android:top="@dimen/car_account_menu_manage_activity_item_vertical_padding" android:right="@dimen/car_account_menu_manage_activity_button_horizontal_padding" android:bottom="@dimen/car_account_menu_manage_activity_item_vertical_padding">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/car_account_menu_manage_activity_button_corner_radius" />
+                    <solid android:color="@android:color/white" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

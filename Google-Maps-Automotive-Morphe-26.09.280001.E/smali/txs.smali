@@ -1,0 +1,21 @@
+.class public final Ltxs;
+.super Ltxt;
+.source ":com.google.android.apps.maps@1068809778@26.09.280001.E"
+
+
+# virtual methods
+.method protected final a(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)Ljava/lang/ref/Reference;
+    .locals 0
+
+    .line 1
+    new-instance p0, Ljava/lang/ref/SoftReference;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, p1, p2}, Ljava/lang/ref/SoftReference;-><init>(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object p0
+.end method

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">K dispozícii je %d bicykel</item>
+        <item quantity="few">K dispozícii sú %d bicykle</item>
+        <item quantity="many">%d bikes available</item>
+        <item quantity="other">K dispozícii je %d bicyklov</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">K dispozícii je %d stojan</item>
+        <item quantity="few">K dispozícii sú %d stojany</item>
+        <item quantity="many">%d docks available</item>
+        <item quantity="other">K dispozícii je %d stojanov</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Rýchlejšia trasa, o %1$s zastávku menej</item>
+        <item quantity="few">Rýchlejšia trasa, o %1$s zastávky menej</item>
+        <item quantity="many">Faster route, %1$s less stops</item>
+        <item quantity="other">Rýchlejšia trasa, o %1$s zastávok menej</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">Rýchlejšia trasa, o %1$s zastávku viac</item>
+        <item quantity="few">Rýchlejšia trasa, o %1$s zastávky viac</item>
+        <item quantity="many">Faster route, %1$s more stops</item>
+        <item quantity="other">Rýchlejšia trasa, o %1$s zastávok viac</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_FASTER_ROUTE_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">K dispozícii je rýchlejšia trasa so zmenou %1$s zastávky</item>
+        <item quantity="few">K dispozícii je rýchlejšia trasa so zmenou %1$s zastávok</item>
+        <item quantity="many">Faster route available, %1$s stops changed</item>
+        <item quantity="other">K dispozícii je rýchlejšia trasa so zmenou %1$s zastávok</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Je potrebná nová trasa s počtom zastávok nižším o %1$s</item>
+        <item quantity="few">Je potrebná nová trasa s počtom zastávok nižším o %1$s</item>
+        <item quantity="many">New route needed, %1$s less stops</item>
+        <item quantity="other">Je potrebná nová trasa s počtom zastávok nižším o %1$s</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Je potrebná nová trasa s počtom zastávok vyšším o %1$s</item>
+        <item quantity="few">Je potrebná nová trasa s počtom zastávok vyšším o %1$s</item>
+        <item quantity="many">New route needed, %1$s more stops</item>
+        <item quantity="other">Je potrebná nová trasa s počtom zastávok vyšším o %1$s</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Je potrebná nová trasa so zmenou %1$s zastávky</item>
+        <item quantity="few">Je potrebná nová trasa so zmenou %1$s zastávok</item>
+        <item quantity="many">New route needed, %1$s stops changed</item>
+        <item quantity="other">Je potrebná nová trasa so zmenou %1$s zastávok</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">Nová trasa, o %1$s zastávku menej</item>
+        <item quantity="few">Nová trasa, o %1$s zastávky menej</item>
+        <item quantity="many">New route, %1$s less stops</item>
+        <item quantity="other">Nová trasa, o %1$s zastávok menej</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_TITLE_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">Nová trasa, o %1$s zastávku menej</item>
+        <item quantity="few">Nová trasa, o %1$s zastávky menej</item>
+        <item quantity="many">New route, %1$s less stops</item>
+        <item quantity="other">Nová trasa, o %1$s zastávok menej</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_FEWER_STOPS">
+        <item quantity="one">K dispozícii je nová trasa s počtom potrebných zastávok na nabitie nižším o %1$s. Je o %2$s rýchlejšia vrátane času jazdy aj nabíjania.</item>
+        <item quantity="few">K dispozícii je nová trasa s počtom potrebných zastávok na nabitie nižším o %1$s. Je o %2$s rýchlejšia vrátane času jazdy aj nabíjania.</item>
+        <item quantity="many">New route available with %1$s fewer charging stops needed. %2$s faster, with driving and charging time included.</item>
+        <item quantity="other">K dispozícii je nová trasa s počtom potrebných zastávok na nabitie nižším o %1$s. Je o %2$s rýchlejšia vrátane času jazdy aj nabíjania.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_FASTER_ROUTE_MORE_STOPS">
+        <item quantity="one">K dispozícii je nová trasa s počtom potrebných zastávok na nabitie vyšším o %1$s. Je o %2$s rýchlejšia vrátane času jazdy aj nabíjania.</item>
+        <item quantity="few">K dispozícii je nová trasa s počtom potrebných zastávok na nabitie vyšším o %1$s. Je o %2$s rýchlejšia vrátane času jazdy aj nabíjania.</item>
+        <item quantity="many">New route available with %1$s more charging stops needed. %2$s faster, with driving and charging time included.</item>
+        <item quantity="other">K dispozícii je nová trasa s počtom potrebných zastávok na nabitie vyšším o %1$s. Je o %2$s rýchlejšia vrátane času jazdy aj nabíjania.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_FEWER_STOPS">
+        <item quantity="one">Musíte ísť inou trasou. Počet potrebných zastávok na nabitie je nižší o %1$s. Prídete o %2$s.</item>
+        <item quantity="few">Musíte ísť inou trasou. Počet potrebných zastávok na nabitie je nižší o %1$s. Prídete o %2$s.</item>
+        <item quantity="many">You’ll need to take a new route. %1$s fewer charging stops needed. You’ll arrive at %2$s.</item>
+        <item quantity="other">Musíte ísť inou trasou. Počet potrebných zastávok na nabitie je nižší o %1$s. Prídete o %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_MORE_STOPS">
+        <item quantity="one">Musíte ísť inou trasou. Počet potrebných zastávok na nabitie je vyšší o %1$s. Prídete o %2$s.</item>
+        <item quantity="few">Musíte ísť inou trasou. Počet potrebných zastávok na nabitie je vyšší o %1$s. Prídete o %2$s.</item>
+        <item quantity="many">You’ll need to take a new route. %1$s more charging stops needed. You’ll arrive at %2$s.</item>
+        <item quantity="other">Musíte ísť inou trasou. Počet potrebných zastávok na nabitie je vyšší o %1$s. Prídete o %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_NEW_ROUTE_NEEDED_SAME_NUMBER_OF_STOPS">
+        <item quantity="one">Musíte ísť inou trasou. Došlo k zmene %1$s zastávky na nabitie. Prídete o %2$s.</item>
+        <item quantity="few">Musíte ísť inou trasou. Došlo k zmene %1$s zastávok na nabitie. Prídete o %2$s.</item>
+        <item quantity="many">You’ll need to take a new route. %1$s charging stops changed. You’ll arrive at %2$s.</item>
+        <item quantity="other">Musíte ísť inou trasou. Došlo k zmene %1$s zastávok na nabitie. Prídete o %2$s.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SIMILAR_ARRIVAL_TIME_FEWER_STOPS">
+        <item quantity="one">K dispozícii je nová trasa s počtom potrebných zastávok na nabitie nižším o %1$s. Má podobný čas príchodu.</item>
+        <item quantity="few">K dispozícii je nová trasa s počtom potrebných zastávok na nabitie nižším o %1$s. Má podobný čas príchodu.</item>
+        <item quantity="many">New route available with %1$s fewer charging stops needed. Similar arrival time.</item>
+        <item quantity="other">K dispozícii je nová trasa s počtom potrebných zastávok na nabitie nižším o %1$s. Má podobný čas príchodu.</item>
+    </plurals>
+    <plurals name="CAR_BETTER_TRIP_VOICEOVER_SLOWER_ROUTE_FEWER_STOPS">
+        <item quantity="one">K dispozícii je nová trasa s počtom potrebných zastávok na nabitie nižším o %1$s. Je o %2$s pomalšia vrátane času jazdy aj nabíjania.</item>
+        <item quantity="few">K dispozícii je nová trasa s počtom potrebných zastávok na nabitie nižším o %1$s. Je o %2$s pomalšia vrátane času jazdy aj nabíjania.</item>
+        <item quantity="many">New route available with %1$s fewer charging stops needed. %2$s slower, with driving and charging time included.</item>
+        <item quantity="other">K dispozícii je nová trasa s počtom potrebných zastávok na nabitie nižším o %1$s. Je o %2$s pomalšia vrátane času jazdy aj nabíjania.</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_DAYS_AGO">
+        <item quantity="one">Použité pred %1$d dňom</item>
+        <item quantity="few">Použité pred %1$d dňami</item>
+        <item quantity="many">Použité pred %1$d dňa</item>
+        <item quantity="other">Použité pred %1$d dňami</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAST_CHARGED_USED_WEEKS_AGO">
+        <item quantity="one">Použité pred %1$d týždňom</item>
+        <item quantity="few">Použité pred %1$d týždňami</item>
+        <item quantity="many">Použité pred %1$d týždňa</item>
+        <item quantity="other">Použité pred %1$d týždňami</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_EXTRA_COUNT">
+        <item quantity="one">+%1$d sieť</item>
+        <item quantity="few">+%1$d siete</item>
+        <item quantity="many">+%1$d networks</item>
+        <item quantity="other">+%1$d sietí</item>
+    </plurals>
+    <plurals name="CAR_EVCS_LAYER_MAP_FILTERS_PAYMENT_NETWORK_FILTER_SUBTITLE_SELECTED_COUNT">
+        <item quantity="one">%1$d vybraná</item>
+        <item quantity="few">%1$d vybrané</item>
+        <item quantity="many">%1$d selected</item>
+        <item quantity="other">%1$d vybraných</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT">
+        <item quantity="one">%1$s zastávka na nabitie</item>
+        <item quantity="few">%1$s zastávky na nabitie</item>
+        <item quantity="many">%1$s charging stops</item>
+        <item quantity="other">%1$s zastávok na nabitie</item>
+    </plurals>
+    <plurals name="CAR_EV_CHARGING_STOPS_COUNT_SHORT">
+        <item quantity="one">%1$d zastávka</item>
+        <item quantity="few">%1$d zastávky</item>
+        <item quantity="many">%1$d stops</item>
+        <item quantity="other">%1$d zastávok</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_NUMBER_SELECTED">
+        <item quantity="one">%1$d vybraná položka</item>
+        <item quantity="few">%1$d vybrané položky</item>
+        <item quantity="many">%1$d selected</item>
+        <item quantity="other">%1$d vybraných položiek</item>
+    </plurals>
+    <plurals name="CAR_FILTERS_PAYMENT_FILTER_PLUS_SELECTED_COUNT">
+        <item quantity="one">%1$s + %2$d</item>
+        <item quantity="few">%1$s + %2$d</item>
+        <item quantity="many">%1$s +%2$d</item>
+        <item quantity="other">%1$s + %2$d</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_ADDITIONAL_EV_PAYMENT_METHODS_COUNT">
+        <item quantity="one">+%1$d ďalší spôsob</item>
+        <item quantity="few">+%1$d ďalšie spôsoby</item>
+        <item quantity="many">+%1$d more</item>
+        <item quantity="other">+%1$d ďalších spôsobov</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_CHARGER_AVAILABILITY_TILE_MORE_PORT_GROUPS">
+        <item quantity="one">+%1$d ďalšia</item>
+        <item quantity="few">+%1$d ďalšie</item>
+        <item quantity="many">+%1$d more</item>
+        <item quantity="other">+%1$d ďalších</item>
+    </plurals>
+    <plurals name="CAR_PLACE_DETAILS_TILE_CONTENT_MORE_TRIP_DETAILS">
+        <item quantity="one">+%1$d ďalšia</item>
+        <item quantity="few">+%1$d ďalšie</item>
+        <item quantity="many">+%1$d more</item>
+        <item quantity="other">+%1$d ďalších</item>
+    </plurals>
+    <plurals name="CAR_SUMMARY_PILL_MORE_ITEMS">
+        <item quantity="one">+ %1$d</item>
+        <item quantity="few">+ %1$d</item>
+        <item quantity="many">+ %1$d</item>
+        <item quantity="other">+ %1$d</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s deň</item>
+        <item quantity="few">%s dni</item>
+        <item quantity="many">%s dňa</item>
+        <item quantity="other">%s dní</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s d.</item>
+        <item quantity="few">%s d.</item>
+        <item quantity="many">%s d.</item>
+        <item quantity="other">%s d.</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s deň</item>
+        <item quantity="few">%s dni</item>
+        <item quantity="many">%s dňa</item>
+        <item quantity="other">%s dní</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s deň</item>
+        <item quantity="few">%s dni</item>
+        <item quantity="many">%s dňa</item>
+        <item quantity="other">%s dní</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s h</item>
+        <item quantity="few">%s h</item>
+        <item quantity="many">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s h</item>
+        <item quantity="few">%s h</item>
+        <item quantity="many">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s hodina</item>
+        <item quantity="few">%s hodiny</item>
+        <item quantity="many">%s hodiny</item>
+        <item quantity="other">%s hodín</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s minúta</item>
+        <item quantity="few">%s minúty</item>
+        <item quantity="many">%s minúty</item>
+        <item quantity="other">%s minút</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s min</item>
+        <item quantity="few">%s min</item>
+        <item quantity="many">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s minúta</item>
+        <item quantity="few">%s minúty</item>
+        <item quantity="many">%s minúty</item>
+        <item quantity="other">%s minút</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="many">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s sekunda</item>
+        <item quantity="few">%s sekundy</item>
+        <item quantity="many">%s sekundy</item>
+        <item quantity="other">%s sekúnd</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Pokračujte ešte %1$s stopu</item>
+        <item quantity="few">Pokračujte ešte %1$s stopy</item>
+        <item quantity="many">Pokračujte ešte %1$s stopy</item>
+        <item quantity="other">Pokračujte ešte %1$s stôp</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Pokračujte ešte %1$s kilometer</item>
+        <item quantity="few">Pokračujte ešte %1$s kilometre</item>
+        <item quantity="many">Pokračujte ešte %1$s kilometra</item>
+        <item quantity="other">Pokračujte ešte %1$s kilometrov</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Pokračujte ešte %1$s meter</item>
+        <item quantity="few">Pokračujte ešte %1$s metre</item>
+        <item quantity="many">Pokračujte ešte %1$s metra</item>
+        <item quantity="other">Pokračujte ešte %1$s metrov</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Pokračujte ešte %1$s míľu</item>
+        <item quantity="few">Pokračujte ešte %1$s míle</item>
+        <item quantity="many">Pokračujte ešte %1$s míle</item>
+        <item quantity="other">Pokračujte ešte %1$s míľ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Pokračujte ešte %1$s yard</item>
+        <item quantity="few">Pokračujte ešte %1$s yardy</item>
+        <item quantity="many">Pokračujte ešte %1$s yardu</item>
+        <item quantity="other">Pokračujte ešte %1$s yardov</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Pokračujte po ceste %2$s ešte %1$s stopu</item>
+        <item quantity="few">Pokračujte po ceste %2$s ešte %1$s stopy</item>
+        <item quantity="many">Pokračujte po ceste %2$s ešte %1$s stopy</item>
+        <item quantity="other">Pokračujte po ceste %2$s ešte %1$s stôp</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Pokračujte po ceste %2$s ešte %1$s kilometer</item>
+        <item quantity="few">Pokračujte po ceste %2$s ešte %1$s kilometre</item>
+        <item quantity="many">Pokračujte po ceste %2$s ešte %1$s kilometra</item>
+        <item quantity="other">Pokračujte po ceste %2$s ešte %1$s kilometrov</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Pokračujte po ceste %2$s ešte %1$s meter</item>
+        <item quantity="few">Pokračujte po ceste %2$s ešte %1$s metre</item>
+        <item quantity="many">Pokračujte po ceste %2$s ešte %1$s metra</item>
+        <item quantity="other">Pokračujte po ceste %2$s ešte %1$s metrov</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Pokračujte po ceste %2$s ešte %1$s míľu</item>
+        <item quantity="few">Pokračujte po ceste %2$s ešte %1$s míle</item>
+        <item quantity="many">Pokračujte po ceste %2$s ešte %1$s míle</item>
+        <item quantity="other">Pokračujte po ceste %2$s ešte %1$s míľ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Pokračujte po ceste %2$s ešte %1$s yard</item>
+        <item quantity="few">Pokračujte po ceste %2$s ešte %1$s yardy</item>
+        <item quantity="many">Pokračujte po ceste %2$s ešte %1$s yardu</item>
+        <item quantity="other">Pokračujte po ceste %2$s ešte %1$s yardov</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">Po %1$s stope</item>
+        <item quantity="few">Po %1$s stopách</item>
+        <item quantity="many">Po %1$s stope</item>
+        <item quantity="other">Po %1$s stopách</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">O %1$s kilometer</item>
+        <item quantity="few">O %1$s kilometre</item>
+        <item quantity="many">O %1$s kilometra</item>
+        <item quantity="other">O %1$s kilometrov</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">Po %1$s metri</item>
+        <item quantity="few">Po %1$s metroch</item>
+        <item quantity="many">Po %1$s metri</item>
+        <item quantity="other">Po %1$s metroch</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">O %1$s míľu</item>
+        <item quantity="few">O %1$s míle</item>
+        <item quantity="many">O %1$s míľu</item>
+        <item quantity="other">O %1$s míľ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">Po %1$s yarde</item>
+        <item quantity="few">Po %1$s yardoch</item>
+        <item quantity="many">Po %1$s yardu</item>
+        <item quantity="other">Po %1$s yardoch</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometer za hodinu</item>
+        <item quantity="few">%s kilometre za hodinu</item>
+        <item quantity="many">%s kilometra za hodinu</item>
+        <item quantity="other">%s kilometrov za hodinu</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s míľa za hodinu</item>
+        <item quantity="few">%s míle za hodinu</item>
+        <item quantity="many">%s míle za hodinu</item>
+        <item quantity="other">%s míľ za hodinu</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Váš cieľ je vzdialený %1$s stopu</item>
+        <item quantity="few">Váš cieľ je vzdialený %1$s stopy</item>
+        <item quantity="many">Váš cieľ je vzdialený %1$s stopy</item>
+        <item quantity="other">Váš cieľ je vzdialený %1$s stôp</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Váš cieľ je vzdialený %1$s kilometer</item>
+        <item quantity="few">Váš cieľ je vzdialený %1$s kilometre</item>
+        <item quantity="many">Váš cieľ je vzdialený %1$s kilometra</item>
+        <item quantity="other">Váš cieľ je vzdialený %1$s kilometrov</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Váš cieľ je vzdialený %1$s meter</item>
+        <item quantity="few">Váš cieľ je vzdialený %1$s metre</item>
+        <item quantity="many">Váš cieľ je vzdialený %1$s metra</item>
+        <item quantity="other">Váš cieľ je vzdialený %1$s metrov</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Váš cieľ je vzdialený %1$s míľu</item>
+        <item quantity="few">Váš cieľ je vzdialený %1$s míle</item>
+        <item quantity="many">Váš cieľ je vzdialený %1$s míľu</item>
+        <item quantity="other">Váš cieľ je vzdialený %1$s míľ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Váš cieľ je vzdialený %1$s yard</item>
+        <item quantity="few">Váš cieľ je vzdialený %1$s yardy</item>
+        <item quantity="many">Váš cieľ je vzdialený %1$s yardu</item>
+        <item quantity="other">Váš cieľ je vzdialený %1$s yardov</item>
+    </plurals>
+    <plurals name="EVCS_LAYER_MAP_FILTERS_SPEED_FILTER_SUBTITLE_CUSTOMIZE_SELECTED_COUNT">
+        <item quantity="one">%1$d vybraná položka</item>
+        <item quantity="few">%1$d vybrané položky</item>
+        <item quantity="many">%1$d selected</item>
+        <item quantity="other">%1$d vybraných položiek</item>
+    </plurals>
+    <plurals name="MIDTRIP_UGC_VOTE_REPORTS_COUNT_TEXT">
+        <item quantity="one">(%1$d report)</item>
+        <item quantity="few">(%1$d reporty)</item>
+        <item quantity="many">%1$d reports</item>
+        <item quantity="other">(%1$d reportov)</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_DAYS_AGO">
+        <item quantity="one">pred %d dňom</item>
+        <item quantity="few">pred %d dňami</item>
+        <item quantity="many">pred %d dňa</item>
+        <item quantity="other">pred %d dňami</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_HOURS_AGO">
+        <item quantity="one">pred %d hodinou</item>
+        <item quantity="few">pred %d hodinami</item>
+        <item quantity="many">pred %d hodiny</item>
+        <item quantity="other">pred %d hodinami</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_MONTHS_AGO">
+        <item quantity="one">pred %d mesiacom</item>
+        <item quantity="few">pred %d mesiacmi</item>
+        <item quantity="many">pred %d mesiaca</item>
+        <item quantity="other">pred %d mesiacmi</item>
+    </plurals>
+    <plurals name="PHOTO_GALLERY_YEARS_AGO">
+        <item quantity="one">pred %d rokom</item>
+        <item quantity="few">pred %d rokmi</item>
+        <item quantity="many">pred %d roka</item>
+        <item quantity="other">pred %d rokmi</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="one">Nahradiť</item>
+        <item quantity="few">Nahradiť</item>
+        <item quantity="many">Replace Stops</item>
+        <item quantity="other">Nahradiť</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP_ACTION">
+        <item quantity="one">Nahrádza sa zastávka</item>
+        <item quantity="few">Nahrádzajú sa zastávky</item>
+        <item quantity="many">Replacing Stops</item>
+        <item quantity="other">Nahrádzajú sa zastávky</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d zastávku</item>
+        <item quantity="few">%d zastávky</item>
+        <item quantity="many">%d stops</item>
+        <item quantity="other">%d zastávok</item>
+    </plurals>
+    <plurals name="interactive_rating_state_description">
+        <item quantity="one">%1$d z %2$d</item>
+        <item quantity="few">%1$d z %2$d</item>
+        <item quantity="many">%1$d z %2$d</item>
+        <item quantity="other">%1$d z %2$d</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Máte upozornenie</item>
+        <item quantity="few">%1$d nové upozornenia</item>
+        <item quantity="many">%1$d new notifications</item>
+        <item quantity="other">%1$d nových upozornení</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d hviezdička z %2$d</item>
+        <item quantity="few">%1$d hviezdičky z %2$d</item>
+        <item quantity="many">%1$d stars out of %2$d</item>
+        <item quantity="other">%1$d hviezdičiek z %2$d</item>
+    </plurals>
+</resources>

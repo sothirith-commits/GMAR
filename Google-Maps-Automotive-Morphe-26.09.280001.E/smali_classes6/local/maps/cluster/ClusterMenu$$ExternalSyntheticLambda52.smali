@@ -1,0 +1,96 @@
+.class public final synthetic Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;
+.super Ljava/lang/Object;
+.source "D8$$SyntheticClass"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic f$0:Llocal/maps/cluster/ClusterMenu;
+
+.field public final synthetic f$1:J
+
+.field public final synthetic f$10:Ljava/lang/String;
+
+.field public final synthetic f$2:Llocal/maps/cluster/VehicleDataStore$Access;
+
+.field public final synthetic f$3:J
+
+.field public final synthetic f$4:Ljava/lang/String;
+
+.field public final synthetic f$5:Ljava/lang/String;
+
+.field public final synthetic f$6:Z
+
+.field public final synthetic f$7:Ljava/lang/String;
+
+.field public final synthetic f$8:J
+
+.field public final synthetic f$9:Ljava/lang/String;
+
+
+# direct methods
+.method public synthetic constructor <init>(Llocal/maps/cluster/ClusterMenu;JLlocal/maps/cluster/VehicleDataStore$Access;JLjava/lang/String;Ljava/lang/String;ZLjava/lang/String;JLjava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$0:Llocal/maps/cluster/ClusterMenu;
+
+    iput-wide p2, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$1:J
+
+    iput-object p4, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$2:Llocal/maps/cluster/VehicleDataStore$Access;
+
+    iput-wide p5, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$3:J
+
+    iput-object p7, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$4:Ljava/lang/String;
+
+    iput-object p8, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$5:Ljava/lang/String;
+
+    iput-boolean p9, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$6:Z
+
+    iput-object p10, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$7:Ljava/lang/String;
+
+    iput-wide p11, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$8:J
+
+    iput-object p13, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$9:Ljava/lang/String;
+
+    iput-object p14, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$10:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 14
+
+    .line 0
+    iget-object v0, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$0:Llocal/maps/cluster/ClusterMenu;
+
+    iget-wide v1, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$1:J
+
+    iget-object v3, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$2:Llocal/maps/cluster/VehicleDataStore$Access;
+
+    iget-wide v4, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$3:J
+
+    iget-object v6, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$4:Ljava/lang/String;
+
+    iget-object v7, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$5:Ljava/lang/String;
+
+    iget-boolean v8, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$6:Z
+
+    iget-object v9, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$7:Ljava/lang/String;
+
+    iget-wide v10, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$8:J
+
+    iget-object v12, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$9:Ljava/lang/String;
+
+    iget-object v13, p0, Llocal/maps/cluster/ClusterMenu$$ExternalSyntheticLambda52;->f$10:Ljava/lang/String;
+
+    invoke-virtual/range {v0 .. v13}, Llocal/maps/cluster/ClusterMenu;->lambda$readerCompatibility$54$local-maps-cluster-ClusterMenu(JLlocal/maps/cluster/VehicleDataStore$Access;JLjava/lang/String;Ljava/lang/String;ZLjava/lang/String;JLjava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method

@@ -1,0 +1,26 @@
+.class public interface abstract annotation Lorg/chromium/net/ConnectionCloseSource;
+.super Ljava/lang/Object;
+.source ":com.google.android.apps.maps@1068809778@26.09.280001.E"
+
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
+
+
+# annotations
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->SOURCE:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
+
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->TYPE_USE:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
+
+
+# static fields
+.field public static final PEER:I = 0x1
+
+.field public static final SELF:I = 0x2
+
+.field public static final UNKNOWN:I

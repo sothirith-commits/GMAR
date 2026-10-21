@@ -1,0 +1,11 @@
+.class interface abstract Leob;
+.super Ljava/lang/Object;
+.source ":com.google.android.apps.maps@1068809778@26.09.280001.E"
+
+# interfaces
+.implements Lenr;
+
+
+# virtual methods
+.method public abstract i()Landroid/graphics/Path;
+.end method

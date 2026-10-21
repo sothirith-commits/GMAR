@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/car_account_menu_list_item_height" android:layout_marginTop="@dimen/car_account_menu_info_item_vertical_margin" android:layout_marginBottom="@dimen/car_account_menu_list_item_vertical_margin" android:paddingStart="@dimen/car_account_menu_list_item_horizontal_padding" android:paddingEnd="@dimen/car_account_menu_list_item_horizontal_padding">
+        <ImageView android:layout_gravity="fill" android:id="@id/primary_icon" android:layout_width="@dimen/car_app_icon_size" android:layout_height="@dimen/car_app_icon_size" android:layout_centerVertical="true" android:contentDescription="@string/account_avatar" android:layout_marginEnd="@dimen/car_account_menu_list_item_icon_margin" />
+        <LinearLayout android:orientation="vertical" android:id="@id/text_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/supplemental_icon" android:layout_toEndOf="@id/primary_icon">
+            <TextView android:textAppearance="@style/TextAppearance.Car.Body1.Medium" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="@style/TextAppearance.Car.ListItem.BodyText" android:ellipsize="end" android:id="@id/body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:id="@id/supplemental_icon" android:layout_width="@dimen/car_primary_icon_size" android:layout_height="@dimen/car_primary_icon_size" android:layout_centerVertical="true" android:contentDescription="@string/account_avatar" android:layout_marginStart="@dimen/car_account_menu_list_item_icon_margin" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/ManageActivityButtonTextAppearance" android:gravity="center" android:id="@id/action_button" android:background="@drawable/manage_activity_ripple" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/car_account_menu_list_item_vertical_margin" android:minHeight="@dimen/car_account_menu_manage_activity_button_height" android:layout_marginHorizontal="@dimen/car_account_menu_manage_activity_button_horizontal_margin" />
+</LinearLayout>

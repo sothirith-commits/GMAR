@@ -1,0 +1,105 @@
+.class final Laus;
+.super Ljava/lang/Object;
+.source ":com.google.android.apps.maps@1068809778@26.09.280001.E"
+
+# interfaces
+.implements Laup;
+
+
+# instance fields
+.field private final a:F
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    iput v0, p0, Laus;->a:F
+
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(JLcnh;)F
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return p0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    if-ne p0, p1, :cond_0
+
+    .line 3
+    .line 4
+    return v0
+
+    .line 5
+    :cond_0
+    instance-of p0, p1, Laus;
+
+    .line 6
+    .line 7
+    if-nez p0, :cond_1
+
+    .line 8
+    .line 9
+    const/4 p0, 0x0
+
+    .line 10
+    return p0
+
+    .line 11
+    :cond_1
+    check-cast p1, Laus;
+
+    .line 12
+    .line 13
+    iget p0, p1, Laus;->a:F
+
+    .line 14
+    .line 15
+    return v0
+.end method
+
+.method public final hashCode()I
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    const-string p0, "CornerSize(size = 0.0.px)"
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

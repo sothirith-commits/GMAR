@@ -1,0 +1,32 @@
+.class public final Lfku;
+.super Ljava/lang/Object;
+.source ":com.google.android.apps.maps@1068809778@26.09.280001.E"
+
+
+# static fields
+.field public static final a:Ljava/util/regex/Pattern;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    const-string v0, "^[a-z][-_a-z0-9/]*[a-z0-9]$"
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    sput-object v0, Lfku;->a:Ljava/util/regex/Pattern;
+
+    .line 8
+    .line 9
+    return-void
+.end method

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>le niveau de charge, la capacité et la vitesse de recharge de la batterie dans différentes conditions;</item>
+        <item>"l'état de la climatisation;"</item>
+        <item>"l'efficacité des moteurs électriques et du freinage;"</item>
+        <item>les spécifications (p. ex. le poids de votre véhicule).</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>"l'autonomie de la voiture;"</item>
+        <item>"l'estimation de la charge restante de la batterie en fonction de votre destination;"</item>
+        <item>les délais de recharge minimaux recommandés;</item>
+        <item>des alertes, par exemple lorsque votre prochain arrêt est trop loin ou lorsque vous arriverez à votre prochain arrêt avec une batterie faible;</item>
+        <item>une gestion améliorée de la batterie et une meilleure efficacité du véhicule.</item>
+        <item>Planification de voyage personnalisée lorsque vous êtes connecté à votre téléphone et à votre voiture</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>"Lors d'un zoom avant et zoom arrière"</item>
+        <item>Toujours</item>
+    </string-array>
+</resources>

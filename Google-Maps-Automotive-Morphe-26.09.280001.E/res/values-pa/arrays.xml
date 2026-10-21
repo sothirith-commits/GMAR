@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>ਵੱਖ-ਵੱਖ ਸਥਿਤੀਆਂ ਵਿੱਚ ਬੈਟਰੀ ਪੱਧਰ, ਸਮਰੱਥਾ ਅਤੇ ਚਾਰਜਿੰਗ ਸਪੀਡ</item>
+        <item>ਏਅਰ ਕੰਡੀਸ਼ਨਿੰਗ ਦੀ ਸਥਿਤੀ</item>
+        <item>ਇਲੈਕਟ੍ਰਿਕ ਮੋਟਰਾਂ ਅਤੇ ਬ੍ਰੇਕਿੰਗ ਸਮਰੱਥਾ</item>
+        <item>ਤੁਹਾਡੇ ਵਾਹਨ ਦੇ ਭਾਰ ਵਰਗੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>ਕਾਰ ਰੇਂਜ</item>
+        <item>"ਤੁਹਾਡੀ ਮੰਜ਼ਿਲ ਦੇ ਆਧਾਰ 'ਤੇ ਬੈਟਰੀ ਸੰਬੰਧੀ ਅੰਦਾਜ਼ੇ"</item>
+        <item>ਸਿਫ਼ਾਰਸ਼ੀ ਘੱਟੋ-ਘੱਟ ਚਾਰਜਿੰਗ ਸਮੇਂ</item>
+        <item>"ਅਲਰਟ, ਜਿਵੇਂ ਕਿ ਜਦ ਤੁਹਾਡਾ ਅਗਲਾ ਅੱਡਾ ਪਹੁੰਚ ਤੋਂ ਬਾਹਰ ਹੈ ਜਾਂ ਤੁਸੀਂ ਘੱਟ ਬੈਟਰੀ ਨਾਲ ਆਪਣੇ ਅਗਲੇ ਅੱਡੇ 'ਤੇ ਕਦੋਂ ਪਹੁੰਚੋਗੇ"</item>
+        <item>ਬਿਹਤਰ ਬੈਟਰੀ ਪ੍ਰਬੰਧਨ ਅਤੇ ਵਾਹਨ ਸਮਰੱਥਾ</item>
+        <item>"ਤੁਹਾਡੇ ਵੱਲੋਂ ਆਪਣੇ ਫ਼ੋਨ ਅਤੇ ਕਾਰ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰਨ 'ਤੇ, ਵਿਅਕਤੀਗਤ ਟ੍ਰਿਪ ਪਲਾਨਿੰਗ"</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>ਅੰਦਰ ਅਤੇ ਬਾਹਰ ਜ਼ੂਮ ਕਰਦੇ ਸਮੇਂ</item>
+        <item>ਹਮੇਸ਼ਾਂ</item>
+    </string-array>
+</resources>

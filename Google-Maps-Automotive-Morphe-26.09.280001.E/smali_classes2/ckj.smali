@@ -1,0 +1,67 @@
+.class public final Lckj;
+.super Landroid/text/style/MetricAffectingSpan;
+.source ":com.google.android.apps.maps@1068809778@26.09.280001.E"
+
+
+# instance fields
+.field private final a:Landroid/graphics/Typeface;
+
+
+# direct methods
+.method public constructor <init>(Landroid/graphics/Typeface;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Landroid/text/style/MetricAffectingSpan;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lckj;->a:Landroid/graphics/Typeface;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method private final a(Landroid/graphics/Paint;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lckj;->a:Landroid/graphics/Typeface;
+
+    .line 2
+    .line 3
+    invoke-virtual {p1, p0}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final updateDrawState(Landroid/text/TextPaint;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lckj;->a(Landroid/graphics/Paint;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public final updateMeasureState(Landroid/text/TextPaint;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lckj;->a(Landroid/graphics/Paint;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

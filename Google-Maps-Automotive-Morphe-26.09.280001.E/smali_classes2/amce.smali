@@ -1,0 +1,11 @@
+.class public interface abstract Lamce;
+.super Ljava/lang/Object;
+.source ":com.google.android.apps.maps@1068809778@26.09.280001.E"
+
+
+# virtual methods
+.method public abstract a(Lamcw;Ljava/util/List;Ljava/util/List;)V
+.end method
+
+.method public abstract b(Lamcw;Ljava/util/List;Ljava/util/List;)V
+.end method

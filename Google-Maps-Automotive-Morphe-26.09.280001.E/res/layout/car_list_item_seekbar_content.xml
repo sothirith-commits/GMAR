@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/car_single_line_list_item_height" android:paddingEnd="@dimen/car_keyline_1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/primary_icon" android:layout_width="@dimen/car_primary_icon_size" android:layout_height="@dimen/car_primary_icon_size" android:tint="?listItemPrimaryIconTint" android:layout_marginStart="@dimen/car_keyline_1" />
+    <LinearLayout android:orientation="vertical" android:id="@id/seek_bar_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/car_padding_1" android:layout_marginBottom="@dimen/car_padding_1" android:layout_centerVertical="true">
+        <TextView android:textAppearance="?listItemTitleTextAppearance" android:id="@id/seek_bar_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <SeekBar android:id="@id/seek_bar" android:paddingTop="@dimen/car_seekbar_padding" android:paddingBottom="@dimen/car_seekbar_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:thumbOffset="0.0dp" android:paddingStart="0.0dp" android:paddingEnd="0.0dp" android:splitTrack="false" android:min="0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/supplemental_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/car_vertical_line_divider_height" android:layout_alignParentEnd="true">
+        <View android:id="@id/supplemental_icon_divider" android:background="@color/car_list_divider" android:layout_width="@dimen/car_vertical_line_divider_width" android:layout_height="@dimen/car_vertical_line_divider_height" android:layout_marginEnd="@dimen/car_padding_4" />
+        <ImageView android:id="@id/supplemental_icon" android:background="@drawable/car_button_ripple_background" android:layout_width="@dimen/car_primary_icon_size" android:layout_height="@dimen/car_primary_icon_size" android:scaleType="fitCenter" android:tint="?listItemSupplementalIconTint" />
+    </LinearLayout>
+</RelativeLayout>

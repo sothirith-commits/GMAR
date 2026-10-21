@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>א</item>
+        <item>ב</item>
+        <item>ג</item>
+        <item>ד</item>
+        <item>ה</item>
+        <item>ו</item>
+        <item>ז</item>
+        <item>ח</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>רמת הטעינה, הקיבולת ומהירות הטעינה של הסוללה בתנאים שונים</item>
+        <item>סטטוס מיזוג האוויר</item>
+        <item>היעילות של בלמים ומנועים חשמליים</item>
+        <item>נתוני מפרט, למשל משקל הרכב</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>טווח הנסיעה של הרכב</item>
+        <item>רמת הסוללה המשוערת על סמך היעד</item>
+        <item>זמני טעינה מינימליים מומלצים</item>
+        <item>התראות, למשל אם הסוללה לא תספיק כדי להגיע לעצירת הביניים הבאה, או אם הסוללה תהיה חלשה בהגעה לשם</item>
+        <item>נתונים לגבי שיפור הניהול של הסוללה ויעילות הרכב</item>
+        <item>תכנון נסיעות בהתאמה אישית כשהחשבון מחובר בטלפון וברכב</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>כשמשנים את הזום</item>
+        <item>תמיד</item>
+    </string-array>
+</resources>

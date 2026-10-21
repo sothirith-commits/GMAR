@@ -1,0 +1,176 @@
+.class public final Lamuj;
+.super Lamui;
+.source ":com.google.android.apps.maps@1068809778@26.09.280001.E"
+
+
+# instance fields
+.field public final a:I
+
+.field public final b:Z
+
+.field public final c:Ladgv;
+
+.field private d:Z
+
+.field private e:Z
+
+
+# direct methods
+.method public constructor <init>(Ladgv;)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Lamui;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x1
+
+    .line 5
+    iput v0, p0, Lamuj;->a:I
+
+    .line 6
+    .line 7
+    iput-boolean v0, p0, Lamuj;->b:Z
+
+    .line 8
+    .line 9
+    const/4 v0, 0x0
+
+    .line 10
+    iput-boolean v0, p0, Lamuj;->d:Z
+
+    .line 11
+    .line 12
+    iput-boolean v0, p0, Lamuj;->e:Z
+
+    .line 13
+    .line 14
+    iput-object p1, p0, Lamuj;->c:Ladgv;
+
+    .line 15
+    .line 16
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(Ljava/lang/Throwable;)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lamuj;->c:Ladgv;
+
+    .line 2
+    .line 3
+    const-string v1, "Cancelled by client with StreamObserver.onError()"
+
+    .line 4
+    .line 5
+    invoke-virtual {v0, v1, p1}, Ladgv;->g(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 6
+    .line 7
+    .line 8
+    const/4 p1, 0x1
+
+    .line 9
+    iput-boolean p1, p0, Lamuj;->d:Z
+
+    .line 10
+    .line 11
+    return-void
+.end method
+
+.method public final c()V
+    .locals 1
+
+    .line 1
+    iget-object p0, p0, Lamuj;->c:Ladgv;
+
+    .line 2
+    .line 3
+    const/4 v0, 0x1
+
+    .line 4
+    invoke-virtual {p0, v0}, Ladgv;->i(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+.method public final d(Ljava/lang/Object;)V
+    .locals 2
+
+    .line 1
+    iget-boolean v0, p0, Lamuj;->d:Z
+
+    .line 2
+    .line 3
+    xor-int/lit8 v0, v0, 0x1
+
+    .line 4
+    .line 5
+    const-string v1, "Stream was terminated by error, no further calls are allowed"
+
+    .line 6
+    .line 7
+    invoke-static {v0, v1}, Laatt;->aa(ZLjava/lang/Object;)V
+
+    .line 8
+    .line 9
+    .line 10
+    iget-boolean v0, p0, Lamuj;->e:Z
+
+    .line 11
+    .line 12
+    xor-int/lit8 v0, v0, 0x1
+
+    .line 13
+    .line 14
+    const-string v1, "Stream is already completed, no further calls are allowed"
+
+    .line 15
+    .line 16
+    invoke-static {v0, v1}, Laatt;->aa(ZLjava/lang/Object;)V
+
+    .line 17
+    .line 18
+    .line 19
+    iget-object p0, p0, Lamuj;->c:Ladgv;
+
+    .line 20
+    .line 21
+    invoke-virtual {p0, p1}, Ladgv;->c(Ljava/lang/Object;)V
+
+    .line 22
+    .line 23
+    .line 24
+    return-void
+.end method
+
+.method public final ly()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lamuj;->c:Ladgv;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ladgv;->h()V
+
+    .line 4
+    .line 5
+    .line 6
+    const/4 v0, 0x1
+
+    .line 7
+    iput-boolean v0, p0, Lamuj;->e:Z
+
+    .line 8
+    .line 9
+    return-void
+.end method

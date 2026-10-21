@@ -1,0 +1,21 @@
+.class public final Lamac;
+.super Ljava/util/concurrent/ConcurrentSkipListMap;
+.source ":com.google.android.apps.maps@1068809778@26.09.280001.E"
+
+
+# static fields
+.field private static final serialVersionUID:J = -0x6d68c8fa4573fba6L
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/util/concurrent/ConcurrentSkipListMap;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

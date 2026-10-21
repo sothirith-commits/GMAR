@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Akumuliatoriaus įkrovos lygis, talpa ir įkrovimo sparta skirtingomis sąlygomis</item>
+        <item>Oro kondicionavimo būsena</item>
+        <item>Elektrinių variklių ir stabdymo efektyvumas</item>
+        <item>Specifikacijos, pvz., transporto priemonės svoris</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Galimas nuvažiuoti atstumas</item>
+        <item>Pagal kelionės tikslą apskaičiuotas akumuliatoriaus įkrovos lygis</item>
+        <item>Rekomenduojama trumpiausia krovimo trukmė</item>
+        <item>Įspėjimai, pvz., kai iki kito sustojimo nenuvyksite arba nuvyksite su beveik išsekusiu akumuliatoriumi</item>
+        <item>Geresnis akumuliatoriaus įkrovos valdymas ir didesnis transporto priemonės efektyvumas</item>
+        <item>Asmeninis kelionių planavimas, prisijungus telefone ir automobilyje</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Kai artinama ir tolinama</item>
+        <item>Visada</item>
+    </string-array>
+</resources>
