@@ -1,0 +1,263 @@
+.class public final Lcom/google/android/apps/gmm/base/views/linechart/SparklineView;
+.super Landroid/view/View;
+.source ":com.google.android.apps.maps@1068833407@26.10.120001.E"
+
+
+# instance fields
+.field private final a:Landroid/graphics/Paint;
+
+.field private final b:Landroid/graphics/Paint;
+
+.field private final c:Landroid/graphics/Paint;
+
+.field private d:I
+
+.field private e:I
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 83
+    invoke-direct {p0, p1, v0}, Lcom/google/android/apps/gmm/base/views/linechart/SparklineView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+
+    .line 2
+    .line 3
+    .line 4
+    const p1, 0x50009688
+
+    .line 5
+    .line 6
+    .line 7
+    iput p1, p0, Lcom/google/android/apps/gmm/base/views/linechart/SparklineView;->d:I
+
+    .line 8
+    .line 9
+    const p1, 0x9688    # 5.4E-41f
+
+    .line 10
+    .line 11
+    .line 12
+    iput p1, p0, Lcom/google/android/apps/gmm/base/views/linechart/SparklineView;->e:I
+
+    .line 13
+    .line 14
+    new-instance p1, Landroid/graphics/Paint;
+
+    .line 15
+    .line 16
+    const/4 p2, 0x1
+
+    .line 17
+    invoke-direct {p1, p2}, Landroid/graphics/Paint;-><init>(I)V
+
+    .line 18
+    .line 19
+    .line 20
+    iput-object p1, p0, Lcom/google/android/apps/gmm/base/views/linechart/SparklineView;->a:Landroid/graphics/Paint;
+
+    .line 21
+    .line 22
+    sget-object v0, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
+
+    .line 23
+    .line 24
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+
+    .line 25
+    .line 26
+    .line 27
+    const/high16 v0, 0x40800000    # 4.0f
+
+    .line 28
+    .line 29
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+
+    .line 30
+    .line 31
+    .line 32
+    sget-object v0, Landroid/graphics/Paint$Cap;->ROUND:Landroid/graphics/Paint$Cap;
+
+    .line 33
+    .line 34
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeCap(Landroid/graphics/Paint$Cap;)V
+
+    .line 35
+    .line 36
+    .line 37
+    sget-object v0, Landroid/graphics/Paint$Join;->ROUND:Landroid/graphics/Paint$Join;
+
+    .line 38
+    .line 39
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeJoin(Landroid/graphics/Paint$Join;)V
+
+    .line 40
+    .line 41
+    .line 42
+    new-instance p1, Landroid/graphics/Paint;
+
+    .line 43
+    .line 44
+    invoke-direct {p1, p2}, Landroid/graphics/Paint;-><init>(I)V
+
+    .line 45
+    .line 46
+    .line 47
+    iput-object p1, p0, Lcom/google/android/apps/gmm/base/views/linechart/SparklineView;->b:Landroid/graphics/Paint;
+
+    .line 48
+    .line 49
+    sget-object v0, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
+
+    .line 50
+    .line 51
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+
+    .line 52
+    .line 53
+    .line 54
+    new-instance p1, Landroid/graphics/Paint;
+
+    .line 55
+    .line 56
+    invoke-direct {p1, p2}, Landroid/graphics/Paint;-><init>(I)V
+
+    .line 57
+    .line 58
+    .line 59
+    iput-object p1, p0, Lcom/google/android/apps/gmm/base/views/linechart/SparklineView;->c:Landroid/graphics/Paint;
+
+    .line 60
+    .line 61
+    const p0, -0xadae
+
+    .line 62
+    .line 63
+    .line 64
+    invoke-virtual {p1, p0}, Landroid/graphics/Paint;->setColor(I)V
+
+    .line 65
+    .line 66
+    .line 67
+    sget-object p0, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
+
+    .line 68
+    .line 69
+    invoke-virtual {p1, p0}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+
+    .line 70
+    .line 71
+    .line 72
+    new-instance p0, Landroid/graphics/Path;
+
+    .line 73
+    .line 74
+    invoke-direct {p0}, Landroid/graphics/Path;-><init>()V
+
+    .line 75
+    .line 76
+    .line 77
+    new-instance p0, Landroid/graphics/Path;
+
+    .line 78
+    .line 79
+    invoke-direct {p0}, Landroid/graphics/Path;-><init>()V
+
+    .line 80
+    .line 81
+    .line 82
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final onSizeChanged(IIII)V
+    .locals 8
+
+    .line 1
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p0}, Lcom/google/android/apps/gmm/base/views/linechart/SparklineView;->getHeight()I
+
+    .line 5
+    .line 6
+    .line 7
+    move-result p1
+
+    .line 8
+    iget-object p2, p0, Lcom/google/android/apps/gmm/base/views/linechart/SparklineView;->b:Landroid/graphics/Paint;
+
+    .line 9
+    .line 10
+    if-lez p1, :cond_0
+
+    .line 11
+    .line 12
+    new-instance v0, Landroid/graphics/LinearGradient;
+
+    .line 13
+    .line 14
+    iget v5, p0, Lcom/google/android/apps/gmm/base/views/linechart/SparklineView;->d:I
+
+    .line 15
+    .line 16
+    iget v6, p0, Lcom/google/android/apps/gmm/base/views/linechart/SparklineView;->e:I
+
+    .line 17
+    .line 18
+    int-to-float v4, p1
+
+    .line 19
+    sget-object v7, Landroid/graphics/Shader$TileMode;->CLAMP:Landroid/graphics/Shader$TileMode;
+
+    .line 20
+    .line 21
+    const/4 v1, 0x0
+
+    .line 22
+    const/4 v2, 0x0
+
+    .line 23
+    const/4 v3, 0x0
+
+    .line 24
+    invoke-direct/range {v0 .. v7}, Landroid/graphics/LinearGradient;-><init>(FFFFIILandroid/graphics/Shader$TileMode;)V
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-virtual {p2, v0}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
+
+    .line 28
+    .line 29
+    .line 30
+    goto :goto_0
+
+    .line 31
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 32
+    invoke-virtual {p2, p0}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
+
+    .line 33
+    .line 34
+    .line 35
+    :goto_0
+    return-void
+.end method

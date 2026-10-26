@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>pojemność i poziom naładowania baterii oraz szybkość ładowania w różnych warunkach;</item>
+        <item>stan klimatyzacji;</item>
+        <item>wydajność silników elektrycznych i efektywność hamowania;</item>
+        <item>specyfikacja, na przykład waga pojazdu.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>zasięg samochodu;</item>
+        <item>szacunkowy czas pracy na baterii na podstawie podanego miejsca docelowego;</item>
+        <item>zalecane minimalne czasy ładowania;</item>
+        <item>alerty, np. kiedy kolejny przystanek jest poza zasięgiem samochodu lub kiedy po przyjeździe Twoja bateria będzie bliska wyczerpania;</item>
+        <item>lepsze zarządzanie baterią i większa wydajność pojazdu.</item>
+        <item>spersonalizowane planowanie podróży dostępne po zalogowaniu się na telefonie i w systemie samochodu.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Mapy offline i ich aktualizacje będą pobierane automatycznie.</item>
+        <item>Mapy offline będą pobierane w tle przy użyciu mobilnej transmisji danych lub Wi-Fi</item>
+        <item>Twój pojazd może się łączyć z serwerami Google, aby dostarczać dane takie jak jego lokalizacja, historia lokalizacji i pobrane mapy offline</item>
+        <item>Nadal możesz wybierać mapy offline, które chcesz pobrać</item>
+        <item>Wyłączenie tej opcji nie spowoduje usunięcia map offline, które zostały już pobrane</item>
+        <item>Aby usunąć mapy offline, otwórz Ustawienia > Mapy offline</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Samodzielnie wybierasz mapy offline do pobrania i je aktualizujesz. Aby rozpocząć, otwórz Ustawienia > Mapy offline.</item>
+        <item>Do pobrania map offline potrzebne będą mobilna transmisja danych lub Wi-Fi</item>
+        <item>Jeśli nie pobierzesz lub nie zaktualizujesz map offline okolicy, po której jeździsz, może nie być możliwe uzyskanie danych potrzebnych do działania funkcji pojazdu</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Jak Mapy Google odpowiadają na zapytania takie jak „kawiarnie w pobliżu”, „ładowarki EV z preferowaną formą płatności” lub „znajdź parking”</item>
+        <item>Lokalizacja GPS, na przykład miejsca docelowego</item>
+        <item>Twoja bieżąca trasa</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>dane GPS o lokalizacji;</item>
+        <item>szczegóły nawigacji, w tym wybrana przez Ciebie trasa;</item>
+        <item>opisy drogi, np. informacje o znakach drogowych lub oznaczenia pasów ruchu;</item>
+        <item>stan czujników pojazdu, np. wskazujący włączenie wycieraczek szyby przedniej;</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>dane GPS o lokalizacji;</item>
+        <item>szczegóły nawigacji, w tym wybrana przez Ciebie trasa;</item>
+        <item>opisy drogi, np. informacje o znakach drogowych lub oznaczenia pasów ruchu;</item>
+        <item>stan czujników pojazdu, np. wskazujący włączenie wycieraczek szyby przedniej;</item>
+        <item>czy używasz czytnika kart elektronicznego poboru opłat drogowych.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Aktualizacje mapy na podstawie danych o podróży i danych z czujników nie są powiązane z Twoim kontem Google ani pojazdem</item>
+        <item>Dane o podróży i dane z czujników również nie są powiązane z Twoim kontem Google, ale z bezpiecznie wygenerowanym identyfikatorem, który jest regularnie resetowany. Oznacza to, że nie możemy wyszukiwać tych danych na podstawie Twojego konta Google</item>
+        <item>Z Twoim kontem Google mogą być powiązane inne dane zbierane podczas podróży, np. gdy korzystasz z Asystenta Google. Możesz zarządzać swoją historią na stronie myactivity.google.com</item>
+        <item>Aby zmienić uprawnienia dostępu do lokalizacji, otwórz Ustawienia > Aplikacje i powiadomienia > Uprawnienia aplikacji > Lokalizacja > Mapy</item>
+        <item>Google zbiera tylko dane o podróży i dane z czujników niezbędne do zapewniania jak najlepszego działania Map dla wszystkich użytkowników. Po przetworzeniu te dane są usuwane</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Aktualizacje mapy na podstawie danych o podróży i danych z czujników nie są powiązane z Twoim kontem Google ani pojazdem</item>
+        <item>Dane o podróży i dane z czujników również nie są powiązane z Twoim kontem Google, ale z bezpiecznie wygenerowanym identyfikatorem, który jest regularnie resetowany. Oznacza to, że nie możemy wyszukiwać tych danych na podstawie Twojego konta Google</item>
+        <item>Z Twoim kontem Google mogą być powiązane inne dane zbierane podczas podróży, np. gdy korzystasz z Asystenta Google. Możesz zarządzać swoją historią na stronie myactivity.google.com</item>
+        <item>Aby zmienić uprawnienia dostępu do lokalizacji, otwórz Ustawienia > Aplikacje i powiadomienia > Uprawnienia aplikacji > Lokalizacja > Mapy</item>
+        <item>Google zbiera tylko dane o podróży i dane z czujników niezbędne do zapewniania jak najlepszego działania Map dla wszystkich użytkowników. Po przetworzeniu te dane są usuwane</item>
+        <item>Obraz z kamery w Twoim pojeździe może być przetwarzany w celu uzyskania danych o drogach, ale pozostaje w systemie Twojego pojazdu i po przetworzeniu jest usuwany</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Podczas powiększania i pomniejszania</item>
+        <item>Zawsze</item>
+    </string-array>
+</resources>

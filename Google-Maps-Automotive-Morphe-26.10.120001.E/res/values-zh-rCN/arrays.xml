@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>不同条件下的电池电量、容量和充电速度</item>
+        <item>空调状态</item>
+        <item>电动机和制动效率</item>
+        <item>技术规格（例如车辆的重量）</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>汽车可行驶里程</item>
+        <item>根据目的地估算的电池使用时间</item>
+        <item>建议的最短充电时间</item>
+        <item>提醒信息，比如当您无法到达下一站时或者您会到达下一站但届时电池剩余电量将很低时</item>
+        <item>改善电量管理和提升车辆效率</item>
+        <item>在手机和汽车登录后，即可享受个性化行程规划服务</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Google 地图将自动为您下载离线地图，并确保版本始终处于最新状态</item>
+        <item>离线地图将在后台下载，并使用您的移动流量或 Wi-Fi</item>
+        <item>您的车辆会定期与 Google 服务器通信，提供相关信息，例如车辆所在位置、位置记录和您已下载的离线地图</item>
+        <item>您仍然可以自行选择要下载的离线地图</item>
+        <item>关闭此功能不会删除已下载的离线地图</item>
+        <item>如需删除离线地图，请依次前往“设置”>“离线地图”</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>选择要下载的离线地图，并且手动更新。要开始操作，请前往“设置”>“离线地图”。</item>
+        <item>离线地图需要使用移动流量或 Wi-Fi 才能下载</item>
+        <item>如果您没有下载或更新您行驶区域的离线地图，Google 地图可能无法向车辆功能提供地图数据</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Google 地图如何回应“我附近的咖啡店”“支持我首选支付方式的充电桩”或“找停车位”等请求</item>
+        <item>GPS 位置信息，例如您的目的地</item>
+        <item>您的当前路线</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>GPS 位置信息</item>
+        <item>导航详情，包括您选择的路线</item>
+        <item>道路说明，例如路标信息或车道标记</item>
+        <item>车辆传感器状态，例如雨刮器的开启情况</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>GPS 位置信息</item>
+        <item>导航详情，包括您选择的路线</item>
+        <item>道路说明，例如路标信息或车道标记</item>
+        <item>车辆传感器状态，例如雨刮器的开启情况</item>
+        <item>您是否在使用 ETC 读卡器</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>根据行程和传感器数据进行的地图更新并不会与您的 Google 账号或车辆相关联</item>
+        <item>行程和传感器数据也不会与您的 Google 账号相关联，而是与安全生成且会定期重置的标识符相关联。这意味着 Google 无法通过您的 Google 账号查询此类数据</item>
+        <item>在您探索世界的过程中（例如使用 Google 助理时）收集的其他数据可能会与您的 Google 账号相关联。您可以访问 myactivity.google.com 来管理您的历史记录</item>
+        <item>如需更改位置信息权限，请依次前往“设置”>“应用和通知”>“应用权限”>“位置信息”>“Google 地图”</item>
+        <item>Google 仅收集为每一位用户提供最佳 Google 地图使用体验所需的行程和传感器数据，并会在处理完毕后将其删除</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>根据行程和传感器数据进行的地图更新并不会与您的 Google 账号或车辆相关联</item>
+        <item>行程和传感器数据也不会与您的 Google 账号相关联，而是与安全生成且会定期重置的标识符相关联。这意味着 Google 无法通过您的 Google 账号查询此类数据</item>
+        <item>在您探索世界的过程中（例如使用 Google 助理时）收集的其他数据可能会与您的 Google 账号相关联。您可以访问 myactivity.google.com 来管理您的历史记录</item>
+        <item>如需更改位置信息权限，请依次前往“设置”>“应用和通知”>“应用权限”>“位置信息”>“Google 地图”</item>
+        <item>Google 仅收集为每一位用户提供最佳 Google 地图使用体验所需的行程和传感器数据，并会在处理完毕后将其删除</item>
+        <item>系统可能会处理车辆摄像头拍摄的图像，以获取道路描述数据，但这些图像会保留在车辆中，系统处理完毕后就会删除</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>在缩放地图时</item>
+        <item>始终</item>
+    </string-array>
+</resources>

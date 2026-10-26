@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Niveau, capacité et vitesse de chargement de la batterie dans différentes conditions</item>
+        <item>État de la climatisation</item>
+        <item>Moteurs électriques et performances des freins</item>
+        <item>Spécifications telles que le poids de votre véhicule</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Autonomie restante du véhicule</item>
+        <item>"Estimations sur l'utilisation de la batterie en fonction de votre destination"</item>
+        <item>Durée de charge minimale recommandée</item>
+        <item>Alertes (par exemple, lorsque vous ne pourrez pas atteindre votre prochain arrêt ou que votre niveau de batterie sera faible quand vous y arriverez)</item>
+        <item>"Amélioration de la gestion de la batterie et de l'efficacité du véhicule"</item>
+        <item>Planification de trajets personnalisée quand vous êtes connecté sur votre téléphone et dans votre voiture</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_FORD_ROUTE_DATA_SHARING_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>"Détails de l'itinéraire, y compris la longueur et la pente de la route"</item>
+        <item>Limitations de vitesse</item>
+        <item>Vitesses de circulation</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Maps télécharge automatiquement des plans hors connexion et les met à jour régulièrement.</item>
+        <item>Les plans hors connexion sont téléchargés en arrière-plan en utilisant vos données mobiles ou le Wi-Fi.</item>
+        <item>"Votre véhicule peut contacter périodiquement les serveurs Google pour fournir des informations comme sa position, l'historique des positions et les plans hors connexion que vous avez déjà téléchargés."</item>
+        <item>Vous pouvez toujours sélectionner les plans hors connexion à télécharger.</item>
+        <item>Si vous désactivez cette option, les plans hors connexion déjà téléchargés seront conservés.</item>
+        <item>Pour supprimer des plans hors connexion, accédez à Paramètres > Plans hors connexion.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Vous sélectionnez les plans hors connexion à télécharger et les mettez à jour manuellement. Pour commencer, accédez à Paramètres > Plans hors connexion.</item>
+        <item>Vous avez besoin des données mobiles ou du Wi-Fi pour télécharger des plans hors connexion.</item>
+        <item>Vous devez télécharger ou mettre à jour le plan hors connexion de la zone dans laquelle vous conduisez pour que Maps puisse transmettre les données cartographiques aux fonctionnalités de votre véhicule.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Comment Google Maps répondrait à des requêtes comme \"cafés à proximité\", \"bornes pour véhicules électriques acceptant mon mode de paiement préféré\" ou \"trouver un parking\"</item>
+        <item>Coordonnées GPS (votre destination, par exemple)</item>
+        <item>Votre itinéraire actuel</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>Coordonnées GPS</item>
+        <item>Informations de navigation (itinéraire emprunté, par exemple)</item>
+        <item>Descriptions de la route (panneaux routiers, marquages au sol, etc.)</item>
+        <item>"État des capteurs du véhicule (l'activation des essuie-glaces, par exemple)"</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>Coordonnées GPS</item>
+        <item>Informations de navigation (itinéraire emprunté, par exemple)</item>
+        <item>Descriptions de la route (panneaux routiers, marquages au sol, etc.)</item>
+        <item>"État des capteurs du véhicule (l'activation des essuie-glaces, par exemple)"</item>
+        <item>Si vous utilisez un badge de télépéage</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Les modifications de la carte basées sur les données des trajets et des capteurs ne sont pas associées à votre compte Google ni à votre véhicule.</item>
+        <item>Les données des trajets et des capteurs ne sont pas non plus associées à votre compte Google, mais à un identifiant généré de manière sécurisée et régulièrement réinitialisé. Cela signifie que Google ne peut pas rechercher ces données sur la base de votre compte Google.</item>
+        <item>"D'autres données collectées pendant que vous explorez le monde (lorsque vous utilisez l'Assistant Google, par exemple) peuvent être associées à votre compte Google. Vous pouvez contrôler votre historique en accédant à myactivity.google.com."</item>
+        <item>"Vous pouvez modifier l'autorisation d'accéder à votre position dans Paramètres > Applications et notifications > Autorisations de l'application > Localisation > Maps."</item>
+        <item>"Google ne collecte que les données des trajets et des capteurs nécessaires pour améliorer l'expérience Maps pour tous les utilisateurs. Une fois ces données traitées, elles sont supprimées."</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Les modifications de la carte basées sur les données des trajets et des capteurs ne sont pas associées à votre compte Google ni à votre véhicule.</item>
+        <item>Les données des trajets et des capteurs ne sont pas non plus associées à votre compte Google, mais à un identifiant généré de manière sécurisée et régulièrement réinitialisé. Cela signifie que Google ne peut pas rechercher ces données sur la base de votre compte Google.</item>
+        <item>"D'autres données collectées pendant que vous explorez le monde (lorsque vous utilisez l'Assistant Google, par exemple) peuvent être associées à votre compte Google. Vous pouvez contrôler votre historique en accédant à myactivity.google.com."</item>
+        <item>"Vous pouvez modifier l'autorisation d'accéder à votre position dans Paramètres > Applications et notifications > Autorisations de l'application > Localisation > Maps."</item>
+        <item>"Google ne collecte que les données des trajets et des capteurs nécessaires pour améliorer l'expérience Maps pour tous les utilisateurs. Une fois ces données traitées, elles sont supprimées."</item>
+        <item>"Les images de l'appareil photo de votre véhicule peuvent être traitées pour obtenir des données descriptives sur la route, mais elles restent dans votre véhicule et sont supprimées après traitement."</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>"Lors d'un zoom avant ou arrière"</item>
+        <item>Toujours</item>
+    </string-array>
+    <string-array name="TESLA_DATA_SHARING_CONSENT_COLLECTED_DATA_ADDITIONAL_EXAMPLES_LIST">
+        <item>Heure de branchement de votre véhicule au superchargeur ou de débranchement</item>
+        <item>Heure à laquelle votre véhicule quitte la borne</item>
+        <item>Temps de recharge recommandé</item>
+        <item>Marque et modèle du véhicule</item>
+    </string-array>
+    <string-array name="TESLA_DATA_SHARING_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>"Heure d'arrivée prévue au superchargeur"</item>
+        <item>Identifiant Tesla du superchargeur</item>
+        <item>"Heure d'arrivée du véhicule au superchargeur ou de fin de la navigation"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+.class public final Lcrm;
+.super Lcpn;
+.source ":com.google.android.apps.maps@1068833407@26.10.120001.E"
+
+
+# virtual methods
+.method public final c(Landroid/view/View;F)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p2}, Lcpn;->a(F)F
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    invoke-virtual {p1, p0}, Landroid/view/View;->setTranslationX(F)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

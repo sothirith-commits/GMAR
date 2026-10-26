@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>V</item>
+        <item>G</item>
+        <item>D</item>
+        <item>Đ</item>
+        <item>E</item>
+        <item>Ž</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Nivo baterije, kapacitet i brzinu punjenja u različitim uslovima</item>
+        <item>Status klimatizacije</item>
+        <item>Efikasnost elektromotora i kočnica</item>
+        <item>Specifikacije kao što je težina vozila</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Informacija o dometu automobila</item>
+        <item>Procena trajanja baterije na osnovu odredišta</item>
+        <item>Podataka o preporučenom minimalnom vremenu punjenja</item>
+        <item>Obaveštenja, na primer ako je sledeća stanica van dometa ili ako ćete stići na sledeću stanicu sa skoro praznom baterijom</item>
+        <item>Boljeg upravljanja baterijom i veće efikasnosti vozila</item>
+        <item>Personalizovanog planiranja putovanja kada ste prijavljeni na telefon i u automobil</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Mape će automatski preuzimati oflajn mape za vas i redovno ih ažurirati</item>
+        <item>Oflajn mape će se preuzimati u pozadini prenosom mobilnih podataka ili preko WiFi-ja</item>
+        <item>Vozilo može povremeno da stupa u kontakt sa Google serverima i pruža informacije kao što su lokacija vozila, istorija lokacija i oflajn mape koje ste već preuzeli</item>
+        <item>I dalje možete da izaberete svoje oflajn mape koje želite da preuzmete</item>
+        <item>Isključivanjem ove opcije ne brišete oflajn mape koje su već preuzete</item>
+        <item>Da biste izbrisali oflajn mape, idite u Podešavanja > Oflajn mape</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Birate oflajn mape koje želite da preuzmete i sami ručno ažurirate. Da biste započeli, idite u Podešavanja > Oflajn mape.</item>
+        <item>Oflajn mape zahtevaju prenos mobilnih podataka ili WiFi za preuzimanje</item>
+        <item>Ako ne preuzmete ni ažurirate oflajn mapu oblasti kojom vozite, Mape možda neće moći da pružaju podatke mape funkcijama vozila</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Odgovore Google mapa na zahteve poput „kafići u blizini“, „punjači električnih vozila za moj način plaćanja“ ili „pronađi parking“</item>
+        <item>GPS lokaciju, poput odredišta</item>
+        <item>Aktuelnu rutu</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>GPS lokacija</item>
+        <item>Detalji o kretanju, uključujući rutu kojom ste išli</item>
+        <item>Opisi puta, kao što su informacije o saobraćajnim znakovima ili oznakama traka</item>
+        <item>Status senzora vozila, recimo kada su uključeni brisači vetrobranskog stakla</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>GPS lokacija</item>
+        <item>Detalji o kretanju, uključujući rutu kojom ste išli</item>
+        <item>Opisi puta, kao što su informacije o saobraćajnim znakovima ili oznakama traka</item>
+        <item>Status senzora vozila, recimo kada su uključeni brisači vetrobranskog stakla</item>
+        <item>Da li koristite čitač kartica elektronske naplate</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Ažuriranja mape na osnovu podataka o putovanju i podataka senzora ne povezuju se sa Google nalogom ni sa vozilom</item>
+        <item>Takođe, podaci o putovanju i podaci senzora ne povezuju se sa Google nalogom, već sa bezbedno generisanim identifikatorom koji se redovno resetuje. To znači da Google ne može da potraži ove podatke na osnovu vašeg Google naloga</item>
+        <item>Drugi podaci koje prikupljamo dok istražujete svet, na primer, kada koristite Google pomoćnik, mogu da se povezuju sa Google nalogom. Istorijom možete da upravljate na myactivity.google.com</item>
+        <item>Dozvolu za lokaciju možete da promenite na Podešavanja > Aplikacije i obaveštenja > Dozvole za aplikacije > Lokacija > Mape</item>
+        <item>Google prikuplja samo podatke o putovanju i podatke senzora koji su neophodni za najbolji doživljaj Mapa za svakoga i posle obrade ih briše</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Ažuriranja mape na osnovu podataka o putovanju i podataka senzora ne povezuju se sa Google nalogom ni sa vozilom</item>
+        <item>Takođe, podaci o putovanju i podaci senzora ne povezuju se sa Google nalogom, već sa bezbedno generisanim identifikatorom koji se redovno resetuje. To znači da Google ne može da potraži ove podatke na osnovu vašeg Google naloga</item>
+        <item>Drugi podaci koje prikupljamo dok istražujete svet, na primer, kada koristite Google pomoćnik, mogu da se povezuju sa Google nalogom. Istorijom možete da upravljate na myactivity.google.com</item>
+        <item>Dozvolu za lokaciju možete da promenite na Podešavanja > Aplikacije i obaveštenja > Dozvole za aplikacije > Lokacija > Mape</item>
+        <item>Google prikuplja samo podatke o putovanju i podatke senzora koji su neophodni za najbolji doživljaj Mapa za svakoga i posle obrade ih briše</item>
+        <item>Slike sa kamere iz vozila mogu da se obrađuju zbog podataka o opisima puteva, ali ostaju u vozilu i brišu se posle obrade</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Kada se uvećava i umanjuje</item>
+        <item>Uvek</item>
+    </string-array>
+</resources>

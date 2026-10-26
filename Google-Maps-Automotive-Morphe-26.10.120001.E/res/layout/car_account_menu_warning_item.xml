@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/warning_container" android:paddingLeft="@dimen/car_account_menu_warning_item_padding" android:paddingTop="@dimen/car_account_menu_warning_item_padding" android:paddingRight="@dimen/car_account_menu_warning_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/warning_card" android:background="@drawable/warning_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/car_account_menu_warning_item_min_height">
+        <TextView android:textAppearance="@style/WarningItemTextAppearance" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

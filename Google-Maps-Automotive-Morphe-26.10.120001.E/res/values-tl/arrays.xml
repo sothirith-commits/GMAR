@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>"Level, kapasidad, at bilis ng pag-charge ng baterya sa iba't ibang kundisyon"</item>
+        <item>Status ng air conditioner</item>
+        <item>Mga electric motor at efficiency ng pagpreno</item>
+        <item>Mga detalye, gaya ng bigat ng iyong sasakyan</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Range ng sasakyan</item>
+        <item>Mga pagtatantya sa baterya batay sa iyong destinasyon</item>
+        <item>Mga inirerekomendang min na tagal ng pag-charge</item>
+        <item>Mga alerto, halimbawa, kapag hindi mararating ang susunod mong stop o kapag darating ka sa iyong susunod na stop nang paubos na ang baterya</item>
+        <item>Pinahusay na pamamahala ng baterya at efficiency ng sasakyan</item>
+        <item>Naka-personalize na pagpaplano ng biyahe, kapag naka-sign in ka sa iyong telepono at sasakyan</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Kapag nag-zoom in at out</item>
+        <item>Palagi</item>
+    </string-array>
+</resources>

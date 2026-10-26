@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>વિવિધ પરિસ્થિતિઓમાં બૅટરીનું લેવલ, ક્ષમતા અને ચાર્જિંગની ઝડપ</item>
+        <item>એર કંડિશનિંગનું સ્ટેટસ</item>
+        <item>ઇલેક્ટ્રિક મોટર અને બ્રેકની કાર્યક્ષમતા</item>
+        <item>વિશિષ્ટતાઓ, જેમ કે તમારા વાહનનું વજન</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>કારની રેંજ</item>
+        <item>તમારા નિર્ધારિત સ્થાનના આધારે બૅટરીના અંદાજો</item>
+        <item>ચાર્જિંગ માટે સુઝાવ આપેલા ન્યૂનતમ સમય</item>
+        <item>અલર્ટ, જેમ કે બૅટરી ઓછી હોવાને કારણે તમારા માટે આગલા સ્ટૉપ સુધી પહોંચવું શક્ય ન હોય અથવા ઓછી બૅટરીને કારણે તમે આગલા સ્ટૉપ પર ક્યારે પહોંચશો</item>
+        <item>બહેતર બનાવેલું બૅટરી મેનેજમેન્ટ અને વાહનની કાર્યક્ષમતા</item>
+        <item>જ્યારે તમે તમારા ફોન અને કારમાં સાઇન ઇન કરેલું હોય, ત્યારે મનગમતી બનાવેલી ટ્રિપનું પ્લાનિંગ</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>જ્યારે ઝૂમ વધારીએ અને ઘટાડીએ</item>
+        <item>હંમેશાં</item>
+    </string-array>
+</resources>

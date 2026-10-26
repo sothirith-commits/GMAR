@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>akkumulátor töltöttségi szintje, kapacitása és töltési sebessége különböző feltételek mellett;</item>
+        <item>légkondicionáló állapota;</item>
+        <item>villanymotorok és fékezési hatékonyság;</item>
+        <item>műszaki adatok, például a jármű tömege.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>az autóval megtehető távolság;</item>
+        <item>az akkumulátor töltöttségével kapcsolatos becslések az úti cél alapján;</item>
+        <item>ajánlott minimális töltési idő;</item>
+        <item>figyelmeztetések például arról, hogy a következő megálló a hatótávolságon kívül esik, vagy hogy a következő megállóhoz alacsony töltöttséggel érkezik meg;</item>
+        <item>az akkumulátor hatékonyabb kezelése és a jármű gazdaságosabb használata;</item>
+        <item>személyre szabott utazástervezés, amikor be van jelentkezve a telefonjára és az autójába.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_FORD_ROUTE_DATA_SHARING_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Az útvonal részletei, beleértve az út hosszát és meredekségét</item>
+        <item>Sebességkorlátozások</item>
+        <item>Forgalmi sebességek</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>A Google Térkép automatikusan letölti és naprakészen tartja az offline térképeket.</item>
+        <item>Az offline térképek a háttérben töltődnek le, mobiladat- vagy Wi-Fi-kapcsolat használatával.</item>
+        <item>A jármű időnként kapcsolatba léphet a Google szervereivel, hogy különféle adatokat adjon meg, például a jármű helyét, a Helyelőzményeket és a már letöltött offline térképeket.</item>
+        <item>Továbbra is kiválaszthat saját offline térképeket letöltésre.</item>
+        <item>A funkció kikapcsolása után nem törlődnek a már letöltött offline térképek.</item>
+        <item>Az offline térképek törléséhez lépjen a Beállítások > Offline térképek menüponthoz.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>A letölteni kívánt offline térképeket Ön választja ki, és saját maga frissíti őket kézzel. A kezdéshez lépjen a Beállítások > Offline térképek lehetőséghez.</item>
+        <item>Az offline térképek letöltéséhez mobiladat- vagy Wi-Fi-kapcsolat szükséges.</item>
+        <item>Ha nem tölti le vagy frissíti a terület offline térképét, előfordulhat, hogy a Google Térkép nem tud térképadatokat szolgáltatni a járműfunkciókhoz.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Hogyan válaszolna a Google Térkép az olyan kérésekre, mint a „kávézók a közelemben”, „EJ-töltők a preferált fizetési módomhoz” vagy „parkoló keresése”?</item>
+        <item>GPS segítségével meghatározott hely, például az úti cél.</item>
+        <item>Az Ön jelenlegi útvonala.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>GPS-hely</item>
+        <item>Navigációs adatok, beleértve az Ön által megtett útvonalat</item>
+        <item>Az út leírása, például a közlekedési táblák és a sávfelfestések</item>
+        <item>A jármű érzékelőjének állapota (például bekapcsolt ablaktörlő)</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>GPS-hely</item>
+        <item>Navigációs adatok, beleértve az Ön által megtett útvonalat</item>
+        <item>Az út leírása, például a közlekedési táblák és a sávfelfestések</item>
+        <item>A jármű érzékelőjének állapota (például bekapcsolt ablaktörlő)</item>
+        <item>Ha ETC-kártyaolvasót használ</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Az utazási és szenzoradatokon alapuló térképfrissítéseket a rendszer nem kapcsolja össze az Ön Google-fiókjával, illetve járművével.</item>
+        <item>Ezenkívül az utazási és szenzoradatokat a rendszer nem a Google-fiókkal, hanem egy rendszeresen visszaállított, biztonságosan előállított azonosítóval kapcsolja össze. Ez azt jelenti, hogy a Google nem tudja az adatokat a Google-fiók alapján visszakeresni.</item>
+        <item>A világ felfedezése során gyűjtött egyéb adatait – például a Google Segéd használata közben keletkezőket – a rendszer összekapcsolhatja a Google-fiókkal. Az előzményeket a myactivity.google.com oldalon szabályozhatja.</item>
+        <item>A helymeghatározási jogosultság módosításához lépjen a Beállítások > Alkalmazások és értesítések > Alkalmazásengedélyek > Hely > Térkép menüponthoz.</item>
+        <item>A Google kizárólag azért gyűjti az utazási és szenzoradatokat, hogy mindenki számára a lehető legjobb élményt kínálja a Google Térképen – a feldolgozás után pedig törli őket.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Az utazási és szenzoradatokon alapuló térképfrissítéseket a rendszer nem kapcsolja össze az Ön Google-fiókjával, illetve járművével.</item>
+        <item>Ezenkívül az utazási és szenzoradatokat a rendszer nem a Google-fiókkal, hanem egy rendszeresen visszaállított, biztonságosan előállított azonosítóval kapcsolja össze. Ez azt jelenti, hogy a Google nem tudja az adatokat a Google-fiók alapján visszakeresni.</item>
+        <item>A világ felfedezése során gyűjtött egyéb adatait – például a Google Segéd használata közben keletkezőket – a rendszer összekapcsolhatja a Google-fiókkal. Az előzményeket a myactivity.google.com oldalon szabályozhatja.</item>
+        <item>A helymeghatározási jogosultság módosításához lépjen a Beállítások > Alkalmazások és értesítések > Alkalmazásengedélyek > Hely > Térkép menüponthoz.</item>
+        <item>A Google kizárólag azért gyűjti az utazási és szenzoradatokat, hogy mindenki számára a lehető legjobb élményt kínálja a Google Térképen – a feldolgozás után pedig törli őket.</item>
+        <item>A jármű kamerái által rögzített képi adatokat felhasználhatják az úttal kapcsolatos leíró adatok feldolgozására, de ezek az adatok az autóban maradnak, nem kerülnek továbbításra, és a feldolgozás után törlésre kerülnek.</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Közelítéskor és távolításkor</item>
+        <item>Mindig</item>
+    </string-array>
+    <string-array name="TESLA_DATA_SHARING_CONSENT_COLLECTED_DATA_ADDITIONAL_EXAMPLES_LIST">
+        <item>Amikor az autó csatlakozik a Superchargerhez, vagy leválasztják róla</item>
+        <item>Amikor az autó elhagyja az állomást</item>
+        <item>Ajánlott töltési idő</item>
+        <item>Autó gyártmánya és modellje</item>
+    </string-array>
+    <string-array name="TESLA_DATA_SHARING_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Várható érkezési időpont a Supercharger töltőállomáshoz</item>
+        <item>A Supercharger Tesla-azonosítója</item>
+        <item>Amikor az autó megérkezik a Supercharger töltőállomáshoz, vagy véget ér a navigáció</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Akun varaustaso, kapasiteetti ja latausnopeus eri olosuhteissa</item>
+        <item>Ilmastoinnin tila</item>
+        <item>Sähkömoottorit ja jarrutusteho</item>
+        <item>Teknisiä tietoja, kuten ajoneuvon paino</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Auton toimintamatka</item>
+        <item>Määränpäähän perustuvia arvioita akun kestosta</item>
+        <item>Suositellut vähimmäislatausajat</item>
+        <item>Ilmoituksia esimerkiksi siitä, jos akku ei riitä seuraavaan pysähdyspaikkaan asti tai akun varaus on vähissä pysähdyspaikalle saavuttaessa</item>
+        <item>Ohjeita akunhallintaan ja ajoneuvon tehokkaaseen käyttöön</item>
+        <item>Personoitu matkan suunnittelu, kun olet kirjautunut sisään puhelimella ja autossa</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Maps lataa offline‑kartat automaattisesti puolestasi ja pitää ne ajan tasalla.</item>
+        <item>Offline-kartat ladataan taustalla mobiilidatan tai Wi-Fi-yhteyden kautta.</item>
+        <item>Ajoneuvosi saattaa ajoittain muodostaa yhteyden Googlen palvelimiin ja toimittaa tietoja esimerkiksi ajoneuvosi sijainnista, sijaintihistoriasta ja lataamistasi offline‑kartoista.</item>
+        <item>Voit edelleen valita, mitä offline‑karttoja haluat ladata.</item>
+        <item>Tämän laittaminen pois päältä ei poista jo ladattuja offline‑karttoja.</item>
+        <item>Voit poistaa offline-karttoja kohdassa Asetukset > Offline-kartat.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Voit itse valita ladattavat offline-kartat ja päivittää ne manuaalisesti. Aloita valitsemalla Asetukset > Offline-kartat.</item>
+        <item>Offline-karttojen lataamiseen tarvitaan mobiilidata- tai Wi-Fi-yhteys.</item>
+        <item>Jos et lataa tai päivitä alueen offline-karttaa, Maps ei ehkä voi tarjota karttadataa ajoneuvosi ominaisuuksille ajaessasi.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Miten Google Maps vastaisi kysymyksiin, kuten \"kahvilat lähellä minua\", \"sähköajoneuvojen latausasemat, joissa hyväksytään haluamani maksutapa\" tai \"etsi pysäköintipaikka\"</item>
+        <item>GPS-sijainti, esimerkiksi määränpää</item>
+        <item>Nykyinen reitti</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>GPS-sijainti</item>
+        <item>navigointitiedot (myös valitsemaasi reittiä koskevat tiedot)</item>
+        <item>tien kuvaukset, esimerkiksi tiedot liikennemerkeistä tai ajoratamerkinnöistä</item>
+        <item>ajoneuvon anturin tila (esimerkiksi tieto siitä, milloin tuulilasinpyyhkimet ovat päällä)</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>GPS-sijainti</item>
+        <item>navigointitiedot (myös valitsemaasi reittiä koskevat tiedot)</item>
+        <item>tien kuvaukset, esimerkiksi tiedot liikennemerkeistä tai ajoratamerkinnöistä</item>
+        <item>ajoneuvon anturin tila (esimerkiksi tieto siitä, milloin tuulilasinpyyhkimet ovat päällä)</item>
+        <item>onko ETC-kortinlukija käytössä.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Reitti- ja anturidataan perustuvia karttapäivityksiä ei yhdistetä Google-tiliisi tai ajoneuvoosi.</item>
+        <item>Reitti- ja anturidataa ei myöskään yhdistetä Google-tiliisi vaan suojatusti luotuun tunnisteeseen, joka nollautuu säännöllisesti. Google ei siis voi hakea tätä dataa Google-tilisi perusteella.</item>
+        <item>Muu data, jota kerätään tutkiessasi maailmaa (esim. kun käytät Google Assistantia), saatetaan yhdistää Google-tiliisi. Voit hallita historiaasi osoitteessa myactivity.google.com.</item>
+        <item>Jos haluat muuttaa sijaintilupaa, valitse Asetukset > Sovellukset ja ilmoitukset > Sovellusluvat > Sijainti > Maps.</item>
+        <item>Google kerää vain sellaista reitti- ja anturidataa, jota se tarvitsee voidakseen tarjota kaikille mahdollisimman hyvän käyttökokemuksen Mapsissa. Data poistetaan käsittelyn jälkeen.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Reitti- ja anturidataan perustuvia karttapäivityksiä ei yhdistetä Google-tiliisi tai ajoneuvoosi.</item>
+        <item>Reitti- ja anturidataa ei myöskään yhdistetä Google-tiliisi vaan suojatusti luotuun tunnisteeseen, joka nollautuu säännöllisesti. Google ei siis voi hakea tätä dataa Google-tilisi perusteella.</item>
+        <item>Muu data, jota kerätään tutkiessasi maailmaa (esim. kun käytät Google Assistantia), saatetaan yhdistää Google-tiliisi. Voit hallita historiaasi osoitteessa myactivity.google.com.</item>
+        <item>Jos haluat muuttaa sijaintilupaa, valitse Asetukset > Sovellukset ja ilmoitukset > Sovellusluvat > Sijainti > Maps.</item>
+        <item>Google kerää vain sellaista reitti- ja anturidataa, jota se tarvitsee voidakseen tarjota kaikille mahdollisimman hyvän käyttökokemuksen Mapsissa. Data poistetaan käsittelyn jälkeen.</item>
+        <item>Ajoneuvosi kameralla otettuja kuvia saatetaan käsitellä tien kuvausdataa varten, mutta kuvat pysyvät ajoneuvossa ja ne poistetaan käsittelyn jälkeen.</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Zoomattaessa</item>
+        <item>Aina</item>
+    </string-array>
+</resources>

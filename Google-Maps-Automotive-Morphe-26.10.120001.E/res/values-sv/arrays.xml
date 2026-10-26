@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>batterinivå, batterikapacitet och laddningshastighet under olika förhållanden</item>
+        <item>luftkonditioneringens status</item>
+        <item>elmotorer och bromseffektivitet</item>
+        <item>bilens vikt och andra specifikationer.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>bilens räckvidd</item>
+        <item>uppskattad batteritid baserat på din destination</item>
+        <item>rekommenderad minsta laddningstid</item>
+        <item>varningar, till exempel att nästa stopp är utom räckhåll eller att batterikapaciteten är låg när du kommer fram till nästa stopp</item>
+        <item>förbättrad batterihantering och bileffektivitet.</item>
+        <item>Anpassad reseplanering när du är inloggad på telefonen och i bilen</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Maps laddar automatiskt ned offlinekartor åt dig och håller dem uppdaterade.</item>
+        <item>Offlinekartor laddas ned i bakgrunden med hjälp av mobildata eller wifi.</item>
+        <item>Ditt fordon kan ibland kontakta Googles servrar för att skicka information om exempelvis fordonets position, platshistorik och offlinekartor som du redan har laddat ned.</item>
+        <item>Du kan fortfarande välja vilka andra offlinekartor du vill ladda ned.</item>
+        <item>Redan nedladdade offlinekartor raderas inte även om du inaktiverar alternativet.</item>
+        <item>Du kan radera offlinekartor genom att välja Inställningar > Offlinekartor.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Du väljer vilka offlinekartor du vill ladda ned och uppdaterar dem själv manuellt. Börja genom att välja Inställningar > Offlinekartor.</item>
+        <item>Offlinekartor kräver mobildata eller wifi för att laddas ned.</item>
+        <item>Om du inte laddar ned eller uppdaterar offlinekartan över det område du kör i kan Maps kanske inte tillhandahålla kartdata för dina fordonsfunktioner.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Hur Google Maps skulle svara på frågeställningar som ”kaféer nära mig”, ”elfordonsladdare med min önskade betalningsmetod” eller ”hitta parkeringsplats”.</item>
+        <item>GPS-position, till exempel din destination.</item>
+        <item>Din nuvarande rutt.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>GPS-plats</item>
+        <item>navigeringsinformation, inklusive vilken rutt du tog</item>
+        <item>beskrivning av vägen, som vägskyltar eller körfältsmarkeringar</item>
+        <item>statusen för bilens sensorer, som när du använder vindrutetorkarna</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>GPS-plats</item>
+        <item>navigeringsinformation, inklusive vilken rutt du tog</item>
+        <item>beskrivning av vägen, som vägskyltar eller körfältsmarkeringar</item>
+        <item>statusen för bilens sensorer, som när du använder vindrutetorkarna</item>
+        <item>om du använder en e-tullkortläsare.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Uppdateringar av kartan som baseras på rese- och sensordata är inte kopplade till ditt Google-konto eller ditt fordon.</item>
+        <item>Rese- och sensordata är heller inte kopplad till ditt Google-konto utan till en säkert genererad identifierare som återställs regelbundet. Det innebär att Google inte kan leta reda på denna data utifrån ditt Google-konto.</item>
+        <item>Annan data som samlas in när du utforskar världen, till exempel när du använder Google Assistent, kan kopplas till ditt Google-konto. Du kan styra historiken på myactivity.google.com.</item>
+        <item>Du kan ändra platsbehörigheten i Inställningar > Appar och aviseringar > Appbehörigheter > Plats > Maps.</item>
+        <item>Google samlar endast in den rese- och sensordata som behövs för att ge alla användare den bästa Maps-upplevelsen. Därefter raderar vi datan.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Uppdateringar av kartan som baseras på rese- och sensordata är inte kopplade till ditt Google-konto eller ditt fordon.</item>
+        <item>Rese- och sensordata är heller inte kopplad till ditt Google-konto utan till en säkert genererad identifierare som återställs regelbundet. Det innebär att Google inte kan leta reda på denna data utifrån ditt Google-konto.</item>
+        <item>Annan data som samlas in när du utforskar världen, till exempel när du använder Google Assistent, kan kopplas till ditt Google-konto. Du kan styra historiken på myactivity.google.com.</item>
+        <item>Du kan ändra platsbehörigheten i Inställningar > Appar och aviseringar > Appbehörigheter > Plats > Maps.</item>
+        <item>Google samlar endast in den rese- och sensordata som behövs för att ge alla användare den bästa Maps-upplevelsen. Därefter raderar vi datan.</item>
+        <item>Kamerabilder från fordonet kan behandlas för vägbeskrivningsdata, men de finns kvar i fordonet och raderas efter behandlingen.</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Vid zoomning in och ut</item>
+        <item>Alltid</item>
+    </string-array>
+</resources>

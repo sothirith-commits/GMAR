@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="72.0dp" android:width="72.0dp" android:viewportWidth="72.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h72v72h-72z" />
+        <path android:fillColor="#e6ebf0" android:pathData="M36,72C55.882,72 72,55.882 72,36C72,16.118 55.882,0 36,0C16.118,0 0,16.118 0,36C0,55.882 16.118,72 36,72Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+        <path android:fillColor="@drawable/$car_only_ic_share_ev_data_circle_night__0" android:pathData="M53.756,67.312H18.243C11.871,63.69 6.713,58.183 3.529,51.547H68.47C65.286,58.184 60.128,63.69 53.756,67.312Z" />
+        <path android:fillColor="@drawable/$car_only_ic_share_ev_data_circle_night__1" android:pathData="M42.582,54.296H22.825L34.414,67.793V72.481C41.932,72.481 49.537,70.496 55.31,66.555L42.582,54.296Z" />
+        <path android:fillColor="#4285f4" android:pathData="M46.451,20.007L53.716,27.311C54.597,28.193 55.146,29.426 55.146,30.778V49.382C55.146,52.084 52.952,54.278 50.25,54.278C47.548,54.278 45.354,52.084 45.354,49.382V39.917H42.417V54.278H22.833V22.944C22.833,20.79 24.596,19.028 26.75,19.028H38.5C40.654,19.028 42.417,20.79 42.417,22.944V36.653H44.375C46.529,36.653 48.292,38.742 48.292,40.896V49.382C48.292,50.459 49.173,51.34 50.25,51.34C51.327,51.34 52.208,50.459 52.208,49.382V35.262C51.601,35.517 50.955,35.673 50.25,35.673C47.548,35.673 45.354,33.48 45.354,30.778C45.354,28.682 46.666,26.92 48.507,26.215L44.375,22.083L46.451,20.007ZM50.25,32.736C49.173,32.736 48.292,31.855 48.292,30.778C48.292,29.701 49.173,28.819 50.25,28.819C51.327,28.819 52.208,29.701 52.208,30.778C52.208,31.855 51.327,32.736 50.25,32.736ZM25.444,39.917L34.583,22.292V34.694H39.806L30.667,51.014V39.917H25.444Z" android:fillType="evenOdd" />
+    </group>
+</vector>

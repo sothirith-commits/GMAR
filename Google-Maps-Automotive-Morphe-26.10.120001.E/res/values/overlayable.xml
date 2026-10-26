@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <overlayable name="AssistedDrivingBrandingResources">
+        <policy type="system|vendor|product">
+            <item type="drawable" name="assisted_driving_feature_icon_36x36dp" />
+            <item type="drawable" name="assisted_driving_feature_icon_65x65dp" />
+            <item type="drawable" name="assisted_driving_feature_icon_source_36x36dp" />
+            <item type="drawable" name="assisted_driving_feature_icon_source_65x65dp" />
+            <item type="string" name="assisted_driving_feature_name" />
+        </policy>
+    </overlayable>
+    <overlayable name="car-ui-lib">
+        <policy type="system|vendor|product">
+            <item type="bool" name="car_ui_preference_show_chevron" />
+        </policy>
+    </overlayable>
+    <overlayable name="rotary-ui">
+        <policy type="system|vendor|product|signature|odm|oem">
+            <item type="bool" name="car_ui_clear_focus_area_history_when_rotating" />
+            <item type="bool" name="car_ui_enable_focus_area_background_highlight" />
+            <item type="bool" name="car_ui_enable_focus_area_foreground_highlight" />
+            <item type="bool" name="car_ui_focus_area_default_focus_overrides_history" />
+            <item type="color" name="car_ui_rotary_focus_fill_color" />
+            <item type="color" name="car_ui_rotary_focus_pressed_fill_color" />
+            <item type="color" name="car_ui_rotary_focus_pressed_stroke_color" />
+            <item type="color" name="car_ui_rotary_focus_stroke_color" />
+            <item type="dimen" name="car_ui_rotary_focus_pressed_stroke_width" />
+            <item type="dimen" name="car_ui_rotary_focus_stroke_width" />
+            <item type="drawable" name="car_ui_focus_area_background_highlight" />
+            <item type="drawable" name="car_ui_focus_area_foreground_highlight" />
+            <item type="integer" name="car_ui_focus_area_history_cache_type" />
+            <item type="integer" name="car_ui_focus_area_history_expiration_period_ms" />
+            <item type="integer" name="car_ui_focus_history_cache_type" />
+            <item type="integer" name="car_ui_focus_history_expiration_period_ms" />
+        </policy>
+    </overlayable>
+</resources>

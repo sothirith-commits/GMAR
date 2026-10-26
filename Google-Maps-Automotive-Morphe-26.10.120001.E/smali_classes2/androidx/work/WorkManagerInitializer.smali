@@ -1,0 +1,92 @@
+.class public final Landroidx/work/WorkManagerInitializer;
+.super Ljava/lang/Object;
+.source ":com.google.android.apps.maps@1068833407@26.10.120001.E"
+
+# interfaces
+.implements Ldxg;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ldxg<",
+        "Ledm;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic a(Landroid/content/Context;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-static {}, Ledb;->a()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance p0, Lech;
+
+    .line 5
+    .line 6
+    invoke-direct {p0}, Lech;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    new-instance v0, Lecj;
+
+    .line 10
+    .line 11
+    invoke-direct {v0, p0}, Lecj;-><init>(Lech;)V
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-static {p1, v0}, Lefh;->g(Landroid/content/Context;Lecj;)V
+
+    .line 18
+    .line 19
+    .line 20
+    invoke-static {p1}, Lefj;->b(Landroid/content/Context;)Ledm;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object p0
+
+    .line 24
+    return-object p0
+.end method
+
+.method public final b()Ljava/util/List;
+    .locals 0
+
+    .line 1
+    sget-object p0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

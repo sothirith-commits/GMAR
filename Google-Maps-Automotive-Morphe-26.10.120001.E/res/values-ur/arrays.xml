@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>بیٹری کا لیول، صلاحیت اور مختلف حالتوں میں چارجنگ کی رفتار</item>
+        <item>ایئر کنڈیشنگ کی صورتحال</item>
+        <item>الیکٹرک موٹرز اور بریکنگ کی کارکردگی</item>
+        <item>تفصیلات، جیسے آپ کی گاڑی کا وزن</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>کار کی رینج</item>
+        <item>آپ کی منزل کی بنیاد پر بیٹری کے استعمال کے تخمینے</item>
+        <item>چارجنگ کے کم از کم تجویز کردہ اوقات</item>
+        <item>الرٹس، جیسے جب آپ کا اگلا اسٹاپ پہنچ سے دور ہو یا کم بیٹری کے ساتھ آپ اپنے اگلے اسٹاپ پر کب پہنچیں گے</item>
+        <item>بہتر بیٹری مینیجمنٹ اور گاڑی کی کارکردگی</item>
+        <item>ذاتی نوعیت کی دورے کی منصوبہ بندی، جب آپ اپنے فون اور کار میں سائن ان ہوں</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>‏‫Maps آپ کے لیے آف لائن نقشے خودکار طور پر ڈاؤن لوڈ کرے گا اور انہیں اپ ٹو ڈیٹ رکھے گا</item>
+        <item>‏آف لائن نقشے آپ کے موبائل ڈیٹا یا Wi-Fi کا استعمال کرتے ہوئے پس منظر میں ڈاؤن لوڈ ہوں گے</item>
+        <item>‏آپ کی گاڑی وقتاً فوقتاً Google سرورز سے رابطہ کر سکتی ہے تاکہ آپ کی گاڑی کے مقام، مقام کی سرگزشت اور آپ کے پہلے سے ڈاؤن لوڈ کردہ آف لائن نقشوں جیسی معلومات فراہم کی جا سکیں</item>
+        <item>آپ ڈاؤن لوڈ کرنے کے لیے اب بھی اپنے ذاتی آف لائن نقشے منتخب کر سکتے ہیں</item>
+        <item>اسے آف کرنے سے پہلے سے ڈاؤن لوڈ کیے گئے آف لائن نقشے حذف نہیں ہوں گے</item>
+        <item>آف لائن نقشے حذف کرنے کیلئے، ترتیبات > آف لائن نقشے پر جائیں</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>آپ ان آف لائن نقشوں کو منتخب کریں جنہیں آپ ڈاؤن لوڈ کرنا چاہتے ہیں اور انہیں خود دستی طور پر اپ ڈیٹ کریں۔ شروع کرنے کے لیے، ترتیبات > آف لائن نقشے پر جائیں۔</item>
+        <item>‏آف لائن نقشوں کو ڈاؤن لوڈ کرنے کے لیے موبائل ڈیٹا یا Wi-Fi کی ضرورت ہوگی</item>
+        <item>‏اگر آپ اس علاقے کا آف لائن نقشہ ڈاؤن لوڈ یا اپ ڈیٹ نہیں کرتے جہاں آپ ڈرائیونگ کر رہے ہیں تو ہو سکتا ہے کہ Maps آپ کی گاڑی کی خصوصیات کو نقشے کا ڈیٹا فراہم نہ کر سکے</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>‏‫Google Maps اس قسم کے درخواستوں کا جواب کیسے دے گا جیسے \"میرے قریب کافی شاپس\"، \"میرے پسندیدہ ادائیگی کے طریقے کے لیے EV چارجرز\" یا \"پارکنگ تلاش کریں\"</item>
+        <item>‏‫GPS مقام، جیسے آپ کی منزل</item>
+        <item>آپ کا موجودہ راستہ</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>‏‫GPS مقام</item>
+        <item>نیویگیشن کی تفصیلات، بشمول آپ کا اختیار کردہ راستہ</item>
+        <item>سڑک کی تفصیلات، جیسے سڑک کی علامت کی معلومات یا لین مارکنگز</item>
+        <item>گاڑی کے سینسر کی صورتحال، جیسے کہ آپ کی ونڈ شیلڈ کے وائپرز کب آن ہوتے ہیں</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>‏‫GPS مقام</item>
+        <item>نیویگیشن کی تفصیلات، بشمول آپ کا اختیار کردہ راستہ</item>
+        <item>سڑک کی تفصیلات، جیسے سڑک کی علامت کی معلومات یا لین مارکنگز</item>
+        <item>گاڑی کے سینسر کی صورتحال، جیسے کہ آپ کی ونڈ شیلڈ کے وائپرز کب آن ہوتے ہیں</item>
+        <item>‏اگر آپ ETC کارڈ ریڈر استعمال کر رہے ہیں</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>‏دورے اور سینسر ڈیٹا کی بنیاد پر نقشے میں کی جانے والی اپ ڈیٹس آپ کے Google اکاؤنٹ یا گاڑی سے وابستہ نہیں ہوتی ہیں</item>
+        <item>‏دورے اور سینسر کا ڈیٹا بھی آپ کے Google اکاؤنٹ سے وابستہ نہیں ہوتا، بلکہ یہ محفوظ طریقے سے تخلیق کردہ ایک ایسے شناخت کار سے وابستہ ہوتا ہے جو ریگولر بنیاد پر ری سیٹ ہوتا ہے۔ اس کا مطلب ہے کہ Google آپ کے Google اکاؤنٹ کی بنیاد پر اس ڈیٹا کو تلاش نہیں کر سکتا</item>
+        <item>‏دنیا کو دریافت کرنے کے دوران جمع کردہ دیگر ڈیٹا، جیسے کہ جب آپ Google اسسٹنٹ استعمال کرتے ہیں، آپ کے Google اکاؤنٹ سے وابستہ ہو سکتا ہے۔ آپ myactivity.google.com ملاحظہ کر کے اپنی سرگزشت کو کنٹرول کر سکتے ہیں</item>
+        <item>‏مقام کی اجازت تبدیل کرنے کے لیے، ترتیبات > ایپس اور اطلاعات > ایپ کی اجازتیں > مقام > Maps پر جائیں</item>
+        <item>‏‫Google سبھی کیلئے بہترین Maps تجربہ فراہم کرنے کے لیے صرف دورے اور ضروری سینسر ڈیٹا جمع کرتا ہے—پروسیسنگ کے بعد، اسے حذف کر دیا جاتا ہے</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>‏دورے اور سینسر ڈیٹا کی بنیاد پر نقشے میں کی جانے والی اپ ڈیٹس آپ کے Google اکاؤنٹ یا گاڑی سے وابستہ نہیں ہوتی ہیں</item>
+        <item>‏دورے اور سینسر کا ڈیٹا بھی آپ کے Google اکاؤنٹ سے وابستہ نہیں ہوتا، بلکہ یہ محفوظ طریقے سے تخلیق کردہ ایک ایسے شناخت کار سے وابستہ ہوتا ہے جو ریگولر بنیاد پر ری سیٹ ہوتا ہے۔ اس کا مطلب ہے کہ Google آپ کے Google اکاؤنٹ کی بنیاد پر اس ڈیٹا کو تلاش نہیں کر سکتا</item>
+        <item>‏دنیا کو دریافت کرنے کے دوران جمع کردہ دیگر ڈیٹا، جیسے کہ جب آپ Google اسسٹنٹ استعمال کرتے ہیں، آپ کے Google اکاؤنٹ سے وابستہ ہو سکتا ہے۔ آپ myactivity.google.com ملاحظہ کر کے اپنی سرگزشت کو کنٹرول کر سکتے ہیں</item>
+        <item>‏مقام کی اجازت تبدیل کرنے کے لیے، ترتیبات > ایپس اور اطلاعات > ایپ کی اجازتیں > مقام > Maps پر جائیں</item>
+        <item>‏‫Google سبھی کیلئے بہترین Maps تجربہ فراہم کرنے کے لیے صرف دورے اور ضروری سینسر ڈیٹا جمع کرتا ہے—پروسیسنگ کے بعد، اسے حذف کر دیا جاتا ہے</item>
+        <item>سڑک کی تفصیلات کے ڈیٹا کے لیے آپ کی گاڑی کے کیمرے کی تصاویر پر کارروائی کی جا سکتی ہے، لیکن یہ آپ کی گاڑی میں ہی رہتی ہیں اور پروسیسنگ کے بعد حذف کر دی جاتی ہیں</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>جب زوم ان اور آؤٹ کررہا ہو</item>
+        <item>ہمیشہ</item>
+    </string-array>
+</resources>

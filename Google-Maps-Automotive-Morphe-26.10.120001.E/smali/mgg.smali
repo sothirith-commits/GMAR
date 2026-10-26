@@ -1,0 +1,118 @@
+.class public final Lmgg;
+.super Ljava/lang/Object;
+.source ":com.google.android.apps.maps@1068833407@26.10.120001.E"
+
+
+# direct methods
+.method public static final a(Landroid/content/Context;)Lmgl;
+    .locals 1
+
+    .line 1
+    const-class v0, Lmgm;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p0}, Lrmn;->n(Ljava/lang/Class;Landroid/content/Context;)Lqzh;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    invoke-static {p0}, Labhj;->j(Ljava/lang/Object;)Labhj;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p0
+
+    .line 11
+    invoke-virtual {p0}, Labhj;->g()Ljava/lang/Object;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p0
+
+    .line 15
+    check-cast p0, Lmgm;
+
+    .line 16
+    .line 17
+    if-eqz p0, :cond_0
+
+    .line 18
+    .line 19
+    invoke-interface {p0}, Lmgm;->H()Lmgl;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object p0
+
+    .line 23
+    return-object p0
+
+    .line 24
+    :cond_0
+    const-string p0, "mgg"
+
+    .line 25
+    .line 26
+    invoke-static {p0}, Labyy;->g(Ljava/lang/String;)Labyy;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object p0
+
+    .line 30
+    invoke-virtual {p0}, Labyo;->c()Labzm;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object p0
+
+    .line 34
+    const/16 v0, 0x6de
+
+    .line 35
+    .line 36
+    invoke-interface {p0, v0}, Labzm;->K(I)Labzm;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object p0
+
+    .line 40
+    check-cast p0, Labyv;
+
+    .line 41
+    .line 42
+    const-string v0, "Cannot find TokenValueResolver in context wrapper"
+
+    .line 43
+    .line 44
+    invoke-interface {p0, v0}, Labyv;->u(Ljava/lang/String;)V
+
+    .line 45
+    .line 46
+    .line 47
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    .line 48
+    .line 49
+    const-string v0, "TokenValueResolver is not present"
+
+    .line 50
+    .line 51
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    .line 52
+    .line 53
+    .line 54
+    throw p0
+.end method

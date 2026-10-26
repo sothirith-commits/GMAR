@@ -1,0 +1,145 @@
+.class public abstract Lfcl;
+.super Ljava/lang/Object;
+.source ":com.google.android.apps.maps@1068833407@26.10.120001.E"
+
+# interfaces
+.implements Lexa;
+.implements Lewx;
+
+
+# instance fields
+.field protected final a:Landroid/graphics/drawable/Drawable;
+
+
+# direct methods
+.method public constructor <init>(Landroid/graphics/drawable/Drawable;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lfcl;->a:Landroid/graphics/drawable/Drawable;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic c()Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Lfcl;->f()Landroid/graphics/drawable/Drawable;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public d()V
+    .locals 1
+
+    .line 1
+    iget-object p0, p0, Lfcl;->a:Landroid/graphics/drawable/Drawable;
+
+    .line 2
+    .line 3
+    instance-of v0, p0, Landroid/graphics/drawable/BitmapDrawable;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    check-cast p0, Landroid/graphics/drawable/BitmapDrawable;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p0
+
+    .line 13
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;->prepareToDraw()V
+
+    .line 14
+    .line 15
+    .line 16
+    goto :goto_0
+
+    .line 17
+    :cond_0
+    instance-of v0, p0, Lfcs;
+
+    .line 18
+    .line 19
+    if-eqz v0, :cond_1
+
+    .line 20
+    .line 21
+    check-cast p0, Lfcs;
+
+    .line 22
+    .line 23
+    invoke-virtual {p0}, Lfcs;->a()Landroid/graphics/Bitmap;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object p0
+
+    .line 27
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;->prepareToDraw()V
+
+    .line 28
+    .line 29
+    .line 30
+    :cond_1
+    :goto_0
+    return-void
+.end method
+
+.method public final f()Landroid/graphics/drawable/Drawable;
+    .locals 1
+
+    .line 1
+    iget-object p0, p0, Lfcl;->a:Landroid/graphics/drawable/Drawable;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getConstantState()Landroid/graphics/drawable/Drawable$ConstantState;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable$ConstantState;->newDrawable()Landroid/graphics/drawable/Drawable;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p0
+
+    .line 13
+    :cond_0
+    return-object p0
+.end method

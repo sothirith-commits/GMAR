@@ -1,0 +1,509 @@
+.class public Leqv;
+.super Lddj;
+.source ":com.google.android.apps.maps@1068833407@26.10.120001.E"
+
+
+# instance fields
+.field final synthetic e:Leqx;
+
+.field private final f:Landroid/graphics/Rect;
+
+.field private final g:Ljava/util/Calendar;
+
+
+# direct methods
+.method public constructor <init>(Leqx;Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Leqv;->e:Leqx;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, p2}, Lddj;-><init>(Landroid/view/View;)V
+
+    .line 4
+    .line 5
+    .line 6
+    new-instance p1, Landroid/graphics/Rect;
+
+    .line 7
+    .line 8
+    invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
+
+    .line 9
+    .line 10
+    .line 11
+    iput-object p1, p0, Leqv;->f:Landroid/graphics/Rect;
+
+    .line 12
+    .line 13
+    invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p1
+
+    .line 17
+    iput-object p1, p0, Leqv;->g:Ljava/util/Calendar;
+
+    .line 18
+    .line 19
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final j(FF)I
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Leqv;->e:Leqx;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1, p2}, Leqx;->b(FF)Leqs;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    if-eqz p0, :cond_0
+
+    .line 8
+    .line 9
+    iget p0, p0, Leqs;->c:I
+
+    .line 10
+    .line 11
+    goto :goto_0
+
+    .line 12
+    :cond_0
+    const/high16 p0, -0x80000000
+
+    .line 13
+    .line 14
+    :goto_0
+    return p0
+.end method
+
+.method protected l(Ljava/util/List;)V
+    .locals 2
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    :goto_0
+    iget-object v1, p0, Leqv;->e:Leqx;
+
+    .line 3
+    .line 4
+    iget v1, v1, Leqx;->y:I
+
+    .line 5
+    .line 6
+    if-gt v0, v1, :cond_0
+
+    .line 7
+    .line 8
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v1
+
+    .line 12
+    invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 13
+    .line 14
+    .line 15
+    add-int/lit8 v0, v0, 0x1
+
+    .line 16
+    .line 17
+    goto :goto_0
+
+    .line 18
+    :cond_0
+    return-void
+.end method
+
+.method protected final n(ILandroid/view/accessibility/AccessibilityEvent;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Leqv;->x(I)Ljava/lang/CharSequence;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    invoke-virtual {p2, p0}, Landroid/view/accessibility/AccessibilityEvent;->setContentDescription(Ljava/lang/CharSequence;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method protected final p(ILdcf;)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Leqv;->f:Landroid/graphics/Rect;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1, v0}, Leqv;->y(ILandroid/graphics/Rect;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p0, p1}, Leqv;->x(I)Ljava/lang/CharSequence;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v1
+
+    .line 10
+    invoke-virtual {p2, v1}, Ldcf;->v(Ljava/lang/CharSequence;)V
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-virtual {p2, v0}, Ldcf;->n(Landroid/graphics/Rect;)V
+
+    .line 14
+    .line 15
+    .line 16
+    const/16 v0, 0x10
+
+    .line 17
+    .line 18
+    invoke-virtual {p2, v0}, Ldcf;->g(I)V
+
+    .line 19
+    .line 20
+    .line 21
+    const/16 v0, 0x20
+
+    .line 22
+    .line 23
+    invoke-virtual {p2, v0}, Ldcf;->g(I)V
+
+    .line 24
+    .line 25
+    .line 26
+    iget-object p0, p0, Leqv;->e:Leqx;
+
+    .line 27
+    .line 28
+    iget p0, p0, Leqx;->u:I
+
+    .line 29
+    .line 30
+    if-ne p1, p0, :cond_0
+
+    .line 31
+    .line 32
+    const/4 p0, 0x1
+
+    .line 33
+    invoke-virtual {p2, p0}, Ldcf;->M(Z)V
+
+    .line 34
+    .line 35
+    .line 36
+    :cond_0
+    return-void
+.end method
+
+.method public final u(IILandroid/os/Bundle;)Z
+    .locals 2
+
+    .line 1
+    const/16 p3, 0x10
+
+    .line 2
+    .line 3
+    const/4 v0, 0x1
+
+    .line 4
+    if-eq p2, p3, :cond_1
+
+    .line 5
+    .line 6
+    const/16 p3, 0x20
+
+    .line 7
+    .line 8
+    if-eq p2, p3, :cond_0
+
+    .line 9
+    .line 10
+    const/4 v0, 0x0
+
+    .line 11
+    goto :goto_0
+
+    .line 12
+    :cond_0
+    iget-object p0, p0, Leqv;->e:Leqx;
+
+    .line 13
+    .line 14
+    new-instance p2, Leqs;
+
+    .line 15
+    .line 16
+    iget p3, p0, Leqx;->p:I
+
+    .line 17
+    .line 18
+    iget v1, p0, Leqx;->o:I
+
+    .line 19
+    .line 20
+    invoke-direct {p2, p3, v1, p1}, Leqs;-><init>(III)V
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-virtual {p0, p2}, Leqx;->h(Leqs;)V
+
+    .line 24
+    .line 25
+    .line 26
+    goto :goto_0
+
+    .line 27
+    :cond_1
+    iget-object p0, p0, Leqv;->e:Leqx;
+
+    .line 28
+    .line 29
+    new-instance p2, Leqs;
+
+    .line 30
+    .line 31
+    iget p3, p0, Leqx;->p:I
+
+    .line 32
+    .line 33
+    iget v1, p0, Leqx;->o:I
+
+    .line 34
+    .line 35
+    invoke-direct {p2, p3, v1, p1}, Leqs;-><init>(III)V
+
+    .line 36
+    .line 37
+    .line 38
+    invoke-virtual {p0, p2}, Leqx;->g(Leqs;)V
+
+    .line 39
+    .line 40
+    .line 41
+    :goto_0
+    return v0
+.end method
+
+.method protected x(I)Ljava/lang/CharSequence;
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Leqv;->e:Leqx;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Leqv;->g:Ljava/util/Calendar;
+
+    .line 4
+    .line 5
+    iget v1, v0, Leqx;->p:I
+
+    .line 6
+    .line 7
+    iget v2, v0, Leqx;->o:I
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v1, v2, p1}, Ljava/util/Calendar;->set(III)V
+
+    .line 10
+    .line 11
+    .line 12
+    const-string v1, "dd MMMM yyyy"
+
+    .line 13
+    .line 14
+    invoke-virtual {p0}, Ljava/util/Calendar;->getTimeInMillis()J
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-wide v2
+
+    .line 18
+    invoke-static {v1, v2, v3}, Landroid/text/format/DateFormat;->format(Ljava/lang/CharSequence;J)Ljava/lang/CharSequence;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object p0
+
+    .line 22
+    iget v1, v0, Leqx;->u:I
+
+    .line 23
+    .line 24
+    if-ne p1, v1, :cond_0
+
+    .line 25
+    .line 26
+    invoke-virtual {v0}, Leqx;->getContext()Landroid/content/Context;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object p1
+
+    .line 30
+    const/4 v0, 0x1
+
+    .line 31
+    new-array v0, v0, [Ljava/lang/Object;
+
+    .line 32
+    .line 33
+    const/4 v1, 0x0
+
+    .line 34
+    aput-object p0, v0, v1
+
+    .line 35
+    .line 36
+    const p0, 0x7f14255d
+
+    .line 37
+    .line 38
+    .line 39
+    invoke-virtual {p1, p0, v0}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 40
+    .line 41
+    .line 42
+    move-result-object p0
+
+    .line 43
+    :cond_0
+    return-object p0
+.end method
+
+.method protected y(ILandroid/graphics/Rect;)V
+    .locals 5
+
+    .line 1
+    iget-object p0, p0, Leqv;->e:Leqx;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Leqx;->getInternalStartPadding()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    invoke-virtual {p0}, Leqx;->getMonthHeaderSize()I
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v1
+
+    .line 11
+    iget v2, p0, Leqx;->s:I
+
+    .line 12
+    .line 13
+    iget v3, p0, Leqx;->q:I
+
+    .line 14
+    .line 15
+    invoke-virtual {p0}, Leqx;->getEdgePadding()I
+
+    .line 16
+    .line 17
+    .line 18
+    move-result v4
+
+    .line 19
+    sub-int/2addr v3, v4
+
+    .line 20
+    iget v4, p0, Leqx;->x:I
+
+    .line 21
+    .line 22
+    div-int/2addr v3, v4
+
+    .line 23
+    add-int/lit8 p1, p1, -0x1
+
+    .line 24
+    .line 25
+    invoke-virtual {p0}, Leqx;->a()I
+
+    .line 26
+    .line 27
+    .line 28
+    move-result p0
+
+    .line 29
+    add-int/2addr p1, p0
+
+    .line 30
+    div-int p0, p1, v4
+
+    .line 31
+    .line 32
+    rem-int/2addr p1, v4
+
+    .line 33
+    mul-int/2addr p1, v3
+
+    .line 34
+    add-int/2addr v0, p1
+
+    .line 35
+    mul-int/2addr p0, v2
+
+    .line 36
+    add-int/2addr v1, p0
+
+    .line 37
+    add-int/2addr v3, v0
+
+    .line 38
+    add-int/2addr v2, v1
+
+    .line 39
+    invoke-virtual {p2, v0, v1, v3, v2}, Landroid/graphics/Rect;->set(IIII)V
+
+    .line 40
+    .line 41
+    .line 42
+    return-void
+.end method

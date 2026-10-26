@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Battery level, capacity, and charging speed in different conditions</item>
+        <item>Air conditioning status</item>
+        <item>Electric motors and braking efficiency</item>
+        <item>"Specs, such as your vehicle's weight"</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Car range</item>
+        <item>Battery estimates based on your destination</item>
+        <item>Recommended min charging times</item>
+        <item>"Alerts, such as when your next stop is out of reach or when you'll arrive at your next stop with low battery"</item>
+        <item>Improved battery management &amp; vehicle efficiency</item>
+        <item>"Personalised trip planning, when you're signed in to your phone and car"</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Maps will auto-download offline maps for you and keep them up to date</item>
+        <item>Offline maps will download in the background, using your mobile data or Wi-Fi</item>
+        <item>"Your vehicle may periodically contact Google servers to provide info, such as your vehicle's location, Location History, and offline maps you've already downloaded"</item>
+        <item>You can still select your own offline maps to download</item>
+        <item>Turning this off will not delete offline maps that have already been downloaded</item>
+        <item>To delete offline maps, go to Settings > Offline maps</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>You select the offline maps you want to download and manually update them yourself. To begin, go to Settings > Offline maps.</item>
+        <item>Offline maps will need mobile data or Wi-Fi to download</item>
+        <item>"If you do not download or update the offline map of the area you're driving in, Maps may not be able to provide map data to your vehicle features"</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>How Google Maps would respond to requests like “coffee shops near me,” “EV chargers for my preferred payment method,” or “find parking”</item>
+        <item>GPS location, like your destination</item>
+        <item>Your current route</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>GPS location</item>
+        <item>Navigation details, including the route you took</item>
+        <item>Descriptions of the road, like road sign info or lane markings</item>
+        <item>Vehicle sensor status, like when your windshield wipers are turned on</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>GPS location</item>
+        <item>Navigation details, including the route you took</item>
+        <item>Descriptions of the road, like road sign info or lane markings</item>
+        <item>Vehicle sensor status, like when your windshield wipers are turned on</item>
+        <item>If you’re using an ETC card reader</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Updates to the map based on trip &amp; sensor data are not associated with your Google Account or vehicle</item>
+        <item>Trip &amp; sensor data is also not associated with your Google Account, but with a securely generated identifier that resets on a regular basis. That means Google cannot look up this data based on your Google Account</item>
+        <item>Other data collected as you explore the world, such as when you use the Google Assistant, may be associated with your Google Account. You can control your history by visiting myactivity.google.com</item>
+        <item>To change location permission, go to Settings > Apps and notifications > App permissions > Location > Maps</item>
+        <item>Google only collects the trip &amp; sensor data needed to provide the best Maps experience for everyone—after processing, it’s deleted</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Updates to the map based on trip &amp; sensor data are not associated with your Google Account or vehicle</item>
+        <item>Trip &amp; sensor data is also not associated with your Google Account, but with a securely generated identifier that resets on a regular basis. That means Google cannot look up this data based on your Google Account</item>
+        <item>Other data collected as you explore the world, such as when you use the Google Assistant, may be associated with your Google Account. You can control your history by visiting myactivity.google.com</item>
+        <item>To change location permission, go to Settings > Apps and notifications > App permissions > Location > Maps</item>
+        <item>Google only collects the trip &amp; sensor data needed to provide the best Maps experience for everyone—after processing, it’s deleted</item>
+        <item>Camera imagery from your vehicle may be processed for road description data, but remains in your vehicle and is deleted after processing</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>When zooming in and out</item>
+        <item>Always</item>
+    </string-array>
+</resources>

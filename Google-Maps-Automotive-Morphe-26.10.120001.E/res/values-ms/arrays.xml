@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Paras bateri, kapasitinya dan kelajuan pengecasan dalam pelbagai keadaan</item>
+        <item>Status penyaman udara</item>
+        <item>Motor elektrik dan kecekapan brek</item>
+        <item>Spesifikasi, misalnya berat kenderaan anda</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Jarak perjalanan kereta</item>
+        <item>Anggaran bateri berdasarkan destinasi anda</item>
+        <item>Masa pengecasan minimum yang disyorkan</item>
+        <item>Makluman, seperti jika hentian anda yang seterusnya di luar jangkauan, atau jika anda akan tiba di hentian seterusnya dengan bateri yang lemah</item>
+        <item>Pengurusan bateri yang dipertingkat &amp; kecekapan kenderaan</item>
+        <item>Perancangan perjalanan yang diperibadikan, apabila anda log masuk ke telefon dan kereta anda</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_FORD_ROUTE_DATA_SHARING_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Butiran laluan, termasuk panjang dan kecerunan jalan</item>
+        <item>Had laju</item>
+        <item>Kelajuan trafik</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Peta akan memuat turun peta luar talian secara automatik untuk anda dan memastikan peta tersebut terkini</item>
+        <item>Peta luar talian akan dimuat turun pada latar, menggunakan data mudah alih atau Wi-Fi anda</item>
+        <item>Kenderaan anda mungkin menghubungi pelayan Google secara berkala untuk memberikan maklumat, seperti lokasi kenderaan anda, Sejarah Lokasi dan peta luar talian yang telah dimuat turun</item>
+        <item>Anda masih boleh memilih peta luar talian anda sendiri untuk dimuat turun</item>
+        <item>Tindakan mematikan ciri ini tidak akan memadamkan peta luar talian yang telah dimuat turun</item>
+        <item>Untuk memadamkan peta luar talian, akses Tetapan > Peta luar talian</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Anda boleh memilih peta luar talian yang mahu anda muat turun dan mengemaskinikan sendiri peta tersebut secara manual. Untuk bermula, akses Tetapan > Peta luar talian.</item>
+        <item>Peta luar talian memerlukan data mudah alih atau Wi-Fi untuk dimuat turun</item>
+        <item>Jika anda tidak memuat turun atau mengemaskinikan peta luar talian bagi kawasan tempat anda memandu, Maps mungkin tidak dapat menyediakan data peta kepada ciri kenderaan anda</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Cara Google Maps akan menjawab permintaan seperti “kedai kopi berdekatan saya”, “Pengecas EV untuk kaedah pembayaran pilihan saya” atau “cari ruang letak kereta”</item>
+        <item>Lokasi GPS, seperti destinasi anda</item>
+        <item>Laluan semasa anda</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>Lokasi GPS</item>
+        <item>Butiran navigasi, termasuk laluan yang anda gunakan</item>
+        <item>Perihalan jalan, seperti maklumat papan tanda jalan atau penanda lorong</item>
+        <item>Status penderia kenderaan, seperti masa pengelap cermin depan anda dihidupkan</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>Lokasi GPS</item>
+        <item>Butiran navigasi, termasuk laluan yang anda gunakan</item>
+        <item>Perihalan jalan, seperti maklumat papan tanda jalan atau penanda lorong</item>
+        <item>Status penderia kenderaan, seperti masa pengelap cermin depan anda dihidupkan</item>
+        <item>Jika anda menggunakan pembaca kad ETC</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Kemaskinian pada peta berdasarkan data perjalanan &amp; penderia tidak dikaitkan dengan Google Account atau kenderaan anda</item>
+        <item>Data perjalanan &amp; penderia juga tidak dikaitkan dengan Google Account anda tetapi dengan pengecam yang dijana secara selamat yang ditetapkan semula secara kerap. Hal ini bermakna Google tidak dapat mencari data ini berdasarkan Google Account anda</item>
+        <item>Data lain yang dikumpulkan semasa anda meneroka dunia, seperti semasa anda menggunakan Google Assistant, mungkin dikaitkan dengan Google Account anda. Anda boleh mengawal sejarah anda dengan melawati myactivity.google.com</item>
+        <item>Untuk menukar kebenaran lokasi, akses Tetapan > Apl dan pemberitahuan > Kebenaran apl > Lokasi > Maps</item>
+        <item>Google hanya mengumpulkan data perjalanan &amp; penderia yang diperlukan untuk memberikan pengalaman Maps yang terbaik untuk semua pengguna—selepas di proses, data tersebut akan dipadamkan</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Kemaskinian pada peta berdasarkan data perjalanan &amp; penderia tidak dikaitkan dengan Google Account atau kenderaan anda</item>
+        <item>Data perjalanan &amp; penderia juga tidak dikaitkan dengan Google Account anda tetapi dengan pengecam yang dijana secara selamat yang ditetapkan semula secara kerap. Hal ini bermakna Google tidak dapat mencari data ini berdasarkan Google Account anda</item>
+        <item>Data lain yang dikumpulkan semasa anda meneroka dunia, seperti semasa anda menggunakan Google Assistant, mungkin dikaitkan dengan Google Account anda. Anda boleh mengawal sejarah anda dengan melawati myactivity.google.com</item>
+        <item>Untuk menukar kebenaran lokasi, akses Tetapan > Apl dan pemberitahuan > Kebenaran apl > Lokasi > Maps</item>
+        <item>Google hanya mengumpulkan data perjalanan &amp; penderia yang diperlukan untuk memberikan pengalaman Maps yang terbaik untuk semua pengguna—selepas di proses, data tersebut akan dipadamkan</item>
+        <item>Imejan kamera dari kenderaan anda mungkin diproses untuk data perihalan jalan tetapi kekal dalam kenderaan anda dan dipadamkan selepas diproses</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Apabila mengezum masuk dan keluar</item>
+        <item>Sentiasa</item>
+    </string-array>
+    <string-array name="TESLA_DATA_SHARING_CONSENT_COLLECTED_DATA_ADDITIONAL_EXAMPLES_LIST">
+        <item>Apabila kereta anda dipalamkan atau dicabut daripada Supercharger</item>
+        <item>Apabila kereta anda meninggalkan stesen</item>
+        <item>Masa pengecasan yang disyorkan</item>
+        <item>Jenama &amp; model kereta</item>
+    </string-array>
+    <string-array name="TESLA_DATA_SHARING_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>ETA ke Supercharger</item>
+        <item>ID Tesla Supercharger</item>
+        <item>Apabila kereta anda tiba di Supercharger atau navigasi tamat</item>
+    </string-array>
+</resources>

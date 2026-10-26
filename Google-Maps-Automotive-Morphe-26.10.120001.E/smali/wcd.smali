@@ -1,0 +1,50 @@
+.class final Lwcd;
+.super Ljava/lang/Object;
+.source ":com.google.android.apps.maps@1068833407@26.10.120001.E"
+
+
+# instance fields
+.field public a:I
+
+.field public b:Lwcb;
+
+.field public c:I
+
+.field public final d:I
+
+
+# direct methods
+.method public constructor <init>(I)V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    iput v0, p0, Lwcd;->a:I
+
+    .line 6
+    .line 7
+    sget-object v1, Lwcb;->a:Lwcb;
+
+    .line 8
+    .line 9
+    iput-object v1, p0, Lwcd;->b:Lwcb;
+
+    .line 10
+    .line 11
+    iput v0, p0, Lwcd;->c:I
+
+    .line 12
+    .line 13
+    iput p1, p0, Lwcd;->d:I
+
+    .line 14
+    .line 15
+    return-void
+.end method

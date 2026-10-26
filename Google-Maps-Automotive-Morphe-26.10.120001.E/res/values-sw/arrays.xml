@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Kiwango, uwezo na kasi ya kuchaji betri katika hali tofauti</item>
+        <item>Hali ya kiyoyozi</item>
+        <item>Ufanisi wa magari ya umeme na mfumo wa breki</item>
+        <item>Vipimo, kama vile uzito wa gari lako</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Umbali ambao chaji ya betri ya gari itafika</item>
+        <item>Makadirio ya betri kulingana na unakoenda</item>
+        <item>Idadi ya chini kabisa ya mara za kuchaji zinazopendekezwa</item>
+        <item>Arifa, kama vile wakati huwezi kufikia kituo kinachofuata au wakati utafika kwenye kituo kitakachofuata chaji ya betri ikiwa imepungua</item>
+        <item>Udhibiti bora wa betri na ufanisi wa gari</item>
+        <item>Kupanga safari inyolingana na mapendeleo yako, ukiwa umeingia katika akaunti kwenye simu na gari lako</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Wakati wa kusogeza karibu na kusogeza mbali</item>
+        <item>Kila wakati</item>
+    </string-array>
+</resources>

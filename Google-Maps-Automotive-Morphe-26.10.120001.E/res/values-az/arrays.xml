@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>C</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Müxtəlif şəraitlərdə batareya səviyyəsi, tutumu və şarjetmə sürəti</item>
+        <item>Kondisioner statusu</item>
+        <item>Elektrik mühərrikləri və əyləc səmərəliliyi</item>
+        <item>Nəqliyyat vasitənizin çəkisi kimi xüsusiyyətlər</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Avtomobil aralığı</item>
+        <item>Təyinat yerinizə əsaslanan batareya təxminləri</item>
+        <item>Tövsiyə olunan minimum şarj vaxtları</item>
+        <item>Növbəti dayanacağa çata bilmədikdə və ya aşağı batareya ilə növbəti dayanacağa çatacağınız vaxt haqqında bildirişlər</item>
+        <item>Təkmilləşdirilmiş batareya idarəetməsi və avtomobil səmərəliliyi</item>
+        <item>Telefon və avtomobilə daxil olduqda fərdiləşdirilmiş səfər planlaşdırması</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Xəritə sizin üçün oflayn xəritələri avtomatik endirəcək və onları güncəl saxlayacaq</item>
+        <item>Oflayn xəritə mobil data və ya Wi-Fi-dan istifadə edərək arxa fonda endiriləcək</item>
+        <item>Nəqliyyat vasitənizin vaxtaşırı olaraq Google serverləri ilə əlaqə saxlayaraq avtomobilinizin məkanı, Məkan Tarixçəsi və artıq endirdiyiniz oflayn xəritə kimi məlumatları təqdim edə bilər</item>
+        <item>Hələ də endirmək üçün oflayn xəritələri seçə bilərsiniz</item>
+        <item>Bunu deaktiv etdikdə artıq endirilmiş oflayn xəritə silinməyəcək</item>
+        <item>Oflayn xəritələri silmək üçün Ayarlar > Oflayn xəritə bölməsinə keçin</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Endirmək istədiyiniz oflayn xəritəni seçirsiniz və manual olaraq güncəlləyirsiniz. Başlamaq üçün Ayarlar > Oflayn xəritə bölməsinə keçin.</item>
+        <item>Oflayn xəritələri endirmək üçün mobil data və ya Wi-Fi tələb olunacaq</item>
+        <item>Avtomobil sürdüyünüz ərazinin oflayn xəritəsini endirməsəniz və ya güncəlləməsəniz, Xəritə nəqliyyat vasitənizin funksiyalarına xəritə datası təqdim edə bilməyəcək</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Google Xəritənin \"yaxınlıqdakı kofe dükanları\", \"üstünlük verdiyim ödəniş metodu üçün elektrik enerjisi doldurucuları\" və ya \"dayanacaq tapmaq\" kimi tələblərə cavab vermək qaydası</item>
+        <item>Təyinat yeriniz kimi GPS məkanı</item>
+        <item>Cari marşrutunuz</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>GPS məkanı</item>
+        <item>İstifadə etdiyiniz marşrut daxil olmaqla naviqasiya detalları</item>
+        <item>Yol nişanı məlumatı və ya zolaq işarələri kimi yol təsvirləri</item>
+        <item>Şüşəsilənlərin işə salınması kimi nəqliyyat vasitəsi sensorunun statusu</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>GPS məkanı</item>
+        <item>İstifadə etdiyiniz marşrut daxil olmaqla naviqasiya detalları</item>
+        <item>Yol nişanı məlumatı və ya zolaq işarələri kimi yol təsvirləri</item>
+        <item>Şüşəsilənlərin işə salınması kimi nəqliyyat vasitəsi sensorunun statusu</item>
+        <item>ETC kart oxucusundan istifadə edirsinizsə</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Səfər və sensor datası əsasında xəritəyə edilən güncəlləmələr Google Hesabı və ya avtomobil ilə əlaqələndirilmir</item>
+        <item>Həmçinin səfər və sensor datası Google Hesabınızla deyil, mütəmadi olaraq sıfırlanan, təhlükəsiz şəkildə yaradılmış identifikatorla əlaqələndirilir. Belə ki, Google bu datanı Google Hesabınıza əsasən tapa bilməz</item>
+        <item>Google Assistentdən istifadə etdiyiniz zaman kimi dünyanı araşdırarkən toplanan digər data Google Hesabınızla əlaqələndirilə bilər. myactivity.google.com saytına daxil olaraq tarixçənizə nəzarət edə bilərsiniz</item>
+        <item>Məkan icazəsini dəyişmək üçün Ayarlar > Tətbiqlər və bildirişlər > Tətbiq icazələri > Məkan > Xəritə bölməsinə keçin</item>
+        <item>Google yalnız hər kəs üçün ən yaxşı Xəritə təcrübəsini təmin etmək məqsədilə lazım olan səfər və sensor datasını toplayır. O, emaldan sonra silinir</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Səfər və sensor datası əsasında xəritəyə edilən güncəlləmələr Google Hesabı və ya avtomobil ilə əlaqələndirilmir</item>
+        <item>Həmçinin səfər və sensor datası Google Hesabınızla deyil, mütəmadi olaraq sıfırlanan, təhlükəsiz şəkildə yaradılmış identifikatorla əlaqələndirilir. Belə ki, Google bu datanı Google Hesabınıza əsasən tapa bilməz</item>
+        <item>Google Assistentdən istifadə etdiyiniz zaman kimi dünyanı araşdırarkən toplanan digər data Google Hesabınızla əlaqələndirilə bilər. myactivity.google.com saytına daxil olaraq tarixçənizə nəzarət edə bilərsiniz</item>
+        <item>Məkan icazəsini dəyişmək üçün Ayarlar > Tətbiqlər və bildirişlər > Tətbiq icazələri > Məkan > Xəritə bölməsinə keçin</item>
+        <item>Google yalnız hər kəs üçün ən yaxşı Xəritə təcrübəsini təmin etmək məqsədilə lazım olan səfər və sensor datasını toplayır. O, emaldan sonra silinir</item>
+        <item>Avtomobilinizdən əldə edilən kamera görüntüləri yol təsviri datası üçün emal edilə bilər, lakin avtomobilinizdə qalır və emaldan sonra silinir</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Böyüdəndə və kiçildəndə</item>
+        <item>Həmişə</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>razina napunjenosti, kapacitet i brzina punjenja baterije u različitim uvjetima</item>
+        <item>status klima-uređaja</item>
+        <item>elektromotori i učinkovitost kočenja</item>
+        <item>specifikacije, kao što je težina vozila</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Domet automobila</item>
+        <item>procjene trajanja baterije na temelju vašeg odredišta</item>
+        <item>preporučeno minimalno vrijeme punjenja</item>
+        <item>upozorenja, npr. kad je vaša sljedeća stanica izvan dometa ili kad ćete stići na sljedeću stanicu uz slabu bateriju</item>
+        <item>poboljšano upravljanje baterijom i učinkovitost vozila</item>
+        <item>personalizirano planiranje putovanja kad ste prijavljeni na telefon i u automobil</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Karte će automatski preuzimati offline karte za vas i redovito ih ažurirati.</item>
+        <item>Offline karte preuzimat će se u pozadini putem mobilnih podataka ili Wi-Fija.</item>
+        <item>Vaše vozilo može povremeno kontaktirati Googleove poslužitelje kako bi pružilo informacije, kao što su lokacija vašeg vozila, povijest lokacija i offline karte koje ste već preuzeli.</item>
+        <item>I dalje možete odabrati vlastite offline karte za preuzimanje.</item>
+        <item>Ako isključite tu opciju, offline karte koje ste već preuzeli neće se izbrisati.</item>
+        <item>Da biste izbrisali offline karte, otvorite Postavke > Offline karte.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Vi odabirete offline karte koje želite preuzeti i sami ih ručno ažurirate. Za početak otvorite Postavke > Offline karte.</item>
+        <item>Za preuzimanje offline karata potrebni su mobilni podaci ili Wi-Fi.</item>
+        <item>Ako ne preuzmete ili ne ažurirate offline kartu područja u kojem vozite, Google karte možda neće moći pružiti podatke karte značajkama vašeg vozila.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Kako bi Google karte odgovorile na zahtjeve kao što su „kafići u blizini”, „EV punjači za moj preferirani način plaćanja” ili „pronađi parkiralište”.</item>
+        <item>GPS lokacija, kao što je vaše odredište.</item>
+        <item>vaša trenutačna ruta.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>GPS lokacija</item>
+        <item>pojedinosti o navigaciji, uključujući rutu kojom se krećete</item>
+        <item>opisi ceste, kao što su informacije o prometnim znakovima ili oznake na cesti</item>
+        <item>status senzora vozila, na primjer kad su vam uključeni brisači vjetrobranskog stakla</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>GPS lokacija</item>
+        <item>pojedinosti o navigaciji, uključujući rutu kojom se krećete</item>
+        <item>opisi ceste, kao što su informacije o prometnim znakovima ili oznake na cesti</item>
+        <item>status senzora vozila, na primjer kad su vam uključeni brisači vjetrobranskog stakla</item>
+        <item>Ako upotrebljavate čitač ETC kartica</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Ažuriranja karte na temelju podataka o putovanjima i podataka senzora ne povezuju se s vašim Google računom ili vozilom.</item>
+        <item>Podaci o putovanju i podaci senzora također nisu povezani s vašim Google računom, već sa sigurno generiranim identifikatorom koji se redovito poništava. To znači da Google ne može doći do tih podataka na temelju vašeg Google računa.</item>
+        <item>Drugi podaci koji se prikupljaju dok istražujete svijet, primjerice, kad koristite Google asistent, mogu se povezati s vašim Google računom. Svojom poviješću možete upravljati na web-stranici myactivity.google.com.</item>
+        <item>Da biste promijenili dopuštenje za lokaciju, otvorite Postavke > Aplikacije i obavijesti > Dopuštenja aplikacije > Lokacija > Karte.</item>
+        <item>Google prikuplja samo podatke o putovanjima i podatke senzora neophodne za pružanje najboljeg doživljaja Karata za korisnike. Ti se podaci nakon obrade brišu.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Ažuriranja karte na temelju podataka o putovanjima i podataka senzora ne povezuju se s vašim Google računom ili vozilom.</item>
+        <item>Podaci o putovanju i podaci senzora također nisu povezani s vašim Google računom, već sa sigurno generiranim identifikatorom koji se redovito poništava. To znači da Google ne može doći do tih podataka na temelju vašeg Google računa.</item>
+        <item>Drugi podaci koji se prikupljaju dok istražujete svijet, primjerice, kad koristite Google asistent, mogu se povezati s vašim Google računom. Svojom poviješću možete upravljati na web-stranici myactivity.google.com.</item>
+        <item>Da biste promijenili dopuštenje za lokaciju, otvorite Postavke > Aplikacije i obavijesti > Dopuštenja aplikacije > Lokacija > Karte.</item>
+        <item>Google prikuplja samo podatke o putovanjima i podatke senzora neophodne za pružanje najboljeg doživljaja Karata za korisnike. Ti se podaci nakon obrade brišu.</item>
+        <item>Slike fotoaparata iz vašeg vozila mogu se obraditi radi podataka o opisu ceste, ali ostaju u vašem vozilu i brišu se nakon obrade.</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Prilikom povećanja i smanjenja</item>
+        <item>Uvijek</item>
+    </string-array>
+</resources>

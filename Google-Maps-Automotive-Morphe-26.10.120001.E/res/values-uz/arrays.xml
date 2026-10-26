@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Batareya quvvati darajasi, sigʻimi va turli sharoitda quvvatlash tezligi</item>
+        <item>Konditsioner holati</item>
+        <item>Elektr motorlar va tormozlash samaradorligi</item>
+        <item>Avtomobil vazni kabi texnik xususiyatlar</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Avtomobilning yurish masofasi</item>
+        <item>Batareya quvvati manzilingiz asosida hisoblanadi</item>
+        <item>Tavsiya etilgan minimal quvvatlash vaqtlari</item>
+        <item>Keyingi manzilga borish uchun batareya quvvati yetmasligi yoki kam quvvat bilan yetib borish kabi ogohlantiruvlar</item>
+        <item>Batareya boshqaruvi va avtomobil samaradorligi yaxshilandi</item>
+        <item>Telefon va avtomobilga kirganda moslangan safar rejalashtiruvi</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Xaritalar oflayn xaritalarni yangilash uchun avtomatik ravishda yuklab oladi</item>
+        <item>Oflayn xaritalar mobil internet yoki Wi-Fi orqali fonda yuklab olinadi</item>
+        <item>Avtomobilingiz vaqti-vaqti bilan Google serverlariga ulanib, avtomobil turgan joyi, Joylashuv tarixi va yuklab olingan oflayn xaritalar haqida xabar yuborib turadi</item>
+        <item>Yuklab olinadigan oflayn xaritalarni tanlashingiz ham mumkin</item>
+        <item>Bu faolsizlantirilsa, yuklab olingan oflayn xaritalar oʻchirib tashlanmaydi</item>
+        <item>Oflayn xaritalarni oʻchirish uchun Sozlamalar > Oflayn xaritalar rukniga kiring</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Yuklab olinadigan oflayn xaritalarni siz tanlaysiz va oʻzingiz yangilaysiz. Boshlash uchun Sozlamalar > Oflayn xaritalar rukniga kiring.</item>
+        <item>Oflayn xaritalarni yuklab olish uchun mobil internet yoki Wi-Fi kerak</item>
+        <item>Joylashgan hududingizning oflayn xaritasini yuklab olmasangiz yoki yangilamasangiz, Xaritalar avtomobil funksiyalariga xarita axborotlarini taqdim eta olmasligi mumkin</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Google Xaritalar “atrofdagi qahvaxonalar,” “Men uchun afzal toʻlov usuliga mos EV quvvatlagichlar” yoki “avtoturargohni topish” kabi soʻrovlarga qanday javob berishi</item>
+        <item>GPS joylashuvi, masalan, borar manzilingiz</item>
+        <item>Joriy marshrutingiz</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>GPS joylashuv</item>
+        <item>Navigatsiya tafsilotlari, jumladan, marshrutingiz</item>
+        <item>Yoʻl tavsifi, masalan, yoʻl belgilari axboroti yoki koʻchadagi chiziqlar</item>
+        <item>Avtomobildagi sensorlar holati, masalan, oyna tozalagich yoqilganida</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>GPS joylashuv</item>
+        <item>Navigatsiya tafsilotlari, jumladan, marshrutingiz</item>
+        <item>Yoʻl tavsifi, masalan, yoʻl belgilari axboroti yoki koʻchadagi chiziqlar</item>
+        <item>Avtomobildagi sensorlar holati, masalan, oyna tozalagich yoqilganida</item>
+        <item>Agar ETC kart-rideridan foydalansangiz</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Safar va sensor axborotlariga asoslangan xarita yangilanishlari Google hisobingiz yoki avtomobilingizga biriktirilmaydi</item>
+        <item>Safar va sensor axborotlari Google hisobingizga ham biriktirilmaydi, ammo muntazam oʻzgaradigan, xavfsiz tuziladigan identifikatorga biriktiriladi. Bu degani Google hisobingizga asoslanib, Google bu axborotni qidira olmaydi</item>
+        <item>Dunyoni kezganingizda, masalan, Google Assistent ishlatganingizda jamlangan boshqa axborotlar Google hisobingizga biriktirilishi mumkin. Tarixni bu manzilda boshqarish mumkin: myactivity.google.com</item>
+        <item>Joylashuv ruxsatini belgilash uchun bu ruknga kiring: Sozlamalar > Ilova va bildirishnomalar > Ilova ruxsatlari > Joylashuv > Xaritalar</item>
+        <item>Google faqat hamma uchun Xaritalarning foydasi tegishi maqsadida safar va sensor axborotlarini jamlaydi — ishlatilganidan keyin oʻchirib tashlanadi</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Safar va sensor axborotlariga asoslangan xarita yangilanishlari Google hisobingiz yoki avtomobilingizga biriktirilmaydi</item>
+        <item>Safar va sensor axborotlari Google hisobingizga ham biriktirilmaydi, ammo muntazam oʻzgaradigan, xavfsiz tuziladigan identifikatorga biriktiriladi. Bu degani Google hisobingizga asoslanib, Google bu axborotni qidira olmaydi</item>
+        <item>Dunyoni kezganingizda, masalan, Google Assistent ishlatganingizda jamlangan boshqa axborotlar Google hisobingizga biriktirilishi mumkin. Tarixni bu manzilda boshqarish mumkin: myactivity.google.com</item>
+        <item>Joylashuv ruxsatini belgilash uchun bu ruknga kiring: Sozlamalar > Ilova va bildirishnomalar > Ilova ruxsatlari > Joylashuv > Xaritalar</item>
+        <item>Google faqat hamma uchun Xaritalarning foydasi tegishi maqsadida safar va sensor axborotlarini jamlaydi — ishlatilganidan keyin oʻchirib tashlanadi</item>
+        <item>Avtomobildagi kamera tasvirlari yoʻl tavsifi axboroti uchun qayta ishlanishi mumkin, lekin avtomobilingizda qoladi va keyin oʻchiriladi</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Yaqinlashtirish va uzoqlashtirish vaqtida</item>
+        <item>Har doim</item>
+    </string-array>
+</resources>

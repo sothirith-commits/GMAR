@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>Batteryvlak, -kapasiteit en -laaispoed in verskillende toestande</item>
+        <item>Lugversorgingstatus</item>
+        <item>Elektriese motors en remdoeltreffendheid</item>
+        <item>Spesifikasies, soos jou voertuig se gewig</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>Motor se reikafstand</item>
+        <item>Batteryskattings gegrond op jou bestemming</item>
+        <item>Aanbevole minimum laaitye</item>
+        <item>Waarskuwings, soos wanneer jou volgende stopplek buite bereik is of wanneer jy by jou volgende stopplek sal aankom met ’n battery wat amper pap is</item>
+        <item>Verbeterde batterybestuur en voertuigdoeltreffendheid</item>
+        <item>Gepersonaliseerde reisbeplanning wanneer jy by jou foon en motor aangemeld is</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Maps sal vanlyn kaarte outomaties vir jou aflaai en hulle bygewerk hou</item>
+        <item>Vanlyn kaarte sal op die agtergrond met gebruik van jou mobieldata of wi-fi afgelaai word</item>
+        <item>Jou voertuig kan Google-bedieners van tyd tot tyd kontak om inligting te verskaf, soos jou voertuig se ligging, ligginggeskiedenis en vanlyn kaarte wat jy reeds afgelaai het</item>
+        <item>Jy kan steeds jou eie vanlyn kaarte kies om af te laai</item>
+        <item>As jy dit afskakel, sal dit nie vanlyn kaarte uitvee wat reeds afgelaai is nie</item>
+        <item>Gaan na Instellings > Vanlyn kaarte om vanlyn kaarte uit te vee</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Jy kies die vanlyn kaarte wat jy wil aflaai en dateer hulle handmatig op. Gaan na Instellings > Vanlyn kaarte om te begin.</item>
+        <item>Vanlyn kaarte sal mobieldata of wi-fi benodig om af te laai</item>
+        <item>Maps sal dalk nie kaartdata vir jou voertuigkenmerke kan verskaf as jy nie die vanlyn kaart van die gebied waarin jy ry, aflaai of opdateer nie</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Hoe Google Maps op versoeke sal antwoord soos: “koffiewinkels naby my”, “EV-laaiers vir my voorkeurbetaalmetode” of “soek parkering”</item>
+        <item>GPS-ligging, soos jou bestemming</item>
+        <item>Jou huidige roete</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>GPS-ligging</item>
+        <item>Navigasiebesonderhede, insluitend die roete wat jy geneem het</item>
+        <item>Beskrywings van die pad, soos padtekeninligting of baanmerke</item>
+        <item>Voertuigsensorstatus, soos wanneer jou ruitveërs aangeskakel is</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>GPS-ligging</item>
+        <item>Navigasiebesonderhede, insluitend die roete wat jy geneem het</item>
+        <item>Beskrywings van die pad, soos padtekeninligting of baanmerke</item>
+        <item>Voertuigsensorstatus, soos wanneer jou ruitveërs aangeskakel is</item>
+        <item>As jy ’n ETI-kaartleser gebruik</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Opdaterings aan die kaart op grond van reis- en sensordata word nie met jou Google-rekening of voertuig geassosieer nie</item>
+        <item>Reis- en sensordata word ook nie met jou Google-rekening geassosieer nie, maar met ’n identifiseerder wat veilig gegenereer word en wat gereeld teruggestel word. Dit beteken dat Google nie hierdie data op grond van jou Google-rekening kan opsoek nie</item>
+        <item>Ander data wat ingesamel word terwyl jy die wêreld verken, soos wanneer jy die Google Assistent gebruik, kan met jou Google-rekening geassosieer word. Jy kan jou geskiedenis beheer deur myactivity.google.com te besoek</item>
+        <item>Gaan na Instellings > Apps en kennisgewings > Apptoestemmings > Ligging > Maps om liggingtoestemming te verander</item>
+        <item>Google samel net die reis- en sensordata in wat nodig is om die beste Maps-ervaring vir almal te bied – dit word ná verwerking uitgevee</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Opdaterings aan die kaart op grond van reis- en sensordata word nie met jou Google-rekening of voertuig geassosieer nie</item>
+        <item>Reis- en sensordata word ook nie met jou Google-rekening geassosieer nie, maar met ’n identifiseerder wat veilig gegenereer word en wat gereeld teruggestel word. Dit beteken dat Google nie hierdie data op grond van jou Google-rekening kan opsoek nie</item>
+        <item>Ander data wat ingesamel word terwyl jy die wêreld verken, soos wanneer jy die Google Assistent gebruik, kan met jou Google-rekening geassosieer word. Jy kan jou geskiedenis beheer deur myactivity.google.com te besoek</item>
+        <item>Gaan na Instellings > Apps en kennisgewings > Apptoestemmings > Ligging > Maps om liggingtoestemming te verander</item>
+        <item>Google samel net die reis- en sensordata in wat nodig is om die beste Maps-ervaring vir almal te bied – dit word ná verwerking uitgevee</item>
+        <item>Kamerabeelde van jou voertuig kan vir padbeskrywingdata verwerk word, maar bly in jou voertuig en word ná verwerking uitgevee</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Wanneer in- en uitzoem</item>
+        <item>Altyd</item>
+    </string-array>
+</resources>

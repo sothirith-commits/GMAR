@@ -1,0 +1,251 @@
+.class final Lahwx;
+.super Leqv;
+.source ":com.google.android.apps.maps@1068833407@26.10.120001.E"
+
+
+# instance fields
+.field final synthetic f:Lahwy;
+
+
+# direct methods
+.method public constructor <init>(Lahwy;Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lahwx;->f:Lahwy;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, p1, p2}, Leqv;-><init>(Leqx;Landroid/view/View;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final l(Ljava/util/List;)V
+    .locals 2
+
+    .line 1
+    iget-object p0, p0, Lahwx;->f:Lahwy;
+
+    .line 2
+    .line 3
+    iget v0, p0, Lahwy;->I:I
+
+    .line 4
+    .line 5
+    :goto_0
+    iget v1, p0, Lahwy;->J:I
+
+    .line 6
+    .line 7
+    if-gt v0, v1, :cond_0
+
+    .line 8
+    .line 9
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v1
+
+    .line 13
+    invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 14
+    .line 15
+    .line 16
+    add-int/lit8 v0, v0, 0x1
+
+    .line 17
+    .line 18
+    goto :goto_0
+
+    .line 19
+    :cond_0
+    return-void
+.end method
+
+.method protected final x(I)Ljava/lang/CharSequence;
+    .locals 2
+
+    .line 1
+    iget-object p0, p0, Lahwx;->f:Lahwy;
+
+    .line 2
+    .line 3
+    iget-object v0, p0, Lahwy;->H:Landroid/text/format/Time;
+
+    .line 4
+    .line 5
+    iget v1, p0, Lahwy;->o:I
+
+    .line 6
+    .line 7
+    iget p0, p0, Lahwy;->p:I
+
+    .line 8
+    .line 9
+    invoke-virtual {v0, p1, v1, p0}, Landroid/text/format/Time;->set(III)V
+
+    .line 10
+    .line 11
+    .line 12
+    const/4 p0, 0x0
+
+    .line 13
+    invoke-virtual {v0, p0}, Landroid/text/format/Time;->normalize(Z)J
+
+    .line 14
+    .line 15
+    .line 16
+    const-string p1, "EEEE dd MMMM yyyy"
+
+    .line 17
+    .line 18
+    invoke-virtual {v0, p0}, Landroid/text/format/Time;->toMillis(Z)J
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-wide v0
+
+    .line 22
+    invoke-static {p1, v0, v1}, Landroid/text/format/DateFormat;->format(Ljava/lang/CharSequence;J)Ljava/lang/CharSequence;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object p0
+
+    .line 26
+    return-object p0
+.end method
+
+.method protected final y(ILandroid/graphics/Rect;)V
+    .locals 4
+
+    .line 1
+    iget-object p0, p0, Lahwx;->f:Lahwy;
+
+    .line 2
+    .line 3
+    iget v0, p0, Lahwy;->s:I
+
+    .line 4
+    .line 5
+    iget v1, p0, Lahwy;->G:F
+
+    .line 6
+    .line 7
+    add-int/lit8 p1, p1, -0x1
+
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Leqx;->a()I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v2
+
+    .line 13
+    add-int/2addr p1, v2
+
+    .line 14
+    iget v2, p0, Lahwy;->x:I
+
+    .line 15
+    .line 16
+    div-int v3, p1, v2
+
+    .line 17
+    .line 18
+    rem-int/2addr p1, v2
+
+    .line 19
+    int-to-float p1, p1
+
+    .line 20
+    mul-float/2addr p1, v1
+
+    .line 21
+    mul-int/2addr v3, v0
+
+    .line 22
+    invoke-virtual {p0}, Leqx;->getMonthHeaderSize()I
+
+    .line 23
+    .line 24
+    .line 25
+    move-result v2
+
+    .line 26
+    add-int/2addr v2, v3
+
+    .line 27
+    add-int/2addr v0, v2
+
+    .line 28
+    float-to-int p1, p1
+
+    .line 29
+    invoke-static {}, Lahwy;->l()Z
+
+    .line 30
+    .line 31
+    .line 32
+    move-result v3
+
+    .line 33
+    if-eqz v3, :cond_0
+
+    .line 34
+    .line 35
+    iget p0, p0, Lahwy;->q:I
+
+    .line 36
+    .line 37
+    sub-int/2addr p0, p1
+
+    .line 38
+    int-to-float p1, p0
+
+    .line 39
+    sub-float/2addr p1, v1
+
+    .line 40
+    float-to-int p1, p1
+
+    .line 41
+    invoke-virtual {p2, p1, v2, p0, v0}, Landroid/graphics/Rect;->set(IIII)V
+
+    .line 42
+    .line 43
+    .line 44
+    goto :goto_0
+
+    .line 45
+    :cond_0
+    int-to-float p0, p1
+
+    .line 46
+    add-float/2addr p0, v1
+
+    .line 47
+    float-to-int p0, p0
+
+    .line 48
+    invoke-virtual {p2, p1, v2, p0, v0}, Landroid/graphics/Rect;->set(IIII)V
+
+    .line 49
+    .line 50
+    .line 51
+    :goto_0
+    return-void
+.end method

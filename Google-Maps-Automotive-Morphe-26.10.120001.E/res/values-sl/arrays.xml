@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_DATA_SHARED_LIST_MOTORS_LIST">
+        <item>raven napolnjenosti, zmogljivost in hitrost polnjenja baterije v različnih pogojih;</item>
+        <item>stanje klimatske naprave;</item>
+        <item>učinkovitost elektromotorjev in zaviranja;</item>
+        <item>tehnični podatki, kot je teža vozila.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_EV_DESCRIPTION_VALUE_LIST_V2_LIST">
+        <item>doseg avtomobila;</item>
+        <item>ocene napolnjenosti baterije glede na cilj;</item>
+        <item>priporočeni najkrajši časi polnjenja;</item>
+        <item>opozorila, npr. ko naslednja postaja ni v dosegu ali do naslednje postaje prispete s skoraj prazno baterijo;</item>
+        <item>izboljšano upravljanje energije baterije in učinkovitost delovanja vozila.</item>
+        <item>osebno prilagojeno načrtovanje poti, ko ste prijavljeni v telefon in avtomobil.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_AUTO_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Zemljevidi bodo za vas samodejno prenesli zemljevide brez povezave in jih posodabljali.</item>
+        <item>Zemljevidi brez povezave se bodo prenašali v ozadju z uporabo prenosa podatkov v mobilnem omrežju ali omrežja Wi-Fi.</item>
+        <item>Vozilo bo morda občasno komuniciralo z Googlovimi strežniki, da bi vam zagotovilo informacije, kot so lokacija vozila, zgodovina lokacij in zemljevidi brez povezave, ki ste jih že prenesli.</item>
+        <item>Še vedno pa lahko tudi sami izberete zemljevide brez povezave, ki jih želite prenesti.</item>
+        <item>Če to izklopite, s tem ne boste izbrisali zemljevidov brez povezave, ki ste jih že prenesli.</item>
+        <item>Če želite izbrisati zemljevide brez povezave, odprite nastavitve > Zemljevidi brez povezave.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_OFFLINE_MAPS_MANUALLY_DOWNLOAD_DETAIL_LIST_NDP_LIST">
+        <item>Sami izbirate zemljevide brez povezave, ki jih želite prenesti, in jih ročno posodabljate. Najprej odprite Nastavitve > Zemljevidi brez povezave.</item>
+        <item>Za prenos zemljevidov brez povezave bo treba uporabiti prenos podatkov v mobilnem omrežju ali Wi-Fi.</item>
+        <item>Če ne prenesete ali posodobite zemljevida brez povezave za območje, na katerem vozite, Zemljevidi funkcijam vozila morda ne bodo mogli zagotavljati podatkov zemljevida.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_THIRD_PARTY_ASSISTANT_SERVICE_CONSENT_COLLECTED_DATA_EXAMPLES_LIST">
+        <item>Kako bi Google Zemljevidi odgovorili na zahteve, kot so »kavarne v moji bližini«, »polnilniki za električna vozila za moje prednostno plačilno sredstvo« ali »poišči parkirišče«.</item>
+        <item>Lokacija GPS, kot je cilj.</item>
+        <item>Trenutna pot.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_LIST">
+        <item>lokacija GPS;</item>
+        <item>podrobnosti o navigaciji, vključno s potjo, po kateri ste šli;</item>
+        <item>opisi ceste, kot so podatki o prometnih znakih ali oznake voznih pasov;</item>
+        <item>stanje tipal vozila, kot so podatki o vklopljenih brisalcih vetrobranskega stekla;</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_AS_YOU_DRIVE_LIST_WITH_ETC_CARD_DETECTION_LIST">
+        <item>lokacija GPS;</item>
+        <item>podrobnosti o navigaciji, vključno s potjo, po kateri ste šli;</item>
+        <item>opisi ceste, kot so podatki o prometnih znakih ali oznake voznih pasov;</item>
+        <item>stanje tipal vozila, kot so podatki o vklopljenih brisalcih vetrobranskega stekla;</item>
+        <item>ali uporabljate bralnik kartic ETC.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_LIST">
+        <item>Posodobitve zemljevida na podlagi podatkov o poti in podatkov tipal niso povezane z vašim računom Google ali vozilom.</item>
+        <item>Podatki o poti in podatki tipal prav tako niso povezani z vašim računom Google, ampak z varno ustvarjenim identifikatorjem, ki se redno ponastavlja. To pomeni, da Google ne more poiskati teh podatkov na podlagi vašega računa Google.</item>
+        <item>Z vašim računom Google bodo morda povezani tudi drugi podatki, ki jih zbiramo med vašim raziskovanjem sveta, na primer ko uporabite Pomočnika Google. Zgodovino lahko upravljate na spletnem mestu myactivity.google.com.</item>
+        <item>Če želite spremeniti dovoljenje za lokacijo, odprite Nastavitve > Aplikacije in obvestila > Dovoljenja za aplikacijo > Lokacija > Zemljevidi.</item>
+        <item>Google zbira samo podatke o poti in podatke tipal, ki so potrebni za zagotavljanje najboljše izkušnje Google Zemljevidov za vse. Podatki bodo po obdelavi izbrisani.</item>
+    </string-array>
+    <string-array name="CAR_PRIVACY_CENTER_TRIP_AND_SENSOR_DATA_LEARN_MORE_LIST_WITH_CAMERA_EXTENSION_LIST">
+        <item>Posodobitve zemljevida na podlagi podatkov o poti in podatkov tipal niso povezane z vašim računom Google ali vozilom.</item>
+        <item>Podatki o poti in podatki tipal prav tako niso povezani z vašim računom Google, ampak z varno ustvarjenim identifikatorjem, ki se redno ponastavlja. To pomeni, da Google ne more poiskati teh podatkov na podlagi vašega računa Google.</item>
+        <item>Z vašim računom Google bodo morda povezani tudi drugi podatki, ki jih zbiramo med vašim raziskovanjem sveta, na primer ko uporabite Pomočnika Google. Zgodovino lahko upravljate na spletnem mestu myactivity.google.com.</item>
+        <item>Če želite spremeniti dovoljenje za lokacijo, odprite Nastavitve > Aplikacije in obvestila > Dovoljenja za aplikacijo > Lokacija > Zemljevidi.</item>
+        <item>Google zbira samo podatke o poti in podatke tipal, ki so potrebni za zagotavljanje najboljše izkušnje Google Zemljevidov za vse. Podatki bodo po obdelavi izbrisani.</item>
+        <item>Posnetki kamere iz vašega vozila se lahko obdelajo za namene podatkov o opisu ceste, vendar ostanejo v vašem vozilu in se po obdelavi izbrišejo.</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Pri približevanju in oddaljevanju</item>
+        <item>Vedno</item>
+    </string-array>
+</resources>
